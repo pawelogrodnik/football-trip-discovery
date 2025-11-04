@@ -1,0 +1,75 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
+import { Autocomplete, Loader } from '@mantine/core';
+
+export function AutocompleteLoading({
+  onLocationSelect,
+}: {
+  onLocationSelect: (val: { label: string; lat: number; lon: number }) => void;
+}) {
+  const [query, setQuery] = useState('');
+  const [suggestions, setSuggestions] = useState<[]>([]);
+  const [isLoading, setLoading] = useState(false);
+
+  const abortRef = useRef<AbortController | null>(null);
+
+  const handleChoose = (s: any) => {
+    const loc = { label: s.label, lat: s.lat, lon: s.lon };
+    setQuery(s.label);
+    onLocationSelect(loc);
+  };
+
+  useEffect(() => {
+    if (!query || query.length < 2) {
+      setSuggestions([]);
+      return;
+    }
+    const handle = setTimeout(async () => {
+      abortRef.current?.abort();
+      const ctrl = new AbortController();
+      abortRef.current = ctrl;
+      try {
+        setLoading(true);
+        const res = await fetch(`/api/geocode?q=${encodeURIComponent(query)}`, {
+          signal: ctrl.signal,
+        });
+        setLoading(false);
+        const data = await res.json();
+        setSuggestions(data);
+      } catch {
+        setLoading(false);
+        setLoading(false);
+
+        /* ignore */
+      }
+    }, 250);
+    return () => clearTimeout(handle);
+  }, [query]);
+  return (
+    <div className="form-element">
+      <Autocomplete
+        value={query}
+        data={suggestions}
+        onChange={setQuery}
+        label="Where are you going?"
+        placeholder="Milan / Barcelona / Paris ..."
+        rightSection={isLoading ? <Loader size="xs" /> : null}
+        comboboxProps={{
+          withinPortal: true,
+          zIndex: 5000,
+          position: 'bottom-start',
+        }}
+        renderOption={(props) => {
+          return (
+            <div className="custom-option" onClick={() => handleChoose(props.option)}>
+              {props.option.value}
+            </div>
+          );
+        }}
+      />
+    </div>
+  );
+}

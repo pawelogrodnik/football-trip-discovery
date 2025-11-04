@@ -1,0 +1,48 @@
+.map-inner {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+.crest-icon { background: transparent; border: 0; }
+
+.crest-pair {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;                 /* space between crests; set to 0 for overlap */
+  padding: 2px 4px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  border: 1px solid rgba(0,0,0,.06);
+}
+
+.crest {
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+.leaflet-container .leaflet-marker-pane .crest-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 100% !important;
+}
+
+.crest-fallback {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  color: #1f2937;
+  background: #e5e7eb;
+}

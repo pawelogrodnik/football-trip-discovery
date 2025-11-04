@@ -1,0 +1,39 @@
+.page-inner {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.map-wrapper {
+    width: 100%;
+}
+
+.right-side {
+    flex: 0 1 25%;
+    background-color: #fff; 
+    box-shadow: -1px 0px 10px 0px rgba(66, 68, 90, 0.3);
+    z-index: 1000;
+}
+
+.left-side {
+    flex: 1 0 75%
+}
+
+.rlc-cluster-icon {
+  background: transparent;
+  border: none;
+}
+.rlc-bubble {
+  display: grid;
+  place-items: center;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: #2563eb;      /* blue */
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+}
+.nav-wrapper {
+    padding: 20px;
+}
