@@ -37,7 +37,6 @@ const MatchList = ({
 
         const [dayMonthYear] = fullDateString.split(',');
         const shouldDisplayAggregatedDate = !datesAggregatorList.includes(dayMonthYear);
-        console.log({ date: fullDateString.split(',')[0] });
         datesAggregatorList.push(dayMonthYear);
         const competitionEmblem = getCompetitionEmblem(match.competition.name);
         return (

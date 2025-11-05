@@ -68,7 +68,6 @@ export default function HomePage() {
   };
 
   const onMatchClick = (match: any) => {
-    console.log({ match });
     const lat = match?.stadium?.geo?.latitude;
     const lon = match?.stadium?.geo?.longitude;
     if (typeof lat === 'number' && typeof lon === 'number') {

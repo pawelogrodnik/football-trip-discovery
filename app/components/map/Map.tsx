@@ -33,7 +33,6 @@ type Props = {
 
 function FlyTo({ lat, lon, zoom = 12 }: { lat: number; lon: number; zoom?: number }) {
   const map = useMap();
-  console.log({ lat, lon });
   useEffect(() => {
     map.flyTo(new LatLng(lat, lon), zoom, { duration: 0.8 });
   }, [lat, lon, zoom, map]);
