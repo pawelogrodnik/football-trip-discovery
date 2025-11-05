@@ -4,6 +4,10 @@
     min-height: 100vh;
 }
 
+.page-inner--mobile .right-side, .page-inner--mobile .left-side {
+    flex: 0 1 100%;
+}
+
 .map-wrapper {
     width: 100%;
 }
@@ -36,4 +40,7 @@
 }
 .nav-wrapper {
     padding: 20px;
+}
+.logo-wrapper {
+    text-align: center;
 }

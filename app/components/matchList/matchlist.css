@@ -84,7 +84,16 @@
 .match-card__date {
     font-weight: 600;
 }
-
-.match-list h1 > span {
+.page-inner--mobile .match-list {
+    margin-top: 50px;
+}
+.match-list h3 > span {
     margin-left: 15px;
+}
+
+.match-list__date-aggregator {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
 }

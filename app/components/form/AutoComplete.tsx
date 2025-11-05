@@ -5,6 +5,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { Autocomplete, Loader } from '@mantine/core';
 
+const mapSuggestionLabels = (suggestions: any[]) =>
+  suggestions.map(({ label }: { label: string }) => label);
+
 export function AutocompleteLoading({
   onLocationSelect,
 }: {
@@ -23,6 +26,9 @@ export function AutocompleteLoading({
   };
 
   useEffect(() => {
+    if (mapSuggestionLabels(suggestions).includes(query)) {
+      return;
+    }
     if (!query || query.length < 2) {
       setSuggestions([]);
       return;
@@ -48,6 +54,7 @@ export function AutocompleteLoading({
     }, 250);
     return () => clearTimeout(handle);
   }, [query]);
+
   return (
     <div className="form-element">
       <Autocomplete
