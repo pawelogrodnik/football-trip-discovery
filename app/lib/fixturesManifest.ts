@@ -12,4 +12,44 @@ export const fixturesLoaders: Record<string, { name: string; load: () => Promise
     { name: 'Premier League', load: () => import('./../fixtures/LOCAL/fixtures_PL.json') },
     { name: 'Championship', load: () => import('./../fixtures/LOCAL/fixtures_ELC.json') },
   ],
+  POLAND: [
+    { name: 'Ekstraklasa', load: () => import('./../fixtures/LOCAL/fixtures_EKSTRAKLASA.json') },
+    {
+      name: 'Polish I League',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_I_LEAGUE.json'),
+    },
+    {
+      name: 'Polish II League',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_II_LEAGUE.json'),
+    },
+    {
+      name: 'Polish III League (grupa IV)',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_III_LEAGUE_GRUPA_IV.json'),
+    },
+    {
+      name: 'Polish IV League (Podkarpacie)',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_IV_LEAGUE_PODKARPACIE.json'),
+    },
+    {
+      name: 'Polish V League (Małopolskie)',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_V_LEAGUE_MALOPOLSKA_ZACHOD.json'),
+    },
+    { name: 'Polish Cup', load: () => import('./../fixtures/LOCAL/fixtures_POLISH_CUP.json') },
+    {
+      name: 'Polish A Klasa (Chrzanów)',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_CHRZANOW_A_KLASA.json'),
+    },
+    {
+      name: 'Polish A Klasa (Kraków)',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_KRAKOW_A_KLASA_GRUPA_II.json'),
+    },
+    {
+      name: 'Polish A Klasa (Dębica)',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_DEBICA_A_KLASA.json'),
+    },
+    {
+      name: 'Polish A Klasa (Lubaczów)',
+      load: () => import('./../fixtures/LOCAL/fixtures_POLISH_LUBACZOW_A_KLASA.json'),
+    },
+  ],
 };

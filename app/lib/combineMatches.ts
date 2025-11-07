@@ -25,20 +25,6 @@ export function combineAllMatches(response: any) {
       return dayA < dayB ? -1 : 1;
     }
 
-    // same day → sort by distance (closer first)
-    // const distA =
-    //   typeof a._distanceKm === 'number' && isFinite(a._distanceKm)
-    //     ? a._distanceKm
-    //     : Number.POSITIVE_INFINITY;
-    // const distB =
-    //   typeof b._distanceKm === 'number' && isFinite(b._distanceKm)
-    //     ? b._distanceKm
-    //     : Number.POSITIVE_INFINITY;
-
-    // if (distA !== distB) {
-    //   return distA - distB;
-    // }
-
     // tie-breaker: time within the day
     const tA = isoA ? new Date(isoA).getTime() : 0;
     const tB = isoB ? new Date(isoB).getTime() : 0;

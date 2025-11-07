@@ -1,16 +1,8 @@
 // app/lib/crestIcon.ts
 import L from 'leaflet';
+import { initials } from './../../lib/initials';
 
 const iconCache = new Map<string, L.DivIcon>();
-
-function initials(name?: string) {
-  return (name || '?')
-    .split(/\s+/)
-    .map((w) => w[0])
-    .join('')
-    .slice(0, 3)
-    .toUpperCase();
-}
 
 export function crestPairIcon(
   homeUrl?: string,

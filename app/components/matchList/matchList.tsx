@@ -6,6 +6,7 @@ import { Fragment } from 'react';
 import { IconArrowBack } from '@tabler/icons-react';
 import { ActionIcon } from '@mantine/core';
 import { getCompetitionEmblem } from './../../lib/getCompetitionEmblem';
+import { initials } from './../../lib/initials';
 
 const MatchList = ({
   matches,
@@ -19,7 +20,6 @@ const MatchList = ({
   onMatchClick: (match: any) => void;
 }) => {
   const datesAggregatorList: string[] = [];
-
   return (
     <div className="match-list">
       <h3>
@@ -47,15 +47,27 @@ const MatchList = ({
             <div className="match-card" onClick={() => onMatchClick(match)}>
               <div className="match-card__headline">
                 <div className="match-card__team">
-                  <div className="img-wrapper">
-                    <img src={match.homeTeam.crest} alt="" />
-                  </div>
+                  {match.homeTeam.crest ? (
+                    <div className="img-wrapper">
+                      <img src={match.homeTeam.crest} alt="" />
+                    </div>
+                  ) : (
+                    <div className="crest">
+                      <div className="crest-fallback">{initials(match.homeTeam.name)}</div>
+                    </div>
+                  )}
                   <p> {match.homeTeam.name}</p>
                 </div>
                 <div className="match-card__team">
-                  <div className="img-wrapper">
-                    <img src={match.awayTeam.crest} alt="" />
-                  </div>
+                  {match.awayTeam.crest ? (
+                    <div className="img-wrapper">
+                      <img src={match.awayTeam.crest} alt="" />
+                    </div>
+                  ) : (
+                    <div className="crest">
+                      <div className="crest-fallback">{initials(match.awayTeam.name)}</div>
+                    </div>
+                  )}
                   <p> {match.awayTeam.name}</p>
                 </div>
               </div>
