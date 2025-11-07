@@ -8,6 +8,35 @@ import { ActionIcon } from '@mantine/core';
 import { getCompetitionEmblem } from './../../lib/getCompetitionEmblem';
 import { initials } from './../../lib/initials';
 
+const Crest = ({ crestUrl, teamName }: { crestUrl?: string; teamName: string }) => {
+  if (crestUrl) {
+    return (
+      <div className="img-wrapper">
+        <img src={crestUrl} alt={`${teamName} crest`} title={`${teamName} crest`} />
+      </div>
+    );
+  }
+  return (
+    <div className="crest">
+      <div className="crest-fallback">{initials(teamName)}</div>
+    </div>
+  );
+};
+
+const CompetitionEmblem = ({ competitionName }: { competitionName: string }) => {
+  const competitionEmblem = getCompetitionEmblem(competitionName);
+  if (competitionEmblem) {
+    return (
+      <img
+        src={competitionEmblem}
+        alt={`${competitionName} emblem`}
+        title={`${competitionName} emblem`}
+      />
+    );
+  }
+  return competitionName;
+};
+
 const MatchList = ({
   matches,
   totalCount,
@@ -31,14 +60,19 @@ const MatchList = ({
         </span>
       </h3>
       {matches.map((match) => {
-        const fullDateString = new Date(
-          match.date?.dateTime ?? match.utcDate ?? ''
-        ).toLocaleString();
+        const date = new Date(match.date?.dateTime ?? match.utcDate ?? '');
+        const fullDateString = date.toLocaleString('de-DE', {
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false,
+        });
 
         const [dayMonthYear] = fullDateString.split(',');
         const shouldDisplayAggregatedDate = !datesAggregatorList.includes(dayMonthYear);
         datesAggregatorList.push(dayMonthYear);
-        const competitionEmblem = getCompetitionEmblem(match.competition.name);
         return (
           <Fragment key={match.id}>
             {shouldDisplayAggregatedDate && (
@@ -47,37 +81,17 @@ const MatchList = ({
             <div className="match-card" onClick={() => onMatchClick(match)}>
               <div className="match-card__headline">
                 <div className="match-card__team">
-                  {match.homeTeam.crest ? (
-                    <div className="img-wrapper">
-                      <img src={match.homeTeam.crest} alt="" />
-                    </div>
-                  ) : (
-                    <div className="crest">
-                      <div className="crest-fallback">{initials(match.homeTeam.name)}</div>
-                    </div>
-                  )}
+                  <Crest crestUrl={match.homeTeam.crest} teamName={match.homeTeam.name} />
                   <p> {match.homeTeam.name}</p>
                 </div>
                 <div className="match-card__team">
-                  {match.awayTeam.crest ? (
-                    <div className="img-wrapper">
-                      <img src={match.awayTeam.crest} alt="" />
-                    </div>
-                  ) : (
-                    <div className="crest">
-                      <div className="crest-fallback">{initials(match.awayTeam.name)}</div>
-                    </div>
-                  )}
+                  <Crest crestUrl={match.awayTeam.crest} teamName={match.awayTeam.name} />
                   <p> {match.awayTeam.name}</p>
                 </div>
               </div>
               <div className="match-card__stadium">
                 <p className="match-card__competition">
-                  {competitionEmblem ? (
-                    <img src={getCompetitionEmblem(match.competition.name)} alt="" />
-                  ) : (
-                    match.competition.name
-                  )}
+                  <CompetitionEmblem competitionName={match.competition.name} />
                 </p>
                 <p>{match.stadium?.venue || match.stadium?.address}</p>
                 <p>
