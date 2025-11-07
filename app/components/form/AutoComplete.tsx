@@ -47,9 +47,6 @@ export function AutocompleteLoading({
         setSuggestions(data);
       } catch {
         setLoading(false);
-        setLoading(false);
-
-        /* ignore */
       }
     }, 250);
     return () => clearTimeout(handle);

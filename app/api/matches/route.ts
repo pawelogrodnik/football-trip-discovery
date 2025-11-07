@@ -58,7 +58,7 @@ export async function GET(req: Request) {
         matches: uniqById(
           matches
             .filter((match: any) => {
-              const date = new Date(match.date.date || match.utcDate);
+              const date = new Date(match?.date?.date || match.utcDate);
               return date >= startDate && date <= endDate;
             })
             .filter((match: any) =>
