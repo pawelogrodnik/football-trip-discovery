@@ -1,5 +1,11 @@
 export const fixturesLoaders: Record<string, { name: string; load: () => Promise<any> }[]> = {
-  ITALY: [{ name: 'Serie A', load: () => import('./../fixtures/LOCAL/fixtures_SA.json') }],
+  ITALY: [
+    { name: 'Serie A', load: () => import('./../fixtures/LOCAL/fixtures_SA.json') },
+    { name: 'Serie B', load: () => import('./../fixtures/LOCAL/fixtures_SERIE_B.json') },
+    { name: 'Serie C Gr A', load: () => import('./../fixtures/LOCAL/fixtures_SERIE_C_GR_A.json') },
+    { name: 'Serie C Gr B', load: () => import('./../fixtures/LOCAL/fixtures_SERIE_C_GR_B.json') },
+    { name: 'Serie C Gr C', load: () => import('./../fixtures/LOCAL/fixtures_SERIE_C_GR_C.json') },
+  ],
   GERMANY: [{ name: 'Bundesliga', load: () => import('./../fixtures/LOCAL/fixtures_BL1.json') }],
   EUROPE: [
     { name: 'Champions League', load: () => import('./../fixtures/EU/fixtures_UCL.json') },
@@ -11,6 +17,15 @@ export const fixturesLoaders: Record<string, { name: string; load: () => Promise
   'UNITED KINGDOM': [
     { name: 'Premier League', load: () => import('./../fixtures/LOCAL/fixtures_PL.json') },
     { name: 'Championship', load: () => import('./../fixtures/LOCAL/fixtures_ELC.json') },
+  ],
+  NETHERLANDS: [
+    { name: 'Eredivisie', load: () => import('./../fixtures/LOCAL/fixtures_DED.json') },
+  ],
+  BRAZIL: [
+    {
+      name: 'Campeonato Brasileiro Série A',
+      load: () => import('./../fixtures/LOCAL/fixtures_BSA.json'),
+    },
   ],
   POLAND: [
     { name: 'Ekstraklasa', load: () => import('./../fixtures/LOCAL/fixtures_EKSTRAKLASA.json') },
