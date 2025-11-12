@@ -1,8 +1,9 @@
-import { fixturesLoaders } from './../../lib/fixturesManifest';
-import { getCountriesInRadius } from './../../lib/geo';
-import { filterFixturesInRadius } from './../../lib/geoTurf';
-import { makeMatchId } from './../../lib/makeMatchId';
-import { uniqById } from './../../lib/uniqById';
+import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
+import { getCountriesInRadius } from 'lib/geo';
+import { filterFixturesInRadius } from 'lib/geoTurf';
+import { isAnyCountryInEurope } from 'lib/isAnyCountryInEurope';
+import { makeMatchId } from 'lib/makeMatchId';
+import { uniqById } from 'lib/uniqById';
 
 function parseUtcRange(startStr?: string | null, endStr?: string | null) {
   const isDateOnly = (s: string) => /^\d{4}-\d{2}-\d{2}$/.test(s);
@@ -28,6 +29,21 @@ const calculateTotalCount = (fixtures: any[]) =>
     0
   );
 
+const getPolishRegionFixtures = (countriesData: any): any[] => {
+  const PL_REGIONS = countriesData.find(
+    (country: any) => country.name.toUpperCase() === 'POLAND'
+  )?.regions;
+  let fixtures: any[] = [];
+  if (PL_REGIONS && PL_REGIONS.length > 0) {
+    for (const region of PL_REGIONS) {
+      const currentRegionData = POLAND_FIXTURES_BY_REGION[region.code!];
+      if (currentRegionData) {
+        fixtures = [...fixtures, ...currentRegionData];
+      }
+    }
+  }
+  return fixtures;
+};
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const lat = searchParams.get('lat');
@@ -38,18 +54,37 @@ export async function GET(req: Request) {
   const startDate = start;
   const endDate = end;
 
-  const countries = getCountriesInRadius(Number(lat), Number(lon), Number(radiusKm)).map(
-    ({ name }) => name.toUpperCase()
-  );
+  const countriesData = getCountriesInRadius(Number(lat), Number(lon), Number(radiusKm));
+
+  const countryNames = countriesData.map(({ name }) => name);
   const fixtures = [];
-  for (const country of [...countries, 'EUROPE']) {
-    const loaders = fixturesLoaders[country];
+
+  let loaders = null;
+  const loadedLeagues: string[] = [];
+
+  if (isAnyCountryInEurope(countriesData)) {
+    loaders = BASE_FIXTURES.EUROPE;
+  }
+  for (const country of countryNames) {
+    loaders = [...(loaders ? loaders : []), ...(BASE_FIXTURES[country] ?? [])];
+    if (country === 'POLAND') {
+      const polishRegionsLoaders = getPolishRegionFixtures(countriesData);
+      loaders = [...loaders, ...polishRegionsLoaders];
+    }
     if (!loaders) {
       continue;
     }
 
     const leagues = await Promise.all(
-      loaders.map(async ({ load, name }) => ({ name, matches: (await load()).default }))
+      loaders
+        .filter(({ name }) => {
+          if (loadedLeagues.includes(name)) {
+            return false;
+          }
+          loadedLeagues.push(name);
+          return true;
+        })
+        .map(async ({ load, name }) => ({ name, matches: (await load()).default }))
     );
     fixtures.push({
       country,

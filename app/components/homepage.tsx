@@ -1,9 +1,8 @@
 'use client';
 
-/* global window */
 import { useEffect, useMemo, useState } from 'react';
 import { LatLngExpression } from 'leaflet';
-import { combineAllMatches } from './../lib/combineMatches';
+import { combineAllMatches } from 'lib/combineMatches';
 import FormWrapper from './form/FormWrapper';
 import MapWrapper from './map/MapWrapper';
 import MatchList from './matchList/matchList';
@@ -108,7 +107,10 @@ export default function HomePage() {
                 />
               </>
             ) : (
-              <FormWrapper onFormUpdate={onFormUpdate} onSubmit={onFormSubmit} />
+              <>
+                <FormWrapper onFormUpdate={onFormUpdate} onSubmit={onFormSubmit} />
+                {fixtures.totalCount === 0 && <p className="no-matches-found">No matches found.</p>}
+              </>
             )}
           </div>
         )}
