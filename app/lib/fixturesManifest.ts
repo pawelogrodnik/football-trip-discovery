@@ -41,13 +41,27 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
   ],
   GERMANY: [
     { name: 'Bundesliga', load: () => import('./../fixtures/LOCAL/GERMANY/fixtures_BL1.json') },
+    {
+      name: 'Bundesliga 2',
+      load: () => import('./../fixtures/LOCAL/GERMANY/fixtures_BUNDESLIGA_2.json'),
+    },
+    {
+      name: 'Bundesliga 3',
+      load: () => import('./../fixtures/LOCAL/GERMANY/fixtures_BUNDESLIGA_3.json'),
+    },
   ],
   EUROPE: [
     { name: 'Champions League', load: () => import('./../fixtures/EU/fixtures_UCL.json') },
     { name: 'Conference League', load: () => import('./../fixtures/EU/fixtures_UECL.json') },
     { name: 'Europa League', load: () => import('./../fixtures/EU/fixtures_UEL.json') },
   ],
-  FRANCE: [{ name: 'Ligue 1', load: () => import('./../fixtures/LOCAL/FRANCE/fixtures_FL1.json') }],
+  FRANCE: [
+    { name: 'Ligue 1', load: () => import('./../fixtures/LOCAL/FRANCE/fixtures_FL1.json') },
+    {
+      name: 'Ligue 2',
+      load: () => import('./../fixtures/LOCAL/FRANCE/fixtures_FRANCE_LIGUE_2.json'),
+    },
+  ],
   SPAIN: [{ name: 'La Liga', load: () => import('./../fixtures/LOCAL/SPAIN/fixtures_PD.json') }],
   'UNITED KINGDOM': [
     {
@@ -62,10 +76,92 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
   NETHERLANDS: [
     { name: 'Eredivisie', load: () => import('./../fixtures/LOCAL/NETHERLANDS/fixtures_DED.json') },
   ],
+  GRECCE: [
+    {
+      name: 'Super League',
+      load: () => import('./../fixtures/LOCAL/GREECE/fixtures_GRECCE_SUPER_LEAGUE.json'),
+    },
+  ],
+  HUNGARY: [
+    {
+      name: 'NB I. (Hungary 1 League)',
+      load: () => import('./../fixtures/LOCAL/HUNGARY/fixtures_HUNGARY_NB_I.json'),
+    },
+  ],
+  MEXICO: [
+    {
+      name: 'Liga MX (Mexico 1 League)',
+      load: () => import('./../fixtures/LOCAL/MEXICO/fixtures_MEXICO_LIGA_MX.json'),
+    },
+  ],
+  NORWAY: [
+    {
+      name: 'Eliteserien (Norway 1 League)',
+      load: () => import('./../fixtures/LOCAL/NORWAY/fixtures_NORWAY_ELITESERIEN.json'),
+    },
+  ],
+  PORTUGAL: [
+    {
+      name: 'Primeira Liga',
+      load: () => import('./../fixtures/LOCAL/PORTUGAL/fixtures_PPL.json'),
+    },
+  ],
   BRAZIL: [
     {
       name: 'Campeonato Brasileiro Série A',
       load: () => import('./../fixtures/LOCAL/BRAZIL/fixtures_BSA.json'),
+    },
+  ],
+  ROMANIA: [
+    {
+      name: 'Superliga (Romania 1 League)',
+      load: () => import('./../fixtures/LOCAL/ROMANIA/fixtures_ROMANIA_SUPERLIGA.json'),
+    },
+  ],
+  SERBIA: [
+    {
+      name: 'Mozzart Bet Super Liga (Serbia 1 League)',
+      load: () => import('./../fixtures/LOCAL/SERBIA/fixtures_SERBIA_1_LEAGUE.json'),
+    },
+  ],
+  SWITZERLAND: [
+    {
+      name: 'Super League (Switzerland 1 League)',
+      load: () => import('./../fixtures/LOCAL/SWITZERLAND/fixtures_SWITZERLAND_1_LEAGUE.json'),
+    },
+  ],
+  SLOVAKIA: [
+    {
+      name: 'Nike liga',
+      load: () => import('./../fixtures/LOCAL/SLOVAKIA/fixtures_SLOVAKIA_1_LIGA.json'),
+    },
+  ],
+  CZECHIA: [
+    {
+      name: 'Chance Liga',
+      load: () => import('./../fixtures/LOCAL/CZECH-REPUBLIC/fixtures_CHANCE_LIGA.json'),
+    },
+  ],
+  CROATIA: [
+    {
+      name: 'HNL (Croatia 1 League)',
+      load: () => import('./../fixtures/LOCAL/CROATIA/fixtures_CROATIA_HNL.json'),
+    },
+  ],
+  AUSTRIA: [
+    {
+      name: 'Bundesliga (Austria)',
+      load: () => import('./../fixtures/LOCAL/AUSTRIA/fixtures_AUSTRIA_BUNDESLIGA.json'),
+    },
+    {
+      name: '2. Liga (Austria)',
+      load: () => import('./../fixtures/LOCAL/AUSTRIA/fixtures_AUSTRIA_2_LIGA.json'),
+    },
+  ],
+  'UNITED STATES OF AMERICA': [
+    {
+      name: 'MLS',
+      load: () => import('./../fixtures/LOCAL/USA/fixtures_USA_MLS.json'),
     },
   ],
   POLAND: [
@@ -126,17 +222,153 @@ export const POLAND_FIXTURES_BY_REGION: Record<string, Loader[]> = {
       name: 'Polish III League (grupa IV)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_IV.json'),
     },
+    {
+      name: 'Polish IV League (Małopolskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_MALOPOLSKIE.json'),
+    },
   ],
   'PL-SK': [
     {
       name: 'Polish III League (grupa IV)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_IV.json'),
     },
+    {
+      name: 'Polish IV League (Świętokrzyskie)',
+      load: () =>
+        import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_SWIETOKRZYSKIE.json'),
+    },
   ],
   'PL-LU': [
     {
       name: 'Polish III League (grupa IV)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_IV.json'),
+    },
+    {
+      name: 'Polish IV League (Lubelskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_LUBELSKIE.json'),
+    },
+  ],
+  'PL-LD': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_I.json'),
+    },
+    {
+      name: 'Polish IV League (Łódzkie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_LODZKIE.json'),
+    },
+  ],
+  'PL-MZ': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_I.json'),
+    },
+    {
+      name: 'Polish IV League (Mazowieckie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_MAZOWIECKIE.json'),
+    },
+  ],
+  'PL-PD': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_I.json'),
+    },
+    {
+      name: 'Polish IV League (Podlaskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_PODLASKIE.json'),
+    },
+  ],
+  'PL-WN': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_I.json'),
+    },
+    {
+      name: 'Polish IV League (Warmińsko-Mazurskie)',
+      load: () =>
+        import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_WARMINSKO_MAZURSKIE.json'),
+    },
+  ],
+  'PL-KP': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_II.json'),
+    },
+    {
+      name: 'Polish IV League (Kujawsko-Pomorskie)',
+      load: () =>
+        import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_KUJAWSKO_POMORSKIE.json'),
+    },
+  ],
+  'PL-PM': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_II.json'),
+    },
+    {
+      name: 'Polish IV League (Pomorskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_POMORSKIE.json'),
+    },
+  ],
+  'PL-WP': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_II.json'),
+    },
+    {
+      name: 'Polish IV League (Wielkopolskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_WIELKOPOLSKIE.json'),
+    },
+  ],
+  'PL-ZP': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_II.json'),
+    },
+    {
+      name: 'Polish IV League (Zachodniopomorskie)',
+      load: () =>
+        import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_ZACHODNIOPOMORSKIE.json'),
+    },
+  ],
+  'PL-DS': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_III.json'),
+    },
+    {
+      name: 'Polish IV League (Dolnośląskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_DOLNOSLASKIE.json'),
+    },
+  ],
+  'PL-LB': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_III.json'),
+    },
+    {
+      name: 'Polish IV League (Lubuskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_LUBUSKIE.json'),
+    },
+  ],
+  'PL-OP': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_III.json'),
+    },
+    {
+      name: 'Polish IV League (Opolskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_OPOLSKIE.json'),
+    },
+  ],
+  'PL-SL': [
+    {
+      name: 'Polish III League (grupa I)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_III.json'),
+    },
+    {
+      name: 'Polish IV League (Sląskie)',
+      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_SLASKIE.json'),
     },
   ],
 };
