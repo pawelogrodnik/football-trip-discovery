@@ -1,6 +1,6 @@
 type Loader = { name: string; load: () => Promise<any> };
 
-const POLAND_PROVINDES_LIST = [
+const POLAND_PROVINCES_LIST = [
   { name: 'PODKARPACIE', code: 'PL-PK' },
   { name: 'PODLASKIE', code: 'PL-PD' },
   { name: 'ŁÓDZKIE', code: 'PL-LD' },
@@ -20,7 +20,7 @@ const POLAND_PROVINDES_LIST = [
 ];
 
 export const getProvinceName = (code: string): string =>
-  POLAND_PROVINDES_LIST.find((p) => p.code === code)?.name || '';
+  POLAND_PROVINCES_LIST.find((p) => p.code === code)?.name || '';
 
 export const BASE_FIXTURES: Record<string, Loader[]> = {
   ITALY: [
@@ -76,7 +76,7 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
   NETHERLANDS: [
     { name: 'Eredivisie', load: () => import('./../fixtures/LOCAL/NETHERLANDS/fixtures_DED.json') },
   ],
-  GRECCE: [
+  GREECE: [
     {
       name: 'Super League',
       load: () => import('./../fixtures/LOCAL/GREECE/fixtures_GRECCE_SUPER_LEAGUE.json'),

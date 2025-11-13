@@ -1,6 +1,18 @@
 function matchISO(m: any): string {
   // prefer precise UTC datetime, fall back to date-only at UTC midnight
-  return m?.date?.dateTime ?? m?.utcDate ?? (m?.date?.date ? `${m.date.date}T00:00:00.000Z` : '');
+  if (m?.date?.dateTime) {
+    return m?.date?.dateTime;
+  }
+  if (m?.utcDate) {
+    return m?.utcDate;
+  }
+  if (m?.date?.date) {
+    if (m?.date?.date.includes('T')) {
+      return m?.date?.date;
+    }
+    return m?.date?.date ? `${m.date.date}T00:00:00.000Z` : '';
+  }
+  return '';
 }
 
 export function combineAllMatches(response: any) {

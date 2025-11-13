@@ -60,7 +60,7 @@ const MatchList = ({
         </span>
       </h3>
       {matches.map((match) => {
-        const date = new Date(match.date?.dateTime ?? match.utcDate ?? '');
+        const date = new Date(match.date?.dateTime ?? match.utcDate ?? match?.date?.date ?? '');
         const fullDateString = date.toLocaleString('de-DE', {
           day: '2-digit',
           month: '2-digit',

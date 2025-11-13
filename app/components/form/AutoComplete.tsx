@@ -58,6 +58,7 @@ export function AutocompleteLoading({
         value={query}
         data={suggestions}
         onChange={setQuery}
+        filter={({ options }) => options}
         label="Where are you going?"
         placeholder="Milan / Barcelona / Paris ..."
         rightSection={isLoading ? <Loader size="xs" /> : null}

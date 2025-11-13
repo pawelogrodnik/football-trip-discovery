@@ -8,6 +8,9 @@ export function DateRange({
 }: {
   onDatesChange: (dates: [string | null, string | null]) => void;
 }) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
   const [value, setValue] = useState<[string | null, string | null]>([null, null]);
   const handleChange = (dates: [string | null, string | null]) => {
     setValue(dates);
@@ -23,6 +26,7 @@ export function DateRange({
         placeholder="Pick dates"
         value={value}
         onChange={handleChange}
+        minDate={today}
         popoverProps={{
           withinPortal: true,
           zIndex: 10000,
