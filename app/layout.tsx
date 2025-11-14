@@ -4,6 +4,7 @@ import '@mantine/dates/styles.css';
 import 'react-leaflet-markercluster/styles';
 import './global.css';
 
+import Header from 'components/header/Header';
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
 import { theme } from '../theme';
 
@@ -24,7 +25,10 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider theme={theme}>
+          <Header />
+          <div className="app-body-wrapper">{children}</div>
+        </MantineProvider>
       </body>
     </html>
   );

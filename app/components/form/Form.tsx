@@ -44,10 +44,8 @@ const Form = ({
 
   return (
     <div className="form-wrapper">
-      <div className="logo-wrapper">
-        <img src="/logo.png" alt="" width={150} />
-      </div>
       <div className="form-inner">
+        <h3>Fill your journey details</h3>
         <AutocompleteLoading
           onLocationSelect={(loc) => handleChange(FORM_ELEMENTS.LOCATION, loc)}
         />

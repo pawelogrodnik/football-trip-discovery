@@ -1,0 +1,33 @@
+.header-wrapper {
+    box-shadow: -1px 0 10px #42445a4d;
+    position: relative;
+    z-index: 1002;
+}
+
+.app-body-wrapper {
+    height: calc(100vh - 77px)
+}
+.header-wrapper .logo-wrapper {
+    text-align: left;
+}
+
+.header-wrapper .logo-wrapper img {
+    max-width: 70px;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+  text-decoration: none;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-weight: 500;
+  font-size: var(--mantine-font-size-sm);
+}

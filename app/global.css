@@ -1,13 +1,14 @@
 .page-inner {
     display: flex;
     width: 100%;
-    min-height: 100vh;
 }
 
 .page-inner--mobile .right-side, .page-inner--mobile .left-side {
     flex: 0 1 100%;
 }
-
+.map-inner, .match-list, .page-inner {
+  height: calc(100vh - 77px)
+}
 .map-wrapper {
     width: 100%;
 }
@@ -27,6 +28,11 @@
   background: transparent;
   border: none;
 }
+
+h3 {
+  margin-top: 0;
+}
+
 .rlc-bubble {
   display: grid;
   place-items: center;

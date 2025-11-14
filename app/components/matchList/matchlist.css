@@ -1,7 +1,6 @@
 .match-list {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .match-list.match-list--matches .match-list__listing {

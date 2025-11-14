@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import MatchesByIdsPage from '../components/matchesByIdsPage';
 
@@ -7,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function MatchesPage() {
-  return <MatchesByIdsPage />;
+  return (
+    <Suspense fallback={<div className="p-6">Loading saved matches...</div>}>
+      <MatchesByIdsPage />
+    </Suspense>
+  );
 }
