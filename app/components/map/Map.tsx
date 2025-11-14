@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef } from 'react';
-import L, { LatLng, LatLngExpression } from 'leaflet';
+import L, { LatLngExpression } from 'leaflet';
 import { Circle, MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { DEFAULT_RADIUS, RADIUS_MULTIPLIER } from './../consts';
@@ -31,15 +31,19 @@ type Props = {
   } | null;
 };
 
-function FlyTo({ lat, lon, zoom = 12 }: { lat: number; lon: number; zoom?: number }) {
-  const map = useMap();
-  useEffect(() => {
-    map.flyTo(new LatLng(lat, lon), zoom, { duration: 0.8 });
-  }, [lat, lon, zoom, map]);
-  return null;
-}
-
 const clamp = (v: number, min: number, max: number) => Math.max(min, Math.min(max, v));
+const EARTH_RADIUS_METERS = 6_371_000;
+
+function boundsForCircle(center: { lat: number; lon: number }, radiusMeters: number) {
+  const lat = center.lat;
+  const lon = center.lon;
+  const latDelta = (radiusMeters / EARTH_RADIUS_METERS) * (180 / Math.PI);
+  const lonDelta = latDelta / Math.max(Math.cos((lat * Math.PI) / 180), 0.0001); // avoid division by zero near poles
+
+  const southWest = L.latLng(lat - latDelta, lon - lonDelta);
+  const northEast = L.latLng(lat + latDelta, lon + lonDelta);
+  return L.latLngBounds(southWest, northEast);
+}
 
 function FlyToOnFocus({
   focus,
@@ -53,6 +57,42 @@ function FlyToOnFocus({
     }
     map.flyTo([focus.lat, focus.lon], Math.max(map.getZoom(), 13), { duration: 0.8 });
   }, [focus, map]);
+  return null;
+}
+
+function FitCircleBounds({
+  center,
+  radiusMeters,
+}: {
+  center: { lat: number; lon: number } | null;
+  radiusMeters: number;
+}) {
+  const map = useMap();
+  useEffect(() => {
+    const hasValidCenter =
+      !!center &&
+      typeof center.lat === 'number' &&
+      typeof center.lon === 'number' &&
+      Number.isFinite(center.lat) &&
+      Number.isFinite(center.lon);
+
+    if (!hasValidCenter || typeof radiusMeters !== 'number' || radiusMeters <= 0 || !map) {
+      return undefined;
+    }
+
+    const bounds = boundsForCircle(center, radiusMeters);
+    const fit = () => {
+      map.fitBounds(bounds, { padding: [32, 32] });
+    };
+
+    if ((map as any)?._loaded) {
+      fit();
+    } else {
+      map.once('load', fit);
+    }
+
+    // return () => map.off('load', fit);
+  }, [center, radiusMeters, map]);
   return null;
 }
 
@@ -99,7 +139,12 @@ export default function MapWithSearch({
           />
           {selectedLocation && (
             <>
-              <FlyTo lat={selectedLocation.lat} lon={selectedLocation.lon} />
+              <FitCircleBounds
+                center={
+                  selectedLocation ? { lat: selectedLocation.lat, lon: selectedLocation.lon } : null
+                }
+                radiusMeters={radiusMeters}
+              />
               <Marker position={[selectedLocation.lat, selectedLocation.lon]}>
                 <Popup>
                   <div className="text-sm font-medium">{selectedLocation.label}</div>

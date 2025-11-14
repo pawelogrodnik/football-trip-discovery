@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { LatLngExpression } from 'leaflet';
 import { combineAllMatches } from 'lib/combineMatches';
 import FormWrapper from './form/FormWrapper';
@@ -34,6 +35,7 @@ const parseFormData = (formData: any) => {
 };
 
 export default function HomePage() {
+  const router = useRouter();
   const INITIAL_FIXTURES = { fixtures: [], totalCount: undefined };
   const [mobileView, setMobileView] = useState(MOBILE_VIEW.LIST_VIEW);
   const [isMobile, setIsMobile] = useState(false);
@@ -45,6 +47,7 @@ export default function HomePage() {
   const [inputs, setInputs] = useState<any>({});
   const [fixtures, setFixtures] = useState(INITIAL_FIXTURES);
   const [initialCenter, setInitialCenter] = useState([57.0727808, 21.9262208] as LatLngExpression);
+  const [selectedMatchesIds, setSelectedMatchesIds] = useState<string[]>([]);
 
   useEffect(() => {
     getInitialCenter();
@@ -76,6 +79,24 @@ export default function HomePage() {
     }
   };
   const matchesCombined = useMemo(() => combineAllMatches(fixtures), [fixtures]);
+
+  const toggleMatchSelection = (rawMatchId: string | number) => {
+    if (rawMatchId === null || rawMatchId === undefined) {
+      return;
+    }
+    const matchId = String(rawMatchId);
+    setSelectedMatchesIds((prev) =>
+      prev.includes(matchId) ? prev.filter((id) => id !== matchId) : [...prev, matchId]
+    );
+  };
+
+  const onContinue = () => {
+    const { LOCATION, RADIUS } = inputs;
+    router.push(
+      `/matches?ids=${selectedMatchesIds.join(',')}&lat=${LOCATION.lat}&lon=${LOCATION.lon}&radius=${RADIUS}`
+    );
+  };
+
   const shouldRenderMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
   const shouldRenderMap = !isMobile || shouldRenderMobileMap;
   return (
@@ -106,6 +127,11 @@ export default function HomePage() {
                   matches={matchesCombined}
                   onGoBack={() => setFixtures(INITIAL_FIXTURES)}
                   onMatchClick={onMatchClick}
+                  onMatchSelect={toggleMatchSelection}
+                  areMatchesSelectable
+                  selectedMatchesIds={selectedMatchesIds}
+                  source="home"
+                  onContinue={onContinue}
                 />
               </>
             ) : (

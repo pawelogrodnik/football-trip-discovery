@@ -13,14 +13,14 @@
 }
 
 .right-side {
-    flex: 0 1 25%;
+    flex: 1 0 30%;
     background-color: #fff; 
     box-shadow: -1px 0px 10px 0px rgba(66, 68, 90, 0.3);
     z-index: 1000;
 }
 
 .left-side {
-    flex: 1 0 75%
+    flex: 1 0 70%
 }
 
 .rlc-cluster-icon {
@@ -69,4 +69,23 @@
   place-items: center;
   color: #1f2937;
   background: #e5e7eb;
+}
+
+.share-link {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 2rem 1.5rem;
+}
+
+.share-link__anchor {
+  font-size: 0.85rem;
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.share-link__status {
+  font-size: 0.75rem;
+  color: #2563eb;
 }

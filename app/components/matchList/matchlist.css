@@ -1,11 +1,34 @@
 .match-list {
-    padding: 0 20px;
-    max-height: 100vh;
-    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
+
+.match-list.match-list--matches .match-list__listing {
+    max-height: 95vh;
+
+}
+
+.match-list__buttons {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.match-list h3 {
+    padding: 0 20px;
+}
+
+.match-list__listing {
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: calc(95vh - 76px);
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
 .match-list p {
     margin: 0 0 15px 0;
-    
 }
 
 .match-card__headline {
@@ -14,17 +37,17 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    flex: 0 1 45%
 }
-.match-card__headline, .match-card__stadium {
-    flex: 0 1 50%;
 
+.match-card__stadium {
+    flex: 0 1 55%;
 }
+
 .match-card__team {
-    /* flex: 0 1 47%; */
     text-align: center;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     margin-bottom: 5px;
     
 }
@@ -34,18 +57,22 @@
     font-size: 14px;
     text-align: left;
 }
+
 .vs-mark {
     flex: 0 1 6%;
 }
+
 .match-card__headline img {
     display: block;
     max-width: 25px;
 }
+
 .match-card__headline .img-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .match-card__competition {
     display: flex;
     justify-content: center;
@@ -60,16 +87,23 @@
 
 .match-card {
     margin: 15px 0;
-    padding: 10px;
+    padding: 10px 10px 10px 3px;
     box-shadow: -1px 0px 10px 0px rgba(66, 68, 90, 0.3);
     border-radius: 3px;
     transition:linear .3s;
     display: flex;
 }
 
+.match-card .mantine-Checkbox-root {
+    padding: 7px;
+    margin-right: 5px !important;
+}
+.match-card__checkbox {
+    display: flex;
+    align-items: center;
+}
 .match-card:hover {
     box-shadow: -1px 0px 10px 0px rgba(66, 68, 90, 0.9);
-    cursor: pointer;
 }
 
 .match-card__stadium p {
