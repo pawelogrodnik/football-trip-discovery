@@ -44,7 +44,7 @@ export default function HomePage() {
   } | null>(null);
   const [inputs, setInputs] = useState<any>({});
   const [fixtures, setFixtures] = useState(INITIAL_FIXTURES);
-  const [initialCenter, setInitialCenter] = useState([50.0727808, 19.9262208] as LatLngExpression);
+  const [initialCenter, setInitialCenter] = useState([57.0727808, 21.9262208] as LatLngExpression);
 
   useEffect(() => {
     getInitialCenter();
@@ -56,7 +56,9 @@ export default function HomePage() {
 
   const getInitialCenter = () => {
     navigator.geolocation.getCurrentPosition((loc) => {
-      setInitialCenter([loc.coords.latitude, loc.coords.longitude]);
+      if (loc?.coords?.latitude && loc?.coords?.longitude) {
+        setInitialCenter([loc.coords.latitude, loc.coords.longitude]);
+      }
     });
   };
 

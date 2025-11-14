@@ -3,6 +3,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { geocode } from 'lib/geocode';
 import { Autocomplete, Loader } from '@mantine/core';
 
 const mapSuggestionLabels = (suggestions: any[]) =>
@@ -29,7 +30,7 @@ export function AutocompleteLoading({
     if (mapSuggestionLabels(suggestions).includes(query)) {
       return;
     }
-    if (!query || query.length < 2) {
+    if (!query || query.length < 3) {
       setSuggestions([]);
       return;
     }
@@ -39,16 +40,13 @@ export function AutocompleteLoading({
       abortRef.current = ctrl;
       try {
         setLoading(true);
-        const res = await fetch(`/api/geocode?q=${encodeURIComponent(query)}`, {
-          signal: ctrl.signal,
-        });
+        const data = await geocode(query);
         setLoading(false);
-        const data = await res.json();
         setSuggestions(data);
       } catch {
         setLoading(false);
       }
-    }, 250);
+    }, 600);
     return () => clearTimeout(handle);
   }, [query]);
 

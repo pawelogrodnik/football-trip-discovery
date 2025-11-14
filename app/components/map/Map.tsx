@@ -17,7 +17,7 @@ L.Icon.Default.mergeOptions({
 });
 
 type Props = {
-  initialCenter?: LatLngExpression;
+  initialCenter: LatLngExpression;
   selectedLocation?: { label: string; lat: number; lon: number };
   selectedRadius?: number;
   initialZoom?: number;
@@ -56,8 +56,19 @@ function FlyToOnFocus({
   return null;
 }
 
+function FlyToInitialCenter({ initialCenter }: { initialCenter: LatLngExpression }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!focus) {
+      return;
+    }
+    map.flyTo(initialCenter, Math.max(map.getZoom(), 13), { duration: 0.8 });
+  }, [initialCenter]);
+  return null;
+}
+
 export default function MapWithSearch({
-  initialCenter = [52.2297, 21.0122],
+  initialCenter,
   initialZoom = 12,
   className = 'map-inner',
   selectedLocation,
@@ -115,6 +126,7 @@ export default function MapWithSearch({
               });
             }}
           >
+            <FlyToInitialCenter initialCenter={initialCenter} />
             <FlyToOnFocus focus={focus} />
             {fixtures.map((fixture) => {
               const when = new Date(
