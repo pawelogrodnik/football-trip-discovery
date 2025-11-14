@@ -99,7 +99,7 @@ export async function GET(req: Request) {
             .filter((match: any) =>
               filterFixturesInRadius(match, Number(lat), Number(lon), Number(radiusKm))
             )
-            .map((match: any) => ({ ...match, id: makeMatchId(match, country, name) }))
+          // .map((match: any) => ({ ...match, id: makeMatchId(match, country, name) }))
         ),
         // .sort((a: any, b: any) => a._distanceKm - b._distanceKm),
       })),
