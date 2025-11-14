@@ -21,6 +21,7 @@ export async function GET(req: Request) {
       Accept: 'application/json',
     },
   });
+  console.log({ res });
 
   if (!res.ok) {
     return new Response(JSON.stringify([]), { status: 200 });
