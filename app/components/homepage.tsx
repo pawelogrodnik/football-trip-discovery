@@ -114,6 +114,7 @@ export default function HomePage() {
               selectedLocation={inputs?.LOCATION ? inputs?.LOCATION : null}
               selectedRadius={inputs?.RADIUS ? inputs?.RADIUS : null}
               fixtures={matchesCombined}
+              selectedMatchesIds={selectedMatchesIds}
               focus={mapFocus}
             />
           </div>

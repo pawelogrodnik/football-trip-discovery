@@ -8,7 +8,8 @@ export function crestPairIcon(
   homeUrl?: string,
   awayUrl?: string,
   homeName?: string,
-  awayName?: string
+  awayName?: string,
+  isSelected?: boolean
 ) {
   const key = `${homeUrl || ''}|${awayUrl || ''}|${homeName || ''}|${awayName || ''}`;
   const hit = iconCache.get(key);
@@ -23,9 +24,9 @@ export function crestPairIcon(
   const away = awayUrl
     ? `<img src="${awayUrl}" referrerpolicy="no-referrer" class="crest-img" alt="${awayName || ''}" />`
     : `<div class="crest-fallback">${initials(awayName)}</div>`;
-
+  const htmlClasses = isSelected ? 'crest-pair crest-pair--selected' : 'crest-pair';
   const html = `
-    <div class="crest-pair">
+    <div class="${htmlClasses}">
       <div class="crest">${home}</div>
       <div class="crest">${away}</div>
     </div>

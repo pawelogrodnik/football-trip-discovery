@@ -22,6 +22,7 @@ type Props = {
   selectedRadius?: number;
   initialZoom?: number;
   className?: string;
+  selectedMatchesIds: string[];
   onLocationChosen?: (loc: { label: string; lat: number; lon: number; radiusKm: number }) => void;
   fixtures: any[];
   focus: {
@@ -113,6 +114,7 @@ export default function MapWithSearch({
   className = 'map-inner',
   selectedLocation,
   selectedRadius,
+  selectedMatchesIds,
   fixtures,
   focus,
 }: Props) {
@@ -188,7 +190,8 @@ export default function MapWithSearch({
                     fixture.homeTeam?.crest,
                     fixture.awayTeam?.crest,
                     fixture.homeTeam?.name,
-                    fixture.awayTeam?.name
+                    fixture.awayTeam?.name,
+                    selectedMatchesIds?.includes(fixture?.id) || false
                   )}
                   ref={(ref) => {
                     if (ref) {
