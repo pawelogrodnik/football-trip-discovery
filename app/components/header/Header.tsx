@@ -49,6 +49,12 @@ const Header = () => {
         return '🇵🇱';
       case 'de':
         return '🇩🇪';
+      case 'es':
+        return '🇪🇸';
+      case 'fr':
+        return '🇫🇷';
+      case 'it':
+        return '🇮🇹';
       case 'en':
       default:
         return '🇬🇧';

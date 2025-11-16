@@ -217,7 +217,6 @@ const MatchCard = ({
           </p>
           {match._distanceKm ? (
             <p>
-              {' '}
               {t('distance')}: {match._distanceKm.toFixed(2)} km
             </p>
           ) : null}

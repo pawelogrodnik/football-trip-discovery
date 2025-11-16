@@ -3,6 +3,12 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES, AppLocale, Messages } from './locale
 
 export async function loadMessages(locale: AppLocale): Promise<Messages> {
   switch (locale) {
+    case 'es':
+      return (await import('../../../messages/es.json')).default;
+    case 'fr':
+      return (await import('../../../messages/fr.json')).default;
+    case 'it':
+      return (await import('../../../messages/it.json')).default;
     case 'pl':
       return (await import('../../../messages/pl.json')).default;
     case 'de':
