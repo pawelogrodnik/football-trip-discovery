@@ -2,7 +2,7 @@
     position: absolute;
     z-index: 1001;
     left: 50%;
-    top: 20px;
+    top: 100px;
     transform: translateX(-50%);
 }
 .mantine-SegmentedControl-control[data-active="true"] {
