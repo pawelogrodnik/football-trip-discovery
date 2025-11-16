@@ -1,0 +1,72 @@
+{
+  "Header": {
+    "nav": {
+      "contact": "Contacto",
+      "reportBug": "Reportar un error"
+    },
+    "language": "Idioma"
+  },
+  "Form": {
+    "title": "Rellena los detalles de tu viaje",
+    "locationLabel": "¿A dónde vas?",
+    "locationPlaceholder": "Milán / Barcelona / París ...",
+    "dateLabel": "¿Cuánto tiempo vas a quedarte?",
+    "datePlaceholder": "Elige fechas",
+    "radiusLabel": "¿Qué distancia estás dispuesto a recorrer para un partido?",
+    "distanceWithUnit": "{{value}} km",
+    "searchButton": "Buscar partidos"
+  },
+  "SupportForm": {
+    "contact": {
+      "title": "Contacto",
+      "description": "Envía tus preguntas, ideas de colaboración o comentarios.",
+      "firstName": {
+        "label": "Nombre o apodo (opcional)",
+        "placeholder": "Jane o @fan123"
+      },
+      "email": {
+        "label": "Correo electrónico (opcional)",
+        "placeholder": "tu@ejemplo.com"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntame más sobre tu pregunta o solicitud..."
+      },
+      "button": "Enviar mensaje",
+      "buttonLoading": "Enviando..."
+    },
+    "bugReport": {
+      "title": "Reportar un error",
+      "description": "Comparte tantos detalles como sea posible (navegador, dispositivo, pasos para reproducir)",
+      "firstName": {
+        "label": "Nombre o apodo (opcional)",
+        "placeholder": "Jane o @fan123"
+      },
+      "email": {
+        "label": "Correo electrónico (opcional)",
+        "placeholder": "tu@ejemplo.com"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Describe el problema, pasos para reproducirlo, información de navegador/dispositivo..."
+      },
+      "button": "Enviar mensaje",
+      "buttonLoading": "Enviando..."
+    }
+  },
+  "MatchesPage": {
+    "title": "Selecciona los partidos que te interesan."
+  },
+  "SelectedMatchesPage": {
+    "title": "Estos son los partidos que valen un viaje."
+  },
+  "MatchCard": {
+    "distance": "Distancia"
+  },
+  "MatchList": {
+    "continueButton": "Continuar",
+    "goBackButton": "Empecemos de nuevo",
+    "shareButton": "Copiar enlace",
+    "shareButtonCopied": "Enlace copiado"
+  }
+}

@@ -11,7 +11,8 @@
 .match-list__buttons {
     padding: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+
 }
 
 .match-list h3 {
@@ -29,6 +30,9 @@
 
 .match-list p {
     margin: 0 0 15px 0;
+}
+.mr-2 {
+    margin-right: 5px;
 }
 
 .match-card__headline {

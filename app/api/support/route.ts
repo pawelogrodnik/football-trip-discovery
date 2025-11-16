@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { NextResponse } from 'next/server';
 // import { SUPPORT_FORM_QUESTIONS } from 'lib/supportFormQuestions';
 import nodemailer from 'nodemailer';

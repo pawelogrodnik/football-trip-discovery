@@ -2,9 +2,10 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import './matchlist.css';
 
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { IconArrowBack } from '@tabler/icons-react';
+import { IconArrowBack, IconCopy } from '@tabler/icons-react';
+import { useTranslations } from 'components/providers/LocaleProvider';
 import { ActionIcon, Button, Checkbox } from '@mantine/core';
 import { getCompetitionEmblem } from './../../lib/getCompetitionEmblem';
 import { initials } from './../../lib/initials';
@@ -58,8 +59,21 @@ const MatchList = ({
   source: string;
   onContinue?: () => void;
 }) => {
+  const t = useTranslations();
   const router = useRouter();
   const datesAggregatorList: string[] = [];
+  const [copied, setCopied] = useState(false);
+
+  const copyUrl = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy:', err);
+    }
+  };
   return (
     <div className={`match-list match-list--${source}`}>
       {source === 'home' && (
@@ -67,10 +81,10 @@ const MatchList = ({
           <ActionIcon variant="default" aria-label="Go back to form" onClick={onGoBack}>
             <IconArrowBack style={{ width: '70%', height: '70%' }} stroke={1.5} />
           </ActionIcon>
-          <span>Select matches that intrest you.</span>
+          <span>{t('MatchesPage.title')}</span>
         </h3>
       )}
-      {source === 'matches' && <h3>Those are matches that you find worth a trip:</h3>}
+      {source === 'matches' && <h3>{t('SelectedMatchesPage.title')}</h3>}
       <div className="match-list__listing">
         {matches.map((match) => {
           const date = new Date(match.date?.dateTime ?? match.utcDate ?? match?.date?.date ?? '');
@@ -108,14 +122,19 @@ const MatchList = ({
             onClick={() => onContinue && onContinue()}
             disabled={selectedMatchesIds.length === 0}
           >
-            Continue
+            {t('MatchList.continueButton')}
           </Button>
         </div>
       )}
       {source === 'matches' && (
         <div className="match-list__buttons">
+          <Button variant="default" onClick={copyUrl}>
+            <IconCopy className="mr-2" />
+            {copied ? t('MatchList.shareButtonCopied') : t('MatchList.shareButton')}
+          </Button>
+
           <Button variant="filled" onClick={() => router.back()}>
-            Go back
+            {t('MatchList.goBackButton')}
           </Button>
         </div>
       )}
@@ -144,6 +163,8 @@ const MatchCard = ({
   fullDateString: any;
   dayMonthYear: any;
 }) => {
+  const t = useTranslations('MatchCard');
+
   const normalizedMatchId = match?.id ? String(match.id) : '';
   const isSelected = normalizedMatchId ? selectedMatchesIds.includes(normalizedMatchId) : false;
 
@@ -194,7 +215,12 @@ const MatchCard = ({
           <p>
             <span className="match-card__date">{fullDateString}</span>
           </p>
-          {match._distanceKm ? <p> Distance: {match._distanceKm.toFixed(2)} km</p> : null}
+          {match._distanceKm ? (
+            <p>
+              {' '}
+              {t('distance')}: {match._distanceKm.toFixed(2)} km
+            </p>
+          ) : null}
         </div>
       </div>
     </Fragment>
