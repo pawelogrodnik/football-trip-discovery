@@ -38,6 +38,10 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
       name: 'Serie C Gr C',
       load: () => import('./../fixtures/LOCAL/ITALY/fixtures_SERIE_C_GR_C.json'),
     },
+    {
+      name: 'Coppa Italia',
+      load: () => import('./../fixtures/LOCAL/ITALY/fixtures_ITALY_CUP.json'),
+    },
   ],
   GERMANY: [
     { name: 'Bundesliga', load: () => import('./../fixtures/LOCAL/GERMANY/fixtures_BL1.json') },
@@ -62,7 +66,17 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
       load: () => import('./../fixtures/LOCAL/FRANCE/fixtures_FRANCE_LIGUE_2.json'),
     },
   ],
-  SPAIN: [{ name: 'La Liga', load: () => import('./../fixtures/LOCAL/SPAIN/fixtures_PD.json') }],
+  SPAIN: [
+    { name: 'La Liga', load: () => import('./../fixtures/LOCAL/SPAIN/fixtures_PD.json') },
+    {
+      name: 'Copa del Rey',
+      load: () => import('./../fixtures/LOCAL/SPAIN/fixtures_SPAIN_CUP.json'),
+    },
+    {
+      name: 'LaLiga2',
+      load: () => import('./../fixtures/LOCAL/SPAIN/fixtures_SPAIN_LA_LIGA_2.json'),
+    },
+  ],
   'UNITED KINGDOM': [
     {
       name: 'Premier League',
@@ -71,6 +85,22 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
     {
       name: 'Championship',
       load: () => import('./../fixtures/LOCAL/UNITED_KINGDOM/fixtures_ELC.json'),
+    },
+    {
+      name: 'League One',
+      load: () => import('./../fixtures/LOCAL/UNITED_KINGDOM/fixtures_ENGLAND_LEAGUE_ONE.json'),
+    },
+    {
+      name: 'League Two',
+      load: () => import('./../fixtures/LOCAL/UNITED_KINGDOM/fixtures_ENGLAND_LEAGUE_TWO.json'),
+    },
+    {
+      name: 'Premiership (Scotland)',
+      load: () => import('./../fixtures/LOCAL/SCOTLAND/fixtures_SCOTLAND_LEAGUE_1.json'),
+    },
+    {
+      name: 'Cymru Premier',
+      load: () => import('./../fixtures/LOCAL/WALES/fixtures_WALES_LEAGUE_1.json'),
     },
   ],
   NETHERLANDS: [
@@ -86,6 +116,40 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
     {
       name: 'NB I. (Hungary 1 League)',
       load: () => import('./../fixtures/LOCAL/HUNGARY/fixtures_HUNGARY_NB_I.json'),
+    },
+  ],
+  BULGARIA: [
+    {
+      name: 'efbet League (BULGARIA 1 League)',
+      load: () => import('./../fixtures/LOCAL/BULGARIA/fixtures_BULGARIA_LEAGUE_1.json'),
+    },
+  ],
+  CYPRUS: [
+    {
+      name: 'Cyprus League',
+      load: () => import('./../fixtures/LOCAL/CYPRUS/fixtures_CYPRUS_LEAGUE_1.json'),
+    },
+  ],
+  DENMARK: [
+    {
+      name: 'Superliga (Denmark)',
+      load: () => import('./../fixtures/LOCAL/DENMARK/fixtures_DENMARK_LEAGUE_1.json'),
+    },
+  ],
+  SWEDEN: [
+    {
+      name: 'Allsvenskan',
+      load: () => import('./../fixtures/LOCAL/SWEDEN/fixtures_SWEDEN_LEAGUE_1.json'),
+    },
+  ],
+  TURKEY: [
+    {
+      name: 'Super Lig',
+      load: () => import('./../fixtures/LOCAL/TURKEY/fixtures_TURKEY_LEAGUE_1.json'),
+    },
+    {
+      name: '1. Lig (Turkey 2 League)',
+      load: () => import('./../fixtures/LOCAL/TURKEY/fixtures_TURKEY_LEAGUE_2.json'),
     },
   ],
   MEXICO: [

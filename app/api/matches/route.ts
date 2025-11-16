@@ -2,7 +2,6 @@ import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
 import { getCountriesInRadius } from 'lib/geo';
 import { filterFixturesInRadius } from 'lib/geoTurf';
 import { isAnyCountryInEurope } from 'lib/isAnyCountryInEurope';
-import { makeMatchId } from 'lib/makeMatchId';
 import { uniqById } from 'lib/uniqById';
 
 function parseUtcRange(startStr?: string | null, endStr?: string | null) {
