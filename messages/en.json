@@ -1,0 +1,57 @@
+{
+  "Header": {
+    "nav": {
+      "contact": "Contact",
+      "reportBug": "Report a bug"
+    },
+    "language": "Language"
+  },
+  "Form": {
+    "title": "Fill your journey details",
+    "locationLabel": "Where are you going?",
+    "locationPlaceholder": "Milan / Barcelona / Paris ...",
+    "dateLabel": "How long are you gonna stay?",
+    "datePlaceholder": "Pick dates",
+    "radiusLabel": "How far are you willing to travel for a match?",
+    "distanceWithUnit": "{{value}} km",
+    "searchButton": "Search matches"
+  },
+  "SupportForm": {
+    "contact": {
+      "title": "Contact",
+      "description": "Send your questions, partnership ideas, or feedback.",
+      "firstName": {
+        "label": "First name or nickname (optional)",
+        "placeholder": "Jane or @fan123"
+      },
+      "email": {
+        "label": "Email address (optional)",
+        "placeholder": "you@example.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me more about your question or request..."
+      },
+      "button": "Send message",
+      "buttonLoading": "Sending..."
+    },
+    "bugReport": {
+      "title": "Report a bug",
+      "description": "Share as many details as possible (browser, device, steps to reproduce)",
+      "firstName": {
+        "label": "First name or nickname (optional)",
+        "placeholder": "Jane or @fan123"
+      },
+      "email": {
+        "label": "Email address (optional)",
+        "placeholder": "you@example.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Describe the issue, steps to reproduce, browser/device info..."
+      },
+      "button": "Send message",
+      "buttonLoading": "Sending..."
+    }
+  }
+}

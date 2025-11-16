@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
+// import { SUPPORT_FORM_QUESTIONS } from 'lib/supportFormQuestions';
 import nodemailer from 'nodemailer';
-import { SUPPORT_FORM_QUESTIONS } from 'lib/supportFormQuestions';
 
 const DEFAULT_RECIPIENT = 'mkpawell@gmail.com';
 
@@ -84,20 +84,20 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Email address looks invalid' }, { status: 400 });
   }
 
-  const questionId = Number(payload.questionId);
-  const question = SUPPORT_FORM_QUESTIONS[Number.isFinite(questionId) ? questionId : -1];
+  // const questionId = Number(payload.questionId);
+  // const question = SUPPORT_FORM_QUESTIONS[Number.isFinite(questionId) ? questionId : -1];
 
-  const normalizedAnswer = sanitizeText(payload.securityAnswer).toLowerCase();
-  const expectedAnswer = question?.answer?.toLowerCase().trim();
+  // const normalizedAnswer = sanitizeText(payload.securityAnswer).toLowerCase();
+  // const expectedAnswer = question?.answer?.toLowerCase().trim();
 
-  if (!question || !expectedAnswer || normalizedAnswer !== expectedAnswer) {
-    return NextResponse.json(
-      {
-        error: 'Human verification failed',
-      },
-      { status: 400 }
-    );
-  }
+  // if (!question || !expectedAnswer || normalizedAnswer !== expectedAnswer) {
+  //   return NextResponse.json(
+  //     {
+  //       error: 'Human verification failed',
+  //     },
+  //     { status: 400 }
+  //   );
+  // }
 
   const recipient = process.env.SUPPORT_RECIPIENT ?? DEFAULT_RECIPIENT;
   const emailSubject = `[${type === 'bug' ? 'Bug Report' : 'Contact'}] ${subject || 'New message'}`;

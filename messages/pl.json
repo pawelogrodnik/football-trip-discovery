@@ -1,0 +1,57 @@
+{
+  "Header": {
+    "nav": {
+      "contact": "Kontakt",
+      "reportBug": "Zgłoś błąd"
+    },
+    "language": "Język"
+  },
+  "Form": {
+    "title": "Uzupełnij dane podróży",
+    "locationLabel": "Dokąd się wybierasz?",
+    "locationPlaceholder": "Milan / Barcelona / Paris ...",
+    "dateLabel": "Jak długo zostajesz?",
+    "datePlaceholder": "Wybierz daty",
+    "radiusLabel": "Jak daleko chcesz podróżować na mecz?",
+    "distanceWithUnit": "{{value}} km",
+    "searchButton": "Szukaj meczów"
+  },
+  "SupportForm": {
+    "contact": {
+      "title": "Kontakt",
+      "description": "Wyślij swoje pytania, pomysły na współpracę lub opinię.",
+      "firstName": {
+        "label": "Imię lub pseudonim (opcjonalnie)",
+        "placeholder": "Bodzio lub @fan123"
+      },
+      "email": {
+        "label": "Adres e-mail (opcjonalnie)",
+        "placeholder": "email@example.com"
+      },
+      "message": {
+        "label": "Wiadomość",
+        "placeholder": "Opowiedz więcej o swoim pytaniu lub prośbie..."
+      },
+      "button": "Wyślij wiadomość",
+      "buttonLoading": "Wysyłanie..."
+    },
+    "bugReport": {
+      "title": "Zgłoś błąd",
+      "description": "Podaj jak najwięcej szczegółów (przeglądarka, urządzenie, kroki do odtworzenia)",
+      "firstName": {
+        "label": "Imię lub pseudonim (opcjonalnie)",
+        "placeholder": "Bodzio lub @fan123"
+      },
+      "email": {
+        "label": "Adres e-mail (opcjonalnie)",
+        "placeholder": "ty@przyklad.com"
+      },
+      "message": {
+        "label": "Wiadomość",
+        "placeholder": "Opisz problem, kroki do odtworzenia, informacje o przeglądarce/urządzeniu..."
+      },
+      "button": "Wyślij wiadomość",
+      "buttonLoading": "Wysyłanie..."
+    }
+  }
+}

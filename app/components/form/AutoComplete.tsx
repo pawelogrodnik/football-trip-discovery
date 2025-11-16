@@ -5,6 +5,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { geocode } from 'lib/geocode';
 import { Autocomplete, Loader } from '@mantine/core';
+import { useTranslations } from 'components/providers/LocaleProvider';
 
 const mapSuggestionLabels = (suggestions: any[]) =>
   suggestions.map(({ label }: { label: string }) => label);
@@ -14,6 +15,7 @@ export function AutocompleteLoading({
 }: {
   onLocationSelect: (val: { label: string; lat: number; lon: number }) => void;
 }) {
+  const t = useTranslations('Form');
   const [query, setQuery] = useState('');
   const [suggestions, setSuggestions] = useState<[]>([]);
   const [isLoading, setLoading] = useState(false);
@@ -57,8 +59,8 @@ export function AutocompleteLoading({
         data={suggestions}
         onChange={setQuery}
         filter={({ options }) => options}
-        label="Where are you going?"
-        placeholder="Milan / Barcelona / Paris ..."
+        label={t('locationLabel')}
+        placeholder={t('locationPlaceholder')}
         rightSection={isLoading ? <Loader size="xs" /> : null}
         comboboxProps={{
           withinPortal: true,

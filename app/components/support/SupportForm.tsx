@@ -1,7 +1,9 @@
 'use client';
 
 import { FormEvent, useState } from 'react';
-import { SUPPORT_FORM_QUESTIONS } from 'lib/supportFormQuestions';
+// import { SUPPORT_FORM_QUESTIONS } from 'lib/supportFormQuestions';
+import { useTranslations } from 'components/providers/LocaleProvider';
+
 import './support-form.css';
 
 type FormType = 'contact' | 'bug';
@@ -23,15 +25,16 @@ const createDefaultFields = () => ({
   website: '',
 });
 
-const randomQuestionIndex = () =>
-  Math.floor(Math.random() * Math.max(1, SUPPORT_FORM_QUESTIONS.length));
+// const randomQuestionIndex = () =>
+//   Math.floor(Math.random() * Math.max(1, SUPPORT_FORM_QUESTIONS.length));
 
-export default function SupportForm({ formType, title, description }: SupportFormProps) {
+export default function SupportForm({ formType, description }: SupportFormProps) {
+  const t = useTranslations(formType === 'bug' ? 'SupportForm.bugReport' : 'SupportForm.contact');
   const [fields, setFields] = useState(createDefaultFields());
   const [status, setStatus] = useState<SubmissionState>('idle');
   const [feedback, setFeedback] = useState<string | null>(null);
-  const [questionIndex, setQuestionIndex] = useState(() => randomQuestionIndex());
-  const question = SUPPORT_FORM_QUESTIONS[questionIndex];
+  // const [questionIndex, setQuestionIndex] = useState(() => randomQuestionIndex());
+  // const question = SUPPORT_FORM_QUESTIONS[questionIndex];
 
   const handleChange = (name: string, value: string) => {
     setFields((prev) => ({ ...prev, [name]: value }));
@@ -39,7 +42,7 @@ export default function SupportForm({ formType, title, description }: SupportFor
 
   const resetForm = () => {
     setFields(createDefaultFields());
-    setQuestionIndex(randomQuestionIndex());
+    // setQuestionIndex(randomQuestionIndex());
   };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -53,7 +56,7 @@ export default function SupportForm({ formType, title, description }: SupportFor
         body: JSON.stringify({
           ...fields,
           type: formType,
-          questionId: questionIndex,
+          // questionId: questionIndex,
         }),
       });
       const data = await response.json();
@@ -72,66 +75,41 @@ export default function SupportForm({ formType, title, description }: SupportFor
   return (
     <section className="support-form__section">
       <div className="support-form__card">
-        <h1>{title}</h1>
-        {description && <p className="support-form__description">{description}</p>}
+        <h1>{t('title')}</h1>
+        {description && <p className="support-form__description">{t('description')}</p>}
         <form className="support-form" onSubmit={handleSubmit}>
           <div className="support-form__row">
             <label>
-              First name or nickname (optional)
+              {t('firstName.label')}
               <input
                 type="text"
                 name="name"
                 value={fields.name}
                 onChange={(e) => handleChange('name', e.target.value)}
-                placeholder="Jane or @fan123"
+                placeholder={t('firstName.placeholder')}
               />
             </label>
             <label>
-              Email address (optional)
+              {t('email.label')}
               <input
                 type="email"
                 name="email"
                 value={fields.email}
                 onChange={(e) => handleChange('email', e.target.value)}
-                placeholder="you@example.com"
+                placeholder={t('email.placeholder')}
               />
             </label>
           </div>
           <label>
-            Subject (optional)
-            <input
-              type="text"
-              name="subject"
-              value={fields.subject}
-              onChange={(e) => handleChange('subject', e.target.value)}
-              placeholder={formType === 'bug' ? 'Short summary of the bug' : 'How can we help you?'}
-            />
-          </label>
-          <label>
-            Message
+            {t('message.label')}
+
             <textarea
               name="message"
               value={fields.message}
               onChange={(e) => handleChange('message', e.target.value)}
               required
               rows={6}
-              placeholder={
-                formType === 'bug'
-                  ? 'Describe the issue, steps to reproduce, browser/device info...'
-                  : 'Tell us more about your question or request...'
-              }
-            />
-          </label>
-          <label>
-            Human verification
-            <span className="support-form__question">{question.question}</span>
-            <input
-              type="text"
-              name="securityAnswer"
-              value={fields.securityAnswer}
-              onChange={(e) => handleChange('securityAnswer', e.target.value)}
-              required
-              placeholder="Answer the question above"
+              placeholder={t('message.placeholder')}
             />
           </label>
           <label className="support-form__honeypot" aria-hidden="true">
@@ -145,7 +123,7 @@ export default function SupportForm({ formType, title, description }: SupportFor
             />
           </label>
           <button type="submit" disabled={status === 'loading'}>
-            {status === 'loading' ? 'Sending...' : 'Send message'}
+            {t(status === 'loading' ? 'buttonLoading' : 'button')}
           </button>
           {feedback && (
             <p

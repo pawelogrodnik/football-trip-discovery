@@ -2,12 +2,14 @@
 
 import { useState } from 'react';
 import { DatePickerInput } from '@mantine/dates';
+import { useTranslations } from 'components/providers/LocaleProvider';
 
 export function DateRange({
   onDatesChange,
 }: {
   onDatesChange: (dates: [string | null, string | null]) => void;
 }) {
+  const t = useTranslations('Form');
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
@@ -22,8 +24,8 @@ export function DateRange({
     <div className="form-element">
       <DatePickerInput
         type="range"
-        label="How long are you gonna stay?"
-        placeholder="Pick dates"
+        label={t('dateLabel')}
+        placeholder={t('datePlaceholder')}
         value={value}
         onChange={handleChange}
         minDate={today}

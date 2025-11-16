@@ -3,6 +3,7 @@
 import './matchlist.css';
 
 import { Fragment } from 'react';
+import { useRouter } from 'next/navigation';
 import { IconArrowBack } from '@tabler/icons-react';
 import { ActionIcon, Button, Checkbox } from '@mantine/core';
 import { getCompetitionEmblem } from './../../lib/getCompetitionEmblem';
@@ -57,6 +58,7 @@ const MatchList = ({
   source: string;
   onContinue?: () => void;
 }) => {
+  const router = useRouter();
   const datesAggregatorList: string[] = [];
   return (
     <div className={`match-list match-list--${source}`}>
@@ -107,6 +109,13 @@ const MatchList = ({
             disabled={selectedMatchesIds.length === 0}
           >
             Continue
+          </Button>
+        </div>
+      )}
+      {source === 'matches' && (
+        <div className="match-list__buttons">
+          <Button variant="filled" onClick={() => router.back()}>
+            Go back
           </Button>
         </div>
       )}

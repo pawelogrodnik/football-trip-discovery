@@ -6,6 +6,8 @@ import './global.css';
 
 import Header from 'components/header/Header';
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
+import { LocaleProvider } from 'components/providers/LocaleProvider';
+import { detectLocale, loadMessages } from 'lib/i18n/server';
 import { theme } from '../theme';
 
 export const metadata = {
@@ -13,9 +15,12 @@ export const metadata = {
   description: 'Find your perfect match',
 };
 
-export default function RootLayout({ children }: { children: any }) {
+export default async function RootLayout({ children }: { children: any }) {
+  const locale = await detectLocale();
+  const messages = await loadMessages(locale);
+
   return (
-    <html lang="en" {...mantineHtmlProps}>
+    <html lang={locale} {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon-32x32.png" />
@@ -26,8 +31,10 @@ export default function RootLayout({ children }: { children: any }) {
       </head>
       <body>
         <MantineProvider theme={theme}>
-          <Header />
-          <div className="app-body-wrapper">{children}</div>
+          <LocaleProvider locale={locale} messages={messages}>
+            <Header />
+            <div className="app-body-wrapper">{children}</div>
+          </LocaleProvider>
         </MantineProvider>
       </body>
     </html>

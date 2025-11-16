@@ -9,6 +9,7 @@ import { SliderInput } from './Slider';
 import './form.css';
 
 import { useState } from 'react';
+import { useTranslations } from 'components/providers/LocaleProvider';
 
 const FORM_ELEMENTS = {
   RADIUS: 'RADIUS',
@@ -30,6 +31,7 @@ const Form = ({
   onFormUpdate: (payload: any) => void;
   onSubmit: (payload: any) => void;
 }) => {
+  const t = useTranslations('Form');
   const [formData, setFormData] = useState<any>({
     [FORM_ELEMENTS.RADIUS]: DEFAULT_RADIUS * RADIUS_MULTIPLIER,
   });
@@ -45,14 +47,14 @@ const Form = ({
   return (
     <div className="form-wrapper">
       <div className="form-inner">
-        <h3>Fill your journey details</h3>
+        <h3>{t('title')}</h3>
         <AutocompleteLoading
           onLocationSelect={(loc) => handleChange(FORM_ELEMENTS.LOCATION, loc)}
         />
         <DateRange onDatesChange={(dates) => handleChange(FORM_ELEMENTS.DATES, dates)} />
         <SliderInput onRadiusChange={(radius) => handleChange(FORM_ELEMENTS.RADIUS, radius)} />
         <Button variant="filled" disabled={isInputDisabled(formData)} onClick={submitForm}>
-          Search matches
+          {t('searchButton')}
         </Button>
       </div>
     </div>

@@ -1,0 +1,57 @@
+{
+  "Header": {
+    "nav": {
+      "contact": "Kontakt",
+      "reportBug": "Fehler melden"
+    },
+    "language": "Sprache"
+  },
+  "Form": {
+    "title": "Fülle deine Reisedetails aus",
+    "locationLabel": "Wohin soll die Reise gehen?",
+    "locationPlaceholder": "Milan / Barcelona / Paris ...",
+    "dateLabel": "Wie lange bleibst du?",
+    "datePlaceholder": "Daten auswählen",
+    "radiusLabel": "Wie weit würdest du für ein Spiel reisen?",
+    "distanceWithUnit": "{{value}} km",
+    "searchButton": "Spiele suchen"
+  },
+  "SupportForm": {
+    "contact": {
+      "title": "Kontakt",
+      "description": "Senden Sie Ihre Fragen, Partnerschaftsideen oder Ihr Feedback.",
+      "firstName": {
+        "label": "Vorname oder Spitzname (optional)",
+        "placeholder": "Jane oder @fan123"
+      },
+      "email": {
+        "label": "E-Mail-Adresse (optional)",
+        "placeholder": "du@beispiel.de"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Erzählen Sie mir mehr über Ihre Frage oder Anfrage..."
+      },
+      "button": "Nachricht senden",
+      "buttonLoading": "Wird gesendet..."
+    },
+    "bugReport": {
+      "title": "Fehler melden",
+      "description": "Teilen Sie so viele Details wie möglich (Browser, Gerät, Schritte zur Reproduktion)",
+      "firstName": {
+        "label": "Vorname oder Spitzname (optional)",
+        "placeholder": "Jane oder @fan123"
+      },
+      "email": {
+        "label": "E-Mail-Adresse (optional)",
+        "placeholder": "du@beispiel.de"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Beschreiben Sie das Problem, Schritte zur Reproduktion, Browser-/Geräteinfo..."
+      },
+      "button": "Nachricht senden",
+      "buttonLoading": "Wird gesendet..."
+    }
+  }
+}
