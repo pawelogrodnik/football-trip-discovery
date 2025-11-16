@@ -11,7 +11,9 @@ export function crestPairIcon(
   awayName?: string,
   isSelected?: boolean
 ) {
-  const key = `${homeUrl || ''}|${awayUrl || ''}|${homeName || ''}|${awayName || ''}`;
+  const key = `${homeUrl || ''}|${awayUrl || ''}|${homeName || ''}|${awayName || ''}|${
+    isSelected ? 'selected' : 'default'
+  }`;
   const hit = iconCache.get(key);
   if (hit) {
     return hit;

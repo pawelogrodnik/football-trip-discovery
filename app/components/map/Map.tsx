@@ -61,50 +61,36 @@ function FlyToOnFocus({
   return null;
 }
 
-function FitCircleBounds({
-  center,
+function ViewportController({
+  selectedLocation,
   radiusMeters,
+  fallbackCenter,
 }: {
-  center: { lat: number; lon: number } | null;
+  selectedLocation?: { lat: number; lon: number } | null;
   radiusMeters: number;
+  fallbackCenter: LatLngExpression;
 }) {
   const map = useMap();
   useEffect(() => {
-    const hasValidCenter =
-      !!center &&
-      typeof center.lat === 'number' &&
-      typeof center.lon === 'number' &&
-      Number.isFinite(center.lat) &&
-      Number.isFinite(center.lon);
-
-    if (!hasValidCenter || typeof radiusMeters !== 'number' || radiusMeters <= 0 || !map) {
-      return undefined;
-    }
-
-    const bounds = boundsForCircle(center, radiusMeters);
-    const fit = () => {
-      map.fitBounds(bounds, { padding: [32, 32] });
-    };
-
-    if ((map as any)?._loaded) {
-      fit();
-    } else {
-      map.once('load', fit);
-    }
-
-    // return () => map.off('load', fit);
-  }, [center, radiusMeters, map]);
-  return null;
-}
-
-function FlyToInitialCenter({ initialCenter }: { initialCenter: LatLngExpression }) {
-  const map = useMap();
-  useEffect(() => {
-    if (!focus) {
+    if (
+      selectedLocation &&
+      typeof selectedLocation.lat === 'number' &&
+      typeof selectedLocation.lon === 'number'
+    ) {
+      const bounds = boundsForCircle(
+        { lat: selectedLocation.lat, lon: selectedLocation.lon },
+        radiusMeters
+      );
+      const fit = () => map.fitBounds(bounds, { padding: [32, 32] });
+      if ((map as any)?._loaded) {
+        fit();
+      } else {
+        map.once('load', fit);
+      }
       return;
     }
-    map.flyTo(initialCenter, Math.max(map.getZoom(), 13), { duration: 0.8 });
-  }, [initialCenter]);
+    map.flyTo(fallbackCenter, map.getZoom(), { duration: 0.5 });
+  }, [selectedLocation?.lat, selectedLocation?.lon, radiusMeters, fallbackCenter, map]);
   return null;
 }
 
@@ -131,22 +117,82 @@ export default function MapWithSearch({
     return initialCenter;
   }, [selectedLocation, initialCenter]);
 
+  const markerData = useMemo(() => {
+    return fixtures
+      .map((fixture) => {
+        const lat = fixture?.stadium?.geo?.latitude;
+        const lon = fixture?.stadium?.geo?.longitude;
+        if (typeof lat !== 'number' || typeof lon !== 'number') {
+          return null;
+        }
+        const id = String(fixture._id ?? fixture.id ?? `${lat},${lon}`);
+        return {
+          fixture,
+          id,
+          position: [lat, lon] as [number, number],
+          defaultIcon: crestPairIcon(
+            fixture.homeTeam?.crest,
+            fixture.awayTeam?.crest,
+            fixture.homeTeam?.name,
+            fixture.awayTeam?.name,
+            false
+          ),
+          kickoff: new Date(fixture.date?.dateTime ?? fixture.utcDate ?? '').toLocaleString(),
+        };
+      })
+      .filter(Boolean) as Array<{
+      fixture: any;
+      id: string;
+      position: [number, number];
+      defaultIcon: L.DivIcon;
+      kickoff: string;
+    }>;
+  }, [fixtures]);
+
+  useEffect(() => {
+    const ids = new Set(markerData.map(({ id }) => id));
+    Object.keys(markerRefs.current).forEach((existingId) => {
+      if (!ids.has(existingId)) {
+        delete markerRefs.current[existingId];
+      }
+    });
+  }, [markerData]);
+
+  useEffect(() => {
+    const selection = new Set(selectedMatchesIds?.map(String));
+    markerData.forEach(({ fixture, id }) => {
+      const marker = markerRefs.current[id];
+      if (!marker) {
+        return;
+      }
+      const isSelected = selection.has(id);
+      marker.setIcon(
+        crestPairIcon(
+          fixture.homeTeam?.crest,
+          fixture.awayTeam?.crest,
+          fixture.homeTeam?.name,
+          fixture.awayTeam?.name,
+          isSelected
+        )
+      );
+    });
+  }, [markerData, selectedMatchesIds]);
+
   return (
     <div className="map-wrapper">
       <div className={className}>
         <MapContainer center={center} zoom={initialZoom} style={{ height: '100%', width: '100%' }}>
+          <ViewportController
+            selectedLocation={selectedLocation ?? null}
+            radiusMeters={radiusMeters}
+            fallbackCenter={initialCenter}
+          />
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>'
           />
           {selectedLocation && (
             <>
-              <FitCircleBounds
-                center={
-                  selectedLocation ? { lat: selectedLocation.lat, lon: selectedLocation.lon } : null
-                }
-                radiusMeters={radiusMeters}
-              />
               <Marker position={[selectedLocation.lat, selectedLocation.lon]}>
                 <Popup>
                   <div className="text-sm font-medium">{selectedLocation.label}</div>
@@ -173,41 +219,26 @@ export default function MapWithSearch({
               });
             }}
           >
-            <FlyToInitialCenter initialCenter={initialCenter} />
             <FlyToOnFocus focus={focus} />
-            {fixtures.map((fixture) => {
-              const when = new Date(
-                fixture.date?.dateTime ?? fixture.utcDate ?? ''
-              ).toLocaleString();
-              const lat = fixture.stadium.geo.latitude;
-              const lon = fixture.stadium.geo.longitude;
-              const id = String(fixture._id ?? fixture.id ?? `${lat},${lon}`);
-              return (
-                <Marker
-                  key={fixture.id}
-                  position={[fixture.stadium.geo.latitude, fixture.stadium.geo.longitude]}
-                  icon={crestPairIcon(
-                    fixture.homeTeam?.crest,
-                    fixture.awayTeam?.crest,
-                    fixture.homeTeam?.name,
-                    fixture.awayTeam?.name,
-                    selectedMatchesIds?.includes(fixture?.id) || false
-                  )}
-                  ref={(ref) => {
-                    if (ref) {
-                      markerRefs.current[id] = ref as unknown as L.Marker;
-                    }
-                  }}
-                >
-                  <Popup>
-                    <div className="text-sm font-medium">
-                      {fixture.homeTeam.name} vs {fixture.awayTeam.name}
-                    </div>
-                    <div className="text-xs">{when}</div>
-                  </Popup>
-                </Marker>
-              );
-            })}
+            {markerData.map(({ fixture, id, position, defaultIcon, kickoff }) => (
+              <Marker
+                key={id}
+                position={position}
+                icon={defaultIcon}
+                ref={(ref) => {
+                  if (ref) {
+                    markerRefs.current[id] = ref as unknown as L.Marker;
+                  }
+                }}
+              >
+                <Popup>
+                  <div className="text-sm font-medium">
+                    {fixture.homeTeam.name} vs {fixture.awayTeam.name}
+                  </div>
+                  <div className="text-xs">{kickoff}</div>
+                </Popup>
+              </Marker>
+            ))}
           </MarkerClusterGroup>
         </MapContainer>
       </div>
