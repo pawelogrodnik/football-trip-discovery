@@ -34,8 +34,11 @@
   flex-wrap: wrap;
 }
 
-.support-form__row label {
-  flex: 1 1 200px;
+@media (min-width: 768px) {
+
+  .support-form__row label {
+    flex: 1 1 200px;
+  }
 }
 
 .support-form label {
