@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { memo, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
@@ -15,9 +15,6 @@ const Header = () => {
   const locale = useLocale();
   const [selectedLocale, setSelectedLocale] = useState<AppLocale>(locale);
   const [menuOpened, setMenuOpened] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => setIsMobile(window.innerWidth <= 720), []);
 
   useEffect(() => setSelectedLocale(locale), [locale]);
 
@@ -92,6 +89,9 @@ const Header = () => {
 
   const navLinks = (
     <>
+      <Link href="/" className="link" onClick={closeMenu}>
+        {t('nav.home')}
+      </Link>
       <Link href="/about" className="link" onClick={closeMenu}>
         {t('nav.about')}
       </Link>
@@ -114,13 +114,9 @@ const Header = () => {
             </div>
           </Link>
         </div>
-        {!isMobile && (
-          <div className="header__navigation">
-            <Group h="100%" gap={0} className="navigation-desktop">
-              {navLinks}
-            </Group>
-          </div>
-        )}
+        <Group h="100%" gap={0} className="navigation-desktop">
+          {navLinks}
+        </Group>
         <div className="header__language">
           <Select
             aria-label={t('language')}
@@ -135,28 +131,26 @@ const Header = () => {
             }}
           />
         </div>
-        {isMobile && (
-          <div className="header__navigation">
-            <Burger
-              opened={menuOpened}
-              onClick={() => setMenuOpened((prev) => !prev)}
-              size="sm"
-              hiddenFrom="sm"
-            />
-            <Drawer
-              opened={menuOpened}
-              onClose={closeMenu}
-              padding="md"
-              size="md"
-              position="right"
-              hiddenFrom="sm"
-              // title={t('menu')}
-            >
-              <nav className="mobile-nav-links">{navLinks}</nav>
-            </Drawer>
-          </div>
-        )}
+        <Burger
+          className="header__burger"
+          opened={menuOpened}
+          onClick={() => setMenuOpened((prev) => !prev)}
+          size="sm"
+          hiddenFrom="sm"
+        />
       </div>
+      <Drawer
+        opened={menuOpened}
+        onClose={closeMenu}
+        padding="md"
+        size="md"
+        position="right"
+        hiddenFrom="sm"
+        zIndex={4000}
+        overlayProps={{ opacity: 0.55, blur: 3 }}
+      >
+        <nav className="mobile-nav-links">{navLinks}</nav>
+      </Drawer>
     </div>
   );
 };
