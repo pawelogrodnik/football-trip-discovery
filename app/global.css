@@ -6,8 +6,15 @@
 .page-inner--mobile .right-side, .page-inner--mobile .left-side {
     flex: 0 1 100%;
 }
+.page-inner.page-inner--mobile {
+  height: calc(100vh - 50px);
+}
 .map-inner, .match-list, .page-inner {
   height: calc(100vh - 77px)
+}
+.page-inner--mobile .match-list, .page-inner--mobile .map-inner {
+  height: calc(100vh - 50px);
+
 }
 .map-wrapper {
     width: 100%;
