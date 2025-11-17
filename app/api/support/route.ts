@@ -101,7 +101,7 @@ export async function POST(req: Request) {
   // }
 
   const recipient = process.env.SUPPORT_RECIPIENT ?? DEFAULT_RECIPIENT;
-  const emailSubject = `[${type === 'bug' ? 'Bug Report' : 'Contact'}] ${subject || 'New message'}`;
+  const emailSubject = `[${type === 'bug' ? 'Bug Report' : 'Contact'}] ${subject || 'Football Trip Discovery => New message'}`;
 
   const textBody = [
     `Type: ${type}`,
@@ -110,7 +110,7 @@ export async function POST(req: Request) {
     `User-Agent: ${userAgent ?? 'unknown'}`,
     subject ? `Subject: ${subject}` : null,
     '',
-    message,
+    message ? `Message: ${message}` : null,
   ]
     .filter(Boolean)
     .join('\n');
