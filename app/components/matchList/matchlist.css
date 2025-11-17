@@ -115,6 +115,11 @@
     margin-bottom: 5px;
     font-size: 14px;
 }
+.match-card__navigate {
+    font-size: 13px;
+    color: #2563eb;
+    text-decoration: underline;
+}
 .match-card__date {
     font-weight: 600;
 }

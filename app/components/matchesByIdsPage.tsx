@@ -41,6 +41,7 @@ export default function MatchesByIdsPage() {
   const [status, setStatus] = useState<FetchState>('idle');
   const [error, setError] = useState<string | null>(null);
   const [missingIds, setMissingIds] = useState<string[]>([]);
+  const [userLocation, setUserLocation] = useState<{ lat: number; lon: number } | null>(null);
 
   const ids = useMemo(() => {
     const collected = [...searchParams.getAll('ids'), ...searchParams.getAll('id')].flatMap(
@@ -82,11 +83,21 @@ export default function MatchesByIdsPage() {
   useEffect(() => {
     if (sharedLocation) {
       setInitialCenter([sharedLocation.lat, sharedLocation.lon]);
+    } else {
+      setInitialCenter(INITIAL_CENTER);
+    }
+
+    if (typeof window === 'undefined' || !navigator?.geolocation) {
       return;
     }
+
     navigator.geolocation.getCurrentPosition((loc) => {
       if (loc?.coords?.latitude && loc?.coords?.longitude) {
-        setInitialCenter([loc.coords.latitude, loc.coords.longitude]);
+        const currentLocation = { lat: loc.coords.latitude, lon: loc.coords.longitude };
+        setUserLocation(currentLocation);
+        if (!sharedLocation) {
+          setInitialCenter([currentLocation.lat, currentLocation.lon]);
+        }
       }
     });
   }, [sharedLocation]);
@@ -170,6 +181,30 @@ export default function MatchesByIdsPage() {
     [matchesCombined]
   );
 
+  const navigationOrigin =
+    userLocation ??
+    sharedLocation ??
+    (mapFocus ? { lat: mapFocus.lat, lon: mapFocus.lon } : null);
+
+  const navigationUrlFactory = useMemo(
+    () => (match: any) => {
+      const lat = match?.stadium?.geo?.latitude;
+      const lon = match?.stadium?.geo?.longitude;
+      if (typeof lat !== 'number' || typeof lon !== 'number') {
+        return null;
+      }
+      const params = new URLSearchParams({
+        api: '1',
+        destination: `${lat},${lon}`,
+      });
+      if (navigationOrigin) {
+        params.set('origin', `${navigationOrigin.lat},${navigationOrigin.lon}`);
+      }
+      return `https://www.google.com/maps/dir/?${params.toString()}`;
+    },
+    [navigationOrigin]
+  );
+
   const shouldRenderMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
   const shouldRenderMap = !isMobile || shouldRenderMobileMap;
 
@@ -220,6 +255,7 @@ export default function MatchesByIdsPage() {
                 onMatchSelect={() => false}
                 areMatchesSelectable={false}
                 source="matches"
+                getNavigationUrl={navigationUrlFactory}
               />
             )}
             {missingIds.length > 0 && (

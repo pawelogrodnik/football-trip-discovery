@@ -46,7 +46,7 @@ export default function HomePage() {
   } | null>(null);
   const [inputs, setInputs] = useState<any>({});
   const [fixtures, setFixtures] = useState(INITIAL_FIXTURES);
-  const [initialCenter, setInitialCenter] = useState([57.0727808, 21.9262208] as LatLngExpression);
+  const [initialCenter, setInitialCenter] = useState([45.4641943, 9.1896346] as LatLngExpression);
   const [selectedMatchesIds, setSelectedMatchesIds] = useState<string[]>([]);
 
   useEffect(() => {

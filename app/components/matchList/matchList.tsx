@@ -4,7 +4,7 @@ import './matchlist.css';
 
 import { Fragment, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { IconArrowBack, IconCopy } from '@tabler/icons-react';
+import { IconArrowBack, IconCopy, IconNavigation } from '@tabler/icons-react';
 import { useTranslations } from 'components/providers/LocaleProvider';
 import { ActionIcon, Button, Checkbox } from '@mantine/core';
 import { getCompetitionEmblem } from './../../lib/getCompetitionEmblem';
@@ -48,6 +48,7 @@ const MatchList = ({
   areMatchesSelectable = false,
   source,
   onContinue,
+  getNavigationUrl,
 }: {
   matches: any[];
   totalCount?: number;
@@ -58,6 +59,7 @@ const MatchList = ({
   onMatchSelect?: (matchId: string) => void;
   source: string;
   onContinue?: () => void;
+  getNavigationUrl?: (match: any) => string | null;
 }) => {
   const t = useTranslations();
   const router = useRouter();
@@ -111,6 +113,7 @@ const MatchList = ({
               areMatchesSelectable={areMatchesSelectable}
               selectedMatchesIds={selectedMatchesIds}
               onMatchSelect={onMatchSelect}
+              getNavigationUrl={getNavigationUrl}
             />
           );
         })}
@@ -153,6 +156,7 @@ const MatchCard = ({
   areMatchesSelectable = false,
   selectedMatchesIds = [],
   onMatchSelect,
+  getNavigationUrl,
 }: {
   shouldDisplayAggregatedDate: boolean;
   areMatchesSelectable: boolean;
@@ -162,6 +166,7 @@ const MatchCard = ({
   onMatchClick: any;
   fullDateString: any;
   dayMonthYear: any;
+  getNavigationUrl?: (match: any) => string | null;
 }) => {
   const t = useTranslations('MatchCard');
 
@@ -178,6 +183,8 @@ const MatchCard = ({
     }
     onMatchSelect?.(normalizedMatchId);
   };
+
+  const navigationHref = getNavigationUrl?.(match);
 
   return (
     <Fragment key={match.id}>
@@ -220,6 +227,33 @@ const MatchCard = ({
               {t('distance')}: {match._distanceKm.toFixed(2)} km
             </p>
           ) : null}
+          {navigationHref && (
+            <p className="match-card__navigate">
+              <Button
+                component="a"
+                href={navigationHref}
+                variant="filled"
+                radius="lg"
+                size="xs"
+                target="_blank"
+                onClick={(event) => event.stopPropagation()}
+              >
+                <IconNavigation size={16} style={{ marginRight: 5 }} />
+                {t('navigate')}
+              </Button>
+            </p>
+            // <p>
+            //   <a
+            //     className="match-card__navigate"
+            //     href={navigationHref}
+            //     target="_blank"
+            //     rel="noreferrer"
+            //     onClick={(event) => event.stopPropagation()}
+            //   >
+            //     {t('navigate')}
+            //   </a>
+            // </p>
+          )}
         </div>
       </div>
     </Fragment>
