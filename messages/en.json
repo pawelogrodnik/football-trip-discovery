@@ -1,10 +1,12 @@
 {
   "Header": {
     "nav": {
+      "about": "What is this about?",
       "contact": "Contact",
       "reportBug": "Report a bug"
     },
-    "language": "Language"
+    "language": "Language",
+    "menu": "Menu"
   },
   "Form": {
     "title": "Fill your journey details",
@@ -15,6 +17,12 @@
     "radiusLabel": "How far are you willing to travel for a match?",
     "distanceWithUnit": "{{value}} km",
     "searchButton": "Search matches"
+  },
+  "About": {
+    "title": "What is this about?",
+    "paragraph1": "This site is for football fanatics. If you are planning a Champions League trip and wonder whether there are other matches nearby, this app can help. Maybe you are on holiday and want to experience local lower divisions, or you simply enjoy catching a game during a city break. In that case, you are in the right place.",
+    "paragraph2": "The goal of the project was to build a tool that quickly finds matches around a chosen location, on specific dates, and within a distance you're willing to travel to reach the stadium. At first it was a tool just for me, but over time I decided to grow it into a portfolio project and make it public.",
+    "paragraph3": "The service currently covers more than 25 countries and over 70 leagues—including more than 30 in Poland, from Ekstraklasa down to IV liga, selected regional divisions, and A/B classes. UEFA competitions are also supported: Champions League, Europa League, and Conference League."
   },
   "SupportForm": {
     "contact": {

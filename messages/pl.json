@@ -1,20 +1,28 @@
 {
   "Header": {
     "nav": {
+      "about": "O co tu chodzi?",
       "contact": "Kontakt",
       "reportBug": "Zgłoś błąd"
     },
-    "language": "Język"
+    "language": "Język",
+    "menu": "Menu"
   },
   "Form": {
     "title": "Uzupełnij dane podróży",
     "locationLabel": "Dokąd się wybierasz?",
-    "locationPlaceholder": "Milan / Barcelona / Paris ...",
+    "locationPlaceholder": "Mediolan / Barcelona / Paryż ...",
     "dateLabel": "Jak długo zostajesz?",
     "datePlaceholder": "Wybierz daty",
     "radiusLabel": "Jak daleko chcesz podróżować na mecz?",
     "distanceWithUnit": "{{value}} km",
     "searchButton": "Szukaj meczów"
+  },
+  "About": {
+    "title": "O co tu chodzi?",
+    "paragraph1": "Strona przeznaczona jest dla fanatyków wędkarstwa, ekhem, piłki nożnej. Jeśli planujesz wyjazd na mecz Ligi Mistrzów i zastanawiasz się, czy w okolicy można zobaczyć jeszcze jakieś inne spotkanie, ta aplikacja może Ci w tym pomóc. Być może jesteś na wakacjach i chciałbyś poczuć lokalne, niższe ligi, albo po prostu lubisz obejrzeć mecz podczas city breaku. W takim przypadku idealnie trafiłeś.",
+    "paragraph2": "Celem projektu było stworzenie narzędzia, które pozwala w szybki sposób znaleźć mecze odbywające się w wybranej okolicy, konkretnej dacie oraz w ramach dystansu, jaki jesteś w stanie pokonać, aby dotrzeć na stadion. Początkowo aplikacja powstawała wyłącznie na moje potrzeby, jednak z czasem postanowiłem rozwinąć ją w projekt do portfolio i jednocześnie udostępnić publicznie.",
+    "paragraph3": "Obecnie serwis obsługuje ponad 25 krajów i przeszło 70 lig – w tym ponad 30 w Polsce, od Ekstraklasy do IV ligi, wybrane ligi okręgowe oraz klasy A i B. Wspierane są również rozgrywki UEFA: Liga Mistrzów, Liga Europy oraz Liga Konferencji."
   },
   "SupportForm": {
     "contact": {
@@ -48,7 +56,7 @@
       },
       "message": {
         "label": "Wiadomość",
-        "placeholder": "Opisz problem, kroki do odtworzenia, informacje o przeglądarce/urządzeniu..."
+        "placeholder": "Opisz problem, kroki do odtworzenia, informacje o przeglądarce/urzędzeniu..."
       },
       "button": "Wyślij wiadomość",
       "buttonLoading": "Wysyłanie..."

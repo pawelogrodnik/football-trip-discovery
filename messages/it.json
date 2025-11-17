@@ -1,10 +1,12 @@
 {
   "Header": {
     "nav": {
+      "about": "Di cosa si tratta?",
       "contact": "Contatto",
       "reportBug": "Segnala un bug"
     },
-    "language": "Lingua"
+    "language": "Lingua",
+    "menu": "Menù"
   },
   "Form": {
     "title": "Inserisci i dettagli del tuo viaggio",
@@ -15,6 +17,12 @@
     "radiusLabel": "Quanto sei disposto a viaggiare per una partita?",
     "distanceWithUnit": "{{value}} km",
     "searchButton": "Cerca partite"
+  },
+  "About": {
+    "title": "Di cosa si tratta?",
+    "paragraph1": "Questa pagina è pensata per gli appassionati di calcio. Se stai organizzando un viaggio per la Champions League e ti chiedi se ci sono altre partite nelle vicinanze, questa app può aiutarti. Forse sei in vacanza e vuoi vivere l’atmosfera delle leghe locali, oppure ti piace assistere a una partita durante un city break: in tal caso sei nel posto giusto.",
+    "paragraph2": "L’obiettivo del progetto era creare uno strumento che trovasse rapidamente le partite che si disputano in una zona scelta, in date precise e all’interno del raggio che sei disposto a percorrere per raggiungere lo stadio. Inizialmente era un tool solo per me, ma col tempo ho deciso di trasformarlo in un progetto di portfolio e condividerlo pubblicamente.",
+    "paragraph3": "Il servizio copre ora più di 25 paesi e oltre 70 leghe, tra cui più di 30 in Polonia: dall’Ekstraklasa alla IV liga, alcune divisioni regionali e le classi A e B. Sono supportate anche le competizioni UEFA: Champions League, Europa League e Conference League."
   },
   "SupportForm": {
     "contact": {
@@ -65,7 +73,7 @@
   },
   "MatchList": {
     "continueButton": "Continua",
-    "goBackButton": "Ricominciamo",
+    "goBackButton": "Ricomincia",
     "shareButton": "Copia link",
     "shareButtonCopied": "Link copiato"
   }

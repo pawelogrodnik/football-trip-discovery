@@ -1,25 +1,33 @@
 {
   "Header": {
     "nav": {
+      "about": "Worum geht es hier?",
       "contact": "Kontakt",
       "reportBug": "Fehler melden"
     },
-    "language": "Sprache"
+    "language": "Sprache",
+    "menu": "Menü"
   },
   "Form": {
     "title": "Fülle deine Reisedetails aus",
     "locationLabel": "Wohin soll die Reise gehen?",
-    "locationPlaceholder": "Milan / Barcelona / Paris ...",
+    "locationPlaceholder": "Mailand / Barcelona / Paris ...",
     "dateLabel": "Wie lange bleibst du?",
     "datePlaceholder": "Daten auswählen",
     "radiusLabel": "Wie weit würdest du für ein Spiel reisen?",
     "distanceWithUnit": "{{value}} km",
     "searchButton": "Spiele suchen"
   },
+  "About": {
+    "title": "Worum geht es hier?",
+    "paragraph1": "Diese Seite richtet sich an Fußballfanatiker. Wenn du eine Reise zur Champions League planst und dich fragst, ob es in der Nähe weitere Spiele gibt, kann dir diese App helfen. Vielleicht bist du im Urlaub und willst die Stimmung der lokalen Unterligen spüren oder du schaust einfach gern ein Spiel während eines Städtetrips – dann bist du hier richtig.",
+    "paragraph2": "Ziel des Projekts war es, ein Werkzeug zu entwickeln, das schnell Spiele in einer ausgewählten Region, an bestimmten Daten und innerhalb eines Radius findet, den du bereit bist zu fahren, um zum Stadion zu gelangen. Anfangs war es nur ein Tool für mich, doch mit der Zeit wurde daraus ein Portfolio-Projekt, das ich nun öffentlich teile.",
+    "paragraph3": "Der Service deckt inzwischen über 25 Länder und mehr als 70 Ligen ab – darunter über 30 in Polen, von der Ekstraklasa bis zur IV Liga, ausgewählte regionale Klassen sowie A- und B-Klassen. Auch UEFA-Wettbewerbe wie Champions League, Europa League und Conference League sind enthalten."
+  },
   "SupportForm": {
     "contact": {
       "title": "Kontakt",
-      "description": "Senden Sie Ihre Fragen, Partnerschaftsideen oder Ihr Feedback.",
+      "description": "Sende deine Fragen, Ideen oder Feedback.",
       "firstName": {
         "label": "Vorname oder Spitzname (optional)",
         "placeholder": "Jane oder @fan123"
@@ -30,14 +38,14 @@
       },
       "message": {
         "label": "Nachricht",
-        "placeholder": "Erzählen Sie mir mehr über Ihre Frage oder Anfrage..."
+        "placeholder": "Erzähl mir mehr über deine Frage oder Bitte..."
       },
       "button": "Nachricht senden",
-      "buttonLoading": "Wird gesendet..."
+      "buttonLoading": "Sende..."
     },
     "bugReport": {
       "title": "Fehler melden",
-      "description": "Teilen Sie so viele Details wie möglich (Browser, Gerät, Schritte zur Reproduktion)",
+      "description": "Teile so viele Details wie möglich (Browser, Gerät, Schritte zum Reproduzieren)",
       "firstName": {
         "label": "Vorname oder Spitzname (optional)",
         "placeholder": "Jane oder @fan123"
@@ -48,10 +56,10 @@
       },
       "message": {
         "label": "Nachricht",
-        "placeholder": "Beschreiben Sie das Problem, Schritte zur Reproduktion, Browser-/Geräteinfo..."
+        "placeholder": "Beschreibe das Problem, Schritte zum Reproduzieren, Browser-/Geräteinfos..."
       },
       "button": "Nachricht senden",
-      "buttonLoading": "Wird gesendet..."
+      "buttonLoading": "Sende..."
     }
   },
   "MatchesPage": {
@@ -65,7 +73,7 @@
   },
   "MatchList": {
     "continueButton": "Weiter",
-    "goBackButton": "Nochmal starten",
+    "goBackButton": "Noch einmal starten",
     "shareButton": "Link kopieren",
     "shareButtonCopied": "Link kopiert"
   }

@@ -1,11 +1,11 @@
-'use client';
+﻿'use client';
 
 import { memo, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { Group, Select } from '@mantine/core';
 import { useRouter } from 'next/navigation';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
-import { SUPPORTED_LOCALES, AppLocale } from 'lib/i18n/locales';
+import { AppLocale, SUPPORTED_LOCALES } from 'lib/i18n/locales';
+import { Burger, Drawer, Group, Select } from '@mantine/core';
 
 import './header.css';
 
@@ -14,6 +14,10 @@ const Header = () => {
   const router = useRouter();
   const locale = useLocale();
   const [selectedLocale, setSelectedLocale] = useState<AppLocale>(locale);
+  const [menuOpened, setMenuOpened] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => setIsMobile(window.innerWidth <= 720), []);
 
   useEffect(() => setSelectedLocale(locale), [locale]);
 
@@ -33,9 +37,9 @@ const Header = () => {
       .filter(Boolean)
       .map((code) => code!.slice(0, 2).toLowerCase());
 
-    const matched = browserLocales.find((code) =>
-      SUPPORTED_LOCALES.includes(code as AppLocale)
-    ) as AppLocale | undefined;
+    const matched = browserLocales.find((code) => SUPPORTED_LOCALES.includes(code as AppLocale)) as
+      | AppLocale
+      | undefined;
 
     if (matched && matched !== locale) {
       document.cookie = `NEXT_LOCALE=${matched}; path=/; max-age=31536000`;
@@ -84,6 +88,22 @@ const Header = () => {
     router.refresh();
   };
 
+  const closeMenu = () => setMenuOpened(false);
+
+  const navLinks = (
+    <>
+      <Link href="/about" className="link" onClick={closeMenu}>
+        {t('nav.about')}
+      </Link>
+      <Link href="/contact" className="link" onClick={closeMenu}>
+        {t('nav.contact')}
+      </Link>
+      <Link href="/report-bug" className="link" onClick={closeMenu}>
+        {t('nav.reportBug')}
+      </Link>
+    </>
+  );
+
   return (
     <div className="header-wrapper">
       <div className="header-inner">
@@ -94,16 +114,13 @@ const Header = () => {
             </div>
           </Link>
         </div>
-        <div className="header__navigation">
-          <Group h="100%" gap={0}>
-            <Link href="/contact" className="link">
-              {t('nav.contact')}
-            </Link>
-            <Link href="/report-bug" className="link">
-              {t('nav.reportBug')}
-            </Link>
-          </Group>
-        </div>
+        {!isMobile && (
+          <div className="header__navigation">
+            <Group h="100%" gap={0} className="navigation-desktop">
+              {navLinks}
+            </Group>
+          </div>
+        )}
         <div className="header__language">
           <Select
             aria-label={t('language')}
@@ -118,6 +135,27 @@ const Header = () => {
             }}
           />
         </div>
+        {isMobile && (
+          <div className="header__navigation">
+            <Burger
+              opened={menuOpened}
+              onClick={() => setMenuOpened((prev) => !prev)}
+              size="sm"
+              hiddenFrom="sm"
+            />
+            <Drawer
+              opened={menuOpened}
+              onClose={closeMenu}
+              padding="md"
+              size="md"
+              position="right"
+              hiddenFrom="sm"
+              // title={t('menu')}
+            >
+              <nav className="mobile-nav-links">{navLinks}</nav>
+            </Drawer>
+          </div>
+        )}
       </div>
     </div>
   );

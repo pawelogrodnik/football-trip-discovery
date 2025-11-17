@@ -1,27 +1,35 @@
 {
   "Header": {
     "nav": {
+      "about": "De quoi s’agit-il ?",
       "contact": "Contact",
       "reportBug": "Signaler un bug"
     },
-    "language": "Langue"
+    "language": "Langue",
+    "menu": "Menu"
   },
   "Form": {
     "title": "Renseignez les détails de votre voyage",
     "locationLabel": "Où allez-vous ?",
     "locationPlaceholder": "Milan / Barcelone / Paris ...",
-    "dateLabel": "Combien de temps allez-vous rester ?",
+    "dateLabel": "Combien de temps restez-vous ?",
     "datePlaceholder": "Choisissez les dates",
-    "radiusLabel": "Jusqu'où êtes-vous prêt à voyager pour un match ?",
+    "radiusLabel": "Jusqu’à quelle distance voyageriez-vous pour un match ?",
     "distanceWithUnit": "{{value}} km",
     "searchButton": "Rechercher des matchs"
+  },
+  "About": {
+    "title": "De quoi s’agit-il ?",
+    "paragraph1": "Ce site s’adresse aux passionnés de football. Si vous planifiez un déplacement pour la Ligue des champions et que vous vous demandez s’il existe d’autres rencontres à proximité, cette application peut vous aider. Peut-être êtes-vous en vacances et souhaitez découvrir les ligues locales, ou vous aimez simplement assister à un match pendant un séjour en ville. Dans ce cas, vous êtes au bon endroit.",
+    "paragraph2": "L’objectif du projet était de créer un outil permettant de trouver rapidement les matchs se déroulant dans une zone choisie, à des dates précises et dans le rayon que vous êtes prêt à parcourir pour rejoindre le stade. Au départ, cet outil n’était destiné qu’à mon usage personnel, mais j’ai décidé d’en faire un projet de portfolio et de le partager publiquement.",
+    "paragraph3": "Le service couvre aujourd’hui plus de 25 pays et plus de 70 ligues, dont plus de 30 en Pologne – de l’Ekstraklasa jusqu’à la IV liga, ainsi que certaines divisions régionales et les classes A et B. Les compétitions UEFA sont également prises en charge : Ligue des champions, Ligue Europa et Ligue Europa Conférence."
   },
   "SupportForm": {
     "contact": {
       "title": "Contact",
       "description": "Envoyez vos questions, idées de partenariat ou commentaires.",
       "firstName": {
-        "label": "Prénom ou surnom (optionnel)",
+        "label": "Prénom ou pseudo (optionnel)",
         "placeholder": "Jane ou @fan123"
       },
       "email": {
@@ -30,16 +38,16 @@
       },
       "message": {
         "label": "Message",
-        "placeholder": "Dites-moi en plus sur votre question ou demande..."
+        "placeholder": "Dites-en plus sur votre question ou votre demande..."
       },
       "button": "Envoyer le message",
       "buttonLoading": "Envoi..."
     },
     "bugReport": {
       "title": "Signaler un bug",
-      "description": "Partagez autant de détails que possible (navigateur, appareil, étapes pour reproduire)",
+      "description": "Partagez un maximum de détails (navigateur, appareil, étapes pour reproduire)",
       "firstName": {
-        "label": "Prénom ou surnom (optionnel)",
+        "label": "Prénom ou pseudo (optionnel)",
         "placeholder": "Jane ou @fan123"
       },
       "email": {
