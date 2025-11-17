@@ -1,74 +1,5 @@
 [
   {
-    "id": "2083b8cd6af75159c25b0717b0e3e137",
-    "date": {
-      "date": "2025-11-15T21:30:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 12,
-    "homeTeam": {
-      "id": 1778,
-      "name": "SC Recife",
-      "crest": "https://crests.football-data.org/1778.png"
-    },
-    "awayTeam": {
-      "id": 1783,
-      "name": "CR Flamengo",
-      "crest": "https://crests.football-data.org/1783.png"
-    },
-    "lastUpdated": "2025-11-14T00:21:02Z"
-  },
-  {
-    "id": "7fddb0b59e64fea45bba2805d28fff33",
-    "date": {
-      "date": "2025-11-16T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 13,
-    "homeTeam": {
-      "id": 6685,
-      "name": "Santos FC",
-      "crest": "https://crests.football-data.org/6685.png"
-    },
-    "awayTeam": {
-      "id": 1769,
-      "name": "SE Palmeiras",
-      "crest": "https://crests.football-data.org/1769.png"
-    },
-    "lastUpdated": "2025-11-14T00:21:02Z"
-  },
-  {
-    "id": "db56c233c3e89cc0e836a264ebd57e87",
-    "date": {
-      "date": "2025-11-16T22:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 37,
-    "homeTeam": {
-      "id": 4286,
-      "name": "RB Bragantino",
-      "crest": "https://crests.football-data.org/4286.png"
-    },
-    "awayTeam": {
-      "id": 1766,
-      "name": "CA Mineiro",
-      "crest": "https://crests.football-data.org/1766.png"
-    },
-    "lastUpdated": "2025-11-12T20:21:04Z"
-  },
-  {
     "id": "7513687f0c02b59ed8095596b54eb208",
     "date": {
       "date": "2025-11-18T23:30:00Z"
@@ -89,7 +20,16 @@
       "name": "SC Recife",
       "crest": "https://crests.football-data.org/1778.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+      "venue": "Estádio Nilton Santos",
+      "geo": {
+        "latitude": -10.2821413,
+        "longitude": -48.3306497,
+        "name": "Estádio Nilton Santos, Avenida Ns 2, Palmas, Região Geográfica Imediata de Palmas, Região Geográfica Intermediária de Palmas, Tocantins, Região Norte, 77019-900, Brasil"
+      }
+    }
   },
   {
     "id": "de6363013bdf366a76a805b5b59fe6ee",
@@ -112,7 +52,16 @@
       "name": "EC Vitória",
       "crest": "https://crests.football-data.org/1782.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+      "venue": "Allianz Parque",
+      "geo": {
+        "latitude": -23.5274971,
+        "longitude": -46.6785281,
+        "name": "Allianz Parque, 1840, Rua Turiassu, Barra Funda, Perdizes, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05005-000, Brasil"
+      }
+    }
   },
   {
     "id": "2083b8cd6af75159c25b0717b0e3e137",
@@ -135,7 +84,16 @@
       "name": "CR Flamengo",
       "crest": "https://crests.football-data.org/1783.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.9121619,
+        "longitude": -43.2311861,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
   },
   {
     "id": "fcd21ad8d998b9434f001956bf90c460",
@@ -158,7 +116,16 @@
       "name": "Mirassol FC",
       "crest": "https://crests.football-data.org/4364.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+      "venue": "Estádio Urbano Caldeira",
+      "geo": {
+        "latitude": -23.9511157,
+        "longitude": -46.3389913,
+        "name": "Estádio Urbano Caldeira, Rua Princesa Isabel, Vila Belmiro, Santos, Região Imediata de Santos, Região Metropolitana da Baixada Santista, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 11075-501, Brasil"
+      }
+    }
   },
   {
     "id": "d7b6c6905ae1a417aa5312dbf7eefd82",
@@ -181,7 +148,16 @@
       "name": "CR Vasco da Gama",
       "crest": "https://crests.football-data.org/1780.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+      "venue": "Arena do Grêmio",
+      "geo": {
+        "latitude": -29.9740429,
+        "longitude": -51.1951073,
+        "name": "Arena do Grêmio, 110, Avenida Padre Leopoldo Brentano, Farrapos, Porto Alegre, Região Metropolitana de Porto Alegre, Região Geográfica Intermediária de Porto Alegre, Rio Grande do Sul, Região Sul, 90250-590, Brasil"
+      }
+    }
   },
   {
     "id": "661426b9ae5dfdc2c13dc9b79ecf987d",
@@ -204,7 +180,16 @@
       "name": "Cruzeiro EC",
       "crest": "https://crests.football-data.org/1771.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Hércules Galló 1547, Centro Caxias do Sul, RS 95090-110",
+      "venue": "Estádio Alfredo Jaconi",
+      "geo": {
+        "latitude": -29.162264,
+        "longitude": -51.1764503,
+        "name": "Estádio Alfredo Jaconi, 1547, Rua Hércules Galló, Centro, Primeiro Distrito, Caxias do Sul, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do Sul, Rio Grande do Sul, Região Sul, 95020-330, Brasil"
+      }
+    }
   },
   {
     "id": "0cc0124d85cd1b3b575d42ee3262ffcc",
@@ -227,7 +212,12 @@
       "name": "Fortaleza EC",
       "crest": "https://crests.football-data.org/3984.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+      "venue": "Estádio Governador Roberto Santos",
+      "geo": {}
+    }
   },
   {
     "id": "d33b5778319e4c8e74530ff325d707d2",
@@ -250,7 +240,16 @@
       "name": "São Paulo FC",
       "crest": "https://crests.football-data.org/1776.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+      "venue": "Neo Química Arena",
+      "geo": {
+        "latitude": -23.5453328,
+        "longitude": -46.4743055,
+        "name": "Neo Química Arena, 111, Avenida Miguel Inácio Curi, Cidade Antônio Estêvão de Carvalho, Itaquera, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 08295-005, Brasil"
+      }
+    }
   },
   {
     "id": "32dc5639d1e9fc65b46cf7e1e48d5a96",
@@ -273,7 +272,16 @@
       "name": "SC Internacional",
       "crest": "https://crests.football-data.org/6684.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Av. João Pessoa 3532, Porangabuçu Fortaleza, CE 60425-680",
+      "venue": "Estádio Castelão",
+      "geo": {
+        "latitude": -3.806742,
+        "longitude": -38.5216794,
+        "name": "Arena Castelão, 2901, Avenida Alberto Craveiro, Boa Vista/Castelão, Fortaleza, Região Geográfica Imediata de Fortaleza, Região Geográfica Intermediária de Fortaleza, Ceará, Região Nordeste, 60861-211, Brasil"
+      }
+    }
   },
   {
     "id": "20aad920a271a4a70e19ab4dcf1d7266",
@@ -296,7 +304,16 @@
       "name": "Grêmio FBPA",
       "crest": "https://crests.football-data.org/1767.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+      "venue": "Estádio Nilton Santos",
+      "geo": {
+        "latitude": -10.2821413,
+        "longitude": -48.3306497,
+        "name": "Estádio Nilton Santos, Avenida Ns 2, Palmas, Região Geográfica Imediata de Palmas, Região Geográfica Intermediária de Palmas, Tocantins, Região Norte, 77019-900, Brasil"
+      }
+    }
   },
   {
     "id": "19dc8cb7fd9c646c534ea96a47f52e47",
@@ -319,7 +336,16 @@
       "name": "RB Bragantino",
       "crest": "https://crests.football-data.org/4286.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rio de Janeiro, RJ",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.9121619,
+        "longitude": -43.2311861,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
   },
   {
     "id": "3e8dc443c1e9bf8cc7d7937364b67e5b",
@@ -342,7 +368,16 @@
       "name": "Fluminense FC",
       "crest": "https://crests.football-data.org/1765.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+      "venue": "Allianz Parque",
+      "geo": {
+        "latitude": -23.5274971,
+        "longitude": -46.6785281,
+        "name": "Allianz Parque, 1840, Rua Turiassu, Barra Funda, Perdizes, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05005-000, Brasil"
+      }
+    }
   },
   {
     "id": "528a4c40480b69d75db9b1969976b535",
@@ -365,7 +400,16 @@
       "name": "EC Juventude",
       "crest": "https://crests.football-data.org/4245_large.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "São Paulo, SP",
+      "venue": "Estádio do Morumbi",
+      "geo": {
+        "latitude": -23.6001016,
+        "longitude": -46.7201264,
+        "name": "MorumBIS, 1, Praça Roberto Gomes Pedrosa, Morumbi, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05653-070, Brasil"
+      }
+    }
   },
   {
     "id": "d7b6c6905ae1a417aa5312dbf7eefd82",
@@ -388,7 +432,12 @@
       "name": "CR Vasco da Gama",
       "crest": "https://crests.football-data.org/1780.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+      "venue": "Estádio Governador Roberto Santos",
+      "geo": {}
+    }
   },
   {
     "id": "de6363013bdf366a76a805b5b59fe6ee",
@@ -411,7 +460,16 @@
       "name": "EC Vitória",
       "crest": "https://crests.football-data.org/1782.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Sport Club do Recife S/N Recife, PE 50750-560",
+      "venue": "Estádio Adelmar da Costa Carvalho",
+      "geo": {
+        "latitude": -8.0630099,
+        "longitude": -34.9036005,
+        "name": "Estádio Adelmar da Costa Carvalho, Avenida Prefeito Lima Castro, Ilha do Retiro, Recife, Região Geográfica Imediata do Recife, Região Metropolitana do Recife, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, 50750-510, Brasil"
+      }
+    }
   },
   {
     "id": "2ed971d098492d8de009716178d0e5cd",
@@ -434,7 +492,16 @@
       "name": "SC Corinthians Paulista",
       "crest": "https://crests.football-data.org/1779.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+      "venue": "Estádio Governador Magalhães Pinto",
+      "geo": {
+        "latitude": -19.8659115,
+        "longitude": -43.9710434,
+        "name": "Estádio Governador Magalhães Pinto, 1001, Avenida Antônio Abrahão Caram, São Luiz, Campus UFMG, Pampulha, Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, 31275-000, Brasil"
+      }
+    }
   },
   {
     "id": "8c751be021b67416bed5c8b13cf9d0d3",
@@ -457,7 +524,16 @@
       "name": "Ceará SC",
       "crest": "https://crests.football-data.org/1837.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Mirassol, SP",
+      "venue": "Estádio José Maria de Campos Maia",
+      "geo": {
+        "latitude": -22.938128,
+        "longitude": -45.4658011,
+        "name": "Estádio do Cardosão (Campo do Corinthians), Rua do Cardoso, Alto do Cardoso, Centro, Pindamonhangaba, Região Imediata de Taubaté-Pindamonhangaba, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, 12420-010, Brasil"
+      }
+    }
   },
   {
     "id": "37a36aafcca5f9e36a9da4e195de1b13",
@@ -480,7 +556,12 @@
       "name": "Santos FC",
       "crest": "https://crests.football-data.org/6685.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+      "venue": "Estádio José Pinheiro Borba",
+      "geo": {}
+    }
   },
   {
     "id": "2083b8cd6af75159c25b0717b0e3e137",
@@ -503,7 +584,16 @@
       "name": "CR Flamengo",
       "crest": "https://crests.football-data.org/1783.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+      "venue": "Estádio Raimundo Sampaio",
+      "geo": {
+        "latitude": -19.9083526,
+        "longitude": -43.917778,
+        "name": "Estádio Raimundo Sampaio (Arena Independência), 3230, Rua Pitangui, Horto, Regional Leste, Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, 31030-010, Brasil"
+      }
+    }
   },
   {
     "id": "7fddb0b59e64fea45bba2805d28fff33",
@@ -526,7 +616,16 @@
       "name": "SE Palmeiras",
       "crest": "https://crests.football-data.org/1769.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+      "venue": "Arena do Grêmio",
+      "geo": {
+        "latitude": -29.9740429,
+        "longitude": -51.1951073,
+        "name": "Arena do Grêmio, 110, Avenida Padre Leopoldo Brentano, Farrapos, Porto Alegre, Região Metropolitana de Porto Alegre, Região Geográfica Intermediária de Porto Alegre, Rio Grande do Sul, Região Sul, 90250-590, Brasil"
+      }
+    }
   },
   {
     "id": "0cc0124d85cd1b3b575d42ee3262ffcc",
@@ -549,7 +648,16 @@
       "name": "Fortaleza EC",
       "crest": "https://crests.football-data.org/3984.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+      "venue": "Estádio Nabi Abi Chedid",
+      "geo": {
+        "latitude": -22.9653902,
+        "longitude": -46.5368855,
+        "name": "Estádio Nabi Abi Chedid, 157, Rua Madre Paulina, Jardim São José, Bragança Paulista, Região Imediata de Bragança Paulista, Região Geográfica Intermediária de Campinas, São Paulo, Região Sudeste, 12914-410, Brasil"
+      }
+    }
   },
   {
     "id": "d33b5778319e4c8e74530ff325d707d2",
@@ -572,7 +680,16 @@
       "name": "São Paulo FC",
       "crest": "https://crests.football-data.org/1776.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.9121619,
+        "longitude": -43.2311861,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
   },
   {
     "id": "388267cb101bcfd058f180ced55947c5",
@@ -595,7 +712,16 @@
       "name": "EC Bahia",
       "crest": "https://crests.football-data.org/1777.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Hércules Galló 1547, Centro Caxias do Sul, RS 95090-110",
+      "venue": "Estádio Alfredo Jaconi",
+      "geo": {
+        "latitude": -29.162264,
+        "longitude": -51.1764503,
+        "name": "Estádio Alfredo Jaconi, 1547, Rua Hércules Galló, Centro, Primeiro Distrito, Caxias do Sul, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do Sul, Rio Grande do Sul, Região Sul, 95020-330, Brasil"
+      }
+    }
   },
   {
     "id": "32dc5639d1e9fc65b46cf7e1e48d5a96",
@@ -618,7 +744,12 @@
       "name": "SC Internacional",
       "crest": "https://crests.football-data.org/6684.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+      "venue": "Estádio Club de Regatas Vasco da Gama",
+      "geo": {}
+    }
   },
   {
     "id": "7513687f0c02b59ed8095596b54eb208",
@@ -641,7 +772,48 @@
       "name": "SC Recife",
       "crest": "https://crests.football-data.org/1778.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+      "venue": "Estádio Urbano Caldeira",
+      "geo": {
+        "latitude": -23.9511157,
+        "longitude": -46.3389913,
+        "name": "Estádio Urbano Caldeira, Rua Princesa Isabel, Vila Belmiro, Santos, Região Imediata de Santos, Região Metropolitana da Baixada Santista, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 11075-501, Brasil"
+      }
+    }
+  },
+  {
+    "id": "fcd21ad8d998b9434f001956bf90c460",
+    "date": {
+      "date": "2025-11-29T19:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 36,
+    "homeTeam": {
+      "id": 1782,
+      "name": "EC Vitória",
+      "crest": "https://crests.football-data.org/1782.png"
+    },
+    "awayTeam": {
+      "id": 4364,
+      "name": "Mirassol FC",
+      "crest": "https://crests.football-data.org/4364.png"
+    },
+    "lastUpdated": "2025-11-14T15:21:14Z",
+    "stadium": {
+      "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+      "venue": "Estádio Manoel Barradas",
+      "geo": {
+        "latitude": -12.9190959,
+        "longitude": -38.4271321,
+        "name": "Estádio Manoel Barradas, Avenida Artêmio Castro Valente, Salvador, Região Geográfica Imediata de Salvador, Região Metropolitana de Salvador, Região Geográfica Intermediária de Salvador, Bahia, Região Nordeste, 41385-005, Brasil"
+      }
+    }
   },
   {
     "id": "661426b9ae5dfdc2c13dc9b79ecf987d",
@@ -664,30 +836,16 @@
       "name": "Cruzeiro EC",
       "crest": "https://crests.football-data.org/1771.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
-  },
-  {
-    "id": "fcd21ad8d998b9434f001956bf90c460",
-    "date": {
-      "date": "2025-11-30T18:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 36,
-    "homeTeam": {
-      "id": 1782,
-      "name": "EC Vitória",
-      "crest": "https://crests.football-data.org/1782.png"
-    },
-    "awayTeam": {
-      "id": 4364,
-      "name": "Mirassol FC",
-      "crest": "https://crests.football-data.org/4364.png"
-    },
-    "lastUpdated": "2025-11-08T00:21:04Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Av. João Pessoa 3532, Porangabuçu Fortaleza, CE 60425-680",
+      "venue": "Estádio Castelão",
+      "geo": {
+        "latitude": -3.806742,
+        "longitude": -38.5216794,
+        "name": "Arena Castelão, 2901, Avenida Alberto Craveiro, Boa Vista/Castelão, Fortaleza, Região Geográfica Imediata de Fortaleza, Região Geográfica Intermediária de Fortaleza, Ceará, Região Nordeste, 60861-211, Brasil"
+      }
+    }
   },
   {
     "id": "6961dc5cd527554646b4c6fec6b28fc9",
@@ -710,7 +868,16 @@
       "name": "Botafogo FR",
       "crest": "https://crests.football-data.org/1770.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+      "venue": "Neo Química Arena",
+      "geo": {
+        "latitude": -23.5453328,
+        "longitude": -46.4743055,
+        "name": "Neo Química Arena, 111, Avenida Miguel Inácio Curi, Cidade Antônio Estêvão de Carvalho, Itaquera, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 08295-005, Brasil"
+      }
+    }
   },
   {
     "id": "db56c233c3e89cc0e836a264ebd57e87",
@@ -733,7 +900,16 @@
       "name": "CA Mineiro",
       "crest": "https://crests.football-data.org/1766.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Senador Fernandes Távora 200, Pici Fortaleza, CE 60510-290",
+      "venue": "Estádio Castelão",
+      "geo": {
+        "latitude": -3.806742,
+        "longitude": -38.5216794,
+        "name": "Arena Castelão, 2901, Avenida Alberto Craveiro, Boa Vista/Castelão, Fortaleza, Região Geográfica Imediata de Fortaleza, Região Geográfica Intermediária de Fortaleza, Ceará, Região Nordeste, 60861-211, Brasil"
+      }
+    }
   },
   {
     "id": "fcd21ad8d998b9434f001956bf90c460",
@@ -756,7 +932,12 @@
       "name": "Mirassol FC",
       "crest": "https://crests.football-data.org/4364.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+      "venue": "Estádio Club de Regatas Vasco da Gama",
+      "geo": {}
+    }
   },
   {
     "id": "32dc5639d1e9fc65b46cf7e1e48d5a96",
@@ -779,7 +960,16 @@
       "name": "SC Internacional",
       "crest": "https://crests.football-data.org/6684.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "São Paulo, SP",
+      "venue": "Estádio do Morumbi",
+      "geo": {
+        "latitude": -23.6001016,
+        "longitude": -46.7201264,
+        "name": "MorumBIS, 1, Praça Roberto Gomes Pedrosa, Morumbi, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05653-070, Brasil"
+      }
+    }
   },
   {
     "id": "6961dc5cd527554646b4c6fec6b28fc9",
@@ -802,7 +992,16 @@
       "name": "Botafogo FR",
       "crest": "https://crests.football-data.org/1770.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+      "venue": "Estádio Governador Magalhães Pinto",
+      "geo": {
+        "latitude": -19.8659115,
+        "longitude": -43.9710434,
+        "name": "Estádio Governador Magalhães Pinto, 1001, Avenida Antônio Abrahão Caram, São Luiz, Campus UFMG, Pampulha, Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, 31275-000, Brasil"
+      }
+    }
   },
   {
     "id": "3e8dc443c1e9bf8cc7d7937364b67e5b",
@@ -825,7 +1024,16 @@
       "name": "Fluminense FC",
       "crest": "https://crests.football-data.org/1765.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+      "venue": "Arena do Grêmio",
+      "geo": {
+        "latitude": -29.9740429,
+        "longitude": -51.1951073,
+        "name": "Arena do Grêmio, 110, Avenida Padre Leopoldo Brentano, Farrapos, Porto Alegre, Região Metropolitana de Porto Alegre, Região Geográfica Intermediária de Porto Alegre, Rio Grande do Sul, Região Sul, 90250-590, Brasil"
+      }
+    }
   },
   {
     "id": "7513687f0c02b59ed8095596b54eb208",
@@ -848,7 +1056,12 @@
       "name": "SC Recife",
       "crest": "https://crests.football-data.org/1778.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+      "venue": "Estádio Governador Roberto Santos",
+      "geo": {}
+    }
   },
   {
     "id": "2ed971d098492d8de009716178d0e5cd",
@@ -871,7 +1084,16 @@
       "name": "SC Corinthians Paulista",
       "crest": "https://crests.football-data.org/1779.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Avenida Senador Fernandes Távora 200, Pici Fortaleza, CE 60510-290",
+      "venue": "Estádio Castelão",
+      "geo": {
+        "latitude": -3.806742,
+        "longitude": -38.5216794,
+        "name": "Arena Castelão, 2901, Avenida Alberto Craveiro, Boa Vista/Castelão, Fortaleza, Região Geográfica Imediata de Fortaleza, Região Geográfica Intermediária de Fortaleza, Ceará, Região Nordeste, 60861-211, Brasil"
+      }
+    }
   },
   {
     "id": "37a36aafcca5f9e36a9da4e195de1b13",
@@ -894,7 +1116,16 @@
       "name": "Santos FC",
       "crest": "https://crests.football-data.org/6685.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Hércules Galló 1547, Centro Caxias do Sul, RS 95090-110",
+      "venue": "Estádio Alfredo Jaconi",
+      "geo": {
+        "latitude": -29.162264,
+        "longitude": -51.1764503,
+        "name": "Estádio Alfredo Jaconi, 1547, Rua Hércules Galló, Centro, Primeiro Distrito, Caxias do Sul, Região Geográfica Imediata de Caxias do Sul, Região Geográfica Intermediária de Caxias do Sul, Rio Grande do Sul, Região Sul, 95020-330, Brasil"
+      }
+    }
   },
   {
     "id": "8c751be021b67416bed5c8b13cf9d0d3",
@@ -917,7 +1148,16 @@
       "name": "Ceará SC",
       "crest": "https://crests.football-data.org/1837.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rio de Janeiro, RJ",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.9121619,
+        "longitude": -43.2311861,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
   },
   {
     "id": "7fddb0b59e64fea45bba2805d28fff33",
@@ -940,7 +1180,16 @@
       "name": "SE Palmeiras",
       "crest": "https://crests.football-data.org/1769.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+      "venue": "Estádio Raimundo Sampaio",
+      "geo": {
+        "latitude": -19.9083526,
+        "longitude": -43.917778,
+        "name": "Estádio Raimundo Sampaio (Arena Independência), 3230, Rua Pitangui, Horto, Regional Leste, Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, 31030-010, Brasil"
+      }
+    }
   },
   {
     "id": "388267cb101bcfd058f180ced55947c5",
@@ -963,7 +1212,16 @@
       "name": "EC Bahia",
       "crest": "https://crests.football-data.org/1777.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.9121619,
+        "longitude": -43.2311861,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
   },
   {
     "id": "0cc0124d85cd1b3b575d42ee3262ffcc",
@@ -986,7 +1244,16 @@
       "name": "Fortaleza EC",
       "crest": "https://crests.football-data.org/3984.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+      "venue": "Estádio Nilton Santos",
+      "geo": {
+        "latitude": -10.2821413,
+        "longitude": -48.3306497,
+        "name": "Estádio Nilton Santos, Avenida Ns 2, Palmas, Região Geográfica Imediata de Palmas, Região Geográfica Intermediária de Palmas, Tocantins, Região Norte, 77019-900, Brasil"
+      }
+    }
   },
   {
     "id": "661426b9ae5dfdc2c13dc9b79ecf987d",
@@ -1009,7 +1276,16 @@
       "name": "Cruzeiro EC",
       "crest": "https://crests.football-data.org/1771.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+      "venue": "Estádio Urbano Caldeira",
+      "geo": {
+        "latitude": -23.9511157,
+        "longitude": -46.3389913,
+        "name": "Estádio Urbano Caldeira, Rua Princesa Isabel, Vila Belmiro, Santos, Região Imediata de Santos, Região Metropolitana da Baixada Santista, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 11075-501, Brasil"
+      }
+    }
   },
   {
     "id": "2083b8cd6af75159c25b0717b0e3e137",
@@ -1032,7 +1308,16 @@
       "name": "CR Flamengo",
       "crest": "https://crests.football-data.org/1783.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Mirassol, SP",
+      "venue": "Estádio José Maria de Campos Maia",
+      "geo": {
+        "latitude": -22.938128,
+        "longitude": -45.4658011,
+        "name": "Estádio do Cardosão (Campo do Corinthians), Rua do Cardoso, Alto do Cardoso, Centro, Pindamonhangaba, Região Imediata de Taubaté-Pindamonhangaba, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, 12420-010, Brasil"
+      }
+    }
   },
   {
     "id": "d7b6c6905ae1a417aa5312dbf7eefd82",
@@ -1055,7 +1340,16 @@
       "name": "CR Vasco da Gama",
       "crest": "https://crests.football-data.org/1780.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+      "venue": "Estádio Raimundo Sampaio",
+      "geo": {
+        "latitude": -19.9083526,
+        "longitude": -43.917778,
+        "name": "Estádio Raimundo Sampaio (Arena Independência), 3230, Rua Pitangui, Horto, Regional Leste, Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, 31030-010, Brasil"
+      }
+    }
   },
   {
     "id": "19dc8cb7fd9c646c534ea96a47f52e47",
@@ -1078,7 +1372,12 @@
       "name": "RB Bragantino",
       "crest": "https://crests.football-data.org/4286.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+      "venue": "Estádio José Pinheiro Borba",
+      "geo": {}
+    }
   },
   {
     "id": "d33b5778319e4c8e74530ff325d707d2",
@@ -1101,7 +1400,16 @@
       "name": "São Paulo FC",
       "crest": "https://crests.football-data.org/1776.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+      "venue": "Estádio Manoel Barradas",
+      "geo": {
+        "latitude": -12.9190959,
+        "longitude": -38.4271321,
+        "name": "Estádio Manoel Barradas, Avenida Artêmio Castro Valente, Salvador, Região Geográfica Imediata de Salvador, Região Metropolitana de Salvador, Região Geográfica Intermediária de Salvador, Bahia, Região Nordeste, 41385-005, Brasil"
+      }
+    }
   },
   {
     "id": "20aad920a271a4a70e19ab4dcf1d7266",
@@ -1124,7 +1432,16 @@
       "name": "Grêmio FBPA",
       "crest": "https://crests.football-data.org/1767.png"
     },
-    "lastUpdated": "2025-11-07T20:20:51Z"
+    "lastUpdated": "2025-11-07T20:20:51Z",
+    "stadium": {
+      "address": "Rua Sport Club do Recife S/N Recife, PE 50750-560",
+      "venue": "Estádio Adelmar da Costa Carvalho",
+      "geo": {
+        "latitude": -8.0630099,
+        "longitude": -34.9036005,
+        "name": "Estádio Adelmar da Costa Carvalho, Avenida Prefeito Lima Castro, Ilha do Retiro, Recife, Região Geográfica Imediata do Recife, Região Metropolitana do Recife, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, 50750-510, Brasil"
+      }
+    }
   },
   {
     "id": "528a4c40480b69d75db9b1969976b535",
@@ -1147,7 +1464,16 @@
       "name": "EC Juventude",
       "crest": "https://crests.football-data.org/4245_large.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+      "venue": "Neo Química Arena",
+      "geo": {
+        "latitude": -23.5453328,
+        "longitude": -46.4743055,
+        "name": "Neo Química Arena, 111, Avenida Miguel Inácio Curi, Cidade Antônio Estêvão de Carvalho, Itaquera, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 08295-005, Brasil"
+      }
+    }
   },
   {
     "id": "7fddb0b59e64fea45bba2805d28fff33",
@@ -1170,6 +1496,15 @@
       "name": "SE Palmeiras",
       "crest": "https://crests.football-data.org/1769.png"
     },
-    "lastUpdated": "2025-11-14T00:21:02Z"
+    "lastUpdated": "2025-11-16T20:21:06Z",
+    "stadium": {
+      "address": "Av. João Pessoa 3532, Porangabuçu Fortaleza, CE 60425-680",
+      "venue": "Estádio Castelão",
+      "geo": {
+        "latitude": -3.806742,
+        "longitude": -38.5216794,
+        "name": "Arena Castelão, 2901, Avenida Alberto Craveiro, Boa Vista/Castelão, Fortaleza, Região Geográfica Imediata de Fortaleza, Região Geográfica Intermediária de Fortaleza, Ceará, Região Nordeste, 60861-211, Brasil"
+      }
+    }
   }
 ]
