@@ -1,265 +1,186 @@
-[
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
+{
+  "competitionName": "III Liga, grupa I",
+  "count": 10,
+  "matches": [
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Legia II Warszawa",
+        "crest": "https://crests.football-data.org/1105.png"
+      },
+      "awayTeam": {
+        "name": "Znicz Biała Piska",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-26",
+        "dateTime": "2025-11-26T11:00:00.000Z"
+      },
+      "id": "889c286802571e72662d9aca34763ae0"
     },
-    "homeTeam": {
-      "name": "Legia II Warszawa",
-      "crest": "https://crests.football-data.org/1105.png"
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "date": {
+        "date": "2025-11-28",
+        "dateTime": "2025-11-28T18:00:00.000Z"
+      },
+      "id": "48b1f55a24e7603f570ce1516321eda8"
     },
-    "awayTeam": {
-      "name": "Znicz Biała Piska",
-      "crest": null
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Jagiellonia II Białystok",
+        "crest": "https://crests.football-data.org/5631.png"
+      },
+      "awayTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "dde5aad63c0cf47ab62f77ee3016a1d1"
     },
-    "date": {
-      "date": "2025-11-26",
-      "dateTime": "2025-11-26T12:00:00.000Z"
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Znicz Biała Piska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "1e074574022d21313f358c8d6d75faed"
     },
-    "id": "889c286802571e72662d9aca34763ae0",
-    "stadium": {
-      "address": "Łazienkowska 3 Warszawa 00-449",
-      "venue": null,
-      "geo": {
-        "latitude": 52.220252,
-        "longitude": 21.0407266,
-        "name": "Stadion Miejski Legii Warszawa, 3, Łazienkowska, Powiśle-Solec, Ujazdów, Śródmieście, Warszawa, województwo mazowieckie, 00-449, Polska"
-      }
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "KS CK Troszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "e3a80c3d69327042b594b533a970437f"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "KS Wasilków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Wikielec",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "d16f63fc93aed07e71648ab9856e37e3"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wigry Suwałki",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "dd8718491b7323bbddcb2d80bde90f4b"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Broń Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Bełchatów",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T17:00:00.000Z"
+      },
+      "id": "07375f0200c8c4ba030796720dc2ccc2"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Legia II Warszawa",
+        "crest": "https://crests.football-data.org/1105.png"
+      },
+      "awayTeam": {
+        "name": "Mławianka Mława",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-30",
+        "dateTime": "2025-11-30T11:00:00.000Z"
+      },
+      "id": "eba3847f9571ad354701d12a0a0ff727"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "awayTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-30",
+        "dateTime": "2025-11-30T11:00:00.000Z"
+      },
+      "id": "738e695749e369437fcff88169b0da2e"
     }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "Warta Sieradz",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Olimpia Elbląg",
-      "crest": "https://crests.football-data.org/8874.png"
-    },
-    "date": {
-      "date": "2025-11-28",
-      "dateTime": "2025-11-28T19:00:00.000Z"
-    },
-    "id": "48b1f55a24e7603f570ce1516321eda8",
-    "stadium": {
-      "address": "Sportowa 1 Sieradz 98-200",
-      "venue": null,
-      "geo": {
-        "latitude": 51.596576,
-        "longitude": 18.7479034,
-        "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "Jagiellonia II Białystok",
-      "crest": "https://crests.football-data.org/5631.png"
-    },
-    "awayTeam": {
-      "name": "Lechia Tomaszów Mazowiecki",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "dde5aad63c0cf47ab62f77ee3016a1d1",
-    "stadium": {
-      "venue": "Ośrodek treningowy Jagiellonii Białystok (ul. Elewatorska 4/6A)",
-      "geo": {
-        "latitude": 53.129508,
-        "longitude": 23.077261,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "Znicz Biała Piska",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Wisła II Płock",
-      "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "1e074574022d21313f358c8d6d75faed",
-    "stadium": {
-      "venue": "Stadion Miejski w Białej Piskiej (ul. Sportowa 1, 12-230 Biała Piska)",
-      "geo": {
-        "latitude": 53.622,
-        "longitude": 21.815,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "KS CK Troszyn",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Świt Nowy Dwór Mazowiecki",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "e3a80c3d69327042b594b533a970437f",
-    "stadium": {
-      "venue": "Stadion w Troszynie (ul. Juliusza Słowackiego / Wesoła, 07-405 Troszyn)",
-      "geo": {
-        "latitude": 53.03232213970085,
-        "longitude": 21.72133388382786,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "KS Wasilków",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "GKS Wikielec",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "d16f63fc93aed07e71648ab9856e37e3",
-    "stadium": {
-      "venue": "Stadion Miejski w Wasilkowie (ul. Supraślska 21)",
-      "geo": {
-        "latitude": 53.23613,
-        "longitude": 23.28896,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "Ząbkovia Ząbki",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Wigry Suwałki",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "dd8718491b7323bbddcb2d80bde90f4b",
-    "stadium": {
-      "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
-      "geo": {
-        "latitude": 52.292778,
-        "longitude": 21.121944,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "Broń Radom",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "GKS Bełchatów",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T18:00:00.000Z"
-    },
-    "id": "07375f0200c8c4ba030796720dc2ccc2",
-    "stadium": {
-      "venue": "Stadion Lekkoatletyczno-Piłkarski im. Marszałka Józefa Piłsudskiego (MOSiR Radom)",
-      "geo": {
-        "latitude": 51.403611,
-        "longitude": 21.156667,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "Legia II Warszawa",
-      "crest": "https://crests.football-data.org/1105.png"
-    },
-    "awayTeam": {
-      "name": "Mławianka Mława",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-30",
-      "dateTime": "2025-11-30T12:00:00.000Z"
-    },
-    "id": "eba3847f9571ad354701d12a0a0ff727",
-    "stadium": {
-      "address": "Łazienkowska 3 Warszawa 00-449",
-      "venue": null,
-      "geo": {
-        "latitude": 52.220252,
-        "longitude": 21.0407266,
-        "name": "Stadion Miejski Legii Warszawa, 3, Łazienkowska, Powiśle-Solec, Ujazdów, Śródmieście, Warszawa, województwo mazowieckie, 00-449, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa I"
-    },
-    "homeTeam": {
-      "name": "Widzew II Łódź",
-      "crest": "https://crests.football-data.org/8465.png"
-    },
-    "awayTeam": {
-      "name": "ŁKS Łomża",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-30",
-      "dateTime": "2025-11-30T12:00:00.000Z"
-    },
-    "id": "738e695749e369437fcff88169b0da2e",
-    "stadium": {
-      "venue": "Ośrodek Sportu „Łodzianka” (boiska treningowe Widzewa)",
-      "geo": {
-        "latitude": 51.768889,
-        "longitude": 19.494444,
-        "name": null
-      }
-    }
-  }
-]
+  ]
+}

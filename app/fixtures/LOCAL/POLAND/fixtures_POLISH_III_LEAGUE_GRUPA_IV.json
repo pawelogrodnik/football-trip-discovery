@@ -1,245 +1,168 @@
-[
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
+{
+  "competitionName": "III Liga, grupa IV",
+  "count": 9,
+  "matches": [
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-28",
+        "dateTime": "2025-11-28T12:30:00.000Z"
+      },
+      "id": "ea73e0cfc4354f568826b8a73cb8a168"
     },
-    "homeTeam": {
-      "name": "Sparta Kazimierza Wielka",
-      "crest": null
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Avia Świdnik",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Herb_Avii_%C5%9Awidnik_-_70-cio_lecie.svg"
+      },
+      "awayTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "037ca692f839934841fb0e858716b50c"
     },
-    "awayTeam": {
-      "name": "Wiślanie Skawina",
-      "crest": null
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "4d8b701168ea892a9cc7329435a40ed8"
     },
-    "date": {
-      "date": "2025-11-28",
-      "dateTime": "2025-11-28T13:30:00.000Z"
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Stal Kraśnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Kraków",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "59e6495f67ee5ceff7ae0ed8dc208062"
     },
-    "id": "ea73e0cfc4354f568826b8a73cb8a168",
-    "stadium": {
-      "venue": "Stadion Miejski w Kazimierzy Wielkiej",
-      "address": "Głowackiego 42, Kazimierza Wielka",
-      "geo": {
-        "latitude": 50.2672429,
-        "longitude": 20.4998235,
-        "name": "42, Bartosza Głowackiego, Wesoła, Kazimierza Wielka, gmina Kazimierza Wielka, powiat kazimierski, województwo świętokrzyskie, 28-500, Polska"
-      }
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świdniczanka Świdnik",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "972c15d010028dcae1053fd2919f0976"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełmianka Chełm",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "e80d491a297c07e545fbe1bde90cafac"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "KSZO 1929 Ostrowiec Świętokrzyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T14:00:00.000Z"
+      },
+      "id": "5326015d0c2c830c92d647ea97f1c4db"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Cracovia II",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Akt_Erekcyjny_Cracovia-R%C4%85czna-1_%28cropped%29.jpg?20211214174718"
+      },
+      "awayTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T15:00:00.000Z"
+      },
+      "id": "3ce3140c6c71f5d894410ea515f25e3a"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona II Kielce",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T15:00:00.000Z"
+      },
+      "id": "24f8320072ad69c7af8cf8477bda725f"
     }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "Avia Świdnik",
-      "crest": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Herb_Avii_%C5%9Awidnik_-_70-cio_lecie.svg"
-    },
-    "awayTeam": {
-      "name": "Naprzód Jędrzejów",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "037ca692f839934841fb0e858716b50c",
-    "stadium": {
-      "address": "Sportowa 2, 21-040 Świdnik",
-      "venue": "Stadion Miejski MKS Avia świdnik",
-      "geo": {
-        "latitude": 51.22533691924313,
-        "longitude": 22.69327393160398,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "Czarni Połaniec",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Pogoń-Sokół Lubaczów",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "4d8b701168ea892a9cc7329435a40ed8",
-    "stadium": {
-      "venue": "Stadion OSiR w Połańcu",
-      "address": "Sportowa 1, Połaniec",
-      "geo": {
-        "latitude": 50.4410566,
-        "longitude": 21.2833896,
-        "name": "Sportowa, Połaniec, gmina Połaniec, powiat staszowski, województwo świętokrzyskie, 28-230, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "Stal Kraśnik",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Wisła II Kraków",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "59e6495f67ee5ceff7ae0ed8dc208062",
-    "stadium": {
-      "venue": "Stadion MOSiR Kraśnik",
-      "address": "Żwirki i Wigury 2, Kraśnik",
-      "geo": {
-        "latitude": 50.9644951,
-        "longitude": 22.1609848,
-        "name": "2, Żwirki i Wigury, Osiedle Metalowiec, Kraśnik Fabryczny, Kraśnik, powiat kraśnicki, województwo lubelskie, 23-204, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "Siarka Tarnobrzeg",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Świdniczanka Świdnik",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "972c15d010028dcae1053fd2919f0976",
-    "stadium": {
-      "address": "Aleja Niepodległości 2 Tarnobrzeg 39-400",
-      "venue": null,
-      "geo": {
-        "latitude": 50.5672776,
-        "longitude": 21.6671497,
-        "name": "3/2, Aleja Niepodległości, Przywiśle, Tarnobrzeg, województwo podkarpackie, 39-400, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "Sokół Kolbuszowa Dolna",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Chełmianka Chełm",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "e80d491a297c07e545fbe1bde90cafac",
-    "stadium": {
-      "venue": "Stadion Miejski w Kolbuszowej",
-      "address": "Wolska 2, Kolbuszowa",
-      "geo": {
-        "latitude": 50.235838,
-        "longitude": 21.7682199,
-        "name": "2, Wolska, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "KSZO 1929 Ostrowiec Świętokrzyski",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Wisłoka Dębica",
-      "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T15:00:00.000Z"
-    },
-    "id": "5326015d0c2c830c92d647ea97f1c4db",
-    "stadium": {
-      "address": "Ostrowiec Świętokrzyski",
-      "venue": "Stadion Miejskiego Klubu Sportowego KSZO Ostrowiec Świętokrzyski",
-      "geo": {
-        "latitude": 50.92463351518723,
-        "longitude": 21.37827153427341,
-        "name": null
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "Cracovia II",
-      "crest": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Akt_Erekcyjny_Cracovia-R%C4%85czna-1_%28cropped%29.jpg?20211214174718"
-    },
-    "awayTeam": {
-      "name": "Star Starachowice",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T16:00:00.000Z"
-    },
-    "id": "3ce3140c6c71f5d894410ea515f25e3a",
-    "stadium": {
-      "venue": "Cracovia Training Center (Rączna)",
-      "address": "Rączna 757, Rączna",
-      "geo": {
-        "latitude": 50.001477,
-        "longitude": 19.7667605,
-        "name": "Cracovia Training Center, Królewska, Powieszon, Rączna, gmina Liszki, powiat krakowski, województwo małopolskie, 32-060, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa IV"
-    },
-    "homeTeam": {
-      "name": "Podlasie Biała Podlaska",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Korona II Kielce",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T16:00:00.000Z"
-    },
-    "id": "24f8320072ad69c7af8cf8477bda725f",
-    "stadium": {
-      "venue": "Stadion Miejski w Białej Podlaskiej",
-      "address": "Piłsudskiego 38, Biała Podlaska",
-      "geo": {
-        "latitude": 52.0375032,
-        "longitude": 23.1115082,
-        "name": "38, Marszałka Józefa Piłsudskiego, Osiedle Jagiellońskie, Biała Podlaska, województwo lubelskie, 21-500, Polska"
-      }
-    }
-  }
-]
+  ]
+}

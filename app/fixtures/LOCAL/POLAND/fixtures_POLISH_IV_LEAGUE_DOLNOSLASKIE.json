@@ -1,29 +1,24 @@
-[
-  {
-    "competition": {
-      "name": "IV Liga Dolnośląska"
-    },
-    "homeTeam": {
-      "name": "Piast Żmigród",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Lechia Dzierżoniów",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "49c4755e54f4a833854631f3c1e7bd18",
-    "stadium": {
-      "venue": "Stadion Miejski w Żmigrodzie",
-      "address": "Parkowa 12, Żmigród",
-      "geo": {
-        "latitude": 51.4791022,
-        "longitude": 16.9173911,
-        "name": "Leśny Kompleks Promocyjny Lasy Doliny Baryczy, 12, Parkowa, Żmigród, gmina Żmigród, powiat trzebnicki, województwo dolnośląskie, 55-140, Polska"
-      }
+{
+  "competitionName": "IV Liga Dolnośląska",
+  "count": 1,
+  "matches": [
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "49c4755e54f4a833854631f3c1e7bd18"
     }
-  }
-]
+  ]
+}

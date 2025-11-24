@@ -1,299 +1,204 @@
-[
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
+{
+  "competitionName": "III Liga, grupa II",
+  "count": 11,
+  "matches": [
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Szczecin",
+        "crest": "https://crests.football-data.org/5650.png"
+      },
+      "awayTeam": {
+        "name": "Wybrzeże Rewalskie Rewal",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-26",
+        "dateTime": "2025-11-26T16:30:00.000Z"
+      },
+      "id": "e3b70e4f6a53216ac070b90293f81ca2"
     },
-    "homeTeam": {
-      "name": "Pogoń II Szczecin",
-      "crest": "https://crests.football-data.org/5650.png"
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Wikęd Luzino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-28",
+        "dateTime": "2025-11-28T12:00:00.000Z"
+      },
+      "id": "8090082d1b95a17f7a8ec8dfccc45813"
     },
-    "awayTeam": {
-      "name": "Wybrzeże Rewalskie Rewal",
-      "crest": null
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Wielkopolska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-28",
+        "dateTime": "2025-11-28T18:00:00.000Z"
+      },
+      "id": "db6e91420c1ed009ea48e492f3efdbec"
     },
-    "date": {
-      "date": "2025-11-26",
-      "dateTime": "2025-11-26T17:30:00.000Z"
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Elana Toruń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "fcc4da07814f7949760938077929d5eb"
     },
-    "id": "e3b70e4f6a53216ac070b90293f81ca2",
-    "stadium": {
-      "venue": "Stadion Młodzieżowy Pogoni Szczecin",
-      "address": "Karłowicza 28, Szczecin",
-      "geo": {
-        "latitude": 53.4370934,
-        "longitude": 14.517007,
-        "name": "28, Mieczysława Karłowicza, Pogodno, Zachód, Szczecin, województwo zachodniopomorskie, 71-101, Polska"
-      }
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lech II Poznań",
+        "crest": "https://crests.football-data.org/5634.png"
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "9c86fd1c4d0d7edf35074f3a24c0d5e5"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Noteć Czarnków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wybrzeże Rewalskie Rewal",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "b61ea1bb36e549a0a4b2406af3c34091"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wda Świecie",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "4ca3fbd43f928251daadfa67c11d64c1"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kluczevia Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "6963681ff75725a13106d3a0b4fd30c0"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Tłuchowia Tłuchowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawisza Bydgoszcz",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/3/35/Zawisza_Bydgoszcz_vector.svg"
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "b3acdfa5fddce7a598ed2a26377ee3cd"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Szczecin",
+        "crest": "https://crests.football-data.org/5650.png"
+      },
+      "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-30",
+        "dateTime": "2025-11-30T13:00:00.000Z"
+      },
+      "id": "ca1ed9eec59c518a1ff9c35ef889ff47"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lech II Poznań",
+        "crest": "https://crests.football-data.org/5634.png"
+      },
+      "date": {
+        "date": "2025-12-06",
+        "dateTime": "2025-12-06T12:00:00.000Z"
+      },
+      "id": "6fdb776d194ec7cce558cb83b02ae295"
     }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Wikęd Luzino",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Unia Swarzędz",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-28",
-      "dateTime": "2025-11-28T13:00:00.000Z"
-    },
-    "id": "8090082d1b95a17f7a8ec8dfccc45813",
-    "stadium": {
-      "venue": "Stadion GOSRiT Luzino",
-      "address": "Sportowa 1, Luzino",
-      "geo": {
-        "latitude": 54.5074261,
-        "longitude": 18.0379409,
-        "name": "Sportowa, Tępcz, gmina Luzino, powiat wejherowski, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Polonia Środa Wielkopolska",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Flota Świnoujście",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-28",
-      "dateTime": "2025-11-28T19:00:00.000Z"
-    },
-    "id": "db6e91420c1ed009ea48e492f3efdbec",
-    "stadium": {
-      "address": "Sportowa 12 Środa Wielkopolska 63-000",
-      "venue": null,
-      "geo": {
-        "latitude": 52.2223345,
-        "longitude": 17.2731512,
-        "name": "12, Sportowa, Środa Wielkopolska, gmina Środa Wielkopolska, powiat średzki, województwo wielkopolskie, 63-000, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Elana Toruń",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Błękitni Stargard",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "fcc4da07814f7949760938077929d5eb",
-    "stadium": {
-      "address": "Generała Józefa Bema 23/29 Toruń 87-100",
-      "venue": "Stadion Miejski im. Grzegorza Duneckiego",
-      "geo": {
-        "latitude": 53.019095,
-        "longitude": 18.5919038,
-        "name": "23-29, Generała Józefa Bema, Osiedle Józefa Bema, Chełmińskie Przedmieście, Toruń, województwo kujawsko-pomorskie, 87-100, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Lipno Stęszew",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Lech II Poznań",
-      "crest": "https://crests.football-data.org/5634.png"
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "9c86fd1c4d0d7edf35074f3a24c0d5e5",
-    "stadium": {
-      "venue": "Stadion Miejski w Stęszewie",
-      "address": "Kościańska 2, Stęszew",
-      "geo": {
-        "latitude": 52.27865,
-        "longitude": 16.69929,
-        "name": "2, Kościańska, Stęszew, gmina Stęszew, powiat poznański, województwo wielkopolskie, 62-060, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Noteć Czarnków",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Wybrzeże Rewalskie Rewal",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "b61ea1bb36e549a0a4b2406af3c34091",
-    "stadium": {
-      "venue": "Stadion Miejski w Czarnkowie",
-      "address": "Zamkowa 1, Czarnków",
-      "geo": {
-        "latitude": 52.95287,
-        "longitude": 16.51933,
-        "name": "1, Zamkowa, Kuźnica Czarnkowska, gmina Czarnków, powiat czarnkowsko-trzcianecki, województwo wielkopolskie, 64-700, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Victoria Września",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Wda Świecie",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "4ca3fbd43f928251daadfa67c11d64c1",
-    "stadium": {
-      "venue": "Stadion Miejski we Wrześni",
-      "address": "Kosynierów 1, Września",
-      "geo": {
-        "latitude": 52.3291241,
-        "longitude": 17.566651,
-        "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Kluczevia Stargard",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Pogoń Nowe Skalmierzyce",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "6963681ff75725a13106d3a0b4fd30c0",
-    "stadium": {
-      "venue": "Stadion Kluczevii Stargard",
-      "address": "Ceglana 3, Stargard",
-      "geo": {
-        "latitude": 53.3443851,
-        "longitude": 15.0189383,
-        "name": "Ceglana, Przedmieście Szczecińskie, Stargard, powiat stargardzki, województwo zachodniopomorskie, 73-110, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Tłuchowia Tłuchowo",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Zawisza Bydgoszcz",
-      "crest": "https://upload.wikimedia.org/wikipedia/commons/3/35/Zawisza_Bydgoszcz_vector.svg"
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "b3acdfa5fddce7a598ed2a26377ee3cd",
-    "stadium": {
-      "venue": "Boisko Sportowe Tłuchowia Tłuchowo",
-      "address": "Tłuchowo 90, Tłuchowo",
-      "geo": {
-        "latitude": 52.7468311,
-        "longitude": 19.4672663,
-        "name": "Tłuchowo, gmina Tłuchowo, powiat lipnowski, województwo kujawsko-pomorskie, 87-605, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Pogoń II Szczecin",
-      "crest": "https://crests.football-data.org/5650.png"
-    },
-    "awayTeam": {
-      "name": "Cartusia Kartuzy",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-30",
-      "dateTime": "2025-11-30T14:00:00.000Z"
-    },
-    "id": "ca1ed9eec59c518a1ff9c35ef889ff47",
-    "stadium": {
-      "venue": "Stadion Młodzieżowy Pogoni Szczecin",
-      "address": "Karłowicza 28, Szczecin",
-      "geo": {
-        "latitude": 53.4370934,
-        "longitude": 14.517007,
-        "name": "28, Mieczysława Karłowicza, Pogodno, Zachód, Szczecin, województwo zachodniopomorskie, 71-101, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa II"
-    },
-    "homeTeam": {
-      "name": "Victoria Września",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Lech II Poznań",
-      "crest": "https://crests.football-data.org/5634.png"
-    },
-    "date": {
-      "date": "2025-12-06",
-      "dateTime": "2025-12-06T13:00:00.000Z"
-    },
-    "id": "6fdb776d194ec7cce558cb83b02ae295",
-    "stadium": {
-      "venue": "Stadion Miejski we Wrześni",
-      "address": "Kosynierów 1, Września",
-      "geo": {
-        "latitude": 52.3291241,
-        "longitude": 17.566651,
-        "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
-      }
-    }
-  }
-]
+  ]
+}

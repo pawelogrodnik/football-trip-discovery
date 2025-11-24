@@ -1,244 +1,168 @@
-[
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
+{
+  "competitionName": "III Liga, grupa III",
+  "count": 9,
+  "matches": [
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Polonia Nysa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Polkowice",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-28",
+        "dateTime": "2025-11-28T17:00:00.000Z"
+      },
+      "id": "21c9d1949664687a0ce35c7eabcd3261"
     },
-    "homeTeam": {
-      "name": "Polonia Nysa",
-      "crest": null
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Skra Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Miedź II Legnica",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-28",
+        "dateTime": "2025-11-28T17:30:00.000Z"
+      },
+      "id": "8b896426d95ef9f85ff2ccbeedb69f1e"
     },
-    "awayTeam": {
-      "name": "Górnik Polkowice",
-      "crest": null
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Górnik II Zabrze",
+        "crest": "https://crests.football-data.org/5629.png"
+      },
+      "awayTeam": {
+        "name": "Carina Gubin",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "bf2fb26625c14b64696b53f26b641f60"
     },
-    "date": {
-      "date": "2025-11-28",
-      "dateTime": "2025-11-28T18:00:00.000Z"
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Sparta Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Gorzów Wielkopolski",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T11:00:00.000Z"
+      },
+      "id": "01d6a34cdcd157495a6dcf136220ac35"
     },
-    "id": "21c9d1949664687a0ce35c7eabcd3261",
-    "stadium": {
-      "address": "Nysa",
-      "venue": "Stadion KS Polonia Nysa",
-      "geo": {
-        "latitude": 50.4618584,
-        "longitude": 17.3329399,
-        "name": "Stadion KS Polonia Nysa, 23A, Sudecka, Południe, Nysa, gmina Nysa, powiat nyski, województwo opolskie, 48-303, Polska"
-      }
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Karkonosze Jelenia Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Kluczbork",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "1cf12743fd91618ce6e760b6d03c43ba"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "LZS Starowice Dolne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ślęza Wrocław",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "f59355024d718b6b3cc0ea5920ee9a98"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Słowianin Wolibórz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pniówek Pawłowice",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T12:00:00.000Z"
+      },
+      "id": "0920725c0b908fe856ce0d21518bc66e"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Lechia Zielona Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Goczałkowice Zdrój",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-29",
+        "dateTime": "2025-11-29T15:00:00.000Z"
+      },
+      "id": "a90127df9572f1ea1dc81e8a3bf5e34b"
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa III"
+      },
+      "homeTeam": {
+        "name": "Stal Jasień",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Lubin",
+        "crest": null
+      },
+      "date": {
+        "date": "2025-11-30",
+        "dateTime": "2025-11-30T11:00:00.000Z"
+      },
+      "id": "8cd6cc03b7ae25f835c744f1d3930288"
     }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "Skra Częstochowa",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Miedź II Legnica",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-28",
-      "dateTime": "2025-11-28T18:30:00.000Z"
-    },
-    "id": "8b896426d95ef9f85ff2ccbeedb69f1e",
-    "stadium": {
-      "address": "Częstochowa",
-      "venue": "Stadion Loretańska",
-      "geo": {
-        "latitude": 50.8089997,
-        "longitude": 19.1244089,
-        "name": "Częstochowa, województwo śląskie, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "Górnik II Zabrze",
-      "crest": "https://crests.football-data.org/5629.png"
-    },
-    "awayTeam": {
-      "name": "Carina Gubin",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "bf2fb26625c14b64696b53f26b641f60",
-    "stadium": {
-      "venue": "Stadion im. Ernesta Pohla",
-      "address": "Roosevelta 81, Zabrze",
-      "geo": {
-        "latitude": 50.2949,
-        "longitude": 18.7683462,
-        "name": "Papa Kebab, 81, Franklina Roosevelta, Osiedle Świętego Józefa, Centrum Południe, Zabrze, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-800, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "Sparta Katowice",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Warta Gorzów Wielkopolski",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T12:00:00.000Z"
-    },
-    "id": "01d6a34cdcd157495a6dcf136220ac35",
-    "stadium": {
-      "venue": "Stadion Sparta Katowice",
-      "address": "Asnyka 27, Katowice",
-      "geo": {
-        "latitude": 50.2135671,
-        "longitude": 18.9647242,
-        "name": "27, Adama Asnyka, Osiedle Młodych, Piotrowice-Ochojec, Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-696, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "Karkonosze Jelenia Góra",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "MKS Kluczbork",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "1cf12743fd91618ce6e760b6d03c43ba",
-    "stadium": {
-      "venue": "Stadion Miejski w Jeleniej Górze",
-      "address": "Złotnicza 12, Jelenia Góra",
-      "geo": {
-        "latitude": 50.9046772,
-        "longitude": 15.751853,
-        "name": "Hotel Karkonosze, 12, Złotnicza, Jelenia Góra, województwo dolnośląskie, 58-500, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "LZS Starowice Dolne",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Ślęza Wrocław",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "f59355024d718b6b3cc0ea5920ee9a98",
-    "stadium": {
-      "venue": "Boisko Sportowe LZS Starowice Dolne",
-      "address": "Starowice Dolne 85, Grodków",
-      "geo": {
-        "latitude": 50.6441827,
-        "longitude": 17.3294718,
-        "name": "Starowice Dolne, gmina Grodków, powiat brzeski, województwo opolskie, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "Słowianin Wolibórz",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Pniówek Pawłowice",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T13:00:00.000Z"
-    },
-    "id": "0920725c0b908fe856ce0d21518bc66e",
-    "stadium": {
-      "venue": "Stadion Słowianin Wolibórz",
-      "address": "Wolibórz 15, Wolibórz",
-      "geo": {
-        "latitude": 50.59187388636765,
-        "longitude": 16.568455490337058
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "Lechia Zielona Góra",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "LKS Goczałkowice Zdrój",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-29",
-      "dateTime": "2025-11-29T16:00:00.000Z"
-    },
-    "id": "a90127df9572f1ea1dc81e8a3bf5e34b",
-    "stadium": {
-      "address": "Zielona Gora",
-      "venue": "Stadion MOSiR",
-      "geo": {
-        "latitude": 52.6439417,
-        "longitude": 19.0757046,
-        "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "III Liga, grupa III"
-    },
-    "homeTeam": {
-      "name": "Stal Jasień",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Zagłębie II Lubin",
-      "crest": null
-    },
-    "date": {
-      "date": "2025-11-30",
-      "dateTime": "2025-11-30T12:00:00.000Z"
-    },
-    "id": "8cd6cc03b7ae25f835c744f1d3930288",
-    "stadium": {
-      "venue": "Boisko Sportowe Stal Jasień",
-      "address": "Jasień 1, Jasień",
-      "geo": {
-        "latitude": 49.4218889,
-        "longitude": 22.6125588,
-        "name": "1, Jasień, Ustrzyki Dolne, gmina Ustrzyki Dolne, powiat bieszczadzki, województwo podkarpackie, 38-700, Polska"
-      }
-    }
-  }
-]
+  ]
+}

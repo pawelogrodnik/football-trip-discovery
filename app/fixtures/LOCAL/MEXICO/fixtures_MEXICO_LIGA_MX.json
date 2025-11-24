@@ -12,8 +12,8 @@
       "crest": null
     },
     "date": {
-      "date": "2025-11-26T21:00:00.000Z",
-      "dateTime": "2025-11-26T21:00:00.000Z"
+      "date": "2025-11-26T22:00:00.000Z",
+      "dateTime": "2025-11-26T22:00:00.000Z"
     },
     "id": "2c38078e402865daf47231b1d7f0514b",
     "stadium": {
@@ -39,13 +39,40 @@
       "crest": "https://crests.football-data.org/5789.png"
     },
     "date": {
-      "date": "2025-11-26T21:00:00.000Z",
-      "dateTime": "2025-11-26T21:00:00.000Z"
+      "date": "2025-11-26T22:00:00.000Z",
+      "dateTime": "2025-11-26T22:00:00.000Z"
     },
     "id": "694973293f3cb0c7b6857f7bee4193bd",
     "stadium": {
       "address": null,
       "venue": null
+    }
+  },
+  {
+    "competition": {
+      "name": "Liga MX (Mexico 1 League)"
+    },
+    "homeTeam": {
+      "name": "Juarez",
+      "crest": "https://crests.football-data.org/5792.png"
+    },
+    "awayTeam": {
+      "name": "Toluca",
+      "crest": "https://crests.football-data.org/5790.png"
+    },
+    "date": {
+      "date": "2025-11-26T22:00:00.000Z",
+      "dateTime": "2025-11-26T22:00:00.000Z"
+    },
+    "id": "b4908ae246389bf60b3b7188c598949e",
+    "stadium": {
+      "address": "Henry Dunant 5150, Col. Progresista Ciudad Juárez, Chihuahua 32310",
+      "venue": "Estadio Olímpico Benito Juárez",
+      "geo": {
+        "latitude": 31.7530863,
+        "longitude": -106.4678289,
+        "name": "Estadio Olimpico Benito Juárez, Avenida Rafael P. Serna, Ciudad Juárez, Juárez, Chihuahua, 32317, México"
+      }
     }
   },
   {
@@ -61,8 +88,8 @@
       "crest": "https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"
     },
     "date": {
-      "date": "2025-11-26T21:00:00.000Z",
-      "dateTime": "2025-11-26T21:00:00.000Z"
+      "date": "2025-11-26T22:00:00.000Z",
+      "dateTime": "2025-11-26T22:00:00.000Z"
     },
     "id": "27bd4713f34b34e840adb8a372944442",
     "stadium": {
@@ -88,8 +115,8 @@
       "crest": "https://crests.football-data.org/5780.png"
     },
     "date": {
-      "date": "2025-11-29T21:00:00.000Z",
-      "dateTime": "2025-11-29T21:00:00.000Z"
+      "date": "2025-11-29T22:00:00.000Z",
+      "dateTime": "2025-11-29T22:00:00.000Z"
     },
     "id": "844affb916149f8c520d95e70d78647f",
     "stadium": {
@@ -115,8 +142,8 @@
       "crest": "https://crests.football-data.org/10061.png"
     },
     "date": {
-      "date": "2025-11-29T21:00:00.000Z",
-      "dateTime": "2025-11-29T21:00:00.000Z"
+      "date": "2025-11-29T22:00:00.000Z",
+      "dateTime": "2025-11-29T22:00:00.000Z"
     },
     "id": "37086cbee337a46afbb16fbdbbfbf320",
     "stadium": {
@@ -142,10 +169,44 @@
       "crest": "https://crests.football-data.org/5788.png"
     },
     "date": {
-      "date": "2025-11-29T21:00:00.000Z",
-      "dateTime": "2025-11-29T21:00:00.000Z"
+      "date": "2025-11-29T22:00:00.000Z",
+      "dateTime": "2025-11-29T22:00:00.000Z"
     },
     "id": "1a95c68530ee0a76d738dda9367b8273",
-    "stadium": null
+    "stadium": {
+      "venue": "Estadio Universitario",
+      "address": "Niños Héroes, Ciudad Universitaria, 66451 San Nicolás de los Garza, Nuevo Leon, Meksyk",
+      "geo": {
+        "latitude": 25.72260743561374,
+        "longitude": -100.31164210980538
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Liga MX (Mexico 1 League)"
+    },
+    "homeTeam": {
+      "name": "Toluca",
+      "crest": "https://crests.football-data.org/5790.png"
+    },
+    "awayTeam": {
+      "name": "Juarez",
+      "crest": "https://crests.football-data.org/5792.png"
+    },
+    "date": {
+      "date": "2025-11-29T22:00:00.000Z",
+      "dateTime": "2025-11-29T22:00:00.000Z"
+    },
+    "id": "15b8e49fe212dafb58ca6be3cf961bda",
+    "stadium": {
+      "address": "Felipe Villanueva 300, San Bernardino Toluca 50080",
+      "venue": "Estadio Nemesio Díez",
+      "geo": {
+        "latitude": 19.2871061,
+        "longitude": -99.6665644,
+        "name": "Estadio Nemesio Díez, Calle Constituyentes, Toluca, Estado de México, 50080, México"
+      }
+    }
   }
 ]
