@@ -27,9 +27,11 @@ const isInputDisabled = (formData: any) => {
 const Form = ({
   onFormUpdate,
   onSubmit,
+  isLoading,
 }: {
   onFormUpdate: (payload: any) => void;
   onSubmit: (payload: any) => void;
+  isLoading: boolean;
 }) => {
   const t = useTranslations('Form');
   const [formData, setFormData] = useState<any>({
@@ -53,7 +55,12 @@ const Form = ({
         />
         <DateRange onDatesChange={(dates) => handleChange(FORM_ELEMENTS.DATES, dates)} />
         <SliderInput onRadiusChange={(radius) => handleChange(FORM_ELEMENTS.RADIUS, radius)} />
-        <Button variant="filled" disabled={isInputDisabled(formData)} onClick={submitForm}>
+        <Button
+          variant="filled"
+          disabled={isInputDisabled(formData) || isLoading}
+          onClick={submitForm}
+          loading={isLoading}
+        >
           {t('searchButton')}
         </Button>
       </div>

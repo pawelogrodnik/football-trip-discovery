@@ -1,3 +1,6 @@
+import { promises as fs } from 'fs';
+import path from 'path';
+
 type Loader = { name: string; load: () => Promise<any> };
 
 const POLAND_PROVINCES_LIST = [
@@ -249,46 +252,61 @@ export const BASE_FIXTURES: Record<string, Loader[]> = {
   ],
 };
 
-export const POLAND_FIXTURES_BY_REGION: Record<string, Loader[]> = {
+export const getFixturesForRegion = async (regionCode: string = 'PL-PK'): Promise<any[]> => {
+  const regionDir = path.join(
+    process.cwd(), // directory of this file
+    'app',
+    'fixtures',
+    'LOCAL',
+    'POLAND',
+    regionCode
+  );
+
+  const relativeForImport = `./../fixtures/LOCAL/POLAND/${regionCode}`;
+
+  try {
+    await fs.access(regionDir);
+  } catch {
+    return [];
+  }
+
+  const entries = await fs.readdir(regionDir, { withFileTypes: true });
+
+  const files = entries
+    .filter((entry) => entry.isFile() && entry.name.endsWith('.json'))
+    .map((entry) => entry.name);
+
+  const result = await Promise.all(
+    files.map(async (file) => {
+      const fullPath = path.join(regionDir, file);
+      const raw = await fs.readFile(fullPath, 'utf8');
+      const data = JSON.parse(raw);
+
+      return {
+        name: data.competitionName,
+        load: () => import(`${relativeForImport}/${file}`),
+        count: data.count,
+      };
+    })
+  );
+
+  return result;
+};
+
+export const POLAND_FIXTURES_BY_REGION = async (): Promise<Record<string, Loader[]>> => ({
   'PL-PK': [
-    {
-      name: 'Polish IV League (Podkarpacie)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_PODKARPACIE.json'),
-    },
-    {
-      name: 'Polish A Klasa (Dębica)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_DEBICA_A_KLASA.json'),
-    },
-    {
-      name: 'Polish A Klasa (Lubaczów)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_LUBACZOW_A_KLASA.json'),
-    },
+    ...(await getFixturesForRegion('PL-PK')),
+
     {
       name: 'Polish III League (grupa IV)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_IV.json'),
     },
   ],
   'PL-MA': [
-    {
-      name: 'Polish V League (Małopolskie)',
-      load: () =>
-        import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_V_LEAGUE_MALOPOLSKA_ZACHOD.json'),
-    },
-    {
-      name: 'Polish A Klasa (Chrzanów)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_CHRZANOW_A_KLASA.json'),
-    },
-    {
-      name: 'Polish A Klasa (Kraków)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_KRAKOW_A_KLASA_GRUPA_II.json'),
-    },
+    ...(await getFixturesForRegion('PL-MA')),
     {
       name: 'Polish III League (grupa IV)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_IV.json'),
-    },
-    {
-      name: 'Polish IV League (Małopolskie)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_MALOPOLSKIE.json'),
     },
   ],
   'PL-SK': [
@@ -323,13 +341,10 @@ export const POLAND_FIXTURES_BY_REGION: Record<string, Loader[]> = {
     },
   ],
   'PL-MZ': [
+    ...(await getFixturesForRegion('PL-MZ')),
     {
       name: 'Polish III League (grupa I)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_I.json'),
-    },
-    {
-      name: 'Polish IV League (Mazowieckie)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_MAZOWIECKIE.json'),
     },
   ],
   'PL-PD': [
@@ -420,19 +435,12 @@ export const POLAND_FIXTURES_BY_REGION: Record<string, Loader[]> = {
       name: 'Polish III League (grupa I)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_III.json'),
     },
-    {
-      name: 'Polish IV League (Opolskie)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_OPOLSKIE.json'),
-    },
   ],
   'PL-SL': [
+    ...(await getFixturesForRegion('PL-SL')),
     {
       name: 'Polish III League (grupa I)',
       load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_III_LEAGUE_GRUPA_III.json'),
     },
-    {
-      name: 'Polish IV League (Sląskie)',
-      load: () => import('./../fixtures/LOCAL/POLAND/fixtures_POLISH_IV_LEAGUE_SLASKIE.json'),
-    },
   ],
-};
+});

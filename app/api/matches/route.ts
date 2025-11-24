@@ -28,14 +28,15 @@ const calculateTotalCount = (fixtures: any[]) =>
     0
   );
 
-const getPolishRegionFixtures = (countriesData: any): any[] => {
+const getPolishRegionFixtures = async (countriesData: any) => {
   const PL_REGIONS = countriesData.find(
     (country: any) => country.name.toUpperCase() === 'POLAND'
   )?.regions;
   let fixtures: any[] = [];
   if (PL_REGIONS && PL_REGIONS.length > 0) {
     for (const region of PL_REGIONS) {
-      const currentRegionData = POLAND_FIXTURES_BY_REGION[region.code!];
+      const regionFixtures = await POLAND_FIXTURES_BY_REGION();
+      const currentRegionData = await regionFixtures?.[region.code!];
       if (currentRegionData) {
         fixtures = [...fixtures, ...currentRegionData];
       }
@@ -48,6 +49,7 @@ export async function GET(req: Request) {
   const lat = searchParams.get('lat');
   const lon = searchParams.get('lon');
   const radiusKm = searchParams.get('radius');
+  const errors = [];
 
   const { start, end } = parseUtcRange(searchParams.get('startDate'), searchParams.get('endDate'));
   const startDate = start;
@@ -67,8 +69,12 @@ export async function GET(req: Request) {
   for (const country of countryNames) {
     loaders = [...(loaders ? loaders : []), ...(BASE_FIXTURES[country] ?? [])];
     if (country === 'POLAND') {
-      const polishRegionsLoaders = getPolishRegionFixtures(countriesData);
-      loaders = [...loaders, ...polishRegionsLoaders];
+      try {
+        const polishRegionsLoaders = await getPolishRegionFixtures(countriesData);
+        loaders = [...loaders, ...polishRegionsLoaders];
+      } catch (err) {
+        errors.push({ message: 'Error loading regional fixtures' });
+      }
     }
     if (!loaders) {
       continue;
@@ -83,11 +89,16 @@ export async function GET(req: Request) {
           loadedLeagues.push(name);
           return true;
         })
-        .map(async ({ load, name }) => ({ name, matches: (await load()).default }))
+        .map(async ({ load, name }) => {
+          const loadedFile = (await load()).default;
+          const matches = Array.isArray(loadedFile) ? loadedFile : loadedFile.matches;
+          return { name, matches };
+        })
     );
-    fixtures.push({
-      country,
-      leagues: leagues.map(({ name, matches }) => ({
+
+    const leaguesUpdated = leagues
+      .filter(({ matches }) => matches.length > 0)
+      .map(({ name, matches }) => ({
         name,
         matches: uniqById(
           matches
@@ -98,13 +109,16 @@ export async function GET(req: Request) {
             .filter((match: any) =>
               filterFixturesInRadius(match, Number(lat), Number(lon), Number(radiusKm))
             )
-          // .map((match: any) => ({ ...match, id: makeMatchId(match, country, name) }))
         ),
-        // .sort((a: any, b: any) => a._distanceKm - b._distanceKm),
-      })),
+      }))
+      .filter(({ matches }) => matches.length > 0);
+
+    fixtures.push({
+      country,
+      leagues: leaguesUpdated,
     });
   }
   const totalCount = calculateTotalCount(fixtures);
 
-  return Response.json({ fixtures, totalCount });
+  return Response.json({ fixtures, totalCount, errors });
 }

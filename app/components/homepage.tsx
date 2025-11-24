@@ -48,7 +48,8 @@ export default function HomePage() {
   const [fixtures, setFixtures] = useState(INITIAL_FIXTURES);
   const [initialCenter, setInitialCenter] = useState([45.4641943, 9.1896346] as LatLngExpression);
   const [selectedMatchesIds, setSelectedMatchesIds] = useState<string[]>([]);
-
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<unknown>(null);
   useEffect(() => {
     getInitialCenter();
   }, []);
@@ -66,9 +67,16 @@ export default function HomePage() {
   };
 
   const onFormSubmit = async (formData: any) => {
-    const res = await fetch(`/api/matches?${parseFormData(formData)}`);
-    const response = await res.json();
-    setFixtures(response);
+    setIsLoading(true);
+    try {
+      const res = await fetch(`/api/matches?${parseFormData(formData)}`);
+      const response = await res.json();
+      setFixtures(response);
+      setIsLoading(false);
+    } catch (err) {
+      setError(err as unknown);
+      setIsLoading(false);
+    }
   };
 
   const onMatchClick = (match: any) => {
@@ -137,8 +145,16 @@ export default function HomePage() {
               </>
             ) : (
               <>
-                <FormWrapper onFormUpdate={onFormUpdate} onSubmit={onFormSubmit} />
-                {fixtures.totalCount === 0 && <p className="no-matches-found">No matches found.</p>}
+                <FormWrapper
+                  onFormUpdate={onFormUpdate}
+                  onSubmit={onFormSubmit}
+                  isLoading={isLoading}
+                />
+                {fixtures.totalCount === 0 && (
+                  <p className="no-matches-found">
+                    {error ? JSON.stringify(error) : 'No matches found.'}
+                  </p>
+                )}
               </>
             )}
           </div>
