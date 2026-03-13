@@ -12,6 +12,9 @@ export default defineConfig(
     rules: { 'no-console': 'off' },
   },
   {
+    // Type-aware linting only applies to TypeScript files so standalone JS utilities
+    // such as scripts/fixtures-sync/index.js don't have to be listed in tsconfig.json.
+    files: ['**/*.{ts,tsx}'],
     languageOptions: {
       parserOptions: {
         tsconfigRootDir: process.cwd(),
