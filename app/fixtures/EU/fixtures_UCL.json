@@ -1,10 +1,42 @@
 [
   {
-    "id": "d6a98669936c6f7804f12489edb3c391",
+    "id": "f27b06ae55fa230ee53407190f123c32",
     "date": {
-      "date": "2026-03-17",
-      "dateTime": "2026-03-17T17:45:00Z",
-      "utcOffsetInHours": 0
+      "date": "2026-04-07",
+      "dateTime": "2026-04-07T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "awayTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. Concha Espina 1",
+      "name": "Estadio Santiago Bernabéu",
+      "geo": {
+        "latitude": 40.4530778,
+        "longitude": -3.6885194
+      }
+    }
+  },
+  {
+    "id": "2bceaa8a106c7f012544b15e97384598",
+    "date": {
+      "date": "2026-04-07",
+      "dateTime": "2026-04-07T19:00:00Z",
+      "utcOffsetInHours": 1
     },
     "competition": {
       "code": "UCL",
@@ -18,8 +50,8 @@
       "crest": "https://crests.football-data.org/498.png"
     },
     "awayTeam": {
-      "name": "FK Bodø/Glimt",
-      "crest": "https://crests.football-data.org/5721.png"
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
     },
     "stadium": {
       "city": "Lisbon",
@@ -32,11 +64,11 @@
     }
   },
   {
-    "id": "7e63858940d0fcead3a287b9ec1e70ad",
+    "id": "2c72f8cda90ed30d2f9f447e7f8041ad",
     "date": {
-      "date": "2026-03-17",
-      "dateTime": "2026-03-17T20:00:00Z",
-      "utcOffsetInHours": 0
+      "date": "2026-04-08",
+      "dateTime": "2026-04-08T19:00:00Z",
+      "utcOffsetInHours": 2
     },
     "competition": {
       "code": "UCL",
@@ -46,93 +78,29 @@
       }
     },
     "homeTeam": {
-      "name": "Chelsea FC",
-      "crest": "https://crests.football-data.org/61.png"
-    },
-    "awayTeam": {
       "name": "Paris Saint-Germain",
       "crest": "https://crests.football-data.org/524.png"
     },
-    "stadium": {
-      "city": "London",
-      "address": "Fulham Road",
-      "name": "Stamford Bridge",
-      "geo": {
-        "latitude": 51.4817111,
-        "longitude": -0.1909861
-      }
-    }
-  },
-  {
-    "id": "1a5fb3398fc1538ecd238e651b8c4b0e",
-    "date": {
-      "date": "2026-03-17",
-      "dateTime": "2026-03-17T20:00:00Z",
-      "utcOffsetInHours": 0
-    },
-    "competition": {
-      "code": "UCL",
-      "name": "UEFA Champions League",
-      "logo": {
-        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
-      }
-    },
-    "homeTeam": {
-      "name": "Manchester City",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
-    },
     "awayTeam": {
-      "name": "Real Madrid C.F.",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
     },
     "stadium": {
-      "city": "Manchester",
-      "address": "Rowsley Street",
-      "name": "City of Manchester Stadium",
+      "city": "Paris",
+      "address": "24, rue du Commandant Guilbaud",
+      "name": "Parc des Princes",
       "geo": {
-        "latitude": 53.4832028,
-        "longitude": -2.2003694
+        "latitude": 48.8414333,
+        "longitude": 2.2530333
       }
     }
   },
   {
-    "id": "c44bba878ead07b7f6c1055b92c5ec6c",
+    "id": "93fcf1db7efa0015214140146799a606",
     "date": {
-      "date": "2026-03-17",
-      "dateTime": "2026-03-17T20:00:00Z",
-      "utcOffsetInHours": 0
-    },
-    "competition": {
-      "code": "UCL",
-      "name": "UEFA Champions League",
-      "logo": {
-        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
-      }
-    },
-    "homeTeam": {
-      "name": "Arsenal FC",
-      "crest": "https://crests.football-data.org/57.png"
-    },
-    "awayTeam": {
-      "name": "Bayer 04 Leverkusen",
-      "crest": "https://crests.football-data.org/3.png"
-    },
-    "stadium": {
-      "city": "London",
-      "address": "Queensland road",
-      "name": "Arsenal Stadium",
-      "geo": {
-        "latitude": 51.555141,
-        "longitude": -0.108479
-      }
-    }
-  },
-  {
-    "id": "2b1788d962d48e5728ed6d3c83c53604",
-    "date": {
-      "date": "2026-03-18",
-      "dateTime": "2026-03-18T17:45:00Z",
-      "utcOffsetInHours": 1
+      "date": "2026-04-08",
+      "dateTime": "2026-04-08T19:00:00Z",
+      "utcOffsetInHours": 2
     },
     "competition": {
       "code": "UCL",
@@ -146,8 +114,8 @@
       "crest": "https://crests.football-data.org/81.png"
     },
     "awayTeam": {
-      "name": "Newcastle United FC",
-      "crest": "https://crests.football-data.org/67.png"
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
     },
     "stadium": {
       "city": "Barcelona",
@@ -160,11 +128,43 @@
     }
   },
   {
-    "id": "afbdaeedde4ee114be3e7be6a11b2296",
+    "id": "0481e33167e7bf206daf6e54c1cf83e8",
     "date": {
-      "date": "2026-03-18",
-      "dateTime": "2026-03-18T20:00:00Z",
-      "utcOffsetInHours": 0
+      "date": "2026-04-14",
+      "dateTime": "2026-04-14T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "awayTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. de Luis Aragonés, 4",
+      "name": "Estadio Metropolitano",
+      "geo": {
+        "latitude": 40.436147,
+        "longitude": -3.600571
+      }
+    }
+  },
+  {
+    "id": "0787da2dc7f524fedb17ef7f73534ac1",
+    "date": {
+      "date": "2026-04-14",
+      "dateTime": "2026-04-14T19:00:00Z",
+      "utcOffsetInHours": 1
     },
     "competition": {
       "code": "UCL",
@@ -178,8 +178,8 @@
       "crest": "https://crests.football-data.org/64.png"
     },
     "awayTeam": {
-      "name": "Galatasaray A.Ş.",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
     },
     "stadium": {
       "city": "Liverpool",
@@ -188,70 +188,6 @@
       "geo": {
         "latitude": 53.4308,
         "longitude": -2.9608472
-      }
-    }
-  },
-  {
-    "id": "4f8cb00d4bd69266f6daa8c08531b426",
-    "date": {
-      "date": "2026-03-18",
-      "dateTime": "2026-03-18T20:00:00Z",
-      "utcOffsetInHours": 1
-    },
-    "competition": {
-      "code": "UCL",
-      "name": "UEFA Champions League",
-      "logo": {
-        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
-      }
-    },
-    "homeTeam": {
-      "name": "FC Bayern München",
-      "crest": "https://crests.football-data.org/5.png"
-    },
-    "awayTeam": {
-      "name": "Atalanta BC",
-      "crest": "https://crests.football-data.org/102.png"
-    },
-    "stadium": {
-      "city": "Munich",
-      "address": "Werner-Heisenberg-Allee 25",
-      "name": "Football Arena Munich",
-      "geo": {
-        "latitude": 48.2187944,
-        "longitude": 11.6247306
-      }
-    }
-  },
-  {
-    "id": "58cce4a54ef9f412d7856ad7c5d27008",
-    "date": {
-      "date": "2026-03-18",
-      "dateTime": "2026-03-18T20:00:00Z",
-      "utcOffsetInHours": 0
-    },
-    "competition": {
-      "code": "UCL",
-      "name": "UEFA Champions League",
-      "logo": {
-        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
-      }
-    },
-    "homeTeam": {
-      "name": "Tottenham Hotspur",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/1652.png"
-    },
-    "awayTeam": {
-      "name": "Atlético de Madrid",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
-    },
-    "stadium": {
-      "city": "London",
-      "address": "Bill Nicholson Way, 748 High Road",
-      "name": "Tottenham Hotspur Stadium",
-      "geo": {
-        "latitude": 51.603212,
-        "longitude": -0.065739
       }
     }
   }

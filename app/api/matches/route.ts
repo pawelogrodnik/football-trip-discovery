@@ -3,6 +3,8 @@ import { getCountriesInRadius } from 'lib/geo';
 import { filterFixturesInRadius } from 'lib/geoTurf';
 import { isAnyCountryInEurope } from 'lib/isAnyCountryInEurope';
 import { uniqById } from 'lib/uniqById';
+import { ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
+import { TtlCache } from 'lib/ttlCache';
 
 function parseUtcRange(startStr?: string | null, endStr?: string | null) {
   const isDateOnly = (s: string) => /^\d{4}-\d{2}-\d{2}$/.test(s);
@@ -28,15 +30,22 @@ const calculateTotalCount = (fixtures: any[]) =>
     0
   );
 
+const REGION_FIXTURE_TTL_MS = 10 * 60 * 1000;
+const polandFixturesCache = new TtlCache<string, Record<string, any[]>>(REGION_FIXTURE_TTL_MS);
+
+async function getPolandRegionSnapshot() {
+  return polandFixturesCache.get('regions', () => POLAND_FIXTURES_BY_REGION());
+}
+
 const getPolishRegionFixtures = async (countriesData: any) => {
   const PL_REGIONS = countriesData.find(
     (country: any) => country.name.toUpperCase() === 'POLAND'
   )?.regions;
   let fixtures: any[] = [];
   if (PL_REGIONS && PL_REGIONS.length > 0) {
+    const snapshot = await getPolandRegionSnapshot();
     for (const region of PL_REGIONS) {
-      const regionFixtures = await POLAND_FIXTURES_BY_REGION();
-      const currentRegionData = await regionFixtures?.[region.code!];
+      const currentRegionData = snapshot?.[region.code!];
       if (currentRegionData) {
         fixtures = [...fixtures, ...currentRegionData];
       }
@@ -98,9 +107,8 @@ export async function GET(req: Request) {
 
     const leaguesUpdated = leagues
       .filter(({ matches }) => matches.length > 0)
-      .map(({ name, matches }) => ({
-        name,
-        matches: uniqById(
+      .map(({ name, matches }) => {
+        const filteredMatches = uniqById(
           matches
             .filter((match: any) => {
               const date = new Date(match?.date?.date || match.utcDate);
@@ -109,8 +117,17 @@ export async function GET(req: Request) {
             .filter((match: any) =>
               filterFixturesInRadius(match, Number(lat), Number(lon), Number(radiusKm))
             )
-        ),
-      }))
+        );
+
+        const normalizedMatches = filteredMatches.map((match: any) =>
+          ensureMatchHasNormalizedId(match, { country, league: name })
+        );
+
+        return {
+          name,
+          matches: normalizedMatches,
+        };
+      })
       .filter(({ matches }) => matches.length > 0);
 
     fixtures.push({
