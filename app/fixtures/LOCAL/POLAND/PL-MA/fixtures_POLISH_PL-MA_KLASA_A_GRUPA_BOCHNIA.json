@@ -16,9 +16,10 @@
       },
       "date": {
         "date": "2026-03-28",
-        "dateTime": "2026-03-28T14:00:00.000Z"
+        "dateTime": "2026-03-28T15:00:00.000Z"
       },
-      "id": "5d2f7d49665727b893aa548023674586"
+      "id": "5d2f7d49665727b893aa548023674586",
+      "stadium": null
     },
     {
       "competition": {
@@ -34,9 +35,10 @@
       },
       "date": {
         "date": "2026-03-28",
-        "dateTime": "2026-03-28T14:00:00.000Z"
+        "dateTime": "2026-03-28T15:00:00.000Z"
       },
-      "id": "aeef104a8a7dffbd8b5bf76fab896c82"
+      "id": "aeef104a8a7dffbd8b5bf76fab896c82",
+      "stadium": null
     },
     {
       "competition": {
@@ -52,9 +54,10 @@
       },
       "date": {
         "date": "2026-03-28",
-        "dateTime": "2026-03-28T14:00:00.000Z"
+        "dateTime": "2026-03-28T15:00:00.000Z"
       },
-      "id": "649ff3a735a0be416a16925575d0322b"
+      "id": "649ff3a735a0be416a16925575d0322b",
+      "stadium": null
     },
     {
       "competition": {
@@ -70,9 +73,10 @@
       },
       "date": {
         "date": "2026-03-28",
-        "dateTime": "2026-03-28T14:00:00.000Z"
+        "dateTime": "2026-03-28T15:00:00.000Z"
       },
-      "id": "ee562bcfce4df3e5ff4a1aa428ddff3c"
+      "id": "ee562bcfce4df3e5ff4a1aa428ddff3c",
+      "stadium": null
     },
     {
       "competition": {
@@ -88,9 +92,10 @@
       },
       "date": {
         "date": "2026-03-28",
-        "dateTime": "2026-03-28T14:30:00.000Z"
+        "dateTime": "2026-03-28T15:30:00.000Z"
       },
-      "id": "47943fff1c6912594664f3c45a9d0474"
+      "id": "47943fff1c6912594664f3c45a9d0474",
+      "stadium": null
     },
     {
       "competition": {
@@ -106,9 +111,13 @@
       },
       "date": {
         "date": "2026-03-29",
-        "dateTime": "2026-03-29T09:00:00.000Z"
+        "dateTime": "2026-03-29T11:00:00.000Z"
       },
-      "id": "86e79ff9b00720075777542b75bc213b"
+      "id": "86e79ff9b00720075777542b75bc213b",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -124,9 +133,10 @@
       },
       "date": {
         "date": "2026-03-29",
-        "dateTime": "2026-03-29T13:30:00.000Z"
+        "dateTime": "2026-03-29T15:30:00.000Z"
       },
-      "id": "77ebe7b26a5557e605baf7f17a94080a"
+      "id": "77ebe7b26a5557e605baf7f17a94080a",
+      "stadium": null
     },
     {
       "competition": {
@@ -138,121 +148,128 @@
       },
       "awayTeam": {
         "name": "Tarnavia Tarnawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-04-04",
-        "dateTime": "2026-04-04T09:00:00.000Z"
-      },
-      "id": "ed5afc64a4262becc047f344bc8747b5"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Krzeczów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Nieszkowianka Nieszkowice Małe",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-04-04",
-        "dateTime": "2026-04-04T10:00:00.000Z"
-      },
-      "id": "cfeae28f220107efa148bddbc94df2f2"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Polanka Nieszkowice Wielkie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Novi/Rzezawianka Rzezawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-04-04",
-        "dateTime": "2026-04-04T10:00:00.000Z"
-      },
-      "id": "cce41d9e09a68aa80efbc07de85fb2e7"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Gryf Chronów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Macierz Lipnica Murowana",
         "crest": null
       },
       "date": {
         "date": "2026-04-04",
         "dateTime": "2026-04-04T11:00:00.000Z"
       },
-      "id": "d9179ba9b133eed95d9aa62f0572c163"
+      "id": "ed5afc64a4262becc047f344bc8747b5",
+      "stadium": null
     },
     {
       "competition": {
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "Zryw Królówka",
+        "name": "Błękitni Krzeczów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Raba Książnice",
+        "name": "Nieszkowianka Nieszkowice Małe",
         "crest": null
       },
       "date": {
         "date": "2026-04-04",
         "dateTime": "2026-04-04T12:00:00.000Z"
       },
-      "id": "b39cc8ed93bab6a84d39182b591f99a3"
+      "id": "cfeae28f220107efa148bddbc94df2f2",
+      "stadium": null
     },
     {
       "competition": {
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "Górnik Siedlec",
+        "name": "Polanka Nieszkowice Wielkie",
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS Drwinia",
+        "name": "Novi/Rzezawianka Rzezawa",
         "crest": null
       },
       "date": {
         "date": "2026-04-04",
-        "dateTime": "2026-04-04T13:30:00.000Z"
+        "dateTime": "2026-04-04T12:00:00.000Z"
       },
-      "id": "b352c7113099da5383a5e206570940a5"
+      "id": "cce41d9e09a68aa80efbc07de85fb2e7",
+      "stadium": null
     },
     {
       "competition": {
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "KR Jodłówka",
+        "name": "Gryf Chronów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Cikowice",
+        "name": "Macierz Lipnica Murowana",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-04-04",
+        "dateTime": "2026-04-04T13:00:00.000Z"
+      },
+      "id": "d9179ba9b133eed95d9aa62f0572c163",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Zryw Królówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Raba Książnice",
         "crest": null
       },
       "date": {
         "date": "2026-04-04",
         "dateTime": "2026-04-04T14:00:00.000Z"
       },
-      "id": "5f41889d383bba57baa7c4680b3f22d8"
+      "id": "b39cc8ed93bab6a84d39182b591f99a3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Górnik Siedlec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Drwinia",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-04-04",
+        "dateTime": "2026-04-04T15:30:00.000Z"
+      },
+      "id": "b352c7113099da5383a5e206570940a5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KR Jodłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-04-04",
+        "dateTime": "2026-04-04T16:00:00.000Z"
+      },
+      "id": "5f41889d383bba57baa7c4680b3f22d8",
+      "stadium": null
     },
     {
       "competition": {
@@ -268,9 +285,10 @@
       },
       "date": {
         "date": "2026-08-16",
-        "dateTime": "2026-08-16T15:00:00.000Z"
+        "dateTime": "2026-08-16T17:00:00.000Z"
       },
-      "id": "38600add4145eb9f71950862d72ad93a"
+      "id": "38600add4145eb9f71950862d72ad93a",
+      "stadium": null
     },
     {
       "competition": {
@@ -286,9 +304,10 @@
       },
       "date": {
         "date": "2026-08-16",
-        "dateTime": "2026-08-16T15:00:00.000Z"
+        "dateTime": "2026-08-16T17:00:00.000Z"
       },
-      "id": "ba321d01324daee1117c81f55de5c32d"
+      "id": "ba321d01324daee1117c81f55de5c32d",
+      "stadium": null
     },
     {
       "competition": {
@@ -304,9 +323,10 @@
       },
       "date": {
         "date": "2026-08-16",
-        "dateTime": "2026-08-16T15:30:00.000Z"
+        "dateTime": "2026-08-16T17:30:00.000Z"
       },
-      "id": "2fd50bd536dae70a2faaf2246fb66809"
+      "id": "2fd50bd536dae70a2faaf2246fb66809",
+      "stadium": null
     },
     {
       "competition": {
@@ -322,9 +342,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T09:00:00.000Z"
+        "dateTime": "2026-08-17T11:00:00.000Z"
       },
-      "id": "a47aad9f2ef0bca27b4621153b2843a9"
+      "id": "a47aad9f2ef0bca27b4621153b2843a9",
+      "stadium": null
     },
     {
       "competition": {
@@ -340,9 +361,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T13:00:00.000Z"
+        "dateTime": "2026-08-17T15:00:00.000Z"
       },
-      "id": "e1ad65a4ae65679c9a3bbc6c1935f9b2"
+      "id": "e1ad65a4ae65679c9a3bbc6c1935f9b2",
+      "stadium": null
     },
     {
       "competition": {
@@ -358,9 +380,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T15:00:00.000Z"
+        "dateTime": "2026-08-17T17:00:00.000Z"
       },
-      "id": "03b28bbca45f2e2e3a201cc43a9984a7"
+      "id": "03b28bbca45f2e2e3a201cc43a9984a7",
+      "stadium": null
     },
     {
       "competition": {
@@ -376,9 +399,13 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T15:00:00.000Z"
+        "dateTime": "2026-08-17T17:00:00.000Z"
       },
-      "id": "686878498fb6370443fab8754ca4c783"
+      "id": "686878498fb6370443fab8754ca4c783",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -394,9 +421,10 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T12:00:00.000Z"
+        "dateTime": "2026-08-23T14:00:00.000Z"
       },
-      "id": "ae8cb803408898300a76b3f29c711da6"
+      "id": "ae8cb803408898300a76b3f29c711da6",
+      "stadium": null
     },
     {
       "competition": {
@@ -408,31 +436,33 @@
       },
       "awayTeam": {
         "name": "Tarnavia Tarnawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-08-23",
-        "dateTime": "2026-08-23T13:00:00.000Z"
-      },
-      "id": "47dff6a7091486d9e891a09d63ea240e"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "KR Jodłówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Raba Książnice",
         "crest": null
       },
       "date": {
         "date": "2026-08-23",
         "dateTime": "2026-08-23T15:00:00.000Z"
       },
-      "id": "28c82d0bf9f2b3eab01bada79f658f0d"
+      "id": "47dff6a7091486d9e891a09d63ea240e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KR Jodłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Raba Książnice",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-23",
+        "dateTime": "2026-08-23T17:00:00.000Z"
+      },
+      "id": "28c82d0bf9f2b3eab01bada79f658f0d",
+      "stadium": null
     },
     {
       "competition": {
@@ -448,9 +478,10 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T15:30:00.000Z"
+        "dateTime": "2026-08-23T17:30:00.000Z"
       },
-      "id": "5be3a5ca9e342a7ed49472fac68a1bf8"
+      "id": "5be3a5ca9e342a7ed49472fac68a1bf8",
+      "stadium": null
     },
     {
       "competition": {
@@ -466,9 +497,10 @@
       },
       "date": {
         "date": "2026-08-24",
-        "dateTime": "2026-08-24T09:00:00.000Z"
+        "dateTime": "2026-08-24T11:00:00.000Z"
       },
-      "id": "48ee242a101dbdec65ae4c8298c610eb"
+      "id": "48ee242a101dbdec65ae4c8298c610eb",
+      "stadium": null
     },
     {
       "competition": {
@@ -484,9 +516,10 @@
       },
       "date": {
         "date": "2026-08-24",
-        "dateTime": "2026-08-24T15:00:00.000Z"
+        "dateTime": "2026-08-24T17:00:00.000Z"
       },
-      "id": "e2db237829d7d8aa528231bf08593326"
+      "id": "e2db237829d7d8aa528231bf08593326",
+      "stadium": null
     },
     {
       "competition": {
@@ -502,9 +535,10 @@
       },
       "date": {
         "date": "2026-08-24",
-        "dateTime": "2026-08-24T15:30:00.000Z"
+        "dateTime": "2026-08-24T17:30:00.000Z"
       },
-      "id": "8a3669453470b8e2f21d8ae4bfc0913a"
+      "id": "8a3669453470b8e2f21d8ae4bfc0913a",
+      "stadium": null
     },
     {
       "competition": {
@@ -520,9 +554,10 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T14:00:00.000Z"
+        "dateTime": "2026-08-30T16:00:00.000Z"
       },
-      "id": "ae3afb1eba6b60776210a56231824725"
+      "id": "ae3afb1eba6b60776210a56231824725",
+      "stadium": null
     },
     {
       "competition": {
@@ -538,9 +573,10 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T15:00:00.000Z"
+        "dateTime": "2026-08-30T17:00:00.000Z"
       },
-      "id": "e9d0b34686a82ec3f03e5dda04b66377"
+      "id": "e9d0b34686a82ec3f03e5dda04b66377",
+      "stadium": null
     },
     {
       "competition": {
@@ -556,9 +592,10 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T15:00:00.000Z"
+        "dateTime": "2026-08-30T17:00:00.000Z"
       },
-      "id": "fae1b7688ddfc0eda6526cdd3e19ac71"
+      "id": "fae1b7688ddfc0eda6526cdd3e19ac71",
+      "stadium": null
     },
     {
       "competition": {
@@ -574,9 +611,10 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T15:00:00.000Z"
+        "dateTime": "2026-08-30T17:00:00.000Z"
       },
-      "id": "40a2480f186474fb92ff1dc6130f9b98"
+      "id": "40a2480f186474fb92ff1dc6130f9b98",
+      "stadium": null
     },
     {
       "competition": {
@@ -592,9 +630,10 @@
       },
       "date": {
         "date": "2026-08-31",
-        "dateTime": "2026-08-31T15:00:00.000Z"
+        "dateTime": "2026-08-31T17:00:00.000Z"
       },
-      "id": "3d00e86477c17e6adf8f56535a86ab2e"
+      "id": "3d00e86477c17e6adf8f56535a86ab2e",
+      "stadium": null
     },
     {
       "competition": {
@@ -610,9 +649,10 @@
       },
       "date": {
         "date": "2026-08-31",
-        "dateTime": "2026-08-31T15:00:00.000Z"
+        "dateTime": "2026-08-31T17:00:00.000Z"
       },
-      "id": "db65dc8af1189ee8eb76ef169ba29076"
+      "id": "db65dc8af1189ee8eb76ef169ba29076",
+      "stadium": null
     },
     {
       "competition": {
@@ -628,9 +668,13 @@
       },
       "date": {
         "date": "2026-08-31",
-        "dateTime": "2026-08-31T15:00:00.000Z"
+        "dateTime": "2026-08-31T17:00:00.000Z"
       },
-      "id": "819fadce2afe03536dc65252fa0992c2"
+      "id": "819fadce2afe03536dc65252fa0992c2",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -646,9 +690,10 @@
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
-      "id": "4c39958f921773311a8164e987ad84c1"
+      "id": "4c39958f921773311a8164e987ad84c1",
+      "stadium": null
     },
     {
       "competition": {
@@ -660,49 +705,52 @@
       },
       "awayTeam": {
         "name": "Novi/Rzezawianka Rzezawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
-      },
-      "id": "8f98904fdc01c4d0e7130e77d70db873"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Zryw Królówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Cikowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:30:00.000Z"
-      },
-      "id": "ac33481d53cb39660c23a460117cf0b4"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "KR Jodłówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tarnavia Tarnawa",
         "crest": null
       },
       "date": {
         "date": "2026-09-06",
         "dateTime": "2026-09-06T15:00:00.000Z"
       },
-      "id": "72707cbf2a51a571387db2f89ac1746d"
+      "id": "8f98904fdc01c4d0e7130e77d70db873",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Zryw Królówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T16:30:00.000Z"
+      },
+      "id": "ac33481d53cb39660c23a460117cf0b4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KR Jodłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tarnavia Tarnawa",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T17:00:00.000Z"
+      },
+      "id": "72707cbf2a51a571387db2f89ac1746d",
+      "stadium": null
     },
     {
       "competition": {
@@ -718,9 +766,10 @@
       },
       "date": {
         "date": "2026-09-07",
-        "dateTime": "2026-09-07T14:00:00.000Z"
+        "dateTime": "2026-09-07T16:00:00.000Z"
       },
-      "id": "dcf5eefaba9b41a1477422b1f489a755"
+      "id": "dcf5eefaba9b41a1477422b1f489a755",
+      "stadium": null
     },
     {
       "competition": {
@@ -736,9 +785,10 @@
       },
       "date": {
         "date": "2026-09-07",
-        "dateTime": "2026-09-07T14:30:00.000Z"
+        "dateTime": "2026-09-07T16:30:00.000Z"
       },
-      "id": "0ba3f51eb2b57be309ed140960ac9702"
+      "id": "0ba3f51eb2b57be309ed140960ac9702",
+      "stadium": null
     },
     {
       "competition": {
@@ -754,9 +804,10 @@
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T13:30:00.000Z"
+        "dateTime": "2026-09-13T15:30:00.000Z"
       },
-      "id": "77250e90f716094439e7b4405c92e5ba"
+      "id": "77250e90f716094439e7b4405c92e5ba",
+      "stadium": null
     },
     {
       "competition": {
@@ -772,9 +823,10 @@
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:30:00.000Z"
+        "dateTime": "2026-09-13T16:30:00.000Z"
       },
-      "id": "f529d279e26a527ae225453caa74021d"
+      "id": "f529d279e26a527ae225453caa74021d",
+      "stadium": null
     },
     {
       "competition": {
@@ -790,9 +842,10 @@
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:30:00.000Z"
+        "dateTime": "2026-09-13T16:30:00.000Z"
       },
-      "id": "8643f0c95e2784d2d54760ee8f9e8a9e"
+      "id": "8643f0c95e2784d2d54760ee8f9e8a9e",
+      "stadium": null
     },
     {
       "competition": {
@@ -808,9 +861,10 @@
       },
       "date": {
         "date": "2026-09-14",
-        "dateTime": "2026-09-14T09:00:00.000Z"
+        "dateTime": "2026-09-14T11:00:00.000Z"
       },
-      "id": "74f5bcc740c07f950ff9c5af2dd79351"
+      "id": "74f5bcc740c07f950ff9c5af2dd79351",
+      "stadium": null
     },
     {
       "competition": {
@@ -826,9 +880,13 @@
       },
       "date": {
         "date": "2026-09-14",
-        "dateTime": "2026-09-14T14:00:00.000Z"
+        "dateTime": "2026-09-14T16:00:00.000Z"
       },
-      "id": "d51cd7a1a53994d49f3b464b3356a0bf"
+      "id": "d51cd7a1a53994d49f3b464b3356a0bf",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -844,9 +902,10 @@
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
-      "id": "efbe843f39ca37f8685fe8266b99f14a"
+      "id": "efbe843f39ca37f8685fe8266b99f14a",
+      "stadium": null
     },
     {
       "competition": {
@@ -862,9 +921,10 @@
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
-      "id": "53964697215dca1f4930827f3b5aba57"
+      "id": "53964697215dca1f4930827f3b5aba57",
+      "stadium": null
     },
     {
       "competition": {
@@ -880,9 +940,10 @@
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
-      "id": "e2651efe336571efac7676c27f554e18"
+      "id": "e2651efe336571efac7676c27f554e18",
+      "stadium": null
     },
     {
       "competition": {
@@ -898,9 +959,10 @@
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
-      "id": "84cc3a2315508f4ce035aad235342786"
+      "id": "84cc3a2315508f4ce035aad235342786",
+      "stadium": null
     },
     {
       "competition": {
@@ -916,9 +978,10 @@
       },
       "date": {
         "date": "2026-09-21",
-        "dateTime": "2026-09-21T09:00:00.000Z"
+        "dateTime": "2026-09-21T11:00:00.000Z"
       },
-      "id": "5be9c76d53ff57903bac66d62eb5f8d1"
+      "id": "5be9c76d53ff57903bac66d62eb5f8d1",
+      "stadium": null
     },
     {
       "competition": {
@@ -934,9 +997,10 @@
       },
       "date": {
         "date": "2026-09-21",
-        "dateTime": "2026-09-21T14:00:00.000Z"
+        "dateTime": "2026-09-21T16:00:00.000Z"
       },
-      "id": "66363c47772f9a6f7b20615130232386"
+      "id": "66363c47772f9a6f7b20615130232386",
+      "stadium": null
     },
     {
       "competition": {
@@ -952,9 +1016,10 @@
       },
       "date": {
         "date": "2026-09-21",
-        "dateTime": "2026-09-21T14:00:00.000Z"
+        "dateTime": "2026-09-21T16:00:00.000Z"
       },
-      "id": "81ba72eb7ab91dadb4c4411d34f2f76c"
+      "id": "81ba72eb7ab91dadb4c4411d34f2f76c",
+      "stadium": null
     },
     {
       "competition": {
@@ -970,9 +1035,10 @@
       },
       "date": {
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
+        "dateTime": "2026-09-27T16:00:00.000Z"
       },
-      "id": "667acca928481dea474ea84dc47c980b"
+      "id": "667acca928481dea474ea84dc47c980b",
+      "stadium": null
     },
     {
       "competition": {
@@ -988,9 +1054,10 @@
       },
       "date": {
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
+        "dateTime": "2026-09-27T16:00:00.000Z"
       },
-      "id": "3e10876d05ee2f8bacc788ac4fd72912"
+      "id": "3e10876d05ee2f8bacc788ac4fd72912",
+      "stadium": null
     },
     {
       "competition": {
@@ -1006,9 +1073,10 @@
       },
       "date": {
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
+        "dateTime": "2026-09-27T16:00:00.000Z"
       },
-      "id": "98509d9b5fb0f23cd4793a38e9f9a392"
+      "id": "98509d9b5fb0f23cd4793a38e9f9a392",
+      "stadium": null
     },
     {
       "competition": {
@@ -1024,9 +1092,10 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T09:00:00.000Z"
+        "dateTime": "2026-09-28T11:00:00.000Z"
       },
-      "id": "91311a08bb3de39f62ff6e17fa55076e"
+      "id": "91311a08bb3de39f62ff6e17fa55076e",
+      "stadium": null
     },
     {
       "competition": {
@@ -1042,9 +1111,10 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T10:00:00.000Z"
+        "dateTime": "2026-09-28T12:00:00.000Z"
       },
-      "id": "8dfdb775d531be22b70859ac3cb84d22"
+      "id": "8dfdb775d531be22b70859ac3cb84d22",
+      "stadium": null
     },
     {
       "competition": {
@@ -1060,9 +1130,10 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T13:30:00.000Z"
+        "dateTime": "2026-09-28T15:30:00.000Z"
       },
-      "id": "4302fc3288509e3b397a409ba82421e3"
+      "id": "4302fc3288509e3b397a409ba82421e3",
+      "stadium": null
     },
     {
       "competition": {
@@ -1078,9 +1149,13 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T14:00:00.000Z"
+        "dateTime": "2026-09-28T16:00:00.000Z"
       },
-      "id": "a79c75322156517b21dc7347e5cab13b"
+      "id": "a79c75322156517b21dc7347e5cab13b",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -1096,9 +1171,10 @@
       },
       "date": {
         "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:30:00.000Z"
+        "dateTime": "2026-10-04T15:30:00.000Z"
       },
-      "id": "b2dc5926b88ec474bb2c5102104c0fc6"
+      "id": "b2dc5926b88ec474bb2c5102104c0fc6",
+      "stadium": null
     },
     {
       "competition": {
@@ -1114,9 +1190,10 @@
       },
       "date": {
         "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:30:00.000Z"
+        "dateTime": "2026-10-04T15:30:00.000Z"
       },
-      "id": "f369fbac1e3c8a8926b3949148a03d7f"
+      "id": "f369fbac1e3c8a8926b3949148a03d7f",
+      "stadium": null
     },
     {
       "competition": {
@@ -1132,9 +1209,10 @@
       },
       "date": {
         "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:30:00.000Z"
+        "dateTime": "2026-10-04T15:30:00.000Z"
       },
-      "id": "a66a8457c2cc6b904adc9037529a06bf"
+      "id": "a66a8457c2cc6b904adc9037529a06bf",
+      "stadium": null
     },
     {
       "competition": {
@@ -1150,9 +1228,10 @@
       },
       "date": {
         "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:30:00.000Z"
+        "dateTime": "2026-10-04T15:30:00.000Z"
       },
-      "id": "2b8c17c5317d4369d734d655b3a5fcf4"
+      "id": "2b8c17c5317d4369d734d655b3a5fcf4",
+      "stadium": null
     },
     {
       "competition": {
@@ -1168,9 +1247,10 @@
       },
       "date": {
         "date": "2026-10-05",
-        "dateTime": "2026-10-05T09:00:00.000Z"
+        "dateTime": "2026-10-05T11:00:00.000Z"
       },
-      "id": "c05ed1e43f8cfc1e5b10e94fe256b201"
+      "id": "c05ed1e43f8cfc1e5b10e94fe256b201",
+      "stadium": null
     },
     {
       "competition": {
@@ -1186,9 +1266,10 @@
       },
       "date": {
         "date": "2026-10-05",
-        "dateTime": "2026-10-05T13:00:00.000Z"
+        "dateTime": "2026-10-05T15:00:00.000Z"
       },
-      "id": "01ef0bea7428faf84b9fb7b2a5f05c1f"
+      "id": "01ef0bea7428faf84b9fb7b2a5f05c1f",
+      "stadium": null
     },
     {
       "competition": {
@@ -1204,9 +1285,10 @@
       },
       "date": {
         "date": "2026-10-05",
-        "dateTime": "2026-10-05T13:30:00.000Z"
+        "dateTime": "2026-10-05T15:30:00.000Z"
       },
-      "id": "5f82d3066bf5ca2fee3b6738c3e11ac4"
+      "id": "5f82d3066bf5ca2fee3b6738c3e11ac4",
+      "stadium": null
     },
     {
       "competition": {
@@ -1222,9 +1304,10 @@
       },
       "date": {
         "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:30:00.000Z"
+        "dateTime": "2026-10-11T15:30:00.000Z"
       },
-      "id": "e62c9f72ac873c24dd8bd8859467fbb6"
+      "id": "e62c9f72ac873c24dd8bd8859467fbb6",
+      "stadium": null
     },
     {
       "competition": {
@@ -1240,9 +1323,10 @@
       },
       "date": {
         "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:30:00.000Z"
+        "dateTime": "2026-10-11T15:30:00.000Z"
       },
-      "id": "3a14e3f319794690aab3fae11c321829"
+      "id": "3a14e3f319794690aab3fae11c321829",
+      "stadium": null
     },
     {
       "competition": {
@@ -1258,9 +1342,10 @@
       },
       "date": {
         "date": "2026-10-12",
-        "dateTime": "2026-10-12T09:00:00.000Z"
+        "dateTime": "2026-10-12T11:00:00.000Z"
       },
-      "id": "e620885dcfd7f058f99ef413b379594b"
+      "id": "e620885dcfd7f058f99ef413b379594b",
+      "stadium": null
     },
     {
       "competition": {
@@ -1276,9 +1361,10 @@
       },
       "date": {
         "date": "2026-10-12",
-        "dateTime": "2026-10-12T10:30:00.000Z"
+        "dateTime": "2026-10-12T12:30:00.000Z"
       },
-      "id": "feae8853f1198eb5dcda683a37194a3a"
+      "id": "feae8853f1198eb5dcda683a37194a3a",
+      "stadium": null
     },
     {
       "competition": {
@@ -1294,9 +1380,10 @@
       },
       "date": {
         "date": "2026-10-12",
-        "dateTime": "2026-10-12T13:00:00.000Z"
+        "dateTime": "2026-10-12T15:00:00.000Z"
       },
-      "id": "8f8622d3c06eb4d969d153ea182f7676"
+      "id": "8f8622d3c06eb4d969d153ea182f7676",
+      "stadium": null
     },
     {
       "competition": {
@@ -1312,9 +1399,13 @@
       },
       "date": {
         "date": "2026-10-12",
-        "dateTime": "2026-10-12T13:00:00.000Z"
+        "dateTime": "2026-10-12T15:00:00.000Z"
       },
-      "id": "4e078143b4b01cd5e191fa3f11c760c5"
+      "id": "4e078143b4b01cd5e191fa3f11c760c5",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -1330,9 +1421,10 @@
       },
       "date": {
         "date": "2026-10-12",
-        "dateTime": "2026-10-12T13:00:00.000Z"
+        "dateTime": "2026-10-12T15:00:00.000Z"
       },
-      "id": "3e9504d6558f77f12e10a9132e5db845"
+      "id": "3e9504d6558f77f12e10a9132e5db845",
+      "stadium": null
     },
     {
       "competition": {
@@ -1344,85 +1436,90 @@
       },
       "awayTeam": {
         "name": "Błękitni Krzeczów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T11:30:00.000Z"
-      },
-      "id": "f971c02567bab3d4df787953b8cdb7c5"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Gryf Chronów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ceramika Muchówka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
-      },
-      "id": "d904b1e44e13d3a16a4489756db68ec9"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Raba Książnice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Novi/Rzezawianka Rzezawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
-      },
-      "id": "7772b052cf6288a37c45467243ce29a2"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Cikowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "GKS Drwinia",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
-      },
-      "id": "0bd377f8dff4040cf7fda0f8367c9cf3"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Tarnavia Tarnawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Nieszkowianka Nieszkowice Małe",
         "crest": null
       },
       "date": {
         "date": "2026-10-18",
         "dateTime": "2026-10-18T13:30:00.000Z"
       },
-      "id": "dd0c6a9d08743752fba4ac57187d920d"
+      "id": "f971c02567bab3d4df787953b8cdb7c5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Gryf Chronów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ceramika Muchówka",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T15:00:00.000Z"
+      },
+      "id": "d904b1e44e13d3a16a4489756db68ec9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Raba Książnice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Novi/Rzezawianka Rzezawa",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T15:00:00.000Z"
+      },
+      "id": "7772b052cf6288a37c45467243ce29a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Drwinia",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T15:00:00.000Z"
+      },
+      "id": "0bd377f8dff4040cf7fda0f8367c9cf3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Tarnavia Tarnawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nieszkowianka Nieszkowice Małe",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T15:30:00.000Z"
+      },
+      "id": "dd0c6a9d08743752fba4ac57187d920d",
+      "stadium": null
     },
     {
       "competition": {
@@ -1438,9 +1535,10 @@
       },
       "date": {
         "date": "2026-10-19",
-        "dateTime": "2026-10-19T10:00:00.000Z"
+        "dateTime": "2026-10-19T12:00:00.000Z"
       },
-      "id": "2c97eb5fb93b54a8570fa0aa0d03fab5"
+      "id": "2c97eb5fb93b54a8570fa0aa0d03fab5",
+      "stadium": null
     },
     {
       "competition": {
@@ -1456,9 +1554,10 @@
       },
       "date": {
         "date": "2026-10-19",
-        "dateTime": "2026-10-19T13:00:00.000Z"
+        "dateTime": "2026-10-19T15:00:00.000Z"
       },
-      "id": "171b8751da3e981d1df5b0b1be727a83"
+      "id": "171b8751da3e981d1df5b0b1be727a83",
+      "stadium": null
     },
     {
       "competition": {
@@ -1470,31 +1569,33 @@
       },
       "awayTeam": {
         "name": "Zryw Królówka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:00:00.000Z"
-      },
-      "id": "06b5c897b9c69f230691482c913ac307"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Górnik Siedlec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Macierz Lipnica Murowana",
         "crest": null
       },
       "date": {
         "date": "2026-10-25",
         "dateTime": "2026-10-25T14:00:00.000Z"
       },
-      "id": "09466524fccea562a52e848dfad4cd73"
+      "id": "06b5c897b9c69f230691482c913ac307",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Górnik Siedlec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Macierz Lipnica Murowana",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T15:00:00.000Z"
+      },
+      "id": "09466524fccea562a52e848dfad4cd73",
+      "stadium": null
     },
     {
       "competition": {
@@ -1506,67 +1607,71 @@
       },
       "awayTeam": {
         "name": "Gryf Chronów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-26",
-        "dateTime": "2026-10-26T10:00:00.000Z"
-      },
-      "id": "85f29697a6b78077780c651c48be3242"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Novi/Rzezawianka Rzezawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Cikowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-26",
-        "dateTime": "2026-10-26T10:00:00.000Z"
-      },
-      "id": "eca9bd6925863bd2b3cb576df340e536"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Ceramika Muchówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KR Jodłówka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-26",
-        "dateTime": "2026-10-26T10:00:00.000Z"
-      },
-      "id": "1e1f5772dfab907e0e6c0708ff8020a8"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Polanka Nieszkowice Wielkie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Raba Książnice",
         "crest": null
       },
       "date": {
         "date": "2026-10-26",
         "dateTime": "2026-10-26T11:00:00.000Z"
       },
-      "id": "df37a4dfde0abf739de184028fc90018"
+      "id": "85f29697a6b78077780c651c48be3242",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Novi/Rzezawianka Rzezawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-26",
+        "dateTime": "2026-10-26T11:00:00.000Z"
+      },
+      "id": "eca9bd6925863bd2b3cb576df340e536",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Ceramika Muchówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KR Jodłówka",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-26",
+        "dateTime": "2026-10-26T11:00:00.000Z"
+      },
+      "id": "1e1f5772dfab907e0e6c0708ff8020a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Polanka Nieszkowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Raba Książnice",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-26",
+        "dateTime": "2026-10-26T12:00:00.000Z"
+      },
+      "id": "df37a4dfde0abf739de184028fc90018",
+      "stadium": null
     },
     {
       "competition": {
@@ -1582,9 +1687,13 @@
       },
       "date": {
         "date": "2026-10-26",
-        "dateTime": "2026-10-26T13:00:00.000Z"
+        "dateTime": "2026-10-26T14:00:00.000Z"
       },
-      "id": "0f8ea367e9aa4527c231c95938c841a2"
+      "id": "0f8ea367e9aa4527c231c95938c841a2",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -1600,9 +1709,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T10:00:00.000Z"
+        "dateTime": "2026-11-02T11:00:00.000Z"
       },
-      "id": "8fbdc6e5bd0526ba0a7ac59e1e1838dd"
+      "id": "8fbdc6e5bd0526ba0a7ac59e1e1838dd",
+      "stadium": null
     },
     {
       "competition": {
@@ -1618,9 +1728,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T10:00:00.000Z"
+        "dateTime": "2026-11-02T11:00:00.000Z"
       },
-      "id": "b659e540791d49439310a39a46156b93"
+      "id": "b659e540791d49439310a39a46156b93",
+      "stadium": null
     },
     {
       "competition": {
@@ -1636,9 +1747,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T10:00:00.000Z"
+        "dateTime": "2026-11-02T11:00:00.000Z"
       },
-      "id": "f555314ce23d8d2b2aa69d43907d7ec8"
+      "id": "f555314ce23d8d2b2aa69d43907d7ec8",
+      "stadium": null
     },
     {
       "competition": {
@@ -1654,9 +1766,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T10:00:00.000Z"
+        "dateTime": "2026-11-02T11:00:00.000Z"
       },
-      "id": "157ae747f150e39b089d281d429d5236"
+      "id": "157ae747f150e39b089d281d429d5236",
+      "stadium": null
     },
     {
       "competition": {
@@ -1672,9 +1785,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T10:00:00.000Z"
+        "dateTime": "2026-11-02T11:00:00.000Z"
       },
-      "id": "df405ddda7b92a4fc586f5cbd6636857"
+      "id": "df405ddda7b92a4fc586f5cbd6636857",
+      "stadium": null
     },
     {
       "competition": {
@@ -1690,9 +1804,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T11:30:00.000Z"
+        "dateTime": "2026-11-02T12:30:00.000Z"
       },
-      "id": "568bc92309c13b574becb5f32e38dc16"
+      "id": "568bc92309c13b574becb5f32e38dc16",
+      "stadium": null
     },
     {
       "competition": {
@@ -1708,9 +1823,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T13:00:00.000Z"
+        "dateTime": "2026-11-02T14:00:00.000Z"
       },
-      "id": "1655c8c0a22270376f0f447c7d815b90"
+      "id": "1655c8c0a22270376f0f447c7d815b90",
+      "stadium": null
     },
     {
       "competition": {
@@ -1726,9 +1842,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:00:00.000Z"
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
-      "id": "1fe6edf4d757d237682d327f4cb64ff8"
+      "id": "1fe6edf4d757d237682d327f4cb64ff8",
+      "stadium": null
     },
     {
       "competition": {
@@ -1744,9 +1861,13 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "dateTime": "2026-11-08T13:30:00.000Z"
       },
-      "id": "5b373c4bf386536a545188612f9f4130"
+      "id": "5b373c4bf386536a545188612f9f4130",
+      "stadium": {
+        "address": null,
+        "venue": null
+      }
     },
     {
       "competition": {
@@ -1762,9 +1883,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "dateTime": "2026-11-08T13:30:00.000Z"
       },
-      "id": "211f27612e1035180793e900cc7f74bb"
+      "id": "211f27612e1035180793e900cc7f74bb",
+      "stadium": null
     },
     {
       "competition": {
@@ -1780,9 +1902,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "dateTime": "2026-11-08T13:30:00.000Z"
       },
-      "id": "6daf25285d577c1d7c4319111a76234c"
+      "id": "6daf25285d577c1d7c4319111a76234c",
+      "stadium": null
     },
     {
       "competition": {
@@ -1798,9 +1921,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "dateTime": "2026-11-08T13:30:00.000Z"
       },
-      "id": "fe33a1db0809815cbf3d7a6135d6d768"
+      "id": "fe33a1db0809815cbf3d7a6135d6d768",
+      "stadium": null
     },
     {
       "competition": {
@@ -1816,9 +1940,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "dateTime": "2026-11-08T13:30:00.000Z"
       },
-      "id": "a370ef8b18d1fb7769bc199d71b59a3b"
+      "id": "a370ef8b18d1fb7769bc199d71b59a3b",
+      "stadium": null
     },
     {
       "competition": {
@@ -1834,9 +1959,10 @@
       },
       "date": {
         "date": "2026-11-09",
-        "dateTime": "2026-11-09T12:30:00.000Z"
+        "dateTime": "2026-11-09T13:30:00.000Z"
       },
-      "id": "fb080073232aeca344f828d527db6aba"
+      "id": "fb080073232aeca344f828d527db6aba",
+      "stadium": null
     },
     {
       "competition": {
@@ -1852,9 +1978,10 @@
       },
       "date": {
         "date": "2026-11-15",
-        "dateTime": "2026-11-15T11:10:00.000Z"
+        "dateTime": "2026-11-15T12:10:00.000Z"
       },
-      "id": "071143c9187efc6c44e9fa3008152456"
+      "id": "071143c9187efc6c44e9fa3008152456",
+      "stadium": null
     },
     {
       "competition": {
@@ -1870,9 +1997,10 @@
       },
       "date": {
         "date": "2026-11-15",
-        "dateTime": "2026-11-15T12:30:00.000Z"
+        "dateTime": "2026-11-15T13:30:00.000Z"
       },
-      "id": "bc833fa009e9e1038eb989c5b560cd5f"
+      "id": "bc833fa009e9e1038eb989c5b560cd5f",
+      "stadium": null
     },
     {
       "competition": {
@@ -1888,9 +2016,10 @@
       },
       "date": {
         "date": "2026-11-16",
-        "dateTime": "2026-11-16T11:00:00.000Z"
+        "dateTime": "2026-11-16T12:00:00.000Z"
       },
-      "id": "01fb69efa07f4535d2690985497248ca"
+      "id": "01fb69efa07f4535d2690985497248ca",
+      "stadium": null
     }
   ]
 }

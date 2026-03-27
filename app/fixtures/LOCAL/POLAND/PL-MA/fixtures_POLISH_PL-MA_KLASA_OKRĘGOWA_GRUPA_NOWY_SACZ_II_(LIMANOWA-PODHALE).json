@@ -16,9 +16,10 @@
       },
       "date": {
         "date": "2026-03-28",
-        "dateTime": "2026-03-28T14:30:00.000Z"
+        "dateTime": "2026-03-28T15:30:00.000Z"
       },
-      "id": "44c48d7a6bbcb41b8b214660494c3ebd"
+      "id": "44c48d7a6bbcb41b8b214660494c3ebd",
+      "stadium": null
     },
     {
       "competition": {
@@ -34,9 +35,10 @@
       },
       "date": {
         "date": "2026-03-28",
-        "dateTime": "2026-03-28T15:00:00.000Z"
+        "dateTime": "2026-03-28T16:00:00.000Z"
       },
-      "id": "cc5374e35149711eab5349205c0f01cf"
+      "id": "cc5374e35149711eab5349205c0f01cf",
+      "stadium": null
     },
     {
       "competition": {
@@ -52,9 +54,10 @@
       },
       "date": {
         "date": "2026-03-29",
-        "dateTime": "2026-03-29T11:00:00.000Z"
+        "dateTime": "2026-03-29T13:00:00.000Z"
       },
-      "id": "9319637066984306149376dd13345307"
+      "id": "9319637066984306149376dd13345307",
+      "stadium": null
     },
     {
       "competition": {
@@ -70,9 +73,10 @@
       },
       "date": {
         "date": "2026-03-29",
-        "dateTime": "2026-03-29T12:00:00.000Z"
+        "dateTime": "2026-03-29T14:00:00.000Z"
       },
-      "id": "99a577a80bf6c73793e35a2e24087e61"
+      "id": "99a577a80bf6c73793e35a2e24087e61",
+      "stadium": null
     },
     {
       "competition": {
@@ -88,9 +92,10 @@
       },
       "date": {
         "date": "2026-03-29",
-        "dateTime": "2026-03-29T12:00:00.000Z"
+        "dateTime": "2026-03-29T14:00:00.000Z"
       },
-      "id": "f98fc7f13b6974c3657b453abcef49c1"
+      "id": "f98fc7f13b6974c3657b453abcef49c1",
+      "stadium": null
     },
     {
       "competition": {
@@ -106,9 +111,10 @@
       },
       "date": {
         "date": "2026-03-29",
-        "dateTime": "2026-03-29T14:30:00.000Z"
+        "dateTime": "2026-03-29T16:30:00.000Z"
       },
-      "id": "4c3e792f8fd6c612e9aa7a626817c635"
+      "id": "4c3e792f8fd6c612e9aa7a626817c635",
+      "stadium": null
     },
     {
       "competition": {
@@ -124,9 +130,10 @@
       },
       "date": {
         "date": "2026-03-29",
-        "dateTime": "2026-03-29T16:00:00.000Z"
+        "dateTime": "2026-03-29T18:00:00.000Z"
       },
-      "id": "45fd10522f9d3255902fcf2dbdbcdb93"
+      "id": "45fd10522f9d3255902fcf2dbdbcdb93",
+      "stadium": null
     },
     {
       "competition": {
@@ -142,9 +149,10 @@
       },
       "date": {
         "date": "2026-08-02",
-        "dateTime": "2026-08-02T09:00:00.000Z"
+        "dateTime": "2026-08-02T11:00:00.000Z"
       },
-      "id": "8c3485c06c18b5f359a7fa39b5080996"
+      "id": "8c3485c06c18b5f359a7fa39b5080996",
+      "stadium": null
     },
     {
       "competition": {
@@ -160,9 +168,10 @@
       },
       "date": {
         "date": "2026-08-02",
-        "dateTime": "2026-08-02T15:00:00.000Z"
+        "dateTime": "2026-08-02T17:00:00.000Z"
       },
-      "id": "838f2156b5a16e3667c11f54c01af57e"
+      "id": "838f2156b5a16e3667c11f54c01af57e",
+      "stadium": null
     },
     {
       "competition": {
@@ -178,9 +187,10 @@
       },
       "date": {
         "date": "2026-08-02",
-        "dateTime": "2026-08-02T15:30:00.000Z"
+        "dateTime": "2026-08-02T17:30:00.000Z"
       },
-      "id": "cab7bc0c8e01a11a819bbf7861b4f6c7"
+      "id": "cab7bc0c8e01a11a819bbf7861b4f6c7",
+      "stadium": null
     },
     {
       "competition": {
@@ -196,9 +206,10 @@
       },
       "date": {
         "date": "2026-08-02",
-        "dateTime": "2026-08-02T16:00:00.000Z"
+        "dateTime": "2026-08-02T18:00:00.000Z"
       },
-      "id": "ddfe5dfcc9c272f056576eacde6c344b"
+      "id": "ddfe5dfcc9c272f056576eacde6c344b",
+      "stadium": null
     },
     {
       "competition": {
@@ -214,9 +225,17 @@
       },
       "date": {
         "date": "2026-08-02",
-        "dateTime": "2026-08-02T16:00:00.000Z"
+        "dateTime": "2026-08-02T18:00:00.000Z"
       },
-      "id": "242a08b6935a6a7cab5823c4f643456f"
+      "id": "242a08b6935a6a7cab5823c4f643456f",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
     },
     {
       "competition": {
@@ -228,31 +247,33 @@
       },
       "awayTeam": {
         "name": "Orawa Jabłonka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-08-03",
-        "dateTime": "2026-08-03T12:00:00.000Z"
-      },
-      "id": "7137faf4e2c3d08c8cd100238d98db25"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
-      },
-      "homeTeam": {
-        "name": "Gorce Kamienica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wierchy Rabka Zdrój",
         "crest": null
       },
       "date": {
         "date": "2026-08-03",
         "dateTime": "2026-08-03T14:00:00.000Z"
       },
-      "id": "741d8ffaac966c058294d2ad675b259a"
+      "id": "7137faf4e2c3d08c8cd100238d98db25",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
+      },
+      "homeTeam": {
+        "name": "Gorce Kamienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierchy Rabka Zdrój",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-03",
+        "dateTime": "2026-08-03T16:00:00.000Z"
+      },
+      "id": "741d8ffaac966c058294d2ad675b259a",
+      "stadium": null
     },
     {
       "competition": {
@@ -268,9 +289,10 @@
       },
       "date": {
         "date": "2026-08-09",
-        "dateTime": "2026-08-09T10:00:00.000Z"
+        "dateTime": "2026-08-09T12:00:00.000Z"
       },
-      "id": "dd24b05dfa7fba0a47e6f4e4c48ec826"
+      "id": "dd24b05dfa7fba0a47e6f4e4c48ec826",
+      "stadium": null
     },
     {
       "competition": {
@@ -286,9 +308,10 @@
       },
       "date": {
         "date": "2026-08-09",
-        "dateTime": "2026-08-09T16:00:00.000Z"
+        "dateTime": "2026-08-09T18:00:00.000Z"
       },
-      "id": "aed8d81d51e5e7a28bb39f508a7c1e49"
+      "id": "aed8d81d51e5e7a28bb39f508a7c1e49",
+      "stadium": null
     },
     {
       "competition": {
@@ -304,9 +327,10 @@
       },
       "date": {
         "date": "2026-08-09",
-        "dateTime": "2026-08-09T16:00:00.000Z"
+        "dateTime": "2026-08-09T18:00:00.000Z"
       },
-      "id": "30cd88c1056725392b5fe7ca05b10ed7"
+      "id": "30cd88c1056725392b5fe7ca05b10ed7",
+      "stadium": null
     },
     {
       "competition": {
@@ -322,9 +346,10 @@
       },
       "date": {
         "date": "2026-08-10",
-        "dateTime": "2026-08-10T13:00:00.000Z"
+        "dateTime": "2026-08-10T15:00:00.000Z"
       },
-      "id": "2ee4a8e2e2ad39d83ec71771ddb4a8f1"
+      "id": "2ee4a8e2e2ad39d83ec71771ddb4a8f1",
+      "stadium": null
     },
     {
       "competition": {
@@ -340,9 +365,10 @@
       },
       "date": {
         "date": "2026-08-10",
-        "dateTime": "2026-08-10T14:00:00.000Z"
+        "dateTime": "2026-08-10T16:00:00.000Z"
       },
-      "id": "9ed7af29a8e6edc9ebab266d88498220"
+      "id": "9ed7af29a8e6edc9ebab266d88498220",
+      "stadium": null
     },
     {
       "competition": {
@@ -358,9 +384,10 @@
       },
       "date": {
         "date": "2026-08-10",
-        "dateTime": "2026-08-10T16:00:00.000Z"
+        "dateTime": "2026-08-10T18:00:00.000Z"
       },
-      "id": "d1b57b556cadee07a9a9303969bb2bad"
+      "id": "d1b57b556cadee07a9a9303969bb2bad",
+      "stadium": null
     },
     {
       "competition": {
@@ -376,9 +403,10 @@
       },
       "date": {
         "date": "2026-08-10",
-        "dateTime": "2026-08-10T16:00:00.000Z"
+        "dateTime": "2026-08-10T18:00:00.000Z"
       },
-      "id": "bfca7b295f8657dbf7328c1ce2bd8020"
+      "id": "bfca7b295f8657dbf7328c1ce2bd8020",
+      "stadium": null
     },
     {
       "competition": {
@@ -394,9 +422,10 @@
       },
       "date": {
         "date": "2026-08-13",
-        "dateTime": "2026-08-13T14:00:00.000Z"
+        "dateTime": "2026-08-13T16:00:00.000Z"
       },
-      "id": "3da3fc6a8ea79ae53175b7d300d744c1"
+      "id": "3da3fc6a8ea79ae53175b7d300d744c1",
+      "stadium": null
     },
     {
       "competition": {
@@ -412,9 +441,10 @@
       },
       "date": {
         "date": "2026-08-13",
-        "dateTime": "2026-08-13T16:00:00.000Z"
+        "dateTime": "2026-08-13T18:00:00.000Z"
       },
-      "id": "e91c4b0a758a7561d70552338507ac83"
+      "id": "e91c4b0a758a7561d70552338507ac83",
+      "stadium": null
     },
     {
       "competition": {
@@ -430,9 +460,10 @@
       },
       "date": {
         "date": "2026-08-13",
-        "dateTime": "2026-08-13T16:00:00.000Z"
+        "dateTime": "2026-08-13T18:00:00.000Z"
       },
-      "id": "c88adcc38ab5515f0754dacb2c47a9b5"
+      "id": "c88adcc38ab5515f0754dacb2c47a9b5",
+      "stadium": null
     },
     {
       "competition": {
@@ -448,9 +479,10 @@
       },
       "date": {
         "date": "2026-08-13",
-        "dateTime": "2026-08-13T16:00:00.000Z"
+        "dateTime": "2026-08-13T18:00:00.000Z"
       },
-      "id": "feb8ee1de1904946a36a0991affd2cac"
+      "id": "feb8ee1de1904946a36a0991affd2cac",
+      "stadium": null
     },
     {
       "competition": {
@@ -466,9 +498,10 @@
       },
       "date": {
         "date": "2026-08-13",
-        "dateTime": "2026-08-13T16:00:00.000Z"
+        "dateTime": "2026-08-13T18:00:00.000Z"
       },
-      "id": "5c678f2d972ccfee0339562cb22da46d"
+      "id": "5c678f2d972ccfee0339562cb22da46d",
+      "stadium": null
     },
     {
       "competition": {
@@ -484,9 +517,17 @@
       },
       "date": {
         "date": "2026-08-13",
-        "dateTime": "2026-08-13T16:00:00.000Z"
+        "dateTime": "2026-08-13T18:00:00.000Z"
       },
-      "id": "abec5322143c5aad3708470ca80d435f"
+      "id": "abec5322143c5aad3708470ca80d435f",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
     },
     {
       "competition": {
@@ -502,9 +543,17 @@
       },
       "date": {
         "date": "2026-08-14",
-        "dateTime": "2026-08-14T16:00:00.000Z"
+        "dateTime": "2026-08-14T18:00:00.000Z"
       },
-      "id": "a594017ed837d2245db9bde31a9a1891"
+      "id": "a594017ed837d2245db9bde31a9a1891",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
     },
     {
       "competition": {
@@ -520,9 +569,10 @@
       },
       "date": {
         "date": "2026-08-16",
-        "dateTime": "2026-08-16T09:30:00.000Z"
+        "dateTime": "2026-08-16T11:30:00.000Z"
       },
-      "id": "83940c6fd9ac61fbbfdbb76cee4ec60f"
+      "id": "83940c6fd9ac61fbbfdbb76cee4ec60f",
+      "stadium": null
     },
     {
       "competition": {
@@ -538,9 +588,10 @@
       },
       "date": {
         "date": "2026-08-16",
-        "dateTime": "2026-08-16T14:00:00.000Z"
+        "dateTime": "2026-08-16T16:00:00.000Z"
       },
-      "id": "078604fa30837c0222327749997c270d"
+      "id": "078604fa30837c0222327749997c270d",
+      "stadium": null
     },
     {
       "competition": {
@@ -556,9 +607,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T11:30:00.000Z"
+        "dateTime": "2026-08-17T13:30:00.000Z"
       },
-      "id": "3006255a6ed659336023ab0b19a67a34"
+      "id": "3006255a6ed659336023ab0b19a67a34",
+      "stadium": null
     },
     {
       "competition": {
@@ -574,9 +626,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T13:00:00.000Z"
+        "dateTime": "2026-08-17T15:00:00.000Z"
       },
-      "id": "9c5db902f34bf6fbdc6346b3a4267e84"
+      "id": "9c5db902f34bf6fbdc6346b3a4267e84",
+      "stadium": null
     },
     {
       "competition": {
@@ -592,9 +645,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T14:00:00.000Z"
+        "dateTime": "2026-08-17T16:00:00.000Z"
       },
-      "id": "9478bb6d5aa2f0f6a1ca847335591db8"
+      "id": "9478bb6d5aa2f0f6a1ca847335591db8",
+      "stadium": null
     },
     {
       "competition": {
@@ -610,9 +664,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T15:00:00.000Z"
+        "dateTime": "2026-08-17T17:00:00.000Z"
       },
-      "id": "3e0abf1b78e10708f6bbef85f11ea075"
+      "id": "3e0abf1b78e10708f6bbef85f11ea075",
+      "stadium": null
     },
     {
       "competition": {
@@ -628,9 +683,10 @@
       },
       "date": {
         "date": "2026-08-17",
-        "dateTime": "2026-08-17T16:00:00.000Z"
+        "dateTime": "2026-08-17T18:00:00.000Z"
       },
-      "id": "a8211aecabf123ad3ec2327a6a320904"
+      "id": "a8211aecabf123ad3ec2327a6a320904",
+      "stadium": null
     },
     {
       "competition": {
@@ -646,9 +702,10 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T15:00:00.000Z"
+        "dateTime": "2026-08-23T17:00:00.000Z"
       },
-      "id": "5e0834390a71e4be35464ef153aa1564"
+      "id": "5e0834390a71e4be35464ef153aa1564",
+      "stadium": null
     },
     {
       "competition": {
@@ -664,9 +721,10 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T15:00:00.000Z"
+        "dateTime": "2026-08-23T17:00:00.000Z"
       },
-      "id": "000dac70e62e896e604221ab9c82db1d"
+      "id": "000dac70e62e896e604221ab9c82db1d",
+      "stadium": null
     },
     {
       "competition": {
@@ -682,9 +740,17 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T15:00:00.000Z"
+        "dateTime": "2026-08-23T17:00:00.000Z"
       },
-      "id": "b76f59bc648809ec9940b329face4a63"
+      "id": "b76f59bc648809ec9940b329face4a63",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
     },
     {
       "competition": {
@@ -700,9 +766,17 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T15:30:00.000Z"
+        "dateTime": "2026-08-23T17:30:00.000Z"
       },
-      "id": "54004e729d5d903d276a933bb6321d57"
+      "id": "54004e729d5d903d276a933bb6321d57",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
     },
     {
       "competition": {
@@ -718,9 +792,10 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T15:30:00.000Z"
+        "dateTime": "2026-08-23T17:30:00.000Z"
       },
-      "id": "579f9e16077adf28f1d3be3b5fc90c63"
+      "id": "579f9e16077adf28f1d3be3b5fc90c63",
+      "stadium": null
     },
     {
       "competition": {
@@ -736,9 +811,10 @@
       },
       "date": {
         "date": "2026-08-23",
-        "dateTime": "2026-08-23T16:00:00.000Z"
+        "dateTime": "2026-08-23T18:00:00.000Z"
       },
-      "id": "416fec6d03b0caf9be65ea7260ce769b"
+      "id": "416fec6d03b0caf9be65ea7260ce769b",
+      "stadium": null
     },
     {
       "competition": {
@@ -754,9 +830,10 @@
       },
       "date": {
         "date": "2026-08-24",
-        "dateTime": "2026-08-24T09:00:00.000Z"
+        "dateTime": "2026-08-24T11:00:00.000Z"
       },
-      "id": "11b3f4ec04463689265b91e27a4c51b5"
+      "id": "11b3f4ec04463689265b91e27a4c51b5",
+      "stadium": null
     },
     {
       "competition": {
@@ -772,9 +849,10 @@
       },
       "date": {
         "date": "2026-08-27",
-        "dateTime": "2026-08-27T14:00:00.000Z"
+        "dateTime": "2026-08-27T16:00:00.000Z"
       },
-      "id": "27490dd17c06c06af8a0f8c2917bee2b"
+      "id": "27490dd17c06c06af8a0f8c2917bee2b",
+      "stadium": null
     },
     {
       "competition": {
@@ -790,9 +868,10 @@
       },
       "date": {
         "date": "2026-08-27",
-        "dateTime": "2026-08-27T15:00:00.000Z"
+        "dateTime": "2026-08-27T17:00:00.000Z"
       },
-      "id": "1f06d1ced3d7cba098932e075e99c327"
+      "id": "1f06d1ced3d7cba098932e075e99c327",
+      "stadium": null
     },
     {
       "competition": {
@@ -808,9 +887,10 @@
       },
       "date": {
         "date": "2026-08-27",
-        "dateTime": "2026-08-27T15:30:00.000Z"
+        "dateTime": "2026-08-27T17:30:00.000Z"
       },
-      "id": "a8956442c57eb25032880a7bae57b54a"
+      "id": "a8956442c57eb25032880a7bae57b54a",
+      "stadium": null
     },
     {
       "competition": {
@@ -826,9 +906,10 @@
       },
       "date": {
         "date": "2026-08-27",
-        "dateTime": "2026-08-27T15:30:00.000Z"
+        "dateTime": "2026-08-27T17:30:00.000Z"
       },
-      "id": "ff61fac0e29cf1676b589f87f92dc1fb"
+      "id": "ff61fac0e29cf1676b589f87f92dc1fb",
+      "stadium": null
     },
     {
       "competition": {
@@ -844,9 +925,10 @@
       },
       "date": {
         "date": "2026-08-27",
-        "dateTime": "2026-08-27T15:30:00.000Z"
+        "dateTime": "2026-08-27T17:30:00.000Z"
       },
-      "id": "108f4a5023eeefd04a4c5fd0f86410cf"
+      "id": "108f4a5023eeefd04a4c5fd0f86410cf",
+      "stadium": null
     },
     {
       "competition": {
@@ -862,9 +944,10 @@
       },
       "date": {
         "date": "2026-08-27",
-        "dateTime": "2026-08-27T16:00:00.000Z"
+        "dateTime": "2026-08-27T18:00:00.000Z"
       },
-      "id": "7ed990b0a6b8fb4a793e3d5e959655ed"
+      "id": "7ed990b0a6b8fb4a793e3d5e959655ed",
+      "stadium": null
     },
     {
       "competition": {
@@ -880,9 +963,17 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T10:00:00.000Z"
+        "dateTime": "2026-08-30T12:00:00.000Z"
       },
-      "id": "40a88f530ebd89888290e6806fb540e8"
+      "id": "40a88f530ebd89888290e6806fb540e8",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
     },
     {
       "competition": {
@@ -898,9 +989,10 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T15:00:00.000Z"
+        "dateTime": "2026-08-30T17:00:00.000Z"
       },
-      "id": "9abbf20383c88fbe3e78e65aa7e97632"
+      "id": "9abbf20383c88fbe3e78e65aa7e97632",
+      "stadium": null
     },
     {
       "competition": {
@@ -916,9 +1008,10 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T15:30:00.000Z"
+        "dateTime": "2026-08-30T17:30:00.000Z"
       },
-      "id": "59a964ad397d0bd3dc142c8af9a1ab48"
+      "id": "59a964ad397d0bd3dc142c8af9a1ab48",
+      "stadium": null
     },
     {
       "competition": {
@@ -934,9 +1027,10 @@
       },
       "date": {
         "date": "2026-08-30",
-        "dateTime": "2026-08-30T16:00:00.000Z"
+        "dateTime": "2026-08-30T18:00:00.000Z"
       },
-      "id": "cead380ae0f8c924e190401c43fe04e4"
+      "id": "cead380ae0f8c924e190401c43fe04e4",
+      "stadium": null
     },
     {
       "competition": {
@@ -952,9 +1046,10 @@
       },
       "date": {
         "date": "2026-08-31",
-        "dateTime": "2026-08-31T12:00:00.000Z"
+        "dateTime": "2026-08-31T14:00:00.000Z"
       },
-      "id": "0d3fa9f6e9740a523105591e989a1c7b"
+      "id": "0d3fa9f6e9740a523105591e989a1c7b",
+      "stadium": null
     },
     {
       "competition": {
@@ -970,9 +1065,10 @@
       },
       "date": {
         "date": "2026-08-31",
-        "dateTime": "2026-08-31T14:00:00.000Z"
+        "dateTime": "2026-08-31T16:00:00.000Z"
       },
-      "id": "442892fd7f23b076eb955166335394f2"
+      "id": "442892fd7f23b076eb955166335394f2",
+      "stadium": null
     },
     {
       "competition": {
@@ -988,9 +1084,17 @@
       },
       "date": {
         "date": "2026-08-31",
-        "dateTime": "2026-08-31T15:00:00.000Z"
+        "dateTime": "2026-08-31T17:00:00.000Z"
       },
-      "id": "a70dd83e26a1791215d7113647fdd9e3"
+      "id": "a70dd83e26a1791215d7113647fdd9e3",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
     },
     {
       "competition": {
@@ -1006,9 +1110,10 @@
       },
       "date": {
         "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+        "dateTime": "2026-09-05T17:00:00.000Z"
       },
-      "id": "479abfa8dc2894feb2b2fb3f9b22c3ec"
+      "id": "479abfa8dc2894feb2b2fb3f9b22c3ec",
+      "stadium": null
     },
     {
       "competition": {
@@ -1024,9 +1129,10 @@
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T09:00:00.000Z"
+        "dateTime": "2026-09-06T11:00:00.000Z"
       },
-      "id": "0b7515049bf153f7f20c54ddbc9559ef"
+      "id": "0b7515049bf153f7f20c54ddbc9559ef",
+      "stadium": null
     },
     {
       "competition": {
@@ -1042,9 +1148,10 @@
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:30:00.000Z"
+        "dateTime": "2026-09-06T16:30:00.000Z"
       },
-      "id": "76713fec7ed55cc5604b213a57522919"
+      "id": "76713fec7ed55cc5604b213a57522919",
+      "stadium": null
     },
     {
       "competition": {
@@ -1060,9 +1167,10 @@
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+        "dateTime": "2026-09-06T17:00:00.000Z"
       },
-      "id": "1a486649f30e1aadefd267edfddc9170"
+      "id": "1a486649f30e1aadefd267edfddc9170",
+      "stadium": null
     },
     {
       "competition": {
@@ -1078,9 +1186,10 @@
       },
       "date": {
         "date": "2026-09-07",
-        "dateTime": "2026-09-07T09:00:00.000Z"
+        "dateTime": "2026-09-07T11:00:00.000Z"
       },
-      "id": "cc53484b94d0f2c8810d38305f8b796c"
+      "id": "cc53484b94d0f2c8810d38305f8b796c",
+      "stadium": null
     },
     {
       "competition": {
@@ -1092,31 +1201,33 @@
       },
       "awayTeam": {
         "name": "Babia Góra Lipnica Wielka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-07",
-        "dateTime": "2026-09-07T13:00:00.000Z"
-      },
-      "id": "b68d2b1a313b806173953b18af2a35c8"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
-      },
-      "homeTeam": {
-        "name": "Orkan Raba Wyżna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zalesianka Zalesie",
         "crest": null
       },
       "date": {
         "date": "2026-09-07",
         "dateTime": "2026-09-07T15:00:00.000Z"
       },
-      "id": "ff5fd75ce4c49112955aba8a16be879e"
+      "id": "b68d2b1a313b806173953b18af2a35c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
+      },
+      "homeTeam": {
+        "name": "Orkan Raba Wyżna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-07",
+        "dateTime": "2026-09-07T17:00:00.000Z"
+      },
+      "id": "ff5fd75ce4c49112955aba8a16be879e",
+      "stadium": null
     },
     {
       "competition": {
@@ -1132,9 +1243,10 @@
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T16:00:00.000Z"
       },
-      "id": "a42e36cf5c8187acadb4c412241b2a99"
+      "id": "a42e36cf5c8187acadb4c412241b2a99",
+      "stadium": null
     },
     {
       "competition": {
@@ -1150,9 +1262,10 @@
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T16:00:00.000Z"
       },
-      "id": "7e61a583413c9c11a8fa2107abe6adf8"
+      "id": "7e61a583413c9c11a8fa2107abe6adf8",
+      "stadium": null
     },
     {
       "competition": {
@@ -1168,9 +1281,17 @@
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T17:00:00.000Z"
       },
-      "id": "fe53d3bf7865f83950b9f3a92cf7a8b2"
+      "id": "fe53d3bf7865f83950b9f3a92cf7a8b2",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
     },
     {
       "competition": {
@@ -1182,31 +1303,33 @@
       },
       "awayTeam": {
         "name": "Lubań Tylmanowa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-14",
-        "dateTime": "2026-09-14T12:00:00.000Z"
-      },
-      "id": "667a7b5e682e4ef0558d9c016378f477"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
-      },
-      "homeTeam": {
-        "name": "Wierchy Rabka Zdrój",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orkan Raba Wyżna",
         "crest": null
       },
       "date": {
         "date": "2026-09-14",
         "dateTime": "2026-09-14T14:00:00.000Z"
       },
-      "id": "ca1d5651936b11a52a6f6407c6a00d0b"
+      "id": "667a7b5e682e4ef0558d9c016378f477",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
+      },
+      "homeTeam": {
+        "name": "Wierchy Rabka Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orkan Raba Wyżna",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-14",
+        "dateTime": "2026-09-14T16:00:00.000Z"
+      },
+      "id": "ca1d5651936b11a52a6f6407c6a00d0b",
+      "stadium": null
     },
     {
       "competition": {
@@ -1222,9 +1345,17 @@
       },
       "date": {
         "date": "2026-09-14",
-        "dateTime": "2026-09-14T15:00:00.000Z"
+        "dateTime": "2026-09-14T17:00:00.000Z"
       },
-      "id": "3bf277ed59cb666a9d8a60941456a0f9"
+      "id": "3bf277ed59cb666a9d8a60941456a0f9",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
     },
     {
       "competition": {
@@ -1240,9 +1371,10 @@
       },
       "date": {
         "date": "2026-09-14",
-        "dateTime": "2026-09-14T15:00:00.000Z"
+        "dateTime": "2026-09-14T17:00:00.000Z"
       },
-      "id": "d52a56d8977cb541e9412c841e5f7427"
+      "id": "d52a56d8977cb541e9412c841e5f7427",
+      "stadium": null
     },
     {
       "competition": {
@@ -1258,9 +1390,10 @@
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
-      "id": "53ec23e4980583f282b98ecaa3965c7b"
+      "id": "53ec23e4980583f282b98ecaa3965c7b",
+      "stadium": null
     },
     {
       "competition": {
@@ -1276,9 +1409,10 @@
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
-      "id": "f7da1a788ef387cb861b5a27e49fe82a"
+      "id": "f7da1a788ef387cb861b5a27e49fe82a",
+      "stadium": null
     },
     {
       "competition": {
@@ -1294,9 +1428,10 @@
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T17:00:00.000Z"
       },
-      "id": "f951f69e6868538f85ec91f64197d73b"
+      "id": "f951f69e6868538f85ec91f64197d73b",
+      "stadium": null
     },
     {
       "competition": {
@@ -1312,9 +1447,10 @@
       },
       "date": {
         "date": "2026-09-21",
-        "dateTime": "2026-09-21T09:00:00.000Z"
+        "dateTime": "2026-09-21T11:00:00.000Z"
       },
-      "id": "d3156241577a71896f1f9af5306bb25c"
+      "id": "d3156241577a71896f1f9af5306bb25c",
+      "stadium": null
     },
     {
       "competition": {
@@ -1330,9 +1466,10 @@
       },
       "date": {
         "date": "2026-09-21",
-        "dateTime": "2026-09-21T11:30:00.000Z"
+        "dateTime": "2026-09-21T13:30:00.000Z"
       },
-      "id": "3b73286b110abbc8c75268a177db8742"
+      "id": "3b73286b110abbc8c75268a177db8742",
+      "stadium": null
     },
     {
       "competition": {
@@ -1348,9 +1485,10 @@
       },
       "date": {
         "date": "2026-09-21",
-        "dateTime": "2026-09-21T14:00:00.000Z"
+        "dateTime": "2026-09-21T16:00:00.000Z"
       },
-      "id": "464a04ce43095751defed044b3f9c646"
+      "id": "464a04ce43095751defed044b3f9c646",
+      "stadium": null
     },
     {
       "competition": {
@@ -1366,9 +1504,10 @@
       },
       "date": {
         "date": "2026-09-21",
-        "dateTime": "2026-09-21T14:00:00.000Z"
+        "dateTime": "2026-09-21T16:00:00.000Z"
       },
-      "id": "ad3991d9b6e66d577348eb21931bc40e"
+      "id": "ad3991d9b6e66d577348eb21931bc40e",
+      "stadium": null
     },
     {
       "competition": {
@@ -1384,9 +1523,10 @@
       },
       "date": {
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T10:00:00.000Z"
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
-      "id": "611635dc09dfb1f34eaeab81ae914a94"
+      "id": "611635dc09dfb1f34eaeab81ae914a94",
+      "stadium": null
     },
     {
       "competition": {
@@ -1402,9 +1542,17 @@
       },
       "date": {
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:30:00.000Z"
+        "dateTime": "2026-09-27T16:30:00.000Z"
       },
-      "id": "49b5cdfee5a09a5c7ee072fb5fa8d1dd"
+      "id": "49b5cdfee5a09a5c7ee072fb5fa8d1dd",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
     },
     {
       "competition": {
@@ -1420,9 +1568,17 @@
       },
       "date": {
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:30:00.000Z"
+        "dateTime": "2026-09-27T16:30:00.000Z"
       },
-      "id": "dfd6c046b7dbfa3ef5ec8c03bc435419"
+      "id": "dfd6c046b7dbfa3ef5ec8c03bc435419",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
     },
     {
       "competition": {
@@ -1438,9 +1594,10 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T12:00:00.000Z"
+        "dateTime": "2026-09-28T14:00:00.000Z"
       },
-      "id": "1a0bc8ff6206a33cfe4d1c385a2b09ee"
+      "id": "1a0bc8ff6206a33cfe4d1c385a2b09ee",
+      "stadium": null
     },
     {
       "competition": {
@@ -1456,9 +1613,10 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T13:00:00.000Z"
+        "dateTime": "2026-09-28T15:00:00.000Z"
       },
-      "id": "ea838b9c0d9316a62eb72d4a0f5c70a5"
+      "id": "ea838b9c0d9316a62eb72d4a0f5c70a5",
+      "stadium": null
     },
     {
       "competition": {
@@ -1474,9 +1632,10 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T13:00:00.000Z"
+        "dateTime": "2026-09-28T15:00:00.000Z"
       },
-      "id": "4ca9a78eead639e7af0d553ff32abf93"
+      "id": "4ca9a78eead639e7af0d553ff32abf93",
+      "stadium": null
     },
     {
       "competition": {
@@ -1492,9 +1651,10 @@
       },
       "date": {
         "date": "2026-09-28",
-        "dateTime": "2026-09-28T14:30:00.000Z"
+        "dateTime": "2026-09-28T16:30:00.000Z"
       },
-      "id": "5a6a1ef13b5196a9445f68d8ef6b8824"
+      "id": "5a6a1ef13b5196a9445f68d8ef6b8824",
+      "stadium": null
     },
     {
       "competition": {
@@ -1510,9 +1670,10 @@
       },
       "date": {
         "date": "2026-10-04",
-        "dateTime": "2026-10-04T08:00:00.000Z"
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
-      "id": "917134743d004ef073099a102d79c787"
+      "id": "917134743d004ef073099a102d79c787",
+      "stadium": null
     },
     {
       "competition": {
@@ -1524,49 +1685,52 @@
       },
       "awayTeam": {
         "name": "Wiatr Ludźmierz",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
-      },
-      "id": "401f29ea6d5a997e4f3ff30211ab6fd3"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
-      },
-      "homeTeam": {
-        "name": "Podhale II Nowy Targ",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wierchy Rabka Zdrój",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T14:30:00.000Z"
-      },
-      "id": "226795da9fff3c7fe4d987ce6d24cf0c"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
-      },
-      "homeTeam": {
-        "name": "KS Tymbark",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "AKS Ujanowice",
         "crest": null
       },
       "date": {
         "date": "2026-10-04",
         "dateTime": "2026-10-04T15:00:00.000Z"
       },
-      "id": "3d0b7210c30c7ac00f6fcbd770263f9d"
+      "id": "401f29ea6d5a997e4f3ff30211ab6fd3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
+      },
+      "homeTeam": {
+        "name": "Podhale II Nowy Targ",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierchy Rabka Zdrój",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T16:30:00.000Z"
+      },
+      "id": "226795da9fff3c7fe4d987ce6d24cf0c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
+      },
+      "homeTeam": {
+        "name": "KS Tymbark",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Ujanowice",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T17:00:00.000Z"
+      },
+      "id": "3d0b7210c30c7ac00f6fcbd770263f9d",
+      "stadium": null
     },
     {
       "competition": {
@@ -1582,9 +1746,10 @@
       },
       "date": {
         "date": "2026-10-05",
-        "dateTime": "2026-10-05T09:00:00.000Z"
+        "dateTime": "2026-10-05T11:00:00.000Z"
       },
-      "id": "daa476129ee7e42a77c97c487e335ede"
+      "id": "daa476129ee7e42a77c97c487e335ede",
+      "stadium": null
     },
     {
       "competition": {
@@ -1600,9 +1765,10 @@
       },
       "date": {
         "date": "2026-10-05",
-        "dateTime": "2026-10-05T12:00:00.000Z"
+        "dateTime": "2026-10-05T14:00:00.000Z"
       },
-      "id": "eb9ea87cad8fec4ee2a43191cbec04d4"
+      "id": "eb9ea87cad8fec4ee2a43191cbec04d4",
+      "stadium": null
     },
     {
       "competition": {
@@ -1618,9 +1784,10 @@
       },
       "date": {
         "date": "2026-10-05",
-        "dateTime": "2026-10-05T13:00:00.000Z"
+        "dateTime": "2026-10-05T15:00:00.000Z"
       },
-      "id": "8b75950a1b8fc008d0a6fd21a05cd0fe"
+      "id": "8b75950a1b8fc008d0a6fd21a05cd0fe",
+      "stadium": null
     },
     {
       "competition": {
@@ -1636,9 +1803,10 @@
       },
       "date": {
         "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "dateTime": "2026-10-11T15:00:00.000Z"
       },
-      "id": "917d4d4c9b26e2878ec45b4682950253"
+      "id": "917d4d4c9b26e2878ec45b4682950253",
+      "stadium": null
     },
     {
       "competition": {
@@ -1654,9 +1822,17 @@
       },
       "date": {
         "date": "2026-10-11",
-        "dateTime": "2026-10-11T14:00:00.000Z"
+        "dateTime": "2026-10-11T16:00:00.000Z"
       },
-      "id": "9095dc1a0e0fe2181caf06cf60e8ab1f"
+      "id": "9095dc1a0e0fe2181caf06cf60e8ab1f",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
     },
     {
       "competition": {
@@ -1672,9 +1848,17 @@
       },
       "date": {
         "date": "2026-10-11",
-        "dateTime": "2026-10-11T14:00:00.000Z"
+        "dateTime": "2026-10-11T16:00:00.000Z"
       },
-      "id": "09c34c5ed7625346605be5fc8ad2633b"
+      "id": "09c34c5ed7625346605be5fc8ad2633b",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
     },
     {
       "competition": {
@@ -1690,9 +1874,10 @@
       },
       "date": {
         "date": "2026-10-11",
-        "dateTime": "2026-10-11T14:00:00.000Z"
+        "dateTime": "2026-10-11T16:00:00.000Z"
       },
-      "id": "42977949a3d6f3b16e9440a64fb7fd75"
+      "id": "42977949a3d6f3b16e9440a64fb7fd75",
+      "stadium": null
     },
     {
       "competition": {
@@ -1704,49 +1889,52 @@
       },
       "awayTeam": {
         "name": "Huragan Waksmund",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-12",
-        "dateTime": "2026-10-12T12:00:00.000Z"
-      },
-      "id": "6f064c1caad36e38e41d921e0a007525"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
-      },
-      "homeTeam": {
-        "name": "Wierchy Rabka Zdrój",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lubań II Maniowy/Kluszkowce",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-12",
-        "dateTime": "2026-10-12T13:00:00.000Z"
-      },
-      "id": "abdfed9dab1fdbf789579f9f1d65de84"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
-      },
-      "homeTeam": {
-        "name": "LKS Jodłownik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Zakopane",
         "crest": null
       },
       "date": {
         "date": "2026-10-12",
         "dateTime": "2026-10-12T14:00:00.000Z"
       },
-      "id": "651498e9a0daaa1b857baab3b15941e5"
+      "id": "6f064c1caad36e38e41d921e0a007525",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
+      },
+      "homeTeam": {
+        "name": "Wierchy Rabka Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lubań II Maniowy/Kluszkowce",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-12",
+        "dateTime": "2026-10-12T15:00:00.000Z"
+      },
+      "id": "abdfed9dab1fdbf789579f9f1d65de84",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Nowy Sacz II (Limanowa-Podhale))"
+      },
+      "homeTeam": {
+        "name": "LKS Jodłownik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Zakopane",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-12",
+        "dateTime": "2026-10-12T16:00:00.000Z"
+      },
+      "id": "651498e9a0daaa1b857baab3b15941e5",
+      "stadium": null
     },
     {
       "competition": {
@@ -1762,9 +1950,10 @@
       },
       "date": {
         "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:15:00.000Z"
+        "dateTime": "2026-10-18T15:15:00.000Z"
       },
-      "id": "20b191e0e286886f000351681b339668"
+      "id": "20b191e0e286886f000351681b339668",
+      "stadium": null
     },
     {
       "competition": {
@@ -1780,9 +1969,10 @@
       },
       "date": {
         "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:30:00.000Z"
+        "dateTime": "2026-10-18T15:30:00.000Z"
       },
-      "id": "a012f89c92c06e964aac376e8fb3d787"
+      "id": "a012f89c92c06e964aac376e8fb3d787",
+      "stadium": null
     },
     {
       "competition": {
@@ -1798,9 +1988,10 @@
       },
       "date": {
         "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:30:00.000Z"
+        "dateTime": "2026-10-18T15:30:00.000Z"
       },
-      "id": "58b15d14c68488b2ba2e969e2739b675"
+      "id": "58b15d14c68488b2ba2e969e2739b675",
+      "stadium": null
     },
     {
       "competition": {
@@ -1816,9 +2007,10 @@
       },
       "date": {
         "date": "2026-10-18",
-        "dateTime": "2026-10-18T15:00:00.000Z"
+        "dateTime": "2026-10-18T17:00:00.000Z"
       },
-      "id": "e87becf58e396d8065f55cd914f97581"
+      "id": "e87becf58e396d8065f55cd914f97581",
+      "stadium": null
     },
     {
       "competition": {
@@ -1834,9 +2026,10 @@
       },
       "date": {
         "date": "2026-10-19",
-        "dateTime": "2026-10-19T09:00:00.000Z"
+        "dateTime": "2026-10-19T11:00:00.000Z"
       },
-      "id": "d489407763e92968f274f043fdcd48ee"
+      "id": "d489407763e92968f274f043fdcd48ee",
+      "stadium": null
     },
     {
       "competition": {
@@ -1852,9 +2045,10 @@
       },
       "date": {
         "date": "2026-10-19",
-        "dateTime": "2026-10-19T12:00:00.000Z"
+        "dateTime": "2026-10-19T14:00:00.000Z"
       },
-      "id": "9d26c1d50b14d5aabda799ede3544dd1"
+      "id": "9d26c1d50b14d5aabda799ede3544dd1",
+      "stadium": null
     },
     {
       "competition": {
@@ -1870,9 +2064,10 @@
       },
       "date": {
         "date": "2026-10-19",
-        "dateTime": "2026-10-19T13:00:00.000Z"
+        "dateTime": "2026-10-19T15:00:00.000Z"
       },
-      "id": "c011e52e04085a999882a7e605168b0e"
+      "id": "c011e52e04085a999882a7e605168b0e",
+      "stadium": null
     },
     {
       "competition": {
@@ -1888,9 +2083,10 @@
       },
       "date": {
         "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "dateTime": "2026-10-25T11:00:00.000Z"
       },
-      "id": "e0d2661e91f652669740867aed018a43"
+      "id": "e0d2661e91f652669740867aed018a43",
+      "stadium": null
     },
     {
       "competition": {
@@ -1906,9 +2102,10 @@
       },
       "date": {
         "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "dateTime": "2026-10-25T11:00:00.000Z"
       },
-      "id": "e851c3f4c2d0b4efdbeb2e1f89560f64"
+      "id": "e851c3f4c2d0b4efdbeb2e1f89560f64",
+      "stadium": null
     },
     {
       "competition": {
@@ -1924,9 +2121,10 @@
       },
       "date": {
         "date": "2026-10-25",
-        "dateTime": "2026-10-25T12:00:00.000Z"
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
-      "id": "d8b0a95e4173cb97f0a0daddd9e83a75"
+      "id": "d8b0a95e4173cb97f0a0daddd9e83a75",
+      "stadium": null
     },
     {
       "competition": {
@@ -1942,9 +2140,17 @@
       },
       "date": {
         "date": "2026-10-25",
-        "dateTime": "2026-10-25T14:00:00.000Z"
+        "dateTime": "2026-10-25T15:00:00.000Z"
       },
-      "id": "9ce4651d411d7890b3a1c2d85a7af3e4"
+      "id": "9ce4651d411d7890b3a1c2d85a7af3e4",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
     },
     {
       "competition": {
@@ -1960,9 +2166,10 @@
       },
       "date": {
         "date": "2026-10-26",
-        "dateTime": "2026-10-26T12:00:00.000Z"
+        "dateTime": "2026-10-26T13:00:00.000Z"
       },
-      "id": "562177f83beabb82c6034536e5d8f489"
+      "id": "562177f83beabb82c6034536e5d8f489",
+      "stadium": null
     },
     {
       "competition": {
@@ -1978,9 +2185,10 @@
       },
       "date": {
         "date": "2026-10-26",
-        "dateTime": "2026-10-26T13:00:00.000Z"
+        "dateTime": "2026-10-26T14:00:00.000Z"
       },
-      "id": "63bcc43e68801d9eb6c6dd1e4fb47afe"
+      "id": "63bcc43e68801d9eb6c6dd1e4fb47afe",
+      "stadium": null
     },
     {
       "competition": {
@@ -1996,9 +2204,10 @@
       },
       "date": {
         "date": "2026-10-26",
-        "dateTime": "2026-10-26T14:00:00.000Z"
+        "dateTime": "2026-10-26T15:00:00.000Z"
       },
-      "id": "b28083e61774677d83495492472ecf1a"
+      "id": "b28083e61774677d83495492472ecf1a",
+      "stadium": null
     },
     {
       "competition": {
@@ -2014,9 +2223,10 @@
       },
       "date": {
         "date": "2026-11-02",
-        "dateTime": "2026-11-02T13:00:00.000Z"
+        "dateTime": "2026-11-02T14:00:00.000Z"
       },
-      "id": "c19165000e0fc5cddd13a60d4b63afbd"
+      "id": "c19165000e0fc5cddd13a60d4b63afbd",
+      "stadium": null
     },
     {
       "competition": {
@@ -2032,9 +2242,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "dateTime": "2026-11-08T11:00:00.000Z"
       },
-      "id": "0bd8b4de52918a1a64d3870d75616bf1"
+      "id": "0bd8b4de52918a1a64d3870d75616bf1",
+      "stadium": null
     },
     {
       "competition": {
@@ -2050,9 +2261,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "dateTime": "2026-11-08T11:00:00.000Z"
       },
-      "id": "c6d0aaf0ed6d2ddc4e78bc55d195f592"
+      "id": "c6d0aaf0ed6d2ddc4e78bc55d195f592",
+      "stadium": null
     },
     {
       "competition": {
@@ -2068,9 +2280,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z"
+        "dateTime": "2026-11-08T14:00:00.000Z"
       },
-      "id": "81e6bf0827dc4161875bbd98b1a868a9"
+      "id": "81e6bf0827dc4161875bbd98b1a868a9",
+      "stadium": null
     },
     {
       "competition": {
@@ -2086,9 +2299,10 @@
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z"
+        "dateTime": "2026-11-08T14:00:00.000Z"
       },
-      "id": "5a5aca44d838de16b7116ccd6ea66097"
+      "id": "5a5aca44d838de16b7116ccd6ea66097",
+      "stadium": null
     },
     {
       "competition": {
@@ -2104,9 +2318,10 @@
       },
       "date": {
         "date": "2026-11-09",
-        "dateTime": "2026-11-09T13:00:00.000Z"
+        "dateTime": "2026-11-09T14:00:00.000Z"
       },
-      "id": "4e2babbe925f4bb134720d8253776cf9"
+      "id": "4e2babbe925f4bb134720d8253776cf9",
+      "stadium": null
     },
     {
       "competition": {
@@ -2122,9 +2337,10 @@
       },
       "date": {
         "date": "2026-11-09",
-        "dateTime": "2026-11-09T13:00:00.000Z"
+        "dateTime": "2026-11-09T14:00:00.000Z"
       },
-      "id": "66759bee0e1f63d8c8f36c8ac849627a"
+      "id": "66759bee0e1f63d8c8f36c8ac849627a",
+      "stadium": null
     }
   ]
 }
