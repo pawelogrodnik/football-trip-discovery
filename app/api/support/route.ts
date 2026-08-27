@@ -48,9 +48,8 @@ function buildTransporter() {
   });
 }
 
-const transporter = buildTransporter();
-
 export async function POST(req: Request) {
+  const transporter = buildTransporter();
   let payload: SupportPayload;
   try {
     payload = (await req.json()) as SupportPayload;

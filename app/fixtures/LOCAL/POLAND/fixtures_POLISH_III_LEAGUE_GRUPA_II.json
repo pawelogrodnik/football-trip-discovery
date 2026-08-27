@@ -1,24 +1,60 @@
 {
   "competitionName": "III Liga, grupa II",
-  "count": 11,
+  "count": 63,
   "matches": [
     {
       "competition": {
         "name": "III Liga, grupa II"
       },
       "homeTeam": {
-        "name": "Pogoń II Szczecin",
-        "crest": "https://crests.football-data.org/5650.png"
+        "name": "Wda Świecie",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wybrzeże Rewalskie Rewal",
+        "name": "Noteć Czarnków",
         "crest": null
       },
       "date": {
-        "date": "2025-11-26",
-        "dateTime": "2025-11-26T16:30:00.000Z"
+        "date": "2026-08-28",
+        "dateTime": "2026-08-28T15:00:00.000Z"
       },
-      "id": "e3b70e4f6a53216ac070b90293f81ca2"
+      "id": "acaf1b3f1c81c412e92686ce11eef39c",
+      "stadium": {
+        "venue": "Stadion Miejski w Świeciu",
+        "address": "Sienkiewicza 18, Świecie",
+        "geo": {
+          "latitude": 53.4138624,
+          "longitude": 18.4431406,
+          "name": "18, Henryka Sienkiewicza, Mały Rynek, Świecie, gmina Świecie, powiat świecki, województwo kujawsko-pomorskie, 86-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kluczevia Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-28",
+        "dateTime": "2026-08-28T15:00:00.000Z"
+      },
+      "id": "fd10f7d85708725f75b4647bf225fa74",
+      "stadium": {
+        "venue": "Stadion Kluczevii Stargard",
+        "address": "Ceglana 3, Stargard",
+        "geo": {
+          "latitude": 53.3443851,
+          "longitude": 15.0189383,
+          "name": "Ceglana, Przedmieście Szczecińskie, Stargard, powiat stargardzki, województwo zachodniopomorskie, 73-110, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -29,14 +65,42 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Unia Swarzędz",
+        "name": "Lipno Stęszew",
         "crest": null
       },
       "date": {
-        "date": "2025-11-28",
-        "dateTime": "2025-11-28T12:00:00.000Z"
+        "date": "2026-08-28",
+        "dateTime": "2026-08-28T15:00:00.000Z"
       },
-      "id": "8090082d1b95a17f7a8ec8dfccc45813"
+      "id": "0cefa123b29f2d7b1b042be4c4dc0f95",
+      "stadium": {
+        "venue": "Stadion GOSRiT Luzino",
+        "address": "Sportowa 1, Luzino",
+        "geo": {
+          "latitude": 54.5074261,
+          "longitude": 18.0379409,
+          "name": "Sportowa, Tępcz, gmina Luzino, powiat wejherowski, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chemik Bydgoszcz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-28",
+        "dateTime": "2026-08-28T15:30:00.000Z"
+      },
+      "id": "4fae2cbe7874d08602aaf7bafaa3538b",
+      "stadium": null
     },
     {
       "competition": {
@@ -47,14 +111,158 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Flota Świnoujście",
+        "name": "Gedania Gdańsk",
         "crest": null
       },
       "date": {
-        "date": "2025-11-28",
-        "dateTime": "2025-11-28T18:00:00.000Z"
+        "date": "2026-08-28",
+        "dateTime": "2026-08-28T17:00:00.000Z"
       },
-      "id": "db6e91420c1ed009ea48e492f3efdbec"
+      "id": "0e69dd4c90756cfc62352a76791694d7",
+      "stadium": {
+        "address": "Sportowa 12 Środa Wielkopolska 63-000",
+        "venue": null,
+        "geo": {
+          "latitude": 52.2223345,
+          "longitude": 17.2731512,
+          "name": "12, Sportowa, Środa Wielkopolska, gmina Środa Wielkopolska, powiat średzki, województwo wielkopolskie, 63-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lech II Poznań",
+        "crest": "https://crests.football-data.org/5634.png"
+      },
+      "awayTeam": {
+        "name": "Grom Nowy Staw",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T10:00:00.000Z"
+      },
+      "id": "29cb4c6cd1e7c48dfab6a208f9ab8fdd",
+      "stadium": {
+        "address": "Bułgarska 5/7 Poznań 60-320",
+        "venue": "Stadion Amiki Wronki",
+        "geo": {
+          "latitude": 52.7186903,
+          "longitude": 16.3736622,
+          "name": "Stadion Akademii KKS Lech Poznań, 15a, Leśna, Zamość, Wronki, gmina Wronki, powiat szamotulski, województwo wielkopolskie, 64-510, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "KKS 1925 Kalisz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Elana Toruń",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T14:00:00.000Z"
+      },
+      "id": "6e0d4dfa61dbd62e900a8960474a8b31",
+      "stadium": {
+        "address": "Łódzka 19/219 Kalisz 62-800",
+        "venue": "Stadion OSRiR",
+        "geo": {
+          "latitude": 51.7521084,
+          "longitude": 18.1303606,
+          "name": "Łódzka, Winiary, Kalisz, województwo wielkopolskie, 62-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T14:00:00.000Z"
+      },
+      "id": "ec8d638079b750e663f49d63ac59f950",
+      "stadium": {
+        "address": "Andersa 16 Koszalin 75-015",
+        "venue": null,
+        "geo": {
+          "latitude": 54.1878083,
+          "longitude": 16.1873087,
+          "name": "16, Władysława Andersa, Śródmieście, Koszalin, województwo zachodniopomorskie, 75-015, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T15:00:00.000Z"
+      },
+      "id": "b4709a808e9e5d917bf05ae0599f1e61",
+      "stadium": {
+        "venue": "Stadion Miejski w Świnoujściu",
+        "address": "Matejki 22, Świnoujście",
+        "geo": {
+          "latitude": 53.9163154,
+          "longitude": 14.2433371,
+          "name": "Ośrodek Sportu i Rekreacji „Wyspiarz”, 22, Jana Matejki, Osiedle Wyspiańskiego, Osiedle Matejki, Świnoujście, województwo zachodniopomorskie, 72-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lech II Poznań",
+        "crest": "https://crests.football-data.org/5634.png"
+      },
+      "date": {
+        "date": "2026-09-04",
+        "dateTime": "2026-09-04T15:30:00.000Z"
+      },
+      "id": "6821b7d080b836e0a6e4555f79a736e5",
+      "stadium": {
+        "venue": "Stadion Miejski w Swarzędzu",
+        "address": "Św. Marcina 1, Swarzędz",
+        "geo": {
+          "latitude": 52.4103777,
+          "longitude": 17.070244,
+          "name": "Urząd Miasta i Gminy Swarzędz, 1, Świętego Marcina, Swarzędz, gmina Swarzędz, powiat poznański, województwo wielkopolskie, 62-020, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -65,32 +273,131 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Błękitni Stargard",
+        "name": "Wda Świecie",
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T11:00:00.000Z"
+        "date": "2026-09-04",
+        "dateTime": "2026-09-04T18:08:00.000Z"
       },
-      "id": "fcc4da07814f7949760938077929d5eb"
+      "id": "4da5f55d52c097d116e70d3fbe0230b7",
+      "stadium": {
+        "address": "Generała Józefa Bema 23/29 Toruń 87-100",
+        "venue": "Stadion Miejski im. Grzegorza Duneckiego",
+        "geo": {
+          "latitude": 53.019095,
+          "longitude": 18.5919038,
+          "name": "23-29, Generała Józefa Bema, Osiedle Józefa Bema, Chełmińskie Przedmieście, Toruń, województwo kujawsko-pomorskie, 87-100, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "III Liga, grupa II"
       },
       "homeTeam": {
-        "name": "Lipno Stęszew",
+        "name": "Gedania Gdańsk",
         "crest": null
       },
       "awayTeam": {
-        "name": "Lech II Poznań",
-        "crest": "https://crests.football-data.org/5634.png"
+        "name": "Wikęd Luzino",
+        "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T11:00:00.000Z"
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T10:00:00.000Z"
       },
-      "id": "9c86fd1c4d0d7edf35074f3a24c0d5e5"
+      "id": "b57a6c94f562a8cbccfa9a40c02517b0",
+      "stadium": {
+        "venue": "Stadion Gedanii Gdańsk",
+        "address": "Hallera 201, Gdańsk",
+        "geo": {
+          "latitude": 54.3965585,
+          "longitude": 18.6245082,
+          "name": "Smart Lab Centrum Edukacji, 201, Aleja Generała Józefa Hallera, Wrzeszcz Dolny, Gdańsk, 80-416, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Grom Nowy Staw",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Środa Wielkopolska",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T11:00:00.000Z"
+      },
+      "id": "e3d189942742e3a4ae605580c8864ad1",
+      "stadium": {
+        "venue": "Stadion Miejski w Nowym Stawie",
+        "address": "Sportowa 11, Nowy Staw",
+        "geo": {
+          "latitude": 54.1375881,
+          "longitude": 19.0162048,
+          "name": "Sportowa, Nowy Staw, gmina Nowy Staw, powiat malborski, 82-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T12:00:00.000Z"
+      },
+      "id": "144914731b986b98a788f8721551535a",
+      "stadium": {
+        "address": "Ceglana 1, Stargard Szczeciński 73-110",
+        "venue": "Stadion Miejski w Stargardzie",
+        "geo": {
+          "latitude": 53.342395965168755,
+          "longitude": 15.019439456852218,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS 1925 Kalisz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T13:00:00.000Z"
+      },
+      "id": "4cc9b09d9ed0cbff2d51ffb5aed2ce66",
+      "stadium": {
+        "venue": "Stadion Miejski we Wrześni",
+        "address": "Kosynierów 1, Września",
+        "geo": {
+          "latitude": 52.3291241,
+          "longitude": 17.566651,
+          "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -101,14 +408,1144 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Wybrzeże Rewalskie Rewal",
+        "name": "Kluczevia Stargard",
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T11:00:00.000Z"
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T13:00:00.000Z"
       },
-      "id": "b61ea1bb36e549a0a4b2406af3c34091"
+      "id": "9a1006967fe7da6212ab4cfcc5f9012d",
+      "stadium": {
+        "venue": "Stadion Miejski w Czarnkowie",
+        "address": "Zamkowa 1, Czarnków",
+        "geo": {
+          "latitude": 52.95287,
+          "longitude": 16.51933,
+          "name": "1, Zamkowa, Kuźnica Czarnkowska, gmina Czarnków, powiat czarnkowsko-trzcianecki, województwo wielkopolskie, 64-700, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Chemik Bydgoszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T15:00:00.000Z"
+      },
+      "id": "4c4cb462449f56ac239e8fa0df1471b6",
+      "stadium": {
+        "address": "Glinki 79 Bydgoszcz 85-861",
+        "venue": null,
+        "geo": {
+          "latitude": 53.1024536,
+          "longitude": 18.0321742,
+          "name": "79, Glinki, Na Wyżynach, Wyżyny, Bydgoszcz, województwo kujawsko-pomorskie, 85-860, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T15:00:00.000Z"
+      },
+      "id": "7808db51bf23bad13dc185d4442c5041",
+      "stadium": {
+        "venue": "Stadion Miejski w Stęszewie",
+        "address": "Kościańska 2, Stęszew",
+        "geo": {
+          "latitude": 52.27865,
+          "longitude": 16.69929,
+          "name": "2, Kościańska, Stęszew, gmina Stęszew, powiat poznański, województwo wielkopolskie, 62-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Wikęd Luzino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Nowy Staw",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T13:30:00.000Z"
+      },
+      "id": "ffd69e97027c940b0e3026d9916486c7",
+      "stadium": {
+        "venue": "Stadion GOSRiT Luzino",
+        "address": "Sportowa 1, Luzino",
+        "geo": {
+          "latitude": 54.5074261,
+          "longitude": 18.0379409,
+          "name": "Sportowa, Tępcz, gmina Luzino, powiat wejherowski, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Wielkopolska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T17:00:00.000Z"
+      },
+      "id": "588031c675931dc967e63afd622869ac",
+      "stadium": {
+        "address": "Sportowa 12 Środa Wielkopolska 63-000",
+        "venue": null,
+        "geo": {
+          "latitude": 52.2223345,
+          "longitude": 17.2731512,
+          "name": "12, Sportowa, Środa Wielkopolska, gmina Środa Wielkopolska, powiat średzki, województwo wielkopolskie, 63-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lech II Poznań",
+        "crest": "https://crests.football-data.org/5634.png"
+      },
+      "awayTeam": {
+        "name": "Noteć Czarnków",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "id": "51d4031651b3764599a571657d90ed11",
+      "stadium": {
+        "address": "Bułgarska 5/7 Poznań 60-320",
+        "venue": "Stadion Amiki Wronki",
+        "geo": {
+          "latitude": 52.7186903,
+          "longitude": 16.3736622,
+          "name": "Stadion Akademii KKS Lech Poznań, 15a, Leśna, Zamość, Wronki, gmina Wronki, powiat szamotulski, województwo wielkopolskie, 64-510, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kluczevia Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Elana Toruń",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "a0070c77a7de437e0aeb8a5af56946fd",
+      "stadium": {
+        "venue": "Stadion Kluczevii Stargard",
+        "address": "Ceglana 3, Stargard",
+        "geo": {
+          "latitude": 53.3443851,
+          "longitude": 15.0189383,
+          "name": "Ceglana, Przedmieście Szczecińskie, Stargard, powiat stargardzki, województwo zachodniopomorskie, 73-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chemik Bydgoszcz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "c491cfbc4eff89019f8b54da12005473",
+      "stadium": {
+        "venue": "Stadion Miejski we Wrześni",
+        "address": "Kosynierów 1, Września",
+        "geo": {
+          "latitude": 52.3291241,
+          "longitude": 17.566651,
+          "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "KKS 1925 Kalisz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wda Świecie",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "4364c2ed4542f1d1d61875fbe8e27bc7",
+      "stadium": {
+        "address": "Łódzka 19/219 Kalisz 62-800",
+        "venue": "Stadion OSRiR",
+        "geo": {
+          "latitude": 51.7521084,
+          "longitude": 18.1303606,
+          "name": "Łódzka, Winiary, Kalisz, województwo wielkopolskie, 62-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "15d9edce4d02da3262c0fc16121f65ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "047e8aa1f164e9d4200eb938f5146f48",
+      "stadium": {
+        "address": "Andersa 16 Koszalin 75-015",
+        "venue": null,
+        "geo": {
+          "latitude": 54.1878083,
+          "longitude": 16.1873087,
+          "name": "16, Władysława Andersa, Śródmieście, Koszalin, województwo zachodniopomorskie, 75-015, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gedania Gdańsk",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "db0ba18a3b35b35b1e968e9412eecce4",
+      "stadium": {
+        "venue": "Stadion Miejski w Świnoujściu",
+        "address": "Matejki 22, Świnoujście",
+        "geo": {
+          "latitude": 53.9163154,
+          "longitude": 14.2433371,
+          "name": "Ośrodek Sportu i Rekreacji „Wyspiarz”, 22, Jana Matejki, Osiedle Wyspiańskiego, Osiedle Matejki, Świnoujście, województwo zachodniopomorskie, 72-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wikęd Luzino",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T11:00:00.000Z"
+      },
+      "id": "56910ab9bbbf0757af868d9df5515479",
+      "stadium": {
+        "venue": "Stadion Miejski w Swarzędzu",
+        "address": "Św. Marcina 1, Swarzędz",
+        "geo": {
+          "latitude": 52.4103777,
+          "longitude": 17.070244,
+          "name": "Urząd Miasta i Gminy Swarzędz, 1, Świętego Marcina, Swarzędz, gmina Swarzędz, powiat poznański, województwo wielkopolskie, 62-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T12:00:00.000Z"
+      },
+      "id": "e85b097883ba5e401e948a6461643052",
+      "stadium": {
+        "address": "Ceglana 1, Stargard Szczeciński 73-110",
+        "venue": "Stadion Miejski w Stargardzie",
+        "geo": {
+          "latitude": 53.342395965168755,
+          "longitude": 15.019439456852218,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "6f74c8a84ad41fe5de11f72ff503e604",
+      "stadium": {
+        "venue": "Stadion Miejski w Stęszewie",
+        "address": "Kościańska 2, Stęszew",
+        "geo": {
+          "latitude": 52.27865,
+          "longitude": 16.69929,
+          "name": "2, Kościańska, Stęszew, gmina Stęszew, powiat poznański, województwo wielkopolskie, 62-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Wielkopolska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Elana Toruń",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-25",
+        "dateTime": "2026-09-25T16:00:00.000Z"
+      },
+      "id": "0ab78204159ccdaf787ee1869b200114",
+      "stadium": {
+        "address": "Sportowa 12 Środa Wielkopolska 63-000",
+        "venue": null,
+        "geo": {
+          "latitude": 52.2223345,
+          "longitude": 17.2731512,
+          "name": "12, Sportowa, Środa Wielkopolska, gmina Środa Wielkopolska, powiat średzki, województwo wielkopolskie, 63-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Wikęd Luzino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Noteć Czarnków",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T10:00:00.000Z"
+      },
+      "id": "4a15cfcb1c16fb6aa05834c868f2a411",
+      "stadium": {
+        "venue": "Stadion GOSRiT Luzino",
+        "address": "Sportowa 1, Luzino",
+        "geo": {
+          "latitude": 54.5074261,
+          "longitude": 18.0379409,
+          "name": "Sportowa, Tępcz, gmina Luzino, powiat wejherowski, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gedania Gdańsk",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
+      },
+      "id": "24138e28486861ee1224ea18394bb1c3",
+      "stadium": {
+        "address": "Andersa 16 Koszalin 75-015",
+        "venue": null,
+        "geo": {
+          "latitude": 54.1878083,
+          "longitude": 16.1873087,
+          "name": "16, Władysława Andersa, Śródmieście, Koszalin, województwo zachodniopomorskie, 75-015, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
+      },
+      "id": "667ebd13122c1d7c1b1e3c52e3fe304f",
+      "stadium": {
+        "venue": "Stadion Miejski we Wrześni",
+        "address": "Kosynierów 1, Września",
+        "geo": {
+          "latitude": 52.3291241,
+          "longitude": 17.566651,
+          "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Nowy Staw",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
+      },
+      "id": "1d4ad6718af4d3ac42b2a12aaece7e71",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
+      },
+      "id": "2e3aa5500be458c4eaa19223315cdfa6",
+      "stadium": {
+        "venue": "Stadion Miejski w Świnoujściu",
+        "address": "Matejki 22, Świnoujście",
+        "geo": {
+          "latitude": 53.9163154,
+          "longitude": 14.2433371,
+          "name": "Ośrodek Sportu i Rekreacji „Wyspiarz”, 22, Jana Matejki, Osiedle Wyspiańskiego, Osiedle Matejki, Świnoujście, województwo zachodniopomorskie, 72-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T11:00:00.000Z"
+      },
+      "id": "107dbde51711b1b2dbea80652c7bc828",
+      "stadium": {
+        "venue": "Stadion Miejski w Swarzędzu",
+        "address": "Św. Marcina 1, Swarzędz",
+        "geo": {
+          "latitude": 52.4103777,
+          "longitude": 17.070244,
+          "name": "Urząd Miasta i Gminy Swarzędz, 1, Świętego Marcina, Swarzędz, gmina Swarzędz, powiat poznański, województwo wielkopolskie, 62-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS 1925 Kalisz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T12:00:00.000Z"
+      },
+      "id": "76a5802999b2e07dbd67d2e4d0777f08",
+      "stadium": {
+        "address": "Ceglana 1, Stargard Szczeciński 73-110",
+        "venue": "Stadion Miejski w Stargardzie",
+        "geo": {
+          "latitude": 53.342395965168755,
+          "longitude": 15.019439456852218,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chemik Bydgoszcz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T12:00:00.000Z"
+      },
+      "id": "8829ff6080d045fc23d0811be5dd3716",
+      "stadium": {
+        "venue": "Stadion Miejski w Stęszewie",
+        "address": "Kościańska 2, Stęszew",
+        "geo": {
+          "latitude": 52.27865,
+          "longitude": 16.69929,
+          "name": "2, Kościańska, Stęszew, gmina Stęszew, powiat poznański, województwo wielkopolskie, 62-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Wielkopolska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kluczevia Stargard",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-09",
+        "dateTime": "2026-10-09T17:00:00.000Z"
+      },
+      "id": "31d9c75a3e94df496b072b05c27a2d7d",
+      "stadium": {
+        "address": "Sportowa 12 Środa Wielkopolska 63-000",
+        "venue": null,
+        "geo": {
+          "latitude": 52.2223345,
+          "longitude": 17.2731512,
+          "name": "12, Sportowa, Środa Wielkopolska, gmina Środa Wielkopolska, powiat średzki, województwo wielkopolskie, 63-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
+      },
+      "id": "d650c52ba9030b996ba8fb0a28150a36",
+      "stadium": {
+        "address": "Andersa 16 Koszalin 75-015",
+        "venue": null,
+        "geo": {
+          "latitude": 54.1878083,
+          "longitude": 16.1873087,
+          "name": "16, Władysława Andersa, Śródmieście, Koszalin, województwo zachodniopomorskie, 75-015, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
+      },
+      "id": "8ff9669d69ba7d3d089b89cd527cba34",
+      "stadium": {
+        "address": "Ceglana 1, Stargard Szczeciński 73-110",
+        "venue": "Stadion Miejski w Stargardzie",
+        "geo": {
+          "latitude": 53.342395965168755,
+          "longitude": 15.019439456852218,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Noteć Czarnków",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
+      },
+      "id": "df58fc7614d0a2a21990e9a39fc4123e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Nowy Staw",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
+      },
+      "id": "c58405f36889101cd91bd52be7b3bbbb",
+      "stadium": {
+        "venue": "Stadion Miejski we Wrześni",
+        "address": "Kosynierów 1, Września",
+        "geo": {
+          "latitude": 52.3291241,
+          "longitude": 17.566651,
+          "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Elana Toruń",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T14:00:00.000Z"
+      },
+      "id": "91ecef614fb4aba0de88ea85c7110ee9",
+      "stadium": {
+        "venue": "Stadion Miejski w Świnoujściu",
+        "address": "Matejki 22, Świnoujście",
+        "geo": {
+          "latitude": 53.9163154,
+          "longitude": 14.2433371,
+          "name": "Ośrodek Sportu i Rekreacji „Wyspiarz”, 22, Jana Matejki, Osiedle Wyspiańskiego, Osiedle Matejki, Świnoujście, województwo zachodniopomorskie, 72-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS 1925 Kalisz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T11:00:00.000Z"
+      },
+      "id": "c7e5d4a1641866cb5377290d7f67cda6",
+      "stadium": {
+        "venue": "Stadion Miejski w Stęszewie",
+        "address": "Kościańska 2, Stęszew",
+        "geo": {
+          "latitude": 52.27865,
+          "longitude": 16.69929,
+          "name": "2, Kościańska, Stęszew, gmina Stęszew, powiat poznański, województwo wielkopolskie, 62-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T11:00:00.000Z"
+      },
+      "id": "5e7a830ce0b1ec152654d7ee9b383fce",
+      "stadium": {
+        "venue": "Stadion Miejski w Swarzędzu",
+        "address": "Św. Marcina 1, Swarzędz",
+        "geo": {
+          "latitude": 52.4103777,
+          "longitude": 17.070244,
+          "name": "Urząd Miasta i Gminy Swarzędz, 1, Świętego Marcina, Swarzędz, gmina Swarzędz, powiat poznański, województwo wielkopolskie, 62-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Elana Toruń",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T10:00:00.000Z"
+      },
+      "id": "a13fe0d52acc8ebbf3511454a2b22c64",
+      "stadium": {
+        "address": "Andersa 16 Koszalin 75-015",
+        "venue": null,
+        "geo": {
+          "latitude": 54.1878083,
+          "longitude": 16.1873087,
+          "name": "16, Władysława Andersa, Śródmieście, Koszalin, województwo zachodniopomorskie, 75-015, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wda Świecie",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T11:00:00.000Z"
+      },
+      "id": "84d3f448d9c3788a77403abe591907bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gedania Gdańsk",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T11:00:00.000Z"
+      },
+      "id": "4ee07ba38c55176ea2a4c9732f93c1d3",
+      "stadium": {
+        "venue": "Stadion Miejski w Stęszewie",
+        "address": "Kościańska 2, Stęszew",
+        "geo": {
+          "latitude": 52.27865,
+          "longitude": 16.69929,
+          "name": "2, Kościańska, Stęszew, gmina Stęszew, powiat poznański, województwo wielkopolskie, 62-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Victoria Września",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Noteć Czarnków",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
+      },
+      "id": "d7f655e93b249e3ee8c5732367f87209",
+      "stadium": {
+        "venue": "Stadion Miejski we Wrześni",
+        "address": "Kosynierów 1, Września",
+        "geo": {
+          "latitude": 52.3291241,
+          "longitude": 17.566651,
+          "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Nowy Staw",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
+      },
+      "id": "6134ee4c6e98ad5a08d153af23b5861f",
+      "stadium": {
+        "address": "Ceglana 1, Stargard Szczeciński 73-110",
+        "venue": "Stadion Miejski w Stargardzie",
+        "geo": {
+          "latitude": 53.342395965168755,
+          "longitude": 15.019439456852218,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kluczevia Stargard",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T14:00:00.000Z"
+      },
+      "id": "5976849fbd6dfca8c9e0ebc4cfa8691a",
+      "stadium": {
+        "venue": "Stadion Miejski w Świnoujściu",
+        "address": "Matejki 22, Świnoujście",
+        "geo": {
+          "latitude": 53.9163154,
+          "longitude": 14.2433371,
+          "name": "Ośrodek Sportu i Rekreacji „Wyspiarz”, 22, Jana Matejki, Osiedle Wyspiańskiego, Osiedle Matejki, Świnoujście, województwo zachodniopomorskie, 72-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Stargard",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T12:00:00.000Z"
+      },
+      "id": "00dec81300883da4c9380461e79b4508",
+      "stadium": {
+        "venue": "Stadion Miejski w Swarzędzu",
+        "address": "Św. Marcina 1, Swarzędz",
+        "geo": {
+          "latitude": 52.4103777,
+          "longitude": 17.070244,
+          "name": "Urząd Miasta i Gminy Swarzędz, 1, Świętego Marcina, Swarzędz, gmina Swarzędz, powiat poznański, województwo wielkopolskie, 62-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Wielkopolska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wikęd Luzino",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T16:00:00.000Z"
+      },
+      "id": "521cffcb6da765eca3fcc204722b132c",
+      "stadium": {
+        "address": "Sportowa 12 Środa Wielkopolska 63-000",
+        "venue": null,
+        "geo": {
+          "latitude": 52.2223345,
+          "longitude": 17.2731512,
+          "name": "12, Sportowa, Środa Wielkopolska, gmina Środa Wielkopolska, powiat średzki, województwo wielkopolskie, 63-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Kotwica Kórnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lech II Poznań",
+        "crest": "https://crests.football-data.org/5634.png"
+      },
+      "date": {
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T11:00:00.000Z"
+      },
+      "id": "da638fb6ca9aaf12e0fb6776542566d4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Bałtyk Koszalin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kluczevia Stargard",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T11:00:00.000Z"
+      },
+      "id": "a31b70181c1b03fbe2647c3eb5b87daa",
+      "stadium": {
+        "address": "Andersa 16 Koszalin 75-015",
+        "venue": null,
+        "geo": {
+          "latitude": 54.1878083,
+          "longitude": 16.1873087,
+          "name": "16, Władysława Andersa, Śródmieście, Koszalin, województwo zachodniopomorskie, 75-015, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Lipno Stęszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Swarzędz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T11:00:00.000Z"
+      },
+      "id": "87f5756413edea540d01a61dcc90ce29",
+      "stadium": {
+        "venue": "Stadion Miejski w Stęszewie",
+        "address": "Kościańska 2, Stęszew",
+        "geo": {
+          "latitude": 52.27865,
+          "longitude": 16.69929,
+          "name": "2, Kościańska, Stęszew, gmina Stęszew, powiat poznański, województwo wielkopolskie, 62-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa II"
+      },
+      "homeTeam": {
+        "name": "Flota Świnoujście",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Środa Wielkopolska",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T12:00:00.000Z"
+      },
+      "id": "34c63ce31efcbceb207c4b2f90cb84bf",
+      "stadium": {
+        "venue": "Stadion Miejski w Świnoujściu",
+        "address": "Matejki 22, Świnoujście",
+        "geo": {
+          "latitude": 53.9163154,
+          "longitude": 14.2433371,
+          "name": "Ośrodek Sportu i Rekreacji „Wyspiarz”, 22, Jana Matejki, Osiedle Wyspiańskiego, Osiedle Matejki, Świnoujście, województwo zachodniopomorskie, 72-600, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -123,82 +1560,100 @@
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T11:00:00.000Z"
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T12:00:00.000Z"
       },
-      "id": "4ca3fbd43f928251daadfa67c11d64c1"
+      "id": "4ca3fbd43f928251daadfa67c11d64c1",
+      "stadium": {
+        "venue": "Stadion Miejski we Wrześni",
+        "address": "Kosynierów 1, Września",
+        "geo": {
+          "latitude": 52.3291241,
+          "longitude": 17.566651,
+          "name": "MKS Victoria Września, 1, Kosynierów, Osiedle Krzyża Grunwaldu, Września, gmina Września, powiat wrzesiński, województwo wielkopolskie, 62-300, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "III Liga, grupa II"
       },
       "homeTeam": {
-        "name": "Kluczevia Stargard",
+        "name": "Błękitni Stargard",
         "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń Nowe Skalmierzyce",
+        "name": "Noteć Czarnków",
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T12:00:00.000Z"
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T12:00:00.000Z"
       },
-      "id": "6963681ff75725a13106d3a0b4fd30c0"
+      "id": "dca78b81fd512b1f06b09e4778efad88",
+      "stadium": {
+        "address": "Ceglana 1, Stargard Szczeciński 73-110",
+        "venue": "Stadion Miejski w Stargardzie",
+        "geo": {
+          "latitude": 53.342395965168755,
+          "longitude": 15.019439456852218,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
         "name": "III Liga, grupa II"
       },
       "homeTeam": {
-        "name": "Tłuchowia Tłuchowo",
+        "name": "Unia Swarzędz",
         "crest": null
       },
       "awayTeam": {
-        "name": "Zawisza Bydgoszcz",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/3/35/Zawisza_Bydgoszcz_vector.svg"
+        "name": "Gedania Gdańsk",
+        "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T12:00:00.000Z"
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
-      "id": "b3acdfa5fddce7a598ed2a26377ee3cd"
+      "id": "3b3a43e380a32f303aa65232a17d3082",
+      "stadium": {
+        "venue": "Stadion Miejski w Swarzędzu",
+        "address": "Św. Marcina 1, Swarzędz",
+        "geo": {
+          "latitude": 52.4103777,
+          "longitude": 17.070244,
+          "name": "Urząd Miasta i Gminy Swarzędz, 1, Świętego Marcina, Swarzędz, gmina Swarzędz, powiat poznański, województwo wielkopolskie, 62-020, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "III Liga, grupa II"
       },
       "homeTeam": {
-        "name": "Pogoń II Szczecin",
-        "crest": "https://crests.football-data.org/5650.png"
-      },
-      "awayTeam": {
-        "name": "Cartusia Kartuzy",
-        "crest": null
-      },
-      "date": {
-        "date": "2025-11-30",
-        "dateTime": "2025-11-30T13:00:00.000Z"
-      },
-      "id": "ca1ed9eec59c518a1ff9c35ef889ff47"
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa II"
-      },
-      "homeTeam": {
-        "name": "Victoria Września",
+        "name": "Polonia Środa Wielkopolska",
         "crest": null
       },
       "awayTeam": {
-        "name": "Lech II Poznań",
-        "crest": "https://crests.football-data.org/5634.png"
+        "name": "Kotwica Kórnik",
+        "crest": null
       },
       "date": {
-        "date": "2025-12-06",
-        "dateTime": "2025-12-06T12:00:00.000Z"
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T15:00:00.000Z"
       },
-      "id": "6fdb776d194ec7cce558cb83b02ae295"
+      "id": "6be4e1c556dabcb83f762aacfeb59eed",
+      "stadium": {
+        "address": "Sportowa 12 Środa Wielkopolska 63-000",
+        "venue": null,
+        "geo": {
+          "latitude": 52.2223345,
+          "longitude": 17.2731512,
+          "name": "12, Sportowa, Środa Wielkopolska, gmina Środa Wielkopolska, powiat średzki, województwo wielkopolskie, 63-000, Polska"
+        }
+      }
     }
   ]
 }

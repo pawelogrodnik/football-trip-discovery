@@ -1,42 +1,32 @@
 {
   "competitionName": "III Liga, grupa I",
-  "count": 10,
+  "count": 54,
   "matches": [
     {
       "competition": {
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "Legia II Warszawa",
-        "crest": "https://crests.football-data.org/1105.png"
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
       },
       "awayTeam": {
-        "name": "Znicz Biała Piska",
+        "name": "Mławianka Mława",
         "crest": null
       },
       "date": {
-        "date": "2025-11-26",
-        "dateTime": "2025-11-26T11:00:00.000Z"
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T10:00:00.000Z"
       },
-      "id": "889c286802571e72662d9aca34763ae0"
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
-        "name": "Warta Sieradz",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Elbląg",
-        "crest": "https://crests.football-data.org/8874.png"
-      },
-      "date": {
-        "date": "2025-11-28",
-        "dateTime": "2025-11-28T18:00:00.000Z"
-      },
-      "id": "48b1f55a24e7603f570ce1516321eda8"
+      "id": "cf7751a245ba7bc78cbe60eb8c138573",
+      "stadium": {
+        "venue": "Orlen Stadion im. Kazimierza Górskiego, Płock",
+        "geo": {
+          "latitude": 52.562004,
+          "longitude": 19.684067,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
@@ -51,28 +41,18 @@
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T11:00:00.000Z"
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T10:00:00.000Z"
       },
-      "id": "dde5aad63c0cf47ab62f77ee3016a1d1"
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
-        "name": "Znicz Biała Piska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisła II Płock",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
-      },
-      "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T11:00:00.000Z"
-      },
-      "id": "1e074574022d21313f358c8d6d75faed"
+      "id": "dde5aad63c0cf47ab62f77ee3016a1d1",
+      "stadium": {
+        "venue": "Ośrodek treningowy Jagiellonii Białystok (ul. Elewatorska 4/6A)",
+        "geo": {
+          "latitude": 53.129508,
+          "longitude": 23.077261,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
@@ -83,32 +63,49 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Świt Nowy Dwór Mazowiecki",
+        "name": "KTS Weszło Warszawa",
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T12:00:00.000Z"
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T12:00:00.000Z"
       },
-      "id": "e3a80c3d69327042b594b533a970437f"
+      "id": "ff7be135704cb98451dbcdb54eff147b",
+      "stadium": {
+        "venue": "Stadion w Troszynie (ul. Juliusza Słowackiego / Wesoła, 07-405 Troszyn)",
+        "geo": {
+          "latitude": 53.03232213970085,
+          "longitude": 21.72133388382786,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "KS Wasilków",
+        "name": "Świt Nowy Dwór Mazowiecki",
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS Wikielec",
+        "name": "Warta Sieradz",
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T12:00:00.000Z"
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T13:00:00.000Z"
       },
-      "id": "d16f63fc93aed07e71648ab9856e37e3"
+      "id": "42e0f832fd1ba8a81e4eb93d49e9165a",
+      "stadium": {
+        "address": "Sportowa 66 Nowy Dwór Mazowiecki 05-100",
+        "venue": "Stadion Świtu Nowy Dwór Mazowiecki",
+        "geo": {
+          "latitude": 52.42686633169032,
+          "longitude": 20.727739621854276,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
@@ -119,50 +116,1078 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Pelikan Łowicz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T15:00:00.000Z"
+      },
+      "id": "b8c24909d20f0fda0d5fc1f734b7c323",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "awayTeam": {
         "name": "Wigry Suwałki",
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T12:00:00.000Z"
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T15:00:00.000Z"
       },
-      "id": "dd8718491b7323bbddcb2d80bde90f4b"
+      "id": "3eea4752afaaf08e02ac9554c74726eb",
+      "stadium": {
+        "address": "Agrykola 8, 82-300 Elbląg",
+        "venue": "Stadion Miejski w Elblągu",
+        "geo": {
+          "latitude": 54.16594740234912,
+          "longitude": 19.42148991902512,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "Broń Radom",
+        "name": "Polonia Lidzbark Warmiński",
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS Bełchatów",
+        "name": "Mazovia Mińsk Mazowiecki",
         "crest": null
       },
       "date": {
-        "date": "2025-11-29",
-        "dateTime": "2025-11-29T17:00:00.000Z"
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T15:00:00.000Z"
       },
-      "id": "07375f0200c8c4ba030796720dc2ccc2"
+      "id": "334c3542f7602329200d2b1267341a77",
+      "stadium": null
     },
     {
       "competition": {
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "Legia II Warszawa",
-        "crest": "https://crests.football-data.org/1105.png"
+        "name": "Olimpia Zambrów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "date": {
+        "date": "2026-08-30",
+        "dateTime": "2026-08-30T14:00:00.000Z"
+      },
+      "id": "d42c15e21f72e124cad8825b996f366d",
+      "stadium": {
+        "address": "Kardynała Stefana Wyszyńskiego 8 Zambrów 18-300",
+        "venue": null,
+        "geo": {
+          "latitude": 53.0232522,
+          "longitude": 22.3761556,
+          "name": "8, Kardynała Stefana Wyszyńskiego, Kołaki Kościelne, gmina Kołaki Kościelne, powiat zambrowski, województwo podlaskie, 18-315, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS II Łódź",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-30",
+        "dateTime": "2026-08-30T15:00:00.000Z"
+      },
+      "id": "9ec22ea538937c04f34d8f607974df76",
+      "stadium": {
+        "venue": "Stadion Miejski im. Władysława Króla",
+        "address": "al. Unii Lubelskiej 2, Łódź",
+        "geo": {
+          "latitude": 51.7589479,
+          "longitude": 19.4252474,
+          "name": "Stadion Miejski Łódzkiego Klubu Sportowego im. Władysława Króla, 2, Aleja Unii Lubelskiej, Zdrowie-Mania, Zdrowie, Łódź-Polesie, Łódź, województwo łódzkie, 94-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "date": {
+        "date": "2026-09-04",
+        "dateTime": "2026-09-04T15:00:00.000Z"
+      },
+      "id": "48b1f55a24e7603f570ce1516321eda8",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Pelikan Łowicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-04",
+        "dateTime": "2026-09-04T15:00:00.000Z"
+      },
+      "id": "8d5bd5679d9d737829a623f96969b1a5",
+      "stadium": {
+        "venue": "Stadion Pelikan Łowicz",
+        "address": "Starzyńskiego 6/8, Łowicz",
+        "geo": {
+          "latitude": 52.1022365,
+          "longitude": 19.9394593,
+          "name": "6/8, Stefana Starzyńskiego, Osiedle Stefana Starzyńskiego, Przedmieście, Łowicz, powiat łowicki, województwo łódzkie, 99-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Zambrów",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T13:00:00.000Z"
+      },
+      "id": "4c7217b944d47d0e13a0d453ebcb700c",
+      "stadium": {
+        "venue": "Stadion MKS Mazovia",
+        "address": "Sportowa 1, Mińsk Mazowiecki",
+        "geo": {
+          "latitude": 52.1722313,
+          "longitude": 21.5511335,
+          "name": "1, Sportowa, Florencja, Mińsk Mazowiecki, powiat miński, województwo mazowieckie, 05-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "KTS Weszło Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T13:00:00.000Z"
+      },
+      "id": "b87aa7bf352eef38b783f6970ee9ec2c",
+      "stadium": {
+        "venue": "Stadion KTS Weszło",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS CK Troszyn",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T14:00:00.000Z"
+      },
+      "id": "619df751723331c8b0b82f1c05f39a5b",
+      "stadium": {
+        "venue": "Stadion im. Braci Gadajów",
+        "geo": {
+          "latitude": 51.533611,
+          "longitude": 20.019722,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jagiellonia II Białystok",
+        "crest": "https://crests.football-data.org/5631.png"
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T14:00:00.000Z"
+      },
+      "id": "63acd539a73bc8ef58944e84b24354d7",
+      "stadium": {
+        "venue": "Stadion Miejski w Łomży (ul. Zjazd 18)",
+        "geo": {
+          "latitude": 53.187013,
+          "longitude": 22.087903,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "awayTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T10:00:00.000Z"
+      },
+      "id": "c5d21e338f45b444028874e4fd441f84",
+      "stadium": {
+        "venue": "Ośrodek Sportu „Łodzianka” (boiska treningowe Widzewa)",
+        "geo": {
+          "latitude": 51.768889,
+          "longitude": 19.494444,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Mławianka Mława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS II Łódź",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T14:00:00.000Z"
+      },
+      "id": "fcfa59692ff8890caf1a4a66a64f5f62",
+      "stadium": {
+        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
+        "geo": {
+          "latitude": 53.122744,
+          "longitude": 20.38092,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Wigry Suwałki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Lidzbark Warmiński",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T16:00:00.000Z"
+      },
+      "id": "996f13434140198ebb34ae06fb1c05fb",
+      "stadium": {
+        "address": "Zarzecze 26 Suwałki 16-400",
+        "venue": "Stadion Miejski",
+        "geo": {
+          "latitude": 54.094292148032196,
+          "longitude": 22.915551203509164,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T14:30:00.000Z"
+      },
+      "id": "2a1012457c5efb70c981d74f7e974e06",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "awayTeam": {
+        "name": "ŁKS II Łódź",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "id": "c0499405bb5240db2f8fbef71d066400",
+      "stadium": {
+        "venue": "Orlen Stadion im. Kazimierza Górskiego, Płock",
+        "geo": {
+          "latitude": 52.562004,
+          "longitude": 19.684067,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "KS CK Troszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "39a0332e1fa08eaf6f3edf149c956377",
+      "stadium": {
+        "venue": "Stadion w Troszynie (ul. Juliusza Słowackiego / Wesoła, 07-405 Troszyn)",
+        "geo": {
+          "latitude": 53.03232213970085,
+          "longitude": 21.72133388382786,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "awayTeam": {
+        "name": "Pelikan Łowicz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "8417b3758f294569060dff230bc68ae6",
+      "stadium": {
+        "address": "Agrykola 8, 82-300 Elbląg",
+        "venue": "Stadion Miejski w Elblągu",
+        "geo": {
+          "latitude": 54.16594740234912,
+          "longitude": 19.42148991902512,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "awayTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "id": "eed59afbb1ea6432f6004791489686f1",
+      "stadium": {
+        "venue": "Ośrodek Sportu „Łodzianka” (boiska treningowe Widzewa)",
+        "geo": {
+          "latitude": 51.768889,
+          "longitude": 19.494444,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Pelikan Łowicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Lidzbark Warmiński",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T13:00:00.000Z"
+      },
+      "id": "2c095dbee80678b226b1e5b33a2df0d7",
+      "stadium": {
+        "venue": "Stadion Pelikan Łowicz",
+        "address": "Starzyńskiego 6/8, Łowicz",
+        "geo": {
+          "latitude": 52.1022365,
+          "longitude": 19.9394593,
+          "name": "6/8, Stefana Starzyńskiego, Osiedle Stefana Starzyńskiego, Przedmieście, Łowicz, powiat łowicki, województwo łódzkie, 99-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "KTS Weszło Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T13:00:00.000Z"
+      },
+      "id": "1aa48bea07b27010f39b27078c8e37e5",
+      "stadium": {
+        "venue": "Stadion KTS Weszło",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "036877c299a323d1beae60bc381b7bee",
+      "stadium": {
+        "venue": "Stadion MKS Mazovia",
+        "address": "Sportowa 1, Mińsk Mazowiecki",
+        "geo": {
+          "latitude": 52.1722313,
+          "longitude": 21.5511335,
+          "name": "1, Sportowa, Florencja, Mińsk Mazowiecki, powiat miński, województwo mazowieckie, 05-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Zambrów",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "871a5bb5396d76b803b9956ec2895a74",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "d7f61836a17196b924fd30ad9b6ee289",
+      "stadium": {
+        "venue": "Stadion im. Braci Gadajów",
+        "geo": {
+          "latitude": 51.533611,
+          "longitude": 20.019722,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "70e17a1555b74f75f1a35eeec6a5bbf5",
+      "stadium": {
+        "venue": "Stadion Miejski w Łomży (ul. Zjazd 18)",
+        "geo": {
+          "latitude": 53.187013,
+          "longitude": 22.087903,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
       },
       "awayTeam": {
         "name": "Mławianka Mława",
         "crest": null
       },
       "date": {
-        "date": "2025-11-30",
-        "dateTime": "2025-11-30T11:00:00.000Z"
+        "date": "2026-09-25",
+        "dateTime": "2026-09-25T14:00:00.000Z"
       },
-      "id": "eba3847f9571ad354701d12a0a0ff727"
+      "id": "4ed502921ee4a93dc66a99310f1de173",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "awayTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
+      },
+      "id": "e0ae6d7ea6ad14be3093f94fb54ff8b5",
+      "stadium": {
+        "address": "Agrykola 8, 82-300 Elbląg",
+        "venue": "Stadion Miejski w Elblągu",
+        "geo": {
+          "latitude": 54.16594740234912,
+          "longitude": 19.42148991902512,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wigry Suwałki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
+      },
+      "id": "13ff7bc269f18da77b25958d5335ec19",
+      "stadium": {
+        "venue": "Stadion MKS Mazovia",
+        "address": "Sportowa 1, Mińsk Mazowiecki",
+        "geo": {
+          "latitude": 52.1722313,
+          "longitude": 21.5511335,
+          "name": "1, Sportowa, Florencja, Mińsk Mazowiecki, powiat miński, województwo mazowieckie, 05-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "awayTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T10:00:00.000Z"
+      },
+      "id": "c05a26c09abfaf32576b513607caede9",
+      "stadium": {
+        "venue": "Ośrodek Sportu „Łodzianka” (boiska treningowe Widzewa)",
+        "geo": {
+          "latitude": 51.768889,
+          "longitude": 19.494444,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-02",
+        "dateTime": "2026-10-02T17:00:00.000Z"
+      },
+      "id": "ffe52284952a3209b74b001e7199e4ea",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T14:00:00.000Z"
+      },
+      "id": "520c4134ffcdee64ea262f147d8d48d7",
+      "stadium": {
+        "venue": "Stadion Miejski w Łomży (ul. Zjazd 18)",
+        "geo": {
+          "latitude": 53.187013,
+          "longitude": 22.087903,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wigry Suwałki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-09",
+        "dateTime": "2026-10-09T17:00:00.000Z"
+      },
+      "id": "aabbd0625d103ff70739b75dfcce291e",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "awayTeam": {
+        "name": "Mławianka Mława",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
+      },
+      "id": "13439e22ec34acb0c994890ec6ad201b",
+      "stadium": {
+        "address": "Agrykola 8, 82-300 Elbląg",
+        "venue": "Stadion Miejski w Elblągu",
+        "geo": {
+          "latitude": 54.16594740234912,
+          "longitude": 19.42148991902512,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jagiellonia II Białystok",
+        "crest": "https://crests.football-data.org/5631.png"
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
+      },
+      "id": "5c74991cc2bc5bcce15a60f8bf8073b2",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pelikan Łowicz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
+      },
+      "id": "f675146d49b5e1f9cc1396b9c4808f82",
+      "stadium": {
+        "venue": "Stadion MKS Mazovia",
+        "address": "Sportowa 1, Mińsk Mazowiecki",
+        "geo": {
+          "latitude": 52.1722313,
+          "longitude": 21.5511335,
+          "name": "1, Sportowa, Florencja, Mińsk Mazowiecki, powiat miński, województwo mazowieckie, 05-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "awayTeam": {
+        "name": "KTS Weszło Warszawa",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
+      },
+      "id": "0355f5f03674192b8cda2d07bd7632fc",
+      "stadium": {
+        "venue": "Ośrodek Sportu „Łodzianka” (boiska treningowe Widzewa)",
+        "geo": {
+          "latitude": 51.768889,
+          "longitude": 19.494444,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "date": {
+        "date": "2026-10-16",
+        "dateTime": "2026-10-16T17:00:00.000Z"
+      },
+      "id": "9f3b5c7a2472ade31b54be59f12a0eec",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Zambrów",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
+      },
+      "id": "1829381e195a9ff8b5d97c2df67feadb",
+      "stadium": {
+        "venue": "Stadion Miejski w Łomży (ul. Zjazd 18)",
+        "geo": {
+          "latitude": 53.187013,
+          "longitude": 22.087903,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pelikan Łowicz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-23",
+        "dateTime": "2026-10-23T17:00:00.000Z"
+      },
+      "id": "9fe64bfb50ec198c19651ce3f1a6fe23",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T11:00:00.000Z"
+      },
+      "id": "c4ef4ac645a75cdba9008d119581f4db",
+      "stadium": {
+        "venue": "Stadion MKS Mazovia",
+        "address": "Sportowa 1, Mińsk Mazowiecki",
+        "geo": {
+          "latitude": 52.1722313,
+          "longitude": 21.5511335,
+          "name": "1, Sportowa, Florencja, Mińsk Mazowiecki, powiat miński, województwo mazowieckie, 05-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "awayTeam": {
+        "name": "Jagiellonia II Białystok",
+        "crest": "https://crests.football-data.org/5631.png"
+      },
+      "date": {
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
+      },
+      "id": "a66fba5c313677d41a2c890d50b783cf",
+      "stadium": {
+        "address": "Agrykola 8, 82-300 Elbląg",
+        "venue": "Stadion Miejski w Elblągu",
+        "geo": {
+          "latitude": 54.16594740234912,
+          "longitude": 19.42148991902512,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
@@ -177,10 +1202,229 @@
         "crest": null
       },
       "date": {
-        "date": "2025-11-30",
-        "dateTime": "2025-11-30T11:00:00.000Z"
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z"
       },
-      "id": "738e695749e369437fcff88169b0da2e"
+      "id": "738e695749e369437fcff88169b0da2e",
+      "stadium": {
+        "venue": "Ośrodek Sportu „Łodzianka” (boiska treningowe Widzewa)",
+        "geo": {
+          "latitude": 51.768889,
+          "longitude": 19.494444,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T12:00:00.000Z"
+      },
+      "id": "1ac58b57dcf42cbbf185c81234ba709b",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z"
+      },
+      "id": "3c60b612d600e8413219bad11e535a9b",
+      "stadium": {
+        "venue": "Stadion Miejski w Łomży (ul. Zjazd 18)",
+        "geo": {
+          "latitude": 53.187013,
+          "longitude": 22.087903,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-06",
+        "dateTime": "2026-11-06T18:00:00.000Z"
+      },
+      "id": "5ad0bb22ebaf4ada076c9cb1470c3726",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mławianka Mława",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T12:00:00.000Z"
+      },
+      "id": "28bc914aedb673069a42188de9b9b362",
+      "stadium": {
+        "venue": "Stadion MKS Mazovia",
+        "address": "Sportowa 1, Mińsk Mazowiecki",
+        "geo": {
+          "latitude": 52.1722313,
+          "longitude": 21.5511335,
+          "name": "1, Sportowa, Florencja, Mińsk Mazowiecki, powiat miński, województwo mazowieckie, 05-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "awayTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
+      },
+      "id": "0e3cc1703e49b9b751a6e523c02ace70",
+      "stadium": {
+        "address": "Agrykola 8, 82-300 Elbląg",
+        "venue": "Stadion Miejski w Elblągu",
+        "geo": {
+          "latitude": 54.16594740234912,
+          "longitude": 19.42148991902512,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "awayTeam": {
+        "name": "ŁKS II Łódź",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T11:00:00.000Z"
+      },
+      "id": "aa0762823d1b1aead5bdef28ebf8bd79",
+      "stadium": {
+        "venue": "Ośrodek Sportu „Łodzianka” (boiska treningowe Widzewa)",
+        "geo": {
+          "latitude": 51.768889,
+          "longitude": 19.494444,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Lidzbark Warmiński",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
+      },
+      "id": "b531baba21fd42a34993df989b1c4ee4",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łomża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T13:00:00.000Z"
+      },
+      "id": "32e0419d422b2992f571e13a3e50e86d",
+      "stadium": {
+        "venue": "Stadion Miejski w Łomży (ul. Zjazd 18)",
+        "geo": {
+          "latitude": 53.187013,
+          "longitude": 22.087903,
+          "name": null
+        }
+      }
     }
   ]
 }

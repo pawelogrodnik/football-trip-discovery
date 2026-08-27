@@ -203,7 +203,12 @@ export async function GET(request: Request) {
   const fixturesIndex = await getFixturesIndex();
 
   for (const requestId of uniqueRequestedIds) {
-    const normalizedId = fixturesIndex.aliases.get(requestId) ?? requestId;
+    let normalizedId = fixturesIndex.aliases.get(requestId);
+    if (!normalizedId && requestId.includes('__')) {
+      const nativePart = requestId.split('__').pop()!.trim();
+      normalizedId = fixturesIndex.aliases.get(nativePart) ?? nativePart;
+    }
+    if (!normalizedId) normalizedId = requestId;
     const indexed = fixturesIndex.matches.get(normalizedId);
     if (!indexed) {
       continue;

@@ -1,6 +1,6 @@
 {
   "competitionName": "Klasa A (Krakow III)",
-  "count": 1,
+  "count": 6,
   "matches": [
     {
       "competition": {
@@ -11,14 +11,133 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)",
+        "name": "Prokocim Kraków",
         "crest": null
       },
       "date": {
-        "date": "2026-03-14",
-        "dateTime": "2026-03-14T12:00:00.000Z"
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T12:00:00.000Z"
       },
-      "id": "88d627e3f8f821ae0755f259356494d3"
+      "id": "982f6b03b01ba06b8e0f11ddf045b787",
+      "stadium": {
+        "venue": "Stadion Zwierzyniecki KS",
+        "address": "Na Błoniach 7, Kraków",
+        "geo": {
+          "latitude": 50.05727151819558,
+          "longitude": 19.90734688743269
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Pychowianka Kraków",
+        "crest": "https://historiawisly.pl/wiki/images/4/40/Pychowianka_herb.jpg"
+      },
+      "awayTeam": {
+        "name": "Cedronka Wola Radziszowska",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-29",
+        "dateTime": "2026-08-29T18:00:00.000Z"
+      },
+      "id": "25eaa5a6b973c93f1ee3f7f7deb20db5",
+      "stadium": {
+        "address": null,
+        "venue": "Uczelniane Centrum Sportowo - Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.029104908245394,
+          "longitude": 19.901828030460408,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Radziszowianka II Radziszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Krzęcin",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-30",
+        "dateTime": "2026-08-30T09:00:00.000Z"
+      },
+      "id": "0faea52929365414a301a9c52b8fff5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dragoons Kraków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nadwiślan Kraków",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-30",
+        "dateTime": "2026-08-30T14:30:00.000Z"
+      },
+      "id": "f5053e1362f085053778dfd3fc413741",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj II Kraków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawinka Skawina",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-30",
+        "dateTime": "2026-08-30T16:30:00.000Z"
+      },
+      "id": "70a006b5a9103f3e732264c415b10fc6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bratniak Kraków",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "awayTeam": {
+        "name": "Dąbski KS Kraków",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-08-30",
+        "dateTime": "2026-08-30T17:00:00.000Z"
+      },
+      "id": "697c36011d86500c7bb0052a170cb4b6",
+      "stadium": {
+        "address": "Hamburger Straße 210 Braunschweig 38112",
+        "venue": "Eintracht-Stadion",
+        "geo": {
+          "latitude": 52.2901014,
+          "longitude": 10.5214686,
+          "name": "Eintracht-Stadion, Südstrasse, Volkswagen AG, Nordstadt-Schunteraue, Braunschweig, Niedersachsen, 38112, Deutschland"
+        }
+      }
     }
   ]
 }

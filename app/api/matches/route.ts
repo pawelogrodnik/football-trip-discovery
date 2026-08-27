@@ -119,9 +119,10 @@ export async function GET(req: Request) {
             )
         );
 
-        const normalizedMatches = filteredMatches.map((match: any) =>
-          ensureMatchHasNormalizedId(match, { country, league: name })
-        );
+        const normalizedMatches = filteredMatches.map((match: any) => {
+          const leagueForId = match?.competition?.name ?? match?.competition?.code ?? name;
+          return ensureMatchHasNormalizedId(match, { country, league: leagueForId });
+        });
 
         return {
           name,
