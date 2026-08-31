@@ -1,9 +1,873 @@
 [
   {
-    "id": "bc86577f4d831760bdf32455241027f8",
+    "id": "7c5a85f201875756681796e87b5e91e3",
     "date": {
-      "date": "2026-08-26",
-      "dateTime": "2026-08-26T19:00:00Z",
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "LASK",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
+    },
+    "awayTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "stadium": {
+      "city": "Linz",
+      "address": "Ziegeleistraße 76a",
+      "name": "Oberösterreich Arena",
+      "geo": {
+        "latitude": 48.292726,
+        "longitude": 14.275684
+      }
+    }
+  },
+  {
+    "id": "d829d7456ac11c1388921166254e253a",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "crest": "https://crests.football-data.org/7509.png"
+    },
+    "awayTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "stadium": {
+      "city": "Bratislava",
+      "address": "Viktora Tegelhoffa 4",
+      "name": "Národný futbalový štadión ",
+      "geo": {
+        "latitude": 48.17758,
+        "longitude": 17.154043
+      }
+    }
+  },
+  {
+    "id": "92c59f917909a3170a29d2056215d653",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "awayTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "stadium": {
+      "city": "Prague",
+      "address": "Vladivostocka 1460/2",
+      "name": "Eden Arena",
+      "geo": {
+        "latitude": 50.067475,
+        "longitude": 14.4714861
+      }
+    }
+  },
+  {
+    "id": "bb0e7a88a8922e9c29b3d730d71d7ed5",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "awayTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Fulham Road",
+      "name": "Stamford Bridge",
+      "geo": {
+        "latitude": 51.4817111,
+        "longitude": -0.1909861
+      }
+    }
+  },
+  {
+    "id": "f692f656195df02e880f889dbaa2ce72",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "awayTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "stadium": {
+      "city": "Villarreal",
+      "address": "Carrer Blasco Ibáñez, 2",
+      "name": "Estadio de la Cerámica",
+      "geo": {
+        "latitude": 39.943693,
+        "longitude": -0.104022
+      }
+    }
+  },
+  {
+    "id": "7f4be55f90b1143ec056c726fd0c722d",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "awayTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "stadium": {
+      "city": "Naples",
+      "address": "via Jacopo de gennaro snc",
+      "name": "Stadio Diego Armando Maradona",
+      "geo": {
+        "latitude": 40.8280889,
+        "longitude": 14.1928694
+      }
+    }
+  },
+  {
+    "id": "3dbf6cd06e0c429dffc6b50349d7eefd",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "stadium": {
+      "city": "Rotterdam",
+      "address": "Van Zandvlietplein 1",
+      "name": "Stadion Feijenoord 'De Kuip'",
+      "geo": {
+        "latitude": 51.8939056,
+        "longitude": 4.5232
+      }
+    }
+  },
+  {
+    "id": "7e64debe4efd164144135ef196e1b037",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "awayTeam": {
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
+    },
+    "stadium": {
+      "city": "Eindhoven",
+      "address": "Frederiklaan 10a",
+      "name": "PSV Stadion",
+      "geo": {
+        "latitude": 51.4416444,
+        "longitude": 5.4673028
+      }
+    }
+  },
+  {
+    "id": "fda97642cd0d6c829832701c65626bff",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
+    },
+    "awayTeam": {
+      "name": "FK Bodø/Glimt",
+      "crest": "https://crests.football-data.org/5721.png"
+    },
+    "stadium": {
+      "city": "Bruges",
+      "address": "Olympialaan 74",
+      "name": "Jan Breydelstadion",
+      "geo": {
+        "latitude": 51.1933556,
+        "longitude": 3.1806222
+      }
+    }
+  },
+  {
+    "id": "88a4c52b9016998ce1a8b8b5cdeebeed",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "awayTeam": {
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
+    },
+    "stadium": {
+      "city": "Rome",
+      "address": "Via dei Gladiatori 2",
+      "name": "Stadio Olimpico",
+      "geo": {
+        "latitude": 41.9339222,
+        "longitude": 12.4546833
+      }
+    }
+  },
+  {
+    "id": "8fda16eaa3128d394efb3d5d4a0473b8",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
+    },
+    "awayTeam": {
+      "name": "AEK Athens FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
+    },
+    "stadium": {
+      "city": "Dortmund",
+      "address": "Strobelallee 50",
+      "name": "BVB Stadion Dortmund",
+      "geo": {
+        "latitude": 51.4925889,
+        "longitude": 7.4517722
+      }
+    }
+  },
+  {
+    "id": "bd5b4d6f1832e765bff9021777fa1c44",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "awayTeam": {
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. de Luis Aragonés, 4",
+      "name": "Estadio Metropolitano",
+      "geo": {
+        "latitude": 40.436147,
+        "longitude": -3.600571
+      }
+    }
+  },
+  {
+    "id": "0cdec8755fdfef1e48f38bbfc5829ee7",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "awayTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "stadium": {
+      "city": "Barcelona",
+      "address": "Avda. Arístides Maillol 12",
+      "name": "Camp Nou",
+      "geo": {
+        "latitude": 41.3808417,
+        "longitude": 2.1227583
+      }
+    }
+  },
+  {
+    "id": "a3a00cfa6760224e5ffea0b43b8b2b89",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "awayTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Queensland road",
+      "name": "Arsenal Stadium",
+      "geo": {
+        "latitude": 51.555141,
+        "longitude": -0.108479
+      }
+    }
+  },
+  {
+    "id": "2aed4c420b1e36f8a573559baa587ae6",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "awayTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Rowsley Street",
+      "name": "City of Manchester Stadium",
+      "geo": {
+        "latitude": 53.4832028,
+        "longitude": -2.2003694
+      }
+    }
+  },
+  {
+    "id": "73a8c4859062cf576d15b024488313fe",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "awayTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "stadium": {
+      "city": "Liverpool",
+      "address": "Anfield Road",
+      "name": "Anfield",
+      "geo": {
+        "latitude": 53.4308,
+        "longitude": -2.9608472
+      }
+    }
+  },
+  {
+    "id": "974bc1fbb4c80bb72584d1028c4ad190",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "awayTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "stadium": {
+      "city": "Munich",
+      "address": "Werner-Heisenberg-Allee 25",
+      "name": "Fußball Arena München",
+      "geo": {
+        "latitude": 48.2187944,
+        "longitude": 11.6247306
+      }
+    }
+  },
+  {
+    "id": "d8aacfe6c39bb4f62fc6cd10119ade67",
+    "date": {
+      "date": "2027-01-27",
+      "dateTime": "2027-01-27T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "awayTeam": {
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+    },
+    "stadium": {
+      "city": "Paris",
+      "address": "24, rue du Commandant Guilbaud",
+      "name": "Parc des Princes",
+      "geo": {
+        "latitude": 48.8414333,
+        "longitude": 2.2530333
+      }
+    }
+  },
+  {
+    "id": "83299f9dae49aeeb31713d3da83666cc",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "awayTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "stadium": {
+      "city": "Stavanger",
+      "address": "Jåttåvågveien 11A",
+      "name": "Viking stadion",
+      "geo": {
+        "latitude": 58.914908,
+        "longitude": 5.728382
+      }
+    }
+  },
+  {
+    "id": "d58014e1a9b36adab456d3142604fe83",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "awayTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "stadium": {
+      "city": "Lens Agglo",
+      "address": "Avenue Alfred Maes",
+      "name": "Stade Bollaert-Delelis",
+      "geo": {
+        "latitude": 50.4328336,
+        "longitude": 2.815
+      }
+    }
+  },
+  {
+    "id": "7d9fdf043d424b1b6dbb0890591ff2e4",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "stadium": {
+      "city": "Como",
+      "address": "Viale Giuseppe Sinigaglia - 2",
+      "name": "Giuseppe Sinigaglia",
+      "geo": {
+        "latitude": 45.8138556,
+        "longitude": 9.072375
+      }
+    }
+  },
+  {
+    "id": "ed3002982fb7656c41c4a2060d417d02",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "awayTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "stadium": {
+      "city": "Leipzig",
+      "address": "Am Sportforum 3",
+      "name": "RB Arena",
+      "geo": {
+        "latitude": 51.3457333,
+        "longitude": 12.3481806
+      }
+    }
+  },
+  {
+    "id": "cb9dde0e8b03e796949de79c8cbb8e93",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "awayTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "stadium": {
+      "city": "Seville",
+      "address": "Isla de La Cartuja, Sector Norte",
+      "name": "LA CARTUJA DE SEVILLA",
+      "geo": {
+        "latitude": 37.4172611,
+        "longitude": -6.0046333
+      }
+    }
+  },
+  {
+    "id": "92f113e57b2fc20616d54d774e097a30",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "awayTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Sir Matt Busby Way",
+      "name": "Old Trafford",
+      "geo": {
+        "latitude": 53.4630583,
+        "longitude": -2.2913417
+      }
+    }
+  },
+  {
+    "id": "9ac713420d27256ad60048efa22a0d6b",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "awayTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "stadium": {
+      "city": "Lisbon",
+      "address": "Rua Professor Fernando da Fonseca",
+      "name": "Estádio José Alvalade",
+      "geo": {
+        "latitude": 38.76184,
+        "longitude": -9.164213
+      }
+    }
+  },
+  {
+    "id": "9895d78babaed2337938ed16606bd8e9",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "awayTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "stadium": {
+      "city": null,
+      "address": null,
+      "name": null,
+      "geo": {
+        "latitude": null,
+        "longitude": null
+      }
+    }
+  },
+  {
+    "id": "69e0cc204c80cc9418495eaa08b860c5",
+    "date": {
+      "date": "2027-01-20",
+      "dateTime": "2027-01-20T17:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
+    },
+    "awayTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "stadium": {
+      "city": "Istanbul",
+      "address": "Fenerbahce Sükrü Saracoglu Stadi",
+      "name": "Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
+      "geo": {
+        "latitude": 40.9877861,
+        "longitude": 29.0366528
+      }
+    }
+  },
+  {
+    "id": "62c7458a35148cfd7a80b5ce79547b64",
+    "date": {
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T20:00:00Z",
       "utcOffsetInHours": 2
     },
     "competition": {
@@ -18,8 +882,8 @@
       "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
     },
     "awayTeam": {
-      "name": "PFC Levski Sofia",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50044.png"
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
     },
     "stadium": {
       "city": "Athens",
@@ -32,11 +896,11 @@
     }
   },
   {
-    "id": "65614b0adc4cccb9e3ef57cf994ffc13",
+    "id": "128d70d81a36c8910ddccdcdc91553f1",
     "date": {
-      "date": "2026-08-26",
-      "dateTime": "2026-08-26T19:00:00Z",
-      "utcOffsetInHours": 2
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T20:00:00Z",
+      "utcOffsetInHours": 1
     },
     "competition": {
       "code": "UCL",
@@ -46,29 +910,29 @@
       }
     },
     "homeTeam": {
-      "name": "Viking FK",
-      "crest": "https://crests.football-data.org/5720.png"
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
     },
     "awayTeam": {
-      "name": "GNK Dinamo",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50164.png"
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
     },
     "stadium": {
-      "city": "Stavanger",
-      "address": "Jåttåvågveien 11A",
-      "name": "Viking stadion",
+      "city": "Stuttgart",
+      "address": "Mercedesstrasse 87",
+      "name": "Arena Stuttgart",
       "geo": {
-        "latitude": 58.914908,
-        "longitude": 5.728382
+        "latitude": 48.7922694,
+        "longitude": 9.2320083
       }
     }
   },
   {
-    "id": "07418f1329ccc123e1a6bc073cfc968f",
+    "id": "0fd3aba9daef98314f33801a3ea71814",
     "date": {
-      "date": "2026-08-26",
-      "dateTime": "2026-08-26T19:00:00Z",
-      "utcOffsetInHours": 2
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T20:00:00Z",
+      "utcOffsetInHours": 1
     },
     "competition": {
       "code": "UCL",
@@ -78,28 +942,156 @@
       }
     },
     "homeTeam": {
-      "name": "NK Celje",
-      "crest": "https://crests.football-data.org/8985.png"
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
     },
     "awayTeam": {
       "name": "ŠK Slovan Bratislava",
       "crest": "https://crests.football-data.org/7509.png"
     },
     "stadium": {
-      "city": "Celje",
-      "address": "Opekarniska cesta 15",
-      "name": "Stadion Celje",
+      "city": "Villeneuve d'Ascq",
+      "address": "261 Boulevard de Tournai",
+      "name": "Stade Pierre Mauroy",
       "geo": {
-        "latitude": 46.2464694,
-        "longitude": 15.2699694
+        "latitude": 50.611911,
+        "longitude": 3.130503
       }
     }
   },
   {
-    "id": "407e768043a09baee4186f16068c0502",
+    "id": "ea6b990528eb43ec3ca2203d3c46ba50",
     "date": {
-      "date": "2026-08-26",
-      "dateTime": "2026-08-26T19:00:00Z",
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "awayTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "stadium": {
+      "city": "Porto",
+      "address": "Via FC Porto",
+      "name": "Estádio do Dragão",
+      "geo": {
+        "latitude": 41.1617944,
+        "longitude": -8.5836861
+      }
+    }
+  },
+  {
+    "id": "203b445ec253a410c73d0eab09600fe3",
+    "date": {
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "awayTeam": {
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
+    },
+    "stadium": {
+      "city": "Birmingham",
+      "address": "Trinity Road: B6 6HE ",
+      "name": "Villa Park",
+      "geo": {
+        "latitude": 52.5091278,
+        "longitude": -1.8848306
+      }
+    }
+  },
+  {
+    "id": "ba2aa0d535dade160a146651ae80c40d",
+    "date": {
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "awayTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "stadium": {
+      "city": "Milan",
+      "address": "Piazzale A. Moratti",
+      "name": "Stadio San Siro",
+      "geo": {
+        "latitude": 45.4797849,
+        "longitude": 9.1246561
+      }
+    }
+  },
+  {
+    "id": "36ccb2425767787297485bf9b0ef1315",
+    "date": {
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "awayTeam": {
+      "name": "LASK",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. Concha Espina 1",
+      "name": "Estadio Santiago Bernabéu",
+      "geo": {
+        "latitude": 40.4530778,
+        "longitude": -3.6885194
+      }
+    }
+  },
+  {
+    "id": "da313b439ca2cab4effe739bb752ca45",
+    "date": {
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T17:45:00Z",
       "utcOffsetInHours": 2
     },
     "competition": {
@@ -110,29 +1102,29 @@
       }
     },
     "homeTeam": {
-      "name": "Olympique Lyonnais",
-      "crest": "https://crests.football-data.org/523.png"
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
     },
     "awayTeam": {
-      "name": "Fenerbahçe SK",
-      "crest": "https://crests.football-data.org/613.png"
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
     },
     "stadium": {
-      "city": "Décines",
-      "address": "10, Avenue Simone Veil",
-      "name": "OL Stadium",
+      "city": "Istanbul",
+      "address": "Huzur Mah. Metin Oktay Caddesi 34415 Seyrantepe",
+      "name": "Ali Sami Yen Spor Kompleksi",
       "geo": {
-        "latitude": 45.765,
-        "longitude": 4.982
+        "latitude": 41.104728,
+        "longitude": 28.997238
       }
     }
   },
   {
-    "id": "2d4a8ba469a98a9c2dae849581ecce7e",
+    "id": "a9fb8a988e462149719bb390c6c67870",
     "date": {
-      "date": "2026-08-25",
-      "dateTime": "2026-08-25T16:45:00Z",
-      "utcOffsetInHours": 4
+      "date": "2027-01-19",
+      "dateTime": "2027-01-19T17:45:00Z",
+      "utcOffsetInHours": 1
     },
     "competition": {
       "code": "UCL",
@@ -142,29 +1134,61 @@
       }
     },
     "homeTeam": {
-      "name": "Sabah FC",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+      "name": "FK Bodø/Glimt",
+      "crest": "https://crests.football-data.org/5721.png"
     },
     "awayTeam": {
-      "name": "Hapoel Beer-Sheva FC",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/59340.png"
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
     },
     "stadium": {
-      "city": "Baku",
-      "address": "F. Khoyski st. 98a",
-      "name": "Tofiq Bahramov Republican Stadium",
+      "city": "Bodø",
+      "address": "Fridtjof Nansens vei 3-7",
+      "name": "Aspmyra",
       "geo": {
-        "latitude": 40.3973806,
-        "longitude": 49.8523917
+        "latitude": 67.2767083,
+        "longitude": 14.3844028
       }
     }
   },
   {
-    "id": "bd2450bf6e19f6780e90fbdf58187fd8",
+    "id": "3573bf0b880db7cf1925eba3a965be53",
     "date": {
-      "date": "2026-08-25",
-      "dateTime": "2026-08-25T19:00:00Z",
-      "utcOffsetInHours": 2
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "awayTeam": {
+      "name": "FK Bodø/Glimt",
+      "crest": "https://crests.football-data.org/5721.png"
+    },
+    "stadium": {
+      "city": "Lens Agglo",
+      "address": "Avenue Alfred Maes",
+      "name": "Stade Bollaert-Delelis",
+      "geo": {
+        "latitude": 50.4328336,
+        "longitude": 2.815
+      }
+    }
+  },
+  {
+    "id": "a87eea642ebd5d97a9c9e52a3eff1912",
+    "date": {
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T20:00:00Z",
+      "utcOffsetInHours": 1
     },
     "competition": {
       "code": "UCL",
@@ -178,8 +1202,8 @@
       "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
     },
     "awayTeam": {
-      "name": "Celtic FC",
-      "crest": "https://crests.football-data.org/732.png"
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
     },
     "stadium": {
       "city": "Linz",
@@ -192,10 +1216,2314 @@
     }
   },
   {
-    "id": "9c4a6efd8a7ec280cd6092d2ba6cd8e9",
+    "id": "2f65292317e5e0c8b83911b0f0291c58",
     "date": {
-      "date": "2026-08-25",
-      "dateTime": "2026-08-25T19:00:00Z",
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
+    },
+    "awayTeam": {
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
+    },
+    "stadium": {
+      "city": "Stuttgart",
+      "address": "Mercedesstrasse 87",
+      "name": "Arena Stuttgart",
+      "geo": {
+        "latitude": 48.7922694,
+        "longitude": 9.2320083
+      }
+    }
+  },
+  {
+    "id": "741f7fe8bbcbeb225f8e901be7ca5723",
+    "date": {
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "awayTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "stadium": {
+      "city": "Eindhoven",
+      "address": "Frederiklaan 10a",
+      "name": "PSV Stadion",
+      "geo": {
+        "latitude": 51.4416444,
+        "longitude": 5.4673028
+      }
+    }
+  },
+  {
+    "id": "68723ebc49d1d0412533dee17715e92f",
+    "date": {
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
+    },
+    "awayTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "stadium": {
+      "city": "Dortmund",
+      "address": "Strobelallee 50",
+      "name": "BVB Stadion Dortmund",
+      "geo": {
+        "latitude": 51.4925889,
+        "longitude": 7.4517722
+      }
+    }
+  },
+  {
+    "id": "773f6a39a1d416d7bbdf5085a213504f",
+    "date": {
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "awayTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Queensland road",
+      "name": "Arsenal Stadium",
+      "geo": {
+        "latitude": 51.555141,
+        "longitude": -0.108479
+      }
+    }
+  },
+  {
+    "id": "79dff5e733cee36af50b370f70fc0713",
+    "date": {
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "awayTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "stadium": {
+      "city": "Liverpool",
+      "address": "Anfield Road",
+      "name": "Anfield",
+      "geo": {
+        "latitude": 53.4308,
+        "longitude": -2.9608472
+      }
+    }
+  },
+  {
+    "id": "2be17c099f528e057f5fee20f0e5f161",
+    "date": {
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "crest": "https://crests.football-data.org/7509.png"
+    },
+    "awayTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "stadium": {
+      "city": "Bratislava",
+      "address": "Viktora Tegelhoffa 4",
+      "name": "Národný futbalový štadión ",
+      "geo": {
+        "latitude": 48.17758,
+        "longitude": 17.154043
+      }
+    }
+  },
+  {
+    "id": "b8224938bf282479434d9fc6c195b1ce",
+    "date": {
+      "date": "2026-12-09",
+      "dateTime": "2026-12-09T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "awayTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "stadium": {
+      "city": "Seville",
+      "address": "Isla de La Cartuja, Sector Norte",
+      "name": "LA CARTUJA DE SEVILLA",
+      "geo": {
+        "latitude": 37.4172611,
+        "longitude": -6.0046333
+      }
+    }
+  },
+  {
+    "id": "7700f5ef877dd16e9052d8cce8c1f6c4",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T20:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "AEK Athens FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
+    },
+    "awayTeam": {
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+    },
+    "stadium": {
+      "city": "Athens",
+      "address": "Kappadokias and Fokon 9 str.",
+      "name": "AEK Arena",
+      "geo": {
+        "latitude": 38.0372424,
+        "longitude": 23.7416954
+      }
+    }
+  },
+  {
+    "id": "1e5e8f7ab054e8a04af6a97046cd2bb3",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "awayTeam": {
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
+    },
+    "stadium": {
+      "city": "Naples",
+      "address": "via Jacopo de gennaro snc",
+      "name": "Stadio Diego Armando Maradona",
+      "geo": {
+        "latitude": 40.8280889,
+        "longitude": 14.1928694
+      }
+    }
+  },
+  {
+    "id": "74dd1ea1ff31d9d5939af7d3bad54ff9",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Sir Matt Busby Way",
+      "name": "Old Trafford",
+      "geo": {
+        "latitude": 53.4630583,
+        "longitude": -2.2913417
+      }
+    }
+  },
+  {
+    "id": "5597ce968614e1d8f43b0e52587fa847",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "stadium": {
+      "city": "Birmingham",
+      "address": "Trinity Road: B6 6HE ",
+      "name": "Villa Park",
+      "geo": {
+        "latitude": 52.5091278,
+        "longitude": -1.8848306
+      }
+    }
+  },
+  {
+    "id": "69c1e47e6d824e81547de07c60bb86c4",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "awayTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "stadium": {
+      "city": "Rome",
+      "address": "Via dei Gladiatori 2",
+      "name": "Stadio Olimpico",
+      "geo": {
+        "latitude": 41.9339222,
+        "longitude": 12.4546833
+      }
+    }
+  },
+  {
+    "id": "76d453e62e2e13f48f58f9d98e185b5a",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "awayTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "stadium": {
+      "city": "Barcelona",
+      "address": "Avda. Arístides Maillol 12",
+      "name": "Camp Nou",
+      "geo": {
+        "latitude": 41.3808417,
+        "longitude": 2.1227583
+      }
+    }
+  },
+  {
+    "id": "834c5a18cdd671317797239996976682",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "awayTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "stadium": {
+      "city": "Munich",
+      "address": "Werner-Heisenberg-Allee 25",
+      "name": "Fußball Arena München",
+      "geo": {
+        "latitude": 48.2187944,
+        "longitude": 11.6247306
+      }
+    }
+  },
+  {
+    "id": "475876bcf1708c25d7112cbb292081f5",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "awayTeam": {
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+    },
+    "stadium": {
+      "city": "Stavanger",
+      "address": "Jåttåvågveien 11A",
+      "name": "Viking stadion",
+      "geo": {
+        "latitude": 58.914908,
+        "longitude": 5.728382
+      }
+    }
+  },
+  {
+    "id": "08b401a400bc78bcc2b276dd0eb08af1",
+    "date": {
+      "date": "2026-12-08",
+      "dateTime": "2026-12-08T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "awayTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "stadium": {
+      "city": "Villarreal",
+      "address": "Carrer Blasco Ibáñez, 2",
+      "name": "Estadio de la Cerámica",
+      "geo": {
+        "latitude": 39.943693,
+        "longitude": -0.104022
+      }
+    }
+  },
+  {
+    "id": "a13eb5c09fa589e1076e8daa45ab440c",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "awayTeam": {
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Fulham Road",
+      "name": "Stamford Bridge",
+      "geo": {
+        "latitude": 51.4817111,
+        "longitude": -0.1909861
+      }
+    }
+  },
+  {
+    "id": "ebd3966e1259cfc18c8fbe5470c0072b",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
+    },
+    "awayTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "stadium": {
+      "city": "Villeneuve d'Ascq",
+      "address": "261 Boulevard de Tournai",
+      "name": "Stade Pierre Mauroy",
+      "geo": {
+        "latitude": 50.611911,
+        "longitude": 3.130503
+      }
+    }
+  },
+  {
+    "id": "247f3788bb5ee7288b4968b992f92f11",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
+    },
+    "awayTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "stadium": {
+      "city": "Bruges",
+      "address": "Olympialaan 74",
+      "name": "Jan Breydelstadion",
+      "geo": {
+        "latitude": 51.1933556,
+        "longitude": 3.1806222
+      }
+    }
+  },
+  {
+    "id": "131c67ceb6dff6dfb6170f14e6cbe15d",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "awayTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "stadium": {
+      "city": "Lisbon",
+      "address": "Rua Professor Fernando da Fonseca",
+      "name": "Estádio José Alvalade",
+      "geo": {
+        "latitude": 38.76184,
+        "longitude": -9.164213
+      }
+    }
+  },
+  {
+    "id": "f5dc5372020097ba5ec5d9f05f9202c2",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "awayTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. de Luis Aragonés, 4",
+      "name": "Estadio Metropolitano",
+      "geo": {
+        "latitude": 40.436147,
+        "longitude": -3.600571
+      }
+    }
+  },
+  {
+    "id": "a9a98ac5ad6938e5757b090c3d3cd196",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "awayTeam": {
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
+    },
+    "stadium": {
+      "city": "Milan",
+      "address": "Piazzale A. Moratti",
+      "name": "Stadio San Siro",
+      "geo": {
+        "latitude": 45.4797849,
+        "longitude": 9.1246561
+      }
+    }
+  },
+  {
+    "id": "3502207588f3d610b131b35db1df7d88",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "awayTeam": {
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "stadium": {
+      "city": "Paris",
+      "address": "24, rue du Commandant Guilbaud",
+      "name": "Parc des Princes",
+      "geo": {
+        "latitude": 48.8414333,
+        "longitude": 2.2530333
+      }
+    }
+  },
+  {
+    "id": "d9ea295eb0916ec90a0e504295c89573",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "awayTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "stadium": {
+      "city": null,
+      "address": null,
+      "name": null,
+      "geo": {
+        "latitude": null,
+        "longitude": null
+      }
+    }
+  },
+  {
+    "id": "dcf22801209cb17f87c84ee54ccdcedf",
+    "date": {
+      "date": "2026-11-25",
+      "dateTime": "2026-11-25T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "awayTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "stadium": {
+      "city": "Prague",
+      "address": "Vladivostocka 1460/2",
+      "name": "Eden Arena",
+      "geo": {
+        "latitude": 50.067475,
+        "longitude": 14.4714861
+      }
+    }
+  },
+  {
+    "id": "56415aa8eec18ff0e0c6b720a657fbd2",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "awayTeam": {
+      "name": "AEK Athens FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
+    },
+    "stadium": {
+      "city": "Como",
+      "address": "Viale Giuseppe Sinigaglia - 2",
+      "name": "Giuseppe Sinigaglia",
+      "geo": {
+        "latitude": 45.8138556,
+        "longitude": 9.072375
+      }
+    }
+  },
+  {
+    "id": "78fe3bd018b1b8d196cc9d14de6a3f1c",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "crest": "https://crests.football-data.org/7509.png"
+    },
+    "awayTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "stadium": {
+      "city": "Bratislava",
+      "address": "Viktora Tegelhoffa 4",
+      "name": "Národný futbalový štadión ",
+      "geo": {
+        "latitude": 48.17758,
+        "longitude": 17.154043
+      }
+    }
+  },
+  {
+    "id": "2983ecd5d97a5caadda65cd3e9c5593f",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "awayTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "stadium": {
+      "city": "Leipzig",
+      "address": "Am Sportforum 3",
+      "name": "RB Arena",
+      "geo": {
+        "latitude": 51.3457333,
+        "longitude": 12.3481806
+      }
+    }
+  },
+  {
+    "id": "2337ba5cbed0917f695faae025389e5d",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+    },
+    "awayTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "stadium": {
+      "city": "Rotterdam",
+      "address": "Van Zandvlietplein 1",
+      "name": "Stadion Feijenoord 'De Kuip'",
+      "geo": {
+        "latitude": 51.8939056,
+        "longitude": 4.5232
+      }
+    }
+  },
+  {
+    "id": "a57bf30128c824f5f1245bb2d74c7aa7",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "awayTeam": {
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Queensland road",
+      "name": "Arsenal Stadium",
+      "geo": {
+        "latitude": 51.555141,
+        "longitude": -0.108479
+      }
+    }
+  },
+  {
+    "id": "d3ec6b848610e87f933dd7e559f276d1",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "awayTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Rowsley Street",
+      "name": "City of Manchester Stadium",
+      "geo": {
+        "latitude": 53.4832028,
+        "longitude": -2.2003694
+      }
+    }
+  },
+  {
+    "id": "1d54f1e44050cb38d9d8a62ef14d9b44",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "awayTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. Concha Espina 1",
+      "name": "Estadio Santiago Bernabéu",
+      "geo": {
+        "latitude": 40.4530778,
+        "longitude": -3.6885194
+      }
+    }
+  },
+  {
+    "id": "ef7f31efd83207414438b0c34e4050c4",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T17:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+    },
+    "awayTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "stadium": {
+      "city": "Istanbul",
+      "address": "Huzur Mah. Metin Oktay Caddesi 34415 Seyrantepe",
+      "name": "Ali Sami Yen Spor Kompleksi",
+      "geo": {
+        "latitude": 41.104728,
+        "longitude": 28.997238
+      }
+    }
+  },
+  {
+    "id": "5e469176631d6a7a8de10099e27e3a57",
+    "date": {
+      "date": "2026-11-24",
+      "dateTime": "2026-11-24T17:45:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FK Bodø/Glimt",
+      "crest": "https://crests.football-data.org/5721.png"
+    },
+    "awayTeam": {
+      "name": "LASK",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
+    },
+    "stadium": {
+      "city": "Bodø",
+      "address": "Fridtjof Nansens vei 3-7",
+      "name": "Aspmyra",
+      "geo": {
+        "latitude": 67.2767083,
+        "longitude": 14.3844028
+      }
+    }
+  },
+  {
+    "id": "b430ce7f1d1ac7bab5917ba85e6e2579",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "awayTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "stadium": {
+      "city": "Stavanger",
+      "address": "Jåttåvågveien 11A",
+      "name": "Viking stadion",
+      "geo": {
+        "latitude": 58.914908,
+        "longitude": 5.728382
+      }
+    }
+  },
+  {
+    "id": "44926a50127c5286e4ee055068e01644",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "awayTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "stadium": {
+      "city": "Lens Agglo",
+      "address": "Avenue Alfred Maes",
+      "name": "Stade Bollaert-Delelis",
+      "geo": {
+        "latitude": 50.4328336,
+        "longitude": 2.815
+      }
+    }
+  },
+  {
+    "id": "8389440de28b93f9d7fc033c5a35c02b",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "awayTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "stadium": {
+      "city": "Prague",
+      "address": "Vladivostocka 1460/2",
+      "name": "Eden Arena",
+      "geo": {
+        "latitude": 50.067475,
+        "longitude": 14.4714861
+      }
+    }
+  },
+  {
+    "id": "64d0f0b9b69d892ce970277870e6a5ac",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "awayTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "stadium": {
+      "city": "Leipzig",
+      "address": "Am Sportforum 3",
+      "name": "RB Arena",
+      "geo": {
+        "latitude": 51.3457333,
+        "longitude": 12.3481806
+      }
+    }
+  },
+  {
+    "id": "904a0427a7133bd082263e214d09f358",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "awayTeam": {
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
+    },
+    "stadium": {
+      "city": "Eindhoven",
+      "address": "Frederiklaan 10a",
+      "name": "PSV Stadion",
+      "geo": {
+        "latitude": 51.4416444,
+        "longitude": 5.4673028
+      }
+    }
+  },
+  {
+    "id": "ea0ce3ade6179625b942db9bb0dcd8a3",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "awayTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "stadium": {
+      "city": "Porto",
+      "address": "Via FC Porto",
+      "name": "Estádio do Dragão",
+      "geo": {
+        "latitude": 41.1617944,
+        "longitude": -8.5836861
+      }
+    }
+  },
+  {
+    "id": "db58d60200e4e4253ae9d8f1880b9818",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
+    },
+    "awayTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "stadium": {
+      "city": "Dortmund",
+      "address": "Strobelallee 50",
+      "name": "BVB Stadion Dortmund",
+      "geo": {
+        "latitude": 51.4925889,
+        "longitude": 7.4517722
+      }
+    }
+  },
+  {
+    "id": "e39338424f6b0aae76ef64c6f77e688d",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T17:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "AEK Athens FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
+    },
+    "awayTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "stadium": {
+      "city": "Athens",
+      "address": "Kappadokias and Fokon 9 str.",
+      "name": "AEK Arena",
+      "geo": {
+        "latitude": 38.0372424,
+        "longitude": 23.7416954
+      }
+    }
+  },
+  {
+    "id": "73107fbf5aad961ffac9b3e13dd13950",
+    "date": {
+      "date": "2026-11-04",
+      "dateTime": "2026-11-04T17:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
+    },
+    "awayTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "stadium": {
+      "city": "Istanbul",
+      "address": "Fenerbahce Sükrü Saracoglu Stadi",
+      "name": "Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
+      "geo": {
+        "latitude": 40.9877861,
+        "longitude": 29.0366528
+      }
+    }
+  },
+  {
+    "id": "611a6ede7034037570682421db2e37bc",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "LASK",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
+    },
+    "awayTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "crest": "https://crests.football-data.org/7509.png"
+    },
+    "stadium": {
+      "city": "Linz",
+      "address": "Ziegeleistraße 76a",
+      "name": "Oberösterreich Arena",
+      "geo": {
+        "latitude": 48.292726,
+        "longitude": 14.275684
+      }
+    }
+  },
+  {
+    "id": "1fcc03b384596083646fa9ed6e40c148",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "stadium": {
+      "city": "Villarreal",
+      "address": "Carrer Blasco Ibáñez, 2",
+      "name": "Estadio de la Cerámica",
+      "geo": {
+        "latitude": 39.943693,
+        "longitude": -0.104022
+      }
+    }
+  },
+  {
+    "id": "2067d38a5f3a3880222874ce6407ec86",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FK Bodø/Glimt",
+      "crest": "https://crests.football-data.org/5721.png"
+    },
+    "awayTeam": {
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
+    },
+    "stadium": {
+      "city": "Bodø",
+      "address": "Fridtjof Nansens vei 3-7",
+      "name": "Aspmyra",
+      "geo": {
+        "latitude": 67.2767083,
+        "longitude": 14.3844028
+      }
+    }
+  },
+  {
+    "id": "4410eab8b8027eb5984f96bb4f9a290e",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+    },
+    "awayTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "stadium": {
+      "city": "Rotterdam",
+      "address": "Van Zandvlietplein 1",
+      "name": "Stadion Feijenoord 'De Kuip'",
+      "geo": {
+        "latitude": 51.8939056,
+        "longitude": 4.5232
+      }
+    }
+  },
+  {
+    "id": "ea8562805b9b36251aa483fa18471779",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T20:00:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "awayTeam": {
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Sir Matt Busby Way",
+      "name": "Old Trafford",
+      "geo": {
+        "latitude": 53.4630583,
+        "longitude": -2.2913417
+      }
+    }
+  },
+  {
+    "id": "5455c8756246ae863235173131b14de5",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "awayTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. de Luis Aragonés, 4",
+      "name": "Estadio Metropolitano",
+      "geo": {
+        "latitude": 40.436147,
+        "longitude": -3.600571
+      }
+    }
+  },
+  {
+    "id": "77cb99e2bc6fdab8aea31f6e48433714",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T20:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "awayTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "stadium": {
+      "city": "Barcelona",
+      "address": "Avda. Arístides Maillol 12",
+      "name": "Camp Nou",
+      "geo": {
+        "latitude": 41.3808417,
+        "longitude": 2.1227583
+      }
+    }
+  },
+  {
+    "id": "b2509ee744fde1ed09d5f259efd0b2e0",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T17:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+    },
+    "awayTeam": {
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
+    },
+    "stadium": {
+      "city": "Istanbul",
+      "address": "Huzur Mah. Metin Oktay Caddesi 34415 Seyrantepe",
+      "name": "Ali Sami Yen Spor Kompleksi",
+      "geo": {
+        "latitude": 41.104728,
+        "longitude": 28.997238
+      }
+    }
+  },
+  {
+    "id": "909a68c38baccdd10a0d9b30dc2da796",
+    "date": {
+      "date": "2026-11-03",
+      "dateTime": "2026-11-03T17:45:00Z",
+      "utcOffsetInHours": 0
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "awayTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Fulham Road",
+      "name": "Stamford Bridge",
+      "geo": {
+        "latitude": 51.4817111,
+        "longitude": -0.1909861
+      }
+    }
+  },
+  {
+    "id": "239e165ee53659565097dd8613ff2f74",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "awayTeam": {
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+    },
+    "stadium": {
+      "city": "Seville",
+      "address": "Isla de La Cartuja, Sector Norte",
+      "name": "LA CARTUJA DE SEVILLA",
+      "geo": {
+        "latitude": 37.4172611,
+        "longitude": -6.0046333
+      }
+    }
+  },
+  {
+    "id": "6c60202940460f8de0ad4c820dac9633",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
+    },
+    "awayTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "stadium": {
+      "city": "Bruges",
+      "address": "Olympialaan 74",
+      "name": "Jan Breydelstadion",
+      "geo": {
+        "latitude": 51.1933556,
+        "longitude": 3.1806222
+      }
+    }
+  },
+  {
+    "id": "6da211f8fa7875a1c1ede682bb8c2a05",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "awayTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "stadium": {
+      "city": "Birmingham",
+      "address": "Trinity Road: B6 6HE ",
+      "name": "Villa Park",
+      "geo": {
+        "latitude": 52.5091278,
+        "longitude": -1.8848306
+      }
+    }
+  },
+  {
+    "id": "a8237704931098224569acaae41f0a7f",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "awayTeam": {
+      "name": "LASK",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
+    },
+    "stadium": {
+      "city": "Lisbon",
+      "address": "Rua Professor Fernando da Fonseca",
+      "name": "Estádio José Alvalade",
+      "geo": {
+        "latitude": 38.76184,
+        "longitude": -9.164213
+      }
+    }
+  },
+  {
+    "id": "66acaf39e100b87fa3d337554439a528",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "awayTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "stadium": {
+      "city": "Milan",
+      "address": "Piazzale A. Moratti",
+      "name": "Stadio San Siro",
+      "geo": {
+        "latitude": 45.4797849,
+        "longitude": 9.1246561
+      }
+    }
+  },
+  {
+    "id": "d796b22a202d149bba8d15688aa01bea",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. Concha Espina 1",
+      "name": "Estadio Santiago Bernabéu",
+      "geo": {
+        "latitude": 40.4530778,
+        "longitude": -3.6885194
+      }
+    }
+  },
+  {
+    "id": "e9b932dc55669e2e97ee78dd59a18752",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "awayTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "stadium": {
+      "city": "Munich",
+      "address": "Werner-Heisenberg-Allee 25",
+      "name": "Fußball Arena München",
+      "geo": {
+        "latitude": 48.2187944,
+        "longitude": 11.6247306
+      }
+    }
+  },
+  {
+    "id": "78653e0939380ffb9c6446289dc06665",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "awayTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "stadium": {
+      "city": "Como",
+      "address": "Viale Giuseppe Sinigaglia - 2",
+      "name": "Giuseppe Sinigaglia",
+      "geo": {
+        "latitude": 45.8138556,
+        "longitude": 9.072375
+      }
+    }
+  },
+  {
+    "id": "322015bb1d67a9e4df10ef9c7ab2c2ad",
+    "date": {
+      "date": "2026-10-21",
+      "dateTime": "2026-10-21T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
+    },
+    "awayTeam": {
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+    },
+    "stadium": {
+      "city": "Villeneuve d'Ascq",
+      "address": "261 Boulevard de Tournai",
+      "name": "Stade Pierre Mauroy",
+      "geo": {
+        "latitude": 50.611911,
+        "longitude": 3.130503
+      }
+    }
+  },
+  {
+    "id": "de7701f7eaa17eec5e6a22bc8421184a",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
+    },
+    "awayTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "stadium": {
+      "city": "Stuttgart",
+      "address": "Mercedesstrasse 87",
+      "name": "Arena Stuttgart",
+      "geo": {
+        "latitude": 48.7922694,
+        "longitude": 9.2320083
+      }
+    }
+  },
+  {
+    "id": "507668c0f6d21856dba59bd30474a4d5",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "awayTeam": {
+      "name": "FK Bodø/Glimt",
+      "crest": "https://crests.football-data.org/5721.png"
+    },
+    "stadium": {
+      "city": "Naples",
+      "address": "via Jacopo de gennaro snc",
+      "name": "Stadio Diego Armando Maradona",
+      "geo": {
+        "latitude": 40.8280889,
+        "longitude": 14.1928694
+      }
+    }
+  },
+  {
+    "id": "dbd97cae979b0c57aea39d55f47c8d2a",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "awayTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "stadium": {
+      "city": "Porto",
+      "address": "Via FC Porto",
+      "name": "Estádio do Dragão",
+      "geo": {
+        "latitude": 41.1617944,
+        "longitude": -8.5836861
+      }
+    }
+  },
+  {
+    "id": "48a7819a9294bc37659af2dab82bc335",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "awayTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "crest": "https://crests.football-data.org/7509.png"
+    },
+    "stadium": {
+      "city": "Rome",
+      "address": "Via dei Gladiatori 2",
+      "name": "Stadio Olimpico",
+      "geo": {
+        "latitude": 41.9339222,
+        "longitude": 12.4546833
+      }
+    }
+  },
+  {
+    "id": "1119a91389668458c174808f5ff806f3",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "awayTeam": {
+      "name": "AEK Athens FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Rowsley Street",
+      "name": "City of Manchester Stadium",
+      "geo": {
+        "latitude": 53.4832028,
+        "longitude": -2.2003694
+      }
+    }
+  },
+  {
+    "id": "bf6a3faf1f3e671a91c015343a924e53",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "awayTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "stadium": {
+      "city": "Liverpool",
+      "address": "Anfield Road",
+      "name": "Anfield",
+      "geo": {
+        "latitude": 53.4308,
+        "longitude": -2.9608472
+      }
+    }
+  },
+  {
+    "id": "231c7346a41d4934bf3f489637ab224a",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "awayTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "stadium": {
+      "city": "Paris",
+      "address": "24, rue du Commandant Guilbaud",
+      "name": "Parc des Princes",
+      "geo": {
+        "latitude": 48.8414333,
+        "longitude": 2.2530333
+      }
+    }
+  },
+  {
+    "id": "8c97d5dd479f286330854a28edf78c1a",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "awayTeam": {
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
+    },
+    "stadium": {
+      "city": null,
+      "address": null,
+      "name": null,
+      "geo": {
+        "latitude": null,
+        "longitude": null
+      }
+    }
+  },
+  {
+    "id": "00296ca7940e4ce4ac6e1a3b2a6f7442",
+    "date": {
+      "date": "2026-10-20",
+      "dateTime": "2026-10-20T16:45:00Z",
+      "utcOffsetInHours": 3
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
+    },
+    "awayTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "stadium": {
+      "city": "Istanbul",
+      "address": "Fenerbahce Sükrü Saracoglu Stadi",
+      "name": "Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
+      "geo": {
+        "latitude": 40.9877861,
+        "longitude": 29.0366528
+      }
+    }
+  },
+  {
+    "id": "aecd4bcd53c616e1bf6bd40148c65d9f",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "crest": "https://crests.football-data.org/7509.png"
+    },
+    "awayTeam": {
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
+    },
+    "stadium": {
+      "city": "Bratislava",
+      "address": "Viktora Tegelhoffa 4",
+      "name": "Národný futbalový štadión ",
+      "geo": {
+        "latitude": 48.17758,
+        "longitude": 17.154043
+      }
+    }
+  },
+  {
+    "id": "ed2ed628eb237ba362a314b792bf0034",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "awayTeam": {
+      "name": "AEK Athens FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Fulham Road",
+      "name": "Stamford Bridge",
+      "geo": {
+        "latitude": 51.4817111,
+        "longitude": -0.1909861
+      }
+    }
+  },
+  {
+    "id": "501b007b463fb5b8ea5ab7feb555c529",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T19:00:00Z",
       "utcOffsetInHours": 2
     },
     "competition": {
@@ -210,8 +3538,8 @@
       "crest": "https://crests.football-data.org/5721.png"
     },
     "awayTeam": {
-      "name": "N.E.C. Nijmegen",
-      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52330.png"
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
     },
     "stadium": {
       "city": "Bodø",
@@ -220,6 +3548,1062 @@
       "geo": {
         "latitude": 67.2767083,
         "longitude": 14.3844028
+      }
+    }
+  },
+  {
+    "id": "c783741929d7da611601c57dbd4bcb7c",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "awayTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "stadium": {
+      "city": "Seville",
+      "address": "Isla de La Cartuja, Sector Norte",
+      "name": "LA CARTUJA DE SEVILLA",
+      "geo": {
+        "latitude": 37.4172611,
+        "longitude": -6.0046333
+      }
+    }
+  },
+  {
+    "id": "b390e9e8033d563599b18fb2d8074af4",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "awayTeam": {
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
+    },
+    "stadium": {
+      "city": "Birmingham",
+      "address": "Trinity Road: B6 6HE ",
+      "name": "Villa Park",
+      "geo": {
+        "latitude": 52.5091278,
+        "longitude": -1.8848306
+      }
+    }
+  },
+  {
+    "id": "cf9058bfcd15d06c8c4b26443e35ac82",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "awayTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "stadium": {
+      "city": "Rome",
+      "address": "Via dei Gladiatori 2",
+      "name": "Stadio Olimpico",
+      "geo": {
+        "latitude": 41.9339222,
+        "longitude": 12.4546833
+      }
+    }
+  },
+  {
+    "id": "c51b186eb08c55dc5d527285ec256274",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Rowsley Street",
+      "name": "City of Manchester Stadium",
+      "geo": {
+        "latitude": 53.4832028,
+        "longitude": -2.2003694
+      }
+    }
+  },
+  {
+    "id": "c763d4492176dd1d08a4dc07552a0306",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "LASK",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
+    },
+    "awayTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "stadium": {
+      "city": "Linz",
+      "address": "Ziegeleistraße 76a",
+      "name": "Oberösterreich Arena",
+      "geo": {
+        "latitude": 48.292726,
+        "longitude": 14.275684
+      }
+    }
+  },
+  {
+    "id": "98ec43241c35dd2ace1c6098ea2312aa",
+    "date": {
+      "date": "2026-10-14",
+      "dateTime": "2026-10-14T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+    },
+    "awayTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "stadium": {
+      "city": "Rotterdam",
+      "address": "Van Zandvlietplein 1",
+      "name": "Stadion Feijenoord 'De Kuip'",
+      "geo": {
+        "latitude": 51.8939056,
+        "longitude": 4.5232
+      }
+    }
+  },
+  {
+    "id": "124165a138397676cb47065a2d4d4c8e",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "awayTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "stadium": {
+      "city": "Stavanger",
+      "address": "Jåttåvågveien 11A",
+      "name": "Viking stadion",
+      "geo": {
+        "latitude": 58.914908,
+        "longitude": 5.728382
+      }
+    }
+  },
+  {
+    "id": "9fc350fd9326e51fdf784b123594d6fa",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T19:00:00Z",
+      "utcOffsetInHours": 3
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+    },
+    "awayTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "stadium": {
+      "city": "Istanbul",
+      "address": "Huzur Mah. Metin Oktay Caddesi 34415 Seyrantepe",
+      "name": "Ali Sami Yen Spor Kompleksi",
+      "geo": {
+        "latitude": 41.104728,
+        "longitude": 28.997238
+      }
+    }
+  },
+  {
+    "id": "f2056de524d9a811ef0a29224789aba2",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "awayTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "stadium": {
+      "city": "Villarreal",
+      "address": "Carrer Blasco Ibáñez, 2",
+      "name": "Estadio de la Cerámica",
+      "geo": {
+        "latitude": 39.943693,
+        "longitude": -0.104022
+      }
+    }
+  },
+  {
+    "id": "69eecf17a7638156b2091f2f67fb389a",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "awayTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "stadium": {
+      "city": "Leipzig",
+      "address": "Am Sportforum 3",
+      "name": "RB Arena",
+      "geo": {
+        "latitude": 51.3457333,
+        "longitude": 12.3481806
+      }
+    }
+  },
+  {
+    "id": "673ee5f1034a7ffb08898c1f8c02e748",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "awayTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. de Luis Aragonés, 4",
+      "name": "Estadio Metropolitano",
+      "geo": {
+        "latitude": 40.436147,
+        "longitude": -3.600571
+      }
+    }
+  },
+  {
+    "id": "ad954021a736c5d4a3b520b3d86d405f",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "awayTeam": {
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
+    },
+    "stadium": {
+      "city": "London",
+      "address": "Queensland road",
+      "name": "Arsenal Stadium",
+      "geo": {
+        "latitude": 51.555141,
+        "longitude": -0.108479
+      }
+    }
+  },
+  {
+    "id": "8c20cdaea1351b47a14543670132ba7b",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "awayTeam": {
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
+    },
+    "stadium": {
+      "city": "Milan",
+      "address": "Piazzale A. Moratti",
+      "name": "Stadio San Siro",
+      "geo": {
+        "latitude": 45.4797849,
+        "longitude": 9.1246561
+      }
+    }
+  },
+  {
+    "id": "dd39bc60389e235f69ccbd2b4ec76556",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "awayTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "stadium": {
+      "city": null,
+      "address": null,
+      "name": null,
+      "geo": {
+        "latitude": null,
+        "longitude": null
+      }
+    }
+  },
+  {
+    "id": "7fdd0478161f10f62c5336ea2d4aa23f",
+    "date": {
+      "date": "2026-10-13",
+      "dateTime": "2026-10-13T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "awayTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "stadium": {
+      "city": "Lens Agglo",
+      "address": "Avenue Alfred Maes",
+      "name": "Stade Bollaert-Delelis",
+      "geo": {
+        "latitude": 50.4328336,
+        "longitude": 2.815
+      }
+    }
+  },
+  {
+    "id": "7be3f3fc46dbe8354a272a2974076d12",
+    "date": {
+      "date": "2026-09-10",
+      "dateTime": "2026-09-10T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Como 1907",
+      "crest": "https://crests.football-data.org/7397.png"
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "crest": "https://crests.football-data.org/721.png"
+    },
+    "stadium": {
+      "city": "Como",
+      "address": "Viale Giuseppe Sinigaglia - 2",
+      "name": "Giuseppe Sinigaglia",
+      "geo": {
+        "latitude": 45.8138556,
+        "longitude": 9.072375
+      }
+    }
+  },
+  {
+    "id": "4bbf0c29eef06ef5cc08f9b2e63cb2f3",
+    "date": {
+      "date": "2026-09-10",
+      "dateTime": "2026-09-10T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SK Slavia Praha",
+      "crest": "https://crests.football-data.org/930.png"
+    },
+    "awayTeam": {
+      "name": "RC Lens",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52277.png"
+    },
+    "stadium": {
+      "city": "Prague",
+      "address": "Vladivostocka 1460/2",
+      "name": "Eden Arena",
+      "geo": {
+        "latitude": 50.067475,
+        "longitude": 14.4714861
+      }
+    }
+  },
+  {
+    "id": "deeeefc97af98658c5db63deff3be2a3",
+    "date": {
+      "date": "2026-09-10",
+      "dateTime": "2026-09-10T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Manchester United",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52682.png"
+    },
+    "awayTeam": {
+      "name": "Sabah FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/2609356.png"
+    },
+    "stadium": {
+      "city": "Manchester",
+      "address": "Sir Matt Busby Way",
+      "name": "Old Trafford",
+      "geo": {
+        "latitude": 53.4630583,
+        "longitude": -2.2913417
+      }
+    }
+  },
+  {
+    "id": "56fc49de466c44e70c84843ac57a27bc",
+    "date": {
+      "date": "2026-09-10",
+      "dateTime": "2026-09-10T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Bayern München",
+      "crest": "https://crests.football-data.org/5.png"
+    },
+    "awayTeam": {
+      "name": "FK Bodø/Glimt",
+      "crest": "https://crests.football-data.org/5721.png"
+    },
+    "stadium": {
+      "city": "Munich",
+      "address": "Werner-Heisenberg-Allee 25",
+      "name": "Fußball Arena München",
+      "geo": {
+        "latitude": 48.2187944,
+        "longitude": 11.6247306
+      }
+    }
+  },
+  {
+    "id": "8441bb8f8343126171d716b2f280f1bf",
+    "date": {
+      "date": "2026-09-10",
+      "dateTime": "2026-09-10T16:45:00Z",
+      "utcOffsetInHours": 3
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Fenerbahçe SK",
+      "crest": "https://crests.football-data.org/613.png"
+    },
+    "awayTeam": {
+      "name": "AS Roma",
+      "crest": "https://crests.football-data.org/100.png"
+    },
+    "stadium": {
+      "city": "Istanbul",
+      "address": "Fenerbahce Sükrü Saracoglu Stadi",
+      "name": "Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
+      "geo": {
+        "latitude": 40.9877861,
+        "longitude": 29.0366528
+      }
+    }
+  },
+  {
+    "id": "ca9ed90d0968df9b70ed72001d068409",
+    "date": {
+      "date": "2026-09-10",
+      "dateTime": "2026-09-10T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "PSV Eindhoven",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50062.png"
+    },
+    "awayTeam": {
+      "name": "FC Shakhtar Donetsk",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52707.png"
+    },
+    "stadium": {
+      "city": "Eindhoven",
+      "address": "Frederiklaan 10a",
+      "name": "PSV Stadion",
+      "geo": {
+        "latitude": 51.4416444,
+        "longitude": 5.4673028
+      }
+    }
+  },
+  {
+    "id": "4e396433f37d412fcd11e6bef308a0ee",
+    "date": {
+      "date": "2026-09-09",
+      "dateTime": "2026-09-09T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "SSC Napoli",
+      "crest": "https://crests.football-data.org/113.png"
+    },
+    "awayTeam": {
+      "name": "Arsenal FC",
+      "crest": "https://crests.football-data.org/57.png"
+    },
+    "stadium": {
+      "city": "Naples",
+      "address": "via Jacopo de gennaro snc",
+      "name": "Stadio Diego Armando Maradona",
+      "geo": {
+        "latitude": 40.8280889,
+        "longitude": 14.1928694
+      }
+    }
+  },
+  {
+    "id": "ac13436c7619e7bb5e27a325f4cd15da",
+    "date": {
+      "date": "2026-09-09",
+      "dateTime": "2026-09-09T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Sporting Clube de Portugal",
+      "crest": "https://crests.football-data.org/498.png"
+    },
+    "awayTeam": {
+      "name": "Galatasaray A.Ş.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50067.png"
+    },
+    "stadium": {
+      "city": "Lisbon",
+      "address": "Rua Professor Fernando da Fonseca",
+      "name": "Estádio José Alvalade",
+      "geo": {
+        "latitude": 38.76184,
+        "longitude": -9.164213
+      }
+    }
+  },
+  {
+    "id": "94a41dedcacd6d1ba4cb97e7382422d7",
+    "date": {
+      "date": "2026-09-09",
+      "dateTime": "2026-09-09T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Liverpool FC",
+      "crest": "https://crests.football-data.org/64.png"
+    },
+    "awayTeam": {
+      "name": "Atlético de Madrid",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50124.png"
+    },
+    "stadium": {
+      "city": "Liverpool",
+      "address": "Anfield Road",
+      "name": "Anfield",
+      "geo": {
+        "latitude": 53.4308,
+        "longitude": -2.9608472
+      }
+    }
+  },
+  {
+    "id": "35e4fbffecf3e6666af11c230a6ccf3c",
+    "date": {
+      "date": "2026-09-09",
+      "dateTime": "2026-09-09T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Paris Saint-Germain",
+      "crest": "https://crests.football-data.org/524.png"
+    },
+    "awayTeam": {
+      "name": "ŠK Slovan Bratislava",
+      "crest": "https://crests.football-data.org/7509.png"
+    },
+    "stadium": {
+      "city": "Paris",
+      "address": "24, rue du Commandant Guilbaud",
+      "name": "Parc des Princes",
+      "geo": {
+        "latitude": 48.8414333,
+        "longitude": 2.2530333
+      }
+    }
+  },
+  {
+    "id": "25a4fb7a3d22cbc0960110b53620d71e",
+    "date": {
+      "date": "2026-09-09",
+      "dateTime": "2026-09-09T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "VfB Stuttgart",
+      "crest": "https://crests.football-data.org/10.png"
+    },
+    "awayTeam": {
+      "name": "Viking FK",
+      "crest": "https://crests.football-data.org/5720.png"
+    },
+    "stadium": {
+      "city": "Stuttgart",
+      "address": "Mercedesstrasse 87",
+      "name": "Arena Stuttgart",
+      "geo": {
+        "latitude": 48.7922694,
+        "longitude": 9.2320083
+      }
+    }
+  },
+  {
+    "id": "46f7d5ae8a8d306964f90cb6b8e797dc",
+    "date": {
+      "date": "2026-09-09",
+      "dateTime": "2026-09-09T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Barcelona",
+      "crest": "https://crests.football-data.org/81.png"
+    },
+    "awayTeam": {
+      "name": "Feyenoord",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52749.png"
+    },
+    "stadium": {
+      "city": "Barcelona",
+      "address": "Avda. Arístides Maillol 12",
+      "name": "Camp Nou",
+      "geo": {
+        "latitude": 41.3808417,
+        "longitude": 2.1227583
+      }
+    }
+  },
+  {
+    "id": "1498f8eaee8f247010627da0db94d7d2",
+    "date": {
+      "date": "2026-09-08",
+      "dateTime": "2026-09-08T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "LOSC Lille",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/75797.png"
+    },
+    "awayTeam": {
+      "name": "Real Betis Balompié",
+      "crest": "https://crests.football-data.org/90.png"
+    },
+    "stadium": {
+      "city": "Villeneuve d'Ascq",
+      "address": "261 Boulevard de Tournai",
+      "name": "Stade Pierre Mauroy",
+      "geo": {
+        "latitude": 50.611911,
+        "longitude": 3.130503
+      }
+    }
+  },
+  {
+    "id": "9e659187b07d069a65931444eb3ea766",
+    "date": {
+      "date": "2026-09-08",
+      "dateTime": "2026-09-08T19:00:00Z",
+      "utcOffsetInHours": 1
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "FC Porto",
+      "crest": "https://crests.football-data.org/503.png"
+    },
+    "awayTeam": {
+      "name": "Manchester City",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52919.png"
+    },
+    "stadium": {
+      "city": "Porto",
+      "address": "Via FC Porto",
+      "name": "Estádio do Dragão",
+      "geo": {
+        "latitude": 41.1617944,
+        "longitude": -8.5836861
+      }
+    }
+  },
+  {
+    "id": "1762676c1b25da966a0ef372747328aa",
+    "date": {
+      "date": "2026-09-08",
+      "dateTime": "2026-09-08T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Borussia Dortmund",
+      "crest": "https://crests.football-data.org/4.png"
+    },
+    "awayTeam": {
+      "name": "Villarreal CF",
+      "crest": "https://crests.football-data.org/94.png"
+    },
+    "stadium": {
+      "city": "Dortmund",
+      "address": "Strobelallee 50",
+      "name": "BVB Stadion Dortmund",
+      "geo": {
+        "latitude": 51.4925889,
+        "longitude": 7.4517722
+      }
+    }
+  },
+  {
+    "id": "aa7eb91b788dc628843878520b0d7ea0",
+    "date": {
+      "date": "2026-09-08",
+      "dateTime": "2026-09-08T19:00:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Real Madrid C.F.",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50051.png"
+    },
+    "awayTeam": {
+      "name": "FC Internazionale Milano",
+      "crest": "https://crests.football-data.org/108.png"
+    },
+    "stadium": {
+      "city": "Madrid",
+      "address": "Av. Concha Espina 1",
+      "name": "Estadio Santiago Bernabéu",
+      "geo": {
+        "latitude": 40.4530778,
+        "longitude": -3.6885194
+      }
+    }
+  },
+  {
+    "id": "1954d21ed85ffe179bdc9f38802d7bf5",
+    "date": {
+      "date": "2026-09-08",
+      "dateTime": "2026-09-08T16:45:00Z",
+      "utcOffsetInHours": 3
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "AEK Athens FC",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/50129.png"
+    },
+    "awayTeam": {
+      "name": "LASK",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/63405.png"
+    },
+    "stadium": {
+      "city": "Athens",
+      "address": "Kappadokias and Fokon 9 str.",
+      "name": "AEK Arena",
+      "geo": {
+        "latitude": 38.0372424,
+        "longitude": 23.7416954
+      }
+    }
+  },
+  {
+    "id": "4305199c256d699eb2e0678e2084fb8d",
+    "date": {
+      "date": "2026-09-08",
+      "dateTime": "2026-09-08T16:45:00Z",
+      "utcOffsetInHours": 2
+    },
+    "competition": {
+      "code": "UCL",
+      "name": "UEFA Champions League",
+      "logo": {
+        "FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/1.svg"
+      }
+    },
+    "homeTeam": {
+      "name": "Club Brugge KV",
+      "crest": "https://crests.football-data.org/851.png"
+    },
+    "awayTeam": {
+      "name": "Aston Villa",
+      "crest": "https://img.uefa.com/imgml/TP/teams/logos/70x70/52683.png"
+    },
+    "stadium": {
+      "city": "Bruges",
+      "address": "Olympialaan 74",
+      "name": "Jan Breydelstadion",
+      "geo": {
+        "latitude": 51.1933556,
+        "longitude": 3.1806222
       }
     }
   }
