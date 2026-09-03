@@ -126,7 +126,7 @@ describe('buildFindUrl / parseFindSearchParams round-trip', () => {
 });
 
 describe('buildTripUrl', () => {
-  it('contains ids, location, radius and dates', () => {
+  it('generates the canonical /trip URL (never legacy /matches)', () => {
     const ctx = deriveFindContextFromTrip(mkTrip());
     const url = buildTripUrl(
       {
@@ -137,7 +137,8 @@ describe('buildTripUrl', () => {
       },
       ctx.ids
     );
-    expect(url.startsWith('/matches?')).toBe(true);
+    expect(url.startsWith('/trip?')).toBe(true);
+    expect(url.startsWith('/matches')).toBe(false);
     const q = new URLSearchParams(url.split('?')[1]);
     expect(q.get('ids')).toBe('m1,m2');
     expect(q.get('label')).toBe('Milan');

@@ -61,6 +61,7 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
       // Above the results dock (1001, portal order wins ties), below the header (1002).
       zIndex={1001}
       data-testid="discover-trip-drawer"
+      className="discover-trip-drawer"
     >
       {trip && (
         <Stack gap="sm" data-testid="discover-drawer-body">

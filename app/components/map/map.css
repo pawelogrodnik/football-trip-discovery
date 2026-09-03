@@ -1,23 +1,34 @@
 .map-inner {
-    overflow: hidden;
-    width: 100%;
+  overflow: hidden;
+  width: 100%;
 }
 
-.crest-icon { background: transparent; border: 0; }
+.crest-icon {
+  background: transparent;
+  border: 0;
+}
 
 .crest-pair {
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 4px;                 /* space between crests; set to 0 for overlap */
+  gap: 4px; /* space between crests; set to 0 for overlap */
   padding: 2px 4px;
-  background: rgba(255,255,255,0.95);
+  background: rgba(255, 255, 255, 0.95);
   border-radius: 9999px;
-  box-shadow: 0 2px 6px rgba(0,0,0,.25);
-  border: 1px solid rgba(0,0,0,.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 .crest-pair.crest-pair--selected {
-  background-color: rgb(34, 139, 230)
+  background-color: rgb(34, 139, 230);
+}
+
+.crest-pair.crest-pair--hovered {
+  border-color: #1c7ed6;
+  box-shadow:
+    0 0 0 2px rgb(28 126 214 / 45%),
+    0 2px 8px rgb(0 0 0 / 30%);
+  z-index: 1000;
 }
 
 .crest-order {
@@ -71,7 +82,9 @@
   font-size: 12px;
   font-weight: 600;
   color: #343a40;
-  text-shadow: 0 1px 2px #fff, 0 0 4px #fff;
+  text-shadow:
+    0 1px 2px #fff,
+    0 0 4px #fff;
 }
 
 .trip-marker-label::before {

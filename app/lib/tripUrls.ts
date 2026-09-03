@@ -130,6 +130,11 @@ export type FindUrlOptions = {
   mode?: 'customize';
 };
 
+/** Canonical final/shareable trip route. Legacy `/matches` redirects here. */
+export const TRIP_PATH = '/trip';
+/** Legacy trip route — kept working via redirect, never generated for new trips. */
+export const LEGACY_MATCHES_PATH = '/matches';
+
 export function buildFindUrl(
   criteria: Pick<FindSearchCriteria, 'location' | 'startDate' | 'endDate' | 'radiusKm'>,
   selectedIds: string[] = [],
@@ -182,7 +187,7 @@ export function buildTripUrl(
   if (criteria.endDate) {
     params.set('endDate', toDateOnlyLocal(criteria.endDate));
   }
-  return `/matches?${params.toString()}`;
+  return `${TRIP_PATH}?${params.toString()}`;
 }
 
 export type ParsedFindParams = {

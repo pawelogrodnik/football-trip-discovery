@@ -1,9 +1,10 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { IconAlertCircle, IconArrowLeft } from '@tabler/icons-react';
-import { useTranslations } from 'components/providers/LocaleProvider';
+import { IconAlertCircle } from '@tabler/icons-react';
+import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { combineAllMatches } from 'lib/combineMatches';
 import { panelViewportInsets } from 'lib/mapViewport';
 import {
@@ -15,11 +16,12 @@ import {
   parseFindSearchParams,
   toDateOnlyLocal,
 } from 'lib/tripUrls';
-import { ActionIcon, Alert, Button, Paper, Text } from '@mantine/core';
+import { Alert, Button, Group, Paper, Text } from '@mantine/core';
 import MapWrapper from '../../components/map/MapWrapper';
-import MatchList from '../../components/matchList/matchList';
 import { MOBILE_VIEW } from '../../components/view-toggle/consts';
 import ViewToggle from '../../components/view-toggle/ViewToggle';
+import FindResultsPanel, { ResultsFilter } from './FindResultsPanel';
+import { dedupeMatches, formatShortDayRange, LooseMatch, matchIdOf } from './findResultsUtils';
 import FindSearchForm from './FindSearchForm';
 import FindSearchSummary from './FindSearchSummary';
 import classes from '../find.module.css';
@@ -46,6 +48,7 @@ function criteriaFromUrl(searchParams: URLSearchParams): {
 
 export default function FindMatchesClient() {
   const t = useTranslations('FindMatches');
+  const locale = useLocale();
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -65,6 +68,8 @@ export default function FindMatchesClient() {
     lon: number;
     id?: string | number;
   } | null>(null);
+  const [hoveredMatchId, setHoveredMatchId] = useState<string | null>(null);
+  const [viewFilter, setViewFilter] = useState<ResultsFilter>('all');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [hasSearched, setHasSearched] = useState(false);
@@ -73,6 +78,10 @@ export default function FindMatchesClient() {
   const autoSearched = useRef(false);
 
   const customizeMode = initial.mode === 'customize';
+  // Original Discover suggestion, preserved separately so Reset never loses it.
+  const [originalSuggestedIds] = useState<string[]>(() =>
+    Array.from(new Set(initial.ids.map(String).filter(Boolean)))
+  );
 
   useEffect(() => {
     setIsMobile(window.innerWidth <= 720);
@@ -146,26 +155,30 @@ export default function FindMatchesClient() {
   }, []);
 
   const apiMatches = useMemo(
-    () => (hasSearched ? (combineAllMatches(fixtures) as Array<Record<string, unknown>>) : []),
+    () => (hasSearched ? (combineAllMatches(fixtures) as Array<LooseMatch>) : []),
     [fixtures, hasSearched]
   );
 
   const allMatches = useMemo(() => {
+    let merged: LooseMatch[];
     if (extraMatches.length === 0) {
-      return apiMatches;
+      merged = apiMatches;
+    } else {
+      const seen = new Set(apiMatches.map((m) => matchIdOf(m)));
+      merged = [
+        ...apiMatches,
+        ...(extraMatches as LooseMatch[]).filter((m) => !seen.has(matchIdOf(m))),
+      ];
     }
-    const seen = new Set(
-      apiMatches.map((m) => matchIdOfLoose(m as { _id?: unknown; id?: unknown }))
-    );
-    return [
-      ...apiMatches,
-      ...extraMatches.filter(
-        (m) => !seen.has(matchIdOfLoose(m as { _id?: unknown; id?: unknown }))
-      ),
-    ];
+    // Same fixture under two id forms must not render (or select) twice.
+    return dedupeMatches(merged);
   }, [apiMatches, extraMatches]);
 
-  const totalCount = hasSearched ? allMatches.length : undefined;
+  // IDs merged via by-ids (outside the radius result set) stay visible + flagged.
+  const outsideIds = useMemo(
+    () => new Set((extraMatches as LooseMatch[]).map(matchIdOf).filter(Boolean)),
+    [extraMatches]
+  );
 
   const toggleMatchSelection = useCallback((rawId: string | number) => {
     if (rawId === null || rawId === undefined) {
@@ -173,6 +186,10 @@ export default function FindMatchesClient() {
     }
     const id = String(rawId);
     setSelectedIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+  }, []);
+
+  const handleHover = useCallback((id: string | null) => {
+    setHoveredMatchId(id);
   }, []);
 
   const handleMatchClick = useCallback(
@@ -189,6 +206,11 @@ export default function FindMatchesClient() {
     },
     []
   );
+
+  const handleResetSuggested = useCallback(() => {
+    setSelectedIds(originalSuggestedIds);
+    setViewFilter('all');
+  }, [originalSuggestedIds]);
 
   const handleCreateTrip = useCallback(() => {
     const c = submitted ?? criteria;
@@ -233,6 +255,38 @@ export default function FindMatchesClient() {
     [panelSize, panelVisible, isMobile]
   );
 
+  // Center the top summary over the VISIBLE map area (viewport minus panel).
+  const summaryShiftPx = panelVisible && !isMobile ? (panelSize?.width ?? 0) / 2 : 0;
+  // Constrain the summary to the unobstructed map area so it never slides
+  // under the floating results panel on desktop.
+  const summaryMaxWidth =
+    panelVisible && !isMobile && panelSize
+      ? `min(800px, calc(100vw - ${Math.ceil(panelSize.width) + 64}px))`
+      : undefined;
+
+  const headerTitle = useMemo(() => {
+    const label =
+      submitted?.location?.label?.split(',')[0]?.trim() || submitted?.location?.label || '';
+    return t('matchesNear', { count: allMatches.length, label });
+  }, [t, allMatches.length, submitted]);
+
+  const headerSubtitle = useMemo(() => {
+    if (!submitted?.startDate || !submitted?.endDate) {
+      return t('withinRadius', {
+        km: submitted?.radiusKm ?? 0,
+        label: submitted?.location?.label ?? '',
+      });
+    }
+    const range = formatShortDayRange(
+      submitted.startDate.toISOString(),
+      submitted.endDate.toISOString(),
+      locale
+    );
+    return t('searchRange', { range, km: submitted?.radiusKm ?? 0 });
+  }, [t, locale, submitted]);
+
+  const showReset = customizeMode && originalSuggestedIds.length > 0;
+
   return (
     <main className={classes.findShell} data-testid="find-view">
       <div
@@ -245,6 +299,7 @@ export default function FindMatchesClient() {
             initialZoom={4}
             fixtures={allMatches}
             selectedMatchesIds={selectedIds}
+            hoveredMatchId={hoveredMatchId}
             selectedLocation={activeCriteria.location}
             selectedRadius={activeCriteria.radiusKm ?? FIND_DEFAULT_RADIUS_KM}
             showSelectedLocationRadius={hasSearched && !showSearch}
@@ -302,6 +357,8 @@ export default function FindMatchesClient() {
         <FindSearchSummary
           criteria={submitted}
           customizeMode={customizeMode}
+          centerShiftPx={summaryShiftPx}
+          maxWidth={summaryMaxWidth}
           onEdit={() => {
             setCriteria(submitted);
             setEditing(true);
@@ -324,9 +381,36 @@ export default function FindMatchesClient() {
               {t('loading')}
             </Text>
           ) : error ? (
-            <Alert color="red" icon={<IconAlertCircle size={16} />} data-testid="find-error">
-              {error}
-            </Alert>
+            <div data-testid="find-error">
+              <Alert color="red" icon={<IconAlertCircle size={16} />}>
+                {t('errorFallback')}
+              </Alert>
+              <Group gap={8} mt="sm">
+                <Button
+                  variant="light"
+                  fullWidth
+                  data-testid="find-retry"
+                  onClick={() => {
+                    if (submitted && isCompleteFindCriteria(submitted)) {
+                      void runSearch(submitted, selectedIds);
+                    }
+                  }}
+                >
+                  {t('tryAgain')}
+                </Button>
+                <Button
+                  variant="subtle"
+                  fullWidth
+                  data-testid="find-edit-search"
+                  onClick={() => {
+                    setEditing(true);
+                    setError(null);
+                  }}
+                >
+                  {t('editSearch')}
+                </Button>
+              </Group>
+            </div>
           ) : allMatches.length === 0 ? (
             <div data-testid="find-empty-state">
               <Text fw={600}>{t('emptyTitle')}</Text>
@@ -350,72 +434,32 @@ export default function FindMatchesClient() {
               >
                 {t('editSearch')}
               </Button>
+              <Text size="sm" c="dimmed" ta="center" mt="sm">
+                <Link href="/">{t('discoverLink')} →</Link>
+              </Text>
             </div>
           ) : (
-            <>
-              <div className={classes.resultsHeader} data-testid="find-results-header">
-                <ActionIcon
-                  variant="default"
-                  aria-label={t('editSearch')}
-                  onClick={() => {
-                    setEditing(true);
-                    setError(null);
-                  }}
-                  data-testid="find-back-to-search"
-                >
-                  <IconArrowLeft style={{ width: '70%', height: '70%' }} stroke={1.5} />
-                </ActionIcon>
-                <div className={classes.resultsHeaderTitle}>
-                  <Text fw={700}>{t('matchesNearby', { count: allMatches.length })}</Text>
-                  <Text size="xs" c="dimmed">
-                    {submitted?.startDate && submitted?.endDate
-                      ? `${toDateOnlyLocal(submitted.startDate)} → ${toDateOnlyLocal(submitted.endDate)}`
-                      : ''}{' '}
-                    ·{' '}
-                    {t('withinRadius', {
-                      km: submitted?.radiusKm ?? 0,
-                      label: submitted?.location?.label ?? '',
-                    })}
-                  </Text>
-                </div>
-                {/* {customizeMode && (
-                  <Text size="xs" c="dimmed" mt={4} data-testid="find-customize-notice-list">
-                    {t('customizeModeNotice')}
-                  </Text>
-                )} */}
-              </div>
-              <div className={classes.resultsScroll} data-testid="find-results-list">
-                <MatchList
-                  totalCount={totalCount}
-                  matches={allMatches}
-                  onGoBack={() => {
-                    setEditing(true);
-                    setError(null);
-                  }}
-                  onMatchClick={handleMatchClick}
-                  onMatchSelect={toggleMatchSelection}
-                  areMatchesSelectable
-                  selectedMatchesIds={selectedIds}
-                  source="home"
-                  onContinue={handleCreateTrip}
-                  hideFooter
-                  hideHeader
-                />
-              </div>
-              <div className={classes.resultsFooter} data-testid="find-selection-footer">
-                <Text size="sm" fw={500} mb={8}>
-                  {t('selectedCount', { count: selectedIds.length })}
-                </Text>
-                <Button
-                  fullWidth
-                  disabled={selectedIds.length === 0}
-                  onClick={handleCreateTrip}
-                  data-testid="find-create-trip"
-                >
-                  {t('createTrip', { count: selectedIds.length })}
-                </Button>
-              </div>
-            </>
+            <FindResultsPanel
+              matches={allMatches}
+              selectedIds={selectedIds}
+              filter={viewFilter}
+              onFilterChange={setViewFilter}
+              onToggle={toggleMatchSelection}
+              onFocus={handleMatchClick}
+              onHover={handleHover}
+              hoveredId={hoveredMatchId}
+              onBack={() => {
+                setEditing(true);
+                setError(null);
+              }}
+              onCreateTrip={handleCreateTrip}
+              headerTitle={headerTitle}
+              headerSubtitle={headerSubtitle}
+              customizeMode={customizeMode}
+              onResetSuggested={handleResetSuggested}
+              showReset={showReset}
+              outsideIds={outsideIds}
+            />
           )}
         </Paper>
       )}

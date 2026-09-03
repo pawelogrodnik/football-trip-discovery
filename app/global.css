@@ -106,3 +106,7 @@ h3 {
   font-size: 0.75rem;
   color: #2563eb;
 }
+
+.discover-trip-drawer .mantine-Drawer-inner{
+  z-index: 9999;
+}

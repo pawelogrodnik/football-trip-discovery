@@ -1,0 +1,62 @@
+.tripShell {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #e9edf1;
+}
+
+.mapArea {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.mapArea :global(.map-wrapper),
+.mapArea :global(.map-inner) {
+  height: 100%;
+  width: 100%;
+}
+
+.tripPanel {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  bottom: 16px;
+  width: clamp(380px, 24vw, 430px);
+  max-width: calc(100vw - 32px);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tripHeader {
+  padding-bottom: 8px;
+  flex-shrink: 0;
+}
+
+.tripScroll {
+  flex: 1;
+  min-height: 0;
+}
+
+.mobileToggle {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1002;
+}
+
+@media (max-width: 768px) {
+  .tripPanel {
+    top: auto;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    width: auto;
+    max-height: 62vh;
+    padding-bottom: calc(var(--mantine-spacing-md) + env(safe-area-inset-bottom, 0px));
+  }
+}

@@ -61,6 +61,8 @@ type Props = {
    */
   fitFixtures?: any[] | null;
   focus?: MapFocus;
+  /** Temporary card-hover highlight (distinct from selection, never flies). */
+  hoveredMatchId?: string | null;
   /**
    * Destination-level trip markers (Discover results overview).
    * Rendered as numbered circles with city labels; excluded from
@@ -279,6 +281,7 @@ export default function MapWithSearch({
   routeFixtures,
   fitFixtures,
   focus,
+  hoveredMatchId,
   tripMarkers,
   selectedTripMarkerId,
   onTripMarkerClick,
@@ -402,6 +405,7 @@ export default function MapWithSearch({
         return;
       }
       const isSelected = selection.has(id);
+      const isHovered = hoveredMatchId != null && String(hoveredMatchId) === id;
       marker.setIcon(
         crestPairIcon(
           fixture.homeTeam?.crest,
@@ -409,11 +413,13 @@ export default function MapWithSearch({
           fixture.homeTeam?.name,
           fixture.awayTeam?.name,
           isSelected,
-          routeOrder.get(id)
+          routeOrder.get(id),
+          isHovered
         )
       );
+      marker.setZIndexOffset(isSelected ? 500 : isHovered ? 400 : 0);
     });
-  }, [markerData, selectedMatchesIds, routeOrder]);
+  }, [markerData, selectedMatchesIds, routeOrder, hoveredMatchId]);
 
   return (
     <div className="map-wrapper">
@@ -424,7 +430,7 @@ export default function MapWithSearch({
           zoomControl={false}
           style={{ height: '100%', width: '100%' }}
         >
-          <ZoomControl position="bottomright" />
+          <ZoomControl position="bottomleft" />
           <ViewportController
             selectedLocation={selectedLocation ?? null}
             radiusMeters={radiusMeters}

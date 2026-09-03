@@ -199,6 +199,9 @@ export async function GET(request: Request) {
   const uniqueRequestedIds = Array.from(new Set(requestedIds));
   const missingIds = new Set(uniqueRequestedIds);
   const matches: any[] = [];
+  // Two requested id forms (normalized + native alias) can resolve to the
+  // same fixture — guard against returning it twice.
+  const resolvedNormalizedIds = new Set<string>();
 
   const fixturesIndex = await getFixturesIndex();
 
@@ -209,10 +212,15 @@ export async function GET(request: Request) {
       normalizedId = fixturesIndex.aliases.get(nativePart) ?? nativePart;
     }
     if (!normalizedId) normalizedId = requestId;
+    if (resolvedNormalizedIds.has(normalizedId)) {
+      missingIds.delete(requestId);
+      continue;
+    }
     const indexed = fixturesIndex.matches.get(normalizedId);
     if (!indexed) {
       continue;
     }
+    resolvedNormalizedIds.add(normalizedId);
 
     const match = cloneMatch(indexed.match);
 

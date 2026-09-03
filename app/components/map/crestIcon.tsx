@@ -10,12 +10,13 @@ export function crestPairIcon(
   homeName?: string,
   awayName?: string,
   isSelected?: boolean,
-  orderLabel?: number | null
+  orderLabel?: number | null,
+  highlighted?: boolean
 ) {
   const order = typeof orderLabel === 'number' && orderLabel > 0 ? String(orderLabel) : '';
   const key = `${homeUrl || ''}|${awayUrl || ''}|${homeName || ''}|${awayName || ''}|${
     isSelected ? 'selected' : 'default'
-  }|${order}`;
+  }|${order}|${highlighted ? 'hot' : 'cold'}`;
   const hit = iconCache.get(key);
   if (hit) {
     return hit;
@@ -28,7 +29,9 @@ export function crestPairIcon(
   const away = awayUrl
     ? `<img src="${awayUrl}" referrerpolicy="no-referrer" class="crest-img" alt="${awayName || ''}" />`
     : `<div class="crest-fallback">${initials(awayName)}</div>`;
-  const htmlClasses = isSelected ? 'crest-pair crest-pair--selected' : 'crest-pair';
+  const htmlClasses = isSelected
+    ? `crest-pair crest-pair--selected${highlighted ? ' crest-pair--hovered' : ''}`
+    : `crest-pair${highlighted ? ' crest-pair--hovered' : ''}`;
   const badge = order ? `<div class="crest-order">${order}</div>` : '';
   const html = `
     <div class="${htmlClasses}">

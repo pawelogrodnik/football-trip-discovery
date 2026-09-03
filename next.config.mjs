@@ -16,6 +16,13 @@ export default withBundleAnalyzer({
         destination: '/contact',
         permanent: true,
       },
+      // Legacy trip route — canonical URL is /trip.
+      // Query parameters (ids, lat, lon, label, radius, dates) are preserved.
+      {
+        source: '/matches',
+        destination: '/trip',
+        permanent: false,
+      },
     ];
   },
 });
