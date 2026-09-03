@@ -5,7 +5,13 @@
 }
 
 .app-body-wrapper {
-  height: calc(100vh - 77px);
+  height: calc(100dvh - 77px);
+}
+
+@media (max-width: 600px) {
+  .app-body-wrapper {
+    height: calc(100dvh - 50px);
+  }
 }
 
 .header-wrapper .logo-wrapper {
@@ -62,6 +68,7 @@
   display: flex;
   align-items: center;
 }
+
 .header__burger {
   display: none;
 }

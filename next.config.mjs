@@ -9,4 +9,13 @@ export default withBundleAnalyzer({
   experimental: {
     optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/report-bug',
+        destination: '/contact',
+        permanent: true,
+      },
+    ];
+  },
 });

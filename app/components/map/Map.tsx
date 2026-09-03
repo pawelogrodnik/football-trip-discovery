@@ -2,7 +2,17 @@
 
 import { useEffect, useMemo, useRef } from 'react';
 import L, { LatLngExpression } from 'leaflet';
-import { Circle, MapContainer, Marker, Polyline, Popup, TileLayer, useMap } from 'react-leaflet';
+import {
+  Circle,
+  MapContainer,
+  Marker,
+  Polyline,
+  Popup,
+  TileLayer,
+  Tooltip,
+  useMap,
+  ZoomControl,
+} from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { DEFAULT_RADIUS, RADIUS_MULTIPLIER } from './../consts';
 import { crestPairIcon } from './crestIcon';
@@ -16,20 +26,58 @@ L.Icon.Default.mergeOptions({
   shadowUrl: '/leaflet/marker-shadow.png',
 });
 
+export type MapLocation = { label: string; lat: number; lon: number };
+export type MapFocus = { lat: number; lon: number; id?: string | number } | null;
+
 type Props = {
   initialCenter: LatLngExpression;
-  selectedLocation?: { label: string; lat: number; lon: number };
-  selectedRadius?: number;
   initialZoom?: number;
   className?: string;
+  /** All markers rendered on the map. */
+  fixtures: any[];
   selectedMatchesIds: string[];
   onLocationChosen?: (loc: { label: string; lat: number; lon: number; radiusKm: number }) => void;
-  fixtures: any[];
-  focus: {
-    lat: number;
-    lon: number;
-    id?: string | number;
-  } | null;
+  /** Explicit search origin; marker shown whenever present. */
+  selectedLocation?: MapLocation | null;
+  selectedRadius?: number | null;
+  /** Controls Circle rendering. Defaults to true when selectedLocation exists (legacy). */
+  showSelectedLocationRadius?: boolean;
+  /**
+   * ONLY fixtures of the selected trip. Polyline is built from these.
+   * undefined = legacy fallback to `fixtures` (homepage callers).
+   * null / [] = no route line.
+   */
+  routeFixtures?: any[] | null;
+  /**
+   * Fixtures the viewport should fit to.
+   * undefined = legacy fallback to `fixtures`.
+   * null = no automatic fitting.
+   */
+  fitFixtures?: any[] | null;
+  focus?: MapFocus;
+  /**
+   * Destination-level trip markers (Discover results overview).
+   * Rendered as numbered circles with city labels; excluded from
+   * route/fit logic. Click selects the trip via onTripMarkerClick.
+   */
+  tripMarkers?: TripMarker[];
+  selectedTripMarkerId?: string | null;
+  onTripMarkerClick?: (tripId: string) => void;
+  /** Honest label on the selected-trip route line, e.g. "74 km total". */
+  routeLabel?: string | null;
+  /**
+   * Floating-UI aware padding for fitBounds (Discover overlays float above
+   * the full-size map). Defaults keep legacy symmetric padding.
+   */
+  fitPadding?: FitPadding;
+};
+
+export type TripMarker = {
+  id: string;
+  label: string;
+  lat: number;
+  lon: number;
+  count: number;
 };
 
 const clamp = (v: number, min: number, max: number) => Math.max(min, Math.min(max, v));
@@ -46,11 +94,23 @@ function boundsForCircle(center: { lat: number; lon: number }, radiusMeters: num
   return L.latLngBounds(southWest, northEast);
 }
 
-function FlyToOnFocus({
-  focus,
-}: {
-  focus?: { lat: number; lon: number; id?: string | number } | null;
-}) {
+function geoPoints(fixtures: any[] | undefined | null): [number, number][] {
+  if (!fixtures) {
+    return [];
+  }
+  return fixtures
+    .map((f) => {
+      const lat = f?.stadium?.geo?.latitude;
+      const lon = f?.stadium?.geo?.longitude;
+      if (typeof lat === 'number' && typeof lon === 'number') {
+        return [lat, lon] as [number, number];
+      }
+      return null;
+    })
+    .filter(Boolean) as [number, number][];
+}
+
+function FlyToOnFocus({ focus }: { focus?: MapFocus }) {
   const map = useMap();
   useEffect(() => {
     if (!focus) {
@@ -61,24 +121,53 @@ function FlyToOnFocus({
   return null;
 }
 
-function FitToFixtures({ fixtures }: { fixtures: any[] }) {
+export type FitPadding = {
+  topLeft: [number, number];
+  bottomRight: [number, number];
+};
+
+function FitToFixtures({
+  fixtures,
+  padding,
+}: {
+  fixtures: any[] | null | undefined;
+  padding: FitPadding;
+}) {
   const map = useMap();
+  const key = useMemo(
+    () =>
+      !fixtures
+        ? ''
+        : fixtures
+            .map((f) =>
+              String(
+                f?._id ?? f?.id ?? `${f?.stadium?.geo?.latitude},${f?.stadium?.geo?.longitude}`
+              )
+            )
+            .sort()
+            .join('|'),
+    [fixtures]
+  );
+  const paddingKey = `${padding.topLeft.join(',')}|${padding.bottomRight.join(',')}`;
   useEffect(() => {
-    if (!fixtures || fixtures.length === 0) return;
-    if (fixtures.length === 1) return;
-    const points = fixtures
-      .map((f) => {
-        const lat = f?.stadium?.geo?.latitude;
-        const lon = f?.stadium?.geo?.longitude;
-        if (typeof lat === 'number' && typeof lon === 'number') return [lat, lon] as [number, number];
-        return null;
-      })
-      .filter(Boolean) as [number, number][];
-    if (points.length < 2) return;
+    if (!fixtures || fixtures.length < 2) {
+      return;
+    }
+    const points = geoPoints(fixtures);
+    if (points.length < 2) {
+      return;
+    }
     const bounds = L.latLngBounds(points);
-    const t = setTimeout(() => map.fitBounds(bounds, { padding: [48, 48] }), 300);
-    return () => clearTimeout(t);
-  }, [fixtures, map]);
+    const t = setTimeout(() => {
+      map.fitBounds(bounds, {
+        paddingTopLeft: L.point(...padding.topLeft),
+        paddingBottomRight: L.point(...padding.bottomRight),
+      });
+    }, 300);
+    return () => {
+      clearTimeout(t);
+    };
+  }, [key, paddingKey, map]);
   return null;
 }
 
@@ -86,37 +175,56 @@ function ViewportController({
   selectedLocation,
   radiusMeters,
   fallbackCenter,
-  fixtures,
+  hasFitTargets,
+  showCircle,
 }: {
   selectedLocation?: { lat: number; lon: number } | null;
   radiusMeters: number;
   fallbackCenter: LatLngExpression;
-  fixtures?: any[];
+  hasFitTargets: boolean;
+  showCircle: boolean;
 }) {
   const map = useMap();
   useEffect(() => {
     if (
+      showCircle &&
       selectedLocation &&
       typeof selectedLocation.lat === 'number' &&
       typeof selectedLocation.lon === 'number' &&
-      (!fixtures || fixtures.length === 0)
+      !hasFitTargets
     ) {
       const bounds = boundsForCircle(
         { lat: selectedLocation.lat, lon: selectedLocation.lon },
         radiusMeters
       );
       const fit = () => map.fitBounds(bounds, { padding: [32, 32] });
-      if ((map as any)?._loaded) {
+      if ((map as unknown as { _loaded?: boolean })?._loaded) {
         fit();
       } else {
         map.once('load', fit);
       }
       return;
     }
-    if (fixtures && fixtures.length > 1) return;
+    if (hasFitTargets) {
+      return;
+    }
     map.flyTo(fallbackCenter, map.getZoom(), { duration: 0.5 });
-  }, [selectedLocation?.lat, selectedLocation?.lon, radiusMeters, fallbackCenter, fixtures, map]);
+  }, [
+    selectedLocation?.lat,
+    selectedLocation?.lon,
+    radiusMeters,
+    fallbackCenter,
+    hasFitTargets,
+    showCircle,
+    map,
+  ]);
   return null;
+}
+
+function fixtureId(fixture: any): string {
+  const lat = fixture?.stadium?.geo?.latitude;
+  const lon = fixture?.stadium?.geo?.longitude;
+  return String(fixture._id ?? fixture.id ?? `${lat},${lon}`);
 }
 
 export default function MapWithSearch({
@@ -125,15 +233,30 @@ export default function MapWithSearch({
   className = 'map-inner',
   selectedLocation,
   selectedRadius,
+  showSelectedLocationRadius,
   selectedMatchesIds,
   fixtures,
+  routeFixtures,
+  fitFixtures,
   focus,
+  tripMarkers,
+  selectedTripMarkerId,
+  onTripMarkerClick,
+  routeLabel,
+  fitPadding = { topLeft: [48, 48], bottomRight: [48, 48] },
 }: Props) {
   const markerRefs = useRef<Record<string, L.Marker>>({});
   const radiusMeters = useMemo(
     () => clamp(selectedRadius || DEFAULT_RADIUS * RADIUS_MULTIPLIER, 5, 1000) * 1000,
     [selectedRadius]
   );
+
+  // Explicit semantics with legacy fallbacks for existing callers:
+  const showCircle = showSelectedLocationRadius ?? Boolean(selectedLocation);
+  const fitTargets = fitFixtures === undefined ? fixtures : fitFixtures;
+  // routeFixtures undefined => legacy: polyline from all fixtures.
+  // Discover passes explicit array (possibly empty) to avoid meaningless lines.
+  const routeSource = routeFixtures === undefined ? fixtures : (routeFixtures ?? []);
 
   const center = useMemo<LatLngExpression>(() => {
     if (selectedLocation) {
@@ -150,7 +273,7 @@ export default function MapWithSearch({
         if (typeof lat !== 'number' || typeof lon !== 'number') {
           return null;
         }
-        const id = String(fixture._id ?? fixture.id ?? `${lat},${lon}`);
+        const id = fixtureId(fixture);
         return {
           fixture,
           id,
@@ -174,11 +297,52 @@ export default function MapWithSearch({
     }>;
   }, [fixtures]);
 
+  // Order map for numbering selected-trip markers: id -> sequence index
+  const routeOrder = useMemo(() => {
+    const map = new Map<string, number>();
+    routeSource.forEach((f: any, i: number) => {
+      const id = fixtureId(f);
+      if (!map.has(id)) {
+        map.set(id, i + 1);
+      }
+    });
+    return map;
+  }, [routeSource]);
+
   const polylinePositions = useMemo(() => {
-    if (markerData.length < 2) return null;
-    // Use fixtures order as trip order (already sorted by time in suggest)
-    return markerData.map((m) => m.position);
-  }, [markerData]);
+    const pts = geoPoints(routeSource);
+    if (pts.length < 2) {
+      return null;
+    }
+    // Preserve routeFixtures order (trip sequence), not marker render order
+    return pts;
+  }, [routeSource]);
+
+  const tripMarkerData = useMemo(() => {
+    if (!tripMarkers || tripMarkers.length === 0) {
+      return [];
+    }
+    return tripMarkers
+      .filter(
+        (m) =>
+          typeof m.lat === 'number' &&
+          typeof m.lon === 'number' &&
+          Number.isFinite(m.lat) &&
+          Number.isFinite(m.lon)
+      )
+      .map((m) => ({
+        ...m,
+        icon: L.divIcon({
+          html: `<div class="trip-marker${m.id === selectedTripMarkerId ? ' trip-marker--selected' : ''}"><span>${m.count}</span></div>`,
+          className: 'trip-marker-icon',
+          iconSize: [36, 36],
+          iconAnchor: [18, 18],
+        }),
+      }));
+    // Permanent city labels only for readable counts; denser sets use hover tooltips.
+  }, [tripMarkers, selectedTripMarkerId]);
+
+  const showTripLabels = tripMarkerData.length > 0 && tripMarkerData.length <= 12;
 
   useEffect(() => {
     const ids = new Set(markerData.map(({ id }) => id));
@@ -203,23 +367,31 @@ export default function MapWithSearch({
           fixture.awayTeam?.crest,
           fixture.homeTeam?.name,
           fixture.awayTeam?.name,
-          isSelected
+          isSelected,
+          routeOrder.get(id)
         )
       );
     });
-  }, [markerData, selectedMatchesIds]);
+  }, [markerData, selectedMatchesIds, routeOrder]);
 
   return (
     <div className="map-wrapper">
       <div className={className}>
-        <MapContainer center={center} zoom={initialZoom} style={{ height: '100%', width: '100%' }}>
+        <MapContainer
+          center={center}
+          zoom={initialZoom}
+          zoomControl={false}
+          style={{ height: '100%', width: '100%' }}
+        >
+          <ZoomControl position="bottomright" />
           <ViewportController
             selectedLocation={selectedLocation ?? null}
             radiusMeters={radiusMeters}
             fallbackCenter={initialCenter}
-            fixtures={fixtures}
+            hasFitTargets={(fitTargets?.length ?? 0) > 1}
+            showCircle={showCircle}
           />
-          <FitToFixtures fixtures={fixtures} />
+          <FitToFixtures fixtures={fitTargets} padding={fitPadding} />
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>'
@@ -235,10 +407,26 @@ export default function MapWithSearch({
                 </Popup>
               </Marker>
 
-              <Circle center={[selectedLocation.lat, selectedLocation.lon]} radius={radiusMeters} />
+              {showCircle && (
+                <Circle
+                  center={[selectedLocation.lat, selectedLocation.lon]}
+                  radius={radiusMeters}
+                />
+              )}
             </>
           )}
-          {polylinePositions && <Polyline positions={polylinePositions} pathOptions={{ color: '#228be6', weight: 3, opacity: 0.7, dashArray: '6 8' }} />}
+          {polylinePositions && (
+            <Polyline
+              positions={polylinePositions}
+              pathOptions={{ color: '#228be6', weight: 3, opacity: 0.7, dashArray: '6 8' }}
+            >
+              {routeLabel && (
+                <Tooltip permanent direction="center" className="route-label">
+                  {routeLabel}
+                </Tooltip>
+              )}
+            </Polyline>
+          )}
           <MarkerClusterGroup
             chunkedLoading
             spiderfyOnEveryZoom
@@ -254,6 +442,33 @@ export default function MapWithSearch({
             }}
           >
             <FlyToOnFocus focus={focus} />
+            {tripMarkerData.map((m) => (
+              <Marker
+                key={`trip-${m.id}`}
+                position={[m.lat, m.lon]}
+                icon={m.icon}
+                eventHandlers={{
+                  click: () => {
+                    onTripMarkerClick?.(m.id);
+                  },
+                }}
+              >
+                {showTripLabels ? (
+                  <Tooltip
+                    permanent
+                    direction="bottom"
+                    offset={[0, 12]}
+                    className="trip-marker-label"
+                  >
+                    {m.label}
+                  </Tooltip>
+                ) : (
+                  <Tooltip direction="top" offset={[0, -20]}>
+                    {m.label} · {m.count}
+                  </Tooltip>
+                )}
+              </Marker>
+            ))}
             {markerData.map(({ fixture, id, position, defaultIcon, kickoff }) => (
               <Marker
                 key={id}

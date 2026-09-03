@@ -3,9 +3,9 @@
     "nav": {
       "about": "Worum geht es hier?",
       "contact": "Kontakt",
-      "reportBug": "Fehler melden",
       "home": "Homepage",
-      "suggestedTrips": "Suggested Trips"
+      "suggestedTrips": "Suggested Trips",
+      "discover": "Discover"
     },
     "language": "Sprache",
     "menu": "Menü"
@@ -29,7 +29,7 @@
   "SupportForm": {
     "contact": {
       "title": "Kontakt",
-      "description": "Sende deine Fragen, Ideen oder Feedback.",
+      "description": "Sende deine Fragen, Ideen oder Feedback. Du kannst hier auch einen Fehler melden — nenne dabei Browser, Gerät und Schritte zum Reproduzieren.",
       "firstName": {
         "label": "Vorname oder Spitzname (optional)",
         "placeholder": "Jane oder @fan123"
@@ -40,25 +40,7 @@
       },
       "message": {
         "label": "Nachricht",
-        "placeholder": "Erzähl mir mehr über deine Frage oder Bitte..."
-      },
-      "button": "Nachricht senden",
-      "buttonLoading": "Sende..."
-    },
-    "bugReport": {
-      "title": "Fehler melden",
-      "description": "Teile so viele Details wie möglich (Browser, Gerät, Schritte zum Reproduzieren)",
-      "firstName": {
-        "label": "Vorname oder Spitzname (optional)",
-        "placeholder": "Jane oder @fan123"
-      },
-      "email": {
-        "label": "E-Mail-Adresse (optional)",
-        "placeholder": "du@beispiel.de"
-      },
-      "message": {
-        "label": "Nachricht",
-        "placeholder": "Beschreibe das Problem, Schritte zum Reproduzieren, Browser-/Geräteinfos..."
+        "placeholder": "Erzähl mir mehr über deine Frage, Bitte oder den gefundenen Fehler (was ist passiert, Schritte zum Reproduzieren, Browser/Gerät)..."
       },
       "button": "Nachricht senden",
       "buttonLoading": "Sende..."
@@ -79,5 +61,66 @@
     "goBackButton": "Noch einmal starten",
     "shareButton": "Link kopieren",
     "shareButtonCopied": "Link kopiert"
+  },
+  "Discover": {
+    "title": "Entdecke deine nächste Fußballreise",
+    "subtitle": "Wähle, wann du Zeit hast. Wir finden die besten Fußballtrips für dich.",
+    "availability": "Wann kannst du reisen?",
+    "availabilityPlaceholder": "Daten wählen",
+    "tripLength": "Reisedauer",
+    "daysOption": "{{count}} Tage",
+    "daysShort": "Tage",
+    "competitions": "Was willst du sehen?",
+    "uefaPreset": "UEFA-Wettbewerbe",
+    "italyPreset": "Italien",
+    "chooseCompetitions": "Wettbewerbe wählen",
+    "pickerTitle": "Wettbewerbe wählen",
+    "pickerSelected": "Ausgewählt ({{count}})",
+    "clearAll": "Alle löschen",
+    "close": "Schließen",
+    "distance": "Maximale Entfernung zwischen Spielorten",
+    "destination": "Reiseziel",
+    "anywhere": "Überall",
+    "aroundCity": "Rund um eine Stadt",
+    "radius": "Radius",
+    "advanced": "Erweiterte Optionen",
+    "useMyLocation": "Meinen Standort verwenden",
+    "clear": "Löschen",
+    "geoError": "Standortermittlung fehlgeschlagen",
+    "pickTripLength": "Wähle mindestens eine Reisedauer.",
+    "selectLeague": "Wähle mindestens eine Liga",
+    "selectDates": "Wähle einen Zeitraum",
+    "dateRangeError": "Zeitraum muss 0–30 Tage betragen",
+    "errorFallback": "Etwas ist schiefgelaufen. Versuch es erneut.",
+    "discover": "Trips entdecken",
+    "searching": "Trips werden gesucht…",
+    "editSearch": "Suche bearbeiten",
+    "cancel": "Abbrechen",
+    "editingNotice": "Du bearbeitest deine Suche. Aktuelle Ergebnisse bleiben erhalten, bis du erneut suchst.",
+    "catTop": "Top-Tipps",
+    "catUefa": "Europäische Nächte",
+    "catMost": "Meiste Spiele",
+    "catEasy": "Entspannte Trips",
+    "emptyTitle": "Keine Trips gefunden",
+    "emptyHint1": "Vergrößere das Zeitfenster",
+    "emptyHint2": "Wähle eine andere Reisedauer",
+    "emptyHint3": "Wähle mehr Wettbewerbe",
+    "emptyHint4": "Erhöhe die maximale Entfernung",
+    "viewTrip": "Trip ansehen",
+    "topPick": "Top-Tipp",
+    "matchCount": "{{count}} Spiele",
+    "uefaCount": "{{count}} UEFA",
+    "totalKm": "{{count}} km gesamt",
+    "moreMatches": "+{{count}} weitere",
+    "toNext": "{{km}} km zum nächsten Stadion",
+    "drawerBase": "Basis: {{city}}",
+    "maxLeg": "Alle Stadien innerhalb von {{km}} km",
+    "tripOptions": "{{count}} Trip-Optionen",
+    "collapseResults": "Ergebnisse einklappen",
+    "expandResults": "Ergebnisse ausklappen",
+    "previousTrips": "Vorherige Trips",
+    "nextTrips": "Nächste Trips",
+    "moreTeams": "+{{count}} Teams",
+    "catLower": "Untere Ligen"
   }
 }

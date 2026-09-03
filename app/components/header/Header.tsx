@@ -92,17 +92,14 @@ const Header = () => {
       <Link href="/" className="link" onClick={closeMenu}>
         {t('nav.home')}
       </Link>
-      <Link href="/trips/suggest" className="link" onClick={closeMenu}>
-        {t('nav.suggestedTrips')}
+      <Link href="/discover" className="link" onClick={closeMenu}>
+        {t('nav.discover')}
       </Link>
       <Link href="/about" className="link" onClick={closeMenu}>
         {t('nav.about')}
       </Link>
       <Link href="/contact" className="link" onClick={closeMenu}>
         {t('nav.contact')}
-      </Link>
-      <Link href="/report-bug" className="link" onClick={closeMenu}>
-        {t('nav.reportBug')}
       </Link>
     </>
   );

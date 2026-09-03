@@ -1,0 +1,174 @@
+'use client';
+
+import { IconBallFootball, IconBed, IconRoute, IconTrophy } from '@tabler/icons-react';
+import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
+import { isUefaCompetition } from 'lib/competitionPriority';
+import type { DiscoverTrip } from 'lib/discover';
+import { Avatar, Badge, Drawer, Group, Stack, Text, Timeline } from '@mantine/core';
+import { useMediaQuery } from '@mantine/hooks';
+import { formatKickoff, formatShortRange, formatTripDayLabel, matchIdOf } from './format';
+import classes from '../discover.module.css';
+
+type Props = {
+  trip: DiscoverTrip | null;
+  onClose: () => void;
+};
+
+function Crest({ name, crest, size = 20 }: { name: string; crest?: string | null; size?: number }) {
+  if (crest) {
+    return (
+      <img
+        src={crest}
+        alt={name}
+        width={size}
+        height={size}
+        style={{ objectFit: 'contain', borderRadius: 2, background: '#fff' }}
+      />
+    );
+  }
+  const initials = name
+    .split(' ')
+    .map((w) => w[0])
+    .join('')
+    .slice(0, 2)
+    .toUpperCase();
+  return (
+    <Avatar size={size} radius="xs" color="blue">
+      {initials}
+    </Avatar>
+  );
+}
+
+/** "UEFA Champions League" already contains the prefix — don't duplicate it. */
+function uefaBadgeLabel(name: string): string {
+  return /^uefa\s/i.test(name.trim()) ? name.trim() : `UEFA ${name.trim()}`;
+}
+
+export default function DiscoverTripDrawer({ trip, onClose }: Props) {
+  const t = useTranslations('Discover');
+  const locale = useLocale();
+  const isMobile = useMediaQuery('(max-width: 768px)');
+
+  return (
+    <Drawer
+      opened={trip !== null}
+      onClose={onClose}
+      position={isMobile ? 'bottom' : 'right'}
+      size={isMobile ? '85vh' : 'clamp(380px, 24vw, 440px)'}
+      title={trip ? trip.destinationLabel || 'Football trip' : ''}
+      withOverlay={false}
+      // Above the results dock (1001, portal order wins ties), below the header (1002).
+      zIndex={1001}
+      data-testid="discover-trip-drawer"
+    >
+      {trip && (
+        <Stack gap="sm" data-testid="discover-drawer-body">
+          <Text size="sm" c="dimmed" data-testid="discover-drawer-dates">
+            {formatShortRange(trip.tripStartDate, trip.tripEndDate, locale, true)} ·{' '}
+            {t('daysOption', { count: trip.tripLengthDays })}
+          </Text>
+          <Group gap={6} data-testid="discover-drawer-badges">
+            <Badge variant="light" leftSection={<IconBallFootball size={12} />}>
+              {t('matchCount', { count: trip.matchCount })}
+            </Badge>
+            {trip.uefaMatchCount > 0 && (
+              <Badge variant="light" color="violet" leftSection={<IconTrophy size={12} />}>
+                {t('uefaCount', { count: trip.uefaMatchCount })}
+              </Badge>
+            )}
+            <Badge variant="outline" color="gray" leftSection={<IconRoute size={12} />}>
+              {t('totalKm', { count: trip.totalKm })}
+            </Badge>
+          </Group>
+          <div className={classes.drawerBaseBox} data-testid="discover-drawer-base">
+            {trip.destinationLabel && trip.destinationLabel !== 'Football trip' ? (
+              <>
+                <Group gap={6} wrap="nowrap">
+                  <IconBed size={16} />
+                  <Text size="sm" fw={600}>
+                    {t('drawerBase', { city: trip.destinationLabel })}
+                  </Text>
+                </Group>
+                <Text size="xs" c="dimmed" mt={2}>
+                  {t('maxLeg', { km: trip.maxLegKm })}
+                </Text>
+              </>
+            ) : (
+              <>
+                <Group gap={6} wrap="nowrap">
+                  <IconRoute size={16} />
+                  <Text size="sm" fw={600}>
+                    {t('matchCount', { count: trip.matchCount })} ·{' '}
+                    {t('daysOption', { count: trip.tripLengthDays })}
+                  </Text>
+                </Group>
+                <Text size="xs" c="dimmed" mt={2}>
+                  {t('maxLeg', { km: trip.maxLegKm })}
+                </Text>
+              </>
+            )}
+          </div>
+          <Timeline
+            active={trip.matchCount}
+            bulletSize={24}
+            lineWidth={2}
+            data-testid="discover-drawer-timeline"
+          >
+            {trip.matches.map((m, i) => {
+              const leg = trip.legs?.find((l) => l.fromIdx === i);
+              const dateTime =
+                m.date?.dateTime ?? (m.date?.date ? `${m.date.date}T12:00:00.000Z` : undefined);
+              return (
+                <Timeline.Item
+                  key={matchIdOf(m)}
+                  bullet={
+                    <Text size="sm" fw={700}>
+                      {i + 1}
+                    </Text>
+                  }
+                  title={
+                    <Group gap={6} wrap="nowrap">
+                      <Crest name={m.homeTeam?.name ?? ''} crest={m.homeTeam?.crest} size={20} />
+                      <Text size="sm" fw={500} lineClamp={1}>
+                        {m.homeTeam?.name}
+                      </Text>
+                      <Text size="sm" c="dimmed">
+                        vs
+                      </Text>
+                      <Crest name={m.awayTeam?.name ?? ''} crest={m.awayTeam?.crest} size={20} />
+                      <Text size="sm" fw={500} lineClamp={1}>
+                        {m.awayTeam?.name}
+                      </Text>
+                    </Group>
+                  }
+                >
+                  <Text size="xs" c="dimmed">
+                    {formatTripDayLabel(dateTime, locale)} · {m.date?.approximate ? '~' : ''}
+                    {formatKickoff(dateTime, locale)}
+                  </Text>
+                  <Group gap={4} mt={2}>
+                    {isUefaCompetition(m.competition) && (
+                      <Badge size="xs" variant="light" color="violet">
+                        {uefaBadgeLabel(m.competition?.name ?? '')}
+                      </Badge>
+                    )}
+                  </Group>
+                  <Text size="xs" c="dimmed">
+                    {m.competition?.name}
+                    {(m.stadium?.name || m.stadium?.city) &&
+                      ` • ${[m.stadium?.name, m.stadium?.city].filter(Boolean).join(', ')}`}
+                  </Text>
+                  {leg && (
+                    <Badge size="xs" variant="outline" color="gray" mt={4}>
+                      ↓ {t('toNext', { km: leg.km })}
+                    </Badge>
+                  )}
+                </Timeline.Item>
+              );
+            })}
+          </Timeline>
+        </Stack>
+      )}
+    </Drawer>
+  );
+}

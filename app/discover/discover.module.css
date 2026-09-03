@@ -1,0 +1,257 @@
+.discoverShell {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #e9edf1;
+}
+
+.mapArea {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.mapArea :global(.map-wrapper),
+.mapArea :global(.map-inner) {
+  height: 100%;
+  width: 100%;
+}
+
+.mapDimmed {
+  filter: saturate(0.65);
+}
+
+.dimOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 900;
+  pointer-events: none;
+  background: rgb(255 255 255 / 42%);
+  opacity: 1;
+  transition: opacity 220ms ease;
+}
+
+.searchCenter {
+  position: absolute;
+  inset: 0;
+  z-index: 1001;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  pointer-events: none;
+  overflow-y: auto;
+}
+
+.searchPaper {
+  pointer-events: auto;
+  width: 760px;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
+}
+
+.summaryBar {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  max-width: calc(100vw - 24px);
+}
+
+.summaryPaper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.summaryIcon {
+  display: grid;
+  place-items: center;
+  color: var(--mantine-color-dimmed);
+}
+
+.categoryScroll {
+  max-width: min(700px, 100%);
+}
+
+.categoryGroup {
+  padding: 2px;
+}
+
+.cardMetaIcon {
+  color: var(--mantine-color-dimmed);
+  flex-shrink: 0;
+}
+
+.drawerBaseBox {
+  background: var(--mantine-color-blue-light);
+  border-radius: var(--mantine-radius-md);
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-sm);
+}
+
+.dockWrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 16px 16px;
+  pointer-events: none;
+}
+
+.dockWrap > * {
+  pointer-events: auto;
+}
+
+.categoryRow {
+  display: flex;
+  justify-content: center;
+}
+
+.categoryScroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.cardsRow {
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+  padding: 4px 2px 6px;
+}
+
+.tripCard {
+  width: 330px;
+  flex: 0 0 330px;
+  cursor: pointer;
+  background: linear-gradient(135deg, var(--mantine-color-blue-0), var(--mantine-color-body) 62%);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.tripCardCompact {
+  width: 280px;
+  flex: 0 0 280px;
+}
+
+.tripCardSelected {
+  border: 2px solid var(--mantine-color-blue-filled);
+  box-shadow: var(--mantine-shadow-md);
+}
+
+.teamCrestBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: #fff;
+  border: 1px solid var(--mantine-color-gray-2);
+  border-radius: var(--mantine-radius-md);
+}
+
+.teamCrestImg {
+  object-fit: contain;
+  display: block;
+}
+
+.compLogoBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: #fff;
+  border: 1px solid var(--mantine-color-gray-2);
+  border-radius: var(--mantine-radius-sm);
+}
+
+.dockRail {
+  position: relative;
+  min-width: 0;
+}
+
+.dockScrollInner {
+  width: max-content;
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+  padding: 4px 2px 6px;
+}
+
+.dockArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: var(--mantine-color-body);
+  box-shadow: var(--mantine-shadow-sm);
+}
+
+.dockArrowLeft {
+  left: 2px;
+}
+
+.dockArrowRight {
+  right: 2px;
+}
+
+.dockCompactBar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.emptyPaper {
+  margin: 0 auto;
+  max-width: 560px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .searchCenter {
+    place-items: end center;
+    padding: 12px;
+  }
+
+  .searchPaper {
+    max-width: calc(100vw - 24px);
+    width: 100%;
+  }
+
+  .tripCard {
+    width: calc(100vw - 32px);
+    flex-basis: calc(100vw - 32px);
+  }
+
+  .tripCardCompact {
+    width: min(280px, calc(100vw - 32px));
+    flex-basis: min(280px, calc(100vw - 32px));
+  }
+
+  .summaryBar {
+    top: 8px;
+  }
+
+  .dockWrap {
+    padding: 0 8px 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dimOverlay,
+  .searchPaper,
+  .tripCard {
+    transition: none;
+  }
+}

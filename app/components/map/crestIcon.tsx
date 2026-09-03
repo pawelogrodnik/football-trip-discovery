@@ -5,15 +5,17 @@ import { initials } from './../../lib/initials';
 const iconCache = new Map<string, L.DivIcon>();
 
 export function crestPairIcon(
-  homeUrl?: string,
-  awayUrl?: string,
+  homeUrl?: string | null,
+  awayUrl?: string | null,
   homeName?: string,
   awayName?: string,
-  isSelected?: boolean
+  isSelected?: boolean,
+  orderLabel?: number | null
 ) {
+  const order = typeof orderLabel === 'number' && orderLabel > 0 ? String(orderLabel) : '';
   const key = `${homeUrl || ''}|${awayUrl || ''}|${homeName || ''}|${awayName || ''}|${
     isSelected ? 'selected' : 'default'
-  }`;
+  }|${order}`;
   const hit = iconCache.get(key);
   if (hit) {
     return hit;
@@ -27,8 +29,10 @@ export function crestPairIcon(
     ? `<img src="${awayUrl}" referrerpolicy="no-referrer" class="crest-img" alt="${awayName || ''}" />`
     : `<div class="crest-fallback">${initials(awayName)}</div>`;
   const htmlClasses = isSelected ? 'crest-pair crest-pair--selected' : 'crest-pair';
+  const badge = order ? `<div class="crest-order">${order}</div>` : '';
   const html = `
     <div class="${htmlClasses}">
+      ${badge}
       <div class="crest">${home}</div>
       <div class="crest">${away}</div>
     </div>

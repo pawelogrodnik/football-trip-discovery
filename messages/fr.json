@@ -3,9 +3,9 @@
     "nav": {
       "about": "De quoi s’agit-il ?",
       "contact": "Contact",
-      "reportBug": "Signaler un bug",
       "home": "Page d'accueil",
-      "suggestedTrips": "Suggested Trips"
+      "suggestedTrips": "Suggested Trips",
+      "discover": "Discover"
     },
     "language": "Langue",
     "menu": "Menu"
@@ -29,7 +29,7 @@
   "SupportForm": {
     "contact": {
       "title": "Contact",
-      "description": "Envoyez vos questions, idées de partenariat ou commentaires.",
+      "description": "Envoyez vos questions, idées de partenariat ou commentaires. Vous pouvez aussi signaler un bug ici — précisez navigateur, appareil et étapes pour reproduire.",
       "firstName": {
         "label": "Prénom ou pseudo (optionnel)",
         "placeholder": "Jane ou @fan123"
@@ -40,25 +40,7 @@
       },
       "message": {
         "label": "Message",
-        "placeholder": "Dites-en plus sur votre question ou votre demande..."
-      },
-      "button": "Envoyer le message",
-      "buttonLoading": "Envoi..."
-    },
-    "bugReport": {
-      "title": "Signaler un bug",
-      "description": "Partagez un maximum de détails (navigateur, appareil, étapes pour reproduire)",
-      "firstName": {
-        "label": "Prénom ou pseudo (optionnel)",
-        "placeholder": "Jane ou @fan123"
-      },
-      "email": {
-        "label": "Adresse e-mail (optionnelle)",
-        "placeholder": "vous@exemple.com"
-      },
-      "message": {
-        "label": "Message",
-        "placeholder": "Décrivez le problème, les étapes pour le reproduire, infos navigateur/appareil..."
+        "placeholder": "Dites-en plus sur votre question, votre demande ou le bug constaté (ce qui s'est passé, étapes pour reproduire, navigateur/appareil)..."
       },
       "button": "Envoyer le message",
       "buttonLoading": "Envoi..."
@@ -79,5 +61,66 @@
     "goBackButton": "Recommencer",
     "shareButton": "Copier le lien",
     "shareButtonCopied": "Lien copié"
+  },
+  "Discover": {
+    "title": "Découvre ton prochain voyage foot",
+    "subtitle": "Indique quand tu es disponible. Nous trouverons les meilleurs voyages foot pour toi.",
+    "availability": "Quand peux-tu voyager ?",
+    "availabilityPlaceholder": "Choisir des dates",
+    "tripLength": "Durée du voyage",
+    "daysOption": "{{count}} jours",
+    "daysShort": "jours",
+    "competitions": "Que veux-tu regarder ?",
+    "uefaPreset": "Compétitions UEFA",
+    "italyPreset": "Italie",
+    "chooseCompetitions": "Choisir des compétitions",
+    "pickerTitle": "Choisir des compétitions",
+    "pickerSelected": "Sélectionnées ({{count}})",
+    "clearAll": "Tout effacer",
+    "close": "Fermer",
+    "distance": "Distance maximale entre les stades",
+    "destination": "Destination",
+    "anywhere": "Partout",
+    "aroundCity": "Autour d'une ville",
+    "radius": "Rayon",
+    "advanced": "Options avancées",
+    "useMyLocation": "Utiliser ma position",
+    "clear": "Effacer",
+    "geoError": "Géolocalisation impossible",
+    "pickTripLength": "Choisis au moins une durée.",
+    "selectLeague": "Choisis au moins une ligue",
+    "selectDates": "Choisis une période",
+    "dateRangeError": "La période doit être de 0 à 30 jours",
+    "errorFallback": "Un problème est survenu. Réessaie.",
+    "discover": "Découvrir des voyages",
+    "searching": "Recherche de voyages…",
+    "editSearch": "Modifier la recherche",
+    "cancel": "Annuler",
+    "editingNotice": "Tu modifies ta recherche. Les résultats actuels sont conservés jusqu'à la prochaine recherche.",
+    "catTop": "Coups de cœur",
+    "catUefa": "Soirées européennes",
+    "catMost": "Plus de matchs",
+    "catEasy": "Voyages faciles",
+    "emptyTitle": "Aucun voyage trouvé",
+    "emptyHint1": "Élargis la période disponible",
+    "emptyHint2": "Choisis une autre durée",
+    "emptyHint3": "Sélectionne plus de compétitions",
+    "emptyHint4": "Augmente la distance maximale",
+    "viewTrip": "Voir le voyage",
+    "topPick": "Top",
+    "matchCount": "{{count}} matchs",
+    "uefaCount": "{{count}} UEFA",
+    "totalKm": "{{count}} km au total",
+    "moreMatches": "+{{count}} autres",
+    "toNext": "{{km}} km jusqu'au prochain stade",
+    "drawerBase": "Point de chute : {{city}}",
+    "maxLeg": "Tous les stades à moins de {{km}} km",
+    "tripOptions": "{{count}} options de voyage",
+    "collapseResults": "Réduire les résultats",
+    "expandResults": "Afficher les résultats",
+    "previousTrips": "Voyages précédents",
+    "nextTrips": "Voyages suivants",
+    "moreTeams": "+{{count}} équipes",
+    "catLower": "Ligues inférieures"
   }
 }

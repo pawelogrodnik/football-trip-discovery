@@ -1,4 +1,4 @@
-import { redirect } from 'next/navigation';
+import DiscoverClient from './components/DiscoverClient';
 
 export const metadata = {
   title: 'Discover Football Trips - Football Trip Discovery',
@@ -7,5 +7,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  redirect('/discover');
+  return <DiscoverClient />;
 }

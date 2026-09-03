@@ -20,6 +20,78 @@
   background-color: rgb(34, 139, 230)
 }
 
+.crest-order {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 9999px;
+  background: #1c7ed6;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+  z-index: 1;
+}
+
+.trip-marker-icon {
+  background: transparent;
+  border: 0;
+}
+
+.trip-marker {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #1c7ed6;
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.trip-marker--selected {
+  background: #1864ab;
+  transform: scale(1.15);
+}
+
+.trip-marker-label {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #343a40;
+  text-shadow: 0 1px 2px #fff, 0 0 4px #fff;
+}
+
+.trip-marker-label::before {
+  display: none;
+}
+
+.route-label {
+  background: #fff;
+  border: 1px solid rgb(0 0 0 / 8%);
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1864ab;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 15%);
+}
+
+.route-label::before {
+  display: none;
+}
+
 .leaflet-container .leaflet-marker-pane .crest-img {
   width: 100%;
   height: 100%;

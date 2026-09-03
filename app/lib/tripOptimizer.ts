@@ -5,8 +5,14 @@ export type TripMatch = {
   homeTeam: { name: string; crest?: string | null };
   awayTeam: { name: string; crest?: string | null };
   competition: { name: string; code?: string };
-  date: { date?: string; dateTime?: string; time?: string };
-  stadium?: { geo?: { latitude?: number; longitude?: number; name?: string | null }; name?: string | null; address?: string | null };
+  date: { date?: string; dateTime?: string; time?: string; approximate?: boolean };
+  stadium?: {
+    city?: string | null;
+    venue?: string | null;
+    geo?: { latitude?: number; longitude?: number; name?: string | null };
+    name?: string | null;
+    address?: string | null;
+  };
   country?: string;
   league?: string;
   _distanceKm?: number;
@@ -45,15 +51,26 @@ export function haversineKm(a: TripMatch, b: TripMatch): number | null {
   const lon1 = a.stadium?.geo?.longitude;
   const lat2 = b.stadium?.geo?.latitude;
   const lon2 = b.stadium?.geo?.longitude;
-  if (typeof lat1 !== 'number' || typeof lon1 !== 'number' || typeof lat2 !== 'number' || typeof lon2 !== 'number') return null;
+  if (
+    typeof lat1 !== 'number' ||
+    typeof lon1 !== 'number' ||
+    typeof lat2 !== 'number' ||
+    typeof lon2 !== 'number'
+  )
+    return null;
   return turf.distance(turf.point([lon1, lat1]), turf.point([lon2, lat2]), { units: 'kilometers' });
 }
 
-export function distanceFromStart(match: TripMatch, start: { lat: number; lon: number }): number | null {
+export function distanceFromStart(
+  match: TripMatch,
+  start: { lat: number; lon: number }
+): number | null {
   const lat = match.stadium?.geo?.latitude;
   const lon = match.stadium?.geo?.longitude;
   if (typeof lat !== 'number' || typeof lon !== 'number') return null;
-  return turf.distance(turf.point([start.lon, start.lat]), turf.point([lon, lat]), { units: 'kilometers' });
+  return turf.distance(turf.point([start.lon, start.lat]), turf.point([lon, lat]), {
+    units: 'kilometers',
+  });
 }
 
 /**
@@ -153,7 +170,11 @@ export function suggestTrips(
     // Find best end (max dp)
     let bestEnd = -1;
     let bestVal = -Infinity;
-    for (let j = 0; j < m; j++) if (dp[j] > bestVal) { bestVal = dp[j]; bestEnd = j; }
+    for (let j = 0; j < m; j++)
+      if (dp[j] > bestVal) {
+        bestVal = dp[j];
+        bestEnd = j;
+      }
     if (bestEnd === -1 || bestVal === -Infinity || bestVal < 1) break;
     const tripIndices: number[] = [];
     for (let cur = bestEnd; cur !== -1; cur = prevIdx[cur]) tripIndices.push(filtered[cur].idx);
@@ -168,7 +189,12 @@ export function suggestTrips(
       const d = haversineKm(tripMatches[t - 1], tripMatches[t]);
       if (d !== null && d !== Infinity) {
         totalKm += d;
-        legs.push({ fromIdx: t - 1, toIdx: t, km: Math.round(d * 10) / 10, driveMinutes: Math.round((d / 50) * 60) });
+        legs.push({
+          fromIdx: t - 1,
+          toIdx: t,
+          km: Math.round(d * 10) / 10,
+          driveMinutes: Math.round((d / 50) * 60),
+        });
       }
     }
     if (opts.startLocation && tripMatches.length > 0) {

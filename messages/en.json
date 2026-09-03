@@ -3,9 +3,9 @@
     "nav": {
       "about": "What is this about?",
       "contact": "Contact",
-      "reportBug": "Report a bug",
       "home": "Home",
-      "suggestedTrips": "Suggested Trips"
+      "suggestedTrips": "Suggested Trips",
+      "discover": "Discover"
     },
     "language": "Language",
     "menu": "Menu"
@@ -29,7 +29,7 @@
   "SupportForm": {
     "contact": {
       "title": "Contact",
-      "description": "Send your questions, partnership ideas, or feedback.",
+      "description": "Send your questions, partnership ideas, or feedback. You can also report a bug here — include your browser, device, and steps to reproduce.",
       "firstName": {
         "label": "First name or nickname (optional)",
         "placeholder": "Jane or @fan123"
@@ -40,25 +40,7 @@
       },
       "message": {
         "label": "Message",
-        "placeholder": "Tell me more about your question or request..."
-      },
-      "button": "Send message",
-      "buttonLoading": "Sending..."
-    },
-    "bugReport": {
-      "title": "Report a bug",
-      "description": "Share as many details as possible (browser, device, steps to reproduce)",
-      "firstName": {
-        "label": "First name or nickname (optional)",
-        "placeholder": "Jane or @fan123"
-      },
-      "email": {
-        "label": "Email address (optional)",
-        "placeholder": "you@example.com"
-      },
-      "message": {
-        "label": "Message",
-        "placeholder": "Describe the issue, steps to reproduce, browser/device info..."
+        "placeholder": "Tell me more about your question, request, or the bug you found (what happened, steps to reproduce, browser/device)..."
       },
       "button": "Send message",
       "buttonLoading": "Sending..."
@@ -79,5 +61,66 @@
     "goBackButton": "Let's start again",
     "shareButton": "Copy link",
     "shareButtonCopied": "Link copied"
+  },
+  "Discover": {
+    "title": "Discover your next football trip",
+    "subtitle": "Pick when you're free. We'll find the best football trips for you.",
+    "availability": "When can you travel?",
+    "availabilityPlaceholder": "Pick dates",
+    "tripLength": "Trip length",
+    "daysOption": "{{count}} days",
+    "daysShort": "days",
+    "competitions": "What do you want to watch?",
+    "uefaPreset": "UEFA competitions",
+    "italyPreset": "Italy",
+    "chooseCompetitions": "Choose competitions",
+    "pickerTitle": "Choose competitions",
+    "pickerSelected": "Selected ({{count}})",
+    "clearAll": "Clear all",
+    "close": "Close",
+    "distance": "Maximum distance between venues",
+    "destination": "Destination",
+    "anywhere": "Anywhere",
+    "aroundCity": "Around a city",
+    "radius": "Radius",
+    "advanced": "Advanced options",
+    "useMyLocation": "Use my location",
+    "clear": "Clear",
+    "geoError": "Geolocation failed",
+    "pickTripLength": "Select at least one trip length.",
+    "selectLeague": "Select at least one league",
+    "selectDates": "Select date range",
+    "dateRangeError": "Date range must be 0-30 days",
+    "errorFallback": "Something went wrong. Try again.",
+    "discover": "Discover trips",
+    "searching": "Discovering trips…",
+    "editSearch": "Edit search",
+    "cancel": "Cancel",
+    "editingNotice": "Editing your search. Your current results are kept until you discover again.",
+    "catTop": "Top picks",
+    "catUefa": "European nights",
+    "catMost": "Most matches",
+    "catEasy": "Easy trips",
+    "emptyTitle": "No trips found",
+    "emptyHint1": "Try increasing the availability window",
+    "emptyHint2": "Choose another trip length",
+    "emptyHint3": "Select more competitions",
+    "emptyHint4": "Increase the maximum distance",
+    "viewTrip": "View trip",
+    "topPick": "Top pick",
+    "matchCount": "{{count}} matches",
+    "uefaCount": "{{count}} UEFA",
+    "totalKm": "{{count}} km total",
+    "moreMatches": "+{{count}} more",
+    "toNext": "{{km}} km to next venue",
+    "drawerBase": "Stay in {{city}}",
+    "maxLeg": "All venues within {{km}} km",
+    "tripOptions": "{{count}} trip options",
+    "collapseResults": "Collapse results",
+    "expandResults": "Expand results",
+    "previousTrips": "Previous trips",
+    "nextTrips": "Next trips",
+    "moreTeams": "+{{count}} teams",
+    "catLower": "Lower league gems"
   }
 }

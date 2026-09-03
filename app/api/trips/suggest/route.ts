@@ -1,12 +1,18 @@
 import { NextResponse } from 'next/server';
-import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
 import { getAvailableLeagues } from 'lib/availableLeagues';
-import { suggestTrips, TripMatch } from 'lib/tripOptimizer';
-import { getCountriesInRadius } from 'lib/geo';
+import {
+  enrichTrip,
+  suggestDiscoverTrips,
+  toDateOnlyUTC,
+  validateTripLengthsDays,
+} from 'lib/discover';
+import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
 import { filterFixturesInRadius } from 'lib/geoTurf';
-import { uniqById } from 'lib/uniqById';
+import { normalizeMatchDateTime } from 'lib/matchDateTime';
 import { ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
+import { suggestTrips, TripMatch } from 'lib/tripOptimizer';
 import { TtlCache } from 'lib/ttlCache';
+import { uniqById } from 'lib/uniqById';
 
 const REGION_TTL = 10 * 60 * 1000;
 const polandCache = new TtlCache<string, Record<string, any[]>>(REGION_TTL);
@@ -17,8 +23,12 @@ async function getPolandSnapshot() {
 
 function parseDateRange(startStr?: string | null, endStr?: string | null) {
   const isDateOnly = (s: string) => /^\d{4}-\d{2}-\d{2}$/.test(s);
-  const start = startStr ? new Date(isDateOnly(startStr) ? `${startStr}T00:00:00.000Z` : startStr) : new Date('1970-01-01T00:00:00.000Z');
-  const end = endStr ? new Date(isDateOnly(endStr) ? `${endStr}T23:59:59.999Z` : endStr) : new Date('9999-12-31T23:59:59.999Z');
+  const start = startStr
+    ? new Date(isDateOnly(startStr) ? `${startStr}T00:00:00.000Z` : startStr)
+    : new Date('1970-01-01T00:00:00.000Z');
+  const end = endStr
+    ? new Date(isDateOnly(endStr) ? `${endStr}T23:59:59.999Z` : endStr)
+    : new Date('9999-12-31T23:59:59.999Z');
   return { start, end };
 }
 
@@ -47,14 +57,24 @@ export async function POST(req: Request) {
     searchRadiusKm = null,
     bufferMinutes = 30,
     limit = 3,
+    tripLengthsDays = null,
   } = body ?? {};
 
   const allSelectedLeagues: string[] = [...selectedLeagues];
   // Expand uefa shorthand
-  const uefaMap: Record<string, string> = { UCL: 'Champions League', UEL: 'Europa League', UECL: 'Conference League', 'Champions League': 'Champions League', 'Europa League': 'Europa League', 'Conference League': 'Conference League' };
+  const uefaMap: Record<string, string> = {
+    UCL: 'Champions League',
+    UEL: 'Europa League',
+    UECL: 'Conference League',
+    'Champions League': 'Champions League',
+    'Europa League': 'Europa League',
+    'Conference League': 'Conference League',
+  };
   for (const u of uefa) {
     const mapped = uefaMap[u] ?? u;
-    if (!allSelectedLeagues.includes(mapped)) allSelectedLeagues.push(mapped);
+    if (!allSelectedLeagues.includes(mapped)) {
+      allSelectedLeagues.push(mapped);
+    }
   }
 
   // Validation
@@ -73,11 +93,22 @@ export async function POST(req: Request) {
   if (typeof maxInterTravelKm !== 'number' || maxInterTravelKm < 20 || maxInterTravelKm > 300) {
     return NextResponse.json({ error: 'maxInterTravelKm must be 20-300' }, { status: 400 });
   }
-  const hasSearchLocation = searchLocation && typeof searchLocation.lat === 'number' && typeof searchLocation.lon === 'number';
+  const hasSearchLocation =
+    searchLocation &&
+    typeof searchLocation.lat === 'number' &&
+    typeof searchLocation.lon === 'number';
   const parsedSearchRadius = hasSearchLocation ? Number(searchRadiusKm) : null;
   if (hasSearchLocation) {
-    if (typeof parsedSearchRadius !== 'number' || Number.isNaN(parsedSearchRadius) || parsedSearchRadius < 5 || parsedSearchRadius > 500) {
-      return NextResponse.json({ error: 'searchRadiusKm must be 5-500 when searchLocation provided' }, { status: 400 });
+    if (
+      typeof parsedSearchRadius !== 'number' ||
+      Number.isNaN(parsedSearchRadius) ||
+      parsedSearchRadius < 5 ||
+      parsedSearchRadius > 500
+    ) {
+      return NextResponse.json(
+        { error: 'searchRadiusKm must be 5-500 when searchLocation provided' },
+        { status: 400 }
+      );
     }
   }
 
@@ -87,7 +118,9 @@ export async function POST(req: Request) {
   for (const c of selectedCountries) {
     const g = available.find((x) => x.country === c);
     if (g) {
-      for (const l of g.leagues) expandedLeagues.add(l.name);
+      for (const l of g.leagues) {
+        expandedLeagues.add(l.name);
+      }
     }
   }
   // If UEFA country selected, ensure its 3 leagues are included (already via uefa, but also via country)
@@ -106,47 +139,81 @@ export async function POST(req: Request) {
   // Helper to load leagues for a country
   async function collectForCountry(country: string, loaders: any[]) {
     for (const { name, load } of loaders) {
-      if (loadedLeagues.has(name)) continue;
-      if (selectedLeagueSet.size > 0 && !selectedLeagueSet.has(name)) continue;
+      if (loadedLeagues.has(name)) {
+        continue;
+      }
+      if (selectedLeagueSet.size > 0 && !selectedLeagueSet.has(name)) {
+        continue;
+      }
       loadedLeagues.add(name);
       try {
         const file = (await load()).default;
-        const matches = Array.isArray(file) ? file : file.matches ?? [];
+        const matches = Array.isArray(file) ? file : (file.matches ?? []);
         for (const m of matches) {
-          const d = new Date(m?.date?.date || m?.date?.dateTime || m?.utcDate || '1970-01-01');
-          if (Number.isNaN(d.getTime())) continue;
-          if (d < start || d > end) continue;
+          // Exact kickoff preferred; date-only matches enter with a neutral
+          // midday kickoff flagged approximate (never silently dropped).
+          const normalized =
+            normalizeMatchDateTime(m?.date) ??
+            (m?.utcDate && !Number.isNaN(new Date(m.utcDate).getTime())
+              ? { dateTime: m.utcDate, approximate: false }
+              : null);
+          if (!normalized) {
+            continue;
+          }
+          if (!m?.date) {
+            m.date = {};
+          }
+          m.date.dateTime = normalized.dateTime;
+          if (normalized.approximate) {
+            m.date.approximate = true;
+          }
+          const d = new Date(normalized.dateTime);
+          if (d < start || d > end) {
+            continue;
+          }
           // Ensure normalized id and geo
           ensureMatchHasNormalizedId(m, { country, league: m.competition?.name ?? name });
           // Filter out without geo (needed for travel)
           const lat = m.stadium?.geo?.latitude;
           const lon = m.stadium?.geo?.longitude;
-          if (typeof lat !== 'number' || typeof lon !== 'number') continue;
+          if (typeof lat !== 'number' || typeof lon !== 'number') {
+            continue;
+          }
           // If startLocation, optionally pre-filter to within 300km of start (first hop) to reduce n
           // Keep all, DP will handle, but we can keep to avoid huge n
           allMatches.push({ ...m, country, league: name });
         }
-      } catch {}
+      } catch {
+        // Ignore per-league load failures and continue with other leagues.
+      }
     }
   }
 
   // EUROPE always maybe? Only if selected includes UEFA
-  const hasUefa = selectedSet.has('Champions League') || selectedSet.has('Europa League') || selectedSet.has('Conference League');
+  const hasUefa =
+    selectedSet.has('Champions League') ||
+    selectedSet.has('Europa League') ||
+    selectedSet.has('Conference League');
   if (hasUefa) {
     const europeLoaders = (BASE_FIXTURES as any).EUROPE ?? [];
     await collectForCountry('EUROPE', europeLoaders);
   }
 
   for (const [country, loaders] of Object.entries(BASE_FIXTURES)) {
-    if (country === 'EUROPE') continue;
+    if (country === 'EUROPE') {
+      continue;
+    }
     // Only collect if at least one league of this country is selected
     const hasAny = loaders.some((l: any) => selectedLeagueSet.has(l.name));
     // Also if country selected via countries array, hasAny will be true via expansion
     if (!hasAny && selectedLeagueSet.size > 0) {
       // Check if any selected league belongs to this country via available mapping
-      const countryLeagues = available.find((g) => g.country === country)?.leagues.map((x) => x.name) ?? [];
+      const countryLeagues =
+        available.find((g) => g.country === country)?.leagues.map((x) => x.name) ?? [];
       const overlap = countryLeagues.some((n) => selectedLeagueSet.has(n));
-      if (!overlap) continue;
+      if (!overlap) {
+        continue;
+      }
     }
     await collectForCountry(country, loaders);
   }
@@ -154,7 +221,9 @@ export async function POST(req: Request) {
   // Poland regional
   const polandSelected = Array.from(selectedLeagueSet).some((n) => {
     // Check if any regional league name matches
-    return n.includes('Klasa') || n.includes('IV liga') || n.includes('V liga') || n.includes('Okręgowa');
+    return (
+      n.includes('Klasa') || n.includes('IV liga') || n.includes('V liga') || n.includes('Okręgowa')
+    );
   });
   if (polandSelected || selectedSet.has('Ekstraklasa') || selectedSet.has('Polish')) {
     try {
@@ -162,7 +231,9 @@ export async function POST(req: Request) {
       for (const [code, loaders] of Object.entries(snapshot)) {
         await collectForCountry(`POLAND-${code}`, loaders as any);
       }
-    } catch {}
+    } catch {
+      // Ignore Poland snapshot failures; base leagues are already collected.
+    }
   }
 
   // Also need to handle POLAND base leagues (Ekstraklasa etc.) already via BASE_FIXTURES POLAND
@@ -175,10 +246,15 @@ export async function POST(req: Request) {
     const lat = Number(searchLocation.lat);
     const lon = Number(searchLocation.lon);
     const before = uniq.length;
-    uniq = uniq.filter((m) => filterFixturesInRadius(m as any, lat, lon, Number(parsedSearchRadius)));
+    uniq = uniq.filter((m) =>
+      filterFixturesInRadius(m as any, lat, lon, Number(parsedSearchRadius))
+    );
     // If filter removes all, early return for clarity
     if (uniq.length === 0) {
-      return NextResponse.json({ trips: [], meta: { filteredCount: 0, tookMs: Date.now() - t0, searchFiltered: before } });
+      return NextResponse.json({
+        trips: [],
+        meta: { filteredCount: 0, tookMs: Date.now() - t0, searchFiltered: before },
+      });
     }
   }
 
@@ -187,13 +263,41 @@ export async function POST(req: Request) {
     return NextResponse.json({ trips: [], meta: { filteredCount: 0, tookMs: Date.now() - t0 } });
   }
 
-  // Suggest trips
+  // Discover semantics: rolling availability windows -> independent alternatives.
+  // tripLengthsDays present => new behavior; absent => legacy single-window behavior.
+  if (tripLengthsDays !== null && tripLengthsDays !== undefined) {
+    const validated = validateTripLengthsDays(tripLengthsDays);
+    if (!validated.ok) {
+      return NextResponse.json({ error: validated.error }, { status: 400 });
+    }
+    const availabilityStart = toDateOnlyUTC(start);
+    const availabilityEnd = toDateOnlyUTC(end);
+    const trips = suggestDiscoverTrips(uniq, availabilityStart, availabilityEnd, validated.value, {
+      maxInterTravelKm: Number(maxInterTravelKm),
+      bufferMinutes: Number(bufferMinutes),
+      startLocation: startLocation && typeof startLocation.lat === 'number' ? startLocation : null,
+      perWindowLimit: 2,
+      maxCandidates: 20,
+    });
+    return NextResponse.json({
+      trips,
+      meta: {
+        filteredCount: uniq.length,
+        tookMs: Date.now() - t0,
+        availabilityStart,
+        availabilityEnd,
+        tripLengthsDays: validated.value,
+      },
+    });
+  }
+
+  // Legacy path (homepage-adjacent callers without tripLengthsDays)
   const trips = suggestTrips(uniq, {
     maxInterTravelKm: Number(maxInterTravelKm),
     bufferMinutes: Number(bufferMinutes),
     startLocation: startLocation && typeof startLocation.lat === 'number' ? startLocation : null,
     limit: Number(limit),
-  });
+  }).map((t) => ({ ...t, ...enrichTrip(t) }));
 
   return NextResponse.json({
     trips,

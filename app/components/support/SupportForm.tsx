@@ -6,14 +6,6 @@ import { useTranslations } from 'components/providers/LocaleProvider';
 
 import './support-form.css';
 
-type FormType = 'contact' | 'bug';
-
-type SupportFormProps = {
-  formType: FormType;
-  title: string;
-  description?: string;
-};
-
 type SubmissionState = 'idle' | 'loading' | 'success' | 'error';
 
 const createDefaultFields = () => ({
@@ -28,8 +20,8 @@ const createDefaultFields = () => ({
 // const randomQuestionIndex = () =>
 //   Math.floor(Math.random() * Math.max(1, SUPPORT_FORM_QUESTIONS.length));
 
-export default function SupportForm({ formType, description }: SupportFormProps) {
-  const t = useTranslations(formType === 'bug' ? 'SupportForm.bugReport' : 'SupportForm.contact');
+export default function SupportForm() {
+  const t = useTranslations('SupportForm.contact');
   const [fields, setFields] = useState(createDefaultFields());
   const [status, setStatus] = useState<SubmissionState>('idle');
   const [feedback, setFeedback] = useState<string | null>(null);
@@ -55,7 +47,7 @@ export default function SupportForm({ formType, description }: SupportFormProps)
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...fields,
-          type: formType,
+          type: 'contact',
           // questionId: questionIndex,
         }),
       });
@@ -76,7 +68,7 @@ export default function SupportForm({ formType, description }: SupportFormProps)
     <section className="support-form__section">
       <div className="support-form__card">
         <h1>{t('title')}</h1>
-        {description && <p className="support-form__description">{t('description')}</p>}
+        <p className="support-form__description">{t('description')}</p>
         <form className="support-form" onSubmit={handleSubmit}>
           <div className="support-form__row">
             <label>

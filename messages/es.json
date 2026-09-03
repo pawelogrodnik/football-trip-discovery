@@ -3,9 +3,9 @@
     "nav": {
       "about": "¿De qué va todo esto?",
       "contact": "Contacto",
-      "reportBug": "Reportar un error",
       "home": "Pagina de inicio",
-      "suggestedTrips": "Suggested Trips"
+      "suggestedTrips": "Suggested Trips",
+      "discover": "Discover"
     },
     "language": "Idioma",
     "menu": "Menú"
@@ -29,7 +29,7 @@
   "SupportForm": {
     "contact": {
       "title": "Contacto",
-      "description": "Envía tus preguntas, ideas de colaboración o comentarios.",
+      "description": "Envía tus preguntas, ideas de colaboración o comentarios. También puedes reportar un error aquí — indica navegador, dispositivo y pasos para reproducirlo.",
       "firstName": {
         "label": "Nombre o apodo (opcional)",
         "placeholder": "Jane o @fan123"
@@ -40,25 +40,7 @@
       },
       "message": {
         "label": "Mensaje",
-        "placeholder": "Cuéntame más sobre tu pregunta o solicitud..."
-      },
-      "button": "Enviar mensaje",
-      "buttonLoading": "Enviando..."
-    },
-    "bugReport": {
-      "title": "Reportar un error",
-      "description": "Comparte tantos detalles como sea posible (navegador, dispositivo, pasos para reproducir)",
-      "firstName": {
-        "label": "Nombre o apodo (opcional)",
-        "placeholder": "Jane o @fan123"
-      },
-      "email": {
-        "label": "Correo electrónico (opcional)",
-        "placeholder": "tu@ejemplo.com"
-      },
-      "message": {
-        "label": "Mensaje",
-        "placeholder": "Describe el problema, los pasos para reproducirlo, información del navegador/dispositivo..."
+        "placeholder": "Cuéntame más sobre tu pregunta, solicitud o el error encontrado (qué pasó, pasos para reproducirlo, navegador/dispositivo)..."
       },
       "button": "Enviar mensaje",
       "buttonLoading": "Enviando..."
@@ -79,5 +61,66 @@
     "goBackButton": "Empecemos de nuevo",
     "shareButton": "Copiar enlace",
     "shareButtonCopied": "Enlace copiado"
+  },
+  "Discover": {
+    "title": "Descubre tu próximo viaje futbolero",
+    "subtitle": "Elige cuándo puedes viajar. Encontraremos los mejores viajes de fútbol para ti.",
+    "availability": "¿Cuándo puedes viajar?",
+    "availabilityPlaceholder": "Elige fechas",
+    "tripLength": "Duración del viaje",
+    "daysOption": "{{count}} días",
+    "daysShort": "días",
+    "competitions": "¿Qué quieres ver?",
+    "uefaPreset": "Competiciones UEFA",
+    "italyPreset": "Italia",
+    "chooseCompetitions": "Elegir competiciones",
+    "pickerTitle": "Elegir competiciones",
+    "pickerSelected": "Seleccionadas ({{count}})",
+    "clearAll": "Borrar todo",
+    "close": "Cerrar",
+    "distance": "Distancia máxima entre estadios",
+    "destination": "Destino",
+    "anywhere": "Cualquier lugar",
+    "aroundCity": "Alrededor de una ciudad",
+    "radius": "Radio",
+    "advanced": "Opciones avanzadas",
+    "useMyLocation": "Usar mi ubicación",
+    "clear": "Borrar",
+    "geoError": "No se pudo obtener la ubicación",
+    "pickTripLength": "Elige al menos una duración.",
+    "selectLeague": "Elige al menos una liga",
+    "selectDates": "Elige un rango de fechas",
+    "dateRangeError": "El rango debe ser de 0 a 30 días",
+    "errorFallback": "Algo salió mal. Inténtalo de nuevo.",
+    "discover": "Descubrir viajes",
+    "searching": "Buscando viajes…",
+    "editSearch": "Editar búsqueda",
+    "cancel": "Cancelar",
+    "editingNotice": "Estás editando tu búsqueda. Los resultados actuales se conservan hasta que busques de nuevo.",
+    "catTop": "Destacados",
+    "catUefa": "Noches europeas",
+    "catMost": "Más partidos",
+    "catEasy": "Viajes fáciles",
+    "emptyTitle": "No se encontraron viajes",
+    "emptyHint1": "Amplía el rango de fechas",
+    "emptyHint2": "Elige otra duración",
+    "emptyHint3": "Selecciona más competiciones",
+    "emptyHint4": "Aumenta la distancia máxima",
+    "viewTrip": "Ver viaje",
+    "topPick": "Destacado",
+    "matchCount": "{{count}} partidos",
+    "uefaCount": "{{count}} UEFA",
+    "totalKm": "{{count}} km en total",
+    "moreMatches": "+{{count}} más",
+    "toNext": "{{km}} km al siguiente estadio",
+    "drawerBase": "Base: {{city}}",
+    "maxLeg": "Todos los estadios a menos de {{km}} km",
+    "tripOptions": "{{count}} opciones de viaje",
+    "collapseResults": "Contraer resultados",
+    "expandResults": "Expandir resultados",
+    "previousTrips": "Viajes anteriores",
+    "nextTrips": "Viajes siguientes",
+    "moreTeams": "+{{count}} equipos",
+    "catLower": "Ligas inferiores"
   }
 }

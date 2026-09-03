@@ -1,17 +1,40 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { Button, Checkbox, Group, Slider, Accordion, Text, Stack, Alert, Card, Badge, Chip, Avatar, Timeline, Divider } from '@mantine/core';
-import { DatePickerInput } from '@mantine/dates';
-import MapWrapper from '../../../components/map/MapWrapper';
 import { LatLngExpression } from 'leaflet';
+import {
+  Accordion,
+  Alert,
+  Avatar,
+  Badge,
+  Button,
+  Card,
+  Checkbox,
+  Chip,
+  Divider,
+  Group,
+  Slider,
+  Stack,
+  Text,
+  Timeline,
+} from '@mantine/core';
+import { DatePickerInput } from '@mantine/dates';
 import { AutocompleteLoading } from '../../../components/form/AutoComplete';
+import MapWrapper from '../../../components/map/MapWrapper';
 
 type LeagueGroup = { country: string; leagues: { name: string; country: string }[] };
 
 function Crest({ name, crest, size = 20 }: { name: string; crest?: string | null; size?: number }) {
   if (crest) {
-    return <img src={crest} alt={name} width={size} height={size} style={{ objectFit: 'contain', borderRadius: 2, background: '#fff' }} />;
+    return (
+      <img
+        src={crest}
+        alt={name}
+        width={size}
+        height={size}
+        style={{ objectFit: 'contain', borderRadius: 2, background: '#fff' }}
+      />
+    );
   }
   const initials = name
     .split(' ')
@@ -30,9 +53,16 @@ export default function SuggestClient() {
   const [groups, setGroups] = useState<LeagueGroup[]>([]);
   const [selectedLeagues, setSelectedLeagues] = useState<string[]>([]);
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
-  const [dates, setDates] = useState<[Date | null, Date | null]>([new Date(), new Date(Date.now() + 7 * 24 * 3600 * 1000)]);
+  const [dates, setDates] = useState<[Date | null, Date | null]>([
+    new Date(),
+    new Date(Date.now() + 7 * 24 * 3600 * 1000),
+  ]);
   const [hop, setHop] = useState(100);
-  const [searchLocation, setSearchLocation] = useState<{ label: string; lat: number; lon: number } | null>(null);
+  const [searchLocation, setSearchLocation] = useState<{
+    label: string;
+    lat: number;
+    lon: number;
+  } | null>(null);
   const [searchRadius, setSearchRadius] = useState(30);
   const [startLoc, setStartLoc] = useState<{ lat: number; lon: number } | null>(null);
   const [trips, setTrips] = useState<any[]>([]);
@@ -47,8 +77,6 @@ export default function SuggestClient() {
       .then((d) => setGroups(d.leagues || []))
       .catch(() => setGroups([]));
   }, []);
-
-
 
   const toggleCountry = (country: string, checked: boolean) => {
     if (checked) {
@@ -98,7 +126,11 @@ export default function SuggestClient() {
     }
     const rawStart: any = dates[0];
     const rawEnd: any = dates[1];
-    const start: Date | null = rawStart ? (rawStart instanceof Date ? rawStart : new Date(rawStart)) : null;
+    const start: Date | null = rawStart
+      ? rawStart instanceof Date
+        ? rawStart
+        : new Date(rawStart)
+      : null;
     const end: Date | null = rawEnd ? (rawEnd instanceof Date ? rawEnd : new Date(rawEnd)) : null;
     if (!start || !end || Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) {
       setError('Select date range');
@@ -134,7 +166,10 @@ export default function SuggestClient() {
       if (!res.ok) throw new Error(data.error || 'Failed');
       setTrips(data.trips || []);
       setHasSearched(true);
-      if ((data.trips || []).length === 0) setError('No trips found for selected leagues/dates/hop. Try expanding hop to 200-300km or wider dates.');
+      if ((data.trips || []).length === 0)
+        setError(
+          'No trips found for selected leagues/dates/hop. Try expanding hop to 200-300km or wider dates.'
+        );
     } catch (e: any) {
       setError(e.message || 'Failed');
     } finally {
@@ -197,7 +232,6 @@ export default function SuggestClient() {
           selectedMatchesIds={mapFixtures.map((m: any) => String(m.id))}
           focus={null}
         />
-
       </div>
 
       <div className="right-side">
@@ -216,7 +250,11 @@ export default function SuggestClient() {
                       key={t.id}
                       withBorder
                       shadow="sm"
-                      style={{ borderColor: selectedTripIdx === idx ? 'var(--mantine-color-blue-filled)' : undefined, cursor: 'pointer' }}
+                      style={{
+                        borderColor:
+                          selectedTripIdx === idx ? 'var(--mantine-color-blue-filled)' : undefined,
+                        cursor: 'pointer',
+                      }}
                       onClick={() => setSelectedTripIdx(idx)}
                     >
                       <Group justify="space-between">
@@ -224,7 +262,8 @@ export default function SuggestClient() {
                           Trip {idx + 1}: {t.matchCount} matches • {t.totalKm} km total
                         </Text>
                         <Badge variant="light">
-                          {t.matches[0]?.date?.date?.slice(0, 10)} → {t.matches[t.matches.length - 1]?.date?.date?.slice(0, 10)}
+                          {t.matches[0]?.date?.date?.slice(0, 10)} →{' '}
+                          {t.matches[t.matches.length - 1]?.date?.date?.slice(0, 10)}
                         </Badge>
                       </Group>
 
@@ -235,17 +274,29 @@ export default function SuggestClient() {
                           return (
                             <Timeline.Item
                               key={m.id}
-                              bullet={<Text size="sm" fw={700}>{i + 1}</Text>}
+                              bullet={
+                                <Text size="sm" fw={700}>
+                                  {i + 1}
+                                </Text>
+                              }
                               title={
                                 <Group gap={6} wrap="nowrap">
-                                  <Crest name={m.homeTeam?.name} crest={m.homeTeam?.crest} size={20} />
+                                  <Crest
+                                    name={m.homeTeam?.name}
+                                    crest={m.homeTeam?.crest}
+                                    size={20}
+                                  />
                                   <Text size="sm" fw={500} lineClamp={1}>
                                     {m.homeTeam?.name}
                                   </Text>
                                   <Text size="sm" c="dimmed">
                                     vs
                                   </Text>
-                                  <Crest name={m.awayTeam?.name} crest={m.awayTeam?.crest} size={20} />
+                                  <Crest
+                                    name={m.awayTeam?.name}
+                                    crest={m.awayTeam?.crest}
+                                    size={20}
+                                  />
                                   <Text size="sm" fw={500} lineClamp={1}>
                                     {m.awayTeam?.name}
                                   </Text>
@@ -253,7 +304,9 @@ export default function SuggestClient() {
                               }
                             >
                               <Text size="xs" c="dimmed">
-                                {new Date(m.date?.dateTime || m.date?.date).toLocaleString()} • {m.competition?.name} {m.stadium?.name ? `• ${m.stadium.name}` : ''}
+                                {m.date?.approximate ? '~' : ''}
+                                {new Date(m.date?.dateTime || m.date?.date).toLocaleString()} •{' '}
+                                {m.competition?.name} {m.stadium?.name ? `• ${m.stadium.name}` : ''}
                               </Text>
                               {nextDist && (
                                 <Badge size="xs" variant="outline" color="gray" mt={4}>
@@ -265,26 +318,37 @@ export default function SuggestClient() {
                         })}
                       </Timeline>
 
-                      <Button mt={12} size="xs" fullWidth variant={selectedTripIdx === idx ? 'filled' : 'light'} onClick={() => setSelectedTripIdx(idx)}>
+                      <Button
+                        mt={12}
+                        size="xs"
+                        fullWidth
+                        variant={selectedTripIdx === idx ? 'filled' : 'light'}
+                        onClick={() => setSelectedTripIdx(idx)}
+                      >
                         {selectedTripIdx === idx ? 'Showing on map' : 'Show on map'}
                       </Button>
                     </Card>
                   ))}
                 </Stack>
               ) : (
-                !loading && <Text size="sm" c="dimmed">No trips found. Try expanding hop or dates.</Text>
+                !loading && (
+                  <Text size="sm" c="dimmed">
+                    No trips found. Try expanding hop or dates.
+                  </Text>
+                )
               )}
               {error && !trips.length && <Alert color="red">{error}</Alert>}
             </Stack>
           ) : (
             <Stack gap="md">
               <div>
-              <Text fw={700} size="xl">
-                Suggested Trips
-              </Text>
-              <Text size="sm" c="dimmed" mt={4}>
-                Select leagues, date range (max 30 days) and how far you are willing to travel between matches. System will propose best non-overlapping trips.
-              </Text>
+                <Text fw={700} size="xl">
+                  Suggested Trips
+                </Text>
+                <Text size="sm" c="dimmed" mt={4}>
+                  Select leagues, date range (max 30 days) and how far you are willing to travel
+                  between matches. System will propose best non-overlapping trips.
+                </Text>
               </div>
 
               {selectedLeagues.length > 0 && (
@@ -294,52 +358,77 @@ export default function SuggestClient() {
                   </Text>
                   <Group gap={6}>
                     {selectedLeagues.slice(0, 12).map((n) => (
-                      <Chip key={n} checked={true} onChange={() => toggleLeague(n, false)} size="xs" variant="filled">
+                      <Chip
+                        key={n}
+                        checked={true}
+                        onChange={() => toggleLeague(n, false)}
+                        size="xs"
+                        variant="filled"
+                      >
                         {n}
                       </Chip>
                     ))}
-                    {selectedLeagues.length > 12 && <Text size="xs" c="dimmed">+{selectedLeagues.length - 12} more</Text>}
-                    <Button size="xs" variant="subtle" onClick={() => { setSelectedLeagues([]); setSelectedCountries([]); }}>
+                    {selectedLeagues.length > 12 && (
+                      <Text size="xs" c="dimmed">
+                        +{selectedLeagues.length - 12} more
+                      </Text>
+                    )}
+                    <Button
+                      size="xs"
+                      variant="subtle"
+                      onClick={() => {
+                        setSelectedLeagues([]);
+                        setSelectedCountries([]);
+                      }}
+                    >
                       Clear all
                     </Button>
                   </Group>
                 </div>
               )}
 
-            <div style={{ maxHeight: 300, overflowY: 'auto', border: '1px solid #eee', borderRadius: 8, padding: 4 }}>
-              <Accordion variant="separated">
-                {groups.map((g) => (
-                  <Accordion.Item key={g.country} value={g.country}>
-                    <Accordion.Control>
-                      <Group justify="space-between" style={{ width: '100%' }}>
-                        <Checkbox
-                          label={`${g.country} (${g.leagues.length})`}
-                          checked={countryChecked(g.country)}
-                          indeterminate={countryIndeterminate(g.country)}
-                          onChange={(e) => {
-                            e.stopPropagation();
-                            toggleCountry(g.country, e.currentTarget.checked);
-                          }}
-                          onClick={(e) => e.stopPropagation()}
-                        />
-                      </Group>
-                    </Accordion.Control>
-                    <Accordion.Panel>
-                      <Stack gap={4}>
-                        {g.leagues.map((l) => (
+              <div
+                style={{
+                  maxHeight: 300,
+                  overflowY: 'auto',
+                  border: '1px solid #eee',
+                  borderRadius: 8,
+                  padding: 4,
+                }}
+              >
+                <Accordion variant="separated">
+                  {groups.map((g) => (
+                    <Accordion.Item key={g.country} value={g.country}>
+                      <Accordion.Control>
+                        <Group justify="space-between" style={{ width: '100%' }}>
                           <Checkbox
-                            key={l.name}
-                            label={l.name}
-                            checked={selectedLeagues.includes(l.name)}
-                            onChange={(e) => toggleLeague(l.name, e.currentTarget.checked)}
+                            label={`${g.country} (${g.leagues.length})`}
+                            checked={countryChecked(g.country)}
+                            indeterminate={countryIndeterminate(g.country)}
+                            onChange={(e) => {
+                              e.stopPropagation();
+                              toggleCountry(g.country, e.currentTarget.checked);
+                            }}
+                            onClick={(e) => e.stopPropagation()}
                           />
-                        ))}
-                      </Stack>
-                    </Accordion.Panel>
-                  </Accordion.Item>
-                ))}
-              </Accordion>
-            </div>
+                        </Group>
+                      </Accordion.Control>
+                      <Accordion.Panel>
+                        <Stack gap={4}>
+                          {g.leagues.map((l) => (
+                            <Checkbox
+                              key={l.name}
+                              label={l.name}
+                              checked={selectedLeagues.includes(l.name)}
+                              onChange={(e) => toggleLeague(l.name, e.currentTarget.checked)}
+                            />
+                          ))}
+                        </Stack>
+                      </Accordion.Panel>
+                    </Accordion.Item>
+                  ))}
+                </Accordion>
+              </div>
 
               <DatePickerInput
                 type="range"
@@ -352,37 +441,71 @@ export default function SuggestClient() {
               />
 
               <div>
-                <Text size="sm" fw={500} >
+                <Text size="sm" fw={500}>
                   How far willing to travel between matches: {hop} km
                 </Text>
-                <Slider mb={30} min={20} max={300} step={10} value={hop} onChange={setHop} marks={[{ value: 20, label: '20' }, { value: 100, label: '100' }, { value: 200, label: '200' }, { value: 300, label: '300' }]} />
-                
+                <Slider
+                  mb={30}
+                  min={20}
+                  max={300}
+                  step={10}
+                  value={hop}
+                  onChange={setHop}
+                  marks={[
+                    { value: 20, label: '20' },
+                    { value: 100, label: '100' },
+                    { value: 200, label: '200' },
+                    { value: 300, label: '300' },
+                  ]}
+                />
               </div>
 
               <Divider label="Limit search to area (optional)" labelPosition="center" />
 
               <div>
-                <Text size="sm" fw={500}>Lokalizacja (opcjonalnie)</Text>
-                <Text size="xs" c="dimmed">np Kraków + 30km – tylko mecze w tym promieniu, jak na stronie głównej</Text>
+                <Text size="sm" fw={500}>
+                  Lokalizacja (opcjonalnie)
+                </Text>
+                <Text size="xs" c="dimmed">
+                  np Kraków + 30km – tylko mecze w tym promieniu, jak na stronie głównej
+                </Text>
                 <AutocompleteLoading onLocationSelect={(loc: any) => setSearchLocation(loc)} />
                 {searchLocation && (
                   <Group justify="space-between" mt={4}>
-                    <Text size="xs" c="dimmed" lineClamp={1} style={{ flex: 1 }}>{searchLocation.label}</Text>
-                    <Button size="xs" variant="subtle" onClick={() => setSearchLocation(null)}>Clear</Button>
+                    <Text size="xs" c="dimmed" lineClamp={1} style={{ flex: 1 }}>
+                      {searchLocation.label}
+                    </Text>
+                    <Button size="xs" variant="subtle" onClick={() => setSearchLocation(null)}>
+                      Clear
+                    </Button>
                   </Group>
                 )}
               </div>
 
               {searchLocation && (
                 <div>
-                  <Text size="sm" fw={500}>Radius: {searchRadius} km</Text>
-                  <Slider min={5} max={200} step={5} value={searchRadius} onChange={setSearchRadius} marks={[{ value: 30, label: '30' }, { value: 100, label: '100' }, { value: 200, label: '200' }]} />
+                  <Text size="sm" fw={500}>
+                    Radius: {searchRadius} km
+                  </Text>
+                  <Slider
+                    min={5}
+                    max={200}
+                    step={5}
+                    value={searchRadius}
+                    onChange={setSearchRadius}
+                    marks={[
+                      { value: 30, label: '30' },
+                      { value: 100, label: '100' },
+                      { value: 200, label: '200' },
+                    ]}
+                  />
                 </div>
               )}
 
               <Group>
                 <Button variant="light" onClick={useMyLocation}>
-                  Use my location {startLoc ? `(${startLoc.lat.toFixed(2)}, ${startLoc.lon.toFixed(2)})` : ''}
+                  Use my location{' '}
+                  {startLoc ? `(${startLoc.lat.toFixed(2)}, ${startLoc.lon.toFixed(2)})` : ''}
                 </Button>
                 {startLoc && (
                   <Button variant="subtle" onClick={() => setStartLoc(null)}>

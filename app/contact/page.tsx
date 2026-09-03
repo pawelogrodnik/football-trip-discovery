@@ -7,11 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  return (
-    <SupportForm
-      formType="contact"
-      title="Contact us"
-      description="Send us your questions, partnership ideas, or feedback. We usually reply within 1-2 business days."
-    />
-  );
+  return <SupportForm />;
 }
