@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef } from 'react';
 import L, { LatLngExpression } from 'leaflet';
-import { Circle, MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
+import { Circle, MapContainer, Marker, Polyline, Popup, TileLayer, useMap } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { DEFAULT_RADIUS, RADIUS_MULTIPLIER } from './../consts';
 import { crestPairIcon } from './crestIcon';
@@ -61,21 +61,45 @@ function FlyToOnFocus({
   return null;
 }
 
+function FitToFixtures({ fixtures }: { fixtures: any[] }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!fixtures || fixtures.length === 0) return;
+    if (fixtures.length === 1) return;
+    const points = fixtures
+      .map((f) => {
+        const lat = f?.stadium?.geo?.latitude;
+        const lon = f?.stadium?.geo?.longitude;
+        if (typeof lat === 'number' && typeof lon === 'number') return [lat, lon] as [number, number];
+        return null;
+      })
+      .filter(Boolean) as [number, number][];
+    if (points.length < 2) return;
+    const bounds = L.latLngBounds(points);
+    const t = setTimeout(() => map.fitBounds(bounds, { padding: [48, 48] }), 300);
+    return () => clearTimeout(t);
+  }, [fixtures, map]);
+  return null;
+}
+
 function ViewportController({
   selectedLocation,
   radiusMeters,
   fallbackCenter,
+  fixtures,
 }: {
   selectedLocation?: { lat: number; lon: number } | null;
   radiusMeters: number;
   fallbackCenter: LatLngExpression;
+  fixtures?: any[];
 }) {
   const map = useMap();
   useEffect(() => {
     if (
       selectedLocation &&
       typeof selectedLocation.lat === 'number' &&
-      typeof selectedLocation.lon === 'number'
+      typeof selectedLocation.lon === 'number' &&
+      (!fixtures || fixtures.length === 0)
     ) {
       const bounds = boundsForCircle(
         { lat: selectedLocation.lat, lon: selectedLocation.lon },
@@ -89,8 +113,9 @@ function ViewportController({
       }
       return;
     }
+    if (fixtures && fixtures.length > 1) return;
     map.flyTo(fallbackCenter, map.getZoom(), { duration: 0.5 });
-  }, [selectedLocation?.lat, selectedLocation?.lon, radiusMeters, fallbackCenter, map]);
+  }, [selectedLocation?.lat, selectedLocation?.lon, radiusMeters, fallbackCenter, fixtures, map]);
   return null;
 }
 
@@ -149,6 +174,12 @@ export default function MapWithSearch({
     }>;
   }, [fixtures]);
 
+  const polylinePositions = useMemo(() => {
+    if (markerData.length < 2) return null;
+    // Use fixtures order as trip order (already sorted by time in suggest)
+    return markerData.map((m) => m.position);
+  }, [markerData]);
+
   useEffect(() => {
     const ids = new Set(markerData.map(({ id }) => id));
     Object.keys(markerRefs.current).forEach((existingId) => {
@@ -186,7 +217,9 @@ export default function MapWithSearch({
             selectedLocation={selectedLocation ?? null}
             radiusMeters={radiusMeters}
             fallbackCenter={initialCenter}
+            fixtures={fixtures}
           />
+          <FitToFixtures fixtures={fixtures} />
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>'
@@ -205,6 +238,7 @@ export default function MapWithSearch({
               <Circle center={[selectedLocation.lat, selectedLocation.lon]} radius={radiusMeters} />
             </>
           )}
+          {polylinePositions && <Polyline positions={polylinePositions} pathOptions={{ color: '#228be6', weight: 3, opacity: 0.7, dashArray: '6 8' }} />}
           <MarkerClusterGroup
             chunkedLoading
             spiderfyOnEveryZoom
@@ -236,6 +270,9 @@ export default function MapWithSearch({
                     {fixture.homeTeam.name} vs {fixture.awayTeam.name}
                   </div>
                   <div className="text-xs">{kickoff}</div>
+                  <div className="text-xs" style={{ opacity: 0.7 }}>
+                    {fixture.competition?.name}
+                  </div>
                 </Popup>
               </Marker>
             ))}
