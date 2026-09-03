@@ -17,6 +17,7 @@ export default async function AboutPage() {
       <p>{about.paragraph1}</p>
       <p>{about.paragraph2}</p>
       <p>{about.paragraph3}</p>
+      {about.paragraph4 && <p>{about.paragraph4}</p>}
     </section>
   );
 }

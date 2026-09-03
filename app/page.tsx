@@ -1,13 +1,15 @@
 import type { Metadata } from 'next';
-import HomePage from './components/homepage';
+import DiscoverClient from './discover/components/DiscoverClient';
 
 export const metadata: Metadata = {
-  title: 'Football Trip Discovery App',
-  description: 'Discover football matches near you.',
-  keywords: ['football', 'journey', 'matches'],
+  title: 'Football Trip Discovery',
+  description:
+    'Discover the best football trips based on when you can travel and the football you want to see.',
+  keywords: ['football', 'journey', 'matches', 'trips', 'discover'],
   openGraph: {
-    title: 'Football Trip Discovery App',
-    description: 'Find local matches wherever you go.',
+    title: 'Football Trip Discovery',
+    description:
+      'Discover the best football trips based on when you can travel and the football you want to see.',
     url: 'https://football-trip-discovery.vercel.app/',
     siteName: 'Football Trip Discovery',
     images: [
@@ -23,12 +25,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Football Trip Discovery App',
-    description: 'Find local matches wherever you go.',
+    title: 'Football Trip Discovery',
+    description:
+      'Discover the best football trips based on when you can travel and the football you want to see.',
     images: ['https://football-trip-discovery.vercel.app/meta_img.png'],
   },
 };
 
 export default function Home() {
-  return <HomePage />;
+  return <DiscoverClient />;
 }

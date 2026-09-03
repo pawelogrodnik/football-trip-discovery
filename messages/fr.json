@@ -5,7 +5,8 @@
       "contact": "Contact",
       "home": "Page d'accueil",
       "suggestedTrips": "Suggested Trips",
-      "discover": "Discover"
+      "discover": "Discover",
+      "findMatches": "Trouver des matchs"
     },
     "language": "Langue",
     "menu": "Menu"
@@ -24,7 +25,8 @@
     "title": "De quoi s’agit-il ?",
     "paragraph1": "Ce site s’adresse aux passionnés de football. Si vous planifiez un déplacement pour la Ligue des champions et que vous vous demandez s’il existe d’autres rencontres à proximité, cette application peut vous aider. Peut-être êtes-vous en vacances et souhaitez découvrir les ligues locales, ou vous aimez simplement assister à un match pendant un séjour en ville. Dans ce cas, vous êtes au bon endroit.",
     "paragraph2": "L’objectif du projet était de créer un outil permettant de trouver rapidement les matchs se déroulant dans une zone choisie, à des dates précises et dans le rayon que vous êtes prêt à parcourir pour rejoindre le stade. Au départ, cet outil n’était destiné qu’à mon usage personnel, mais j’ai décidé d’en faire un projet de portfolio et de le partager publiquement.",
-    "paragraph3": "Le service couvre aujourd’hui plus de 25 pays et plus de 70 ligues, dont plus de 30 en Pologne – de l’Ekstraklasa jusqu’à la IV liga, ainsi que certaines divisions régionales et les classes A et B. Les compétitions UEFA sont également prises en charge : Ligue des champions, Ligue Europa et Ligue Europa Conférence."
+    "paragraph3": "Le service couvre aujourd’hui plus de 25 pays et plus de 70 ligues, dont plus de 30 en Pologne – de l’Ekstraklasa jusqu’à la IV liga, ainsi que certaines divisions régionales et les classes A et B. Les compétitions UEFA sont également prises en charge : Ligue des champions, Ligue Europa et Ligue Europa Conférence.",
+    "paragraph4": "Comment ça marche : Discover — dis-nous quand tu peux voyager et quel football tu veux voir, et nous te suggérerons les meilleurs voyages. Trouver des matchs — tu sais déjà où tu vas ? Cherche tous les matchs autour de ta destination, choisis tes matchs et crée un lien de voyage à partager."
   },
   "SupportForm": {
     "contact": {
@@ -50,14 +52,14 @@
     "title": "Sélectionnez les matchs qui vous intéressent."
   },
   "SelectedMatchesPage": {
-    "title": "Voici les matchs qui valent le déplacement."
+    "title": "Voyage foot"
   },
   "MatchCard": {
     "distance": "Distance",
     "navigate": "Aller au stade"
   },
   "MatchList": {
-    "continueButton": "Continuer",
+    "continueButton": "Créer un voyage",
     "goBackButton": "Recommencer",
     "shareButton": "Copier le lien",
     "shareButtonCopied": "Lien copié"
@@ -121,6 +123,54 @@
     "previousTrips": "Voyages précédents",
     "nextTrips": "Voyages suivants",
     "moreTeams": "+{{count}} équipes",
-    "catLower": "Ligues inférieures"
+    "catLower": "Ligues inférieures",
+    "englandPreset": "Angleterre",
+    "spainPreset": "Espagne",
+    "polandPreset": "Pologne",
+    "alreadyKnowDestination": "Tu sais déjà où tu vas ?",
+    "findMatchesLink": "Trouve des matchs près de ta destination",
+    "customizeTrip": "Personnaliser le voyage",
+    "distHint5": "Très compact",
+    "distHint10": "Ville",
+    "distHint25": "Proche",
+    "distHint50": "Trajet court",
+    "distHint100": "Régional",
+    "distHint150": "Large",
+    "distHint250": "Très large",
+    "summaryDistance": "≤ {{km}} km entre les stades"
+  },
+  "FindMatches": {
+    "title": "Trouve des matchs près de ta destination",
+    "subtitle": "Tu sais déjà où tu vas ? Dis-nous où et quand, et nous te montrerons les matchs à proximité.",
+    "destination": "Destination",
+    "destinationPlaceholder": "Milan / Barcelone / Paris ...",
+    "dates": "Dates",
+    "datesPlaceholder": "Choisir des dates",
+    "radius": "Rayon de recherche",
+    "findMatches": "Trouver des matchs",
+    "editSearch": "Modifier la recherche",
+    "cancel": "Annuler",
+    "matchesNearby": "{{count}} matchs à proximité",
+    "withinRadius": "dans un rayon de {{km}} km autour de {{label}}",
+    "selectedCount": "{{count}} matchs sélectionnés",
+    "createTrip": "Créer un voyage · {{count}}",
+    "notSureWhere": "Pas encore sûr de la destination ?",
+    "discoverTrips": "Découvrir des voyages foot",
+    "customizeModeNotice": "Tu personnalises un voyage suggéré — ajuste la sélection puis crée ton voyage.",
+    "loading": "Chargement des matchs...",
+    "emptyTitle": "Aucun match trouvé",
+    "emptyHint": "Aucun match trouvé près de {{label}} pour ces dates.",
+    "emptyRecovery": "Essaie d’augmenter le rayon ou de changer les dates."
+  },
+  "TripPage": {
+    "title": "Voyage foot",
+    "matchCount": "{{count}} matchs",
+    "copyLink": "Copier le lien",
+    "linkCopied": "Lien copié",
+    "editTrip": "Modifier le voyage",
+    "loading": "Chargement du voyage...",
+    "emptyNoIds": "Indique les ids via \"?ids=match1,match2\" pour voir le voyage.",
+    "emptyNotFound": "Aucun match trouvé pour les ids indiqués.",
+    "missingWarning": "Certains matchs n’ont pas pu être chargés : {{ids}}"
   }
 }

@@ -3,6 +3,12 @@
 import { useEffect, useMemo, useRef } from 'react';
 import L, { LatLngExpression } from 'leaflet';
 import {
+  focusPanOffsetPx,
+  insetsToFitPadding,
+  MapViewportInsets,
+  normalizeInsets,
+} from 'lib/mapViewport';
+import {
   Circle,
   MapContainer,
   Marker,
@@ -66,10 +72,11 @@ type Props = {
   /** Honest label on the selected-trip route line, e.g. "74 km total". */
   routeLabel?: string | null;
   /**
-   * Floating-UI aware padding for fitBounds (Discover overlays float above
-   * the full-size map). Defaults keep legacy symmetric padding.
+   * Floating-UI aware viewport insets (Discover overlays / Find sidebar
+   * float above the full-size map). All fitting and focusing targets the
+   * actually visible region. Defaults keep legacy symmetric padding.
    */
-  fitPadding?: FitPadding;
+  viewportInsets?: Partial<MapViewportInsets>;
 };
 
 export type TripMarker = {
@@ -110,13 +117,26 @@ function geoPoints(fixtures: any[] | undefined | null): [number, number][] {
     .filter(Boolean) as [number, number][];
 }
 
-function FlyToOnFocus({ focus }: { focus?: MapFocus }) {
+function FlyToOnFocus({ focus, insets }: { focus?: MapFocus; insets: MapViewportInsets }) {
   const map = useMap();
+  const insetsRef = useRef(insets);
+  insetsRef.current = insets;
   useEffect(() => {
     if (!focus) {
       return;
     }
     map.flyTo([focus.lat, focus.lon], Math.max(map.getZoom(), 13), { duration: 0.8 });
+    // Recenter the focused point into the visible region (not the raw
+    // container center). Offset derives from the current insets only.
+    const offset = focusPanOffsetPx(insetsRef.current);
+    if (offset[0] === 0 && offset[1] === 0) {
+      return;
+    }
+    const recenter = () => map.panBy(offset, { animate: false });
+    map.once('moveend', recenter);
+    return () => {
+      map.off('moveend', recenter);
+    };
   }, [focus, map]);
   return null;
 }
@@ -126,12 +146,22 @@ export type FitPadding = {
   bottomRight: [number, number];
 };
 
+/** @deprecated Use MapViewportInsets + viewportInsets instead. */
+export function fitPaddingToInsets(padding: FitPadding): MapViewportInsets {
+  return {
+    top: padding.topLeft[1],
+    right: padding.bottomRight[0],
+    bottom: padding.bottomRight[1],
+    left: padding.topLeft[0],
+  };
+}
+
 function FitToFixtures({
   fixtures,
-  padding,
+  insets,
 }: {
   fixtures: any[] | null | undefined;
-  padding: FitPadding;
+  insets: MapViewportInsets;
 }) {
   const map = useMap();
   const key = useMemo(
@@ -148,7 +178,7 @@ function FitToFixtures({
             .join('|'),
     [fixtures]
   );
-  const paddingKey = `${padding.topLeft.join(',')}|${padding.bottomRight.join(',')}`;
+  const paddingKey = `${insets.top},${insets.right},${insets.bottom},${insets.left}`;
   useEffect(() => {
     if (!fixtures || fixtures.length < 2) {
       return;
@@ -158,6 +188,7 @@ function FitToFixtures({
       return;
     }
     const bounds = L.latLngBounds(points);
+    const padding = insetsToFitPadding(insets);
     const t = setTimeout(() => {
       map.fitBounds(bounds, {
         paddingTopLeft: L.point(...padding.topLeft),
@@ -177,14 +208,17 @@ function ViewportController({
   fallbackCenter,
   hasFitTargets,
   showCircle,
+  insets,
 }: {
   selectedLocation?: { lat: number; lon: number } | null;
   radiusMeters: number;
   fallbackCenter: LatLngExpression;
   hasFitTargets: boolean;
   showCircle: boolean;
+  insets: MapViewportInsets;
 }) {
   const map = useMap();
+  const insetsKey = `${insets.top},${insets.right},${insets.bottom},${insets.left}`;
   useEffect(() => {
     if (
       showCircle &&
@@ -197,7 +231,12 @@ function ViewportController({
         { lat: selectedLocation.lat, lon: selectedLocation.lon },
         radiusMeters
       );
-      const fit = () => map.fitBounds(bounds, { padding: [32, 32] });
+      const padding = insetsToFitPadding(insets);
+      const fit = () =>
+        map.fitBounds(bounds, {
+          paddingTopLeft: L.point(...padding.topLeft),
+          paddingBottomRight: L.point(...padding.bottomRight),
+        });
       if ((map as unknown as { _loaded?: boolean })?._loaded) {
         fit();
       } else {
@@ -216,6 +255,7 @@ function ViewportController({
     fallbackCenter,
     hasFitTargets,
     showCircle,
+    insetsKey,
     map,
   ]);
   return null;
@@ -243,9 +283,10 @@ export default function MapWithSearch({
   selectedTripMarkerId,
   onTripMarkerClick,
   routeLabel,
-  fitPadding = { topLeft: [48, 48], bottomRight: [48, 48] },
+  viewportInsets,
 }: Props) {
   const markerRefs = useRef<Record<string, L.Marker>>({});
+  const insets = useMemo(() => normalizeInsets(viewportInsets), [viewportInsets]);
   const radiusMeters = useMemo(
     () => clamp(selectedRadius || DEFAULT_RADIUS * RADIUS_MULTIPLIER, 5, 1000) * 1000,
     [selectedRadius]
@@ -390,8 +431,9 @@ export default function MapWithSearch({
             fallbackCenter={initialCenter}
             hasFitTargets={(fitTargets?.length ?? 0) > 1}
             showCircle={showCircle}
+            insets={insets}
           />
-          <FitToFixtures fixtures={fitTargets} padding={fitPadding} />
+          <FitToFixtures fixtures={fitTargets} insets={insets} />
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>'
@@ -441,7 +483,7 @@ export default function MapWithSearch({
               });
             }}
           >
-            <FlyToOnFocus focus={focus} />
+            <FlyToOnFocus focus={focus} insets={insets} />
             {tripMarkerData.map((m) => (
               <Marker
                 key={`trip-${m.id}`}

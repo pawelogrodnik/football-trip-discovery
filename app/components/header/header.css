@@ -41,6 +41,11 @@
   font-size: var(--mantine-font-size-sm);
 }
 
+.link--active {
+  color: light-dark(var(--mantine-color-blue-7), var(--mantine-color-blue-3));
+  border-bottom: 2px solid light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+}
+
 .mobile-nav-links {
   display: flex;
   flex-direction: column;

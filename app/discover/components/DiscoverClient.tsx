@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { IconAlertCircle } from '@tabler/icons-react';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import {
@@ -14,6 +15,9 @@ import {
   resolveCategory,
   toDateOnlyUTC,
 } from 'lib/discover';
+import { DEFAULT_INTER_TRAVEL_KM } from 'lib/distance';
+import { MapViewportInsets } from 'lib/mapViewport';
+import { buildFindUrl, deriveFindContextFromTrip } from 'lib/tripUrls';
 import { Alert, Button, Paper } from '@mantine/core';
 import MapWrapper from '../../components/map/MapWrapper';
 import CompetitionPicker, { LeagueGroup } from './CompetitionPicker';
@@ -29,6 +33,23 @@ type DiscoverView = 'search' | 'loading' | 'results';
 const DISCOVER_CENTER = [50, 10] as unknown as [number, number];
 const UEFA_LEAGUES = ['Champions League', 'Europa League', 'Conference League'];
 
+/** Country preset chips (keys match BASE_FIXTURES groups, case-insensitive). */
+const COUNTRY_PRESETS = [
+  { key: 'UNITED KINGDOM', labelKey: 'englandPreset' },
+  { key: 'SPAIN', labelKey: 'spainPreset' },
+  { key: 'ITALY', labelKey: 'italyPreset' },
+  { key: 'POLAND', labelKey: 'polandPreset' },
+] as const;
+
+/** "UNITED KINGDOM" -> "United Kingdom" for summary display. */
+export function formatCountryName(raw: string): string {
+  return raw
+    .toLowerCase()
+    .split(/[\s-]+/)
+    .map((w) => (w ? w.charAt(0).toUpperCase() + w.slice(1) : w))
+    .join(' ');
+}
+
 function defaultAvailability(): [Date | null, Date | null] {
   const start = new Date();
   start.setHours(0, 0, 0, 0);
@@ -40,12 +61,13 @@ function defaultAvailability(): [Date | null, Date | null] {
 export default function DiscoverClient() {
   const t = useTranslations('Discover');
   const locale = useLocale();
+  const router = useRouter();
 
   const [groups, setGroups] = useState<LeagueGroup[]>([]);
   const [selectedLeagues, setSelectedLeagues] = useState<string[]>([]);
   const [dates, setDates] = useState<[Date | null, Date | null]>(defaultAvailability);
   const [tripLengthsDays, setTripLengthsDays] = useState<number[]>(DISCOVER_DEFAULT_TRIP_LENGTHS);
-  const [maxInterTravelKm, setMaxInterTravelKm] = useState(100);
+  const [maxInterTravelKm, setMaxInterTravelKm] = useState(DEFAULT_INTER_TRAVEL_KM);
   const [destination, setDestination] = useState<DestinationSelection>({ type: 'anywhere' });
   const [advancedOpened, setAdvancedOpened] = useState(false);
   const [startLoc, setStartLoc] = useState<{ lat: number; lon: number } | null>(null);
@@ -96,11 +118,6 @@ export default function DiscoverClient() {
   );
 
   const uefaActive = UEFA_LEAGUES.every((l) => selectedLeagues.includes(l));
-  const italyGroup = groups.find((g) => g.country === 'Italy');
-  const italyActive =
-    !!italyGroup &&
-    italyGroup.leagues.length > 0 &&
-    italyGroup.leagues.every((l) => selectedLeagues.includes(l.name));
 
   const toggleUefaPreset = useCallback(() => {
     setSelectedLeagues((prev) => {
@@ -111,18 +128,39 @@ export default function DiscoverClient() {
     });
   }, []);
 
-  const toggleItalyPreset = useCallback(() => {
-    const names = groups.find((g) => g.country === 'Italy')?.leagues.map((l) => l.name) ?? [];
-    if (names.length === 0) {
-      return;
-    }
-    setSelectedLeagues((prev) => {
-      const allIn = names.every((n) => prev.includes(n));
-      return allIn
-        ? prev.filter((n) => !names.includes(n))
-        : Array.from(new Set([...prev, ...names]));
-    });
-  }, [groups]);
+  // Country presets. Group keys come from the API in varying case
+  // ("ITALY", "UNITED KINGDOM"), so matching is case-insensitive —
+  // exact-case lookup silently broke the Italy preset before.
+  const toggleCountryPreset = useCallback(
+    (countryKey: string) => {
+      const group = groups.find((g) => g.country.toUpperCase() === countryKey.toUpperCase());
+      const names = group?.leagues.map((l) => l.name) ?? [];
+      if (names.length === 0) {
+        return;
+      }
+      setSelectedLeagues((prev) => {
+        const allIn = names.every((n) => prev.includes(n));
+        return allIn
+          ? prev.filter((n) => !names.includes(n))
+          : Array.from(new Set([...prev, ...names]));
+      });
+    },
+    [groups]
+  );
+
+  const countryPresets = useMemo(
+    () =>
+      COUNTRY_PRESETS.map(({ key, labelKey }) => {
+        const group = groups.find((g) => g.country.toUpperCase() === key);
+        const names = group?.leagues.map((l) => l.name) ?? [];
+        return {
+          key,
+          labelKey,
+          active: names.length > 0 && names.every((n) => selectedLeagues.includes(n)),
+        };
+      }),
+    [groups, selectedLeagues]
+  );
 
   const competitionSummary = useMemo(() => {
     if (selectedLeagues.length === 0) {
@@ -135,18 +173,16 @@ export default function DiscoverClient() {
     } else {
       parts.push(...uefaSelected);
     }
-    const countries = groups
-      .filter(
-        (g) =>
-          g.country !== 'UEFA' &&
-          g.leagues.length > 0 &&
-          g.leagues.every((l) => selectedLeagues.includes(l.name))
-      )
-      .map((g) => g.country);
-    parts.push(...countries);
+    const countryGroups = groups.filter(
+      (g) =>
+        g.country !== 'UEFA' &&
+        g.leagues.length > 0 &&
+        g.leagues.every((l) => selectedLeagues.includes(l.name))
+    );
+    parts.push(...countryGroups.map((g) => formatCountryName(g.country)));
     const covered = new Set<string>([...uefaSelected]);
-    for (const c of countries) {
-      for (const l of groups.find((g) => g.country === c)?.leagues ?? []) {
+    for (const g of countryGroups) {
+      for (const l of g.leagues) {
         covered.add(l.name);
       }
     }
@@ -350,13 +386,12 @@ export default function DiscoverClient() {
   // Floating overlays never resize the map itself; fitBounds targets the
   // actually visible region instead.
   const detailsOpen = detailsTripId !== null;
-  const mapFitPadding = useMemo(
+  const mapViewportInsets = useMemo<MapViewportInsets>(
     () => ({
-      topLeft: [24, 76] as [number, number],
-      bottomRight: [detailsOpen ? 448 : 24, dockCollapsed ? 60 : detailsOpen ? 132 : 256] as [
-        number,
-        number,
-      ],
+      top: 76,
+      right: detailsOpen ? 448 : 24,
+      bottom: dockCollapsed ? 60 : detailsOpen ? 132 : 256,
+      left: 24,
     }),
     [detailsOpen, dockCollapsed]
   );
@@ -370,9 +405,9 @@ export default function DiscoverClient() {
       selectedLeagues={selectedLeagues}
       onOpenCompetitions={() => setPickerOpened(true)}
       onToggleUefaPreset={toggleUefaPreset}
-      onToggleItalyPreset={toggleItalyPreset}
       uefaActive={uefaActive}
-      italyActive={italyActive}
+      countryPresets={countryPresets}
+      onToggleCountryPreset={toggleCountryPreset}
       maxInterTravelKm={maxInterTravelKm}
       onMaxInterTravelKmChange={setMaxInterTravelKm}
       destination={destination}
@@ -410,7 +445,7 @@ export default function DiscoverClient() {
           onTripMarkerClick={handleSelectTrip}
           routeLabel={mapRouteLabel}
           focus={null}
-          fitPadding={mapFitPadding}
+          viewportInsets={mapViewportInsets}
         />
       </div>
 
@@ -508,6 +543,21 @@ export default function DiscoverClient() {
         onClose={() => {
           setDetailsTripId(null);
           setDockCollapsed(false);
+        }}
+        onCustomize={(trip) => {
+          const ctx = deriveFindContextFromTrip(trip);
+          router.push(
+            buildFindUrl(
+              {
+                location: ctx.location,
+                startDate: ctx.startDate,
+                endDate: ctx.endDate,
+                radiusKm: ctx.radiusKm,
+              },
+              ctx.ids,
+              { mode: 'customize' }
+            )
+          );
         }}
       />
     </main>

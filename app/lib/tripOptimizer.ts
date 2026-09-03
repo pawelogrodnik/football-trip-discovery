@@ -1,4 +1,5 @@
 import * as turf from '@turf/turf';
+import { DEFAULT_INTER_TRAVEL_KM } from './distance';
 
 export type TripMatch = {
   id: string;
@@ -88,7 +89,7 @@ export function suggestTrips(
 ): Trip[] {
   const buffer = opts.bufferMinutes ?? 30;
   const limit = opts.limit ?? 3;
-  const maxHop = opts.maxInterTravelKm ?? 300;
+  const maxHop = opts.maxInterTravelKm ?? DEFAULT_INTER_TRAVEL_KM;
 
   // Filter out matches without geo or date
   const withGeo = matches.filter((m) => {

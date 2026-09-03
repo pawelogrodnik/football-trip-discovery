@@ -1,8 +1,10 @@
 'use client';
 
+import Link from 'next/link';
 import { IconAlertCircle, IconSearch } from '@tabler/icons-react';
 import { useTranslations } from 'components/providers/LocaleProvider';
 import { DISCOVER_DEFAULT_TRIP_LENGTHS } from 'lib/discover';
+import { DISTANCE_OPTIONS } from 'lib/distance';
 import {
   Alert,
   Button,
@@ -11,7 +13,7 @@ import {
   Divider,
   Group,
   Radio,
-  SegmentedControl,
+  ScrollArea,
   Slider,
   Stack,
   Text,
@@ -35,9 +37,9 @@ type Props = {
   selectedLeagues: string[];
   onOpenCompetitions: () => void;
   onToggleUefaPreset: () => void;
-  onToggleItalyPreset: () => void;
   uefaActive: boolean;
-  italyActive: boolean;
+  countryPresets: { key: string; labelKey: string; active: boolean }[];
+  onToggleCountryPreset: (countryKey: string) => void;
   maxInterTravelKm: number;
   onMaxInterTravelKmChange: (v: number) => void;
   destination: DestinationSelection;
@@ -118,14 +120,17 @@ export default function DiscoverSearchForm(props: Props) {
           >
             {t('uefaPreset')}
           </Chip>
-          <Chip
-            checked={props.italyActive}
-            onChange={props.onToggleItalyPreset}
-            variant="filled"
-            data-testid="discover-preset-italy"
-          >
-            {t('italyPreset')}
-          </Chip>
+          {props.countryPresets.map((p) => (
+            <Chip
+              key={p.key}
+              checked={p.active}
+              onChange={() => props.onToggleCountryPreset(p.key)}
+              variant="filled"
+              data-testid={`discover-preset-${p.key.toLowerCase().replace(/\s+/g, '-')}`}
+            >
+              {t(p.labelKey)}
+            </Chip>
+          ))}
           <Button
             size="xs"
             variant="light"
@@ -141,17 +146,38 @@ export default function DiscoverSearchForm(props: Props) {
         <Text size="sm" fw={600} mb={4}>
           {t('distance')}
         </Text>
-        <SegmentedControl
-          value={String(props.maxInterTravelKm)}
-          onChange={(v) => props.onMaxInterTravelKmChange(Number(v))}
-          data-testid="discover-distance-control"
-          data={[
-            { label: '50 km', value: '50' },
-            { label: '100 km', value: '100' },
-            { label: '150 km', value: '150' },
-            { label: '250 km', value: '250' },
-          ]}
-        />
+        <ScrollArea
+          scrollbars="x"
+          type="auto"
+          offsetScrollbars
+          data-testid="discover-distance-scroll"
+        >
+          <Chip.Group
+            value={String(props.maxInterTravelKm)}
+            onChange={(v) => props.onMaxInterTravelKmChange(Number(v))}
+          >
+            <Group gap={8} wrap="nowrap" data-testid="discover-distance-control">
+              {DISTANCE_OPTIONS.map((o) => (
+                <span
+                  key={o.value}
+                  title={t(o.hintKey)}
+                  style={{ flexShrink: 0 }}
+                  data-testid={`discover-distance-${o.value}`}
+                >
+                  <Chip value={String(o.value)} variant="filled">
+                    {o.value} km
+                  </Chip>
+                </span>
+              ))}
+            </Group>
+          </Chip.Group>
+        </ScrollArea>
+        <Text size="xs" c="dimmed" mt={4} data-testid="discover-distance-hint">
+          {t(
+            DISTANCE_OPTIONS.find((o) => o.value === props.maxInterTravelKm)?.hintKey ??
+              'distHint100'
+          )}
+        </Text>
       </div>
 
       <div data-testid="discover-field-destination">
@@ -277,6 +303,10 @@ export default function DiscoverSearchForm(props: Props) {
       >
         {props.submitLabel ?? t('discover')}
       </Button>
+
+      <Text size="sm" c="dimmed" ta="center" data-testid="discover-find-link">
+        {t('alreadyKnowDestination')} <Link href="/find">{t('findMatchesLink')} →</Link>
+      </Text>
     </Stack>
   );
 }

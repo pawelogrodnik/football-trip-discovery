@@ -5,7 +5,8 @@
       "contact": "Kontakt",
       "home": "Strona główna",
       "suggestedTrips": "Sugerowane Tripy",
-      "discover": "Discover"
+      "discover": "Discover",
+      "findMatches": "Znajdź mecze"
     },
     "language": "Język",
     "menu": "Menu"
@@ -24,7 +25,8 @@
     "title": "O co tu chodzi?",
     "paragraph1": "Strona przeznaczona jest dla fanatyków wędkarstwa, ekhem, piłki nożnej. Jeśli planujesz wyjazd na mecz Ligi Mistrzów i zastanawiasz się, czy w okolicy można zobaczyć jeszcze jakieś inne spotkanie, ta aplikacja może Ci w tym pomóc. Być może jesteś na wakacjach i chciałbyś poczuć lokalne, niższe ligi, albo po prostu lubisz obejrzeć mecz podczas city breaku. W takim przypadku idealnie trafiłeś.",
     "paragraph2": "Celem projektu było stworzenie narzędzia, które pozwala w szybki sposób znaleźć mecze odbywające się w wybranej okolicy, konkretnej dacie oraz w ramach dystansu, jaki jesteś w stanie pokonać, aby dotrzeć na stadion. Początkowo aplikacja powstawała wyłącznie na moje potrzeby, jednak z czasem postanowiłem rozwinąć ją w projekt do portfolio i jednocześnie udostępnić publicznie.",
-    "paragraph3": "Obecnie serwis obsługuje ponad 25 krajów i przeszło 70 lig – w tym ponad 30 w Polsce, od Ekstraklasy do IV ligi, wybrane ligi okręgowe oraz klasy A i B. Wspierane są również rozgrywki UEFA: Liga Mistrzów, Liga Europy oraz Liga Konferencji."
+    "paragraph3": "Obecnie serwis obsługuje ponad 25 krajów i przeszło 70 lig – w tym ponad 30 w Polsce, od Ekstraklasy do IV ligi, wybrane ligi okręgowe oraz klasy A i B. Wspierane są również rozgrywki UEFA: Liga Mistrzów, Liga Europy oraz Liga Konferencji.",
+    "paragraph4": "Jak to działa: Discover — powiedz nam, kiedy możesz podróżować i jaką piłkę chcesz oglądać, a zaproponujemy najlepsze wyjazdy. Znajdź mecze — wiesz już, dokąd jedziesz? Wyszukaj wszystkie mecze w okolicy celu podróży, wybierz spotkania i utwórz link do wyjazdu, którym możesz się podzielić."
   },
   "SupportForm": {
     "contact": {
@@ -50,14 +52,14 @@
     "title": "Wybierz mecze, które Cię interesują."
   },
   "SelectedMatchesPage": {
-    "title": "To są mecze, na które warto się wybrać."
+    "title": "Piłkarski wyjazd"
   },
   "MatchCard": {
     "distance": "Odległość",
     "navigate": "Nawiguj do stadionu"
   },
   "MatchList": {
-    "continueButton": "Kontynuuj",
+    "continueButton": "Utwórz wyjazd",
     "goBackButton": "Zacznijmy od nowa",
     "shareButton": "Kopiuj link",
     "shareButtonCopied": "Link skopiowany"
@@ -121,6 +123,54 @@
     "previousTrips": "Poprzednie wyjazdy",
     "nextTrips": "Następne wyjazdy",
     "moreTeams": "+{{count}} drużyn",
-    "catLower": "Niższe ligi"
+    "catLower": "Niższe ligi",
+    "englandPreset": "Anglia",
+    "spainPreset": "Hiszpania",
+    "polandPreset": "Polska",
+    "alreadyKnowDestination": "Wiesz już, dokąd jedziesz?",
+    "findMatchesLink": "Znajdź mecze w okolicy",
+    "customizeTrip": "Dostosuj wyjazd",
+    "distHint5": "Bardzo zwarty",
+    "distHint10": "Miejski",
+    "distHint25": "Okolica",
+    "distHint50": "Krótki dojazd",
+    "distHint100": "Regionalny",
+    "distHint150": "Szeroki",
+    "distHint250": "Bardzo szeroki",
+    "summaryDistance": "≤ {{km}} km między stadionami"
+  },
+  "FindMatches": {
+    "title": "Znajdź mecze w okolicy celu podróży",
+    "subtitle": "Wiesz już, dokąd jedziesz? Powiedz nam, gdzie i kiedy, a pokażemy Ci mecze w okolicy.",
+    "destination": "Cel podróży",
+    "destinationPlaceholder": "Mediolan / Barcelona / Paryż ...",
+    "dates": "Daty",
+    "datesPlaceholder": "Wybierz daty",
+    "radius": "Promień wyszukiwania",
+    "findMatches": "Znajdź mecze",
+    "editSearch": "Edytuj wyszukiwanie",
+    "cancel": "Anuluj",
+    "matchesNearby": "Mecze w okolicy: {{count}}",
+    "withinRadius": "w promieniu {{km}} km od: {{label}}",
+    "selectedCount": "Wybrano meczów: {{count}}",
+    "createTrip": "Utwórz wyjazd · {{count}}",
+    "notSureWhere": "Nie wiesz jeszcze, dokąd jechać?",
+    "discoverTrips": "Odkryj najlepsze piłkarskie wyjazdy",
+    "customizeModeNotice": "Dostosowujesz sugerowany wyjazd — zmień wybór i utwórz swój wyjazd.",
+    "loading": "Ładowanie meczów...",
+    "emptyTitle": "Nie znaleziono meczów",
+    "emptyHint": "Nie znaleziono meczów w okolicy {{label}} w tych terminach.",
+    "emptyRecovery": "Spróbuj zwiększyć promień albo zmienić daty."
+  },
+  "TripPage": {
+    "title": "Piłkarski wyjazd",
+    "matchCount": "Meczów: {{count}}",
+    "copyLink": "Kopiuj link",
+    "linkCopied": "Link skopiowany",
+    "editTrip": "Edytuj wyjazd",
+    "loading": "Ładowanie wyjazdu...",
+    "emptyNoIds": "Podaj identyfikatory meczów w parametrze \"?ids=mecz1,mecz2\", aby zobaczyć wyjazd.",
+    "emptyNotFound": "Nie znaleziono meczów dla podanych identyfikatorów.",
+    "missingWarning": "Nie udało się wczytać niektórych meczów: {{ids}}"
   }
 }

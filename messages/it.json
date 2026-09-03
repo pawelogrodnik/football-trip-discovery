@@ -5,7 +5,8 @@
       "contact": "Contatto",
       "home": "Pagina iniziale",
       "suggestedTrips": "Suggested Trips",
-      "discover": "Discover"
+      "discover": "Discover",
+      "findMatches": "Trova partite"
     },
     "language": "Lingua",
     "menu": "Menù"
@@ -24,7 +25,8 @@
     "title": "Di cosa si tratta?",
     "paragraph1": "Questa pagina è pensata per gli appassionati di calcio. Se stai organizzando un viaggio per la Champions League e ti chiedi se ci sono altre partite nelle vicinanze, questa app può aiutarti. Forse sei in vacanza e vuoi vivere l’atmosfera delle leghe locali, oppure ti piace assistere a una partita durante un city break: in tal caso sei nel posto giusto.",
     "paragraph2": "L’obiettivo del progetto era creare uno strumento che trovasse rapidamente le partite che si disputano in una zona scelta, in date precise e all’interno del raggio che sei disposto a percorrere per raggiungere lo stadio. Inizialmente era un tool solo per me, ma col tempo ho deciso di trasformarlo in un progetto di portfolio e condividerlo pubblicamente.",
-    "paragraph3": "Il servizio copre ora più di 25 paesi e oltre 70 leghe, tra cui più di 30 in Polonia: dall’Ekstraklasa alla IV liga, alcune divisioni regionali e le classi A e B. Sono supportate anche le competizioni UEFA: Champions League, Europa League e Conference League."
+    "paragraph3": "Il servizio copre ora più di 25 paesi e oltre 70 leghe, tra cui più di 30 in Polonia: dall’Ekstraklasa alla IV liga, alcune divisioni regionali e le classi A e B. Sono supportate anche le competizioni UEFA: Champions League, Europa League e Conference League.",
+    "paragraph4": "Come funziona: Discover — dicci quando puoi viaggiare e che calcio vuoi vedere, e ti suggeriremo i migliori viaggi. Trova partite — sai già dove andare? Cerca tutte le partite intorno alla tua destinazione, scegli quelle che ti piacciono e crea un link condivisibile."
   },
   "SupportForm": {
     "contact": {
@@ -50,14 +52,14 @@
     "title": "Seleziona le partite che ti interessano."
   },
   "SelectedMatchesPage": {
-    "title": "Queste sono le partite che valgono il viaggio."
+    "title": "Viaggio di calcio"
   },
   "MatchCard": {
     "distance": "Distanza",
     "navigate": "Vai allo stadio"
   },
   "MatchList": {
-    "continueButton": "Continua",
+    "continueButton": "Crea viaggio",
     "goBackButton": "Ricomincia",
     "shareButton": "Copia link",
     "shareButtonCopied": "Link copiato"
@@ -121,6 +123,54 @@
     "previousTrips": "Viaggi precedenti",
     "nextTrips": "Viaggi successivi",
     "moreTeams": "+{{count}} squadre",
-    "catLower": "Leghe inferiori"
+    "catLower": "Leghe inferiori",
+    "englandPreset": "Inghilterra",
+    "spainPreset": "Spagna",
+    "polandPreset": "Polonia",
+    "alreadyKnowDestination": "Sai già dove andare?",
+    "findMatchesLink": "Trova partite vicino alla tua destinazione",
+    "customizeTrip": "Personalizza viaggio",
+    "distHint5": "Molto compatto",
+    "distHint10": "Città",
+    "distHint25": "Vicinanze",
+    "distHint50": "Breve spostamento",
+    "distHint100": "Regionale",
+    "distHint150": "Ampio",
+    "distHint250": "Molto ampio",
+    "summaryDistance": "≤ {{km}} km tra gli stadi"
+  },
+  "FindMatches": {
+    "title": "Trova partite vicino alla tua destinazione",
+    "subtitle": "Sai già dove andare? Dicci dove e quando, e ti mostreremo le partite vicine.",
+    "destination": "Destinazione",
+    "destinationPlaceholder": "Milano / Barcellona / Parigi ...",
+    "dates": "Date",
+    "datesPlaceholder": "Scegli le date",
+    "radius": "Raggio di ricerca",
+    "findMatches": "Trova partite",
+    "editSearch": "Modifica ricerca",
+    "cancel": "Annulla",
+    "matchesNearby": "{{count}} partite vicine",
+    "withinRadius": "entro {{km}} km da {{label}}",
+    "selectedCount": "{{count}} partite selezionate",
+    "createTrip": "Crea viaggio · {{count}}",
+    "notSureWhere": "Non sai ancora dove andare?",
+    "discoverTrips": "Scopri viaggi di calcio",
+    "customizeModeNotice": "Stai personalizzando un viaggio suggerito: regola la selezione e crea il tuo viaggio.",
+    "loading": "Caricamento partite...",
+    "emptyTitle": "Nessuna partita trovata",
+    "emptyHint": "Nessuna partita trovata vicino a {{label}} per queste date.",
+    "emptyRecovery": "Prova ad aumentare il raggio o a cambiare le date."
+  },
+  "TripPage": {
+    "title": "Viaggio di calcio",
+    "matchCount": "{{count}} partite",
+    "copyLink": "Copia link",
+    "linkCopied": "Link copiato",
+    "editTrip": "Modifica viaggio",
+    "loading": "Caricamento viaggio...",
+    "emptyNoIds": "Indica gli id con \"?ids=partita1,partita2\" per vedere il viaggio.",
+    "emptyNotFound": "Nessuna partita trovata per gli id indicati.",
+    "missingWarning": "Alcune partite non sono state caricate: {{ids}}"
   }
 }

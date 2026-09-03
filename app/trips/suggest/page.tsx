@@ -1,11 +1,5 @@
 import { redirect } from 'next/navigation';
 
-export const metadata = {
-  title: 'Discover Football Trips - Football Trip Discovery',
-  description:
-    'Discover the best football trips based on when you can travel, competitions and travel distance.',
-};
-
 export default function Page() {
-  redirect('/discover');
+  redirect('/');
 }

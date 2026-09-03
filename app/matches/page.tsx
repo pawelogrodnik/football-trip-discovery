@@ -3,13 +3,14 @@ import type { Metadata } from 'next';
 import MatchesByIdsPage from '../components/matchesByIdsPage';
 
 export const metadata: Metadata = {
-  title: 'Saved matches | Football Trip Discovery',
-  description: 'View hand-picked matches on an interactive map.',
+  title: 'Football trip | Football Trip Discovery',
+  description:
+    'View your football trip: selected matches on an interactive map. Copy the link to share it.',
 };
 
 export default function MatchesPage() {
   return (
-    <Suspense fallback={<div className="p-6">Loading saved matches...</div>}>
+    <Suspense fallback={<div className="p-6">Loading trip...</div>}>
       <MatchesByIdsPage />
     </Suspense>
   );

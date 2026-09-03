@@ -5,7 +5,8 @@
       "contact": "Contact",
       "home": "Home",
       "suggestedTrips": "Suggested Trips",
-      "discover": "Discover"
+      "discover": "Discover",
+      "findMatches": "Find matches"
     },
     "language": "Language",
     "menu": "Menu"
@@ -24,7 +25,8 @@
     "title": "What is this about?",
     "paragraph1": "This site is for football fanatics. If you are planning a Champions League trip and wonder whether there are other matches nearby, this app can help. Maybe you are on holiday and want to experience local lower divisions, or you simply enjoy catching a game during a city break. In that case, you are in the right place.",
     "paragraph2": "The goal of the project was to build a tool that quickly finds matches around a chosen location, on specific dates, and within a distance you're willing to travel to reach the stadium. At first it was a tool just for me, but over time I decided to grow it into a portfolio project and make it public.",
-    "paragraph3": "The service currently covers more than 25 countries and over 70 leagues—including more than 30 in Poland, from Ekstraklasa down to IV liga, selected regional divisions, and A/B classes. UEFA competitions are also supported: Champions League, Europa League, and Conference League."
+    "paragraph3": "The service currently covers more than 25 countries and over 70 leagues—including more than 30 in Poland, from Ekstraklasa down to IV liga, selected regional divisions, and A/B classes. UEFA competitions are also supported: Champions League, Europa League, and Conference League.",
+    "paragraph4": "How it works: Discover — tell us when you can travel and what football you want to see, and we'll suggest the best trips. Find matches — already know where you're going? Search all matches around your destination, pick the games you like and create a shareable trip link."
   },
   "SupportForm": {
     "contact": {
@@ -50,14 +52,14 @@
     "title": "Select matches that intrest you."
   },
   "SelectedMatchesPage": {
-    "title": "Those are matches that you find worth a trip."
+    "title": "Football trip"
   },
   "MatchCard": {
     "distance": "Distance",
     "navigate": "Navigate to stadium"
   },
   "MatchList": {
-    "continueButton": "Continue",
+    "continueButton": "Create trip",
     "goBackButton": "Let's start again",
     "shareButton": "Copy link",
     "shareButtonCopied": "Link copied"
@@ -121,6 +123,54 @@
     "previousTrips": "Previous trips",
     "nextTrips": "Next trips",
     "moreTeams": "+{{count}} teams",
-    "catLower": "Lower league gems"
+    "catLower": "Lower league gems",
+    "englandPreset": "England",
+    "spainPreset": "Spain",
+    "polandPreset": "Poland",
+    "alreadyKnowDestination": "Already know where you're going?",
+    "findMatchesLink": "Find matches near your destination",
+    "customizeTrip": "Customize trip",
+    "distHint5": "Very compact",
+    "distHint10": "City",
+    "distHint25": "Nearby",
+    "distHint50": "Short travel",
+    "distHint100": "Regional",
+    "distHint150": "Wide",
+    "distHint250": "Very wide",
+    "summaryDistance": "≤ {{km}} km between venues"
+  },
+  "FindMatches": {
+    "title": "Find matches near your destination",
+    "subtitle": "Already know where you're going? Tell us where and when, and we'll show you the matches nearby.",
+    "destination": "Destination",
+    "destinationPlaceholder": "Milan / Barcelona / Paris ...",
+    "dates": "Dates",
+    "datesPlaceholder": "Pick dates",
+    "radius": "Search radius",
+    "findMatches": "Find matches",
+    "editSearch": "Edit search",
+    "cancel": "Cancel",
+    "matchesNearby": "{{count}} matches nearby",
+    "withinRadius": "within {{km}} km of {{label}}",
+    "selectedCount": "{{count}} matches selected",
+    "createTrip": "Create trip · {{count}}",
+    "notSureWhere": "Not sure where to go?",
+    "discoverTrips": "Discover football trips",
+    "customizeModeNotice": "Customizing a suggested trip — adjust the selection and create your trip.",
+    "loading": "Loading matches...",
+    "emptyTitle": "No matches found",
+    "emptyHint": "No matches found near {{label}} for these dates.",
+    "emptyRecovery": "Try increasing the radius or changing the dates."
+  },
+  "TripPage": {
+    "title": "Football trip",
+    "matchCount": "{{count}} matches",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied",
+    "editTrip": "Edit trip",
+    "loading": "Loading trip...",
+    "emptyNoIds": "Provide match ids via \"?ids=match1,match2\" to see the trip.",
+    "emptyNotFound": "No matches found for the provided ids.",
+    "missingWarning": "Some matches could not be loaded: {{ids}}"
   }
 }

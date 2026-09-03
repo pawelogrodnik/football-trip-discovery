@@ -3,24 +3,34 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useTranslations } from 'components/providers/LocaleProvider';
 import { geocode } from 'lib/geocode';
 import { Autocomplete, Loader } from '@mantine/core';
-import { useTranslations } from 'components/providers/LocaleProvider';
 
 const mapSuggestionLabels = (suggestions: any[]) =>
   suggestions.map(({ label }: { label: string }) => label);
 
 export function AutocompleteLoading({
   onLocationSelect,
+  initialValue,
+  label,
+  placeholder,
 }: {
   onLocationSelect: (val: { label: string; lat: number; lon: number }) => void;
+  initialValue?: string;
+  label?: string;
+  placeholder?: string;
 }) {
   const t = useTranslations('Form');
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState(initialValue ?? '');
   const [suggestions, setSuggestions] = useState<[]>([]);
   const [isLoading, setLoading] = useState(false);
 
   const abortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    setQuery(initialValue ?? '');
+  }, [initialValue]);
 
   const handleChoose = (s: any) => {
     const loc = { label: s.label, lat: s.lat, lon: s.lon };
@@ -59,8 +69,8 @@ export function AutocompleteLoading({
         data={suggestions}
         onChange={setQuery}
         filter={({ options }) => options}
-        label={t('locationLabel')}
-        placeholder={t('locationPlaceholder')}
+        label={label ?? t('locationLabel')}
+        placeholder={placeholder ?? t('locationPlaceholder')}
         rightSection={isLoading ? <Loader size="xs" /> : null}
         comboboxProps={{
           withinPortal: true,

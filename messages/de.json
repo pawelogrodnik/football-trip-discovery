@@ -5,7 +5,8 @@
       "contact": "Kontakt",
       "home": "Homepage",
       "suggestedTrips": "Suggested Trips",
-      "discover": "Discover"
+      "discover": "Discover",
+      "findMatches": "Spiele finden"
     },
     "language": "Sprache",
     "menu": "Menü"
@@ -24,7 +25,8 @@
     "title": "Worum geht es hier?",
     "paragraph1": "Diese Seite richtet sich an Fußballfanatiker. Wenn du eine Reise zur Champions League planst und dich fragst, ob es in der Nähe weitere Spiele gibt, kann dir diese App helfen. Vielleicht bist du im Urlaub und willst die Stimmung der lokalen Unterligen spüren oder du schaust einfach gern ein Spiel während eines Städtetrips – dann bist du hier richtig.",
     "paragraph2": "Ziel des Projekts war es, ein Werkzeug zu entwickeln, das schnell Spiele in einer ausgewählten Region, an bestimmten Daten und innerhalb eines Radius findet, den du bereit bist zu fahren, um zum Stadion zu gelangen. Anfangs war es nur ein Tool für mich, doch mit der Zeit wurde daraus ein Portfolio-Projekt, das ich nun öffentlich teile.",
-    "paragraph3": "Der Service deckt inzwischen über 25 Länder und mehr als 70 Ligen ab – darunter über 30 in Polen, von der Ekstraklasa bis zur IV Liga, ausgewählte regionale Klassen sowie A- und B-Klassen. Auch UEFA-Wettbewerbe wie Champions League, Europa League und Conference League sind enthalten."
+    "paragraph3": "Der Service deckt inzwischen über 25 Länder und mehr als 70 Ligen ab – darunter über 30 in Polen, von der Ekstraklasa bis zur IV Liga, ausgewählte regionale Klassen sowie A- und B-Klassen. Auch UEFA-Wettbewerbe wie Champions League, Europa League und Conference League sind enthalten.",
+    "paragraph4": "So funktioniert es: Discover — sag uns, wann du reisen kannst und welchen Fußball du sehen willst, und wir schlagen die besten Trips vor. Spiele finden — du weißt schon, wohin du fährst? Suche alle Spiele rund um dein Ziel, wähle die Partien aus und erstelle einen teilbaren Trip-Link."
   },
   "SupportForm": {
     "contact": {
@@ -50,14 +52,14 @@
     "title": "Wähle die Spiele aus, die dich interessieren."
   },
   "SelectedMatchesPage": {
-    "title": "Das sind die Spiele, für die sich eine Reise lohnt."
+    "title": "Fußballtrip"
   },
   "MatchCard": {
     "distance": "Entfernung",
     "navigate": "Route zum Stadion"
   },
   "MatchList": {
-    "continueButton": "Weiter",
+    "continueButton": "Trip erstellen",
     "goBackButton": "Noch einmal starten",
     "shareButton": "Link kopieren",
     "shareButtonCopied": "Link kopiert"
@@ -121,6 +123,54 @@
     "previousTrips": "Vorherige Trips",
     "nextTrips": "Nächste Trips",
     "moreTeams": "+{{count}} Teams",
-    "catLower": "Untere Ligen"
+    "catLower": "Untere Ligen",
+    "englandPreset": "England",
+    "spainPreset": "Spanien",
+    "polandPreset": "Polen",
+    "alreadyKnowDestination": "Weißt du schon, wohin du fährst?",
+    "findMatchesLink": "Finde Spiele an deinem Zielort",
+    "customizeTrip": "Trip anpassen",
+    "distHint5": "Sehr kompakt",
+    "distHint10": "Stadt",
+    "distHint25": "Umgebung",
+    "distHint50": "Kurze Anreise",
+    "distHint100": "Regional",
+    "distHint150": "Weit",
+    "distHint250": "Sehr weit",
+    "summaryDistance": "≤ {{km}} km zwischen Spielorten"
+  },
+  "FindMatches": {
+    "title": "Finde Spiele an deinem Zielort",
+    "subtitle": "Du weißt schon, wohin du fährst? Sag uns wo und wann, und wir zeigen dir die Spiele in der Nähe.",
+    "destination": "Zielort",
+    "destinationPlaceholder": "Mailand / Barcelona / Paris ...",
+    "dates": "Daten",
+    "datesPlaceholder": "Daten wählen",
+    "radius": "Suchradius",
+    "findMatches": "Spiele finden",
+    "editSearch": "Suche bearbeiten",
+    "cancel": "Abbrechen",
+    "matchesNearby": "{{count}} Spiele in der Nähe",
+    "withinRadius": "innerhalb von {{km}} km um {{label}}",
+    "selectedCount": "{{count}} Spiele ausgewählt",
+    "createTrip": "Trip erstellen · {{count}}",
+    "notSureWhere": "Noch nicht sicher, wohin?",
+    "discoverTrips": "Entdecke Fußballtrips",
+    "customizeModeNotice": "Du passt einen vorgeschlagenen Trip an — wähle Spiele und erstelle deinen Trip.",
+    "loading": "Spiele werden geladen...",
+    "emptyTitle": "Keine Spiele gefunden",
+    "emptyHint": "Keine Spiele bei {{label}} für diese Daten gefunden.",
+    "emptyRecovery": "Versuche einen größeren Radius oder andere Daten."
+  },
+  "TripPage": {
+    "title": "Fußballtrip",
+    "matchCount": "{{count}} Spiele",
+    "copyLink": "Link kopieren",
+    "linkCopied": "Link kopiert",
+    "editTrip": "Trip bearbeiten",
+    "loading": "Trip wird geladen...",
+    "emptyNoIds": "Gib Spiel-IDs über \"?ids=spiel1,spiel2\" an, um den Trip zu sehen.",
+    "emptyNotFound": "Keine Spiele für die angegebenen IDs gefunden.",
+    "missingWarning": "Einige Spiele konnten nicht geladen werden: {{ids}}"
   }
 }

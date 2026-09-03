@@ -1,0 +1,158 @@
+.findShell {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #e9edf1;
+}
+
+.mapArea {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.mapArea :global(.map-wrapper),
+.mapArea :global(.map-inner) {
+  height: 100%;
+  width: 100%;
+}
+
+.mapDimmed {
+  filter: saturate(0.65);
+}
+
+.dimOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 900;
+  pointer-events: none;
+  background: rgb(255 255 255 / 42%);
+}
+
+.searchCenter {
+  position: absolute;
+  inset: 0;
+  z-index: 1001;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  pointer-events: none;
+  overflow-y: auto;
+}
+
+.searchPaper {
+  pointer-events: auto;
+  width: 660px;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+}
+
+.summaryBar {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  max-width: calc(100vw - 24px);
+}
+
+.summaryPaper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resultsPanel {
+  position: absolute;
+  top: 76px;
+  right: 16px;
+  bottom: 16px;
+  width: 460px;
+  max-width: calc(100vw - 32px);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.resultsScroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+/* Single scroll: neutralize MatchList's own listing scroll when embedded
+   in the Find panel — only .resultsScroll scrolls. */
+.resultsScroll :global(.match-list__listing) {
+  overflow: visible;
+  max-height: none;
+  border-top: none;
+  border-bottom: none;
+  padding: 8px;
+}
+
+.resultsHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+
+.resultsHeaderTitle {
+  flex: 1;
+  min-width: 0;
+}
+
+.resultsFooter {
+  border-top: 1px solid var(--mantine-color-gray-3);
+  padding-top: 12px;
+  background: var(--mantine-color-body);
+}
+
+.selectedCard {
+  border: 2px solid var(--mantine-color-blue-filled);
+  background: var(--mantine-color-blue-0);
+}
+
+.mobileToggle {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1002;
+}
+
+@media (max-width: 1024px) {
+  .searchPaper {
+    max-width: calc(100vw - 40px);
+  }
+}
+
+@media (max-width: 768px) {
+  .searchCenter {
+    place-items: end center;
+    padding: 12px;
+  }
+
+  .searchPaper {
+    max-width: calc(100vw - 24px);
+    width: 100%;
+  }
+
+  .resultsPanel {
+    top: auto;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    width: auto;
+    max-height: 62vh;
+  }
+
+  .summaryBar {
+    top: 8px;
+  }
+}

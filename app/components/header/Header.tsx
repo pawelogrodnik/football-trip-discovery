@@ -2,9 +2,10 @@
 
 import { memo, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { AppLocale, SUPPORTED_LOCALES } from 'lib/i18n/locales';
+import { NAV_ROUTES } from 'lib/navigation';
 import { Burger, Drawer, Group, Select } from '@mantine/core';
 
 import './header.css';
@@ -12,6 +13,7 @@ import './header.css';
 const Header = () => {
   const t = useTranslations('Header');
   const router = useRouter();
+  const pathname = usePathname();
   const locale = useLocale();
   const [selectedLocale, setSelectedLocale] = useState<AppLocale>(locale);
   const [menuOpened, setMenuOpened] = useState(false);
@@ -89,18 +91,20 @@ const Header = () => {
 
   const navLinks = (
     <>
-      <Link href="/" className="link" onClick={closeMenu}>
-        {t('nav.home')}
-      </Link>
-      <Link href="/discover" className="link" onClick={closeMenu}>
-        {t('nav.discover')}
-      </Link>
-      <Link href="/about" className="link" onClick={closeMenu}>
-        {t('nav.about')}
-      </Link>
-      <Link href="/contact" className="link" onClick={closeMenu}>
-        {t('nav.contact')}
-      </Link>
+      {NAV_ROUTES.map((route) => {
+        const active = route.match(pathname ?? '/');
+        return (
+          <Link
+            key={route.href}
+            href={route.href}
+            className={`link${active ? ' link--active' : ''}`}
+            aria-current={active ? 'page' : undefined}
+            onClick={closeMenu}
+          >
+            {t(route.labelKey)}
+          </Link>
+        );
+      })}
     </>
   );
 
@@ -108,7 +112,7 @@ const Header = () => {
     <div className="header-wrapper">
       <div className="header-inner">
         <div className="header__logo">
-          <Link href="/">
+          <Link href="/" aria-label="Football Trip Discovery">
             <div className="logo-wrapper">
               <img src="/logo.png" alt="" width={150} />
             </div>

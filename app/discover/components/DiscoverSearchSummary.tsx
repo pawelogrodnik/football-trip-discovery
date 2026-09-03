@@ -66,7 +66,7 @@ export default function DiscoverSearchSummary({
         </SummaryItem>
         <Divider orientation="vertical" />
         <SummaryItem icon={<IconMapPin size={16} />} testId="discover-summary-distance">
-          ≤{maxInterTravelKm} km
+          {t('summaryDistance', { km: maxInterTravelKm })}
         </SummaryItem>
         <Divider orientation="vertical" />
         <Button

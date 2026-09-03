@@ -50,6 +50,8 @@ const MatchList = ({
   source,
   onContinue,
   getNavigationUrl,
+  hideFooter = false,
+  hideHeader = false,
 }: {
   matches: any[];
   totalCount?: number;
@@ -61,6 +63,8 @@ const MatchList = ({
   source: string;
   onContinue?: () => void;
   getNavigationUrl?: (match: any) => string | null;
+  hideFooter?: boolean;
+  hideHeader?: boolean;
 }) => {
   const t = useTranslations();
   const router = useRouter();
@@ -79,7 +83,7 @@ const MatchList = ({
   };
   return (
     <div className={`match-list match-list--${source}`}>
-      {source === 'home' && (
+      {source === 'home' && !hideHeader && (
         <h3>
           <ActionIcon variant="default" aria-label="Go back to form" onClick={onGoBack}>
             <IconArrowBack style={{ width: '70%', height: '70%' }} stroke={1.5} />
@@ -87,7 +91,7 @@ const MatchList = ({
           <span>{t('MatchesPage.title')}</span>
         </h3>
       )}
-      {source === 'matches' && <h3>{t('SelectedMatchesPage.title')}</h3>}
+      {source === 'matches' && !hideHeader && <h3>{t('SelectedMatchesPage.title')}</h3>}
       <div className="match-list__listing">
         {matches.map((match) => {
           const date = new Date(match.date?.dateTime ?? match.utcDate ?? match?.date?.date ?? '');
@@ -119,7 +123,7 @@ const MatchList = ({
           );
         })}
       </div>
-      {source === 'home' && (
+      {source === 'home' && !hideFooter && (
         <div className="match-list__buttons">
           <Button
             variant="filled"
@@ -130,7 +134,7 @@ const MatchList = ({
           </Button>
         </div>
       )}
-      {source === 'matches' && (
+      {source === 'matches' && !hideFooter && (
         <div className="match-list__buttons">
           <Button variant="default" onClick={copyUrl}>
             <IconCopy className="mr-2" />
@@ -186,6 +190,10 @@ const MatchCard = ({
   };
 
   const navigationHref = getNavigationUrl?.(match);
+  const checkboxLabel =
+    match?.homeTeam?.name && match?.awayTeam?.name
+      ? `${match.homeTeam.name} vs ${match.awayTeam.name}`
+      : 'Select match';
 
   return (
     <Fragment key={match.id}>
@@ -198,11 +206,10 @@ const MatchCard = ({
             onClick={stopCardClick}
             onMouseDown={stopCardClick}
             disabled={!areMatchesSelectable}
-            tabIndex={-1}
             size="md"
             mr="xl"
             styles={{ input: { cursor: 'pointer' } }}
-            aria-hidden
+            aria-label={checkboxLabel}
           />
         </div>
         <div className="match-card__headline">

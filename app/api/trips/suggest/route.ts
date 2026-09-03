@@ -6,6 +6,12 @@ import {
   toDateOnlyUTC,
   validateTripLengthsDays,
 } from 'lib/discover';
+import {
+  DEFAULT_INTER_TRAVEL_KM,
+  MAX_INTER_TRAVEL_KM,
+  MIN_INTER_TRAVEL_KM,
+  parseMaxInterTravelKm,
+} from 'lib/distance';
 import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
 import { filterFixturesInRadius } from 'lib/geoTurf';
 import { normalizeMatchDateTime } from 'lib/matchDateTime';
@@ -51,7 +57,7 @@ export async function POST(req: Request) {
     uefa = [],
     startDate: startStr,
     endDate: endStr,
-    maxInterTravelKm = 300,
+    maxInterTravelKm = DEFAULT_INTER_TRAVEL_KM,
     startLocation = null,
     searchLocation = null,
     searchRadiusKm = null,
@@ -90,8 +96,14 @@ export async function POST(req: Request) {
   if (diffDays < 0 || diffDays > 30) {
     return NextResponse.json({ error: 'Date range must be 0-30 days' }, { status: 400 });
   }
-  if (typeof maxInterTravelKm !== 'number' || maxInterTravelKm < 20 || maxInterTravelKm > 300) {
-    return NextResponse.json({ error: 'maxInterTravelKm must be 20-300' }, { status: 400 });
+  let validatedMaxInterTravelKm: number;
+  try {
+    validatedMaxInterTravelKm = parseMaxInterTravelKm(maxInterTravelKm);
+  } catch {
+    return NextResponse.json(
+      { error: `maxInterTravelKm must be ${MIN_INTER_TRAVEL_KM}-${MAX_INTER_TRAVEL_KM}` },
+      { status: 400 }
+    );
   }
   const hasSearchLocation =
     searchLocation &&
@@ -273,7 +285,7 @@ export async function POST(req: Request) {
     const availabilityStart = toDateOnlyUTC(start);
     const availabilityEnd = toDateOnlyUTC(end);
     const trips = suggestDiscoverTrips(uniq, availabilityStart, availabilityEnd, validated.value, {
-      maxInterTravelKm: Number(maxInterTravelKm),
+      maxInterTravelKm: validatedMaxInterTravelKm,
       bufferMinutes: Number(bufferMinutes),
       startLocation: startLocation && typeof startLocation.lat === 'number' ? startLocation : null,
       perWindowLimit: 2,
@@ -293,7 +305,7 @@ export async function POST(req: Request) {
 
   // Legacy path (homepage-adjacent callers without tripLengthsDays)
   const trips = suggestTrips(uniq, {
-    maxInterTravelKm: Number(maxInterTravelKm),
+    maxInterTravelKm: validatedMaxInterTravelKm,
     bufferMinutes: Number(bufferMinutes),
     startLocation: startLocation && typeof startLocation.lat === 'number' ? startLocation : null,
     limit: Number(limit),

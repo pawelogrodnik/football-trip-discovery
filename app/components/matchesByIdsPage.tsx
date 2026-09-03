@@ -2,19 +2,25 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { LatLngExpression } from 'leaflet';
+import { IconAlertCircle, IconCopy, IconPencil } from '@tabler/icons-react';
+import { useTranslations } from 'components/providers/LocaleProvider';
 import { combineAllMatches } from 'lib/combineMatches';
+import {
+  buildFindUrl,
+  deriveFindContextFromMatches,
+  FindSearchCriteria,
+  parseDateOnlyLocal,
+  toDateOnlyLocal,
+} from 'lib/tripUrls';
+import { Alert, Button, Group, Paper, Text } from '@mantine/core';
 import MapWrapper from './map/MapWrapper';
 import MatchList from './matchList/matchList';
 import { MOBILE_VIEW } from './view-toggle/consts';
 import ViewToggle from './view-toggle/ViewToggle';
 
-const INITIAL_CENTER: LatLngExpression = [57.0727808, 21.9262208];
+const INITIAL_CENTER = [57.0727808, 21.9262208] as [number, number];
 
 type FetchState = 'idle' | 'loading' | 'success' | 'error';
-
-const toReadableList = (values: string[]) =>
-  values.length ? values.map((v) => `"${v}"`).join(', ') : '';
 
 const parseNumberParam = (value: string | null) => {
   if (value === null) {
@@ -27,6 +33,7 @@ const parseNumberParam = (value: string | null) => {
 export default function MatchesByIdsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const t = useTranslations('TripPage');
   const [mobileView, setMobileView] = useState(MOBILE_VIEW.LIST_VIEW);
   const [isMobile, setIsMobile] = useState(false);
   const [mapFocus, setMapFocus] = useState<{
@@ -41,6 +48,7 @@ export default function MatchesByIdsPage() {
   const [status, setStatus] = useState<FetchState>('idle');
   const [error, setError] = useState<string | null>(null);
   const [missingIds, setMissingIds] = useState<string[]>([]);
+  const [copied, setCopied] = useState(false);
   const [userLocation, setUserLocation] = useState<{ lat: number; lon: number } | null>(null);
 
   const ids = useMemo(() => {
@@ -51,28 +59,32 @@ export default function MatchesByIdsPage() {
     return Array.from(new Set(trimmed));
   }, [searchParams]);
 
-  const sharedLocationParams = useMemo(() => {
+  const tripContext = useMemo(() => {
     const lat = parseNumberParam(searchParams.get('lat'));
     const lon = parseNumberParam(searchParams.get('lon'));
     const radius = parseNumberParam(searchParams.get('radius'));
     const label = searchParams.get('label') ?? searchParams.get('locationLabel');
+    const startDate = parseDateOnlyLocal(searchParams.get('startDate'));
+    const endDate = parseDateOnlyLocal(searchParams.get('endDate'));
     const location =
       lat !== null && lon !== null
         ? {
             lat,
             lon,
-            label: label || 'Shared location',
+            label: label || 'Trip area',
           }
         : null;
     return {
       location,
       radius: radius ?? undefined,
+      startDate,
+      endDate,
     };
   }, [searchParams]);
 
-  const sharedLocation = sharedLocationParams.location;
-  const sharedRadius = sharedLocationParams.radius;
-  const [initialCenter, setInitialCenter] = useState<LatLngExpression>(
+  const sharedLocation = tripContext.location;
+  const sharedRadius = tripContext.radius;
+  const [initialCenter, setInitialCenter] = useState<[number, number]>(
     sharedLocation ? [sharedLocation.lat, sharedLocation.lon] : INITIAL_CENTER
   );
 
@@ -100,7 +112,7 @@ export default function MatchesByIdsPage() {
         }
       }
     });
-  }, [sharedLocation]);
+  }, [searchParams]);
 
   useEffect(() => {
     if (ids.length === 0) {
@@ -133,7 +145,7 @@ export default function MatchesByIdsPage() {
           throw new Error(data?.error ?? 'Failed to fetch matches');
         }
         const matches = Array.isArray(data.matches) ? data.matches : [];
-        const sanitized = matches.map((match: { _distanceKm: any }) => ({
+        const sanitized = matches.map((match: { _distanceKm: unknown }) => ({
           ...match,
           _distanceKm: typeof match._distanceKm === 'number' ? match._distanceKm : 0,
         }));
@@ -151,7 +163,7 @@ export default function MatchesByIdsPage() {
       });
 
     return () => controller.abort();
-  }, [ids, sharedLocation, sharedRadius]);
+  }, [searchParams]);
 
   const matchesCombined = useMemo(
     () =>
@@ -174,7 +186,7 @@ export default function MatchesByIdsPage() {
   const matchesForMap = useMemo(
     () =>
       matchesCombined.filter(
-        (match: { stadium: { geo: { latitude: any; longitude: any } } }) =>
+        (match: { stadium: { geo: { latitude: unknown; longitude: unknown } } }) =>
           typeof match?.stadium?.geo?.latitude === 'number' &&
           typeof match?.stadium?.geo?.longitude === 'number'
       ),
@@ -182,12 +194,10 @@ export default function MatchesByIdsPage() {
   );
 
   const navigationOrigin =
-    userLocation ??
-    sharedLocation ??
-    (mapFocus ? { lat: mapFocus.lat, lon: mapFocus.lon } : null);
+    userLocation ?? sharedLocation ?? (mapFocus ? { lat: mapFocus.lat, lon: mapFocus.lon } : null);
 
   const navigationUrlFactory = useMemo(
-    () => (match: any) => {
+    () => (match: { stadium?: { geo?: { latitude?: unknown; longitude?: unknown } } }) => {
       const lat = match?.stadium?.geo?.latitude;
       const lon = match?.stadium?.geo?.longitude;
       if (typeof lat !== 'number' || typeof lon !== 'number') {
@@ -208,18 +218,56 @@ export default function MatchesByIdsPage() {
   const shouldRenderMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
   const shouldRenderMap = !isMobile || shouldRenderMobileMap;
 
-  const handleMatchClick = (match: any) => {
+  const handleMatchClick = (match: {
+    stadium?: { geo?: { latitude?: unknown; longitude?: unknown } };
+    _id?: unknown;
+    id?: unknown;
+  }) => {
     const lat = match?.stadium?.geo?.latitude;
     const lon = match?.stadium?.geo?.longitude;
     if (typeof lat === 'number' && typeof lon === 'number') {
-      setMapFocus({ lat, lon, id: match._id ?? match.id });
+      setMapFocus({ lat, lon, id: String(match._id ?? match.id ?? '') });
     }
   };
 
-  const handleGoBack = () => router.push('/');
+  const copyUrl = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // clipboard unavailable — keep button state unchanged
+    }
+  };
+
+  const handleEditTrip = () => {
+    let location = sharedLocation;
+    let radiusKm = typeof sharedRadius === 'number' ? sharedRadius : 50;
+    let startDate = tripContext.startDate;
+    let endDate = tripContext.endDate;
+    if (!location || !startDate || !endDate) {
+      const derived = deriveFindContextFromMatches(state.matches);
+      location = location ?? derived.location;
+      startDate = startDate ?? derived.startDate;
+      endDate = endDate ?? derived.endDate;
+      if (typeof sharedRadius !== 'number') {
+        radiusKm = derived.radiusKm;
+      }
+    }
+    if (!location) {
+      return;
+    }
+    const criteria: FindSearchCriteria = { location, startDate, endDate, radiusKm };
+    router.push(buildFindUrl(criteria, ids, { mode: 'customize' }));
+  };
+
+  const dateRangeLabel =
+    tripContext.startDate && tripContext.endDate
+      ? `${toDateOnlyLocal(tripContext.startDate)} → ${toDateOnlyLocal(tripContext.endDate)}`
+      : null;
 
   return (
-    <main className="p-6">
+    <main className="p-6" data-testid="trip-view">
       <div className={`page-inner ${isMobile ? 'page-inner--mobile' : ''}`}>
         {isMobile && state.totalCount > 0 && <ViewToggle onChange={setMobileView} />}
         {shouldRenderMap && (
@@ -230,38 +278,73 @@ export default function MatchesByIdsPage() {
               selectedLocation={sharedLocation ?? undefined}
               selectedRadius={sharedRadius}
               fixtures={matchesForMap}
+              routeFixtures={matchesForMap}
               focus={mapFocus}
             />
           </div>
         )}
         {!shouldRenderMobileMap && (
           <div className="right-side">
-            {status === 'loading' && <p>Loading selected matches...</p>}
-            {status === 'error' && error && <p className="no-matches-found">{error}</p>}
+            <Paper radius="lg" shadow="sm" p="md" mb="md" data-testid="trip-header">
+              <Text fw={700} size="lg">
+                {t('title')}
+              </Text>
+              <Text size="sm" c="dimmed" mt={2} data-testid="trip-meta">
+                {t('matchCount', { count: state.totalCount })}
+                {dateRangeLabel ? ` · ${dateRangeLabel}` : ''}
+                {sharedLocation ? ` · ${sharedLocation.label}` : ''}
+              </Text>
+              <Group gap={8} mt="sm">
+                <Button
+                  variant="light"
+                  size="sm"
+                  leftSection={<IconCopy size={14} />}
+                  onClick={copyUrl}
+                  data-testid="trip-copy-link"
+                >
+                  {copied ? t('linkCopied') : t('copyLink')}
+                </Button>
+                <Button
+                  variant="filled"
+                  size="sm"
+                  leftSection={<IconPencil size={14} />}
+                  onClick={handleEditTrip}
+                  disabled={ids.length === 0}
+                  data-testid="trip-edit"
+                >
+                  {t('editTrip')}
+                </Button>
+              </Group>
+            </Paper>
+            {status === 'loading' && <p>{t('loading')}</p>}
+            {status === 'error' && error && (
+              <Alert color="red" icon={<IconAlertCircle size={16} />} data-testid="trip-error">
+                {error}
+              </Alert>
+            )}
             {status !== 'loading' && state.totalCount === 0 && !error && (
-              <p className="no-matches-found">
-                {ids.length === 0
-                  ? 'Provide match ids via "?ids=match1,match2" to see results.'
-                  : 'No matches found for provided ids.'}
+              <p className="no-matches-found" data-testid="trip-empty">
+                {ids.length === 0 ? t('emptyNoIds') : t('emptyNotFound')}
               </p>
             )}
             {state.totalCount > 0 && (
               <MatchList
                 totalCount={state.totalCount}
                 matches={matchesCombined}
-                onGoBack={handleGoBack}
+                onGoBack={() => router.push('/find')}
                 onMatchClick={handleMatchClick}
                 selectedMatchesIds={[]}
                 onMatchSelect={() => false}
                 areMatchesSelectable={false}
                 source="matches"
                 getNavigationUrl={navigationUrlFactory}
+                hideFooter
               />
             )}
             {missingIds.length > 0 && (
-              <p className="no-matches-found">
-                Missing matches for ids: {toReadableList(missingIds)}
-              </p>
+              <Alert color="yellow" mt="sm" data-testid="trip-missing">
+                {t('missingWarning', { ids: missingIds.map((v) => `"${v}"`).join(', ') })}
+              </Alert>
             )}
           </div>
         )}

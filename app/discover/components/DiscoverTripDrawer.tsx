@@ -1,10 +1,10 @@
 'use client';
 
-import { IconBallFootball, IconBed, IconRoute, IconTrophy } from '@tabler/icons-react';
+import { IconBallFootball, IconBed, IconPencil, IconRoute, IconTrophy } from '@tabler/icons-react';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { isUefaCompetition } from 'lib/competitionPriority';
 import type { DiscoverTrip } from 'lib/discover';
-import { Avatar, Badge, Drawer, Group, Stack, Text, Timeline } from '@mantine/core';
+import { Avatar, Badge, Button, Drawer, Group, Stack, Text, Timeline } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { formatKickoff, formatShortRange, formatTripDayLabel, matchIdOf } from './format';
 import classes from '../discover.module.css';
@@ -12,6 +12,7 @@ import classes from '../discover.module.css';
 type Props = {
   trip: DiscoverTrip | null;
   onClose: () => void;
+  onCustomize?: (trip: DiscoverTrip) => void;
 };
 
 function Crest({ name, crest, size = 20 }: { name: string; crest?: string | null; size?: number }) {
@@ -44,7 +45,7 @@ function uefaBadgeLabel(name: string): string {
   return /^uefa\s/i.test(name.trim()) ? name.trim() : `UEFA ${name.trim()}`;
 }
 
-export default function DiscoverTripDrawer({ trip, onClose }: Props) {
+export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props) {
   const t = useTranslations('Discover');
   const locale = useLocale();
   const isMobile = useMediaQuery('(max-width: 768px)');
@@ -167,6 +168,17 @@ export default function DiscoverTripDrawer({ trip, onClose }: Props) {
               );
             })}
           </Timeline>
+          {onCustomize && (
+            <Button
+              variant="light"
+              leftSection={<IconPencil size={16} />}
+              fullWidth
+              data-testid="discover-customize-trip"
+              onClick={() => onCustomize(trip)}
+            >
+              {t('customizeTrip')}
+            </Button>
+          )}
         </Stack>
       )}
     </Drawer>
