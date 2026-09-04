@@ -6,6 +6,7 @@ import {
   formatShortDayRange,
   groupMatchesByDay,
   matchIdOf,
+  reconcileSelectedIds,
   selectedTripRange,
 } from '../findResultsUtils';
 
@@ -23,9 +24,10 @@ function mkMatch(id: string, dateTime: string, extra: Record<string, unknown> = 
 }
 
 describe('findResultsUtils', () => {
-  test('matchIdOf prefers _id over id', () => {
-    expect(matchIdOf({ _id: 'a', id: 'b' } as never)).toBe('a');
+  test('matchIdOf prefers canonical normalized id over native _id', () => {
+    expect(matchIdOf({ _id: 'a', id: 'b' } as never)).toBe('b');
     expect(matchIdOf({ id: 'b' } as never)).toBe('b');
+    expect(matchIdOf({ _id: 'a' } as never)).toBe('a');
   });
 
   test('groups chronologically and sorts kickoff within day', () => {
@@ -95,5 +97,24 @@ describe('findResultsUtils', () => {
     const other = mkMatch('m3', '2026-09-10T18:00:00.000Z');
     const out = dedupeMatches([a, sameId, sameFixtureNewId as never, other]);
     expect(out.map((m) => matchIdOf(m))).toEqual(['m1', 'm3']);
+  });
+
+  test('reconcileSelectedIds resolves aliases to canonical, keeps counts consistent', () => {
+    const loaded = [
+      {
+        ...mkMatch('canon-1', '2026-09-07T15:00:00.000Z'),
+        _id: 'canon-1',
+        id: 'canon-1',
+        _nativeId: 'native-1',
+      },
+      mkMatch('canon-2', '2026-09-10T18:00:00.000Z'),
+    ] as never[];
+    // native + canonical forms of the same fixture collapse to one
+    expect(reconcileSelectedIds(['native-1', 'canon-1', 'canon-2'], loaded)).toEqual([
+      'canon-1',
+      'canon-2',
+    ]);
+    // unknown ids pass through so missing fixtures stay fetchable
+    expect(reconcileSelectedIds(['ghost-9'], loaded)).toEqual(['ghost-9']);
   });
 });

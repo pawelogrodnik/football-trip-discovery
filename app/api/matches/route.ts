@@ -2,9 +2,9 @@ import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
 import { getCountriesInRadius } from 'lib/geo';
 import { filterFixturesInRadius } from 'lib/geoTurf';
 import { isAnyCountryInEurope } from 'lib/isAnyCountryInEurope';
-import { uniqById } from 'lib/uniqById';
 import { ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
 import { TtlCache } from 'lib/ttlCache';
+import { uniqById } from 'lib/uniqById';
 
 function parseUtcRange(startStr?: string | null, endStr?: string | null) {
   const isDateOnly = (s: string) => /^\d{4}-\d{2}-\d{2}$/.test(s);
@@ -121,7 +121,9 @@ export async function GET(req: Request) {
 
         const normalizedMatches = filteredMatches.map((match: any) => {
           const leagueForId = match?.competition?.name ?? match?.competition?.code ?? name;
-          return ensureMatchHasNormalizedId(match, { country, league: leagueForId });
+          const isEuropeLeague = (BASE_FIXTURES.EUROPE ?? []).some((l) => l.name === name);
+          const originCountry = isEuropeLeague ? 'EUROPE' : country;
+          return ensureMatchHasNormalizedId(match, { country: originCountry, league: leagueForId });
         });
 
         return {

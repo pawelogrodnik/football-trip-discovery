@@ -5,6 +5,7 @@ import {
   FIND_RADIUS_MIN_KM,
   snapRadiusUp,
 } from './distance';
+import { getCanonicalMatchId } from './normalizeMatchId';
 
 export type FindLocation = {
   label: string;
@@ -57,7 +58,7 @@ function haversineKm(aLat: number, aLon: number, bLat: number, bLon: number): nu
 }
 
 export function matchIdOfLoose(m: { _id?: unknown; id?: unknown }): string {
-  return String((m as { _id?: unknown })._id ?? (m as { id?: unknown }).id ?? '');
+  return getCanonicalMatchId(m);
 }
 
 function venueOf(m: {

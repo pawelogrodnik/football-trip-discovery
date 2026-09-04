@@ -1,7 +1,9 @@
+import { getCanonicalMatchId } from 'lib/normalizeMatchId';
+
 export function uniqById(matches: any[]) {
   const seen = new Set<string>();
   return matches.filter((m) => {
-    const id = String(m._id ?? m.id);
+    const id = getCanonicalMatchId(m);
     if (seen.has(id)) {
       return false;
     }

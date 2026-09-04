@@ -1,5 +1,7 @@
 'use client';
 
+import { getCanonicalMatchId } from '../../lib/normalizeMatchId';
+
 export function formatShortRange(
   startISO: string | null,
   endISO: string | null,
@@ -43,7 +45,7 @@ export function formatKickoff(dateTime: string | undefined, locale: string): str
 }
 
 export function matchIdOf(m: { _id?: unknown; id?: unknown }): string {
-  return String((m as { _id?: unknown })._id ?? (m as { id?: unknown }).id ?? '');
+  return getCanonicalMatchId(m);
 }
 
 /**

@@ -1,5 +1,22 @@
 import * as turf from '@turf/turf';
 
+export function venueDistanceKm(
+  fixture: {
+    stadium?: { geo?: { latitude?: number; longitude?: number } };
+  },
+  centerLat: number,
+  centerLon: number
+): number | null {
+  const lat = fixture?.stadium?.geo?.latitude;
+  const lon = fixture?.stadium?.geo?.longitude;
+  if (typeof lat !== 'number' || typeof lon !== 'number') {
+    return null;
+  }
+  return turf.distance(turf.point([centerLon, centerLat]), turf.point([lon, lat]), {
+    units: 'kilometers',
+  });
+}
+
 export function filterFixturesInRadius<
   T extends {
     homeTeam: { name: string };

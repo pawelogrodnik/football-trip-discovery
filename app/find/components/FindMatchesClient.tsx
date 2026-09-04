@@ -21,7 +21,13 @@ import MapWrapper from '../../components/map/MapWrapper';
 import { MOBILE_VIEW } from '../../components/view-toggle/consts';
 import ViewToggle from '../../components/view-toggle/ViewToggle';
 import FindResultsPanel, { ResultsFilter } from './FindResultsPanel';
-import { dedupeMatches, formatShortDayRange, LooseMatch, matchIdOf } from './findResultsUtils';
+import {
+  dedupeMatches,
+  formatShortDayRange,
+  LooseMatch,
+  matchIdOf,
+  reconcileSelectedIds,
+} from './findResultsUtils';
 import FindSearchForm from './FindSearchForm';
 import FindSearchSummary from './FindSearchSummary';
 import classes from '../find.module.css';
@@ -121,6 +127,7 @@ export default function FindMatchesClient() {
           const bq = new URLSearchParams({ ids: missing.join(',') });
           bq.set('lat', String(c.location!.lat));
           bq.set('lon', String(c.location!.lon));
+          bq.set('radius', String(c.radiusKm));
           const bres = await fetch(`/api/matches/by-ids?${bq.toString()}`);
           const bdata = await bres.json();
           if (bres.ok && Array.isArray(bdata.matches)) {
@@ -180,13 +187,31 @@ export default function FindMatchesClient() {
     [extraMatches]
   );
 
-  const toggleMatchSelection = useCallback((rawId: string | number) => {
-    if (rawId === null || rawId === undefined) {
-      return;
-    }
-    const id = String(rawId);
-    setSelectedIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
-  }, []);
+  // Single source of truth for selection: raw selected ids (URL, Discover,
+  // native forms) reconciled against loaded fixtures to canonical ids.
+  // "Selected N" and effective selected fixtures always agree.
+  const canonicalSelectedIds = useMemo(
+    () => reconcileSelectedIds(selectedIds, allMatches),
+    [selectedIds, allMatches]
+  );
+
+  const toggleMatchSelection = useCallback(
+    (rawId: string | number) => {
+      if (rawId === null || rawId === undefined) {
+        return;
+      }
+      // Resolve through loaded fixtures so toggling works for any id form
+      // (canonical, Discover-issued, native) — state converges to canonical.
+      const toggled = reconcileSelectedIds([String(rawId)], allMatches)[0] ?? String(rawId);
+      setSelectedIds((prev) => {
+        const remaining = prev.filter(
+          (x) => (reconcileSelectedIds([x], allMatches)[0] ?? x) !== toggled
+        );
+        return remaining.length === prev.length ? [...prev, toggled] : remaining;
+      });
+    },
+    [allMatches]
+  );
 
   const handleHover = useCallback((id: string | null) => {
     setHoveredMatchId(id);
@@ -214,8 +239,8 @@ export default function FindMatchesClient() {
 
   const handleCreateTrip = useCallback(() => {
     const c = submitted ?? criteria;
-    router.push(buildTripUrl(c, selectedIds));
-  }, [router, submitted, criteria, selectedIds]);
+    router.push(buildTripUrl(c, canonicalSelectedIds));
+  }, [router, submitted, criteria, canonicalSelectedIds]);
 
   const showSearch = !hasSearched || editing;
   const activeCriteria = submitted ?? criteria;
@@ -298,7 +323,7 @@ export default function FindMatchesClient() {
             initialCenter={FIND_CENTER}
             initialZoom={4}
             fixtures={allMatches}
-            selectedMatchesIds={selectedIds}
+            selectedMatchesIds={canonicalSelectedIds}
             hoveredMatchId={hoveredMatchId}
             selectedLocation={activeCriteria.location}
             selectedRadius={activeCriteria.radiusKm ?? FIND_DEFAULT_RADIUS_KM}
@@ -441,7 +466,7 @@ export default function FindMatchesClient() {
           ) : (
             <FindResultsPanel
               matches={allMatches}
-              selectedIds={selectedIds}
+              selectedIds={canonicalSelectedIds}
               filter={viewFilter}
               onFilterChange={setViewFilter}
               onToggle={toggleMatchSelection}

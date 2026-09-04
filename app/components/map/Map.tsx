@@ -8,6 +8,7 @@ import {
   MapViewportInsets,
   normalizeInsets,
 } from 'lib/mapViewport';
+import { getCanonicalMatchId } from 'lib/normalizeMatchId';
 import {
   Circle,
   MapContainer,
@@ -171,11 +172,10 @@ function FitToFixtures({
       !fixtures
         ? ''
         : fixtures
-            .map((f) =>
-              String(
-                f?._id ?? f?.id ?? `${f?.stadium?.geo?.latitude},${f?.stadium?.geo?.longitude}`
-              )
-            )
+            .map((f) => {
+              const id = getCanonicalMatchId(f);
+              return id || `${f?.stadium?.geo?.latitude},${f?.stadium?.geo?.longitude}`;
+            })
             .sort()
             .join('|'),
     [fixtures]
@@ -266,7 +266,7 @@ function ViewportController({
 function fixtureId(fixture: any): string {
   const lat = fixture?.stadium?.geo?.latitude;
   const lon = fixture?.stadium?.geo?.longitude;
-  return String(fixture._id ?? fixture.id ?? `${lat},${lon}`);
+  return getCanonicalMatchId(fixture) || `${lat},${lon}`;
 }
 
 export default function MapWithSearch({

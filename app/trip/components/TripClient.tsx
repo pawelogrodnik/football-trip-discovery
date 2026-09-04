@@ -152,10 +152,13 @@ export default function TripClient() {
           throw new Error(data?.error ?? 'Failed to fetch matches');
         }
         const matches = Array.isArray(data.matches) ? data.matches : [];
-        const sanitized = matches.map((match: LooseMatch) => ({
-          ...match,
-          _distanceKm: typeof match._distanceKm === 'number' ? match._distanceKm : 0,
-        }));
+        const sanitized = matches.map((match: LooseMatch) => {
+          if (typeof match._distanceKm === 'number') {
+            return match;
+          }
+          const { _distanceKm: _ignored, ...rest } = match;
+          return rest as LooseMatch;
+        });
         setState({ matches: sanitized, totalCount: data.totalCount ?? sanitized.length });
         setMissingIds(Array.isArray(data.missingIds) ? data.missingIds : []);
         setStatus('success');
@@ -195,6 +198,13 @@ export default function TripClient() {
     [sortedMatches]
   );
 
+  // Deduped count is the truth — raw API totalCount can include duplicates
+  // when the same fixture was requested under two id forms.
+  const displayedCount = sortedMatches.length;
+
+  // Map selection must use the same canonical ids as marker identity.
+  const tripSelectedIds = useMemo(() => sortedMatches.map((m) => matchIdOf(m)), [sortedMatches]);
+
   // Displayed trip metadata derives from ACTUAL SELECTED FIXTURES,
   // never from the original Find search window.
   const range = useMemo(() => selectedTripRange(sortedMatches), [sortedMatches]);
@@ -218,10 +228,10 @@ export default function TripClient() {
           ? t('oneDay')
           : t('days', { count: range.dayCount })
         : '',
-      t('matchCount', { count: state.totalCount }),
+      t('matchCount', { count: displayedCount }),
     ].filter(Boolean);
     return parts.join(' · ');
-  }, [compactLabel, rangeLabel, range, state.totalCount, t]);
+  }, [compactLabel, rangeLabel, range, displayedCount, t]);
 
   const groups = useMemo(() => groupMatchesByDay(sortedMatches), [sortedMatches]);
 
@@ -290,10 +300,10 @@ export default function TripClient() {
       panelViewportInsets({
         panelWidthPx: panelSize?.width ?? null,
         panelHeightPx: panelSize?.height ?? null,
-        panelVisible: shouldRenderPanel && state.totalCount > 0,
+        panelVisible: shouldRenderPanel && displayedCount > 0,
         isMobile,
       }),
-    [panelSize, shouldRenderPanel, state.totalCount, isMobile]
+    [panelSize, shouldRenderPanel, displayedCount, isMobile]
   );
 
   const handleMatchClick = (match: LooseMatch) => {
@@ -345,7 +355,7 @@ export default function TripClient() {
             initialCenter={initialCenter}
             initialZoom={12}
             fixtures={matchesForMap}
-            selectedMatchesIds={ids}
+            selectedMatchesIds={tripSelectedIds}
             hoveredMatchId={hoveredMatchId}
             routeFixtures={matchesForMap}
             fitFixtures={matchesForMap}
@@ -356,7 +366,7 @@ export default function TripClient() {
         )}
       </div>
 
-      {isMobile && state.totalCount > 0 && (
+      {isMobile && displayedCount > 0 && (
         <div className={classes.mobileToggle}>
           <ViewToggle onChange={setMobileView} />
         </div>
@@ -410,12 +420,12 @@ export default function TripClient() {
               {error}
             </Alert>
           )}
-          {status !== 'loading' && state.totalCount === 0 && !error && (
+          {status !== 'loading' && displayedCount === 0 && !error && (
             <p className="no-matches-found" data-testid="trip-empty">
               {ids.length === 0 ? t('emptyNoIds') : t('emptyNotFound')}
             </p>
           )}
-          {state.totalCount > 0 && (
+          {displayedCount > 0 && (
             <ScrollArea className={classes.tripScroll} type="auto" data-testid="trip-results-list">
               <Stack gap={8} pb={8}>
                 {groups.map((g) => (

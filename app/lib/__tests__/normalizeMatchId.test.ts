@@ -1,4 +1,11 @@
-import { buildNormalizedMatchId, ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
+import {
+  buildNormalizedMatchId,
+  buildRawScopeMatchId,
+  ensureMatchHasNormalizedId,
+  getCanonicalMatchId,
+  getMatchAliases,
+  normalizeMatchScope,
+} from 'lib/normalizeMatchId';
 
 const baseMatch: any = {
   competition: { code: 'EKSTRA' },
@@ -41,5 +48,79 @@ describe('normalizeMatchId', () => {
     const derived = buildNormalizedMatchId(match, { country: 'POLAND', league: 'Ekstraklasa' });
 
     expect(derived).toContain('provider-555');
+  });
+
+  it('unifies UEFA scope: EU, EUROPE and UEFA hash identically', () => {
+    const uefa: any = {
+      competition: { name: 'UEFA Champions League' },
+      homeTeam: { name: 'Como 1907' },
+      awayTeam: { name: 'Manchester United' },
+      date: { dateTime: '2026-09-30T19:00:00.000Z' },
+    };
+    const viaEurope = buildNormalizedMatchId(
+      { ...uefa },
+      { country: 'EUROPE', league: 'UEFA Champions League' }
+    );
+    const viaEu = buildNormalizedMatchId(
+      { ...uefa },
+      { country: 'EU', league: 'UEFA Champions League' }
+    );
+    const viaItaly = buildNormalizedMatchId(
+      { ...uefa },
+      { country: 'ITALY', league: 'UEFA Champions League' }
+    );
+    // Discover (/EUROPE) and by-ids (EU file dir) must agree; a search-country
+    // scope (ITALY) intentionally stays distinct.
+    expect(viaEu).toBe(viaEurope);
+    expect(viaItaly).not.toBe(viaEurope);
+  });
+
+  it('unifies Polish regional scope: POLAND-XX hashes like POLAND', () => {
+    const regional: any = { ...baseMatch };
+    const viaRegion = buildNormalizedMatchId(regional, {
+      country: 'POLAND-PL-PK',
+      league: 'Ekstraklasa',
+    });
+    const viaPoland = buildNormalizedMatchId(
+      { ...baseMatch },
+      { country: 'POLAND', league: 'Ekstraklasa' }
+    );
+    expect(viaRegion).toBe(viaPoland);
+    expect(normalizeMatchScope('POLAND-PL-PK')).toBe('POLAND');
+    expect(normalizeMatchScope('EU')).toBe('EUROPE');
+    expect(normalizeMatchScope('ITALY')).toBe('ITALY');
+  });
+
+  it('buildRawScopeMatchId preserves the legacy pre-unification id as alias', () => {
+    const uefa: any = {
+      competition: { name: 'UEFA Champions League' },
+      homeTeam: { name: 'Como 1907' },
+      awayTeam: { name: 'Manchester United' },
+      date: { dateTime: '2026-09-30T19:00:00.000Z' },
+      _nativeId: 'native-1',
+    };
+    const canonical = buildNormalizedMatchId(uefa, {
+      country: 'EU',
+      league: 'UEFA Champions League',
+    });
+    const legacy = buildRawScopeMatchId(uefa, { country: 'EU', league: 'UEFA Champions League' });
+    expect(canonical).not.toBe(legacy);
+    expect(legacy).toContain('native-1');
+  });
+
+  it('getCanonicalMatchId prefers normalized id over native _id', () => {
+    expect(getCanonicalMatchId({ id: 'canon', _id: 'native' })).toBe('canon');
+    expect(getCanonicalMatchId({ _id: 'native' } as never)).toBe('native');
+    expect(getCanonicalMatchId(null)).toBe('');
+  });
+
+  it('getMatchAliases exposes native forms resolving to canonical', () => {
+    const aliases = getMatchAliases({
+      id: 'derived__native-1',
+      _id: 'native-1',
+      _nativeId: 'native-1',
+    });
+    expect(aliases).toContain('native-1');
+    expect(aliases).not.toContain('derived__native-1');
   });
 });

@@ -1,5 +1,7 @@
 'use client';
 
+import { getCanonicalMatchId, getMatchAliases } from '../../lib/normalizeMatchId';
+
 export type LooseMatch = {
   _id?: unknown;
   id?: unknown;
@@ -10,6 +12,7 @@ export type LooseMatch = {
   utcDate?: string | null;
   stadium?: {
     venue?: string | null;
+    name?: string | null;
     address?: string | null;
     geo?: { latitude?: unknown; longitude?: unknown };
   };
@@ -18,7 +21,7 @@ export type LooseMatch = {
 };
 
 export function matchIdOf(m: LooseMatch): string {
-  return String((m as { _id?: unknown })._id ?? (m as { id?: unknown }).id ?? '');
+  return getCanonicalMatchId(m);
 }
 
 export function matchDateTimeOf(m: LooseMatch): string {
@@ -98,20 +101,65 @@ export function fixtureSignatureOf(m: LooseMatch): string {
   const iso = matchDateTimeOf(m);
   const ts = iso ? new Date(iso).getTime() : NaN;
   const when = Number.isFinite(ts) ? String(ts) : iso || '?';
-  const venue = m?.stadium?.venue || m?.stadium?.address || '?';
+  const rawVenue =
+    (m?.stadium?.venue as string | null) ||
+    (m?.stadium?.name as string | null) ||
+    m?.stadium?.address ||
+    '?';
+  const venue = rawVenue.trim().toLowerCase();
+  const norm = (s: string | undefined | null) => (s ?? '?').trim().toLowerCase();
   return [
-    m?.homeTeam?.name ?? '?',
-    m?.awayTeam?.name ?? '?',
+    norm(m?.homeTeam?.name),
+    norm(m?.awayTeam?.name),
     when,
-    m?.competition?.name ?? '?',
+    norm(m?.competition?.name),
     venue,
   ].join(' | ');
 }
 
 /**
+ * Reconcile a raw selected-id list against loaded matches. Every id that
+ * matches a fixture (by canonical id or any alias, e.g. a Discover-issued or
+ * native id form) resolves to the canonical id; unknown ids pass through
+ * untouched so genuinely missing fixtures stay fetchable. Output is deduped,
+ * so "Selected N" and the effective selected fixtures always agree.
+ */
+export function reconcileSelectedIds<T extends LooseMatch>(
+  selectedIds: Array<string | number>,
+  matches: T[]
+): string[] {
+  const aliasToCanonical = new Map<string, string>();
+  for (const m of matches) {
+    const canonical = matchIdOf(m);
+    if (!canonical) {
+      continue;
+    }
+    if (!aliasToCanonical.has(canonical)) {
+      aliasToCanonical.set(canonical, canonical);
+    }
+    for (const alias of getMatchAliases(m)) {
+      if (!aliasToCanonical.has(alias)) {
+        aliasToCanonical.set(alias, canonical);
+      }
+    }
+  }
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const raw of selectedIds) {
+    const key = String(raw);
+    const canonical = aliasToCanonical.get(key) ?? key;
+    if (!seen.has(canonical)) {
+      seen.add(canonical);
+      out.push(canonical);
+    }
+  }
+  return out;
+}
+
+/**
  * Drop duplicate rows of the same fixture. First occurrence wins, order kept.
- * Matches by id first, then by fixture signature (catches same event under
- * different id forms).
+ * Matches by canonical id first, then by fixture signature (safety net for
+ * same event under different id forms).
  */
 export function dedupeMatches<T extends LooseMatch>(matches: T[]): T[] {
   const seenIds = new Set<string>();

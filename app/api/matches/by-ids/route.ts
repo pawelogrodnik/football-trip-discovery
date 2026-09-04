@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { filterFixturesInRadius } from 'lib/geoTurf';
-import { ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
+import { venueDistanceKm } from 'lib/geoTurf';
+import { buildRawScopeMatchId, ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
 
 const FIXTURES_DIR = path.join(process.cwd(), 'app', 'fixtures');
 const FIXTURES_INDEX_TTL_MS = 5 * 60 * 1000;
@@ -59,6 +59,9 @@ function deriveCountryHint(filePath: string): string {
   }
   if (scope.toLowerCase() === 'local') {
     return segments[fixturesIndex + 2] ?? '';
+  }
+  if (scope.toLowerCase() === 'eu') {
+    return 'EUROPE';
   }
   return scope;
 }
@@ -138,9 +141,10 @@ async function buildFixturesIndex(): Promise<FixturesIndex> {
     }
 
     const items = parseFixtureFile(parsed);
+    const rawScope = deriveCountryHint(file);
     for (const item of items) {
       const leagueHint = item?.competition?.name ?? item?.competition?.code ?? '';
-      ensureMatchHasNormalizedId(item, { country: deriveCountryHint(file), league: leagueHint });
+      ensureMatchHasNormalizedId(item, { country: rawScope, league: leagueHint });
 
       const normalizedId = String(item?.id ?? '').trim();
       if (!normalizedId) {
@@ -169,6 +173,12 @@ async function buildFixturesIndex(): Promise<FixturesIndex> {
       if (nativeId && !aliases.has(nativeId)) {
         aliases.set(nativeId, normalizedId);
       }
+      // Share URLs built before scope unification carry raw-scope ids
+      // (e.g. `EU`- or `POLAND-XX`-scoped). Keep them resolving.
+      const rawScopeId = buildRawScopeMatchId(item, { country: rawScope, league: leagueHint });
+      if (rawScopeId && rawScopeId !== normalizedId && !aliases.has(rawScopeId)) {
+        aliases.set(rawScopeId, normalizedId);
+      }
     }
   }
 
@@ -185,9 +195,7 @@ export async function GET(request: Request) {
 
   const latParam = Number(searchParams.get('lat'));
   const lonParam = Number(searchParams.get('lon'));
-  const radiusParam = Number(searchParams.get('radius'));
   const hasCenter = Number.isFinite(latParam) && Number.isFinite(lonParam);
-  const radiusForDistance = Number.isFinite(radiusParam) ? radiusParam : Number.POSITIVE_INFINITY;
 
   if (requestedIds.length === 0) {
     return NextResponse.json(
@@ -211,7 +219,9 @@ export async function GET(request: Request) {
       const nativePart = requestId.split('__').pop()!.trim();
       normalizedId = fixturesIndex.aliases.get(nativePart) ?? nativePart;
     }
-    if (!normalizedId) normalizedId = requestId;
+    if (!normalizedId) {
+      normalizedId = requestId;
+    }
     if (resolvedNormalizedIds.has(normalizedId)) {
       missingIds.delete(requestId);
       continue;
@@ -225,12 +235,16 @@ export async function GET(request: Request) {
     const match = cloneMatch(indexed.match);
 
     if (hasCenter) {
-      filterFixturesInRadius(match, latParam, lonParam, radiusForDistance);
-      if (typeof match._distanceKm !== 'number') {
-        match._distanceKm = 0;
+      // Always report the real geographic distance. Radius membership is a
+      // separate concern — never fake out-of-radius fixtures as 0 km.
+      const realDistanceKm = venueDistanceKm(match, latParam, lonParam);
+      if (realDistanceKm !== null) {
+        match._distanceKm = realDistanceKm;
+      } else {
+        delete match._distanceKm;
       }
     } else if (typeof match._distanceKm !== 'number') {
-      match._distanceKm = 0;
+      delete match._distanceKm;
     }
 
     matches.push(match);
