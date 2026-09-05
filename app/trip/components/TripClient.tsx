@@ -50,7 +50,9 @@ const parseNumberParam = (value: string | null) => {
 function venueCoords(match: LooseMatch): { lat: number; lon: number } | null {
   const lat = match?.stadium?.geo?.latitude;
   const lon = match?.stadium?.geo?.longitude;
-  return typeof lat === 'number' && typeof lon === 'number' ? { lat, lon } : null;
+  return Number.isFinite(lat) && Number.isFinite(lon)
+    ? { lat: lat as number, lon: lon as number }
+    : null;
 }
 
 export default function TripClient() {
@@ -300,10 +302,13 @@ export default function TripClient() {
     [navigationOrigin]
   );
 
-  const isMobileList = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW;
-  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
+  const isMobileList = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW && displayedCount > 0;
+  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW && displayedCount > 0;
   const shouldRenderMobileMap = isMobileMap;
-  const shouldRenderMap = !isMobile || shouldRenderMobileMap;
+  // While loading/empty mobile renders the map exactly like desktop — the
+  // map must never mount into a display:none container (Leaflet computes
+  // NaN in a 0×0 box and throws Invalid LatLng).
+  const shouldRenderMap = !isMobile || shouldRenderMobileMap || displayedCount === 0;
   const shouldRenderPanel = !isMobile || isMobileList;
 
   // Measure the real rendered panel so map insets track the actual
@@ -345,6 +350,99 @@ export default function TripClient() {
     }
   };
 
+  const itineraryContent = (
+    <Stack gap={8} pb={8}>
+      {tbcCount > 0 && (
+        <Text size="xs" fw={700} data-testid="trip-confirmed-heading">
+          {t('confirmedSection')}
+        </Text>
+      )}
+      {confirmedGroups.map((g) => (
+        <div key={g.dayKey}>
+          <Text
+            size="xs"
+            fw={700}
+            c="dimmed"
+            data-testid={`trip-day-${g.dayKey}`}
+            style={{
+              position: 'sticky',
+              top: 0,
+              zIndex: 2,
+              background: 'var(--mantine-color-body)',
+              padding: '6px 2px 4px',
+            }}
+          >
+            {g.window
+              ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
+              : formatDayHeader(g.dateTime, locale)}
+          </Text>
+          <Stack gap={8} mt={2}>
+            {g.matches.map((m) => {
+              const id = matchIdOf(m);
+              return (
+                <SharedMatchCard
+                  key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
+                  match={m}
+                  variant="trip"
+                  testIdPrefix="trip-match-card"
+                  hovered={hoveredMatchId === id}
+                  navigationHref={navigationUrlFactory(m)}
+                  onFocus={handleMatchClick}
+                  onHover={setHoveredMatchId}
+                />
+              );
+            })}
+          </Stack>
+        </div>
+      ))}
+      {tbcGroups.length > 0 && (
+        <>
+          <Text size="xs" fw={700} data-testid="trip-tbc-heading" mt={4}>
+            {t('tbcSection')}
+          </Text>
+          {tbcGroups.map((g) => (
+            <div key={g.dayKey}>
+              <Text
+                size="xs"
+                fw={700}
+                c="dimmed"
+                data-testid={`trip-day-${g.dayKey}`}
+                style={{
+                  position: 'sticky',
+                  top: 0,
+                  zIndex: 2,
+                  background: 'var(--mantine-color-body)',
+                  padding: '6px 2px 4px',
+                }}
+              >
+                {g.window
+                  ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
+                  : formatDayHeader(g.dateTime, locale)}
+              </Text>
+              <Stack gap={8} mt={2}>
+                {g.matches.map((m) => {
+                  const id = matchIdOf(m);
+                  return (
+                    <SharedMatchCard
+                      key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
+                      match={m}
+                      variant="trip"
+                      testIdPrefix="trip-match-card"
+                      hovered={hoveredMatchId === id}
+                      navigationHref={navigationUrlFactory(m)}
+                      onFocus={handleMatchClick}
+                      onHover={setHoveredMatchId}
+                    />
+                  );
+                })}
+              </Stack>
+            </div>
+          ))}
+        </>
+      )}
+    </Stack>
+  );
+
   const copyUrl = async () => {
     try {
       const canonical = `${window.location.origin}${TRIP_PATH}?${searchParams.toString()}`;
@@ -383,7 +481,7 @@ export default function TripClient() {
     <main
       className={`${classes.tripShell} ${isMobileList ? classes.mobileList : ''} ${isMobileMap ? classes.mobileMap : ''}`}
       data-testid="trip-view"
-      data-mobile-view={isMobile ? mobileView : undefined}
+      data-mobile-view={isMobileList ? 'list' : isMobileMap ? 'map' : undefined}
     >
       {shouldRenderMap && (
         <div className={classes.mapArea} data-testid="trip-map">
@@ -406,6 +504,7 @@ export default function TripClient() {
         <div className={classes.mobileToggle} data-testid="trip-mobile-toggle">
           <ViewToggle
             value={mobileView}
+            ariaLabel={t('viewModeLabel')}
             options={[
               { value: MOBILE_VIEW.LIST_VIEW, label: t('viewItinerary') },
               { value: MOBILE_VIEW.MAP_VIEW, label: t('viewMap') },
@@ -488,96 +587,7 @@ export default function TripClient() {
           {displayedCount > 0 &&
             (isMobileList ? (
               <div className={classes.tripScroll} data-testid="trip-results-list">
-                <Stack gap={8} pb={8}>
-                  {tbcCount > 0 && (
-                    <Text size="xs" fw={700} data-testid="trip-confirmed-heading">
-                      {t('confirmedSection')}
-                    </Text>
-                  )}
-                  {confirmedGroups.map((g) => (
-                    <div key={g.dayKey}>
-                      <Text
-                        size="xs"
-                        fw={700}
-                        c="dimmed"
-                        data-testid={`trip-day-${g.dayKey}`}
-                        style={{
-                          position: 'sticky',
-                          top: 0,
-                          zIndex: 2,
-                          background: 'var(--mantine-color-body)',
-                          padding: '6px 2px 4px',
-                        }}
-                      >
-                        {g.window
-                          ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
-                          : formatDayHeader(g.dateTime, locale)}
-                      </Text>
-                      <Stack gap={8} mt={2}>
-                        {g.matches.map((m) => {
-                          const id = matchIdOf(m);
-                          return (
-                            <SharedMatchCard
-                              key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                              match={m}
-                              variant="trip"
-                              testIdPrefix="trip-match-card"
-                              hovered={hoveredMatchId === id}
-                              navigationHref={navigationUrlFactory(m)}
-                              onFocus={handleMatchClick}
-                              onHover={setHoveredMatchId}
-                            />
-                          );
-                        })}
-                      </Stack>
-                    </div>
-                  ))}
-                  {tbcGroups.length > 0 && (
-                    <>
-                      <Text size="xs" fw={700} data-testid="trip-tbc-heading" mt={4}>
-                        {t('tbcSection')}
-                      </Text>
-                      {tbcGroups.map((g) => (
-                        <div key={g.dayKey}>
-                          <Text
-                            size="xs"
-                            fw={700}
-                            c="dimmed"
-                            data-testid={`trip-day-${g.dayKey}`}
-                            style={{
-                              position: 'sticky',
-                              top: 0,
-                              zIndex: 2,
-                              background: 'var(--mantine-color-body)',
-                              padding: '6px 2px 4px',
-                            }}
-                          >
-                            {g.window
-                              ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
-                              : formatDayHeader(g.dateTime, locale)}
-                          </Text>
-                          <Stack gap={8} mt={2}>
-                            {g.matches.map((m) => {
-                              const id = matchIdOf(m);
-                              return (
-                                <SharedMatchCard
-                                  key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                                  match={m}
-                                  variant="trip"
-                                  testIdPrefix="trip-match-card"
-                                  hovered={hoveredMatchId === id}
-                                  navigationHref={navigationUrlFactory(m)}
-                                  onFocus={handleMatchClick}
-                                  onHover={setHoveredMatchId}
-                                />
-                              );
-                            })}
-                          </Stack>
-                        </div>
-                      ))}
-                    </>
-                  )}
-                </Stack>
+                {itineraryContent}
               </div>
             ) : (
               <ScrollArea
@@ -585,96 +595,7 @@ export default function TripClient() {
                 type="auto"
                 data-testid="trip-results-list"
               >
-                <Stack gap={8} pb={8}>
-                  {tbcCount > 0 && (
-                    <Text size="xs" fw={700} data-testid="trip-confirmed-heading">
-                      {t('confirmedSection')}
-                    </Text>
-                  )}
-                  {confirmedGroups.map((g) => (
-                    <div key={g.dayKey}>
-                      <Text
-                        size="xs"
-                        fw={700}
-                        c="dimmed"
-                        data-testid={`trip-day-${g.dayKey}`}
-                        style={{
-                          position: 'sticky',
-                          top: 0,
-                          zIndex: 2,
-                          background: 'var(--mantine-color-body)',
-                          padding: '6px 2px 4px',
-                        }}
-                      >
-                        {g.window
-                          ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
-                          : formatDayHeader(g.dateTime, locale)}
-                      </Text>
-                      <Stack gap={8} mt={2}>
-                        {g.matches.map((m) => {
-                          const id = matchIdOf(m);
-                          return (
-                            <SharedMatchCard
-                              key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                              match={m}
-                              variant="trip"
-                              testIdPrefix="trip-match-card"
-                              hovered={hoveredMatchId === id}
-                              navigationHref={navigationUrlFactory(m)}
-                              onFocus={handleMatchClick}
-                              onHover={setHoveredMatchId}
-                            />
-                          );
-                        })}
-                      </Stack>
-                    </div>
-                  ))}
-                  {tbcGroups.length > 0 && (
-                    <>
-                      <Text size="xs" fw={700} data-testid="trip-tbc-heading" mt={4}>
-                        {t('tbcSection')}
-                      </Text>
-                      {tbcGroups.map((g) => (
-                        <div key={g.dayKey}>
-                          <Text
-                            size="xs"
-                            fw={700}
-                            c="dimmed"
-                            data-testid={`trip-day-${g.dayKey}`}
-                            style={{
-                              position: 'sticky',
-                              top: 0,
-                              zIndex: 2,
-                              background: 'var(--mantine-color-body)',
-                              padding: '6px 2px 4px',
-                            }}
-                          >
-                            {g.window
-                              ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
-                              : formatDayHeader(g.dateTime, locale)}
-                          </Text>
-                          <Stack gap={8} mt={2}>
-                            {g.matches.map((m) => {
-                              const id = matchIdOf(m);
-                              return (
-                                <SharedMatchCard
-                                  key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                                  match={m}
-                                  variant="trip"
-                                  testIdPrefix="trip-match-card"
-                                  hovered={hoveredMatchId === id}
-                                  navigationHref={navigationUrlFactory(m)}
-                                  onFocus={handleMatchClick}
-                                  onHover={setHoveredMatchId}
-                                />
-                              );
-                            })}
-                          </Stack>
-                        </div>
-                      ))}
-                    </>
-                  )}
-                </Stack>
+                {itineraryContent}
               </ScrollArea>
             ))}
           {missingIds.length > 0 && (

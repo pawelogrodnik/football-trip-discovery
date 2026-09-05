@@ -253,8 +253,8 @@ export function isCompleteFindCriteria(
 ): boolean {
   return (
     c.location !== null &&
-    typeof c.location.lat === 'number' &&
-    typeof c.location.lon === 'number' &&
+    Number.isFinite(c.location.lat) &&
+    Number.isFinite(c.location.lon) &&
     c.startDate !== null &&
     c.endDate !== null
   );

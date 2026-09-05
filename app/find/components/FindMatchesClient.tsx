@@ -224,8 +224,8 @@ export default function FindMatchesClient() {
     }) => {
       const lat = match?.stadium?.geo?.latitude;
       const lon = match?.stadium?.geo?.longitude;
-      if (typeof lat === 'number' && typeof lon === 'number') {
-        setMapFocus({ lat, lon, id: matchIdOfLoose(match) });
+      if (Number.isFinite(lat) && Number.isFinite(lon)) {
+        setMapFocus({ lat: lat as number, lon: lon as number, id: matchIdOfLoose(match) });
       }
     },
     []
@@ -243,11 +243,17 @@ export default function FindMatchesClient() {
 
   const showSearch = !hasSearched || editing;
   const activeCriteria = submitted ?? criteria;
+  // Results state (not the form, not editing): the only state where mobile
+  // switches to the list-first / map-first compositions.
+  const inResults = hasSearched && !showSearch;
 
-  const isMobileList = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW;
-  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
+  const isMobileList = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW && inResults;
+  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW && inResults;
   const shouldRenderMobileMap = isMobileMap;
-  const shouldRenderMap = !isMobile || shouldRenderMobileMap || !hasSearched;
+  // Pre-search (and while editing) mobile renders the dimmed map + form
+  // exactly like desktop — the map must never mount into a display:none
+  // container (Leaflet computes NaN in a 0×0 box and throws).
+  const shouldRenderMap = !isMobile || shouldRenderMobileMap || !inResults;
   const shouldRenderPanel = !isMobile || isMobileList;
 
   // Measure the real rendered panel so the map right/bottom inset tracks
@@ -319,7 +325,7 @@ export default function FindMatchesClient() {
     <main
       className={`${classes.findShell} ${isMobileList ? classes.mobileList : ''} ${isMobileMap ? classes.mobileMap : ''}`}
       data-testid="find-view"
-      data-mobile-view={isMobile ? mobileView : undefined}
+      data-mobile-view={isMobileList ? 'list' : isMobileMap ? 'map' : undefined}
     >
       {shouldRenderMap && (
         <div
@@ -348,6 +354,7 @@ export default function FindMatchesClient() {
         <div className={classes.mobileToggle} data-testid="find-mobile-toggle">
           <ViewToggle
             value={mobileView}
+            ariaLabel={t('viewModeLabel')}
             options={[
               { value: MOBILE_VIEW.LIST_VIEW, label: t('viewMatches') },
               { value: MOBILE_VIEW.MAP_VIEW, label: t('viewMap') },

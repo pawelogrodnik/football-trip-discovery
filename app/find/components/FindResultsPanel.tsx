@@ -139,6 +139,69 @@ function FindResultsPanelInner({
     [matches, selectedSet]
   );
 
+  const resultsContent = (
+    <Stack gap={8} pb={8} data-testid={flatScroll ? 'find-results-flat-list' : undefined}>
+      {filter === 'selected' && selectedMatches.length === 0 ? (
+        <div data-testid="find-selected-empty">
+          <Text size="sm" fw={600}>
+            {t('noSelectedTitle')}
+          </Text>
+          <Text size="xs" c="dimmed" mt={4}>
+            {t('noSelectedHint')}
+          </Text>
+          <Button
+            variant="light"
+            size="xs"
+            mt={8}
+            onClick={() => onFilterChange('all')}
+            data-testid="find-show-all"
+          >
+            {t('showAll')}
+          </Button>
+        </div>
+      ) : (
+        groups.map((g) => (
+          <div key={g.dayKey}>
+            <Text
+              size="xs"
+              fw={700}
+              c="dimmed"
+              data-testid={`find-day-${g.dayKey}`}
+              style={{
+                position: 'sticky',
+                top: 0,
+                zIndex: 2,
+                background: 'var(--mantine-color-body)',
+                padding: '6px 2px 4px',
+              }}
+            >
+              {g.window
+                ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('scheduleTbc')}`
+                : formatDayHeader(g.dateTime, locale)}
+            </Text>
+            <Stack gap={8} mt={2}>
+              {g.matches.map((m) => {
+                const id = matchIdOf(m);
+                return (
+                  <FindMatchCard
+                    key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
+                    match={m}
+                    selected={selectedSet.has(id)}
+                    hovered={hoveredId === id}
+                    outsideRadius={outsideIds?.has(id) ?? false}
+                    onToggle={onToggle}
+                    onFocus={onFocus}
+                    onHover={onHover}
+                  />
+                );
+              })}
+            </Stack>
+          </div>
+        ))
+      )}
+    </Stack>
+  );
+
   return (
     <Stack gap={0} style={{ height: '100%', minHeight: 0 }}>
       <div style={{ paddingBottom: 8 }}>
@@ -199,130 +262,10 @@ function FindResultsPanelInner({
       </div>
 
       {flatScroll ? (
-        <div data-testid="find-results-list">
-          <Stack gap={8} pb={8} data-testid="find-results-flat-list">
-            {filter === 'selected' && selectedMatches.length === 0 ? (
-              <div data-testid="find-selected-empty">
-                <Text size="sm" fw={600}>
-                  {t('noSelectedTitle')}
-                </Text>
-                <Text size="xs" c="dimmed" mt={4}>
-                  {t('noSelectedHint')}
-                </Text>
-                <Button
-                  variant="light"
-                  size="xs"
-                  mt={8}
-                  onClick={() => onFilterChange('all')}
-                  data-testid="find-show-all"
-                >
-                  {t('showAll')}
-                </Button>
-              </div>
-            ) : (
-              groups.map((g) => (
-                <div key={g.dayKey}>
-                  <Text
-                    size="xs"
-                    fw={700}
-                    c="dimmed"
-                    data-testid={`find-day-${g.dayKey}`}
-                    style={{
-                      position: 'sticky',
-                      top: 0,
-                      zIndex: 2,
-                      background: 'var(--mantine-color-body)',
-                      padding: '6px 2px 4px',
-                    }}
-                  >
-                    {g.window
-                      ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('scheduleTbc')}`
-                      : formatDayHeader(g.dateTime, locale)}
-                  </Text>
-                  <Stack gap={8} mt={2}>
-                    {g.matches.map((m) => {
-                      const id = matchIdOf(m);
-                      return (
-                        <FindMatchCard
-                          key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                          match={m}
-                          selected={selectedSet.has(id)}
-                          hovered={hoveredId === id}
-                          outsideRadius={outsideIds?.has(id) ?? false}
-                          onToggle={onToggle}
-                          onFocus={onFocus}
-                          onHover={onHover}
-                        />
-                      );
-                    })}
-                  </Stack>
-                </div>
-              ))
-            )}
-          </Stack>
-        </div>
+        <div data-testid="find-results-list">{resultsContent}</div>
       ) : (
         <ScrollArea style={{ flex: 1, minHeight: 0 }} type="auto" data-testid="find-results-list">
-          <Stack gap={8} pb={8}>
-            {filter === 'selected' && selectedMatches.length === 0 ? (
-              <div data-testid="find-selected-empty">
-                <Text size="sm" fw={600}>
-                  {t('noSelectedTitle')}
-                </Text>
-                <Text size="xs" c="dimmed" mt={4}>
-                  {t('noSelectedHint')}
-                </Text>
-                <Button
-                  variant="light"
-                  size="xs"
-                  mt={8}
-                  onClick={() => onFilterChange('all')}
-                  data-testid="find-show-all"
-                >
-                  {t('showAll')}
-                </Button>
-              </div>
-            ) : (
-              groups.map((g) => (
-                <div key={g.dayKey}>
-                  <Text
-                    size="xs"
-                    fw={700}
-                    c="dimmed"
-                    data-testid={`find-day-${g.dayKey}`}
-                    style={{
-                      position: 'sticky',
-                      top: 0,
-                      zIndex: 2,
-                      background: 'var(--mantine-color-body)',
-                      padding: '6px 2px 4px',
-                    }}
-                  >
-                    {g.window
-                      ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('scheduleTbc')}`
-                      : formatDayHeader(g.dateTime, locale)}
-                  </Text>
-                  <Stack gap={8} mt={2}>
-                    {g.matches.map((m) => {
-                      const id = matchIdOf(m);
-                      return (
-                        <FindMatchCard
-                          key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                          match={m}
-                          selected={selectedSet.has(id)}
-                          hovered={hoveredId === id}
-                          outsideRadius={outsideIds?.has(id) ?? false}
-                          onToggle={onToggle}
-                          onFocus={onFocus}
-                          onHover={onHover}
-                        />
-                      );
-                    })}
-                  </Stack>
-                </div>
-              ))
-            )}
-          </Stack>
+          {resultsContent}
         </ScrollArea>
       )}
 

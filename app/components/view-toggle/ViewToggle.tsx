@@ -13,9 +13,16 @@ type Props = {
   options?: ViewToggleOption[];
   onChange: (key: string) => void;
   testId?: string;
+  ariaLabel?: string;
 };
 
-const ViewToggle = ({ value, options, onChange, testId = 'mobile-view-toggle' }: Props) => (
+const ViewToggle = ({
+  value,
+  options,
+  onChange,
+  testId = 'mobile-view-toggle',
+  ariaLabel = 'View mode',
+}: Props) => (
   <div className="view-toggle__inner">
     <SegmentedControl
       radius="xl"
@@ -29,7 +36,7 @@ const ViewToggle = ({ value, options, onChange, testId = 'mobile-view-toggle' }:
       }
       onChange={onChange}
       data-testid={testId}
-      aria-label="View mode"
+      aria-label={ariaLabel}
     />
   </div>
 );
