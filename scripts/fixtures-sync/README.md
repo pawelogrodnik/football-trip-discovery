@@ -22,22 +22,29 @@ node scripts/fixtures-sync/index.js \
 
 Options:
 
-| Flag                 | Description                                       | Default                             |
-| -------------------- | ------------------------------------------------- | ----------------------------------- |
-| `--source`           | Backend `fixtures` directory (required).          | —                                   |
-| `--dest`             | Destination directory.                            | `app/fixtures`                      |
-| `--source-repo`      | Recorded in `.source.json`.                       | `pawelogrodnik/redesigned-broccoli` |
-| `--source-ref`       | Recorded in `.source.json`.                       | `main`                              |
-| `--source-sha`       | Exact backend commit, recorded in `.source.json`. | _empty_                             |
-| `--min-source-files` | Fail closed below this source file count.         | `50`                                |
-| `--dry-run`          | Validate and report without writing.              | —                                   |
+| Flag                 | Description                                                  | Default                             |
+| -------------------- | ------------------------------------------------------------ | ----------------------------------- |
+| `--source`           | Backend `fixtures` directory (required).                     | —                                   |
+| `--source-sha`       | Exact backend commit, recorded in `.source.json` (required). | —                                   |
+| `--source-repo`      | Recorded in `.source.json`.                                  | `pawelogrodnik/redesigned-broccoli` |
+| `--source-ref`       | Recorded in `.source.json`.                                  | `main`                              |
+| `--min-source-files` | Fail closed below this source file count.                    | `50`                                |
+| `--dry-run`          | Validate and report without writing.                         | —                                   |
+
+Destination is fixed to `app/fixtures`: the CLI accepts no destination
+argument (`--dest` was removed) and refuses to mirror anywhere else
+(repo root, `app`, `scripts`, traversal paths, external paths).
+Unit tests may use temporary destinations via the internal
+`allowExternalDest` function parameter; that escape hatch is not exposed
+through the CLI.
 
 ## Safeguards (fail closed)
 
+- Missing `--source-sha` aborts before anything is written.
 - Missing/empty source aborts before anything is written.
 - Every source `.json` must parse, otherwise the sync aborts with no writes.
 - A source with >50% fewer files than the current snapshot aborts.
-- Writes and deletions are confined to the destination fixture directory.
+- Writes and deletions are confined to `app/fixtures` only.
 - `app/fixtures/.source.json` records `{ repository, ref, commit, syncedAt }`.
   Re-running with the same backend SHA leaves it (and unchanged fixtures)
   untouched, so no-op syncs produce no commit.
@@ -46,7 +53,8 @@ Options:
 
 `.github/workflows/fixtures-sync.yml` checks out both repositories (the
 backend checkout needs a fine-grained PAT in the `BACKEND_REPO_TOKEN` secret
-with **Contents: Read** on `pawelogrodnik/redesigned-broccoli`), mirrors the
+with **Contents: Read** on `pawelogrodnik/redesigned-broccoli`, with
+`persist-credentials: false`), mirrors the
 tree, runs `npx jest scripts/fixtures-sync`, and commits `app/fixtures/**`
 only when something changed.
 

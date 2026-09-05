@@ -125,7 +125,7 @@ describe('fixtures-sync mirror', () => {
         repoRoot: tmp,
         minSourceFiles: 1,
       })
-    ).rejects.toThrow(/outside repository/);
+    ).rejects.toThrow(/app\/fixtures/);
   });
 
   test('files outside app/fixtures are untouched', async () => {
@@ -178,5 +178,113 @@ describe('fixtures-sync mirror', () => {
     expect(
       JSON.parse(await fs.readFile(path.join(dest, 'fixtures_POLISH_X.json'), 'utf8'))
     ).toEqual({ v: 2 });
+  });
+});
+
+describe('fixtures-sync destination confinement', () => {
+  const { main, parseArgs } = require('../index');
+  let tmp;
+  let source;
+
+  beforeEach(async () => {
+    tmp = await fs.mkdtemp(path.join(os.tmpdir(), 'fixtures-confine-'));
+    source = path.join(tmp, 'backend', 'fixtures');
+    await makeTree(source, { 'a.json': '{"v":1}', 'sub/b.json': '{"v":2}' });
+    // Sentinel files that must never be touched by a rejected sync.
+    await makeTree(tmp, {
+      'package.json': '{"name":"sentinel"}',
+      'scripts/keep.json': '{"keep":true}',
+      'app/data.json': '{"keep":true}',
+    });
+  });
+
+  afterEach(async () => {
+    await fs.rm(tmp, { recursive: true, force: true });
+  });
+
+  const baseOpts = () => ({
+    sourceDir: source,
+    repoRoot: tmp,
+    sourceSha: 'abc123',
+    minSourceFiles: 1,
+  });
+
+  async function expectRejected(destDir) {
+    await expect(mirrorFixtures({ ...baseOpts(), destDir })).rejects.toThrow();
+    // Nothing modified: sentinels intact, no new files.
+    expect(await fs.readFile(path.join(tmp, 'package.json'), 'utf8')).toBe('{"name":"sentinel"}');
+    expect(await fs.readFile(path.join(tmp, 'scripts', 'keep.json'), 'utf8')).toBe('{"keep":true}');
+    expect(await fs.readFile(path.join(tmp, 'app', 'data.json'), 'utf8')).toBe('{"keep":true}');
+    expect(await listAll(tmp)).toEqual(
+      [
+        'app/data.json',
+        'backend/fixtures/a.json',
+        'backend/fixtures/sub/b.json',
+        'package.json',
+        'scripts/keep.json',
+      ].sort()
+    );
+  }
+
+  test('A. repo root rejected', async () => {
+    await expectRejected(tmp);
+  });
+
+  test('B. sibling repo directory rejected', async () => {
+    await expectRejected(path.join(tmp, 'scripts'));
+  });
+
+  test('C. parent of fixtures rejected', async () => {
+    await expectRejected(path.join(tmp, 'app'));
+  });
+
+  test('D. canonical app/fixtures accepted', async () => {
+    const summary = await mirrorFixtures({
+      ...baseOpts(),
+      destDir: path.join(tmp, 'app', 'fixtures'),
+    });
+    expect(summary.added).toBe(2);
+    expect(summary.finalFiles).toBe(2);
+  });
+
+  test('E. traversal equivalent rejected', async () => {
+    await expectRejected(path.join(tmp, 'app', 'fixtures', '..'));
+  });
+
+  test('F. test-only temp destination works with explicit override', async () => {
+    const tempDest = path.join(tmp, 'custom-dest');
+    const summary = await mirrorFixtures({
+      ...baseOpts(),
+      destDir: tempDest,
+      allowExternalDest: true,
+    });
+    expect(summary.added).toBe(2);
+    expect(await listAll(tempDest)).toEqual(['.source.json', 'a.json', 'sub/b.json']);
+  });
+
+  test('temp destination without override is rejected', async () => {
+    await expect(
+      mirrorFixtures({ ...baseOpts(), destDir: path.join(tmp, 'custom-dest') })
+    ).rejects.toThrow();
+  });
+
+  test('G. missing source SHA rejected by CLI before any write', async () => {
+    await expect(main(['--source', source, '--min-source-files', '1'])).rejects.toThrow(
+      /source-sha/i
+    );
+    expect(await listAll(tmp)).toEqual(
+      [
+        'app/data.json',
+        'backend/fixtures/a.json',
+        'backend/fixtures/sub/b.json',
+        'package.json',
+        'scripts/keep.json',
+      ].sort()
+    );
+  });
+
+  test('CLI rejects --dest and --allow-external-dest flags', async () => {
+    expect(() => parseArgs(['--source', source, '--dest', '.'])).toThrow(/--dest/);
+    expect(() => parseArgs(['--source', source, '--allow-external-dest'])).toThrow(/test-only/);
   });
 });

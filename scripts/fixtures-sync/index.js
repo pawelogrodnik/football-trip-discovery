@@ -10,6 +10,9 @@
  * No HTTP/network logic: the backend repository owns fixture generation,
  * the frontend only mirrors committed output.
  *
+ * Production destination is hard-confined to app/fixtures: the CLI accepts
+ * no destination argument, and --source-sha is mandatory.
+ *
  * Usage:
  *   node scripts/fixtures-sync/index.js \
  *     --source .backend-fixtures-source/fixtures \
@@ -31,13 +34,11 @@ const DEFAULT_MIN_SOURCE_FILES = 50;
 function parseArgs(argv) {
   const opts = {
     source: null,
-    dest: DEFAULT_DEST_DIR,
     sourceRepo: process.env.FIXTURES_SOURCE_REPO || DEFAULT_SOURCE_REPO,
     sourceRef: process.env.FIXTURES_SOURCE_REF || DEFAULT_SOURCE_REF,
     sourceSha: process.env.FIXTURES_SOURCE_SHA || null,
     minSourceFiles: DEFAULT_MIN_SOURCE_FILES,
     dryRun: false,
-    allowExternalDest: false,
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -46,10 +47,12 @@ function parseArgs(argv) {
       opts.source = next();
     } else if (a.startsWith('--source=')) {
       opts.source = a.slice('--source='.length);
-    } else if (a === '--dest') {
-      opts.dest = next();
-    } else if (a.startsWith('--dest=')) {
-      opts.dest = a.slice('--dest='.length);
+    } else if (a === '--dest' || a.startsWith('--dest=')) {
+      throw new Error(
+        'The --dest flag is no longer supported: the destination is fixed to app/fixtures.'
+      );
+    } else if (a === '--allow-external-dest') {
+      throw new Error('The --allow-external-dest flag is test-only and not available via the CLI.');
     } else if (a === '--source-repo') {
       opts.sourceRepo = next();
     } else if (a.startsWith('--source-repo=')) {
@@ -68,8 +71,6 @@ function parseArgs(argv) {
       opts.minSourceFiles = Number(a.slice('--min-source-files='.length));
     } else if (a === '--dry-run') {
       opts.dryRun = true;
-    } else if (a === '--allow-external-dest') {
-      opts.allowExternalDest = true;
     } else if (a === '--help' || a === '-h') {
       opts.help = true;
     }
@@ -79,18 +80,29 @@ function parseArgs(argv) {
 
 function usage() {
   return [
-    'Usage: node scripts/fixtures-sync/index.js --source <dir> [--dest <dir>]',
-    '       [--source-repo <owner/repo>] [--source-ref <ref>] [--source-sha <sha>]',
-    '       [--min-source-files N] [--dry-run] [--allow-external-dest]',
+    'Usage: node scripts/fixtures-sync/index.js --source <dir>',
+    '       --source-sha <backend-sha> [--source-repo <owner/repo>] [--source-ref <ref>]',
+    '       [--min-source-files N] [--dry-run]',
+    '',
+    'Destination is fixed to app/fixtures and cannot be changed via the CLI.',
   ].join('\n');
 }
 
-/** Safety: destination must live inside the frontend repo (unless overridden). */
+/**
+ * Safety: production destination is hard-confined to <repoRoot>/app/fixtures.
+ * Only direct unit-test callers may pass { allowExternalDest: true } with an
+ * explicit temp destination; the CLI never does.
+ */
 function assertDestSafety(destDir, { repoRoot, allowExternalDest }) {
   const resolved = path.resolve(destDir);
-  const root = path.resolve(repoRoot);
-  if (!allowExternalDest && resolved !== root && !resolved.startsWith(root + path.sep)) {
-    throw new Error(`Refusing to write outside repository: ${resolved}`);
+  if (allowExternalDest) {
+    return resolved;
+  }
+  const canonical = path.join(path.resolve(repoRoot), 'app', 'fixtures');
+  if (resolved !== canonical) {
+    throw new Error(
+      `Refusing sync outside app/fixtures (got: ${resolved}, expected: ${canonical})`
+    );
   }
   return resolved;
 }
@@ -198,11 +210,8 @@ async function mirrorFixtures({
     }
     contents.set(rel, raw.endsWith('\n') ? raw : `${raw}\n`);
   }
-  if (!sourceSha) {
-    // eslint-disable-next-line no-console
-    console.log(
-      '[fixtures-sync] Warning: no --source-sha provided; metadata will keep any existing commit.'
-    );
+  if (!sourceSha || !String(sourceSha).trim()) {
+    throw new Error('Missing required --source-sha <backend commit>; refusing sync.');
   }
 
   const sourceSet = new Set(sourceFiles);
@@ -346,9 +355,14 @@ async function main(argv) {
     }
     return { help: true };
   }
+  if (!opts.sourceSha || !String(opts.sourceSha).trim()) {
+    throw new Error('Missing required --source-sha <backend commit>; refusing sync.');
+  }
+  // Production CLI: destination is always the canonical app/fixtures tree.
   const summary = await mirrorFixtures({
     sourceDir: opts.source,
-    destDir: opts.dest,
+    destDir: DEFAULT_DEST_DIR,
+    repoRoot: REPO_ROOT,
     sourceRepo: opts.sourceRepo,
     sourceRef: opts.sourceRef,
     sourceSha: opts.sourceSha,
@@ -366,4 +380,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { mirrorFixtures, collectJsonFiles, parseArgs, DEFAULT_DEST_DIR };
+module.exports = { mirrorFixtures, collectJsonFiles, parseArgs, main, DEFAULT_DEST_DIR };

@@ -27,6 +27,9 @@ jobs:
           ref: main
           path: .backend-fixtures-source
           token: ${{ secrets.BACKEND_REPO_TOKEN }}
+          # Token is only needed to read the private backend repo; do not
+          # persist it in the checkout's git config.
+          persist-credentials: false
 
       - uses: actions/setup-node@v4
         with:
