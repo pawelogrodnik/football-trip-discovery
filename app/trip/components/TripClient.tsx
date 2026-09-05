@@ -25,6 +25,7 @@ import {
   formatScheduleWindow,
   formatShortDayRange,
   groupMatchesByDay,
+  isConfirmedMatch,
   isTbcMatch,
   LooseMatch,
   matchIdOf,
@@ -216,8 +217,11 @@ export default function TripClient() {
     [sortedMatches]
   );
   const tbcMatches = useMemo(() => sortedMatches.filter((m) => isTbcMatch(m)), [sortedMatches]);
+  // Route/polyline/order only from fixtures with genuinely known order:
+  // date-confirmed belongs to the itinerary day-wise, but an invented
+  // kickoff must never prove ordering against another fixture.
   const routeMatches = useMemo(
-    () => confirmedMatches.filter((m) => venueCoords(m) !== null),
+    () => confirmedMatches.filter((m) => venueCoords(m) !== null && isConfirmedMatch(m)),
     [confirmedMatches]
   );
 

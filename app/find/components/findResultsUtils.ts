@@ -1,6 +1,10 @@
 'use client';
 
-import { getFixtureSchedule, scheduleDisplayOf } from '../../lib/matchSchedule';
+import {
+  getFixtureSchedule,
+  scheduleCertaintyCounts,
+  scheduleDisplayOf,
+} from '../../lib/matchSchedule';
 import { getCanonicalMatchId, getMatchAliases } from '../../lib/normalizeMatchId';
 
 export type LooseMatch = {
@@ -66,20 +70,11 @@ export function isConfirmedMatch(m: LooseMatch): boolean {
   return getFixtureSchedule(m as never)?.status === 'confirmed';
 }
 
-/** Confirmed/TBC split for footers and headers. */
+/** Confirmed/TBC split for footers and headers (shared certainty semantics). */
 export function countConfirmedTbc<T extends LooseMatch>(
   matches: T[]
 ): { confirmed: number; tbc: number } {
-  let confirmed = 0;
-  let tbc = 0;
-  for (const m of matches) {
-    if (isTbcMatch(m)) {
-      tbc += 1;
-    } else {
-      confirmed += 1;
-    }
-  }
-  return { confirmed, tbc };
+  return scheduleCertaintyCounts(matches as never);
 }
 
 /** Compact localized window label, e.g. "Oct 22–23". No fake kickoff. */

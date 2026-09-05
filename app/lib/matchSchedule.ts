@@ -209,3 +209,27 @@ export function scheduleDisplayOf(match: ScheduleLike | null | undefined): Sched
     endDateOnly: schedule.endDate,
   };
 }
+
+/**
+ * Shared user-facing certainty count (issue #9 §2D).
+ * confirmed: schedule.status === 'confirmed' (exact kickoff known).
+ * tbc:       date-confirmed (day known, kickoff TBC) or date-window.
+ * Fixtures without any schedule info count as confirmed (legacy behavior
+ * for pre-schedule rows); every flow must use this helper instead of
+ * `trip.matchCount` as the confirmed value.
+ */
+export function scheduleCertaintyCounts<T extends ScheduleLike>(
+  matches: T[] | null | undefined
+): { confirmed: number; tbc: number } {
+  let confirmed = 0;
+  let tbc = 0;
+  for (const m of matches ?? []) {
+    const status = getFixtureSchedule(m)?.status;
+    if (status === 'date-confirmed' || status === 'date-window') {
+      tbc += 1;
+    } else {
+      confirmed += 1;
+    }
+  }
+  return { confirmed, tbc };
+}

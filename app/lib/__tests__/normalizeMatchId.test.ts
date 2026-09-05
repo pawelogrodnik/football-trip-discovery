@@ -165,4 +165,36 @@ describe('normalizeMatchId', () => {
       expect.arrayContaining(legacy.filter((a) => a !== normalized.id))
     );
   });
+
+  it('real backend native id stays stable across schedule refinement', () => {
+    // redesigned-broccoli native id = md5(home|away|competition), no schedule.
+    const NATIVE_ID = '799050c8ac0b3e6abf2721b23ced78d8';
+    const ctx = { country: 'POLAND', league: 'Klasa A' };
+    const tbc: any = {
+      id: NATIVE_ID,
+      competition: { name: 'Klasa A' },
+      homeTeam: { name: 'LKS Żyraków' },
+      awayTeam: { name: 'Legion II Pilzno' },
+      schedule: { status: 'date-window', startDate: '2026-10-22', endDate: '2026-10-23' },
+      date: { startDate: '2026-10-22', endDate: '2026-10-23', time: 'TBD' },
+    };
+    const confirmed: any = {
+      id: NATIVE_ID,
+      competition: { name: 'Klasa A' },
+      homeTeam: { name: 'LKS Żyraków' },
+      awayTeam: { name: 'Legion II Pilzno' },
+      schedule: { status: 'confirmed', dateTime: '2026-10-23T13:00:00.000Z' },
+      date: { date: '2026-10-23', dateTime: '2026-10-23T13:00:00.000Z' },
+    };
+    const canonTbc = buildNormalizedMatchId({ ...tbc }, ctx);
+    const canonConfirmed = buildNormalizedMatchId({ ...confirmed }, ctx);
+    // Same logical fixture despite refined schedule AND identical native id.
+    expect(canonTbc).toBe(canonConfirmed);
+    // Canonical id carries the native id as its tail segment...
+    expect(canonTbc).toContain(NATIVE_ID);
+    // ...and the native alias resolves back to it.
+    const normalized: any = ensureMatchHasNormalizedId({ ...confirmed }, ctx);
+    expect(getCanonicalMatchId(normalized)).toBe(canonConfirmed);
+    expect(getMatchAliases(normalized)).toContain(NATIVE_ID);
+  });
 });

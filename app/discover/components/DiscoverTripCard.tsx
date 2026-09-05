@@ -11,6 +11,7 @@ import {
 } from '@tabler/icons-react';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import type { DiscoverTrip } from 'lib/discover';
+import { scheduleCertaintyCounts } from 'lib/matchSchedule';
 import { Badge, Box, Button, Card, Group, Stack, Text, Tooltip } from '@mantine/core';
 import { formatShortRange } from './format';
 import {
@@ -157,9 +158,11 @@ export default function DiscoverTripCard({
   const t = useTranslations('Discover');
   const locale = useLocale();
 
+  // Opportunity-only candidates have no itinerary; preview TBC teams instead.
+  const teamSource = trip.matches.length > 0 ? trip.matches : (trip.tbcMatches ?? []);
   const { visible: teams, hiddenCount: hiddenTeams } = useMemo(
-    () => getVisibleTripTeams(trip.matches, 6),
-    [trip.matches]
+    () => getVisibleTripTeams(teamSource, 6),
+    [teamSource]
   );
   const competitions = useMemo(
     () => getVisibleTripCompetitions(trip.matches, variant === 'compact' ? 3 : 5),
@@ -170,6 +173,10 @@ export default function DiscoverTripCard({
 
   const destination = trip.destinationLabel || 'Football trip';
   const datesLine = `${formatShortRange(trip.tripStartDate, trip.tripEndDate, locale)} · ${t('daysOption', { count: trip.tripLengthDays })}${countryLabel ? ` · ${countryLabel}` : ''}`;
+  // User-facing certainty: date-confirmed itinerary slots count as TBC.
+  const confirmedCount = trip.confirmedCount ?? scheduleCertaintyCounts(trip.matches).confirmed;
+  const tbcTotal =
+    trip.tbcCount ?? scheduleCertaintyCounts(trip.matches).tbc + (trip.tbcMatches?.length ?? 0);
   const remaining = featured ? trip.matchCount - 1 : trip.matchCount;
   const cardClass =
     variant === 'compact'
@@ -250,19 +257,16 @@ export default function DiscoverTripCard({
           uefaCount={trip.uefaMatchCount}
           totalKm={trip.totalKm}
           matchLabel={
-            (trip.tbcMatches?.length ?? trip.tbcCount ?? 0) > 0
-              ? t('confirmedTbc', {
-                  confirmed: trip.matchCount,
-                  tbc: trip.tbcMatches?.length ?? trip.tbcCount ?? 0,
-                })
+            tbcTotal > 0
+              ? t('confirmedTbc', { confirmed: confirmedCount, tbc: tbcTotal })
               : t('matchCount', { count: trip.matchCount })
           }
           uefaLabel={t('uefaCount', { count: trip.uefaMatchCount })}
           kmLabel={t('totalKm', { count: trip.totalKm })}
         />
-        {(trip.tbcMatches?.length ?? trip.tbcCount ?? 0) > 0 && (
+        {tbcTotal > 0 && (
           <Text size="xs" c="dimmed" data-testid="discover-trip-tbc">
-            {t('tbcOpportunities', { count: trip.tbcMatches?.length ?? trip.tbcCount ?? 0 })}
+            {t('tbcOpportunities', { count: tbcTotal })}
           </Text>
         )}
 

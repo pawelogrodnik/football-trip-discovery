@@ -4,6 +4,7 @@ import { IconBallFootball, IconBed, IconPencil, IconRoute, IconTrophy } from '@t
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { isUefaCompetition } from 'lib/competitionPriority';
 import type { DiscoverTrip } from 'lib/discover';
+import { getFixtureSchedule, scheduleCertaintyCounts } from 'lib/matchSchedule';
 import { Avatar, Badge, Button, Drawer, Group, Stack, Text, Timeline } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { formatKickoff, formatShortRange, formatTripDayLabel, matchIdOf } from './format';
@@ -49,6 +50,10 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
   const t = useTranslations('Discover');
   const locale = useLocale();
   const isMobile = useMediaQuery('(max-width: 768px)');
+  // User-facing certainty: date-confirmed itinerary slots count as TBC.
+  const confirmedCount = trip?.confirmedCount ?? scheduleCertaintyCounts(trip?.matches).confirmed;
+  const tbcTotal =
+    trip?.tbcCount ?? scheduleCertaintyCounts(trip?.matches).tbc + (trip?.tbcMatches?.length ?? 0);
 
   return (
     <Drawer
@@ -71,16 +76,10 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
           </Text>
           <Group gap={6} data-testid="discover-drawer-badges">
             <Badge variant="light" leftSection={<IconBallFootball size={12} />}>
-              {t('matchCount', { count: trip.matchCount })}
+              {tbcTotal > 0
+                ? t('confirmedTbc', { confirmed: confirmedCount, tbc: tbcTotal })
+                : t('matchCount', { count: trip.matchCount })}
             </Badge>
-            {(trip.tbcMatches?.length ?? trip.tbcCount ?? 0) > 0 && (
-              <Badge variant="outline" color="orange" data-testid="discover-drawer-tbc-badge">
-                {t('confirmedTbc', {
-                  confirmed: trip.matchCount,
-                  tbc: trip.tbcMatches?.length ?? trip.tbcCount ?? 0,
-                })}
-              </Badge>
-            )}
             {trip.uefaMatchCount > 0 && (
               <Badge variant="light" color="violet" leftSection={<IconTrophy size={12} />}>
                 {t('uefaCount', { count: trip.uefaMatchCount })}
@@ -118,65 +117,96 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
               </>
             )}
           </div>
-          <Timeline
-            active={trip.matchCount}
-            bulletSize={24}
-            lineWidth={2}
-            data-testid="discover-drawer-timeline"
-          >
-            {trip.matches.map((m, i) => {
-              const leg = trip.legs?.find((l) => l.fromIdx === i);
-              const dateTime =
-                m.date?.dateTime ?? (m.date?.date ? `${m.date.date}T12:00:00.000Z` : undefined);
-              return (
-                <Timeline.Item
-                  key={matchIdOf(m)}
-                  bullet={
-                    <Text size="sm" fw={700}>
-                      {i + 1}
-                    </Text>
-                  }
-                  title={
-                    <Group gap={6} wrap="nowrap">
-                      <Crest name={m.homeTeam?.name ?? ''} crest={m.homeTeam?.crest} size={20} />
-                      <Text size="sm" fw={500} lineClamp={1}>
-                        {m.homeTeam?.name}
+          {trip.matches.length > 0 ? (
+            <>
+              {tbcTotal > 0 && (
+                <Text size="sm" fw={700} data-testid="discover-drawer-confirmed-heading">
+                  {t('confirmedItinerary')}
+                </Text>
+              )}
+              <Timeline
+                active={trip.matchCount}
+                bulletSize={24}
+                lineWidth={2}
+                data-testid="discover-drawer-timeline"
+              >
+                {trip.matches.map((m, i) => {
+                  const leg = trip.legs?.find((l) => l.fromIdx === i);
+                  const schedule = getFixtureSchedule(m);
+                  // Day known but kickoff TBC: never render a synthetic noon time.
+                  const isDayOnly = schedule?.status === 'date-confirmed' && !m.date?.dateTime;
+                  const dateTime = isDayOnly
+                    ? `${schedule.date}T12:00:00.000Z`
+                    : (m.date?.dateTime ??
+                      (m.date?.date ? `${m.date.date}T12:00:00.000Z` : undefined));
+                  return (
+                    <Timeline.Item
+                      key={matchIdOf(m)}
+                      bullet={
+                        <Text size="sm" fw={700}>
+                          {i + 1}
+                        </Text>
+                      }
+                      title={
+                        <Group gap={6} wrap="nowrap">
+                          <Crest
+                            name={m.homeTeam?.name ?? ''}
+                            crest={m.homeTeam?.crest}
+                            size={20}
+                          />
+                          <Text size="sm" fw={500} lineClamp={1}>
+                            {m.homeTeam?.name}
+                          </Text>
+                          <Text size="sm" c="dimmed">
+                            vs
+                          </Text>
+                          <Crest
+                            name={m.awayTeam?.name ?? ''}
+                            crest={m.awayTeam?.crest}
+                            size={20}
+                          />
+                          <Text size="sm" fw={500} lineClamp={1}>
+                            {m.awayTeam?.name}
+                          </Text>
+                        </Group>
+                      }
+                    >
+                      <Text size="xs" c="dimmed">
+                        {isDayOnly ? (
+                          <>
+                            {formatTripDayLabel(dateTime, locale)} · {t('kickoffTbc')}
+                          </>
+                        ) : (
+                          <>
+                            {formatTripDayLabel(dateTime, locale)} ·{' '}
+                            {m.date?.approximate ? '~' : ''}
+                            {formatKickoff(dateTime, locale)}
+                          </>
+                        )}
                       </Text>
-                      <Text size="sm" c="dimmed">
-                        vs
+                      <Group gap={4} mt={2}>
+                        {isUefaCompetition(m.competition) && (
+                          <Badge size="xs" variant="light" color="violet">
+                            {uefaBadgeLabel(m.competition?.name ?? '')}
+                          </Badge>
+                        )}
+                      </Group>
+                      <Text size="xs" c="dimmed">
+                        {m.competition?.name}
+                        {(m.stadium?.name || m.stadium?.city) &&
+                          ` • ${[m.stadium?.name, m.stadium?.city].filter(Boolean).join(', ')}`}
                       </Text>
-                      <Crest name={m.awayTeam?.name ?? ''} crest={m.awayTeam?.crest} size={20} />
-                      <Text size="sm" fw={500} lineClamp={1}>
-                        {m.awayTeam?.name}
-                      </Text>
-                    </Group>
-                  }
-                >
-                  <Text size="xs" c="dimmed">
-                    {formatTripDayLabel(dateTime, locale)} · {m.date?.approximate ? '~' : ''}
-                    {formatKickoff(dateTime, locale)}
-                  </Text>
-                  <Group gap={4} mt={2}>
-                    {isUefaCompetition(m.competition) && (
-                      <Badge size="xs" variant="light" color="violet">
-                        {uefaBadgeLabel(m.competition?.name ?? '')}
-                      </Badge>
-                    )}
-                  </Group>
-                  <Text size="xs" c="dimmed">
-                    {m.competition?.name}
-                    {(m.stadium?.name || m.stadium?.city) &&
-                      ` • ${[m.stadium?.name, m.stadium?.city].filter(Boolean).join(', ')}`}
-                  </Text>
-                  {leg && (
-                    <Badge size="xs" variant="outline" color="gray" mt={4}>
-                      ↓ {t('toNext', { km: leg.km })}
-                    </Badge>
-                  )}
-                </Timeline.Item>
-              );
-            })}
-          </Timeline>
+                      {leg && (
+                        <Badge size="xs" variant="outline" color="gray" mt={4}>
+                          ↓ {t('toNext', { km: leg.km })}
+                        </Badge>
+                      )}
+                    </Timeline.Item>
+                  );
+                })}
+              </Timeline>
+            </>
+          ) : null}
           {(trip.tbcMatches?.length ?? 0) > 0 && (
             <Stack gap={6} mt="sm" data-testid="discover-drawer-tbc">
               <Text size="sm" fw={700} data-testid="discover-drawer-tbc-heading">
