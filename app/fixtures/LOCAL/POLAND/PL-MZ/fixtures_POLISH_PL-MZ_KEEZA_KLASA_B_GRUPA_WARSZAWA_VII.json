@@ -1,13 +1,13 @@
 {
   "competitionName": "Keeza Klasa B (Warszawa VII)",
-  "count": 6,
+  "count": 5,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa B (Warszawa VII)"
       },
       "homeTeam": {
-        "name": "Okęcie II Warszawa",
+        "name": "Ożarowianka II Ożarów Mazowiecki",
         "crest": null
       },
       "awayTeam": {
@@ -15,68 +15,19 @@
         "crest": null
       },
       "date": {
-        "date": "2026-08-29",
-        "dateTime": "2026-08-29T08:00:00.000Z"
+        "date": "2026-09-04",
+        "dateTime": "2026-09-04T19:30:00.000Z"
       },
-      "id": "d87c109f1bc08357de78f5280932d2ae",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa VII)"
-      },
-      "homeTeam": {
-        "name": "Przyszłość II Włochy (Warszawa)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast II Piastów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-08-29",
-        "dateTime": "2026-08-29T11:30:00.000Z"
-      },
-      "id": "ef6c38688cdc6b77d4819dc63c127eef",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa VII)"
-      },
-      "homeTeam": {
-        "name": "FC Płochocin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "AMT II Nowa Wieś",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T10:30:00.000Z"
-      },
-      "id": "e1fe079d0379a0accb6009e25f00c130",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa VII)"
-      },
-      "homeTeam": {
-        "name": "Polonia IV Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ursus IV Warszawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T12:30:00.000Z"
-      },
-      "id": "0de2331e386c8841dba765b9ff0db3ae",
-      "stadium": null
+      "id": "0a55b019e4f586acb729d84aca1441d8",
+      "stadium": {
+        "venue": "Stadion Ożarowianka",
+        "address": "Poznańska 129, Ożarów Mazowiecki",
+        "geo": {
+          "latitude": 52.2107876,
+          "longitude": 20.819578,
+          "name": "129, Poznańska, Osiedle Kabel, Ożarów Mazowiecki, gmina Ożarów Mazowiecki, powiat warszawski zachodni, województwo mazowieckie, 05-850, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -87,14 +38,14 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Skra 1921 Warszawa",
+        "name": "FC Płochocin",
         "crest": null
       },
       "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T12:30:00.000Z"
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T10:00:00.000Z"
       },
-      "id": "a62898969a5a42c2b6eb81d4764e0c4c",
+      "id": "0aa42a5ee4399c7fb769d2507b039f57",
       "stadium": null
     },
     {
@@ -102,25 +53,63 @@
         "name": "Keeza Klasa B (Warszawa VII)"
       },
       "homeTeam": {
-        "name": "Ożarowianka II Ożarów Mazowiecki",
+        "name": "Piast II Piastów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Passovia Pass",
+        "name": "Okęcie II Warszawa",
         "crest": null
       },
       "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T17:00:00.000Z"
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T11:00:00.000Z"
       },
-      "id": "69494e6535b0a9be13c7c4e38d584e0c",
+      "id": "3a7b2b1a15afd6c4eaaf954f30c13fff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa VII)"
+      },
+      "homeTeam": {
+        "name": "AMT II Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia IV Warszawa",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T17:45:00.000Z"
+      },
+      "id": "f2f3b4fb919cf7adc63c92b778e3ddde",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa VII)"
+      },
+      "homeTeam": {
+        "name": "Ursus IV Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość II Włochy (Warszawa)",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T19:00:00.000Z"
+      },
+      "id": "65909bf9e68d8dc18ecd1b0483446363",
       "stadium": {
-        "address": "Stadionweg 1 Alkmaar 1812 AZ",
-        "venue": "AFAS Stadion",
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
         "geo": {
-          "latitude": 52.6128273,
-          "longitude": 4.7420619,
-          "name": "AFAS Stadion, P4, Overdie-West, Alkmaar, Noord-Holland, Nederland, 1813 KZ, Nederland"
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
         }
       }
     }

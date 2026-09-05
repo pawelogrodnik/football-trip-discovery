@@ -21,5 +21,30 @@ export default defineConfig(
         project: ['./tsconfig.json'],
       },
     },
+  },
+  {
+    // Standalone Node scripts: no project type information; allow the
+    // default project so the parser does not hunt for a tsconfig.
+    // These run as plain CommonJS CLIs (package has no "type": "module"),
+    // so require() imports are necessary here.
+    files: [
+      'eslint.config.mjs',
+      'scripts/fixtures-sync/*.js',
+      'scripts/fixtures-sync/__tests__/*.js',
+    ],
+    rules: { '@typescript-eslint/no-require-imports': 'off' },
+    languageOptions: {
+      parserOptions: {
+        tsconfigRootDir: process.cwd(),
+        projectService: {
+          allowDefaultProject: [
+            'eslint.config.mjs',
+            'scripts/fixtures-sync/*.js',
+            'scripts/fixtures-sync/__tests__/*.js',
+          ],
+        },
+        project: null,
+      },
+    },
   }
 );
