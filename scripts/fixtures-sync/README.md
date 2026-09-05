@@ -1,33 +1,65 @@
 # Fixtures Sync
 
-Utility script that downloads fixture JSON blobs from your private API and mirrors
-them into `app/fixtures`. Keys from the API response are treated as paths inside
-that directory (for example `EU/fixtures_UCL.json` becomes
-`app/fixtures/EU/fixtures_UCL.json`).
+Repository-to-repository mirror: committed `fixtures/**` from
+`pawelogrodnik/redesigned-broccoli@main` is copied into `app/fixtures`,
+preserving relative paths. Stale destination files (removed from the backend
+source) are deleted; nothing outside `app/fixtures` is ever touched.
+
+No backend HTTP API is involved. The old `FIXTURES_SYNC_API_URL` /
+`FIXTURES_SYNC_API_KEY` configuration is obsolete and has been removed.
 
 ## Running locally
 
+Check out the backend repository next to (or inside) this one, then:
+
 ```bash
-FIXTURES_SYNC_API_URL=http://localhost:4000/api/fixtures \
-FIXTURES_SYNC_API_KEY=dev-key \
-npm run sync:fixtures
+node scripts/fixtures-sync/index.js \
+  --source ../redesigned-broccoli/fixtures \
+  --source-repo pawelogrodnik/redesigned-broccoli \
+  --source-ref main \
+  --source-sha "$(git -C ../redesigned-broccoli rev-parse HEAD)"
 ```
 
-Environment variables:
+Options:
 
-| Name | Description | Default |
-| --- | --- | --- |
-| `FIXTURES_SYNC_API_URL` | Full URL of the backend endpoint that returns a record of fixture files. | `http://localhost:4000/api/fixtures` |
-| `FIXTURES_SYNC_API_KEY` | Optional key forwarded as `x-api-key`. | _empty_ |
-| `FIXTURES_SYNC_TARGET_DIR` | Where to write the files relative to repo root. | `app/fixtures` |
+| Flag                 | Description                                                  | Default                             |
+| -------------------- | ------------------------------------------------------------ | ----------------------------------- |
+| `--source`           | Backend `fixtures` directory (required).                     | —                                   |
+| `--source-sha`       | Exact backend commit, recorded in `.source.json` (required). | —                                   |
+| `--source-repo`      | Recorded in `.source.json`.                                  | `pawelogrodnik/redesigned-broccoli` |
+| `--source-ref`       | Recorded in `.source.json`.                                  | `main`                              |
+| `--min-source-files` | Fail closed below this source file count.                    | `50`                                |
+| `--dry-run`          | Validate and report without writing.                         | —                                   |
 
-The endpoint must return an object where each key represents a path (relative to
-`app/fixtures`) and the value is any JSON-serialisable payload for that file.
-If the response wraps those keys in a top-level `files` property, the script
-will use that instead.
+Destination is fixed to `app/fixtures`: the CLI accepts no destination
+argument (`--dest` was removed) and refuses to mirror anywhere else
+(repo root, `app`, `scripts`, traversal paths, external paths).
+Unit tests may use temporary destinations via the internal
+`allowExternalDest` function parameter; that escape hatch is not exposed
+through the CLI.
+
+## Safeguards (fail closed)
+
+- Missing `--source-sha` aborts before anything is written.
+- Missing/empty source aborts before anything is written.
+- Every source `.json` must parse, otherwise the sync aborts with no writes.
+- A source with >50% fewer files than the current snapshot aborts.
+- Writes and deletions are confined to `app/fixtures` only.
+- `app/fixtures/.source.json` records `{ repository, ref, commit, syncedAt }`.
+  Re-running with the same backend SHA leaves it (and unchanged fixtures)
+  untouched, so no-op syncs produce no commit.
 
 ## Scheduler
 
-See `.github/workflows/fixtures-sync.yml` for an example GitHub Actions cron job
-that runs the script weekly, commits any changes under `app/fixtures`, and
-pushes them back to the repository.
+`.github/workflows/fixtures-sync.yml` checks out both repositories (the
+backend checkout needs a fine-grained PAT in the `BACKEND_REPO_TOKEN` secret
+with **Contents: Read** on `pawelogrodnik/redesigned-broccoli`, with
+`persist-credentials: false`), mirrors the
+tree, runs `npx jest scripts/fixtures-sync`, and commits `app/fixtures/**`
+only when something changed.
+
+## Tests
+
+```bash
+npx jest scripts/fixtures-sync
+```

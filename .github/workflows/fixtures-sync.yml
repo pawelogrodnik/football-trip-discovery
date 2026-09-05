@@ -11,7 +11,25 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout frontend
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Direct repository-to-repository sync: the committed fixtures in
+      # pawelogrodnik/redesigned-broccoli@main are the source of truth.
+      # Requires a fine-grained PAT stored as BACKEND_REPO_TOKEN with
+      # Contents: Read on pawelogrodnik/redesigned-broccoli (no write access).
+      - name: Checkout backend fixtures source
+        uses: actions/checkout@v4
+        with:
+          repository: pawelogrodnik/redesigned-broccoli
+          ref: main
+          path: .backend-fixtures-source
+          token: ${{ secrets.BACKEND_REPO_TOKEN }}
+          # Token is only needed to read the private backend repo; do not
+          # persist it in the checkout's git config.
+          persist-credentials: false
 
       - uses: actions/setup-node@v4
         with:
@@ -21,11 +39,24 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Update fixtures
-        run: npm run sync:fixtures
-        env:
-          FIXTURES_SYNC_API_URL: ${{ secrets.FIXTURES_SYNC_API_URL }}
-          FIXTURES_SYNC_API_KEY: ${{ secrets.FIXTURES_SYNC_API_KEY }}
+      - name: Mirror fixtures from backend checkout
+        id: mirror
+        run: |
+          BACKEND_SHA="$(git -C .backend-fixtures-source rev-parse HEAD)"
+          echo "BACKEND_SHA=$BACKEND_SHA" >> "$GITHUB_ENV"
+          echo "backend_sha=$BACKEND_SHA" >> "$GITHUB_OUTPUT"
+          echo "Backend source SHA: $BACKEND_SHA"
+          node scripts/fixtures-sync/index.js \
+            --source .backend-fixtures-source/fixtures \
+            --source-repo pawelogrodnik/redesigned-broccoli \
+            --source-ref main \
+            --source-sha "$BACKEND_SHA"
+
+      - name: Run fixture sync tests
+        run: npx jest scripts/fixtures-sync --silent
+
+      - name: Show fixture diff summary
+        run: git status --porcelain app/fixtures | head -n 50
 
       - name: Commit and push changes
         run: |
@@ -33,7 +64,8 @@ jobs:
             git config user.name "fixtures-bot"
             git config user.email "fixtures-bot@users.noreply.github.com"
             git add app/fixtures
-            git commit -m "chore: sync fixtures"
+            SHORT_SHA="$(echo "$BACKEND_SHA" | cut -c1-7)"
+            git commit -m "chore: sync fixtures from redesigned-broccoli $SHORT_SHA"
             git push
           else
             echo "No fixtures changes to commit."

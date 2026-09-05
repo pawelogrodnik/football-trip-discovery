@@ -1,89 +1,24 @@
 {
   "competitionName": "Keeza Klasa B (Warszawa I)",
-  "count": 6,
+  "count": 5,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa B (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Agape II Białołęka (Warszawa)",
         "crest": null
       },
-      "date": {
-        "date": "2026-08-29",
-        "dateTime": "2026-08-29T14:00:00.000Z"
-      },
-      "id": "682cc7541d15b9cf502cba40e83a2a8d",
-      "stadium": {
-        "address": "Stadionweg 1 Alkmaar 1812 AZ",
-        "venue": "AFAS Stadion",
-        "geo": {
-          "latitude": 52.6128273,
-          "longitude": 4.7420619,
-          "name": "AFAS Stadion, P4, Overdie-West, Alkmaar, Noord-Holland, Nederland, 1813 KZ, Nederland"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa I)"
-      },
-      "homeTeam": {
-        "name": "Pensylwania Łajski",
-        "crest": null
-      },
       "awayTeam": {
-        "name": "Czosnów United",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T10:00:00.000Z"
-      },
-      "id": "c6ee8ff68510ce4d4da81166aac5c277",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa I)"
-      },
-      "homeTeam": {
-        "name": "Rządza Załubice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisła Jabłonna",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T14:00:00.000Z"
-      },
-      "id": "d80ccbe6c24c78bc9f8efe21032926e1",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa I)"
-      },
-      "homeTeam": {
         "name": "Rotavia Nieporęt",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Mewa Krubin",
-        "crest": null
-      },
       "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T14:00:00.000Z"
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T10:00:00.000Z"
       },
-      "id": "ae87e50ac1bba52b40584e71ad564981",
+      "id": "76c969af3e3e0a1c835a55767087b538",
       "stadium": null
     },
     {
@@ -91,18 +26,18 @@
         "name": "Keeza Klasa B (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Impet Łajski",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Dąb II Wieliszew",
         "crest": null
       },
-      "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
       },
-      "id": "0b289b141929e02ef15067bfc93d78b8",
+      "date": {
+        "date": "2026-09-05",
+        "dateTime": "2026-09-05T13:30:00.000Z"
+      },
+      "id": "991234d7af130e68bd9bc0722a7c0ee0",
       "stadium": null
     },
     {
@@ -110,18 +45,56 @@
         "name": "Keeza Klasa B (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Victoria Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Wkra Pomiechówek",
         "crest": null
       },
-      "date": {
-        "date": "2026-08-30",
-        "dateTime": "2026-08-30T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Impet Łajski",
+        "crest": null
       },
-      "id": "293be39a332491791e89824352cfd38f",
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T12:00:00.000Z"
+      },
+      "id": "5e8a6d05ac8920195860bcbc07dc1e71",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T16:30:00.000Z"
+      },
+      "id": "7b70fd9016593174e8a168f2c69c2e2e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
+        "crest": null
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T17:00:00.000Z"
+      },
+      "id": "87e40d63620e3d4581ae140b5269b478",
       "stadium": null
     }
   ]
