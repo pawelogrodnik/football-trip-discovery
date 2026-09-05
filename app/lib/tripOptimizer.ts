@@ -1,12 +1,21 @@
 import * as turf from '@turf/turf';
 import { DEFAULT_INTER_TRAVEL_KM } from './distance';
+import { getFixtureSchedule } from './matchSchedule';
 
 export type TripMatch = {
   id: string;
   homeTeam: { name: string; crest?: string | null };
   awayTeam: { name: string; crest?: string | null };
   competition: { name: string; code?: string };
-  date: { date?: string; dateTime?: string; time?: string; approximate?: boolean };
+  date: {
+    date?: string;
+    dateTime?: string;
+    time?: string;
+    approximate?: boolean;
+    startDate?: string;
+    endDate?: string;
+  };
+  schedule?: unknown;
   stadium?: {
     city?: string | null;
     venue?: string | null;
@@ -29,6 +38,8 @@ export type Leg = {
 export type Trip = {
   id: string;
   matches: TripMatch[];
+  /** Date-window fixtures attached as opportunities, never itinerary slots. */
+  tbcMatches?: TripMatch[];
   totalKm: number;
   matchCount: number;
   legs: Leg[];
@@ -36,15 +47,68 @@ export type Trip = {
 
 const DEFAULT_MATCH_MINUTES = 105; // 90 + 15
 
-function getStartMs(m: TripMatch): number {
-  const iso = m.date?.dateTime || (m.date?.date ? `${m.date.date}T00:00:00.000Z` : null);
-  if (!iso) return 0;
-  const t = Date.parse(iso);
-  return Number.isNaN(t) ? 0 : t;
+const DATE_ONLY_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+/** True for date-window fixtures: opportunity only, never a DP slot. */
+export function isWindowOnlyMatch(m: TripMatch): boolean {
+  return getFixtureSchedule(m as never)?.status === 'date-window';
 }
 
-function getEndMs(m: TripMatch, bufferMinutes: number): number {
-  return getStartMs(m) + (DEFAULT_MATCH_MINUTES + bufferMinutes) * 60 * 1000;
+function confirmedStartMs(m: TripMatch): number | null {
+  const schedule = getFixtureSchedule(m as never);
+  const iso =
+    schedule?.status === 'confirmed'
+      ? schedule.dateTime
+      : m.date?.dateTime || (m.date?.date ? `${m.date.date}T00:00:00.000Z` : null);
+  if (!iso) {
+    return null;
+  }
+  const t = Date.parse(iso);
+  return Number.isNaN(t) ? null : t;
+}
+
+/**
+ * Feasibility block for the DP optimizer.
+ * - confirmed: exact start/end (match + buffer).
+ * - date-confirmed: the WHOLE calendar day is occupied — same-day
+ *   compatibility with any other fixture can never be proven.
+ * - date-window: no block (excluded from the optimizer entirely).
+ * Never uses a synthetic noon kickoff to establish feasibility.
+ */
+function getBlockMs(
+  m: TripMatch,
+  bufferMinutes: number
+): { startMs: number; endMs: number } | null {
+  const schedule = getFixtureSchedule(m as never);
+  if (schedule?.status === 'date-window' || (!schedule && !m.date?.dateTime && !m.date?.date)) {
+    return null;
+  }
+  if (schedule?.status === 'date-confirmed' || (m.date?.date && DATE_ONLY_RE.test(m.date.date))) {
+    const day = schedule?.status === 'date-confirmed' ? schedule.date : (m.date.date as string);
+    const startMs = Date.parse(`${day}T00:00:00.000Z`);
+    if (Number.isNaN(startMs)) {
+      return null;
+    }
+    return { startMs, endMs: startMs + 24 * 3600 * 1000 - 1 };
+  }
+  const startMs = confirmedStartMs(m);
+  if (startMs === null) {
+    return null;
+  }
+  return { startMs, endMs: startMs + (DEFAULT_MATCH_MINUTES + bufferMinutes) * 60 * 1000 };
+}
+
+function getStartMs(m: TripMatch): number {
+  const schedule = getFixtureSchedule(m as never);
+  if (schedule?.status === 'date-confirmed') {
+    const t = Date.parse(`${schedule.date}T00:00:00.000Z`);
+    return Number.isNaN(t) ? 0 : t;
+  }
+  if (schedule?.status === 'date-window') {
+    const t = Date.parse(`${schedule.startDate}T00:00:00.000Z`);
+    return Number.isNaN(t) ? 0 : t;
+  }
+  return confirmedStartMs(m) ?? 0;
 }
 
 export function haversineKm(a: TripMatch, b: TripMatch): number | null {
@@ -57,8 +121,9 @@ export function haversineKm(a: TripMatch, b: TripMatch): number | null {
     typeof lon1 !== 'number' ||
     typeof lat2 !== 'number' ||
     typeof lon2 !== 'number'
-  )
+  ) {
     return null;
+  }
   return turf.distance(turf.point([lon1, lat1]), turf.point([lon2, lat2]), { units: 'kilometers' });
 }
 
@@ -68,7 +133,9 @@ export function distanceFromStart(
 ): number | null {
   const lat = match.stadium?.geo?.latitude;
   const lon = match.stadium?.geo?.longitude;
-  if (typeof lat !== 'number' || typeof lon !== 'number') return null;
+  if (typeof lat !== 'number' || typeof lon !== 'number') {
+    return null;
+  }
   return turf.distance(turf.point([start.lon, start.lat]), turf.point([lon, lat]), {
     units: 'kilometers',
   });
@@ -91,13 +158,22 @@ export function suggestTrips(
   const limit = opts.limit ?? 3;
   const maxHop = opts.maxInterTravelKm ?? DEFAULT_INTER_TRAVEL_KM;
 
-  // Filter out matches without geo or date
+  // Filter out matches without geo or schedulable time.
+  // Date-window fixtures never enter the DP optimizer (opportunity only).
   const withGeo = matches.filter((m) => {
     const lat = m.stadium?.geo?.latitude;
     const lon = m.stadium?.geo?.longitude;
     const hasGeo = typeof lat === 'number' && typeof lon === 'number';
-    const hasTime = !!getStartMs(m);
-    if (!hasGeo || !hasTime) return false;
+    if (!hasGeo) {
+      return false;
+    }
+    if (isWindowOnlyMatch(m)) {
+      return false;
+    }
+    const block = getBlockMs(m, buffer);
+    if (!block) {
+      return false;
+    }
     if (opts.startLocation) {
       const d = distanceFromStart(m, opts.startLocation);
       if (d !== null && d > maxHop) {
@@ -108,7 +184,9 @@ export function suggestTrips(
     return true;
   });
 
-  if (withGeo.length === 0) return [];
+  if (withGeo.length === 0) {
+    return [];
+  }
 
   // Sort by start time
   const sorted = [...withGeo].sort((a, b) => getStartMs(a) - getStartMs(b));
@@ -126,9 +204,13 @@ export function suggestTrips(
 
   // For startLocation, first match must be within maxHop from start
   function isReachableFromStart(idx: number): boolean {
-    if (!opts.startLocation) return true;
+    if (!opts.startLocation) {
+      return true;
+    }
     const d = distanceFromStart(sorted[idx], opts.startLocation);
-    if (d === null) return false;
+    if (d === null) {
+      return false;
+    }
     return d <= maxHop;
   }
 
@@ -137,7 +219,9 @@ export function suggestTrips(
 
   for (let k = 0; k < limit; k++) {
     const remainingIndices = sorted.map((_, i) => i).filter((i) => !usedGlobal.has(i));
-    if (remainingIndices.length === 0) break;
+    if (remainingIndices.length === 0) {
+      break;
+    }
     const filtered = remainingIndices.map((i) => ({ idx: i, match: sorted[i] }));
     const m = filtered.length;
     // dp[i] = longest valid trip ENDING exactly at filtered[i]
@@ -152,15 +236,26 @@ export function suggestTrips(
         dp[i] = 1;
         prevIdx[i] = -1;
       }
-      // Try to extend any previous chain
+      // Try to extend any previous chain. Blocks (not synthetic kickoffs)
+      // decide compatibility, so date-confirmed whole-day blocks can never
+      // prove same-day compatibility with another fixture.
       for (let j = 0; j < i; j++) {
-        if (dp[j] === -Infinity) continue;
+        if (dp[j] === -Infinity) {
+          continue;
+        }
         const prevCurIdx = filtered[j].idx;
-        const endJ = getEndMs(sorted[prevCurIdx], buffer);
-        const startI = getStartMs(sorted[curIdx]);
-        if (endJ > startI) continue;
+        const blockJ = getBlockMs(sorted[prevCurIdx], buffer);
+        const blockI = getBlockMs(sorted[curIdx], buffer);
+        if (!blockJ || !blockI) {
+          continue;
+        }
+        if (blockJ.endMs > blockI.startMs) {
+          continue;
+        }
         const d = travel[prevCurIdx][curIdx];
-        if (d > maxHop) continue;
+        if (d > maxHop) {
+          continue;
+        }
         if (dp[j] + 1 > dp[i]) {
           dp[i] = dp[j] + 1;
           prevIdx[i] = j;
@@ -171,16 +266,23 @@ export function suggestTrips(
     // Find best end (max dp)
     let bestEnd = -1;
     let bestVal = -Infinity;
-    for (let j = 0; j < m; j++)
+    for (let j = 0; j < m; j++) {
       if (dp[j] > bestVal) {
         bestVal = dp[j];
         bestEnd = j;
       }
-    if (bestEnd === -1 || bestVal === -Infinity || bestVal < 1) break;
+    }
+    if (bestEnd === -1 || bestVal === -Infinity || bestVal < 1) {
+      break;
+    }
     const tripIndices: number[] = [];
-    for (let cur = bestEnd; cur !== -1; cur = prevIdx[cur]) tripIndices.push(filtered[cur].idx);
+    for (let cur = bestEnd; cur !== -1; cur = prevIdx[cur]) {
+      tripIndices.push(filtered[cur].idx);
+    }
     tripIndices.reverse();
-    if (tripIndices.length === 0) break;
+    if (tripIndices.length === 0) {
+      break;
+    }
 
     // Build trip
     const tripMatches = tripIndices.map((idx) => sorted[idx]);
@@ -200,7 +302,9 @@ export function suggestTrips(
     }
     if (opts.startLocation && tripMatches.length > 0) {
       const d0 = distanceFromStart(tripMatches[0], opts.startLocation);
-      if (d0 !== null) totalKm += d0;
+      if (d0 !== null) {
+        totalKm += d0;
+      }
     }
 
     trips.push({
@@ -211,8 +315,12 @@ export function suggestTrips(
       legs,
     });
 
-    for (const idx of tripIndices) usedGlobal.add(idx);
-    if (usedGlobal.size >= n) break;
+    for (const idx of tripIndices) {
+      usedGlobal.add(idx);
+    }
+    if (usedGlobal.size >= n) {
+      break;
+    }
   }
 
   // Sort trips by count desc, then totalKm asc

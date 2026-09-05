@@ -3,7 +3,8 @@ import {
   getCompetitionTier,
   isUefaCompetition,
 } from './competitionPriority';
-import { haversineKm, suggestTrips, Trip, TripMatch } from './tripOptimizer';
+import { getFixtureSchedule, scheduleIntersectsRange } from './matchSchedule';
+import { haversineKm, isWindowOnlyMatch, suggestTrips, Trip, TripMatch } from './tripOptimizer';
 
 export type DiscoverCategory = 'top' | 'uefa' | 'lower' | 'most' | 'easy';
 export type DiscoverDestinationMode = 'anywhere' | 'around-city';
@@ -30,6 +31,8 @@ export type DiscoverTripMeta = {
   uefaMatchCount: number;
   maxLegKm: number;
   destinationLabel: string;
+  /** Attached date-window opportunities (never guaranteed slots). */
+  tbcCount?: number;
 };
 
 export type DiscoverTrip = Trip & DiscoverTripMeta;
@@ -64,6 +67,20 @@ export function calendarDaysInclusive(startDateOnly: string, endDateOnly: string
 }
 
 export function matchDateOnlyUTC(m: TripMatch): string | null {
+  const schedule = getFixtureSchedule(m as never);
+  if (schedule?.status === 'confirmed') {
+    const d = new Date(schedule.dateTime);
+    if (Number.isNaN(d.getTime())) {
+      return null;
+    }
+    return toDateOnlyUTC(d);
+  }
+  if (schedule?.status === 'date-confirmed') {
+    return schedule.date;
+  }
+  if (schedule?.status === 'date-window') {
+    return schedule.startDate;
+  }
   const iso = m.date?.dateTime || m.date?.date || null;
   if (!iso) {
     return null;
@@ -213,6 +230,7 @@ export function enrichTrip(trip: Trip): DiscoverTrip {
     tripLengthDays: lengthDays,
     uefaMatchCount: uefaCount(trip),
     maxLegKm: maxLegKm(trip),
+    tbcCount: trip.tbcMatches?.length ?? 0,
     destinationLabel: getTripDestinationLabel(
       trip as DiscoverTrip['matches'] extends never
         ? never
@@ -232,9 +250,13 @@ export type DiscoverGenOpts = {
 };
 
 function matchesInWindow(matches: TripMatch[], ws: string, we: string): TripMatch[] {
-  const startMs = parseDateOnlyUTC(ws).getTime();
-  const endMs = parseDateOnlyUTC(we).getTime() + 24 * 3600 * 1000 - 1;
   return matches.filter((m) => {
+    // Overlap semantics: a date-window fixture belongs to every search
+    // window it intersects. Rows without a schedule keep the legacy
+    // point-in-window check.
+    if (getFixtureSchedule(m as never)) {
+      return scheduleIntersectsRange(m as never, ws, we);
+    }
     const iso = m.date?.dateTime || (m.date?.date ? `${m.date.date}T00:00:00.000Z` : null);
     if (!iso) {
       return false;
@@ -243,6 +265,8 @@ function matchesInWindow(matches: TripMatch[], ws: string, we: string): TripMatc
     if (Number.isNaN(t)) {
       return false;
     }
+    const startMs = parseDateOnlyUTC(ws).getTime();
+    const endMs = parseDateOnlyUTC(we).getTime() + 24 * 3600 * 1000 - 1;
     return t >= startMs && t <= endMs;
   });
 }
@@ -287,7 +311,12 @@ export function suggestDiscoverTrips(
     if (inWindow.length === 0) {
       continue;
     }
-    const found = suggestTrips(inWindow, {
+    const schedulable = inWindow.filter((m) => !isWindowOnlyMatch(m));
+    const tbcPool = inWindow.filter((m) => isWindowOnlyMatch(m));
+    if (schedulable.length === 0) {
+      continue;
+    }
+    const found = suggestTrips(schedulable, {
       maxInterTravelKm: opts.maxInterTravelKm,
       bufferMinutes: opts.bufferMinutes ?? 30,
       startLocation: opts.startLocation ?? null,
@@ -295,12 +324,21 @@ export function suggestDiscoverTrips(
     });
     // Guard: never emit a trip longer (calendar days) than the window duration
     for (const t of found) {
-      const { lengthDays } = tripDates(t);
-      if (lengthDays > 0 && lengthDays <= w.tripLengthDays) {
-        collected.push(t);
-      } else if (lengthDays === 0) {
-        collected.push(t);
+      const { start, end, lengthDays } = tripDates(t);
+      if (lengthDays > w.tripLengthDays) {
+        continue;
       }
+      // Attach date-window fixtures overlapping the trip's own date span
+      // as opportunities — never as guaranteed itinerary slots.
+      const spanStart = start ?? w.windowStart;
+      const spanEnd = end ?? w.windowEnd;
+      const tripIds = new Set(t.matches.map((m) => String((m as { id?: string }).id ?? '')));
+      t.tbcMatches = tbcPool.filter(
+        (m) =>
+          !tripIds.has(String((m as { id?: string }).id ?? '')) &&
+          scheduleIntersectsRange(m as never, spanStart, spanEnd)
+      );
+      collected.push(t);
     }
   }
   // Re-id deterministically after merge, then dedupe
@@ -347,6 +385,11 @@ export function maxCompetitionPriority(trip: Pick<Trip, 'matches'>): number {
   return best;
 }
 
+/** Lower-tier TBC opportunities attached to the trip (uncertainty is the norm there). */
+export function lowerTierTbcCount(trip: Pick<Trip, 'tbcMatches'>): number {
+  return (trip.tbcMatches ?? []).filter((m) => getCompetitionTier(m.competition) === 4).length;
+}
+
 /** Matches played in lower-tier competitions (central tier metadata). */
 export function lowerTierMatchCount(trip: Pick<Trip, 'matches'>): number {
   return trip.matches.filter((m) => getCompetitionTier(m.competition) === 4).length;
@@ -360,10 +403,20 @@ export function lowerTierRatio(trip: Pick<Trip, 'matches'>): number {
 }
 
 export function rankLowerLeagueGems<T extends Trip & Partial<DiscoverTripMeta>>(trips: T[]): T[] {
+  // TBC lower-league opportunities contribute strongly: schedule uncertainty
+  // is most common exactly in this category.
+  const score = (t: T) => lowerTierMatchCount(t) * 2 + lowerTierTbcCount(t);
+  const ratio = (t: T) => {
+    const denom = t.matches.length + (t.tbcMatches?.length ?? 0);
+    if (denom === 0) {
+      return 0;
+    }
+    return (lowerTierMatchCount(t) + lowerTierTbcCount(t)) / denom;
+  };
   return [...trips].sort(
     (a, b) =>
-      lowerTierMatchCount(b) - lowerTierMatchCount(a) ||
-      lowerTierRatio(b) - lowerTierRatio(a) ||
+      score(b) - score(a) ||
+      ratio(b) - ratio(a) ||
       b.matchCount - a.matchCount ||
       a.totalKm - b.totalKm
   );
@@ -382,7 +435,9 @@ export function topPickScore(t: Trip & Partial<DiscoverTripMeta>): number {
     t.tripLengthDays && t.tripLengthDays > 0 ? t.tripLengthDays : tripDates(t).lengthDays || 1;
   const density = t.matchCount / len;
   const maxLeg = t.maxLegKm ?? maxLegKm(t);
-  return t.matchCount * 4 + uefa * 3 + density * 2 - t.totalKm / 150 - maxLeg / 200;
+  // TBC opportunities add modest value, never full confirmed value.
+  const tbcBonus = Math.min(t.tbcMatches?.length ?? t.tbcCount ?? 0, 5) * 0.5;
+  return t.matchCount * 4 + uefa * 3 + density * 2 + tbcBonus - t.totalKm / 150 - maxLeg / 200;
 }
 
 export function rankTopPicks<T extends Trip & Partial<DiscoverTripMeta>>(trips: T[]): T[] {

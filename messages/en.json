@@ -137,7 +137,10 @@
     "distHint100": "Regional",
     "distHint150": "Wide",
     "distHint250": "Very wide",
-    "summaryDistance": "≤ {{km}} km between venues"
+    "summaryDistance": "≤ {{km}} km between venues",
+    "possibleMatches": "Possible matches",
+    "tbcOpportunities": "+{{count}} awaiting kickoff",
+    "confirmedTbc": "{{confirmed}} confirmed · {{tbc}} TBC"
   },
   "FindMatches": {
     "title": "Find matches near your destination",
@@ -177,7 +180,11 @@
     "approxTime": "Approximate kickoff",
     "tryAgain": "Try again",
     "errorFallback": "Something went wrong. Try again.",
-    "discoverLink": "Discover another destination"
+    "discoverLink": "Discover another destination",
+    "scheduleTbc": "Schedule TBC",
+    "dateKickoffTbc": "Date & kickoff TBC",
+    "kickoffTbc": "Kickoff TBC",
+    "confirmedTbcCount": "{{confirmed}} confirmed · {{tbc}} TBC"
   },
   "TripPage": {
     "title": "Football trip",
@@ -191,6 +198,10 @@
     "loading": "Loading trip...",
     "emptyNoIds": "Provide match ids via \"?ids=match1,match2\" to see the trip.",
     "emptyNotFound": "No matches found for the provided ids.",
-    "missingWarning": "Some matches could not be loaded: {{ids}}"
+    "missingWarning": "Some matches could not be loaded: {{ids}}",
+    "confirmedMatches": "confirmed matches",
+    "awaitingSchedule": "awaiting schedule",
+    "confirmedSection": "CONFIRMED",
+    "tbcSection": "SCHEDULE TBC"
   }
 }

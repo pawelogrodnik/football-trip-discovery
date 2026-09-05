@@ -137,7 +137,10 @@
     "distHint100": "Regionalny",
     "distHint150": "Szeroki",
     "distHint250": "Bardzo szeroki",
-    "summaryDistance": "≤ {{km}} km między stadionami"
+    "summaryDistance": "≤ {{km}} km między stadionami",
+    "possibleMatches": "Możliwe mecze",
+    "tbcOpportunities": "+{{count}} oczekuje na termin",
+    "confirmedTbc": "{{confirmed}} potwierdzone · {{tbc}} TBC"
   },
   "FindMatches": {
     "title": "Znajdź mecze w okolicy celu podróży",
@@ -177,7 +180,11 @@
     "approxTime": "Godzina orientacyjna",
     "tryAgain": "Spróbuj ponownie",
     "errorFallback": "Coś poszło nie tak. Spróbuj ponownie.",
-    "discoverLink": "Odkryj inny cel podróży"
+    "discoverLink": "Odkryj inny cel podróży",
+    "scheduleTbc": "Termin TBC",
+    "dateKickoffTbc": "Data i godzina TBC",
+    "kickoffTbc": "Godzina TBC",
+    "confirmedTbcCount": "{{confirmed}} potwierdzone · {{tbc}} TBC"
   },
   "TripPage": {
     "title": "Piłkarski wyjazd",
@@ -191,6 +198,10 @@
     "loading": "Ładowanie wyjazdu...",
     "emptyNoIds": "Podaj identyfikatory meczów w parametrze \"?ids=mecz1,mecz2\", aby zobaczyć wyjazd.",
     "emptyNotFound": "Nie znaleziono meczów dla podanych identyfikatorów.",
-    "missingWarning": "Nie udało się wczytać niektórych meczów: {{ids}}"
+    "missingWarning": "Nie udało się wczytać niektórych meczów: {{ids}}",
+    "confirmedMatches": "potwierdzone mecze",
+    "awaitingSchedule": "oczekuje na termin",
+    "confirmedSection": "POTWIERDZONE",
+    "tbcSection": "TERMIN TBC"
   }
 }

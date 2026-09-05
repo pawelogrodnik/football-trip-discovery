@@ -2,7 +2,12 @@ import { NextResponse } from 'next/server';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { venueDistanceKm } from 'lib/geoTurf';
-import { buildRawScopeMatchId, ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
+import { getFixtureSchedule } from 'lib/matchSchedule';
+import {
+  buildRawScopeMatchId,
+  ensureMatchHasNormalizedId,
+  getLegacyScheduleIdAliases,
+} from 'lib/normalizeMatchId';
 
 const FIXTURES_DIR = path.join(process.cwd(), 'app', 'fixtures');
 const FIXTURES_INDEX_TTL_MS = 5 * 60 * 1000;
@@ -87,9 +92,30 @@ function extractMatchTimestamp(match: any): number {
   return Number.isNaN(timestamp) ? Number.NEGATIVE_INFINITY : timestamp;
 }
 
+function schedulePrecision(match: any): number {
+  const status = getFixtureSchedule(match)?.status;
+  if (status === 'confirmed') {
+    return 3;
+  }
+  if (status === 'date-confirmed') {
+    return 2;
+  }
+  if (status === 'date-window') {
+    return 1;
+  }
+  return 0;
+}
+
 function shouldReplaceMatch(existing: any | undefined, candidate: any): boolean {
   if (!existing) {
     return true;
+  }
+
+  // Prefer the most precise schedule (confirmed > date-confirmed > window),
+  // so a refined kickoff replaces a TBC row instead of duplicating it.
+  const precisionDelta = schedulePrecision(candidate) - schedulePrecision(existing);
+  if (precisionDelta !== 0) {
+    return precisionDelta > 0;
   }
 
   const existingTs = extractMatchTimestamp(existing);
@@ -178,6 +204,17 @@ async function buildFixturesIndex(): Promise<FixturesIndex> {
       const rawScopeId = buildRawScopeMatchId(item, { country: rawScope, league: leagueHint });
       if (rawScopeId && rawScopeId !== normalizedId && !aliases.has(rawScopeId)) {
         aliases.set(rawScopeId, normalizedId);
+      }
+      // Pre-#9 schedule-based ids (kickoff hashed into the id). A fixture
+      // refined from date-window to confirmed keeps its canonical id;
+      // old ids still resolve instead of producing duplicates.
+      for (const legacyId of getLegacyScheduleIdAliases(item, {
+        country: rawScope,
+        league: leagueHint,
+      })) {
+        if (legacyId && legacyId !== normalizedId && !aliases.has(legacyId)) {
+          aliases.set(legacyId, normalizedId);
+        }
       }
     }
   }

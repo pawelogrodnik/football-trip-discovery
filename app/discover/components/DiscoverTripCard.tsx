@@ -249,10 +249,22 @@ export default function DiscoverTripCard({
         <MetricsRow
           uefaCount={trip.uefaMatchCount}
           totalKm={trip.totalKm}
-          matchLabel={t('matchCount', { count: trip.matchCount })}
+          matchLabel={
+            (trip.tbcMatches?.length ?? trip.tbcCount ?? 0) > 0
+              ? t('confirmedTbc', {
+                  confirmed: trip.matchCount,
+                  tbc: trip.tbcMatches?.length ?? trip.tbcCount ?? 0,
+                })
+              : t('matchCount', { count: trip.matchCount })
+          }
           uefaLabel={t('uefaCount', { count: trip.uefaMatchCount })}
           kmLabel={t('totalKm', { count: trip.totalKm })}
         />
+        {(trip.tbcMatches?.length ?? trip.tbcCount ?? 0) > 0 && (
+          <Text size="xs" c="dimmed" data-testid="discover-trip-tbc">
+            {t('tbcOpportunities', { count: trip.tbcMatches?.length ?? trip.tbcCount ?? 0 })}
+          </Text>
+        )}
 
         {variant === 'regular' && featured && (
           <Group

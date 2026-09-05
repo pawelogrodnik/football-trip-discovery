@@ -15,7 +15,9 @@ import {
 } from '@mantine/core';
 import FindMatchCard from './FindMatchCard';
 import {
+  countConfirmedTbc,
   formatDayHeader,
+  formatScheduleWindow,
   formatShortDayRange,
   groupMatchesByDay,
   LooseMatch,
@@ -62,6 +64,14 @@ function FooterPreview({
         : '',
     [range, locale]
   );
+  const { confirmed, tbc } = useMemo(() => countConfirmedTbc(selectedMatches), [selectedMatches]);
+  const countLabel = useMemo(
+    () =>
+      tbc > 0
+        ? t('confirmedTbcCount', { confirmed, tbc })
+        : t('selectedCount', { count: range.count }),
+    [t, tbc, confirmed, range.count]
+  );
   const sub =
     range.count === 0
       ? ''
@@ -74,7 +84,7 @@ function FooterPreview({
   return (
     <div data-testid="find-selection-footer">
       <Text size="sm" fw={600} data-testid="find-selected-count">
-        {t('selectedCount', { count: range.count })}
+        {countLabel}
       </Text>
       {sub ? (
         <Text size="xs" c="dimmed" data-testid="find-selected-range">
@@ -221,7 +231,9 @@ function FindResultsPanelInner({
                     padding: '6px 2px 4px',
                   }}
                 >
-                  {formatDayHeader(g.dateTime, locale)}
+                  {g.window
+                    ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('scheduleTbc')}`
+                    : formatDayHeader(g.dateTime, locale)}
                 </Text>
                 <Stack gap={8} mt={2}>
                   {g.matches.map((m) => {

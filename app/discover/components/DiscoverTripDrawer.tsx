@@ -73,6 +73,14 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
             <Badge variant="light" leftSection={<IconBallFootball size={12} />}>
               {t('matchCount', { count: trip.matchCount })}
             </Badge>
+            {(trip.tbcMatches?.length ?? trip.tbcCount ?? 0) > 0 && (
+              <Badge variant="outline" color="orange" data-testid="discover-drawer-tbc-badge">
+                {t('confirmedTbc', {
+                  confirmed: trip.matchCount,
+                  tbc: trip.tbcMatches?.length ?? trip.tbcCount ?? 0,
+                })}
+              </Badge>
+            )}
             {trip.uefaMatchCount > 0 && (
               <Badge variant="light" color="violet" leftSection={<IconTrophy size={12} />}>
                 {t('uefaCount', { count: trip.uefaMatchCount })}
@@ -169,6 +177,42 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
               );
             })}
           </Timeline>
+          {(trip.tbcMatches?.length ?? 0) > 0 && (
+            <Stack gap={6} mt="sm" data-testid="discover-drawer-tbc">
+              <Text size="sm" fw={700} data-testid="discover-drawer-tbc-heading">
+                {t('possibleMatches')}
+              </Text>
+              {(trip.tbcMatches ?? []).map((m) => {
+                const window =
+                  m.date?.startDate && m.date?.endDate
+                    ? { start: m.date.startDate, end: m.date.endDate }
+                    : null;
+                return (
+                  <Group
+                    key={matchIdOf(m)}
+                    gap={6}
+                    wrap="nowrap"
+                    data-testid="discover-drawer-tbc-item"
+                  >
+                    <Crest name={m.homeTeam?.name ?? ''} crest={m.homeTeam?.crest} size={20} />
+                    <Stack gap={0} style={{ minWidth: 0, flex: 1 }}>
+                      <Text size="sm" fw={500} lineClamp={1}>
+                        {m.homeTeam?.name} vs {m.awayTeam?.name}
+                      </Text>
+                      <Text size="xs" c="dimmed" lineClamp={1}>
+                        {window
+                          ? `${formatShortRange(window.start, window.end, locale)} · ${m.competition?.name ?? ''}`
+                          : (m.competition?.name ?? '')}
+                      </Text>
+                    </Stack>
+                  </Group>
+                );
+              })}
+              <Text size="xs" c="dimmed">
+                {t('tbcOpportunities', { count: trip.tbcMatches?.length ?? 0 })}
+              </Text>
+            </Stack>
+          )}
           {onCustomize && (
             <Button
               variant="light"

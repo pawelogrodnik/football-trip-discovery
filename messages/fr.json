@@ -137,7 +137,10 @@
     "distHint100": "Régional",
     "distHint150": "Large",
     "distHint250": "Très large",
-    "summaryDistance": "≤ {{km}} km entre les stades"
+    "summaryDistance": "≤ {{km}} km entre les stades",
+    "possibleMatches": "Matchs possibles",
+    "tbcOpportunities": "+{{count}} en attente d’horaire",
+    "confirmedTbc": "{{confirmed}} confirmés · {{tbc}} à confirmer"
   },
   "FindMatches": {
     "title": "Trouve des matchs près de ta destination",
@@ -177,7 +180,11 @@
     "approxTime": "Horaire approximatif",
     "tryAgain": "Réessayer",
     "errorFallback": "Un problème est survenu. Réessaie.",
-    "discoverLink": "Découvrir une autre destination"
+    "discoverLink": "Découvrir une autre destination",
+    "scheduleTbc": "Horaire à confirmer",
+    "dateKickoffTbc": "Date et horaire à confirmer",
+    "kickoffTbc": "Horaire à confirmer",
+    "confirmedTbcCount": "{{confirmed}} confirmés · {{tbc}} à confirmer"
   },
   "TripPage": {
     "title": "Voyage foot",
@@ -191,6 +198,10 @@
     "loading": "Chargement du voyage...",
     "emptyNoIds": "Indique les ids via \"?ids=match1,match2\" pour voir le voyage.",
     "emptyNotFound": "Aucun match trouvé pour les ids indiqués.",
-    "missingWarning": "Certains matchs n’ont pas pu être chargés : {{ids}}"
+    "missingWarning": "Certains matchs n’ont pas pu être chargés : {{ids}}",
+    "confirmedMatches": "matchs confirmés",
+    "awaitingSchedule": "en attente d’horaire",
+    "confirmedSection": "CONFIRMÉS",
+    "tbcSection": "HORAIRE À CONFIRMER"
   }
 }

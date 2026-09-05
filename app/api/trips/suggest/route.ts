@@ -15,6 +15,7 @@ import {
 import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
 import { filterFixturesInRadius } from 'lib/geoTurf';
 import { normalizeMatchDateTime } from 'lib/matchDateTime';
+import { getFixtureSchedule, scheduleIntersectsRange } from 'lib/matchSchedule';
 import { ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
 import { suggestTrips, TripMatch } from 'lib/tripOptimizer';
 import { TtlCache } from 'lib/ttlCache';
@@ -162,25 +163,46 @@ export async function POST(req: Request) {
         const file = (await load()).default;
         const matches = Array.isArray(file) ? file : (file.matches ?? []);
         for (const m of matches) {
-          // Exact kickoff preferred; date-only matches enter with a neutral
-          // midday kickoff flagged approximate (never silently dropped).
+          // Normalized schedule is the source of truth. Legacy date-only
+          // rows still enter via normalizeMatchDateTime fallback; TBC
+          // windows are never dropped and never given a fake kickoff.
+          const schedule = getFixtureSchedule(m);
           const normalized =
             normalizeMatchDateTime(m?.date) ??
             (m?.utcDate && !Number.isNaN(new Date(m.utcDate).getTime())
               ? { dateTime: m.utcDate, approximate: false }
               : null);
-          if (!normalized) {
+          const effective =
+            schedule ??
+            (normalized ? getFixtureSchedule({ date: { dateTime: normalized.dateTime } }) : null);
+          if (!effective) {
             continue;
           }
           if (!m?.date) {
             m.date = {};
           }
-          m.date.dateTime = normalized.dateTime;
-          if (normalized.approximate) {
+          m.schedule = effective;
+          if (effective.status === 'confirmed') {
+            m.date.dateTime = effective.dateTime;
+          } else if (effective.status === 'date-confirmed') {
+            m.date.date = effective.date;
+            delete m.date.dateTime;
+            m.date.approximate = true;
+          } else {
+            m.date.startDate = effective.startDate;
+            m.date.endDate = effective.endDate;
+            delete m.date.dateTime;
+            delete m.date.date;
             m.date.approximate = true;
           }
-          const d = new Date(normalized.dateTime);
-          if (d < start || d > end) {
+          if (normalized?.approximate && effective.status !== 'date-window') {
+            m.date.approximate = true;
+          }
+          const availabilityStart = toDateOnlyUTC(start);
+          const availabilityEnd = toDateOnlyUTC(end);
+          if (
+            !scheduleIntersectsRange({ schedule: effective }, availabilityStart, availabilityEnd)
+          ) {
             continue;
           }
           // Ensure normalized id and geo

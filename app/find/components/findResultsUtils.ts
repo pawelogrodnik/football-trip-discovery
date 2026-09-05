@@ -1,5 +1,6 @@
 'use client';
 
+import { getFixtureSchedule, scheduleDisplayOf } from '../../lib/matchSchedule';
 import { getCanonicalMatchId, getMatchAliases } from '../../lib/normalizeMatchId';
 
 export type LooseMatch = {
@@ -8,7 +9,14 @@ export type LooseMatch = {
   homeTeam?: { name?: string; crest?: string | null };
   awayTeam?: { name?: string; crest?: string | null };
   competition?: { name?: string };
-  date?: { dateTime?: string | null; date?: string | null; approximate?: boolean | null };
+  date?: {
+    dateTime?: string | null;
+    date?: string | null;
+    approximate?: boolean | null;
+    startDate?: string | null;
+    endDate?: string | null;
+  };
+  schedule?: unknown;
   utcDate?: string | null;
   stadium?: {
     venue?: string | null;
@@ -25,6 +33,11 @@ export function matchIdOf(m: LooseMatch): string {
 }
 
 export function matchDateTimeOf(m: LooseMatch): string {
+  const display = scheduleDisplayOf(m as never);
+  if (display?.status === 'date-window') {
+    // Sort key only — never displayed as a kickoff.
+    return `${display.startDateOnly}T12:00:00.000Z`;
+  }
   const dt = m?.date?.dateTime ?? m?.utcDate ?? m?.date?.date ?? '';
   if (typeof dt !== 'string') {
     return '';
@@ -37,6 +50,56 @@ export function matchDateTimeOf(m: LooseMatch): string {
 
 export function isApproximateKickoff(m: LooseMatch): boolean {
   return m?.date?.approximate === true;
+}
+
+/** Schedule-certainty helpers (issue #9). Never invent precision. */
+export function isTbcMatch(m: LooseMatch): boolean {
+  const s = getFixtureSchedule(m as never)?.status;
+  return s === 'date-confirmed' || s === 'date-window';
+}
+
+export function isWindowMatch(m: LooseMatch): boolean {
+  return getFixtureSchedule(m as never)?.status === 'date-window';
+}
+
+export function isConfirmedMatch(m: LooseMatch): boolean {
+  return getFixtureSchedule(m as never)?.status === 'confirmed';
+}
+
+/** Confirmed/TBC split for footers and headers. */
+export function countConfirmedTbc<T extends LooseMatch>(
+  matches: T[]
+): { confirmed: number; tbc: number } {
+  let confirmed = 0;
+  let tbc = 0;
+  for (const m of matches) {
+    if (isTbcMatch(m)) {
+      tbc += 1;
+    } else {
+      confirmed += 1;
+    }
+  }
+  return { confirmed, tbc };
+}
+
+/** Compact localized window label, e.g. "Oct 22–23". No fake kickoff. */
+export function formatScheduleWindow(
+  startDateOnly: string,
+  endDateOnly: string,
+  locale: string
+): string {
+  const fmt = (day: string) =>
+    new Date(`${day}T12:00:00.000Z`).toLocaleDateString(locale, {
+      day: 'numeric',
+      month: 'short',
+    });
+  if (!startDateOnly || !endDateOnly) {
+    return '';
+  }
+  if (startDateOnly === endDateOnly) {
+    return fmt(startDateOnly);
+  }
+  return `${fmt(startDateOnly)}–${fmt(endDateOnly)}`;
 }
 
 export function dayKeyOf(iso: string): string {
@@ -72,11 +135,29 @@ export type DayGroup<T extends LooseMatch = LooseMatch> = {
   dayKey: string;
   dateTime: string;
   matches: T[];
+  /** Present for date-window groups spanning multiple days. */
+  window?: { startDateOnly: string; endDateOnly: string };
 };
 export function groupMatchesByDay<T extends LooseMatch>(matches: T[]): Array<DayGroup<T>> {
   const sorted = sortMatchesChronologically(matches);
   const groups = new Map<string, DayGroup<T>>();
   for (const m of sorted) {
+    const display = scheduleDisplayOf(m as never);
+    if (display?.status === 'date-window') {
+      const key = `window-${display.startDateOnly}-${display.endDateOnly}`;
+      const existing = groups.get(key);
+      if (existing) {
+        existing.matches.push(m);
+      } else {
+        groups.set(key, {
+          dayKey: key,
+          dateTime: `${display.startDateOnly}T12:00:00.000Z`,
+          matches: [m],
+          window: { startDateOnly: display.startDateOnly, endDateOnly: display.endDateOnly },
+        });
+      }
+      continue;
+    }
     const iso = matchDateTimeOf(m);
     const key = dayKeyOf(iso);
     if (!key) {
@@ -93,14 +174,13 @@ export function groupMatchesByDay<T extends LooseMatch>(matches: T[]): Array<Day
 }
 
 /**
- * Fixture identity for display dedupe: same teams + kickoff + competition +
+ * Fixture identity for display dedupe: same teams + competition + round +
  * venue is the same event even when data rows carry different ids
- * (e.g. normalized vs native id forms, or duplicated sync rows).
+ * (e.g. normalized vs native vs pre-#9 schedule-based id forms, or
+ * duplicated sync rows). Schedule precision is deliberately excluded so a
+ * fixture refined from date-window to confirmed still dedupes.
  */
 export function fixtureSignatureOf(m: LooseMatch): string {
-  const iso = matchDateTimeOf(m);
-  const ts = iso ? new Date(iso).getTime() : NaN;
-  const when = Number.isFinite(ts) ? String(ts) : iso || '?';
   const rawVenue =
     (m?.stadium?.venue as string | null) ||
     (m?.stadium?.name as string | null) ||
@@ -108,11 +188,19 @@ export function fixtureSignatureOf(m: LooseMatch): string {
     '?';
   const venue = rawVenue.trim().toLowerCase();
   const norm = (s: string | undefined | null) => (s ?? '?').trim().toLowerCase();
+  const round = norm(
+    String(
+      (m as Record<string, unknown>)?.matchday ??
+        (m as Record<string, unknown>)?.round ??
+        (m as Record<string, unknown>)?.stage ??
+        ''
+    ) || undefined
+  );
   return [
     norm(m?.homeTeam?.name),
     norm(m?.awayTeam?.name),
-    when,
     norm(m?.competition?.name),
+    round,
     venue,
   ].join(' | ');
 }
@@ -201,29 +289,42 @@ export type SelectedRange = {
 
 /** Derive preview range from SELECTED fixtures only (inclusive calendar days). */
 export function selectedTripRange<T extends LooseMatch>(matches: T[]): SelectedRange {
-  const times = matches
-    .map((m) => {
-      const iso = matchDateTimeOf(m);
-      if (!iso) {
-        return null;
+  const times: Date[] = [];
+  for (const m of matches) {
+    const display = scheduleDisplayOf(m as never);
+    if (display?.status === 'date-window' || display?.status === 'date-confirmed') {
+      const s = new Date(`${display.startDateOnly}T00:00:00.000Z`);
+      const e = new Date(`${display.endDateOnly}T00:00:00.000Z`);
+      if (!Number.isNaN(s.getTime())) {
+        times.push(s);
       }
-      const d = new Date(iso);
-      return Number.isNaN(d.getTime()) ? null : d;
-    })
-    .filter((d): d is Date => d !== null)
-    .sort((a, b) => a.getTime() - b.getTime());
-  if (times.length === 0) {
+      if (!Number.isNaN(e.getTime()) && e.getTime() !== s.getTime()) {
+        times.push(e);
+      }
+      continue;
+    }
+    const iso = matchDateTimeOf(m);
+    if (!iso) {
+      continue;
+    }
+    const d = new Date(iso);
+    if (!Number.isNaN(d.getTime())) {
+      times.push(d);
+    }
+  }
+  const sorted = times.sort((a, b) => a.getTime() - b.getTime());
+  if (sorted.length === 0) {
     return { count: matches.length, startISO: null, endISO: null, dayCount: 0 };
   }
-  const start = new Date(times[0]);
+  const start = new Date(sorted[0]);
   start.setHours(0, 0, 0, 0);
-  const end = new Date(times[times.length - 1]);
+  const end = new Date(sorted[sorted.length - 1]);
   end.setHours(0, 0, 0, 0);
   const dayCount = Math.round((end.getTime() - start.getTime()) / 86400000) + 1;
   return {
     count: matches.length,
-    startISO: times[0].toISOString(),
-    endISO: times[times.length - 1].toISOString(),
+    startISO: sorted[0].toISOString(),
+    endISO: sorted[sorted.length - 1].toISOString(),
     dayCount,
   };
 }
