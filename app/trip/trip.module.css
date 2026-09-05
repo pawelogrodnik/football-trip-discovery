@@ -49,14 +49,88 @@
   z-index: 1002;
 }
 
+/* Compact bottom summary for mobile map mode — minimal, never a sheet. */
+.mapStatusPill {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  /* Above the Leaflet attribution strip so it stays reachable. */
+  bottom: calc(30px + env(safe-area-inset-bottom, 0px));
+  z-index: 1002;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 16px;
+  background: var(--mantine-color-body);
+  box-shadow: var(--mantine-shadow-md);
+}
+
+.mapStatusText {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 @media (max-width: 768px) {
-  .tripPanel {
-    top: auto;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
+  /* ---- Mobile itinerary mode: normal document flow, no map spacer ---- */
+  .tripShell.mobileList {
+    height: auto;
+    min-height: 100%;
+    overflow: visible;
+    display: block;
+    background: var(--mantine-color-body);
+  }
+
+  .tripShell.mobileList .mapArea {
+    display: none;
+  }
+
+  .tripShell.mobileList .mobileToggle {
+    position: sticky;
+    top: 0;
+    left: auto;
+    transform: none;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background: var(--mantine-color-body);
+  }
+
+  .tripShell.mobileList .mobileToggle :global(.view-toggle__inner) {
+    position: static;
+    transform: none;
+  }
+
+  .tripShell.mobileList .tripPanel {
+    position: static;
     width: auto;
-    max-height: 62vh;
+    max-height: none;
+    margin: 0 8px 8px;
+    overflow: visible;
     padding-bottom: calc(var(--mantine-spacing-md) + env(safe-area-inset-bottom, 0px));
+  }
+
+  .tripShell.mobileList .tripScroll {
+    overflow: visible;
+  }
+
+  /* Loading, error and empty trips keep their explanation above the map. */
+  .tripShell.mobileStatus .tripPanel {
+    top: 72px;
+    right: 8px;
+    bottom: auto;
+    left: 8px;
+    width: auto;
+    max-width: none;
+  }
+
+  /* ---- Mobile map mode: full map, overlays only ---- */
+  .tripShell.mobileMap .mobileToggle :global(.view-toggle__inner) {
+    position: static;
+    transform: none;
   }
 }

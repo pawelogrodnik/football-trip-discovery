@@ -139,7 +139,8 @@ const Header = () => {
           className="header__burger"
           opened={menuOpened}
           onClick={() => setMenuOpened((prev) => !prev)}
-          size="sm"
+          aria-label={t('menu')}
+          size="md"
           hiddenFrom="sm"
         />
       </div>

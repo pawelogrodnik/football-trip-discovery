@@ -104,7 +104,32 @@ function boundsForCircle(center: { lat: number; lon: number }, radiusMeters: num
   return L.latLngBounds(southWest, northEast);
 }
 
-function geoPoints(fixtures: any[] | undefined | null): [number, number][] {
+function isFiniteCoord(v: unknown): v is number {
+  return typeof v === 'number' && Number.isFinite(v);
+}
+
+function isFiniteLatLon(lat: unknown, lon: unknown): boolean {
+  return isFiniteCoord(lat) && isFiniteCoord(lon);
+}
+
+function isValidLatLngExpression(v: LatLngExpression | undefined | null): boolean {
+  if (!v) {
+    return false;
+  }
+  const arr = v as unknown;
+  if (Array.isArray(arr)) {
+    return arr.length >= 2 && isFiniteCoord(arr[0]) && isFiniteCoord(arr[1]);
+  }
+  if (typeof arr === 'object') {
+    const o = arr as { lat?: unknown; lng?: unknown; latlng?: unknown };
+    if (isFiniteCoord(o.lat) && isFiniteCoord(o.lng)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+export function geoPoints(fixtures: any[] | undefined | null): [number, number][] {
   if (!fixtures) {
     return [];
   }
@@ -112,7 +137,7 @@ function geoPoints(fixtures: any[] | undefined | null): [number, number][] {
     .map((f) => {
       const lat = f?.stadium?.geo?.latitude;
       const lon = f?.stadium?.geo?.longitude;
-      if (typeof lat === 'number' && typeof lon === 'number') {
+      if (isFiniteLatLon(lat, lon)) {
         return [lat, lon] as [number, number];
       }
       return null;
@@ -120,12 +145,46 @@ function geoPoints(fixtures: any[] | undefined | null): [number, number][] {
     .filter(Boolean) as [number, number][];
 }
 
+/** Recalculate Leaflet dimensions after (re)mount — e.g. Matches/Map
+ *  mode switches that unmount the hidden map. No arbitrary long timeouts:
+ *  one rAF + one short settle pass. */
+function InvalidateOnMount() {
+  const map = useMap();
+  useEffect(() => {
+    let cancelled = false;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const raf = requestAnimationFrame(() => {
+      if (cancelled) {
+        return;
+      }
+      map.invalidateSize();
+      timer = setTimeout(() => {
+        if (!cancelled) {
+          map.invalidateSize();
+        }
+      }, 120);
+    });
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(raf);
+      if (timer) {
+        clearTimeout(timer);
+      }
+    };
+  }, [map]);
+  return null;
+}
+
 function FlyToOnFocus({ focus, insets }: { focus?: MapFocus; insets: MapViewportInsets }) {
   const map = useMap();
   const insetsRef = useRef(insets);
   insetsRef.current = insets;
   useEffect(() => {
-    if (!focus) {
+    if (!focus || !isFiniteLatLon(focus.lat, focus.lon)) {
+      return;
+    }
+    const size = map.getSize();
+    if (!size || size.x <= 0 || size.y <= 0) {
       return;
     }
     map.flyTo([focus.lat, focus.lon], Math.max(map.getZoom(), 13), { duration: 0.8 });
@@ -185,6 +244,10 @@ function FitToFixtures({
     if (!fixtures || fixtures.length < 2) {
       return;
     }
+    const container = map.getContainer?.();
+    if (container && (container.clientWidth <= 0 || container.clientHeight <= 0)) {
+      return;
+    }
     const points = geoPoints(fixtures);
     if (points.length < 2) {
       return;
@@ -222,11 +285,14 @@ function ViewportController({
   const map = useMap();
   const insetsKey = `${insets.top},${insets.right},${insets.bottom},${insets.left}`;
   useEffect(() => {
+    const container = map.getContainer?.();
+    if (container && (container.clientWidth <= 0 || container.clientHeight <= 0)) {
+      return;
+    }
     if (
       showCircle &&
       selectedLocation &&
-      typeof selectedLocation.lat === 'number' &&
-      typeof selectedLocation.lon === 'number' &&
+      isFiniteLatLon(selectedLocation.lat, selectedLocation.lon) &&
       !hasFitTargets
     ) {
       const bounds = boundsForCircle(
@@ -247,6 +313,9 @@ function ViewportController({
       return;
     }
     if (hasFitTargets) {
+      return;
+    }
+    if (!isValidLatLngExpression(fallbackCenter)) {
       return;
     }
     map.flyTo(fallbackCenter, map.getZoom(), { duration: 0.5 });
@@ -295,26 +364,29 @@ export default function MapWithSearch({
     [selectedRadius]
   );
 
+  const hasValidSelectedLocation =
+    !!selectedLocation && isFiniteLatLon(selectedLocation.lat, selectedLocation.lon);
+
   // Explicit semantics with legacy fallbacks for existing callers:
-  const showCircle = showSelectedLocationRadius ?? Boolean(selectedLocation);
+  const showCircle = showSelectedLocationRadius ?? hasValidSelectedLocation;
   const fitTargets = fitFixtures === undefined ? fixtures : fitFixtures;
   // routeFixtures undefined => legacy: polyline from all fixtures.
   // Discover passes explicit array (possibly empty) to avoid meaningless lines.
   const routeSource = routeFixtures === undefined ? fixtures : (routeFixtures ?? []);
 
   const center = useMemo<LatLngExpression>(() => {
-    if (selectedLocation) {
+    if (hasValidSelectedLocation && selectedLocation) {
       return [selectedLocation.lat, selectedLocation.lon];
     }
-    return initialCenter;
-  }, [selectedLocation, initialCenter]);
+    return isValidLatLngExpression(initialCenter) ? initialCenter : ([50, 10] as [number, number]);
+  }, [hasValidSelectedLocation, selectedLocation, initialCenter]);
 
   const markerData = useMemo(() => {
     return fixtures
       .map((fixture) => {
         const lat = fixture?.stadium?.geo?.latitude;
         const lon = fixture?.stadium?.geo?.longitude;
-        if (typeof lat !== 'number' || typeof lon !== 'number') {
+        if (!isFiniteLatLon(lat, lon)) {
           return null;
         }
         const id = fixtureId(fixture);
@@ -431,6 +503,7 @@ export default function MapWithSearch({
           style={{ height: '100%', width: '100%' }}
         >
           <ZoomControl position="bottomleft" />
+          <InvalidateOnMount />
           <ViewportController
             selectedLocation={selectedLocation ?? null}
             radiusMeters={radiusMeters}
@@ -444,7 +517,7 @@ export default function MapWithSearch({
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM contributors</a>'
           />
-          {selectedLocation && (
+          {hasValidSelectedLocation && selectedLocation && (
             <>
               <Marker position={[selectedLocation.lat, selectedLocation.lon]}>
                 <Popup>
@@ -455,7 +528,7 @@ export default function MapWithSearch({
                 </Popup>
               </Marker>
 
-              {showCircle && (
+              {showCircle && hasValidSelectedLocation && selectedLocation && (
                 <Circle
                   center={[selectedLocation.lat, selectedLocation.lon]}
                   radius={radiusMeters}

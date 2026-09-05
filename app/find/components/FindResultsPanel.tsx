@@ -45,6 +45,8 @@ type Props = {
   showReset?: boolean;
   outsideIds?: Set<string>;
   selectedRangeSuffix?: string;
+  /** Mobile list mode: page scrolls, no nested ScrollArea; footer sticky. */
+  flatScroll?: boolean;
 };
 
 function FooterPreview({
@@ -121,6 +123,7 @@ function FindResultsPanelInner({
   onResetSuggested,
   showReset,
   outsideIds,
+  flatScroll = false,
 }: Props) {
   const t = useTranslations('FindMatches');
   const locale = useLocale();
@@ -134,6 +137,69 @@ function FindResultsPanelInner({
   const selectedMatches = useMemo(
     () => matches.filter((m) => selectedSet.has(matchIdOf(m))),
     [matches, selectedSet]
+  );
+
+  const resultsContent = (
+    <Stack gap={8} pb={8} data-testid={flatScroll ? 'find-results-flat-list' : undefined}>
+      {filter === 'selected' && selectedMatches.length === 0 ? (
+        <div data-testid="find-selected-empty">
+          <Text size="sm" fw={600}>
+            {t('noSelectedTitle')}
+          </Text>
+          <Text size="xs" c="dimmed" mt={4}>
+            {t('noSelectedHint')}
+          </Text>
+          <Button
+            variant="light"
+            size="xs"
+            mt={8}
+            onClick={() => onFilterChange('all')}
+            data-testid="find-show-all"
+          >
+            {t('showAll')}
+          </Button>
+        </div>
+      ) : (
+        groups.map((g) => (
+          <div key={g.dayKey}>
+            <Text
+              size="xs"
+              fw={700}
+              c="dimmed"
+              data-testid={`find-day-${g.dayKey}`}
+              style={{
+                position: 'sticky',
+                top: 0,
+                zIndex: 2,
+                background: 'var(--mantine-color-body)',
+                padding: '6px 2px 4px',
+              }}
+            >
+              {g.window
+                ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('scheduleTbc')}`
+                : formatDayHeader(g.dateTime, locale)}
+            </Text>
+            <Stack gap={8} mt={2}>
+              {g.matches.map((m) => {
+                const id = matchIdOf(m);
+                return (
+                  <FindMatchCard
+                    key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
+                    match={m}
+                    selected={selectedSet.has(id)}
+                    hovered={hoveredId === id}
+                    outsideRadius={outsideIds?.has(id) ?? false}
+                    onToggle={onToggle}
+                    onFocus={onFocus}
+                    onHover={onHover}
+                  />
+                );
+              })}
+            </Stack>
+          </div>
+        ))
+      )}
+    </Stack>
   );
 
   return (
@@ -195,76 +261,27 @@ function FindResultsPanelInner({
         ) : null}
       </div>
 
-      <ScrollArea style={{ flex: 1, minHeight: 0 }} type="auto" data-testid="find-results-list">
-        <Stack gap={8} pb={8}>
-          {filter === 'selected' && selectedMatches.length === 0 ? (
-            <div data-testid="find-selected-empty">
-              <Text size="sm" fw={600}>
-                {t('noSelectedTitle')}
-              </Text>
-              <Text size="xs" c="dimmed" mt={4}>
-                {t('noSelectedHint')}
-              </Text>
-              <Button
-                variant="light"
-                size="xs"
-                mt={8}
-                onClick={() => onFilterChange('all')}
-                data-testid="find-show-all"
-              >
-                {t('showAll')}
-              </Button>
-            </div>
-          ) : (
-            groups.map((g) => (
-              <div key={g.dayKey}>
-                <Text
-                  size="xs"
-                  fw={700}
-                  c="dimmed"
-                  data-testid={`find-day-${g.dayKey}`}
-                  style={{
-                    position: 'sticky',
-                    top: 0,
-                    zIndex: 2,
-                    background: 'var(--mantine-color-body)',
-                    padding: '6px 2px 4px',
-                  }}
-                >
-                  {g.window
-                    ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('scheduleTbc')}`
-                    : formatDayHeader(g.dateTime, locale)}
-                </Text>
-                <Stack gap={8} mt={2}>
-                  {g.matches.map((m) => {
-                    const id = matchIdOf(m);
-                    return (
-                      <FindMatchCard
-                        key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                        match={m}
-                        selected={selectedSet.has(id)}
-                        hovered={hoveredId === id}
-                        outsideRadius={outsideIds?.has(id) ?? false}
-                        onToggle={onToggle}
-                        onFocus={onFocus}
-                        onHover={onHover}
-                      />
-                    );
-                  })}
-                </Stack>
-              </div>
-            ))
-          )}
-        </Stack>
-      </ScrollArea>
+      {flatScroll ? (
+        <div data-testid="find-results-list">{resultsContent}</div>
+      ) : (
+        <ScrollArea style={{ flex: 1, minHeight: 0 }} type="auto" data-testid="find-results-list">
+          {resultsContent}
+        </ScrollArea>
+      )}
 
       <div
-        style={{
-          borderTop: '1px solid var(--mantine-color-gray-3)',
-          paddingTop: 10,
-          marginTop: 4,
-          background: 'var(--mantine-color-body)',
-        }}
+        data-testid="find-results-footer-wrap"
+        className={flatScroll ? 'find-results-footer-sticky' : undefined}
+        style={
+          flatScroll
+            ? undefined
+            : {
+                borderTop: '1px solid var(--mantine-color-gray-3)',
+                paddingTop: 10,
+                marginTop: 4,
+                background: 'var(--mantine-color-body)',
+              }
+        }
       >
         <FooterPreview selectedMatches={selectedMatches} onCreateTrip={onCreateTrip} />
       </div>

@@ -67,6 +67,8 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
       zIndex={1001}
       data-testid="discover-trip-drawer"
       className="discover-trip-drawer"
+      closeButtonProps={{ 'aria-label': t('close') }}
+      styles={{ content: { paddingBottom: 'env(safe-area-inset-bottom, 0px)' } }}
     >
       {trip && (
         <Stack gap="sm" data-testid="discover-drawer-body">

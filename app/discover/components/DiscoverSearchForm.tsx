@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { IconAlertCircle, IconSearch } from '@tabler/icons-react';
-import { useTranslations } from 'components/providers/LocaleProvider';
+import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { DISCOVER_DEFAULT_TRIP_LENGTHS } from 'lib/discover';
 import { DISTANCE_OPTIONS } from 'lib/distance';
 import {
@@ -60,6 +60,7 @@ const TRIP_LENGTH_OPTIONS = ['2', '3', '4', '5'];
 
 export default function DiscoverSearchForm(props: Props) {
   const t = useTranslations('Discover');
+  const locale = useLocale();
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
@@ -80,6 +81,7 @@ export default function DiscoverSearchForm(props: Props) {
         </Text>
         <DatePickerInput
           type="range"
+          locale={locale}
           placeholder={t('availabilityPlaceholder')}
           value={props.dates}
           onChange={props.onDatesChange as never}

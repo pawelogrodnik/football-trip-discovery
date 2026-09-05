@@ -13,6 +13,7 @@ import {
   parseDateOnlyLocal,
   TRIP_PATH,
 } from 'lib/tripUrls';
+import { useIsMobile } from 'lib/useIsMobile';
 import { Alert, Button, Group, Paper, ScrollArea, Stack, Text } from '@mantine/core';
 import MapWrapper from '../../components/map/MapWrapper';
 import SharedMatchCard from '../../components/matchCard/SharedMatchCard';
@@ -49,7 +50,9 @@ const parseNumberParam = (value: string | null) => {
 function venueCoords(match: LooseMatch): { lat: number; lon: number } | null {
   const lat = match?.stadium?.geo?.latitude;
   const lon = match?.stadium?.geo?.longitude;
-  return typeof lat === 'number' && typeof lon === 'number' ? { lat, lon } : null;
+  return Number.isFinite(lat) && Number.isFinite(lon)
+    ? { lat: lat as number, lon: lon as number }
+    : null;
 }
 
 export default function TripClient() {
@@ -57,8 +60,10 @@ export default function TripClient() {
   const searchParams = useSearchParams();
   const t = useTranslations('TripPage');
   const locale = useLocale();
-  const [mobileView, setMobileView] = useState(MOBILE_VIEW.LIST_VIEW);
-  const [isMobile, setIsMobile] = useState(false);
+  // Mobile defaults to Itinerary/List; desktop keeps map-first composition.
+  // User choice is never overwritten after mount.
+  const [mobileView, setMobileView] = useState<string>(MOBILE_VIEW.LIST_VIEW);
+  const isMobile = useIsMobile();
   const [mapFocus, setMapFocus] = useState<{
     lat: number;
     lon: number;
@@ -109,10 +114,6 @@ export default function TripClient() {
 
   const sharedLocation = tripContext.location;
   const sharedRadius = tripContext.radius;
-
-  useEffect(() => {
-    setIsMobile(window.innerWidth <= 720);
-  }, []);
 
   useEffect(() => {
     if (typeof window === 'undefined' || !navigator?.geolocation) {
@@ -301,9 +302,18 @@ export default function TripClient() {
     [navigationOrigin]
   );
 
-  const shouldRenderMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
-  const shouldRenderMap = !isMobile || shouldRenderMobileMap;
-  const shouldRenderPanel = !isMobile || !shouldRenderMobileMap;
+  const hasTripResults = displayedCount > 0;
+  const isMobileItineraryMode = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW;
+  const isMobileList = isMobileItineraryMode && hasTripResults;
+  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW && hasTripResults;
+  const shouldRenderMobileMap = isMobileMap;
+  const shouldRenderStatusPanel = isMobile && !hasTripResults;
+  const shouldRenderResultsPanel = !isMobile || (isMobileItineraryMode && hasTripResults);
+  // While loading/empty mobile renders the map exactly like desktop — the
+  // map must never mount into a display:none container (Leaflet computes
+  // NaN in a 0×0 box and throws Invalid LatLng).
+  const shouldRenderMap = !isMobile || shouldRenderMobileMap || shouldRenderStatusPanel;
+  const shouldRenderPanel = shouldRenderStatusPanel || shouldRenderResultsPanel;
 
   // Measure the real rendered panel so map insets track the actual
   // obstruction — same mechanism as /find, no second offset system.
@@ -324,16 +334,18 @@ export default function TripClient() {
     return () => ro.disconnect();
   }, [shouldRenderPanel, state.totalCount]);
 
-  const mapViewportInsets = useMemo(
-    () =>
-      panelViewportInsets({
-        panelWidthPx: panelSize?.width ?? null,
-        panelHeightPx: panelSize?.height ?? null,
-        panelVisible: shouldRenderPanel && displayedCount > 0,
-        isMobile,
-      }),
-    [panelSize, shouldRenderPanel, displayedCount, isMobile]
-  );
+  const mapViewportInsets = useMemo(() => {
+    // Mobile map mode: only the toggle + compact pill overlay the map.
+    if (isMobileMap) {
+      return { top: 132, right: 16, bottom: 112, left: 16 };
+    }
+    return panelViewportInsets({
+      panelWidthPx: panelSize?.width ?? null,
+      panelHeightPx: panelSize?.height ?? null,
+      panelVisible: shouldRenderResultsPanel && hasTripResults,
+      isMobile,
+    });
+  }, [panelSize, shouldRenderResultsPanel, hasTripResults, isMobile, isMobileMap]);
 
   const handleMatchClick = (match: LooseMatch) => {
     const coords = venueCoords(match);
@@ -341,6 +353,99 @@ export default function TripClient() {
       setMapFocus({ ...coords, id: matchIdOf(match) });
     }
   };
+
+  const itineraryContent = (
+    <Stack gap={8} pb={8}>
+      {tbcCount > 0 && (
+        <Text size="xs" fw={700} data-testid="trip-confirmed-heading">
+          {t('confirmedSection')}
+        </Text>
+      )}
+      {confirmedGroups.map((g) => (
+        <div key={g.dayKey}>
+          <Text
+            size="xs"
+            fw={700}
+            c="dimmed"
+            data-testid={`trip-day-${g.dayKey}`}
+            style={{
+              position: 'sticky',
+              top: 0,
+              zIndex: 2,
+              background: 'var(--mantine-color-body)',
+              padding: '6px 2px 4px',
+            }}
+          >
+            {g.window
+              ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
+              : formatDayHeader(g.dateTime, locale)}
+          </Text>
+          <Stack gap={8} mt={2}>
+            {g.matches.map((m) => {
+              const id = matchIdOf(m);
+              return (
+                <SharedMatchCard
+                  key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
+                  match={m}
+                  variant="trip"
+                  testIdPrefix="trip-match-card"
+                  hovered={hoveredMatchId === id}
+                  navigationHref={navigationUrlFactory(m)}
+                  onFocus={handleMatchClick}
+                  onHover={setHoveredMatchId}
+                />
+              );
+            })}
+          </Stack>
+        </div>
+      ))}
+      {tbcGroups.length > 0 && (
+        <>
+          <Text size="xs" fw={700} data-testid="trip-tbc-heading" mt={4}>
+            {t('tbcSection')}
+          </Text>
+          {tbcGroups.map((g) => (
+            <div key={g.dayKey}>
+              <Text
+                size="xs"
+                fw={700}
+                c="dimmed"
+                data-testid={`trip-day-${g.dayKey}`}
+                style={{
+                  position: 'sticky',
+                  top: 0,
+                  zIndex: 2,
+                  background: 'var(--mantine-color-body)',
+                  padding: '6px 2px 4px',
+                }}
+              >
+                {g.window
+                  ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
+                  : formatDayHeader(g.dateTime, locale)}
+              </Text>
+              <Stack gap={8} mt={2}>
+                {g.matches.map((m) => {
+                  const id = matchIdOf(m);
+                  return (
+                    <SharedMatchCard
+                      key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
+                      match={m}
+                      variant="trip"
+                      testIdPrefix="trip-match-card"
+                      hovered={hoveredMatchId === id}
+                      navigationHref={navigationUrlFactory(m)}
+                      onFocus={handleMatchClick}
+                      onHover={setHoveredMatchId}
+                    />
+                  );
+                })}
+              </Stack>
+            </div>
+          ))}
+        </>
+      )}
+    </Stack>
+  );
 
   const copyUrl = async () => {
     try {
@@ -377,9 +482,13 @@ export default function TripClient() {
   };
 
   return (
-    <main className={classes.tripShell} data-testid="trip-view">
-      <div className={classes.mapArea} data-testid="trip-map">
-        {shouldRenderMap && (
+    <main
+      className={`${classes.tripShell} ${isMobileList ? classes.mobileList : ''} ${isMobileMap ? classes.mobileMap : ''} ${shouldRenderStatusPanel ? classes.mobileStatus : ''}`}
+      data-testid="trip-view"
+      data-mobile-view={isMobileList ? 'list' : isMobileMap ? 'map' : undefined}
+    >
+      {shouldRenderMap && (
+        <div className={classes.mapArea} data-testid="trip-map">
           <MapWrapper
             initialCenter={initialCenter}
             initialZoom={12}
@@ -392,12 +501,37 @@ export default function TripClient() {
             focus={mapFocus}
             viewportInsets={mapViewportInsets}
           />
-        )}
-      </div>
+        </div>
+      )}
 
-      {isMobile && displayedCount > 0 && (
-        <div className={classes.mobileToggle}>
-          <ViewToggle onChange={setMobileView} />
+      {isMobile && hasTripResults && (
+        <div className={classes.mobileToggle} data-testid="trip-mobile-toggle">
+          <ViewToggle
+            value={mobileView}
+            ariaLabel={t('viewModeLabel')}
+            options={[
+              { value: MOBILE_VIEW.LIST_VIEW, label: t('viewItinerary') },
+              { value: MOBILE_VIEW.MAP_VIEW, label: t('viewMap') },
+            ]}
+            onChange={setMobileView}
+          />
+        </div>
+      )}
+
+      {isMobileMap && hasTripResults && (
+        <div className={classes.mapStatusPill} data-testid="trip-map-status">
+          <Text size="sm" fw={600} truncate className={classes.mapStatusText}>
+            {tripMeta}
+          </Text>
+          <Button
+            size="xs"
+            variant="light"
+            onClick={() => setMobileView(MOBILE_VIEW.LIST_VIEW)}
+            data-testid="trip-map-view-itinerary"
+            style={{ flexShrink: 0 }}
+          >
+            {t('viewItinerary')}
+          </Button>
         </div>
       )}
 
@@ -454,100 +588,20 @@ export default function TripClient() {
               {ids.length === 0 ? t('emptyNoIds') : t('emptyNotFound')}
             </p>
           )}
-          {displayedCount > 0 && (
-            <ScrollArea className={classes.tripScroll} type="auto" data-testid="trip-results-list">
-              <Stack gap={8} pb={8}>
-                {tbcCount > 0 && (
-                  <Text size="xs" fw={700} data-testid="trip-confirmed-heading">
-                    {t('confirmedSection')}
-                  </Text>
-                )}
-                {confirmedGroups.map((g) => (
-                  <div key={g.dayKey}>
-                    <Text
-                      size="xs"
-                      fw={700}
-                      c="dimmed"
-                      data-testid={`trip-day-${g.dayKey}`}
-                      style={{
-                        position: 'sticky',
-                        top: 0,
-                        zIndex: 2,
-                        background: 'var(--mantine-color-body)',
-                        padding: '6px 2px 4px',
-                      }}
-                    >
-                      {g.window
-                        ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
-                        : formatDayHeader(g.dateTime, locale)}
-                    </Text>
-                    <Stack gap={8} mt={2}>
-                      {g.matches.map((m) => {
-                        const id = matchIdOf(m);
-                        return (
-                          <SharedMatchCard
-                            key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                            match={m}
-                            variant="trip"
-                            testIdPrefix="trip-match-card"
-                            hovered={hoveredMatchId === id}
-                            navigationHref={navigationUrlFactory(m)}
-                            onFocus={handleMatchClick}
-                            onHover={setHoveredMatchId}
-                          />
-                        );
-                      })}
-                    </Stack>
-                  </div>
-                ))}
-                {tbcGroups.length > 0 && (
-                  <>
-                    <Text size="xs" fw={700} data-testid="trip-tbc-heading" mt={4}>
-                      {t('tbcSection')}
-                    </Text>
-                    {tbcGroups.map((g) => (
-                      <div key={g.dayKey}>
-                        <Text
-                          size="xs"
-                          fw={700}
-                          c="dimmed"
-                          data-testid={`trip-day-${g.dayKey}`}
-                          style={{
-                            position: 'sticky',
-                            top: 0,
-                            zIndex: 2,
-                            background: 'var(--mantine-color-body)',
-                            padding: '6px 2px 4px',
-                          }}
-                        >
-                          {g.window
-                            ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
-                            : formatDayHeader(g.dateTime, locale)}
-                        </Text>
-                        <Stack gap={8} mt={2}>
-                          {g.matches.map((m) => {
-                            const id = matchIdOf(m);
-                            return (
-                              <SharedMatchCard
-                                key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
-                                match={m}
-                                variant="trip"
-                                testIdPrefix="trip-match-card"
-                                hovered={hoveredMatchId === id}
-                                navigationHref={navigationUrlFactory(m)}
-                                onFocus={handleMatchClick}
-                                onHover={setHoveredMatchId}
-                              />
-                            );
-                          })}
-                        </Stack>
-                      </div>
-                    ))}
-                  </>
-                )}
-              </Stack>
-            </ScrollArea>
-          )}
+          {displayedCount > 0 &&
+            (isMobileList ? (
+              <div className={classes.tripScroll} data-testid="trip-results-list">
+                {itineraryContent}
+              </div>
+            ) : (
+              <ScrollArea
+                className={classes.tripScroll}
+                type="auto"
+                data-testid="trip-results-list"
+              >
+                {itineraryContent}
+              </ScrollArea>
+            ))}
           {missingIds.length > 0 && (
             <Alert color="yellow" mt="sm" data-testid="trip-missing">
               {t('missingWarning', { ids: missingIds.map((v) => `"${v}"`).join(', ') })}
