@@ -2,6 +2,7 @@ import { BASE_FIXTURES, POLAND_FIXTURES_BY_REGION } from 'lib/fixturesManifest';
 import { getCountriesInRadius } from 'lib/geo';
 import { filterFixturesInRadius } from 'lib/geoTurf';
 import { isAnyCountryInEurope } from 'lib/isAnyCountryInEurope';
+import { getFixtureSchedule, scheduleIntersectsRange } from 'lib/matchSchedule';
 import { ensureMatchHasNormalizedId } from 'lib/normalizeMatchId';
 import { TtlCache } from 'lib/ttlCache';
 import { uniqById } from 'lib/uniqById';
@@ -17,7 +18,10 @@ function parseUtcRange(startStr?: string | null, endStr?: string | null) {
     ? new Date(isDateOnly(endStr) ? `${endStr}T23:59:59.999Z` : endStr)
     : new Date('9999-12-31T23:59:59.999Z');
 
-  return { start, end };
+  const startDateOnly = startStr && isDateOnly(startStr) ? startStr : '1970-01-01';
+  const endDateOnly = endStr && isDateOnly(endStr) ? endStr : '9999-12-31';
+
+  return { start, end, startDateOnly, endDateOnly };
 }
 
 const calculateTotalCount = (fixtures: any[]) =>
@@ -60,7 +64,10 @@ export async function GET(req: Request) {
   const radiusKm = searchParams.get('radius');
   const errors = [];
 
-  const { start, end } = parseUtcRange(searchParams.get('startDate'), searchParams.get('endDate'));
+  const { start, end, startDateOnly, endDateOnly } = parseUtcRange(
+    searchParams.get('startDate'),
+    searchParams.get('endDate')
+  );
   const startDate = start;
   const endDate = end;
 
@@ -111,6 +118,12 @@ export async function GET(req: Request) {
         const filteredMatches = uniqById(
           matches
             .filter((match: any) => {
+              // TBC rule: fixture window intersects search window. Fixtures
+              // with normalized schedule use overlap; legacy rows without a
+              // schedule fall back to the previous point-in-range check.
+              if (getFixtureSchedule(match)) {
+                return scheduleIntersectsRange(match, startDateOnly, endDateOnly);
+              }
               const date = new Date(match?.date?.date || match.utcDate);
               return date >= startDate && date <= endDate;
             })

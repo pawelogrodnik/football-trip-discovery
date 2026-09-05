@@ -68,4 +68,22 @@ describe('GET /api/matches/by-ids', () => {
     expect(typeof dist).toBe('number');
     expect(dist).toBeGreaterThan(1);
   });
+
+  test('pre-#9 schedule-based legacy id resolves without duplicates', async () => {
+    const rawId = '46f7d5ae8a8d306964f90cb6b8e797dc';
+    const single = await get(`http://localhost/api/matches/by-ids?ids=${rawId}`);
+    const singleData = await single.json();
+    expect(singleData.matches).toHaveLength(1);
+    const m = singleData.matches[0];
+    const legacyIds: string[] = Array.isArray(m._legacyIds) ? m._legacyIds : [];
+    expect(legacyIds.length).toBeGreaterThan(0);
+    // Canonical + legacy alias in one request still returns one fixture.
+    const both = await get(
+      `http://localhost/api/matches/by-ids?ids=${encodeURIComponent(String(m.id))},${encodeURIComponent(legacyIds[0])}`
+    );
+    const bothData = await both.json();
+    expect(bothData.matches).toHaveLength(1);
+    expect(String(bothData.matches[0].id)).toBe(String(m.id));
+    expect(bothData.missingIds).toEqual([]);
+  });
 });

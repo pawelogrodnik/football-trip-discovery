@@ -1,4 +1,4 @@
-import { makeMatchId } from 'lib/makeMatchId';
+import { buildLegacyScheduleMatchId, makeMatchId } from 'lib/makeMatchId';
 
 type MatchContext = {
   country?: string;
@@ -9,6 +9,7 @@ type MatchRecord = Record<string, any> & {
   id?: string;
   _id?: string | number;
   _nativeId?: string | null;
+  _legacyIds?: string[];
 };
 
 /**
@@ -82,6 +83,27 @@ export function buildRawScopeMatchId(match: MatchRecord, context: MatchContext =
   return buildNormalizedMatchId(match, context, { normalizeScope: false });
 }
 
+/**
+ * Pre-#9 schedule-based ids as backward-compat aliases. A fixture whose
+ * kickoff was refined (window -> confirmed) keeps its canonical id; ids
+ * issued under the old schedule-hashing formula still resolve.
+ */
+export function getLegacyScheduleIdAliases(
+  match: MatchRecord,
+  context: MatchContext = {}
+): string[] {
+  const out: string[] = [];
+  const country = normalizeMatchScope(context.country);
+  const legacy = buildLegacyScheduleMatchId(match, country, context.league);
+  const rawLegacy = buildLegacyScheduleMatchId(match, context.country ?? '', context.league);
+  for (const candidate of [legacy, rawLegacy]) {
+    if (candidate && !out.includes(candidate)) {
+      out.push(candidate);
+    }
+  }
+  return out;
+}
+
 export function ensureMatchHasNormalizedId<T extends MatchRecord>(
   match: T,
   context: MatchContext = {}
@@ -96,6 +118,13 @@ export function ensureMatchHasNormalizedId<T extends MatchRecord>(
       match._nativeId = stringify(match?._id ?? match?.id) || null;
     }
     match.id = normalizedId;
+    const legacy = getLegacyScheduleIdAliases(match, context).filter((a) => a !== normalizedId);
+    if (legacy.length > 0) {
+      const prev = Array.isArray((match as MatchRecord)._legacyIds)
+        ? (match as MatchRecord)._legacyIds!
+        : [];
+      (match as MatchRecord)._legacyIds = Array.from(new Set([...prev, ...legacy]));
+    }
   }
 
   return match;
@@ -105,6 +134,7 @@ export type MatchIdentity = {
   id?: unknown;
   _id?: unknown;
   _nativeId?: unknown;
+  _legacyIds?: unknown;
 };
 
 /**
@@ -122,7 +152,8 @@ export function getCanonicalMatchId(match: MatchIdentity | null | undefined): st
 
 /**
  * All known id forms of a fixture that must resolve to its canonical id:
- * native `_id` / `_nativeId` plus the tail segment of `derived__native` ids.
+ * native `_id` / `_nativeId`, tail segment of `derived__native` ids,
+ * plus pre-#9 schedule-based `_legacyIds`.
  */
 export function getMatchAliases(match: MatchIdentity | null | undefined): string[] {
   if (!match || typeof match !== 'object') {
@@ -133,6 +164,9 @@ export function getMatchAliases(match: MatchIdentity | null | undefined): string
   const idStr = String(match.id ?? '');
   if (idStr.includes('__')) {
     candidates.push(idStr.split('__').pop());
+  }
+  if (Array.isArray(match._legacyIds)) {
+    candidates.push(...match._legacyIds);
   }
   const aliases: string[] = [];
   for (const candidate of candidates) {

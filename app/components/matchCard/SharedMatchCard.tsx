@@ -7,11 +7,14 @@ import { Anchor, Badge, Card, Checkbox, Group, Stack, Text } from '@mantine/core
 import {
   formatDistanceKmDisplay,
   formatKickoffTime,
+  formatScheduleWindow,
   isApproximateKickoff,
+  isTbcMatch,
   LooseMatch,
   matchDateTimeOf,
   matchIdOf,
 } from '../../find/components/findResultsUtils';
+import { getFixtureSchedule } from '../../lib/matchSchedule';
 import { CompetitionLogo, TeamCrest } from './crests';
 
 export type MatchCardVariant = 'selectable' | 'trip';
@@ -65,9 +68,21 @@ function SharedMatchCardInner({
   const selectable = variant === 'selectable';
   const home = match.homeTeam?.name ?? '?';
   const away = match.awayTeam?.name ?? '?';
-  const iso = matchDateTimeOf(match);
+  const schedule = getFixtureSchedule(match as never);
+  const isWindow = schedule?.status === 'date-window';
+  const isDayOnly =
+    schedule?.status === 'date-confirmed' && !match.date?.dateTime && !match.utcDate;
+  const iso = isWindow ? '' : matchDateTimeOf(match);
   const approx = isApproximateKickoff(match);
-  const kickoff = formatKickoffTime(iso, locale, approx);
+  // Window fixtures never show a kickoff; date-confirmed (day known, no
+  // time) shows a TBC label instead of a synthetic noon time.
+  const kickoff = !isWindow && !isDayOnly ? formatKickoffTime(iso, locale, approx) : '';
+  const tbcLabel = isWindow
+    ? `${formatScheduleWindow(schedule.startDate, schedule.endDate, locale)} · ${tFind('scheduleTbc')}`
+    : isDayOnly
+      ? (tFind('kickoffTbc') as string)
+      : null;
+  const showTbc = isTbcMatch(match);
   const competition = match.competition?.name ?? '';
   const venue = match.stadium?.venue || match.stadium?.address || '';
   const distance = selectable ? formatDistanceKmDisplay(match._distanceKm) : null;
@@ -88,7 +103,7 @@ function SharedMatchCardInner({
       onMouseLeave={() => onHover?.(null)}
       tabIndex={0}
       role="button"
-      aria-label={`${home} vs ${away}, ${kickoff}`}
+      aria-label={`${home} vs ${away}, ${kickoff || tbcLabel || ''}`}
       data-testid={`${testIdPrefix}-${id}`}
       data-selected={selected ? 'true' : undefined}
       data-hovered={hovered ? 'true' : undefined}
@@ -135,6 +150,15 @@ function SharedMatchCardInner({
               <Text size="xs" fw={700} style={{ whiteSpace: 'nowrap', marginLeft: 'auto' }}>
                 {kickoff}
               </Text>
+            ) : tbcLabel ? (
+              <Text
+                size="xs"
+                fw={700}
+                style={{ whiteSpace: 'nowrap', marginLeft: 'auto' }}
+                data-testid={`${testIdPrefix}-tbc-${id}`}
+              >
+                {tbcLabel}
+              </Text>
             ) : null}
           </Group>
 
@@ -163,9 +187,19 @@ function SharedMatchCardInner({
               </Anchor>
             ) : null}
           </Group>
-          {approx ? (
+          {approx && kickoff ? (
             <Text size="xs" c="dimmed" data-testid={`${testIdPrefix}-approx-${id}`}>
               {tFind('approxTime')}
+            </Text>
+          ) : null}
+          {showTbc && !isWindow && !isDayOnly ? (
+            <Text size="xs" c="dimmed" data-testid={`${testIdPrefix}-tbc-note-${id}`}>
+              {tFind('scheduleTbc')}
+            </Text>
+          ) : null}
+          {isWindow ? (
+            <Text size="xs" c="dimmed" data-testid={`${testIdPrefix}-tbc-note-${id}`}>
+              {tFind('dateKickoffTbc')}
             </Text>
           ) : null}
           {selectable && outsideRadius ? (

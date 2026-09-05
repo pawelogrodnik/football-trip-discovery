@@ -137,7 +137,13 @@
     "distHint100": "Regional",
     "distHint150": "Amplio",
     "distHint250": "Muy amplio",
-    "summaryDistance": "≤ {{km}} km entre estadios"
+    "summaryDistance": "≤ {{km}} km entre estadios",
+    "possibleMatches": "Partidos posibles",
+    "tbcOpportunities": "+{{count}} pendientes de horario",
+    "confirmedTbc": "{{confirmed}} confirmados · {{tbc}} por confirmar",
+    "kickoffTbc": "Hora por confirmar",
+    "scheduleTbc": "Horario por confirmar",
+    "confirmedItinerary": "ITINERARIO"
   },
   "FindMatches": {
     "title": "Busca partidos cerca de tu destino",
@@ -177,7 +183,11 @@
     "approxTime": "Hora aproximada",
     "tryAgain": "Intentar de nuevo",
     "errorFallback": "Algo salió mal. Inténtalo de nuevo.",
-    "discoverLink": "Descubrir otro destino"
+    "discoverLink": "Descubrir otro destino",
+    "scheduleTbc": "Horario por confirmar",
+    "dateKickoffTbc": "Fecha y hora por confirmar",
+    "kickoffTbc": "Hora por confirmar",
+    "confirmedTbcCount": "{{confirmed}} confirmados · {{tbc}} por confirmar"
   },
   "TripPage": {
     "title": "Viaje de fútbol",
@@ -191,6 +201,10 @@
     "loading": "Cargando viaje...",
     "emptyNoIds": "Indica los ids con \"?ids=partido1,partido2\" para ver el viaje.",
     "emptyNotFound": "No se encontraron partidos para los ids indicados.",
-    "missingWarning": "No se pudieron cargar algunos partidos: {{ids}}"
+    "missingWarning": "No se pudieron cargar algunos partidos: {{ids}}",
+    "confirmedMatches": "partidos confirmados",
+    "awaitingSchedule": "pendientes de horario",
+    "confirmedSection": "CONFIRMADOS",
+    "tbcSection": "HORARIO POR CONFIRMAR"
   }
 }

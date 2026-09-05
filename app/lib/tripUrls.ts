@@ -5,6 +5,7 @@ import {
   FIND_RADIUS_MIN_KM,
   snapRadiusUp,
 } from './distance';
+import { hasValidVenueGeo } from './matchSchedule';
 import { getCanonicalMatchId } from './normalizeMatchId';
 
 export type FindLocation = {
@@ -64,9 +65,13 @@ export function matchIdOfLoose(m: { _id?: unknown; id?: unknown }): string {
 function venueOf(m: {
   stadium?: { geo?: { latitude?: unknown; longitude?: unknown } };
 }): { lat: number; lon: number } | null {
-  const lat = m.stadium?.geo?.latitude;
-  const lon = m.stadium?.geo?.longitude;
-  return typeof lat === 'number' && typeof lon === 'number' ? { lat, lon } : null;
+  if (!hasValidVenueGeo(m)) {
+    return null;
+  }
+  return {
+    lat: m.stadium!.geo!.latitude as number,
+    lon: m.stadium!.geo!.longitude as number,
+  };
 }
 
 function isGenericDestinationLabel(label: string | undefined | null): boolean {
@@ -82,6 +87,11 @@ function isGenericDestinationLabel(label: string | undefined | null): boolean {
  * Centroid of trip venues + max distance + margin, snapped UP to a
  * supported shared distance option so no selected venue is excluded.
  * NOTE: this radius is NOT maxInterTravelKm — different metric.
+ *
+ * Context matches: the itinerary plus eligible TBC opportunities (which
+ * users saw as part of the candidate); for opportunity-only candidates
+ * the geocoded tbcMatches are the venue/ID source. Only valid-geo venues
+ * participate in centroid/radius — never 0,0 for a real candidate.
  */
 export function deriveFindContextFromTrip(trip: DiscoverTrip): {
   location: FindLocation;
@@ -90,10 +100,14 @@ export function deriveFindContextFromTrip(trip: DiscoverTrip): {
   endDate: Date | null;
   ids: string[];
 } {
-  const venues = trip.matches
+  const contextMatches =
+    trip.matches.length > 0
+      ? [...trip.matches, ...(trip.tbcMatches ?? [])]
+      : [...(trip.tbcMatches ?? [])];
+  const venues = contextMatches
     .map(venueOf)
     .filter((v): v is { lat: number; lon: number } => v !== null);
-  const ids = Array.from(new Set(trip.matches.map(matchIdOfLoose).filter(Boolean)));
+  const ids = Array.from(new Set(contextMatches.map(matchIdOfLoose).filter(Boolean)));
 
   const startDate = trip.tripStartDate ? parseDateOnlyLocal(trip.tripStartDate) : null;
   const endDate = trip.tripEndDate ? parseDateOnlyLocal(trip.tripEndDate) : null;

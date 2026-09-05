@@ -14,6 +14,7 @@ import {
   rankTopPicks,
   resolveCategory,
   toDateOnlyUTC,
+  tripMapSources,
 } from 'lib/discover';
 import { DEFAULT_INTER_TRAVEL_KM } from 'lib/distance';
 import { MapViewportInsets } from 'lib/mapViewport';
@@ -328,7 +329,7 @@ export default function DiscoverClient() {
     const seen = new Set<string>();
     const out: DiscoverTrip['matches'] = [];
     for (const tr of trips) {
-      for (const m of tr.matches) {
+      for (const m of [...tr.matches, ...(tr.tbcMatches ?? [])]) {
         const id = matchIdOf(m);
         if (!id || seen.has(id)) {
           continue;
@@ -341,15 +342,17 @@ export default function DiscoverClient() {
   }, [trips]);
 
   const showSearch = view === 'search' || editing;
-  // Results overview: one destination marker per ranked trip (count = matches).
-  // Stable across categories for fit; visible markers follow the active ranking.
+  // Results overview: one destination marker per ranked trip.
+  // Venue source is the itinerary, or the geocoded TBC opportunities for
+  // opportunity-only candidates (which have no itinerary at all).
   const mapTripMarkers = useMemo(() => {
     if (selectedTrip || (view !== 'results' && view !== 'loading')) {
       return [];
     }
     return rankedTrips
       .map((tr) => {
-        const pts = tr.matches
+        const source = tr.matches.length > 0 ? tr.matches : (tr.tbcMatches ?? []);
+        const pts = source
           .map((m) => ({
             lat: m.stadium?.geo?.latitude,
             lon: m.stadium?.geo?.longitude,
@@ -363,22 +366,36 @@ export default function DiscoverClient() {
         }
         const lat = pts.reduce((s, p) => s + p.lat, 0) / pts.length;
         const lon = pts.reduce((s, p) => s + p.lon, 0) / pts.length;
-        return { id: tr.id, label: tr.destinationLabel, lat, lon, count: tr.matchCount };
+        const count = tr.matchCount > 0 ? tr.matchCount : (tr.tbcMatches?.length ?? 0);
+        return { id: tr.id, label: tr.destinationLabel, lat, lon, count };
       })
       .filter(
         (m): m is { id: string; label: string; lat: number; lon: number; count: number } =>
           m !== null
       );
   }, [rankedTrips, selectedTrip, view]);
-  const mapFixtures = selectedTrip ? selectedTrip.matches : [];
-  const mapRouteFixtures = selectedTrip ? selectedTrip.matches : [];
+  // Selected trip map semantics via the shared tripMapSources helper:
+  // markers = itinerary + geocoded TBC (TBC-only: just TBC),
+  // route = confirmed only, fit = marker set.
+  const selectedMapSources = useMemo(
+    () =>
+      selectedTrip
+        ? tripMapSources(selectedTrip)
+        : { markers: [], route: [], selectedIds: [], hasItinerary: false },
+    [selectedTrip]
+  );
+  const mapFixtures = selectedMapSources.markers;
+  const mapRouteFixtures = selectedMapSources.route;
   const mapFitFixtures = selectedTrip
-    ? selectedTrip.matches
+    ? selectedMapSources.markers
     : view === 'results' || view === 'loading'
       ? allMarkers
       : null;
-  const mapRouteLabel = selectedTrip ? t('totalKm', { count: selectedTrip.totalKm }) : null;
-  const mapSelectedMatchesIds = selectedTrip ? selectedTrip.matches.map(matchIdOf) : [];
+  const mapRouteLabel =
+    selectedTrip && selectedMapSources.hasItinerary
+      ? t('totalKm', { count: selectedTrip.totalKm })
+      : null;
+  const mapSelectedMatchesIds = selectedMapSources.selectedIds;
   const mapSelectedLocation =
     destination.type === 'around-city' && destination.location.label ? destination.location : null;
   const mapShowCircle = mapSelectedLocation !== null && selectedTrip === null;

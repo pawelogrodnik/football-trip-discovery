@@ -137,7 +137,13 @@
     "distHint100": "Regional",
     "distHint150": "Weit",
     "distHint250": "Sehr weit",
-    "summaryDistance": "≤ {{km}} km zwischen Spielorten"
+    "summaryDistance": "≤ {{km}} km zwischen Spielorten",
+    "possibleMatches": "Mögliche Spiele",
+    "tbcOpportunities": "+{{count}} warten auf Anstoß",
+    "confirmedTbc": "{{confirmed}} bestätigt · {{tbc}} TBC",
+    "kickoffTbc": "Anstoß TBC",
+    "scheduleTbc": "Termin TBC",
+    "confirmedItinerary": "SPIELPLAN"
   },
   "FindMatches": {
     "title": "Finde Spiele an deinem Zielort",
@@ -177,7 +183,11 @@
     "approxTime": "Anstoßzeit ca.",
     "tryAgain": "Erneut versuchen",
     "errorFallback": "Etwas ist schiefgelaufen. Versuch es erneut.",
-    "discoverLink": "Anderes Ziel entdecken"
+    "discoverLink": "Anderes Ziel entdecken",
+    "scheduleTbc": "Termin TBC",
+    "dateKickoffTbc": "Datum & Anstoß TBC",
+    "kickoffTbc": "Anstoß TBC",
+    "confirmedTbcCount": "{{confirmed}} bestätigt · {{tbc}} TBC"
   },
   "TripPage": {
     "title": "Fußballtrip",
@@ -191,6 +201,10 @@
     "loading": "Trip wird geladen...",
     "emptyNoIds": "Gib Spiel-IDs über \"?ids=spiel1,spiel2\" an, um den Trip zu sehen.",
     "emptyNotFound": "Keine Spiele für die angegebenen IDs gefunden.",
-    "missingWarning": "Einige Spiele konnten nicht geladen werden: {{ids}}"
+    "missingWarning": "Einige Spiele konnten nicht geladen werden: {{ids}}",
+    "confirmedMatches": "bestätigte Spiele",
+    "awaitingSchedule": "wartet auf Termin",
+    "confirmedSection": "BESTÄTIGT",
+    "tbcSection": "TERMIN TBC"
   }
 }

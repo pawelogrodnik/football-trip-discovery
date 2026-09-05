@@ -19,10 +19,14 @@ import SharedMatchCard from '../../components/matchCard/SharedMatchCard';
 import { MOBILE_VIEW } from '../../components/view-toggle/consts';
 import ViewToggle from '../../components/view-toggle/ViewToggle';
 import {
+  countConfirmedTbc,
   dedupeMatches,
   formatDayHeader,
+  formatScheduleWindow,
   formatShortDayRange,
   groupMatchesByDay,
+  isConfirmedMatch,
+  isTbcMatch,
   LooseMatch,
   matchIdOf,
   selectedTripRange,
@@ -202,6 +206,25 @@ export default function TripClient() {
   // when the same fixture was requested under two id forms.
   const displayedCount = sortedMatches.length;
 
+  // TBC fixtures stay visible but never define the chronological route:
+  // ordering a route through unresolved days would invent precision.
+  const { confirmed: confirmedCount, tbc: tbcCount } = useMemo(
+    () => countConfirmedTbc(sortedMatches),
+    [sortedMatches]
+  );
+  const confirmedMatches = useMemo(
+    () => sortedMatches.filter((m) => !isTbcMatch(m)),
+    [sortedMatches]
+  );
+  const tbcMatches = useMemo(() => sortedMatches.filter((m) => isTbcMatch(m)), [sortedMatches]);
+  // Route/polyline/order only from fixtures with genuinely known order:
+  // date-confirmed belongs to the itinerary day-wise, but an invented
+  // kickoff must never prove ordering against another fixture.
+  const routeMatches = useMemo(
+    () => confirmedMatches.filter((m) => venueCoords(m) !== null && isConfirmedMatch(m)),
+    [confirmedMatches]
+  );
+
   // Map selection must use the same canonical ids as marker identity.
   const tripSelectedIds = useMemo(() => sortedMatches.map((m) => matchIdOf(m)), [sortedMatches]);
 
@@ -230,10 +253,16 @@ export default function TripClient() {
         : '',
       t('matchCount', { count: displayedCount }),
     ].filter(Boolean);
+    if (tbcCount > 0) {
+      parts.push(
+        `${confirmedCount} ${t('confirmedMatches')} · ${tbcCount} ${t('awaitingSchedule')}`
+      );
+    }
     return parts.join(' · ');
-  }, [compactLabel, rangeLabel, range, displayedCount, t]);
+  }, [compactLabel, rangeLabel, range, displayedCount, confirmedCount, tbcCount, t]);
 
-  const groups = useMemo(() => groupMatchesByDay(sortedMatches), [sortedMatches]);
+  const confirmedGroups = useMemo(() => groupMatchesByDay(confirmedMatches), [confirmedMatches]);
+  const tbcGroups = useMemo(() => groupMatchesByDay(tbcMatches), [tbcMatches]);
 
   const initialCenter = useMemo<[number, number]>(() => {
     if (sharedLocation) {
@@ -357,7 +386,7 @@ export default function TripClient() {
             fixtures={matchesForMap}
             selectedMatchesIds={tripSelectedIds}
             hoveredMatchId={hoveredMatchId}
-            routeFixtures={matchesForMap}
+            routeFixtures={routeMatches}
             fitFixtures={matchesForMap}
             showSelectedLocationRadius={false}
             focus={mapFocus}
@@ -428,7 +457,12 @@ export default function TripClient() {
           {displayedCount > 0 && (
             <ScrollArea className={classes.tripScroll} type="auto" data-testid="trip-results-list">
               <Stack gap={8} pb={8}>
-                {groups.map((g) => (
+                {tbcCount > 0 && (
+                  <Text size="xs" fw={700} data-testid="trip-confirmed-heading">
+                    {t('confirmedSection')}
+                  </Text>
+                )}
+                {confirmedGroups.map((g) => (
                   <div key={g.dayKey}>
                     <Text
                       size="xs"
@@ -443,7 +477,9 @@ export default function TripClient() {
                         padding: '6px 2px 4px',
                       }}
                     >
-                      {formatDayHeader(g.dateTime, locale)}
+                      {g.window
+                        ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
+                        : formatDayHeader(g.dateTime, locale)}
                     </Text>
                     <Stack gap={8} mt={2}>
                       {g.matches.map((m) => {
@@ -464,6 +500,51 @@ export default function TripClient() {
                     </Stack>
                   </div>
                 ))}
+                {tbcGroups.length > 0 && (
+                  <>
+                    <Text size="xs" fw={700} data-testid="trip-tbc-heading" mt={4}>
+                      {t('tbcSection')}
+                    </Text>
+                    {tbcGroups.map((g) => (
+                      <div key={g.dayKey}>
+                        <Text
+                          size="xs"
+                          fw={700}
+                          c="dimmed"
+                          data-testid={`trip-day-${g.dayKey}`}
+                          style={{
+                            position: 'sticky',
+                            top: 0,
+                            zIndex: 2,
+                            background: 'var(--mantine-color-body)',
+                            padding: '6px 2px 4px',
+                          }}
+                        >
+                          {g.window
+                            ? `${formatScheduleWindow(g.window.startDateOnly, g.window.endDateOnly, locale)} · ${t('tbcSection')}`
+                            : formatDayHeader(g.dateTime, locale)}
+                        </Text>
+                        <Stack gap={8} mt={2}>
+                          {g.matches.map((m) => {
+                            const id = matchIdOf(m);
+                            return (
+                              <SharedMatchCard
+                                key={id || `${g.dayKey}-${m.homeTeam?.name}-${m.awayTeam?.name}`}
+                                match={m}
+                                variant="trip"
+                                testIdPrefix="trip-match-card"
+                                hovered={hoveredMatchId === id}
+                                navigationHref={navigationUrlFactory(m)}
+                                onFocus={handleMatchClick}
+                                onHover={setHoveredMatchId}
+                              />
+                            );
+                          })}
+                        </Stack>
+                      </div>
+                    ))}
+                  </>
+                )}
               </Stack>
             </ScrollArea>
           )}
