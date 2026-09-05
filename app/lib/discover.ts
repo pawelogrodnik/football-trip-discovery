@@ -311,6 +311,64 @@ export function dedupeTrips<T extends Pick<Trip, 'matches' | 'totalKm'>>(trips: 
 }
 
 /**
+ * Geographic relevance for mixed trips (issue #9 geo coherence).
+ * A TBC opportunity attaches to an itinerary only when its venue is within
+ * maxInterTravelKm of AT LEAST ONE itinerary venue — never centroid-only,
+ * so a fixture near Bergamo stays valid on a Milan+Bergamo trip.
+ * No chronological feasibility is claimed; this is relevance only.
+ */
+export function isTbcRelevantToItinerary(
+  tbc: TripMatch,
+  itinerary: TripMatch[],
+  maxInterTravelKm: number
+): boolean {
+  return itinerary.some((m) => {
+    const d = haversineKm(tbc, m);
+    return d !== null && d <= maxInterTravelKm;
+  });
+}
+
+/**
+ * Partition geocoded TBC fixtures into coherent geographic clusters.
+ * Connected components over haversineKm <= maxInterTravelKm edges, so
+ * chains (A-B, B-C near; A-C far) still form one trip area.
+ * No heavyweight dependency; union-find over the pool.
+ */
+export function clusterTbcByGeo(pool: TripMatch[], maxInterTravelKm: number): TripMatch[][] {
+  const n = pool.length;
+  const parent = pool.map((_, i) => i);
+  const find = (x: number): number => (parent[x] === x ? x : (parent[x] = find(parent[x])));
+  const union = (a: number, b: number) => {
+    parent[find(a)] = find(b);
+  };
+  for (let i = 0; i < n; i++) {
+    for (let j = i + 1; j < n; j++) {
+      const d = haversineKm(pool[i], pool[j]);
+      if (d !== null && d <= maxInterTravelKm) {
+        union(i, j);
+      }
+    }
+  }
+  const groups = new Map<number, TripMatch[]>();
+  for (let i = 0; i < n; i++) {
+    const root = find(i);
+    const group = groups.get(root);
+    if (group) {
+      group.push(pool[i]);
+    } else {
+      groups.set(root, [pool[i]]);
+    }
+  }
+  // Deterministic order: largest cluster first, then by first fixture id.
+  return Array.from(groups.values()).sort(
+    (a, b) =>
+      b.length - a.length ||
+      String((a[0] as { id?: string }).id ?? '').localeCompare(
+        String((b[0] as { id?: string }).id ?? '')
+      )
+  );
+}
+/**
  * Selected-trip map sources (single source of truth for Discover map
  * adapters and their regression tests).
  * - markers: itinerary + geocoded TBC opportunities (TBC-only: just TBC)
@@ -363,24 +421,28 @@ export function suggestDiscoverTrips(
     const tbcPool = inWindow.filter((m) => isWindowOnlyMatch(m) && hasValidVenueGeo(m));
     // Opportunities attach against the candidate's actual rolling trip
     // window — never narrowed to the confirmed itinerary span, because
-    // unresolved fixtures may live on unused days inside that window.
+    // unresolved fixtures may live on unused days inside that window —
+    // but only when geographically relevant to the itinerary: within
+    // maxInterTravelKm of at least one itinerary venue (never centroid).
+    const maxHop = opts.maxInterTravelKm;
     const attachTbc = (t: Trip) => {
       const tripIds = new Set(t.matches.map((m) => String((m as { id?: string }).id ?? '')));
       t.tbcMatches = tbcPool.filter(
         (m) =>
           !tripIds.has(String((m as { id?: string }).id ?? '')) &&
-          scheduleIntersectsRange(m as never, w.windowStart, w.windowEnd)
+          scheduleIntersectsRange(m as never, w.windowStart, w.windowEnd) &&
+          isTbcRelevantToItinerary(m, t.matches, maxHop)
       );
     };
     if (schedulable.length === 0) {
-      // Opportunity-only weekend: no guaranteed itinerary, but the TBC
-      // inventory must still surface (e.g. Lower league gems).
-      // No route, no legs, no fabricated km.
-      if (tbcPool.length > 0) {
+      // Opportunity-only weekends surface per geographic cluster, never
+      // as one global pool: each connected component becomes its own
+      // candidate with its own destination. No route, no legs, no fake km.
+      clusterTbcByGeo(tbcPool, maxHop).forEach((cluster, clusterIdx) => {
         collected.push({
-          id: `discover_opportunity_${w.windowStart}_${w.windowEnd}`,
+          id: `discover_opportunity_${w.windowStart}_${w.windowEnd}_${clusterIdx}`,
           matches: [],
-          tbcMatches: [...tbcPool],
+          tbcMatches: [...cluster],
           totalKm: 0,
           matchCount: 0,
           legs: [],
@@ -388,7 +450,7 @@ export function suggestDiscoverTrips(
           tripEndDate: w.windowEnd,
           tripLengthDays: w.tripLengthDays,
         } as Trip & Partial<DiscoverTripMeta>);
-      }
+      });
       continue;
     }
     const found = suggestTrips(schedulable, {
