@@ -395,6 +395,34 @@ export function tripMapSources(trip: Pick<Trip, 'matches' | 'tbcMatches'>): {
 }
 
 /**
+ * Standalone TBC opportunity candidate for one geographic cluster.
+ * No itinerary, no route, no legs, no fabricated km — the cluster IS
+ * the candidate (destination, map, Customize all derive from it).
+ */
+export function buildTbcOpportunityCandidate(
+  cluster: TripMatch[],
+  w: RollingWindow,
+  clusterIdx: number
+): Trip & Partial<DiscoverTripMeta> {
+  return {
+    id: `discover_opportunity_${w.windowStart}_${w.windowEnd}_${clusterIdx}`,
+    matches: [],
+    tbcMatches: [...cluster],
+    totalKm: 0,
+    matchCount: 0,
+    legs: [],
+    tripStartDate: w.windowStart,
+    tripEndDate: w.windowEnd,
+    tripLengthDays: w.tripLengthDays,
+  };
+}
+
+/** Logical TBC identity for used-set tracking (same raw-id basis as candidateKey). */
+function tbcIdOf(m: TripMatch): string {
+  return String((m as { id?: string }).id ?? '').trim();
+}
+
+/**
  * Higher-level Discover candidate generator.
  * Loads once (caller filters availability), then evaluates rolling windows
  * independently so alternatives MAY share fixtures.
@@ -419,55 +447,46 @@ export function suggestDiscoverTrips(
     // window fixture cannot prove radius membership, map placement, or
     // destination relevance. Never fall back to 0,0.
     const tbcPool = inWindow.filter((m) => isWindowOnlyMatch(m) && hasValidVenueGeo(m));
-    // Opportunities attach against the candidate's actual rolling trip
-    // window — never narrowed to the confirmed itinerary span, because
-    // unresolved fixtures may live on unused days inside that window —
-    // but only when geographically relevant to the itinerary: within
-    // maxInterTravelKm of at least one itinerary venue (never centroid).
     const maxHop = opts.maxInterTravelKm;
-    const attachTbc = (t: Trip) => {
-      const tripIds = new Set(t.matches.map((m) => String((m as { id?: string }).id ?? '')));
-      t.tbcMatches = tbcPool.filter(
-        (m) =>
-          !tripIds.has(String((m as { id?: string }).id ?? '')) &&
-          scheduleIntersectsRange(m as never, w.windowStart, w.windowEnd) &&
-          isTbcRelevantToItinerary(m, t.matches, maxHop)
-      );
-    };
-    if (schedulable.length === 0) {
-      // Opportunity-only weekends surface per geographic cluster, never
-      // as one global pool: each connected component becomes its own
-      // candidate with its own destination. No route, no legs, no fake km.
-      clusterTbcByGeo(tbcPool, maxHop).forEach((cluster, clusterIdx) => {
-        collected.push({
-          id: `discover_opportunity_${w.windowStart}_${w.windowEnd}_${clusterIdx}`,
-          matches: [],
-          tbcMatches: [...cluster],
-          totalKm: 0,
-          matchCount: 0,
-          legs: [],
-          tripStartDate: w.windowStart,
-          tripEndDate: w.windowEnd,
-          tripLengthDays: w.tripLengthDays,
-        } as Trip & Partial<DiscoverTripMeta>);
+
+    // Phase 1: normal itinerary candidates with geographically relevant
+    // TBC attached (rolling window for days, itinerary venues for place).
+    const usedTbcIds = new Set<string>();
+    if (schedulable.length > 0) {
+      const found = suggestTrips(schedulable, {
+        maxInterTravelKm: opts.maxInterTravelKm,
+        bufferMinutes: opts.bufferMinutes ?? 30,
+        startLocation: opts.startLocation ?? null,
+        limit: perWindowLimit,
       });
-      continue;
-    }
-    const found = suggestTrips(schedulable, {
-      maxInterTravelKm: opts.maxInterTravelKm,
-      bufferMinutes: opts.bufferMinutes ?? 30,
-      startLocation: opts.startLocation ?? null,
-      limit: perWindowLimit,
-    });
-    // Guard: never emit a trip longer (calendar days) than the window duration
-    for (const t of found) {
-      const { lengthDays } = tripDates(t);
-      if (lengthDays > w.tripLengthDays) {
-        continue;
+      // Guard: never emit a trip longer (calendar days) than the window duration
+      for (const t of found) {
+        const { lengthDays } = tripDates(t);
+        if (lengthDays > w.tripLengthDays) {
+          continue;
+        }
+        const tripIds = new Set(t.matches.map((m) => tbcIdOf(m)));
+        t.tbcMatches = tbcPool.filter(
+          (m) =>
+            !tripIds.has(tbcIdOf(m)) &&
+            scheduleIntersectsRange(m as never, w.windowStart, w.windowEnd) &&
+            isTbcRelevantToItinerary(m, t.matches, maxHop)
+        );
+        for (const m of t.tbcMatches) {
+          usedTbcIds.add(tbcIdOf(m));
+        }
+        collected.push(t);
       }
-      attachTbc(t);
-      collected.push(t);
     }
+
+    // Phase 2: leftover TBC inventory survives as standalone
+    // geographically coherent clusters — never dropped merely because an
+    // unrelated city has a confirmed fixture in the same window, and
+    // never duplicated when already attached to a mixed candidate.
+    const leftoverTbc = tbcPool.filter((m) => !usedTbcIds.has(tbcIdOf(m)));
+    clusterTbcByGeo(leftoverTbc, maxHop).forEach((cluster, clusterIdx) => {
+      collected.push(buildTbcOpportunityCandidate(cluster, w, clusterIdx));
+    });
   }
   // Re-id deterministically after merge, then dedupe
   const reId = collected.map((t, i) => ({ ...t, id: `discover_${i}` }));

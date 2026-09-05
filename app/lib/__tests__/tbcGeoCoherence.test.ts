@@ -2,6 +2,7 @@ import { deriveFindContextFromTrip } from 'lib/tripUrls';
 import {
   clusterTbcByGeo,
   enrichTrip,
+  getAvailableCategories,
   isTbcRelevantToItinerary,
   rankLowerLeagueGems,
   suggestDiscoverTrips,
@@ -259,5 +260,116 @@ describe('enrichTrip stays cluster-local', () => {
     expect(enriched.destinationLabel).toBe('Kraków');
     expect(enriched.confirmedCount).toBe(0);
     expect(enriched.tbcCount).toBe(2);
+  });
+});
+
+describe('two-phase window: itinerary + leftover TBC clusters coexist', () => {
+  const KRK = (id: string) =>
+    windowOnly(id, 'Krakow', 'IV liga', '2026-10-22', '2026-10-23', 'Kraków');
+  const PAL = (id: string) =>
+    windowOnly(id, 'Palermo', 'IV liga', '2026-10-22', '2026-10-23', 'Palermo');
+
+  function runPool(pool: TripMatch[]) {
+    return suggestDiscoverTrips(pool, '2026-10-21', '2026-10-23', [3], {
+      maxInterTravelKm: 100,
+    });
+  }
+
+  test('A. Milan itinerary + Kraków + Palermo TBC-only candidates', () => {
+    const trips = runPool([
+      confirmed('c1', 'Milan'),
+      KRK('k1'),
+      KRK('k2'),
+      KRK('k3'),
+      PAL('p1'),
+      PAL('p2'),
+    ]);
+    const mixed = trips.filter((t) => t.matchCount > 0);
+    const standalone = trips.filter((t) => t.matchCount === 0);
+    expect(mixed.length).toBeGreaterThan(0);
+    expect(standalone.map((t) => t.destinationLabel).sort()).toEqual(['Kraków', 'Palermo']);
+    expect(standalone.find((t) => t.destinationLabel === 'Kraków')!.tbcCount).toBe(3);
+    expect(standalone.find((t) => t.destinationLabel === 'Palermo')!.tbcCount).toBe(2);
+  });
+
+  test('B. Monza attaches to Milan; Kraków stands alone, no Monza duplicate', () => {
+    const trips = runPool([confirmed('c1', 'Milan'), windowOnly('monza', 'Monza'), KRK('k1')]);
+    const mixed = trips.find((t) => t.matchCount > 0);
+    expect(mixed!.tbcMatches!.map((m) => m.id)).toEqual(['monza']);
+    const standalone = trips.filter((t) => t.matchCount === 0);
+    expect(standalone.map((t) => t.destinationLabel)).toEqual(['Kraków']);
+    expect(standalone[0].tbcMatches!.map((m) => m.id)).toEqual(['k1']);
+  });
+
+  test('C. Monza relevant to Milan+Bergamo alternatives: shared, never standalone', () => {
+    const trips = suggestDiscoverTrips(
+      [
+        confirmed('m1', 'Milan', '2026-10-21T15:00:00.000Z'),
+        confirmed('b1', 'Bergamo', '2026-10-22T15:00:00.000Z'),
+        windowOnly('monza', 'Monza'),
+      ],
+      '2026-10-21',
+      '2026-10-23',
+      [3],
+      { maxInterTravelKm: 100 }
+    );
+    const mixed = trips.filter((t) => t.matchCount > 0);
+    expect(mixed.length).toBeGreaterThan(0);
+    for (const t of mixed) {
+      expect(t.tbcMatches!.map((m) => m.id)).toContain('monza');
+    }
+    expect(trips.filter((t) => t.matchCount === 0)).toHaveLength(0);
+  });
+
+  test('D. Milan mixed + Monza/Brescia attached + Kraków/Palermo leftover', () => {
+    const trips = runPool([
+      confirmed('c1', 'Milan'),
+      windowOnly('monza', 'Monza'),
+      windowOnly('brescia', 'Brescia'),
+      KRK('k1'),
+      KRK('k2'),
+      KRK('k3'),
+      PAL('p1'),
+      PAL('p2'),
+    ]);
+    const mixed = trips.find((t) => t.matchCount > 0);
+    expect(mixed!.tbcMatches!.map((m) => m.id).sort()).toEqual(['brescia', 'monza']);
+    const standalone = trips
+      .filter((t) => t.matchCount === 0)
+      .map((t) => t.destinationLabel)
+      .sort();
+    expect(standalone).toEqual(['Kraków', 'Palermo']);
+  });
+
+  test('E. Lower Gems surfaces leftover lower-league cluster despite Milan trip', () => {
+    const trips = runPool([
+      confirmed('c1', 'Milan', '2026-10-21T15:00:00.000Z', 'Serie A'),
+      ...Array.from({ length: 8 }, (_, i) => KRK(`k${i}`)),
+      PAL('p1'),
+      PAL('p2'),
+    ]);
+    expect(getAvailableCategories(trips)).toContain('lower');
+    const gems = rankLowerLeagueGems(trips).filter((t) => t.matchCount === 0);
+    expect(gems[0].destinationLabel).toBe('Kraków');
+    expect(gems[0].tbcCount).toBe(8);
+  });
+
+  test('F. standalone clusters never duplicate attached TBC ids', () => {
+    const trips = runPool([
+      confirmed('c1', 'Milan'),
+      windowOnly('monza', 'Monza'),
+      windowOnly('brescia', 'Brescia'),
+      KRK('k1'),
+      PAL('p1'),
+    ]);
+    const attached = new Set(
+      trips.filter((t) => t.matchCount > 0).flatMap((t) => (t.tbcMatches ?? []).map((m) => m.id))
+    );
+    expect(attached.has('monza')).toBe(true);
+    for (const t of trips.filter((t) => t.matchCount === 0)) {
+      for (const m of t.tbcMatches ?? []) {
+        expect(attached.has(m.id)).toBe(false);
+      }
+    }
   });
 });
