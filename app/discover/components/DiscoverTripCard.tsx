@@ -158,18 +158,21 @@ export default function DiscoverTripCard({
   const t = useTranslations('Discover');
   const locale = useLocale();
 
-  // Opportunity-only candidates have no itinerary; preview TBC teams instead.
-  const teamSource = trip.matches.length > 0 ? trip.matches : (trip.tbcMatches ?? []);
+  // Opportunity-only candidates have no itinerary; derive football
+  // context (teams, competitions, country) from the TBC opportunities.
+  const contextSource = trip.matches.length > 0 ? trip.matches : (trip.tbcMatches ?? []);
   const { visible: teams, hiddenCount: hiddenTeams } = useMemo(
-    () => getVisibleTripTeams(teamSource, 6),
-    [teamSource]
+    () => getVisibleTripTeams(contextSource, 6),
+    [contextSource]
   );
   const competitions = useMemo(
-    () => getVisibleTripCompetitions(trip.matches, variant === 'compact' ? 3 : 5),
-    [trip.matches, variant]
+    () => getVisibleTripCompetitions(contextSource, variant === 'compact' ? 3 : 5),
+    [contextSource, variant]
   );
   const featured = useMemo(() => getFeaturedTripMatch(trip.matches), [trip.matches]);
-  const countryLabel = useMemo(() => getTripCountryLabel(trip.matches), [trip.matches]);
+  const countryLabel = useMemo(() => getTripCountryLabel(contextSource), [contextSource]);
+  // TBC-only trips have no route: hide km metrics instead of showing 0 km.
+  const routeKm = trip.matches.length > 0 ? trip.totalKm : Number.NaN;
 
   const destination = trip.destinationLabel || 'Football trip';
   const datesLine = `${formatShortRange(trip.tripStartDate, trip.tripEndDate, locale)} · ${t('daysOption', { count: trip.tripLengthDays })}${countryLabel ? ` · ${countryLabel}` : ''}`;
@@ -255,7 +258,7 @@ export default function DiscoverTripCard({
 
         <MetricsRow
           uefaCount={trip.uefaMatchCount}
-          totalKm={trip.totalKm}
+          totalKm={routeKm}
           matchLabel={
             tbcTotal > 0
               ? t('confirmedTbc', { confirmed: confirmedCount, tbc: tbcTotal })

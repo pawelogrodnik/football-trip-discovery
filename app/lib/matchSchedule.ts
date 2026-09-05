@@ -233,3 +233,26 @@ export function scheduleCertaintyCounts<T extends ScheduleLike>(
   }
   return { confirmed, tbc };
 }
+
+type GeoLike = {
+  stadium?: {
+    geo?: { latitude?: unknown; longitude?: unknown } | null;
+  } | null;
+};
+
+/**
+ * Central venue-geo eligibility (issue #9 geo clarification).
+ * A fixture is a geographic opportunity only with usable stadium
+ * coordinates. Never fall back to 0,0 and never invent coordinates.
+ */
+export function hasValidVenueGeo(match: GeoLike | null | undefined): boolean {
+  const lat = match?.stadium?.geo?.latitude;
+  const lon = match?.stadium?.geo?.longitude;
+  if (typeof lat !== 'number' || typeof lon !== 'number') {
+    return false;
+  }
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    return false;
+  }
+  return lat >= -90 && lat <= 90 && lon >= -180 && lon <= 180;
+}

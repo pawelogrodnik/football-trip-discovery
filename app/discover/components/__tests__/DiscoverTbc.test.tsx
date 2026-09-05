@@ -86,7 +86,7 @@ describe('Discover confirmed-vs-TBC (issue #9)', () => {
           awayTeam: { name: 'Dalin' },
           competition: { name: 'Serie C Group A' },
           date: { startDate: '2026-10-22', endDate: '2026-10-23' },
-          stadium: {},
+          stadium: { geo: { latitude: 45.8, longitude: 9.07 } },
         },
       ] as never,
     });
@@ -105,7 +105,10 @@ describe('Discover confirmed-vs-TBC (issue #9)', () => {
       ],
       matchCount: 3,
     };
-    single.tbcMatches = Array.from({ length: 5 }, (_, i) => ({ id: `w${i}` }));
+    single.tbcMatches = Array.from({ length: 5 }, (_, i) => ({
+      id: `w${i}`,
+      stadium: { geo: { latitude: 45.8, longitude: 9.07 } },
+    }));
     expect(topPickScore(triple)).toBeGreaterThan(topPickScore(single));
     // but TBC beats an otherwise identical trip without opportunities
     expect(topPickScore(single)).toBeGreaterThan(topPickScore(baseTrip({ id: 'bare' }) as any));

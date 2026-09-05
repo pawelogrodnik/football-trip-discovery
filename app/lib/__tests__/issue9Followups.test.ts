@@ -29,12 +29,16 @@ function mkMatch(
   } as TripMatch;
 }
 
-/** Exact backend JSON shape from redesigned-broccoli scrape-90min (Klasa). */
+/** Exact backend JSON shape from redesigned-broccoli@a36b001 scrape-90min. */
 function backendFixture(status: 'date-window' | 'confirmed', nativeId: string) {
   const base = {
     competition: { name: 'Klasa A' },
     homeTeam: { name: 'LKS Żyraków' },
     awayTeam: { name: 'Legion II Pilzno' },
+    stadium: {
+      venue: 'Stadion LKS Żyraków',
+      geo: { latitude: 50.51, longitude: 21.35 },
+    },
     id: nativeId,
   };
   if (status === 'confirmed') {

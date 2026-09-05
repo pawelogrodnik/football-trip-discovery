@@ -85,9 +85,11 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
                 {t('uefaCount', { count: trip.uefaMatchCount })}
               </Badge>
             )}
-            <Badge variant="outline" color="gray" leftSection={<IconRoute size={12} />}>
-              {t('totalKm', { count: trip.totalKm })}
-            </Badge>
+            {trip.matches.length > 0 && (
+              <Badge variant="outline" color="gray" leftSection={<IconRoute size={12} />}>
+                {t('totalKm', { count: trip.totalKm })}
+              </Badge>
+            )}
           </Group>
           <div className={classes.drawerBaseBox} data-testid="discover-drawer-base">
             {trip.destinationLabel && trip.destinationLabel !== 'Football trip' ? (
@@ -98,9 +100,11 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
                     {t('drawerBase', { city: trip.destinationLabel })}
                   </Text>
                 </Group>
-                <Text size="xs" c="dimmed" mt={2}>
-                  {t('maxLeg', { km: trip.maxLegKm })}
-                </Text>
+                {trip.matches.length > 0 && (
+                  <Text size="xs" c="dimmed" mt={2}>
+                    {t('maxLeg', { km: trip.maxLegKm })}
+                  </Text>
+                )}
               </>
             ) : (
               <>
@@ -111,19 +115,19 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
                     {t('daysOption', { count: trip.tripLengthDays })}
                   </Text>
                 </Group>
-                <Text size="xs" c="dimmed" mt={2}>
-                  {t('maxLeg', { km: trip.maxLegKm })}
-                </Text>
+                {trip.matches.length > 0 && (
+                  <Text size="xs" c="dimmed" mt={2}>
+                    {t('maxLeg', { km: trip.maxLegKm })}
+                  </Text>
+                )}
               </>
             )}
           </div>
           {trip.matches.length > 0 ? (
             <>
-              {tbcTotal > 0 && (
-                <Text size="sm" fw={700} data-testid="discover-drawer-confirmed-heading">
-                  {t('confirmedItinerary')}
-                </Text>
-              )}
+              <Text size="sm" fw={700} data-testid="discover-drawer-confirmed-heading">
+                {t('confirmedItinerary')}
+              </Text>
               <Timeline
                 active={trip.matchCount}
                 bulletSize={24}

@@ -5,6 +5,7 @@ import {
 } from './competitionPriority';
 import {
   getFixtureSchedule,
+  hasValidVenueGeo,
   scheduleCertaintyCounts,
   scheduleIntersectsRange,
 } from './matchSchedule';
@@ -310,6 +311,32 @@ export function dedupeTrips<T extends Pick<Trip, 'matches' | 'totalKm'>>(trips: 
 }
 
 /**
+ * Selected-trip map sources (single source of truth for Discover map
+ * adapters and their regression tests).
+ * - markers: itinerary + geocoded TBC opportunities (TBC-only: just TBC)
+ * - route: genuinely routeable confirmed fixtures only, never TBC
+ * - hasItinerary: false for opportunity-only candidates (hide route metrics)
+ */
+export function tripMapSources(trip: Pick<Trip, 'matches' | 'tbcMatches'>): {
+  markers: TripMatch[];
+  route: TripMatch[];
+  selectedIds: string[];
+  hasItinerary: boolean;
+} {
+  const tbc = ((trip.tbcMatches ?? []) as TripMatch[]).filter((m) => hasValidVenueGeo(m));
+  const markers = [...(trip.matches as TripMatch[]), ...tbc];
+  const route = (trip.matches as TripMatch[]).filter(
+    (m) => getFixtureSchedule(m as never)?.status === 'confirmed'
+  );
+  return {
+    markers,
+    route,
+    selectedIds: markers.map((m) => String((m as { id?: string }).id ?? '').trim()).filter(Boolean),
+    hasItinerary: trip.matches.length > 0,
+  };
+}
+
+/**
  * Higher-level Discover candidate generator.
  * Loads once (caller filters availability), then evaluates rolling windows
  * independently so alternatives MAY share fixtures.
@@ -330,7 +357,10 @@ export function suggestDiscoverTrips(
       continue;
     }
     const schedulable = inWindow.filter((m) => !isWindowOnlyMatch(m));
-    const tbcPool = inWindow.filter((m) => isWindowOnlyMatch(m));
+    // TBC opportunities REQUIRE usable venue geo: without coordinates a
+    // window fixture cannot prove radius membership, map placement, or
+    // destination relevance. Never fall back to 0,0.
+    const tbcPool = inWindow.filter((m) => isWindowOnlyMatch(m) && hasValidVenueGeo(m));
     // Opportunities attach against the candidate's actual rolling trip
     // window — never narrowed to the confirmed itinerary span, because
     // unresolved fixtures may live on unused days inside that window.
@@ -430,7 +460,10 @@ export function maxCompetitionPriority(trip: Pick<Trip, 'matches'>): number {
 
 /** Lower-tier TBC opportunities attached to the trip (uncertainty is the norm there). */
 export function lowerTierTbcCount(trip: Pick<Trip, 'tbcMatches'>): number {
-  return (trip.tbcMatches ?? []).filter((m) => getCompetitionTier(m.competition) === 4).length;
+  // Only geocoded opportunities may boost geographic ranking.
+  return (trip.tbcMatches ?? []).filter(
+    (m) => hasValidVenueGeo(m) && getCompetitionTier(m.competition) === 4
+  ).length;
 }
 
 /** Matches played in lower-tier competitions (central tier metadata). */
@@ -479,7 +512,9 @@ export function topPickScore(t: Trip & Partial<DiscoverTripMeta>): number {
   const density = t.matchCount / len;
   const maxLeg = t.maxLegKm ?? maxLegKm(t);
   // TBC opportunities add modest value, never full confirmed value.
-  const tbcBonus = Math.min(t.tbcMatches?.length ?? t.tbcCount ?? 0, 5) * 0.5;
+  // Only geocoded opportunities count toward geographic ranking.
+  const eligibleTbc = (t.tbcMatches ?? []).filter((m) => hasValidVenueGeo(m)).length;
+  const tbcBonus = Math.min(t.tbcMatches ? eligibleTbc : (t.tbcCount ?? 0), 5) * 0.5;
   return t.matchCount * 4 + uefa * 3 + density * 2 + tbcBonus - t.totalKm / 150 - maxLeg / 200;
 }
 
