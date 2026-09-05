@@ -120,6 +120,36 @@ function geoPoints(fixtures: any[] | undefined | null): [number, number][] {
     .filter(Boolean) as [number, number][];
 }
 
+/** Recalculate Leaflet dimensions after (re)mount — e.g. Matches/Map
+ *  mode switches that unmount the hidden map. No arbitrary long timeouts:
+ *  one rAF + one short settle pass. */
+function InvalidateOnMount() {
+  const map = useMap();
+  useEffect(() => {
+    let cancelled = false;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const raf = requestAnimationFrame(() => {
+      if (cancelled) {
+        return;
+      }
+      map.invalidateSize();
+      timer = setTimeout(() => {
+        if (!cancelled) {
+          map.invalidateSize();
+        }
+      }, 120);
+    });
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(raf);
+      if (timer) {
+        clearTimeout(timer);
+      }
+    };
+  }, [map]);
+  return null;
+}
+
 function FlyToOnFocus({ focus, insets }: { focus?: MapFocus; insets: MapViewportInsets }) {
   const map = useMap();
   const insetsRef = useRef(insets);
@@ -431,6 +461,7 @@ export default function MapWithSearch({
           style={{ height: '100%', width: '100%' }}
         >
           <ZoomControl position="bottomleft" />
+          <InvalidateOnMount />
           <ViewportController
             selectedLocation={selectedLocation ?? null}
             radiusMeters={radiusMeters}

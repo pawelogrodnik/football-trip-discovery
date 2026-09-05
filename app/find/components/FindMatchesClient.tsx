@@ -16,6 +16,7 @@ import {
   parseFindSearchParams,
   toDateOnlyLocal,
 } from 'lib/tripUrls';
+import { useIsMobile } from 'lib/useIsMobile';
 import { Alert, Button, Group, Paper, Text } from '@mantine/core';
 import MapWrapper from '../../components/map/MapWrapper';
 import { MOBILE_VIEW } from '../../components/view-toggle/consts';
@@ -79,8 +80,10 @@ export default function FindMatchesClient() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [hasSearched, setHasSearched] = useState(false);
-  const [mobileView, setMobileView] = useState(MOBILE_VIEW.LIST_VIEW);
-  const [isMobile, setIsMobile] = useState(false);
+  // Mobile defaults to Matches/List; desktop keeps map-first composition.
+  // User choice is never overwritten after mount.
+  const [mobileView, setMobileView] = useState<string>(MOBILE_VIEW.LIST_VIEW);
+  const isMobile = useIsMobile();
   const autoSearched = useRef(false);
 
   const customizeMode = initial.mode === 'customize';
@@ -88,10 +91,6 @@ export default function FindMatchesClient() {
   const [originalSuggestedIds] = useState<string[]>(() =>
     Array.from(new Set(initial.ids.map(String).filter(Boolean)))
   );
-
-  useEffect(() => {
-    setIsMobile(window.innerWidth <= 720);
-  }, []);
 
   const runSearch = useCallback(async (c: FindSearchCriteria, preselected: string[]) => {
     if (!isCompleteFindCriteria(c)) {
@@ -245,9 +244,11 @@ export default function FindMatchesClient() {
   const showSearch = !hasSearched || editing;
   const activeCriteria = submitted ?? criteria;
 
-  const shouldRenderMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
+  const isMobileList = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW;
+  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW;
+  const shouldRenderMobileMap = isMobileMap;
   const shouldRenderMap = !isMobile || shouldRenderMobileMap || !hasSearched;
-  const shouldRenderPanel = !isMobile || !shouldRenderMobileMap;
+  const shouldRenderPanel = !isMobile || isMobileList;
 
   // Measure the real rendered panel so the map right/bottom inset tracks
   // the actual obstruction (no hardcoded sidebar width).
@@ -269,16 +270,18 @@ export default function FindMatchesClient() {
   }, [hasSearched, showSearch, shouldRenderPanel]);
 
   const panelVisible = hasSearched && !showSearch && shouldRenderPanel;
-  const mapViewportInsets = useMemo(
-    () =>
-      panelViewportInsets({
-        panelWidthPx: panelSize?.width ?? null,
-        panelHeightPx: panelSize?.height ?? null,
-        panelVisible,
-        isMobile,
-      }),
-    [panelSize, panelVisible, isMobile]
-  );
+  const mapViewportInsets = useMemo(() => {
+    // Mobile map mode: only the toggle + compact pill overlay the map.
+    if (isMobileMap) {
+      return { top: 132, right: 16, bottom: 112, left: 16 };
+    }
+    return panelViewportInsets({
+      panelWidthPx: panelSize?.width ?? null,
+      panelHeightPx: panelSize?.height ?? null,
+      panelVisible,
+      isMobile,
+    });
+  }, [panelSize, panelVisible, isMobile, isMobileMap]);
 
   // Center the top summary over the VISIBLE map area (viewport minus panel).
   const summaryShiftPx = panelVisible && !isMobile ? (panelSize?.width ?? 0) / 2 : 0;
@@ -313,12 +316,16 @@ export default function FindMatchesClient() {
   const showReset = customizeMode && originalSuggestedIds.length > 0;
 
   return (
-    <main className={classes.findShell} data-testid="find-view">
-      <div
-        className={`${classes.mapArea} ${showSearch ? classes.mapDimmed : ''}`}
-        data-testid="find-map"
-      >
-        {shouldRenderMap && (
+    <main
+      className={`${classes.findShell} ${isMobileList ? classes.mobileList : ''} ${isMobileMap ? classes.mobileMap : ''}`}
+      data-testid="find-view"
+      data-mobile-view={isMobile ? mobileView : undefined}
+    >
+      {shouldRenderMap && (
+        <div
+          className={`${classes.mapArea} ${showSearch ? classes.mapDimmed : ''}`}
+          data-testid="find-map"
+        >
           <MapWrapper
             initialCenter={FIND_CENTER}
             initialZoom={4}
@@ -333,13 +340,53 @@ export default function FindMatchesClient() {
             focus={mapFocus}
             viewportInsets={mapViewportInsets}
           />
-        )}
-      </div>
+        </div>
+      )}
 
       {showSearch && <div className={classes.dimOverlay} aria-hidden />}
       {isMobile && hasSearched && !showSearch && (
-        <div className={classes.mobileToggle}>
-          <ViewToggle onChange={setMobileView} />
+        <div className={classes.mobileToggle} data-testid="find-mobile-toggle">
+          <ViewToggle
+            value={mobileView}
+            options={[
+              { value: MOBILE_VIEW.LIST_VIEW, label: t('viewMatches') },
+              { value: MOBILE_VIEW.MAP_VIEW, label: t('viewMap') },
+            ]}
+            onChange={setMobileView}
+          />
+        </div>
+      )}
+
+      {isMobileMap && hasSearched && !showSearch && (
+        <div className={classes.mapStatusPill} data-testid="find-map-status">
+          <Text size="sm" fw={600} truncate className={classes.mapStatusText}>
+            {t('matchesNear', {
+              count: allMatches.length,
+              label: submitted?.location?.label?.split(',')[0]?.trim() || '',
+            })}
+            {' · '}
+            {t('selectedCount', { count: canonicalSelectedIds.length })}
+          </Text>
+          {canonicalSelectedIds.length > 0 ? (
+            <Button
+              size="xs"
+              onClick={handleCreateTrip}
+              data-testid="find-map-create-trip"
+              style={{ flexShrink: 0 }}
+            >
+              {t('createTrip')}
+            </Button>
+          ) : (
+            <Button
+              size="xs"
+              variant="light"
+              onClick={() => setMobileView(MOBILE_VIEW.LIST_VIEW)}
+              data-testid="find-map-view-matches"
+              style={{ flexShrink: 0 }}
+            >
+              {t('viewMatches')}
+            </Button>
+          )}
         </div>
       )}
 
@@ -378,7 +425,7 @@ export default function FindMatchesClient() {
         </div>
       )}
 
-      {hasSearched && !showSearch && submitted && (
+      {hasSearched && !showSearch && submitted && !isMobileMap && (
         <FindSearchSummary
           criteria={submitted}
           customizeMode={customizeMode}
@@ -484,6 +531,7 @@ export default function FindMatchesClient() {
               onResetSuggested={handleResetSuggested}
               showReset={showReset}
               outsideIds={outsideIds}
+              flatScroll={isMobileList}
             />
           )}
         </Paper>

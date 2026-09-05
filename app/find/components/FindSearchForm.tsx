@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { IconAlertCircle, IconSearch } from '@tabler/icons-react';
-import { useTranslations } from 'components/providers/LocaleProvider';
+import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { FOOTBALL_DISTANCE_OPTIONS_KM } from 'lib/distance';
 import { FindSearchCriteria } from 'lib/tripUrls';
 import { Alert, Button, Chip, Group, ScrollArea, Stack, Text, Title } from '@mantine/core';
@@ -20,6 +20,7 @@ type Props = {
 
 export default function FindSearchForm({ criteria, onChange, onSubmit, loading, error }: Props) {
   const t = useTranslations('FindMatches');
+  const locale = useLocale();
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
@@ -47,6 +48,7 @@ export default function FindSearchForm({ criteria, onChange, onSubmit, loading, 
         </Text>
         <DatePickerInput
           type="range"
+          locale={locale}
           placeholder={t('datesPlaceholder')}
           value={[criteria.startDate, criteria.endDate]}
           onChange={(v) => {

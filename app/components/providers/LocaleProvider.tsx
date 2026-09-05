@@ -1,6 +1,16 @@
 'use client';
 
 import { createContext, ReactNode, useContext, useMemo } from 'react';
+// dayjs locale data for every supported UI locale — Mantine
+// DatePickerInput formats via dayjs, so without these the picker value
+// stays English even when `locale` is passed (e.g. Polish UI showing
+// "September 5, 2026"). English is dayjs's built-in default.
+import 'dayjs/locale/de';
+import 'dayjs/locale/es';
+import 'dayjs/locale/fr';
+import 'dayjs/locale/it';
+import 'dayjs/locale/pl';
+
 import type { AppLocale, Messages } from 'lib/i18n/locales';
 
 type LocaleContextValue = {

@@ -79,6 +79,9 @@
 
 .categoryScroll {
   max-width: min(700px, 100%);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .categoryGroup {
@@ -118,9 +121,17 @@
   justify-content: center;
 }
 
-.categoryScroll {
-  max-width: 100%;
-  overflow-x: auto;
+.categoryScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.categoryScroll :global(.mantine-ScrollArea-viewport) {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.categoryScroll :global(.mantine-ScrollArea-viewport)::-webkit-scrollbar {
+  display: none;
 }
 
 .cardsRow {
@@ -186,7 +197,21 @@
   display: flex;
   gap: 12px;
   flex-wrap: nowrap;
-  padding: 4px 2px 6px;
+  padding: 4px 16px 6px 2px;
+  scroll-snap-type: x proximity;
+}
+
+.dockScrollInner > * {
+  scroll-snap-align: start;
+}
+
+.dockRail :global(.mantine-ScrollArea-viewport) {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dockRail :global(.mantine-ScrollArea-viewport)::-webkit-scrollbar {
+  display: none;
 }
 
 .dockArrow {
@@ -222,11 +247,16 @@
   .searchCenter {
     place-items: end center;
     padding: 12px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
   }
 
   .searchPaper {
     max-width: calc(100vw - 24px);
     width: 100%;
+  }
+
+  .summaryPaper {
+    max-width: calc(100vw - 16px);
   }
 
   .tripCard {
@@ -244,7 +274,7 @@
   }
 
   .dockWrap {
-    padding: 0 8px 8px;
+    padding: 0 8px calc(8px + env(safe-area-inset-bottom, 0px));
   }
 }
 
