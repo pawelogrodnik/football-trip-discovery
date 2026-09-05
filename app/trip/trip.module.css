@@ -118,6 +118,16 @@
     overflow: visible;
   }
 
+  /* Loading, error and empty trips keep their explanation above the map. */
+  .tripShell.mobileStatus .tripPanel {
+    top: 72px;
+    right: 8px;
+    bottom: auto;
+    left: 8px;
+    width: auto;
+    max-width: none;
+  }
+
   /* ---- Mobile map mode: full map, overlays only ---- */
   .tripShell.mobileMap .mobileToggle :global(.view-toggle__inner) {
     position: static;

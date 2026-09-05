@@ -302,14 +302,18 @@ export default function TripClient() {
     [navigationOrigin]
   );
 
-  const isMobileList = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW && displayedCount > 0;
-  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW && displayedCount > 0;
+  const hasTripResults = displayedCount > 0;
+  const isMobileItineraryMode = isMobile && mobileView === MOBILE_VIEW.LIST_VIEW;
+  const isMobileList = isMobileItineraryMode && hasTripResults;
+  const isMobileMap = isMobile && mobileView === MOBILE_VIEW.MAP_VIEW && hasTripResults;
   const shouldRenderMobileMap = isMobileMap;
+  const shouldRenderStatusPanel = isMobile && !hasTripResults;
+  const shouldRenderResultsPanel = !isMobile || (isMobileItineraryMode && hasTripResults);
   // While loading/empty mobile renders the map exactly like desktop — the
   // map must never mount into a display:none container (Leaflet computes
   // NaN in a 0×0 box and throws Invalid LatLng).
-  const shouldRenderMap = !isMobile || shouldRenderMobileMap || displayedCount === 0;
-  const shouldRenderPanel = !isMobile || isMobileList;
+  const shouldRenderMap = !isMobile || shouldRenderMobileMap || shouldRenderStatusPanel;
+  const shouldRenderPanel = shouldRenderStatusPanel || shouldRenderResultsPanel;
 
   // Measure the real rendered panel so map insets track the actual
   // obstruction — same mechanism as /find, no second offset system.
@@ -338,10 +342,10 @@ export default function TripClient() {
     return panelViewportInsets({
       panelWidthPx: panelSize?.width ?? null,
       panelHeightPx: panelSize?.height ?? null,
-      panelVisible: shouldRenderPanel && displayedCount > 0,
+      panelVisible: shouldRenderResultsPanel && hasTripResults,
       isMobile,
     });
-  }, [panelSize, shouldRenderPanel, displayedCount, isMobile, isMobileMap]);
+  }, [panelSize, shouldRenderResultsPanel, hasTripResults, isMobile, isMobileMap]);
 
   const handleMatchClick = (match: LooseMatch) => {
     const coords = venueCoords(match);
@@ -479,7 +483,7 @@ export default function TripClient() {
 
   return (
     <main
-      className={`${classes.tripShell} ${isMobileList ? classes.mobileList : ''} ${isMobileMap ? classes.mobileMap : ''}`}
+      className={`${classes.tripShell} ${isMobileList ? classes.mobileList : ''} ${isMobileMap ? classes.mobileMap : ''} ${shouldRenderStatusPanel ? classes.mobileStatus : ''}`}
       data-testid="trip-view"
       data-mobile-view={isMobileList ? 'list' : isMobileMap ? 'map' : undefined}
     >
@@ -500,7 +504,7 @@ export default function TripClient() {
         </div>
       )}
 
-      {isMobile && displayedCount > 0 && (
+      {isMobile && hasTripResults && (
         <div className={classes.mobileToggle} data-testid="trip-mobile-toggle">
           <ViewToggle
             value={mobileView}
@@ -514,7 +518,7 @@ export default function TripClient() {
         </div>
       )}
 
-      {isMobileMap && displayedCount > 0 && (
+      {isMobileMap && hasTripResults && (
         <div className={classes.mapStatusPill} data-testid="trip-map-status">
           <Text size="sm" fw={600} truncate className={classes.mapStatusText}>
             {tripMeta}

@@ -64,12 +64,17 @@ export default function FindSearchForm({ criteria, onChange, onSubmit, loading, 
         <Text size="sm" fw={600} mb={4}>
           {t('radius')}
         </Text>
-        <ScrollArea scrollbars="x" type="auto" offsetScrollbars data-testid="find-radius-scroll">
+        <ScrollArea
+          scrollbars="x"
+          type="auto"
+          className="find-radius-rail"
+          data-testid="find-radius-scroll"
+        >
           <Chip.Group
             value={String(criteria.radiusKm)}
             onChange={(v) => onChange({ ...criteria, radiusKm: Number(v) })}
           >
-            <Group gap={8} wrap="nowrap" data-testid="find-radius-control">
+            <Group gap={8} wrap="nowrap" pr={12} data-testid="find-radius-control">
               {FOOTBALL_DISTANCE_OPTIONS_KM.map((r) => (
                 <span key={r} style={{ flexShrink: 0 }} data-testid={`find-radius-${r}`}>
                   <Chip value={String(r)} variant="filled">

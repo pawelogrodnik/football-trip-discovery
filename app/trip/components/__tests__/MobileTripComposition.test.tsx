@@ -89,6 +89,16 @@ function mockFetch(matches: ReturnType<typeof mkApiMatch>[]) {
   }) as unknown as typeof fetch;
 }
 
+function mockPendingFetch() {
+  global.fetch = jest.fn(() => new Promise(() => undefined)) as unknown as typeof fetch;
+}
+
+function mockFailedFetch() {
+  global.fetch = jest
+    .fn()
+    .mockRejectedValue(new Error('Trip request failed')) as unknown as typeof fetch;
+}
+
 function renderTrip() {
   return render(
     <MantineProvider>
@@ -130,6 +140,32 @@ describe('Trip mobile composition (itinerary-first)', () => {
     expect(screen.getByTestId('trip-meta')).toBeInTheDocument();
     expect(screen.getByTestId('trip-copy-link')).toBeInTheDocument();
     expect(screen.getByTestId('trip-edit')).toBeInTheDocument();
+  });
+
+  it('keeps loading visible above the map', async () => {
+    mockPendingFetch();
+    renderTrip();
+    await waitFor(() => expect(screen.getByTestId('trip-loading')).toBeInTheDocument());
+    expect(screen.getByTestId('trip-panel')).toBeInTheDocument();
+    expect(screen.getByTestId('trip-map')).toBeInTheDocument();
+  });
+
+  it('keeps errors visible above the map', async () => {
+    mockFailedFetch();
+    renderTrip();
+    await waitFor(() =>
+      expect(screen.getByTestId('trip-error')).toHaveTextContent('Trip request failed')
+    );
+    expect(screen.getByTestId('trip-panel')).toBeInTheDocument();
+    expect(screen.getByTestId('trip-map')).toBeInTheDocument();
+  });
+
+  it('keeps empty state visible above the map', async () => {
+    mockFetch([]);
+    renderTrip();
+    await waitFor(() => expect(screen.getByTestId('trip-empty')).toBeInTheDocument());
+    expect(screen.getByTestId('trip-panel')).toBeInTheDocument();
+    expect(screen.getByTestId('trip-map')).toBeInTheDocument();
   });
 
   it('Itinerary -> Map -> Itinerary preserves trip state', async () => {

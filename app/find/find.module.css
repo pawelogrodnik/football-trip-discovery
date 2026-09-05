@@ -49,6 +49,19 @@
   overflow-y: auto;
 }
 
+:global(.find-radius-rail) :global(.mantine-ScrollArea-viewport) {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+:global(.find-radius-rail) :global(.mantine-ScrollArea-viewport)::-webkit-scrollbar {
+  display: none;
+}
+
+:global(.find-radius-rail) :global(.mantine-ScrollArea-scrollbar) {
+  display: none;
+}
+
 .summaryBar {
   position: absolute;
   top: 12px;

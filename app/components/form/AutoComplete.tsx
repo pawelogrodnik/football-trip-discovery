@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
@@ -7,8 +5,14 @@ import { useTranslations } from 'components/providers/LocaleProvider';
 import { geocode } from 'lib/geocode';
 import { Autocomplete, Loader } from '@mantine/core';
 
-const mapSuggestionLabels = (suggestions: any[]) =>
-  suggestions.map(({ label }: { label: string }) => label);
+type Suggestion = {
+  label: string;
+  value: string;
+  lat: number;
+  lon: number;
+};
+
+const mapSuggestionLabels = (suggestions: Suggestion[]) => suggestions.map(({ label }) => label);
 
 export function AutocompleteLoading({
   onLocationSelect,
@@ -23,7 +27,7 @@ export function AutocompleteLoading({
 }) {
   const t = useTranslations('Form');
   const [query, setQuery] = useState(initialValue ?? '');
-  const [suggestions, setSuggestions] = useState<[]>([]);
+  const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
   const [isLoading, setLoading] = useState(false);
 
   const abortRef = useRef<AbortController | null>(null);
@@ -32,7 +36,7 @@ export function AutocompleteLoading({
     setQuery(initialValue ?? '');
   }, [initialValue]);
 
-  const handleChoose = (s: any) => {
+  const handleChoose = (s: Suggestion) => {
     const loc = { label: s.label, lat: s.lat, lon: s.lon };
     setQuery(s.label);
     onLocationSelect(loc);
@@ -54,7 +58,7 @@ export function AutocompleteLoading({
         setLoading(true);
         const data = await geocode(query);
         setLoading(false);
-        setSuggestions(data);
+        setSuggestions(data as Suggestion[]);
       } catch {
         setLoading(false);
       }
@@ -68,6 +72,12 @@ export function AutocompleteLoading({
         value={query}
         data={suggestions}
         onChange={setQuery}
+        onOptionSubmit={(value) => {
+          const suggestion = suggestions.find((item) => item.value === value);
+          if (suggestion) {
+            handleChoose(suggestion);
+          }
+        }}
         filter={({ options }) => options}
         label={label ?? t('locationLabel')}
         placeholder={placeholder ?? t('locationPlaceholder')}
@@ -77,13 +87,11 @@ export function AutocompleteLoading({
           zIndex: 5000,
           position: 'bottom-start',
         }}
-        renderOption={(props) => {
-          return (
-            <div className="custom-option" onClick={() => handleChoose(props.option)}>
-              {props.option.value}
-            </div>
-          );
-        }}
+        renderOption={({ option }) => (
+          <div className="custom-option">
+            {suggestions.find((item) => item.value === option.value)?.label ?? option.value}
+          </div>
+        )}
       />
     </div>
   );
