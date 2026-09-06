@@ -1,139 +1,2003 @@
 {
   "competitionName": "Klasa A (Oswiecim)",
-  "count": 7,
+  "count": 65,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Oswiecim)"
       },
       "homeTeam": {
-        "name": "Orzeł Witkowice",
-        "crest": null
+        "name": "Przeciszovia Przeciszów"
       },
       "awayTeam": {
-        "name": "Soła Oświęcim",
-        "crest": null
+        "name": "Zatorzanka Zator"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "a49ae1b5af13a024a7ab65775404a74f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Oswiecim)"
-      },
-      "homeTeam": {
-        "name": "Strumień Polanka Wielka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Puls Broszkowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
-      },
-      "id": "93e5924fb43926cceb0cfb47632da051",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Oswiecim)"
-      },
-      "homeTeam": {
-        "name": "Soła Łęki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Górnik Brzeszcze",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
-      },
-      "id": "22552f136e6848c3a9fc14ecfd9592c8",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Oswiecim)"
-      },
-      "homeTeam": {
-        "name": "Solavia Grojec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zgoda Malec",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
-      },
-      "id": "65a3d650e18d920de97ce0ede3560d78",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Oswiecim)"
-      },
-      "homeTeam": {
-        "name": "Unia II Oświęcim",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Hejnał Kęty",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
-      },
-      "id": "3929a2a24ae8e1212e60c5473a94759d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Oswiecim)"
-      },
-      "homeTeam": {
-        "name": "Przeciszovia Przeciszów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zatorzanka Zator",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+        "dateTime": "2026-09-06T14:30:00.000Z"
       },
       "id": "b06452869749696e8b2e23a0575fecc2",
-      "stadium": null
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Oswiecim)"
       },
       "homeTeam": {
-        "name": "LKS Jawiszowice",
-        "crest": null
+        "name": "LKS Jawiszowice"
       },
       "awayTeam": {
-        "name": "Pogórze Gierałtowice",
-        "crest": null
+        "name": "Pogórze Gierałtowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+        "dateTime": "2026-09-06T14:30:00.000Z"
       },
       "id": "1edde9063251eaf48129a7f3e466873a",
-      "stadium": null
+      "stadium": {
+        "address": "Kusocińskiego 2, 32-626 Jawiszowice",
+        "venue": "Stadion LKS Jawiszowice",
+        "geo": {
+          "latitude": 49.9620604,
+          "longitude": 19.1386126,
+          "name": "LKS Jawiszowice, Kusocińskiego 2, Jawiszowice, powiat oświęcimski, województwo małopolskie, 32-626, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "awayTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T09:00:00.000Z"
+      },
+      "id": "6c697a7213848a3ea70cf77772ba5e99",
+      "stadium": {
+        "address": "Parkowa, 32-640 Zator",
+        "venue": "Stadion LKS Zatorzanka",
+        "geo": {
+          "latitude": 49.988491,
+          "longitude": 19.4455056,
+          "name": "LKS Zatorzanka, Parkowa, Zator, powiat oświęcimski, województwo małopolskie, 32-640, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "awayTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "6e8e60103b717e91122c71603dff49b2",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:30:00.000Z"
+      },
+      "id": "3bbc0f1cae6b08b58d23841bb0bceb76",
+      "stadium": {
+        "address": "Przeczna 2a, 32-600 Oświęcim",
+        "venue": "Stadion im. braci Kisielińskich",
+        "geo": {
+          "latitude": 50.0308019,
+          "longitude": 19.2161525,
+          "name": "Soła Oświęcim, Przeczna, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "awayTeam": {
+        "name": "Solavia Grojec"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "ea9eda2ac4e8cf9d45aa92441871ded9",
+      "stadium": {
+        "address": "Ofiar Oświęcimia 68, 32-620 Brzeszcze",
+        "venue": "Stadion Górnika Brzeszcze",
+        "geo": {
+          "latitude": 49.9879546,
+          "longitude": 19.1629691,
+          "name": "KS Górnik Brzeszcze, Ofiar Oświęcimia 68, Brzeszcze, powiat oświęcimski, województwo małopolskie, 32-620, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "awayTeam": {
+        "name": "Soła Łęki"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "id": "5dd2eb0f92236cdfae4375de087fbd3b",
+      "stadium": {
+        "address": "Dworska 12, 34-122 Gierałtowice",
+        "venue": "Boisko LKS Pogórze Gierałtowice",
+        "geo": {
+          "latitude": 49.9286578,
+          "longitude": 19.3937651,
+          "name": "LKS Pogórze Gierałtowice, Dworska, Gierałtowice, gmina Wieprz, powiat wadowicki, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "awayTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "id": "253b4e18e08f632cd2da86ca053f14d7",
+      "stadium": {
+        "address": "Łąkowa 6, 32-661 Broszkowice",
+        "venue": "Boisko LKS Puls Broszkowice",
+        "geo": {
+          "latitude": 50.0542047,
+          "longitude": 19.233618,
+          "name": "LKS Puls Broszkowice, Spokojna, Broszkowice, powiat oświęcimski, województwo małopolskie, 32-661, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Malec"
+      },
+      "awayTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "e3333dc8015af9b5d825a33bdfe857cd",
+      "stadium": {
+        "address": "Krzysztofa Jędrzejowskiego 11, 32-651 Malec",
+        "venue": "Boisko LKS Zgoda Malec",
+        "geo": {
+          "latitude": 49.9221704,
+          "longitude": 19.2423335,
+          "name": "LKS Zgoda Malec, Malec, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "awayTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2c4412c20518a0be16b0283f68c1c077",
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "awayTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c1da91640bd6c1a44ce88b44bd88382a",
+      "stadium": {
+        "address": "Kusocińskiego 2, 32-626 Jawiszowice",
+        "venue": "Stadion LKS Jawiszowice",
+        "geo": {
+          "latitude": 49.9620604,
+          "longitude": 19.1386126,
+          "name": "LKS Jawiszowice, Kusocińskiego 2, Jawiszowice, powiat oświęcimski, województwo małopolskie, 32-626, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Łęki"
+      },
+      "awayTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "dfceb54a93fec99b4f334a8f2235fa83",
+      "stadium": {
+        "address": "Sportowa 22, 32-651 Łęki",
+        "venue": "Boisko Soły Łęki",
+        "geo": {
+          "latitude": 49.9528512,
+          "longitude": 19.2043379,
+          "name": "Soła Łęki, Sportowa 22, Łęki, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Solavia Grojec"
+      },
+      "awayTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9fdb203f58b3c2ee188a58bbe73af53c",
+      "stadium": {
+        "address": "Aleja Sportowa 39A, 32-615 Grojec",
+        "venue": "Boisko LKS Solavia Grojec",
+        "geo": {
+          "latitude": 49.9822907,
+          "longitude": 19.2481609,
+          "name": "Boisko LKS Solavia Grojec, Aleja Sportowa, Grojec, powiat oświęcimski, województwo małopolskie, 32-615, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "awayTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e8ba5a9611522c68f26ddd0ce86d589a",
+      "stadium": {
+        "address": "Dworska 5, 32-650 Witkowice",
+        "venue": "Boisko LKS Orzeł Witkowice",
+        "geo": {
+          "latitude": 49.9134533,
+          "longitude": 19.2777891,
+          "name": "Dworska 5, Witkowice, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Zgoda Malec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "060ac2ddf55bc15b77d99279ab9da51b",
+      "stadium": {
+        "address": "Legionów 15, 32-600 Oświęcim",
+        "venue": "Stadion MOSiR Oświęcim",
+        "geo": {
+          "latitude": 50.0364026,
+          "longitude": 19.2115509,
+          "name": "MOSiR, Legionów 15, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "awayTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "196e911accd21809d60ce63b035d6042",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0e5b0df24b5007811bfed4be0e035cad",
+      "stadium": {
+        "address": "Przeczna 2a, 32-600 Oświęcim",
+        "venue": "Stadion im. braci Kisielińskich",
+        "geo": {
+          "latitude": 50.0308019,
+          "longitude": 19.2161525,
+          "name": "Soła Oświęcim, Przeczna, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Malec"
+      },
+      "awayTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "603128001322726b41eb08ff77957553",
+      "stadium": {
+        "address": "Krzysztofa Jędrzejowskiego 11, 32-651 Malec",
+        "venue": "Boisko LKS Zgoda Malec",
+        "geo": {
+          "latitude": 49.9221704,
+          "longitude": 19.2423335,
+          "name": "LKS Zgoda Malec, Malec, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "awayTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1a083139ae4bf9340efbf43177fafcf6",
+      "stadium": {
+        "address": "Ofiar Oświęcimia 68, 32-620 Brzeszcze",
+        "venue": "Stadion Górnika Brzeszcze",
+        "geo": {
+          "latitude": 49.9879546,
+          "longitude": 19.1629691,
+          "name": "KS Górnik Brzeszcze, Ofiar Oświęcimia 68, Brzeszcze, powiat oświęcimski, województwo małopolskie, 32-620, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "awayTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "89e6c80a8adf61e4968379984fa73fb4",
+      "stadium": {
+        "address": "Dworska 12, 34-122 Gierałtowice",
+        "venue": "Boisko LKS Pogórze Gierałtowice",
+        "geo": {
+          "latitude": 49.9286578,
+          "longitude": 19.3937651,
+          "name": "LKS Pogórze Gierałtowice, Dworska, Gierałtowice, gmina Wieprz, powiat wadowicki, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "awayTeam": {
+        "name": "Solavia Grojec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "51e228ab7db20f3bb3843a1286d14578",
+      "stadium": {
+        "address": "Łąkowa 6, 32-661 Broszkowice",
+        "venue": "Boisko LKS Puls Broszkowice",
+        "geo": {
+          "latitude": 50.0542047,
+          "longitude": 19.233618,
+          "name": "LKS Puls Broszkowice, Spokojna, Broszkowice, powiat oświęcimski, województwo małopolskie, 32-661, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "awayTeam": {
+        "name": "Soła Łęki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d7a5b3372632f115a316c7cdbd72ee2d",
+      "stadium": {
+        "address": "Parkowa, 32-640 Zator",
+        "venue": "Stadion LKS Zatorzanka",
+        "geo": {
+          "latitude": 49.988491,
+          "longitude": 19.4455056,
+          "name": "LKS Zatorzanka, Parkowa, Zator, powiat oświęcimski, województwo małopolskie, 32-640, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "awayTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7515a09b59cb34db14a1adbfa39221db",
+      "stadium": {
+        "address": "Sportowa, 32-607 Polanka Wielka",
+        "venue": "Boisko LKS Strumień",
+        "geo": {
+          "latitude": 49.9765094,
+          "longitude": 19.2971668,
+          "name": "LKS Strumień Polanka Wielka, Sportowa, Polanka Wielka, powiat oświęcimski, województwo małopolskie, 32-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "awayTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "87f9906ff1744e851dd59285bdd52811",
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Łęki"
+      },
+      "awayTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "be14b0f3fd1392ad49df72b60d822d16",
+      "stadium": {
+        "address": "Sportowa 22, 32-651 Łęki",
+        "venue": "Boisko Soły Łęki",
+        "geo": {
+          "latitude": 49.9528512,
+          "longitude": 19.2043379,
+          "name": "Soła Łęki, Sportowa 22, Łęki, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Solavia Grojec"
+      },
+      "awayTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e43ccbff6a1f21c596e94eb393700796",
+      "stadium": {
+        "address": "Aleja Sportowa 39A, 32-615 Grojec",
+        "venue": "Boisko LKS Solavia Grojec",
+        "geo": {
+          "latitude": 49.9822907,
+          "longitude": 19.2481609,
+          "name": "Boisko LKS Solavia Grojec, Aleja Sportowa, Grojec, powiat oświęcimski, województwo małopolskie, 32-615, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "awayTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a03ff2f833dc40cee8fe32771ee7614f",
+      "stadium": {
+        "address": "Dworska 5, 32-650 Witkowice",
+        "venue": "Boisko LKS Orzeł Witkowice",
+        "geo": {
+          "latitude": 49.9134533,
+          "longitude": 19.2777891,
+          "name": "Dworska 5, Witkowice, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "563734797e690bce3c0a74fd0c0e8da1",
+      "stadium": {
+        "address": "Legionów 15, 32-600 Oświęcim",
+        "venue": "Stadion MOSiR Oświęcim",
+        "geo": {
+          "latitude": 50.0364026,
+          "longitude": 19.2115509,
+          "name": "MOSiR, Legionów 15, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "awayTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "05b6e93260fad456bb83ea00ab26c52c",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Zgoda Malec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "626152d82b31726024fa93af08490d50",
+      "stadium": {
+        "address": "Przeczna 2a, 32-600 Oświęcim",
+        "venue": "Stadion im. braci Kisielińskich",
+        "geo": {
+          "latitude": 50.0308019,
+          "longitude": 19.2161525,
+          "name": "Soła Oświęcim, Przeczna, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Malec"
+      },
+      "awayTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "317e46ebe857f8f74e1244311b67dc72",
+      "stadium": {
+        "address": "Krzysztofa Jędrzejowskiego 11, 32-651 Malec",
+        "venue": "Boisko LKS Zgoda Malec",
+        "geo": {
+          "latitude": 49.9221704,
+          "longitude": 19.2423335,
+          "name": "LKS Zgoda Malec, Malec, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "awayTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0de60cefe572d7a3f64f6ea377c20cef",
+      "stadium": {
+        "address": "Ofiar Oświęcimia 68, 32-620 Brzeszcze",
+        "venue": "Stadion Górnika Brzeszcze",
+        "geo": {
+          "latitude": 49.9879546,
+          "longitude": 19.1629691,
+          "name": "KS Górnik Brzeszcze, Ofiar Oświęcimia 68, Brzeszcze, powiat oświęcimski, województwo małopolskie, 32-620, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "awayTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b0ecf80d88d53323a6a0c7090ecf6f58",
+      "stadium": {
+        "address": "Dworska 12, 34-122 Gierałtowice",
+        "venue": "Boisko LKS Pogórze Gierałtowice",
+        "geo": {
+          "latitude": 49.9286578,
+          "longitude": 19.3937651,
+          "name": "LKS Pogórze Gierałtowice, Dworska, Gierałtowice, gmina Wieprz, powiat wadowicki, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "awayTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bc55d844b0bc3460144bd9c53de935e0",
+      "stadium": {
+        "address": "Łąkowa 6, 32-661 Broszkowice",
+        "venue": "Boisko LKS Puls Broszkowice",
+        "geo": {
+          "latitude": 50.0542047,
+          "longitude": 19.233618,
+          "name": "LKS Puls Broszkowice, Spokojna, Broszkowice, powiat oświęcimski, województwo małopolskie, 32-661, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "awayTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d0a72e550d760ab05ae232731395ca21",
+      "stadium": {
+        "address": "Parkowa, 32-640 Zator",
+        "venue": "Stadion LKS Zatorzanka",
+        "geo": {
+          "latitude": 49.988491,
+          "longitude": 19.4455056,
+          "name": "LKS Zatorzanka, Parkowa, Zator, powiat oświęcimski, województwo małopolskie, 32-640, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "awayTeam": {
+        "name": "Solavia Grojec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "331df97596a74229443f996babb39a82",
+      "stadium": {
+        "address": "Sportowa, 32-607 Polanka Wielka",
+        "venue": "Boisko LKS Strumień",
+        "geo": {
+          "latitude": 49.9765094,
+          "longitude": 19.2971668,
+          "name": "LKS Strumień Polanka Wielka, Sportowa, Polanka Wielka, powiat oświęcimski, województwo małopolskie, 32-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "awayTeam": {
+        "name": "Soła Łęki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "985d60f4c222b246fd03c9a93db7387c",
+      "stadium": {
+        "address": "Kusocińskiego 2, 32-626 Jawiszowice",
+        "venue": "Stadion LKS Jawiszowice",
+        "geo": {
+          "latitude": 49.9620604,
+          "longitude": 19.1386126,
+          "name": "LKS Jawiszowice, Kusocińskiego 2, Jawiszowice, powiat oświęcimski, województwo małopolskie, 32-626, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "awayTeam": {
+        "name": "Solavia Grojec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "dd84a392dee43fab343a2fc066017fe8",
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "awayTeam": {
+        "name": "Soła Łęki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "95abf830e05fd6f7a92ff7ee0ef2dcc0",
+      "stadium": {
+        "address": "Dworska 5, 32-650 Witkowice",
+        "venue": "Boisko LKS Orzeł Witkowice",
+        "geo": {
+          "latitude": 49.9134533,
+          "longitude": 19.2777891,
+          "name": "Dworska 5, Witkowice, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "awayTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9c261d7431e91801095a184897448583",
+      "stadium": {
+        "address": "Legionów 15, 32-600 Oświęcim",
+        "venue": "Stadion MOSiR Oświęcim",
+        "geo": {
+          "latitude": 50.0364026,
+          "longitude": 19.2115509,
+          "name": "MOSiR, Legionów 15, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "awayTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a1251cb198e1bdf46994bbf979c40a71",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "912979b4c29d5c9665ebe05089ecc7e1",
+      "stadium": {
+        "address": "Przeczna 2a, 32-600 Oświęcim",
+        "venue": "Stadion im. braci Kisielińskich",
+        "geo": {
+          "latitude": 50.0308019,
+          "longitude": 19.2161525,
+          "name": "Soła Oświęcim, Przeczna, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Malec"
+      },
+      "awayTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b7f860365e2a26ecdef67f0b2e9a1091",
+      "stadium": {
+        "address": "Krzysztofa Jędrzejowskiego 11, 32-651 Malec",
+        "venue": "Boisko LKS Zgoda Malec",
+        "geo": {
+          "latitude": 49.9221704,
+          "longitude": 19.2423335,
+          "name": "LKS Zgoda Malec, Malec, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "awayTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6e4a6ab4c5e319e8fe7c71a3589c07af",
+      "stadium": {
+        "address": "Ofiar Oświęcimia 68, 32-620 Brzeszcze",
+        "venue": "Stadion Górnika Brzeszcze",
+        "geo": {
+          "latitude": 49.9879546,
+          "longitude": 19.1629691,
+          "name": "KS Górnik Brzeszcze, Ofiar Oświęcimia 68, Brzeszcze, powiat oświęcimski, województwo małopolskie, 32-620, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "awayTeam": {
+        "name": "Soła Łęki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "28278888dde89bd5f63f2ffe442836cb",
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Solavia Grojec"
+      },
+      "awayTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ffb3003282c39f76754801e8dc82c1ff",
+      "stadium": {
+        "address": "Aleja Sportowa 39A, 32-615 Grojec",
+        "venue": "Boisko LKS Solavia Grojec",
+        "geo": {
+          "latitude": 49.9822907,
+          "longitude": 19.2481609,
+          "name": "Boisko LKS Solavia Grojec, Aleja Sportowa, Grojec, powiat oświęcimski, województwo małopolskie, 32-615, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "awayTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b264df0d48d615ac60b7c8519241d4ad",
+      "stadium": {
+        "address": "Dworska 5, 32-650 Witkowice",
+        "venue": "Boisko LKS Orzeł Witkowice",
+        "geo": {
+          "latitude": 49.9134533,
+          "longitude": 19.2777891,
+          "name": "Dworska 5, Witkowice, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2f1af08c8f6e8640444a7c3938c31470",
+      "stadium": {
+        "address": "Legionów 15, 32-600 Oświęcim",
+        "venue": "Stadion MOSiR Oświęcim",
+        "geo": {
+          "latitude": 50.0364026,
+          "longitude": 19.2115509,
+          "name": "MOSiR, Legionów 15, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "awayTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "887f0e2385d5cb83b5aa7aa8397c69a0",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "awayTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7b6cf455c765c0fba9e2f06c4d3ad7d9",
+      "stadium": {
+        "address": "Przeczna 2a, 32-600 Oświęcim",
+        "venue": "Stadion im. braci Kisielińskich",
+        "geo": {
+          "latitude": 50.0308019,
+          "longitude": 19.2161525,
+          "name": "Soła Oświęcim, Przeczna, Oświęcim, powiat oświęcimski, województwo małopolskie, 32-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Malec"
+      },
+      "awayTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d36711bb3156fdc1d5720b721cf64b50",
+      "stadium": {
+        "address": "Krzysztofa Jędrzejowskiego 11, 32-651 Malec",
+        "venue": "Boisko LKS Zgoda Malec",
+        "geo": {
+          "latitude": 49.9221704,
+          "longitude": 19.2423335,
+          "name": "LKS Zgoda Malec, Malec, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "awayTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1c67fffc95b324cfdf9b108b3d7a1507",
+      "stadium": {
+        "address": "Ofiar Oświęcimia 68, 32-620 Brzeszcze",
+        "venue": "Stadion Górnika Brzeszcze",
+        "geo": {
+          "latitude": 49.9879546,
+          "longitude": 19.1629691,
+          "name": "KS Górnik Brzeszcze, Ofiar Oświęcimia 68, Brzeszcze, powiat oświęcimski, województwo małopolskie, 32-620, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "awayTeam": {
+        "name": "Zgoda Malec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "790113a292f3ea947f0db9a41fbbc856",
+      "stadium": {
+        "address": "Dworska 12, 34-122 Gierałtowice",
+        "venue": "Boisko LKS Pogórze Gierałtowice",
+        "geo": {
+          "latitude": 49.9286578,
+          "longitude": 19.3937651,
+          "name": "LKS Pogórze Gierałtowice, Dworska, Gierałtowice, gmina Wieprz, powiat wadowicki, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "awayTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "392928ebdd37616fdb73f98a630962c0",
+      "stadium": {
+        "address": "Łąkowa 6, 32-661 Broszkowice",
+        "venue": "Boisko LKS Puls Broszkowice",
+        "geo": {
+          "latitude": 50.0542047,
+          "longitude": 19.233618,
+          "name": "LKS Puls Broszkowice, Spokojna, Broszkowice, powiat oświęcimski, województwo małopolskie, 32-661, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "awayTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "43112a9ba11cd751120a57da8e8f2b91",
+      "stadium": {
+        "address": "Parkowa, 32-640 Zator",
+        "venue": "Stadion LKS Zatorzanka",
+        "geo": {
+          "latitude": 49.988491,
+          "longitude": 19.4455056,
+          "name": "LKS Zatorzanka, Parkowa, Zator, powiat oświęcimski, województwo małopolskie, 32-640, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "awayTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2f888b64538bfe78617ef8448d643a01",
+      "stadium": {
+        "address": "Sportowa, 32-607 Polanka Wielka",
+        "venue": "Boisko LKS Strumień",
+        "geo": {
+          "latitude": 49.9765094,
+          "longitude": 19.2971668,
+          "name": "LKS Strumień Polanka Wielka, Sportowa, Polanka Wielka, powiat oświęcimski, województwo małopolskie, 32-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "awayTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "48f00c7a8d181458487a726b71836beb",
+      "stadium": {
+        "address": "Kusocińskiego 2, 32-626 Jawiszowice",
+        "venue": "Stadion LKS Jawiszowice",
+        "geo": {
+          "latitude": 49.9620604,
+          "longitude": 19.1386126,
+          "name": "LKS Jawiszowice, Kusocińskiego 2, Jawiszowice, powiat oświęcimski, województwo małopolskie, 32-626, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Łęki"
+      },
+      "awayTeam": {
+        "name": "Solavia Grojec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d89d66afc664fb9ba6d472219e1f0a8e",
+      "stadium": {
+        "address": "Sportowa 22, 32-651 Łęki",
+        "venue": "Boisko Soły Łęki",
+        "geo": {
+          "latitude": 49.9528512,
+          "longitude": 19.2043379,
+          "name": "Soła Łęki, Sportowa 22, Łęki, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Pogórze Gierałtowice"
+      },
+      "awayTeam": {
+        "name": "Przeciszovia Przeciszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "22636953f34ab27a50afd8dd555bd89a",
+      "stadium": {
+        "address": "Dworska 12, 34-122 Gierałtowice",
+        "venue": "Boisko LKS Pogórze Gierałtowice",
+        "geo": {
+          "latitude": 49.9286578,
+          "longitude": 19.3937651,
+          "name": "LKS Pogórze Gierałtowice, Dworska, Gierałtowice, gmina Wieprz, powiat wadowicki, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Puls Broszkowice"
+      },
+      "awayTeam": {
+        "name": "Górnik Brzeszcze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3a2854e4a098ce50dfcc14822ef28058",
+      "stadium": {
+        "address": "Łąkowa 6, 32-661 Broszkowice",
+        "venue": "Boisko LKS Puls Broszkowice",
+        "geo": {
+          "latitude": 50.0542047,
+          "longitude": 19.233618,
+          "name": "LKS Puls Broszkowice, Spokojna, Broszkowice, powiat oświęcimski, województwo małopolskie, 32-661, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zatorzanka Zator"
+      },
+      "awayTeam": {
+        "name": "Zgoda Malec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9dfed0cdb90eb7d08c8044048a9c684c",
+      "stadium": {
+        "address": "Parkowa, 32-640 Zator",
+        "venue": "Stadion LKS Zatorzanka",
+        "geo": {
+          "latitude": 49.988491,
+          "longitude": 19.4455056,
+          "name": "LKS Zatorzanka, Parkowa, Zator, powiat oświęcimski, województwo małopolskie, 32-640, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Strumień Polanka Wielka"
+      },
+      "awayTeam": {
+        "name": "Soła Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e69abe4cafa42c27ac48903b50ed7336",
+      "stadium": {
+        "address": "Sportowa, 32-607 Polanka Wielka",
+        "venue": "Boisko LKS Strumień",
+        "geo": {
+          "latitude": 49.9765094,
+          "longitude": 19.2971668,
+          "name": "LKS Strumień Polanka Wielka, Sportowa, Polanka Wielka, powiat oświęcimski, województwo małopolskie, 32-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Jawiszowice"
+      },
+      "awayTeam": {
+        "name": "Hejnał Kęty"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bbdb78d295c05491a260f621d08611c2",
+      "stadium": {
+        "address": "Kusocińskiego 2, 32-626 Jawiszowice",
+        "venue": "Stadion LKS Jawiszowice",
+        "geo": {
+          "latitude": 49.9620604,
+          "longitude": 19.1386126,
+          "name": "LKS Jawiszowice, Kusocińskiego 2, Jawiszowice, powiat oświęcimski, województwo małopolskie, 32-626, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Soła Łęki"
+      },
+      "awayTeam": {
+        "name": "Unia II Oświęcim"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "051832a8aa0e6400e37ae9eba6f22926",
+      "stadium": {
+        "address": "Sportowa 22, 32-651 Łęki",
+        "venue": "Boisko Soły Łęki",
+        "geo": {
+          "latitude": 49.9528512,
+          "longitude": 19.2043379,
+          "name": "Soła Łęki, Sportowa 22, Łęki, powiat oświęcimski, województwo małopolskie, 32-651, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Solavia Grojec"
+      },
+      "awayTeam": {
+        "name": "Orzeł Witkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7964fd8458a39507e3a536ffd3c71b41",
+      "stadium": {
+        "address": "Aleja Sportowa 39A, 32-615 Grojec",
+        "venue": "Boisko LKS Solavia Grojec",
+        "geo": {
+          "latitude": 49.9822907,
+          "longitude": 19.2481609,
+          "name": "Boisko LKS Solavia Grojec, Aleja Sportowa, Grojec, powiat oświęcimski, województwo małopolskie, 32-615, Polska"
+        }
+      }
     }
   ]
 }

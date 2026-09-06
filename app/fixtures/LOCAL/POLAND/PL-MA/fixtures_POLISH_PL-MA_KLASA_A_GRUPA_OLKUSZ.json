@@ -1,138 +1,171 @@
 {
   "competitionName": "Klasa A (Olkusz)",
-  "count": 10,
+  "count": 77,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Olkusz)"
       },
       "homeTeam": {
-        "name": "Dłubnia Trzyciąż/Jangrot",
-        "crest": null
+        "name": "Strumyk Zarzecze"
       },
       "awayTeam": {
-        "name": "Laskowianka Laski",
-        "crest": null
+        "name": "Centuria Chechło"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
-      },
-      "id": "591bb864c34e9b6832547f0720918cf2",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "Legion Bydlin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Bolesław Bukowno",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "1a5bf1c8f4e793170cae37a246f3275b",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "Wielmożanka Wielmoża",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Promień Przeginia",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:30:00.000Z"
-      },
-      "id": "a57e07c8ed9d775799dc748a69e8e908",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "Strumyk Zarzecze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Centuria Chechło",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+        "dateTime": "2026-09-06T13:00:00.000Z"
       },
       "id": "399237689b5752917b185d1be9512ff7",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa, 32-340 Zarzecze",
+        "venue": "Boisko Strumyk Zarzecze",
+        "geo": {
+          "latitude": 50.3659979,
+          "longitude": 19.6996771,
+          "name": "Strumyk Zarzecze, Sportowa, Zarzecze, powiat olkuski, województwo małopolskie, 32-340, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Olkusz)"
       },
       "homeTeam": {
-        "name": "Spartak Wielkanoc-Gołcza",
-        "crest": null
+        "name": "Spartak Wielkanoc-Gołcza"
       },
       "awayTeam": {
-        "name": "Prądnik Sułoszowa",
-        "crest": null
+        "name": "Prądnik Sułoszowa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T13:00:00.000Z"
+      },
+      "id": "5ca2c4cd6df78d2e996946866ec3d86a",
+      "stadium": {
+        "address": "Wielkanoc 86, 32-075 Wielkanoc",
+        "venue": "Boisko Spartak Wielkanoc-Gołcza",
+        "geo": {
+          "latitude": 50.3385595,
+          "longitude": 19.9142206,
+          "name": "Spartak Wielkanoc-Gołcza, Wielkanoc, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T14:00:00.000Z"
+      },
+      "id": "dfb5d6aa4ec6b3b590bd440c56e0f1d8",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Błysk Zederman"
+      },
+      "awayTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
         "dateTime": "2026-09-06T15:00:00.000Z"
       },
-      "id": "5ca2c4cd6df78d2e996946866ec3d86a",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "Pogoń II Miechów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Kwaśniów Górny",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
-      },
-      "id": "dfb5d6aa4ec6b3b590bd440c56e0f1d8",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "Błysk Zederman",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Trzy Korony Żarnowiec",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
-      },
       "id": "c0b64bb40844a563ccd612d66a88dd90",
+      "stadium": {
+        "address": "Zederman, 32-300 Zederman",
+        "venue": "Boisko LKS Błysk Zederman",
+        "geo": {
+          "latitude": 50.2483702,
+          "longitude": 19.6585149,
+          "name": "LKS Błysk Zederman, Zederman, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Błysk Zederman"
+      },
+      "awayTeam": {
+        "name": "Legion Bydlin"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:30:00.000Z"
+      },
+      "id": "4c631b2d4607faa5d24e929be5252baf",
+      "stadium": {
+        "address": "Zederman, 32-300 Zederman",
+        "venue": "Boisko LKS Błysk Zederman",
+        "geo": {
+          "latitude": 50.2483702,
+          "longitude": 19.6585149,
+          "name": "LKS Błysk Zederman, Zederman, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Promień Przeginia"
+      },
+      "awayTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "cd9176e6ea78f183c12250d2ba4ee6a7",
       "stadium": null
     },
     {
@@ -140,18 +173,825 @@
         "name": "Klasa A (Olkusz)"
       },
       "homeTeam": {
-        "name": "Pogoń II Miechów",
-        "crest": null
+        "name": "Bolesław Bukowno"
       },
       "awayTeam": {
-        "name": "Laskowianka Laski",
-        "crest": null
+        "name": "Pogoń II Miechów"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "6cb984ceadc629410d550740b37a3d9d",
+      "stadium": {
+        "address": "Spacerowa 1, 32-332 Bukowno",
+        "venue": "Stadion MOSiR Bukowno",
+        "geo": {
+          "latitude": 50.262282,
+          "longitude": 19.4737621,
+          "name": "Stadion Miejski, Spacerowa 1, Bukowno, powiat olkuski, województwo małopolskie, 32-332, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "awayTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "b5102a48115e33b989aa1e03924f0d16",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "awayTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "6a9c2ec18ff3f27f2ed7615406f73ebd",
+      "stadium": {
+        "address": "Leśna 24, 32-329 Laski",
+        "venue": "Ośrodek Sportowy Laski",
+        "geo": {
+          "latitude": 50.3209353,
+          "longitude": 19.4617655,
+          "name": "Ośrodek Sportowy, Leśna, Laski, gmina Bolesław, powiat olkuski, województwo małopolskie, 32-329, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Centuria Chechło"
+      },
+      "awayTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "id": "5dcef93fdcaf1307117f1ae78721e797",
+      "stadium": {
+        "address": "Leśna, 32-300 Chechło",
+        "venue": "Boisko Centuria Chechło",
+        "geo": {
+          "latitude": 50.367204,
+          "longitude": 19.5010996,
+          "name": "Centuria Chechło, Leśna, Chechło, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "awayTeam": {
+        "name": "Centuria Chechło"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "459482f09ea7d081c01448fdf9cce76a",
+      "stadium": {
+        "address": "Szkolna 2, 42-436 Wierbka",
+        "venue": "Stadion Ospel Wierbka",
+        "geo": {
+          "latitude": 50.4768909,
+          "longitude": 19.7199875,
+          "name": "Stadion Ospel Wierbka, Szkolna, Wierbka, powiat zawierciański, województwo śląskie, 42-436, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "awayTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9d87c4f95919d7bfdff374880e18ce5f",
+      "stadium": {
+        "address": "Miechowska 4, 42-439 Żarnowiec",
+        "venue": "Stadion LKS Trzy Korony",
+        "geo": {
+          "latitude": 50.4754028,
+          "longitude": 19.859846,
+          "name": "Miechowska 4, Żarnowiec, powiat zawierciański, województwo śląskie, 42-439, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Błysk Zederman"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3884cdfafcc075a0b983d01ce9ac665d",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "awayTeam": {
+        "name": "Bolesław Bukowno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1784f1b7439cd6388bdd35b5c1b0788b",
+      "stadium": {
+        "address": "Szkolna 55, 32-045 Wielmoża",
+        "venue": "Boisko SSL Wielmożanka",
+        "geo": {
+          "latitude": 50.2587007,
+          "longitude": 19.8085555,
+          "name": "SSL Wielmożanka, Szkolna, Wielmoża, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "awayTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c3ea50db278c5ffa2ffd885bd6f48fff",
+      "stadium": {
+        "address": "Trzyciąż 99, 32-353 Trzyciąż",
+        "venue": "Stadion Gminny w Trzyciążu",
+        "geo": {
+          "latitude": 50.3105746,
+          "longitude": 19.768168,
+          "name": "Dłubnia Trzyciąż/Jangrot, Trzyciąż, powiat olkuski, województwo małopolskie, 32-353, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "awayTeam": {
+        "name": "Promień Przeginia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7b2880c024fd535f407ea370b1ab9827",
+      "stadium": {
+        "address": "Wielkanoc 86, 32-075 Wielkanoc",
+        "venue": "Boisko Spartak Wielkanoc-Gołcza",
+        "geo": {
+          "latitude": 50.3385595,
+          "longitude": 19.9142206,
+          "name": "Spartak Wielkanoc-Gołcza, Wielkanoc, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "awayTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "bb7b0d0c6d31600f75e1b1a225b6da44",
+      "stadium": {
+        "address": "Szkolna 9, 32-045 Sułoszowa",
+        "venue": "Stadion Prądnika Sułoszowa",
+        "geo": {
+          "latitude": 50.2588301,
+          "longitude": 19.7411434,
+          "name": "Szkolna 9, Sułoszowa, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Centuria Chechło"
+      },
+      "awayTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "851398c3385b67df847757e94e6315c2",
+      "stadium": {
+        "address": "Leśna, 32-300 Chechło",
+        "venue": "Boisko Centuria Chechło",
+        "geo": {
+          "latitude": 50.367204,
+          "longitude": 19.5010996,
+          "name": "Centuria Chechło, Leśna, Chechło, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Promień Przeginia"
+      },
+      "awayTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "399d2907615a5664416776866cdda7d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "awayTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "22c1bac05646e6ce31269662786a12d1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Bolesław Bukowno"
+      },
+      "awayTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "791fe5c141dd28acd1f8e646563785aa",
+      "stadium": {
+        "address": "Spacerowa 1, 32-332 Bukowno",
+        "venue": "Stadion MOSiR Bukowno",
+        "geo": {
+          "latitude": 50.262282,
+          "longitude": 19.4737621,
+          "name": "Stadion Miejski, Spacerowa 1, Bukowno, powiat olkuski, województwo małopolskie, 32-332, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Błysk Zederman"
+      },
+      "awayTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c9f2f4dde834128d461218ae91c65b04",
+      "stadium": {
+        "address": "Zederman, 32-300 Zederman",
+        "venue": "Boisko LKS Błysk Zederman",
+        "geo": {
+          "latitude": 50.2483702,
+          "longitude": 19.6585149,
+          "name": "LKS Błysk Zederman, Zederman, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "awayTeam": {
+        "name": "Legion Bydlin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4c5d622727a2cc68d641db1f1e0a9d6c",
+      "stadium": {
+        "address": "Sportowa, 32-340 Zarzecze",
+        "venue": "Boisko Strumyk Zarzecze",
+        "geo": {
+          "latitude": 50.3659979,
+          "longitude": 19.6996771,
+          "name": "Strumyk Zarzecze, Sportowa, Zarzecze, powiat olkuski, województwo małopolskie, 32-340, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "awayTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "97316ec98dbe0aa3664d4f960a101135",
+      "stadium": {
+        "address": "Szkolna 2, 42-436 Wierbka",
+        "venue": "Stadion Ospel Wierbka",
+        "geo": {
+          "latitude": 50.4768909,
+          "longitude": 19.7199875,
+          "name": "Stadion Ospel Wierbka, Szkolna, Wierbka, powiat zawierciański, województwo śląskie, 42-436, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-29T16:00:00.000Z"
       },
       "date": {
         "date": "2026-09-29",
-        "dateTime": "2026-09-29T18:00:00.000Z"
+        "dateTime": "2026-09-29T16:00:00.000Z"
       },
       "id": "efdc4f95ec20eb063331c8002d5c2b5c",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "awayTeam": {
+        "name": "Centuria Chechło"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5c480191becbab970172341b794e34bb",
+      "stadium": {
+        "address": "Miechowska 4, 42-439 Żarnowiec",
+        "venue": "Stadion LKS Trzy Korony",
+        "geo": {
+          "latitude": 50.4754028,
+          "longitude": 19.859846,
+          "name": "Miechowska 4, Żarnowiec, powiat zawierciański, województwo śląskie, 42-439, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Legion Bydlin"
+      },
+      "awayTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b4fd9296065ad5e0b62d08e31224398e",
+      "stadium": {
+        "address": "Turystyczna, 32-300 Bydlin",
+        "venue": "Boisko LKS Legion Bydlin",
+        "geo": {
+          "latitude": 50.3811866,
+          "longitude": 19.6423099,
+          "name": "Klub Sportowy Legion Bydlin, Turystyczna, Bydlin, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "140bb04321db1e01f1ed54213f14b898",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "awayTeam": {
+        "name": "Błysk Zederman"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "45b52877192361ae0be0fce1cc9b7f49",
+      "stadium": {
+        "address": "Trzyciąż 99, 32-353 Trzyciąż",
+        "venue": "Stadion Gminny w Trzyciążu",
+        "geo": {
+          "latitude": 50.3105746,
+          "longitude": 19.768168,
+          "name": "Dłubnia Trzyciąż/Jangrot, Trzyciąż, powiat olkuski, województwo małopolskie, 32-353, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "awayTeam": {
+        "name": "Bolesław Bukowno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5dae70acb11e3e501371964fa64c31bb",
+      "stadium": {
+        "address": "Wielkanoc 86, 32-075 Wielkanoc",
+        "venue": "Boisko Spartak Wielkanoc-Gołcza",
+        "geo": {
+          "latitude": 50.3385595,
+          "longitude": 19.9142206,
+          "name": "Spartak Wielkanoc-Gołcza, Wielkanoc, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "awayTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5fbd5279e5a156ca975d64e4f1fe6a4b",
+      "stadium": {
+        "address": "Szkolna 9, 32-045 Sułoszowa",
+        "venue": "Stadion Prądnika Sułoszowa",
+        "geo": {
+          "latitude": 50.2588301,
+          "longitude": 19.7411434,
+          "name": "Szkolna 9, Sułoszowa, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "awayTeam": {
+        "name": "Promień Przeginia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e58ed012fb7d6430bf5a22ca5a485df6",
+      "stadium": {
+        "address": "Leśna 24, 32-329 Laski",
+        "venue": "Ośrodek Sportowy Laski",
+        "geo": {
+          "latitude": 50.3209353,
+          "longitude": 19.4617655,
+          "name": "Ośrodek Sportowy, Leśna, Laski, gmina Bolesław, powiat olkuski, województwo małopolskie, 32-329, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Centuria Chechło"
+      },
+      "awayTeam": {
+        "name": "Promień Przeginia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bcdd53796f9f3a225a0a9d933320ec2d",
+      "stadium": {
+        "address": "Leśna, 32-300 Chechło",
+        "venue": "Boisko Centuria Chechło",
+        "geo": {
+          "latitude": 50.367204,
+          "longitude": 19.5010996,
+          "name": "Centuria Chechło, Leśna, Chechło, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "awayTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fc0d09c0d61775fb54b28f49ffcf284a",
       "stadium": null
     },
     {
@@ -159,18 +999,1263 @@
         "name": "Klasa A (Olkusz)"
       },
       "homeTeam": {
-        "name": "Pogoń II Miechów",
-        "crest": null
+        "name": "Bolesław Bukowno"
       },
       "awayTeam": {
-        "name": "Spartak Wielkanoc-Gołcza",
-        "crest": null
+        "name": "Prądnik Sułoszowa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "46bd8d409798945869baae8deb4cefa7",
+      "stadium": {
+        "address": "Spacerowa 1, 32-332 Bukowno",
+        "venue": "Stadion MOSiR Bukowno",
+        "geo": {
+          "latitude": 50.262282,
+          "longitude": 19.4737621,
+          "name": "Stadion Miejski, Spacerowa 1, Bukowno, powiat olkuski, województwo małopolskie, 32-332, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Błysk Zederman"
+      },
+      "awayTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9257c0cc2d9ebea66a0b7ac04ccd6dd2",
+      "stadium": {
+        "address": "Zederman, 32-300 Zederman",
+        "venue": "Boisko LKS Błysk Zederman",
+        "geo": {
+          "latitude": 50.2483702,
+          "longitude": 19.6585149,
+          "name": "LKS Błysk Zederman, Zederman, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "awayTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "617357b6b19bbea797ff0badcbae46e8",
+      "stadium": {
+        "address": "Sportowa, 32-340 Zarzecze",
+        "venue": "Boisko Strumyk Zarzecze",
+        "geo": {
+          "latitude": 50.3659979,
+          "longitude": 19.6996771,
+          "name": "Strumyk Zarzecze, Sportowa, Zarzecze, powiat olkuski, województwo małopolskie, 32-340, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "413af038112caf3c38d425d02653b192",
+      "stadium": {
+        "address": "Szkolna 2, 42-436 Wierbka",
+        "venue": "Stadion Ospel Wierbka",
+        "geo": {
+          "latitude": 50.4768909,
+          "longitude": 19.7199875,
+          "name": "Stadion Ospel Wierbka, Szkolna, Wierbka, powiat zawierciański, województwo śląskie, 42-436, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "awayTeam": {
+        "name": "Legion Bydlin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bcc96e00e7e33f6bb91296214bcaf75e",
+      "stadium": {
+        "address": "Miechowska 4, 42-439 Żarnowiec",
+        "venue": "Stadion LKS Trzy Korony",
+        "geo": {
+          "latitude": 50.4754028,
+          "longitude": 19.859846,
+          "name": "Miechowska 4, Żarnowiec, powiat zawierciański, województwo śląskie, 42-439, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Centuria Chechło"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "51f3b898924c70bfd45eeddab961a8a8",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "awayTeam": {
+        "name": "Legion Bydlin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "91080e4ca43f3c3183aebd0a42057255",
+      "stadium": {
+        "address": "Szkolna 55, 32-045 Wielmoża",
+        "venue": "Boisko SSL Wielmożanka",
+        "geo": {
+          "latitude": 50.2587007,
+          "longitude": 19.8085555,
+          "name": "SSL Wielmożanka, Szkolna, Wielmoża, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "awayTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bf9f03dc0ef04184eb3e9662fd940c8a",
+      "stadium": {
+        "address": "Trzyciąż 99, 32-353 Trzyciąż",
+        "venue": "Stadion Gminny w Trzyciążu",
+        "geo": {
+          "latitude": 50.3105746,
+          "longitude": 19.768168,
+          "name": "Dłubnia Trzyciąż/Jangrot, Trzyciąż, powiat olkuski, województwo małopolskie, 32-353, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "awayTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "59633037c8808ebfc18dd8d291f0fbbc",
+      "stadium": {
+        "address": "Wielkanoc 86, 32-075 Wielkanoc",
+        "venue": "Boisko Spartak Wielkanoc-Gołcza",
+        "geo": {
+          "latitude": 50.3385595,
+          "longitude": 19.9142206,
+          "name": "Spartak Wielkanoc-Gołcza, Wielkanoc, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "awayTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f798d5a31ea33264fb16a06743cc5a3c",
+      "stadium": {
+        "address": "Szkolna 9, 32-045 Sułoszowa",
+        "venue": "Stadion Prądnika Sułoszowa",
+        "geo": {
+          "latitude": 50.2588301,
+          "longitude": 19.7411434,
+          "name": "Szkolna 9, Sułoszowa, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Promień Przeginia"
+      },
+      "awayTeam": {
+        "name": "Błysk Zederman"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "268bd20b78c9084a88140f9dee1098b3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "awayTeam": {
+        "name": "Bolesław Bukowno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ccbcea37119ffbe38d55bfe8a285898b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Legion Bydlin"
+      },
+      "awayTeam": {
+        "name": "Centuria Chechło"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "441966b6b69ba3d15a360da4454eb9a6",
+      "stadium": {
+        "address": "Turystyczna, 32-300 Bydlin",
+        "venue": "Boisko LKS Legion Bydlin",
+        "geo": {
+          "latitude": 50.3811866,
+          "longitude": 19.6423099,
+          "name": "Klub Sportowy Legion Bydlin, Turystyczna, Bydlin, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c16be8ca11e179dbcccb246c4571f74a",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "awayTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e75c878d76efe4e4f81e258244e4aee6",
+      "stadium": {
+        "address": "Szkolna 55, 32-045 Wielmoża",
+        "venue": "Boisko SSL Wielmożanka",
+        "geo": {
+          "latitude": 50.2587007,
+          "longitude": 19.8085555,
+          "name": "SSL Wielmożanka, Szkolna, Wielmoża, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "awayTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "821121a6fc20d2a2a11cfc83e2185e63",
+      "stadium": {
+        "address": "Trzyciąż 99, 32-353 Trzyciąż",
+        "venue": "Stadion Gminny w Trzyciążu",
+        "geo": {
+          "latitude": 50.3105746,
+          "longitude": 19.768168,
+          "name": "Dłubnia Trzyciąż/Jangrot, Trzyciąż, powiat olkuski, województwo małopolskie, 32-353, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "awayTeam": {
+        "name": "Błysk Zederman"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d378e9510ee5f2cbf7aec3758f0ba049",
+      "stadium": {
+        "address": "Szkolna 9, 32-045 Sułoszowa",
+        "venue": "Stadion Prądnika Sułoszowa",
+        "geo": {
+          "latitude": 50.2588301,
+          "longitude": 19.7411434,
+          "name": "Szkolna 9, Sułoszowa, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "awayTeam": {
+        "name": "Bolesław Bukowno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6950cffdc2d8f307389253f6c09a0309",
+      "stadium": {
+        "address": "Leśna 24, 32-329 Laski",
+        "venue": "Ośrodek Sportowy Laski",
+        "geo": {
+          "latitude": 50.3209353,
+          "longitude": 19.4617655,
+          "name": "Ośrodek Sportowy, Leśna, Laski, gmina Bolesław, powiat olkuski, województwo małopolskie, 32-329, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Promień Przeginia"
+      },
+      "awayTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "81a4f034a54cffd36b2e47911000eb6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Centuria Chechło"
+      },
+      "awayTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6fbce8698b69141ac23a6bc5c607b9bc",
+      "stadium": {
+        "address": "Leśna, 32-300 Chechło",
+        "venue": "Boisko Centuria Chechło",
+        "geo": {
+          "latitude": 50.367204,
+          "longitude": 19.5010996,
+          "name": "Centuria Chechło, Leśna, Chechło, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Bolesław Bukowno"
+      },
+      "awayTeam": {
+        "name": "Promień Przeginia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f94caf4acc79d589eb61f213502a27aa",
+      "stadium": {
+        "address": "Spacerowa 1, 32-332 Bukowno",
+        "venue": "Stadion MOSiR Bukowno",
+        "geo": {
+          "latitude": 50.262282,
+          "longitude": 19.4737621,
+          "name": "Stadion Miejski, Spacerowa 1, Bukowno, powiat olkuski, województwo małopolskie, 32-332, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Błysk Zederman"
+      },
+      "awayTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "974e2883f666f6ae241731fd7245eaf1",
+      "stadium": {
+        "address": "Zederman, 32-300 Zederman",
+        "venue": "Boisko LKS Błysk Zederman",
+        "geo": {
+          "latitude": 50.2483702,
+          "longitude": 19.6585149,
+          "name": "LKS Błysk Zederman, Zederman, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "awayTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "38dbf82537a0f1ea5fdfbd60a6534d60",
+      "stadium": {
+        "address": "Sportowa, 32-340 Zarzecze",
+        "venue": "Boisko Strumyk Zarzecze",
+        "geo": {
+          "latitude": 50.3659979,
+          "longitude": 19.6996771,
+          "name": "Strumyk Zarzecze, Sportowa, Zarzecze, powiat olkuski, województwo małopolskie, 32-340, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "awayTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3d42776528477a43ca68ce48df6be39f",
+      "stadium": {
+        "address": "Szkolna 2, 42-436 Wierbka",
+        "venue": "Stadion Ospel Wierbka",
+        "geo": {
+          "latitude": 50.4768909,
+          "longitude": 19.7199875,
+          "name": "Stadion Ospel Wierbka, Szkolna, Wierbka, powiat zawierciański, województwo śląskie, 42-436, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "awayTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c0cce9b1aed03240899a057abedc021a",
+      "stadium": {
+        "address": "Miechowska 4, 42-439 Żarnowiec",
+        "venue": "Stadion LKS Trzy Korony",
+        "geo": {
+          "latitude": 50.4754028,
+          "longitude": 19.859846,
+          "name": "Miechowska 4, Żarnowiec, powiat zawierciański, województwo śląskie, 42-439, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Legion Bydlin"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4f23f791d1e4e90d4293edbb391f146f",
+      "stadium": {
+        "address": "Turystyczna, 32-300 Bydlin",
+        "venue": "Boisko LKS Legion Bydlin",
+        "geo": {
+          "latitude": 50.3811866,
+          "longitude": 19.6423099,
+          "name": "Klub Sportowy Legion Bydlin, Turystyczna, Bydlin, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Centuria Chechło"
+      },
+      "awayTeam": {
+        "name": "Bolesław Bukowno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "def5641ee9071e105a979eb1f7a31fd3",
+      "stadium": {
+        "address": "Leśna, 32-300 Chechło",
+        "venue": "Boisko Centuria Chechło",
+        "geo": {
+          "latitude": 50.367204,
+          "longitude": 19.5010996,
+          "name": "Centuria Chechło, Leśna, Chechło, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Błysk Zederman"
+      },
+      "awayTeam": {
+        "name": "Orzeł Kwaśniów Górny"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bfa6b9cdc6c967b649916c59b6b61dd0",
+      "stadium": {
+        "address": "Zederman, 32-300 Zederman",
+        "venue": "Boisko LKS Błysk Zederman",
+        "geo": {
+          "latitude": 50.2483702,
+          "longitude": 19.6585149,
+          "name": "LKS Błysk Zederman, Zederman, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "awayTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "12283a278b2900c26f4a3c33c0a1b87d",
+      "stadium": {
+        "address": "Sportowa, 32-340 Zarzecze",
+        "venue": "Boisko Strumyk Zarzecze",
+        "geo": {
+          "latitude": 50.3659979,
+          "longitude": 19.6996771,
+          "name": "Strumyk Zarzecze, Sportowa, Zarzecze, powiat olkuski, województwo małopolskie, 32-340, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "awayTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "191e915f92e08297eb5548781114d0a2",
+      "stadium": {
+        "address": "Szkolna 2, 42-436 Wierbka",
+        "venue": "Stadion Ospel Wierbka",
+        "geo": {
+          "latitude": 50.4768909,
+          "longitude": 19.7199875,
+          "name": "Stadion Ospel Wierbka, Szkolna, Wierbka, powiat zawierciański, województwo śląskie, 42-436, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "awayTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d126957168de8ec7bd5ee9cf5b69286f",
+      "stadium": {
+        "address": "Miechowska 4, 42-439 Żarnowiec",
+        "venue": "Stadion LKS Trzy Korony",
+        "geo": {
+          "latitude": 50.4754028,
+          "longitude": 19.859846,
+          "name": "Miechowska 4, Żarnowiec, powiat zawierciański, województwo śląskie, 42-439, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Legion Bydlin"
+      },
+      "awayTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bda16d1b63aa0a9eb30e89706ebe65b1",
+      "stadium": {
+        "address": "Turystyczna, 32-300 Bydlin",
+        "venue": "Boisko LKS Legion Bydlin",
+        "geo": {
+          "latitude": 50.3811866,
+          "longitude": 19.6423099,
+          "name": "Klub Sportowy Legion Bydlin, Turystyczna, Bydlin, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2175d928bec9afb48226adcb8b5b6f3d",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "awayTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-11T10:00:00.000Z"
       },
       "date": {
         "date": "2026-11-11",
-        "dateTime": "2026-11-11T11:00:00.000Z"
+        "dateTime": "2026-11-11T10:00:00.000Z"
       },
       "id": "9b9935caed3dc0df53302f509c3e646b",
+      "stadium": {
+        "address": "Marii Konopnickiej 19, 32-200 Miechów",
+        "venue": "Stadion KS Pogoń",
+        "geo": {
+          "latitude": 50.360462,
+          "longitude": 20.0393113,
+          "name": "Stadion KS Pogoń, Miechów, powiat miechowski, województwo małopolskie, 32-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Legion Bydlin"
+      },
+      "awayTeam": {
+        "name": "Promień Przeginia"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-11T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T10:00:00.000Z"
+      },
+      "id": "7b98c9b1fd9f2d0a229c71fac146dc15",
+      "stadium": {
+        "address": "Turystyczna, 32-300 Bydlin",
+        "venue": "Boisko LKS Legion Bydlin",
+        "geo": {
+          "latitude": 50.3811866,
+          "longitude": 19.6423099,
+          "name": "Klub Sportowy Legion Bydlin, Turystyczna, Bydlin, powiat olkuski, województwo małopolskie, 32-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "awayTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-11T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T10:00:00.000Z"
+      },
+      "id": "9133456b80831ad9bef9b3803c69eef3",
+      "stadium": {
+        "address": "Sportowa, 32-340 Zarzecze",
+        "venue": "Boisko Strumyk Zarzecze",
+        "geo": {
+          "latitude": 50.3659979,
+          "longitude": 19.6996771,
+          "name": "Strumyk Zarzecze, Sportowa, Zarzecze, powiat olkuski, województwo małopolskie, 32-340, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Wielmożanka Wielmoża"
+      },
+      "awayTeam": {
+        "name": "Centuria Chechło"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9bbcebe52856bc822bfee8a3540eb882",
+      "stadium": {
+        "address": "Szkolna 55, 32-045 Wielmoża",
+        "venue": "Boisko SSL Wielmożanka",
+        "geo": {
+          "latitude": 50.2587007,
+          "longitude": 19.8085555,
+          "name": "SSL Wielmożanka, Szkolna, Wielmoża, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Dłubnia Trzyciąż/Jangrot"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Miechów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "edde6cda124ea0330c0199bfda2d9e89",
+      "stadium": {
+        "address": "Trzyciąż 99, 32-353 Trzyciąż",
+        "venue": "Stadion Gminny w Trzyciążu",
+        "geo": {
+          "latitude": 50.3105746,
+          "longitude": 19.768168,
+          "name": "Dłubnia Trzyciąż/Jangrot, Trzyciąż, powiat olkuski, województwo małopolskie, 32-353, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Spartak Wielkanoc-Gołcza"
+      },
+      "awayTeam": {
+        "name": "Legion Bydlin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "32d32ff030d44230aee3eef68d387daa",
+      "stadium": {
+        "address": "Wielkanoc 86, 32-075 Wielkanoc",
+        "venue": "Boisko Spartak Wielkanoc-Gołcza",
+        "geo": {
+          "latitude": 50.3385595,
+          "longitude": 19.9142206,
+          "name": "Spartak Wielkanoc-Gołcza, Wielkanoc, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Prądnik Sułoszowa"
+      },
+      "awayTeam": {
+        "name": "Trzy Korony Żarnowiec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e825a624051e354991661b6ccaace7e2",
+      "stadium": {
+        "address": "Szkolna 9, 32-045 Sułoszowa",
+        "venue": "Stadion Prądnika Sułoszowa",
+        "geo": {
+          "latitude": 50.2588301,
+          "longitude": 19.7411434,
+          "name": "Szkolna 9, Sułoszowa, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Laskowianka Laski"
+      },
+      "awayTeam": {
+        "name": "Pilica Wierbka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2868b148cb730333c5c00d09f9835c92",
+      "stadium": {
+        "address": "Leśna 24, 32-329 Laski",
+        "venue": "Ośrodek Sportowy Laski",
+        "geo": {
+          "latitude": 50.3209353,
+          "longitude": 19.4617655,
+          "name": "Ośrodek Sportowy, Leśna, Laski, gmina Bolesław, powiat olkuski, województwo małopolskie, 32-329, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Promień Przeginia"
+      },
+      "awayTeam": {
+        "name": "Strumyk Zarzecze"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9453c36f79bc3845d00d520ee63a0040",
       "stadium": null
     },
     {
@@ -178,19 +2263,31 @@
         "name": "Klasa A (Olkusz)"
       },
       "homeTeam": {
-        "name": "Legion Bydlin",
-        "crest": null
+        "name": "Bolesław Bukowno"
       },
       "awayTeam": {
-        "name": "Promień Przeginia",
-        "crest": null
+        "name": "Błysk Zederman"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
       },
       "date": {
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T11:00:00.000Z"
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
       },
-      "id": "7b98c9b1fd9f2d0a229c71fac146dc15",
-      "stadium": null
+      "id": "149897e878d266829ec070f2170babc2",
+      "stadium": {
+        "address": "Spacerowa 1, 32-332 Bukowno",
+        "venue": "Stadion MOSiR Bukowno",
+        "geo": {
+          "latitude": 50.262282,
+          "longitude": 19.4737621,
+          "name": "Stadion Miejski, Spacerowa 1, Bukowno, powiat olkuski, województwo małopolskie, 32-332, Polska"
+        }
+      }
     }
   ]
 }

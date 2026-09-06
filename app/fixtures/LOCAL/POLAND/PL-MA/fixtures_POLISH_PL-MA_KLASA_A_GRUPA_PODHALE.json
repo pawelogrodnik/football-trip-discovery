@@ -1,30 +1,33 @@
 {
   "competitionName": "Klasa A (Podhale)",
-  "count": 7,
+  "count": 59,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Podhale)"
       },
       "homeTeam": {
-        "name": "Unia Naprawa",
-        "crest": null
+        "name": "Gronik Gronków"
       },
       "awayTeam": {
-        "name": "Zawrat Bukowina Tatrzańska",
-        "crest": null
+        "name": "Gorc Ochotnica"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T11:30:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T11:30:00.000Z"
       },
-      "id": "b1c81a8ad3b738c246f5f3fa12d23bd3",
+      "id": "03f081ac2ce22eddda030add7b92d9e0",
       "stadium": {
-        "venue": "Boisko Unia Naprawa",
-        "address": "Naprawa 400, Naprawa",
+        "address": "Gronków, 34-480 Gronków",
+        "venue": "Stadion LKS Gronik Gronków",
         "geo": {
-          "latitude": 49.65044272081731,
-          "longitude": 19.874353623567693
+          "latitude": 49.441116,
+          "longitude": 20.0919251,
+          "name": "LKS Gronik Gronków, Gronków, powiat nowotarski, województwo małopolskie, 34-480, Polska"
         }
       }
     },
@@ -33,18 +36,185 @@
         "name": "Klasa A (Podhale)"
       },
       "homeTeam": {
-        "name": "Sokolica Krościenko nad Dunajcem",
-        "crest": null
+        "name": "Wiatr Ludźmierz"
       },
       "awayTeam": {
-        "name": "Skawianin Skawa",
-        "crest": null
+        "name": "Luboń Skomielna Biała"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
-      "id": "2e2969e3538c3d6ec955d406fec56300",
+      "id": "8c694e1aa1e51e804b319b1f97b1244a",
+      "stadium": {
+        "address": "Jana Pawła II, 34-474 Ludźmierz",
+        "venue": "Boisko KS Wiatr Ludźmierz",
+        "geo": {
+          "latitude": 49.4640293,
+          "longitude": 19.9849153,
+          "name": "KS Wiatr Ludźmierz, Jana Pawła II, Ludźmierz, powiat nowotarski, województwo małopolskie, 34-474, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "awayTeam": {
+        "name": "Bór Dębno"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T15:00:00.000Z"
+      },
+      "id": "2e22fa8e7312df9dd19564e3a4e3a05f",
+      "stadium": {
+        "address": "Targowa 55, 34-470 Czarny Dunajec",
+        "venue": "Stadion Wisły Czarny Dunajec",
+        "geo": {
+          "latitude": 49.4305556,
+          "longitude": 19.8490442,
+          "name": "Targowa 55, Czarny Dunajec, powiat nowotarski, województwo małopolskie, 34-470, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Skawianin Skawa"
+      },
+      "awayTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "d5f64fce9e3e4a45a211de41aaf0006d",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "awayTeam": {
+        "name": "Wiatr Ludźmierz"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "421fc508490dc7dd13cb38db44f0d2f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Bór Dębno"
+      },
+      "awayTeam": {
+        "name": "Unia Naprawa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "3971ef159d6821627302c7106c883c09",
+      "stadium": {
+        "address": "Jana Pawła II 35, 34-435 Dębno",
+        "venue": "Boisko LZS Bór Dębno",
+        "geo": {
+          "latitude": 49.4709369,
+          "longitude": 20.2011015,
+          "name": "Jana Pawła II, Dębno, powiat nowotarski, województwo małopolskie, 34-435, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "awayTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "682cb77f9ea6011b668a396ac66e7105",
+      "stadium": {
+        "venue": "Boisko Skalni Zaskale",
+        "address": "Zaskale 200, Zaskale",
+        "geo": {
+          "latitude": 49.43822052389818,
+          "longitude": 20.00826146430217
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "awayTeam": {
+        "name": "Gronik Gronków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "f547906aabe98703a6e4b144bcd0c7c1",
       "stadium": {
         "venue": "Stadion Sokolica Krościenko",
         "address": "Jagiellońska 18, Krościenko nad Dunajcem",
@@ -59,18 +229,49 @@
         "name": "Klasa A (Podhale)"
       },
       "homeTeam": {
-        "name": "Granit Czarna Góra",
-        "crest": null
+        "name": "Gorc Ochotnica"
       },
       "awayTeam": {
-        "name": "Skalni Zaskale",
-        "crest": null
+        "name": "Jarmuta Szczawnica"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:30:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:30:00.000Z"
       },
-      "id": "0357df5b743ef0c0fc767639b186f138",
+      "id": "06a1fdb6d592d6cf543d8db84adf0b46",
+      "stadium": {
+        "address": "Hologówka, 34-452 Ochotnica Dolna",
+        "venue": "Boisko Gorca Ochotnica",
+        "geo": {
+          "latitude": 49.525629,
+          "longitude": 20.3172184,
+          "name": "Boisko LZS KS Gorc Ochotnica, Hologówka, Ochotnica Dolna, powiat nowotarski, województwo małopolskie, 34-452, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "awayTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "id": "c43729ec025916d16a6789668728ef82",
       "stadium": null
     },
     {
@@ -78,18 +279,329 @@
         "name": "Klasa A (Podhale)"
       },
       "homeTeam": {
-        "name": "Jarmuta Szczawnica",
-        "crest": null
+        "name": "Gronik Gronków"
       },
       "awayTeam": {
-        "name": "Lawina Spytkowice",
-        "crest": null
+        "name": "Skawianin Skawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:30:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "e8c9c204a065ce780072c294946993c2",
+      "id": "b9dee3fd64cacd7892046ea635e3b6ac",
+      "stadium": {
+        "address": "Gronków, 34-480 Gronków",
+        "venue": "Stadion LKS Gronik Gronków",
+        "geo": {
+          "latitude": 49.441116,
+          "longitude": 20.0919251,
+          "name": "LKS Gronik Gronków, Gronków, powiat nowotarski, województwo małopolskie, 34-480, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Jarmuta Szczawnica"
+      },
+      "awayTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "585bfd7129406a2a8d960977952eef44",
+      "stadium": {
+        "address": "Szlachtowska 75b, 34-460 Szczawnica",
+        "venue": "Stadion KS Jarmuta",
+        "geo": {
+          "latitude": 49.4196173,
+          "longitude": 20.5043293,
+          "name": "Szlachtowska 75b, Szczawnica, powiat nowotarski, województwo małopolskie, 34-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "awayTeam": {
+        "name": "Gorc Ochotnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2c2f25f009ccf21c103d17e7ef73aab8",
+      "stadium": {
+        "address": "Zagóra 165, 34-532 Czarna Góra",
+        "venue": "Boisko Rówień Dolańska",
+        "geo": {
+          "latitude": 49.3793239,
+          "longitude": 20.1307768,
+          "name": "Zagóra 165, Czarna Góra, powiat tatrzański, województwo małopolskie, 34-532, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "awayTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "59f715bc7f963364a9886a4307747cb4",
+      "stadium": {
+        "address": "Targowa 55, 34-470 Czarny Dunajec",
+        "venue": "Stadion Wisły Czarny Dunajec",
+        "geo": {
+          "latitude": 49.4305556,
+          "longitude": 19.8490442,
+          "name": "Targowa 55, Czarny Dunajec, powiat nowotarski, województwo małopolskie, 34-470, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Unia Naprawa"
+      },
+      "awayTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9560f39eba65a0a0d6f9c315e030688e",
+      "stadium": {
+        "venue": "Boisko Unia Naprawa",
+        "address": "Naprawa 400, Naprawa",
+        "geo": {
+          "latitude": 49.65044272081731,
+          "longitude": 19.874353623567693
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wiatr Ludźmierz"
+      },
+      "awayTeam": {
+        "name": "Bór Dębno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5046ab45027aeaddd88eee4bb252e958",
+      "stadium": {
+        "address": "Jana Pawła II, 34-474 Ludźmierz",
+        "venue": "Boisko KS Wiatr Ludźmierz",
+        "geo": {
+          "latitude": 49.4640293,
+          "longitude": 19.9849153,
+          "name": "KS Wiatr Ludźmierz, Jana Pawła II, Ludźmierz, powiat nowotarski, województwo małopolskie, 34-474, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "awayTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8b4f61de6e1db59b3cbbe905434f8740",
+      "stadium": {
+        "venue": "Boisko Luboń Skomielna Biała",
+        "address": "Skomielna Biała 740, Skomielna Biała",
+        "geo": {
+          "latitude": 49.63510115491959,
+          "longitude": 19.924937392826525
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Skawianin Skawa"
+      },
+      "awayTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ef9eb622636f7861b4849ca23376768a",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Bór Dębno"
+      },
+      "awayTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0a843e1d4046dfce09c5c5c22136c679",
+      "stadium": {
+        "address": "Jana Pawła II 35, 34-435 Dębno",
+        "venue": "Boisko LZS Bór Dębno",
+        "geo": {
+          "latitude": 49.4709369,
+          "longitude": 20.2011015,
+          "name": "Jana Pawła II, Dębno, powiat nowotarski, województwo małopolskie, 34-435, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "awayTeam": {
+        "name": "Wiatr Ludźmierz"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f374348a09e3792c2b7ac7e35e16f19a",
+      "stadium": {
+        "venue": "Boisko Skalni Zaskale",
+        "address": "Zaskale 200, Zaskale",
+        "geo": {
+          "latitude": 49.43822052389818,
+          "longitude": 20.00826146430217
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "awayTeam": {
+        "name": "Unia Naprawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3ac00313df00a54beaf2504085368de2",
       "stadium": null
     },
     {
@@ -97,18 +609,298 @@
         "name": "Klasa A (Podhale)"
       },
       "homeTeam": {
-        "name": "Gronik Gronków",
-        "crest": null
+        "name": "Gorc Ochotnica"
       },
       "awayTeam": {
-        "name": "Gorc Ochotnica",
-        "crest": null
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:30:00.000Z"
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
       },
-      "id": "03f081ac2ce22eddda030add7b92d9e0",
+      "id": "f02f672b1e76a3a674f122d0aeba18fd",
+      "stadium": {
+        "address": "Hologówka, 34-452 Ochotnica Dolna",
+        "venue": "Boisko Gorca Ochotnica",
+        "geo": {
+          "latitude": 49.525629,
+          "longitude": 20.3172184,
+          "name": "Boisko LZS KS Gorc Ochotnica, Hologówka, Ochotnica Dolna, powiat nowotarski, województwo małopolskie, 34-452, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "awayTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "937e2137ce4cf41d556d15fceb6195e9",
+      "stadium": {
+        "venue": "Stadion Sokolica Krościenko",
+        "address": "Jagiellońska 18, Krościenko nad Dunajcem",
+        "geo": {
+          "latitude": 49.44099378441978,
+          "longitude": 20.420129190385566
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Gronik Gronków"
+      },
+      "awayTeam": {
+        "name": "Jarmuta Szczawnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "014b1ce8014de859b849c5a8d7b9bc8d",
+      "stadium": {
+        "address": "Gronków, 34-480 Gronków",
+        "venue": "Stadion LKS Gronik Gronków",
+        "geo": {
+          "latitude": 49.441116,
+          "longitude": 20.0919251,
+          "name": "LKS Gronik Gronków, Gronków, powiat nowotarski, województwo małopolskie, 34-480, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Jarmuta Szczawnica"
+      },
+      "awayTeam": {
+        "name": "Skawianin Skawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7d545bf7dcb8b8fffa45ab1acecb2845",
+      "stadium": {
+        "address": "Szlachtowska 75b, 34-460 Szczawnica",
+        "venue": "Stadion KS Jarmuta",
+        "geo": {
+          "latitude": 49.4196173,
+          "longitude": 20.5043293,
+          "name": "Szlachtowska 75b, Szczawnica, powiat nowotarski, województwo małopolskie, 34-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "awayTeam": {
+        "name": "Gronik Gronków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "788fd398d1b11f37c7176aa765ce8b9e",
+      "stadium": {
+        "address": "Zagóra 165, 34-532 Czarna Góra",
+        "venue": "Boisko Rówień Dolańska",
+        "geo": {
+          "latitude": 49.3793239,
+          "longitude": 20.1307768,
+          "name": "Zagóra 165, Czarna Góra, powiat tatrzański, województwo małopolskie, 34-532, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "awayTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a634d4b72758cf73e1789ed424f88df0",
+      "stadium": {
+        "address": "Targowa 55, 34-470 Czarny Dunajec",
+        "venue": "Stadion Wisły Czarny Dunajec",
+        "geo": {
+          "latitude": 49.4305556,
+          "longitude": 19.8490442,
+          "name": "Targowa 55, Czarny Dunajec, powiat nowotarski, województwo małopolskie, 34-470, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Unia Naprawa"
+      },
+      "awayTeam": {
+        "name": "Gorc Ochotnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8c39383245881937fda876dcc02811e1",
+      "stadium": {
+        "venue": "Boisko Unia Naprawa",
+        "address": "Naprawa 400, Naprawa",
+        "geo": {
+          "latitude": 49.65044272081731,
+          "longitude": 19.874353623567693
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wiatr Ludźmierz"
+      },
+      "awayTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a04005372cc84e12c692d0d291d2f278",
+      "stadium": {
+        "address": "Jana Pawła II, 34-474 Ludźmierz",
+        "venue": "Boisko KS Wiatr Ludźmierz",
+        "geo": {
+          "latitude": 49.4640293,
+          "longitude": 19.9849153,
+          "name": "KS Wiatr Ludźmierz, Jana Pawła II, Ludźmierz, powiat nowotarski, województwo małopolskie, 34-474, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "awayTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5fd7ac9760c09c6cc2bf2b79fff4e770",
+      "stadium": {
+        "venue": "Boisko Luboń Skomielna Biała",
+        "address": "Skomielna Biała 740, Skomielna Biała",
+        "geo": {
+          "latitude": 49.63510115491959,
+          "longitude": 19.924937392826525
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "awayTeam": {
+        "name": "Bór Dębno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8486904a96180fac195495e4f9ce40b7",
       "stadium": null
     },
     {
@@ -116,18 +908,83 @@
         "name": "Klasa A (Podhale)"
       },
       "homeTeam": {
-        "name": "Wiatr Ludźmierz",
-        "crest": null
+        "name": "Skawianin Skawa"
       },
       "awayTeam": {
-        "name": "Luboń Skomielna Biała",
-        "crest": null
+        "name": "Bór Dębno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
       },
-      "id": "8c694e1aa1e51e804b319b1f97b1244a",
+      "id": "37f2d5455e300ca81cb4c3c5e03dd124",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "awayTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "281b91782029f33f18fe157b6b735d36",
+      "stadium": {
+        "venue": "Boisko Skalni Zaskale",
+        "address": "Zaskale 200, Zaskale",
+        "geo": {
+          "latitude": 49.43822052389818,
+          "longitude": 20.00826146430217
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "awayTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8929a6bbe36b4630e00cc7405636626a",
       "stadium": null
     },
     {
@@ -135,19 +992,744 @@
         "name": "Klasa A (Podhale)"
       },
       "homeTeam": {
-        "name": "Wisła II Czarny Dunajec",
-        "crest": null
+        "name": "Gorc Ochotnica"
       },
       "awayTeam": {
-        "name": "Bór Dębno",
-        "crest": null
+        "name": "Wiatr Ludźmierz"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
       },
-      "id": "2e22fa8e7312df9dd19564e3a4e3a05f",
+      "id": "6257879be1e4dfc98587e93428fa9828",
+      "stadium": {
+        "address": "Hologówka, 34-452 Ochotnica Dolna",
+        "venue": "Boisko Gorca Ochotnica",
+        "geo": {
+          "latitude": 49.525629,
+          "longitude": 20.3172184,
+          "name": "Boisko LZS KS Gorc Ochotnica, Hologówka, Ochotnica Dolna, powiat nowotarski, województwo małopolskie, 34-452, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "awayTeam": {
+        "name": "Unia Naprawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "45c9250fd54bfc44278561e45c5a5665",
+      "stadium": {
+        "venue": "Stadion Sokolica Krościenko",
+        "address": "Jagiellońska 18, Krościenko nad Dunajcem",
+        "geo": {
+          "latitude": 49.44099378441978,
+          "longitude": 20.420129190385566
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Gronik Gronków"
+      },
+      "awayTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c5f84ab21700fa5f7cd43d6992561c65",
+      "stadium": {
+        "address": "Gronków, 34-480 Gronków",
+        "venue": "Stadion LKS Gronik Gronków",
+        "geo": {
+          "latitude": 49.441116,
+          "longitude": 20.0919251,
+          "name": "LKS Gronik Gronków, Gronków, powiat nowotarski, województwo małopolskie, 34-480, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Jarmuta Szczawnica"
+      },
+      "awayTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7b925b923d08d8216e7cdc260c7faee6",
+      "stadium": {
+        "address": "Szlachtowska 75b, 34-460 Szczawnica",
+        "venue": "Stadion KS Jarmuta",
+        "geo": {
+          "latitude": 49.4196173,
+          "longitude": 20.5043293,
+          "name": "Szlachtowska 75b, Szczawnica, powiat nowotarski, województwo małopolskie, 34-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "awayTeam": {
+        "name": "Skawianin Skawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "499f1276f66c64dc051ee95053606586",
+      "stadium": {
+        "address": "Targowa 55, 34-470 Czarny Dunajec",
+        "venue": "Stadion Wisły Czarny Dunajec",
+        "geo": {
+          "latitude": 49.4305556,
+          "longitude": 19.8490442,
+          "name": "Targowa 55, Czarny Dunajec, powiat nowotarski, województwo małopolskie, 34-470, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Unia Naprawa"
+      },
+      "awayTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4590c78289a9992a3dbf05f9f9e6819f",
+      "stadium": {
+        "venue": "Boisko Unia Naprawa",
+        "address": "Naprawa 400, Naprawa",
+        "geo": {
+          "latitude": 49.65044272081731,
+          "longitude": 19.874353623567693
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wiatr Ludźmierz"
+      },
+      "awayTeam": {
+        "name": "Jarmuta Szczawnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c153206343c9242742290db613948993",
+      "stadium": {
+        "address": "Jana Pawła II, 34-474 Ludźmierz",
+        "venue": "Boisko KS Wiatr Ludźmierz",
+        "geo": {
+          "latitude": 49.4640293,
+          "longitude": 19.9849153,
+          "name": "KS Wiatr Ludźmierz, Jana Pawła II, Ludźmierz, powiat nowotarski, województwo małopolskie, 34-474, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "awayTeam": {
+        "name": "Gronik Gronków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "876d19ff29ec1bec63b2ac2b7f059af0",
+      "stadium": {
+        "venue": "Boisko Luboń Skomielna Biała",
+        "address": "Skomielna Biała 740, Skomielna Biała",
+        "geo": {
+          "latitude": 49.63510115491959,
+          "longitude": 19.924937392826525
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "awayTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "47e11c7a8f256c56bf8e034bd6748605",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Bór Dębno"
+      },
+      "awayTeam": {
+        "name": "Gorc Ochotnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0ea255648a08b2b18f9d9fb4cfc7a3e2",
+      "stadium": {
+        "address": "Jana Pawła II 35, 34-435 Dębno",
+        "venue": "Boisko LZS Bór Dębno",
+        "geo": {
+          "latitude": 49.4709369,
+          "longitude": 20.2011015,
+          "name": "Jana Pawła II, Dębno, powiat nowotarski, województwo małopolskie, 34-435, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "awayTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "fe50ab3081d492878ce531f41e2da434",
+      "stadium": {
+        "venue": "Boisko Skalni Zaskale",
+        "address": "Zaskale 200, Zaskale",
+        "geo": {
+          "latitude": 49.43822052389818,
+          "longitude": 20.00826146430217
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "awayTeam": {
+        "name": "Skawianin Skawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2bcd69416a3f2dc58340736922fb582c",
+      "stadium": {
+        "address": "Zagóra 165, 34-532 Czarna Góra",
+        "venue": "Boisko Rówień Dolańska",
+        "geo": {
+          "latitude": 49.3793239,
+          "longitude": 20.1307768,
+          "name": "Zagóra 165, Czarna Góra, powiat tatrzański, województwo małopolskie, 34-532, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "awayTeam": {
+        "name": "Jarmuta Szczawnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8b9db12651861e1f796f2d1e075a8c3f",
+      "stadium": {
+        "address": "Targowa 55, 34-470 Czarny Dunajec",
+        "venue": "Stadion Wisły Czarny Dunajec",
+        "geo": {
+          "latitude": 49.4305556,
+          "longitude": 19.8490442,
+          "name": "Targowa 55, Czarny Dunajec, powiat nowotarski, województwo małopolskie, 34-470, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Unia Naprawa"
+      },
+      "awayTeam": {
+        "name": "Gronik Gronków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3ebf7f1c7151e88b624bacfcfa8c2963",
+      "stadium": {
+        "venue": "Boisko Unia Naprawa",
+        "address": "Naprawa 400, Naprawa",
+        "geo": {
+          "latitude": 49.65044272081731,
+          "longitude": 19.874353623567693
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wiatr Ludźmierz"
+      },
+      "awayTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "4bb17ec48930f47b2a62c26af3bd2b15",
+      "stadium": {
+        "address": "Jana Pawła II, 34-474 Ludźmierz",
+        "venue": "Boisko KS Wiatr Ludźmierz",
+        "geo": {
+          "latitude": 49.4640293,
+          "longitude": 19.9849153,
+          "name": "KS Wiatr Ludźmierz, Jana Pawła II, Ludźmierz, powiat nowotarski, województwo małopolskie, 34-474, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "awayTeam": {
+        "name": "Gorc Ochotnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "96d119a93cb4a73e7e95b911063ff18f",
+      "stadium": {
+        "venue": "Boisko Luboń Skomielna Biała",
+        "address": "Skomielna Biała 740, Skomielna Biała",
+        "geo": {
+          "latitude": 49.63510115491959,
+          "longitude": 19.924937392826525
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "awayTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "234cee627be20265f0dabf2e078a7b45",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Bór Dębno"
+      },
+      "awayTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "22580b9a62c0ac988185ddfe12c5ac0f",
+      "stadium": {
+        "address": "Jana Pawła II 35, 34-435 Dębno",
+        "venue": "Boisko LZS Bór Dębno",
+        "geo": {
+          "latitude": 49.4709369,
+          "longitude": 20.2011015,
+          "name": "Jana Pawła II, Dębno, powiat nowotarski, województwo małopolskie, 34-435, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Skawianin Skawa"
+      },
+      "awayTeam": {
+        "name": "Skalni Zaskale"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6d292157fa0ae3630df623873e8c630f",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Lawina Spytkowice"
+      },
+      "awayTeam": {
+        "name": "Bór Dębno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "41328f484fd8401afeae7cae984789d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Gorc Ochotnica"
+      },
+      "awayTeam": {
+        "name": "Zawrat Bukowina Tatrzańska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2fce2b8a127f56a9c12b57eb44c1f473",
+      "stadium": {
+        "address": "Hologówka, 34-452 Ochotnica Dolna",
+        "venue": "Boisko Gorca Ochotnica",
+        "geo": {
+          "latitude": 49.525629,
+          "longitude": 20.3172184,
+          "name": "Boisko LZS KS Gorc Ochotnica, Hologówka, Ochotnica Dolna, powiat nowotarski, województwo małopolskie, 34-452, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Sokolica Krościenko nad Dunajcem"
+      },
+      "awayTeam": {
+        "name": "Luboń Skomielna Biała"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2d22f48f2e37a3ce5eb799c8696a38b2",
+      "stadium": {
+        "venue": "Stadion Sokolica Krościenko",
+        "address": "Jagiellońska 18, Krościenko nad Dunajcem",
+        "geo": {
+          "latitude": 49.44099378441978,
+          "longitude": 20.420129190385566
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Gronik Gronków"
+      },
+      "awayTeam": {
+        "name": "Wiatr Ludźmierz"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1e1b20ac658a58be6a7e3431f24a8806",
+      "stadium": {
+        "address": "Gronków, 34-480 Gronków",
+        "venue": "Stadion LKS Gronik Gronków",
+        "geo": {
+          "latitude": 49.441116,
+          "longitude": 20.0919251,
+          "name": "LKS Gronik Gronków, Gronków, powiat nowotarski, województwo małopolskie, 34-480, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Jarmuta Szczawnica"
+      },
+      "awayTeam": {
+        "name": "Unia Naprawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "dbb4df8000d6347662694ab0b1bc5ad2",
+      "stadium": {
+        "address": "Szlachtowska 75b, 34-460 Szczawnica",
+        "venue": "Stadion KS Jarmuta",
+        "geo": {
+          "latitude": 49.4196173,
+          "longitude": 20.5043293,
+          "name": "Szlachtowska 75b, Szczawnica, powiat nowotarski, województwo małopolskie, 34-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Granit Czarna Góra"
+      },
+      "awayTeam": {
+        "name": "Wisła II Czarny Dunajec"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c33f8888f01cb6c81f6f518c2a996520",
+      "stadium": {
+        "address": "Zagóra 165, 34-532 Czarna Góra",
+        "venue": "Boisko Rówień Dolańska",
+        "geo": {
+          "latitude": 49.3793239,
+          "longitude": 20.1307768,
+          "name": "Zagóra 165, Czarna Góra, powiat tatrzański, województwo małopolskie, 34-532, Polska"
+        }
+      }
     }
   ]
 }
