@@ -1,24 +1,142 @@
 {
   "competitionName": "Klasa B (Bochnia)",
-  "count": 6,
+  "count": 54,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Bochnia)"
       },
       "homeTeam": {
-        "name": "Gryf Chronów",
-        "crest": null
+        "name": "GKS II Drwinia"
       },
       "awayTeam": {
-        "name": "Sanka Łąkta Górna",
-        "crest": null
+        "name": "Borek"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
       },
-      "id": "fc9e09b993431df1211dbaa3a85000d3",
+      "id": "af432140d3ce0610784b96f2d5904781",
+      "stadium": {
+        "address": "Grobla 146, 32-709 Drwinia",
+        "venue": "Stadion Gminny w Drwini",
+        "geo": {
+          "latitude": 50.1289322,
+          "longitude": 20.4430783,
+          "name": "Grobla 226, Grobla, gmina Drwinia, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Raba II Książnice"
+      },
+      "awayTeam": {
+        "name": "Polonia Wyżyce"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "3a88fab8ef3e196ecdfc4778cacd8f6d",
+      "stadium": {
+        "address": "Książnice 213, 32-420 Książnice",
+        "venue": "Boisko LKS Raba Książnice",
+        "geo": {
+          "latitude": 49.9528443,
+          "longitude": 20.3072872,
+          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Raba Niedary"
+      },
+      "awayTeam": {
+        "name": "Gryf Chronów"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "a07c8b792e3ad672508e68fb30de4c1f",
+      "stadium": {
+        "address": "Niedary, 32-820 Niedary",
+        "venue": "Boisko Raba Niedary",
+        "geo": {
+          "latitude": 50.1206009,
+          "longitude": 20.4897215,
+          "name": "Raba Niedary, Niedary, powiat brzeski, województwo małopolskie, 32-820, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KS Bratucice"
+      },
+      "awayTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "13dd93b5a42e9d5ef34ce0729d3635ca",
+      "stadium": {
+        "address": "Bratucice, 32-765 Bratucice",
+        "venue": "Boisko KS Bratucice",
+        "geo": {
+          "latitude": 50.0673161,
+          "longitude": 20.5386956,
+          "name": "Bratucice, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "awayTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "d69de3a1550b5eb7e3e0c31ec629529d",
       "stadium": null
     },
     {
@@ -26,18 +144,268 @@
         "name": "Klasa B (Bochnia)"
       },
       "homeTeam": {
-        "name": "Promień Mikluszowice",
-        "crest": null
+        "name": "Tarnavia Tarnawa"
       },
       "awayTeam": {
-        "name": "LKS II Trzciana 2000",
-        "crest": null
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
-      "id": "280b981b64efc69b46f2162678ca11e8",
+      "id": "555c13714b1573feb83695bde9b9ccc8",
+      "stadium": {
+        "address": "Tarnawa 173, 32-741 Tarnawa",
+        "venue": "Boisko LKS Tarnavia",
+        "geo": {
+          "latitude": 49.826766,
+          "longitude": 20.3019135,
+          "name": "Tarnawa 173, Tarnawa, powiat bocheński, województwo małopolskie, 32-741, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "awayTeam": {
+        "name": "Borek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e01cf8220d25975f2a933b34473e69ff",
+      "stadium": {
+        "address": "Brzeźnica 261, 32-700 Brzeźnica",
+        "venue": "Boisko Korona Brzeźnica",
+        "geo": {
+          "latitude": 49.9582513,
+          "longitude": 20.4879242,
+          "name": "Brzeźnica 261, Brzeźnica, powiat bocheński, województwo małopolskie, 32-700, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "awayTeam": {
+        "name": "GKS II Drwinia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2f19e1067e4ebfd4ff9d8b360d63cc9e",
+      "stadium": {
+        "address": "Mikluszowice 32, 32-708 Mikluszowice",
+        "venue": "Stadion KS Promień Mikluszowice",
+        "geo": {
+          "latitude": 50.0646641,
+          "longitude": 20.4622358,
+          "name": "Mikluszowice 32, Mikluszowice, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Gryf Chronów"
+      },
+      "awayTeam": {
+        "name": "LKS II Trzciana 2000"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0bd4989e40ef42424c0573f30230e12e",
+      "stadium": {
+        "address": "Chronów 101, 32-720 Chronów",
+        "venue": "Boisko LKS Gryf Chronów",
+        "geo": {
+          "latitude": 49.8971895,
+          "longitude": 20.5363412,
+          "name": "Chronów 101, Chronów, gmina Nowy Wiśnicz, powiat bocheński, województwo małopolskie, 32-720, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "awayTeam": {
+        "name": "Raba Niedary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a752d5e6842a56b6d6f34d9ccb2a00f4",
+      "stadium": {
+        "address": "Gawłówek 63, 32-708 Gawłówek",
+        "venue": "Boisko KS Żubr Gawłówek",
+        "geo": {
+          "latitude": 50.0530038,
+          "longitude": 20.4496564,
+          "name": "Gawłówek 63, Gawłówek, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Polonia Wyżyce"
+      },
+      "awayTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "33e24ab2ed211149cc36ce04100e5004",
+      "stadium": {
+        "address": "Wyżyce 105, 32-709 Wyżyce",
+        "venue": "Boisko KS Polonia Wyżyce",
+        "geo": {
+          "latitude": 50.0818623,
+          "longitude": 20.4860611,
+          "name": "Wyżyce 105, Wyżyce, powiat bocheński, województwo małopolskie, 32-709, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "awayTeam": {
+        "name": "Raba II Książnice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "53aa1e016ed286b6d58f2b051af70edd",
+      "stadium": {
+        "address": "Tarnawa 173, 32-741 Tarnawa",
+        "venue": "Boisko LKS Tarnavia",
+        "geo": {
+          "latitude": 49.826766,
+          "longitude": 20.3019135,
+          "name": "Tarnawa 173, Tarnawa, powiat bocheński, województwo małopolskie, 32-741, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Raba II Książnice"
+      },
+      "awayTeam": {
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5ab7d5cd553fedff8a2d4737c128d63a",
+      "stadium": {
+        "address": "Książnice 213, 32-420 Książnice",
+        "venue": "Boisko LKS Raba Książnice",
+        "geo": {
+          "latitude": 49.9528443,
+          "longitude": 20.3072872,
+          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "awayTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1b380f692a9d795ea0dfa8a7bff62c9a",
       "stadium": null
     },
     {
@@ -45,18 +413,332 @@
         "name": "Klasa B (Bochnia)"
       },
       "homeTeam": {
-        "name": "Borek",
-        "crest": null
+        "name": "Raba Niedary"
       },
       "awayTeam": {
-        "name": "KS Bratucice",
-        "crest": "https://crests.football-data.org/11289.png"
+        "name": "Polonia Wyżyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
       },
-      "id": "1f5f21cddbd29323845ba5150790d94b",
+      "id": "c72d847cf35eacb6fe9f37ba7c679c2d",
+      "stadium": {
+        "address": "Niedary, 32-820 Niedary",
+        "venue": "Boisko Raba Niedary",
+        "geo": {
+          "latitude": 50.1206009,
+          "longitude": 20.4897215,
+          "name": "Raba Niedary, Niedary, powiat brzeski, województwo małopolskie, 32-820, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "LKS II Trzciana 2000"
+      },
+      "awayTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b0603f650206735fafc1aaf2575c2efa",
+      "stadium": {
+        "address": "Rdzawa, 32-733 Trzciana",
+        "venue": "Stadion LKS Trzciana 2000",
+        "geo": {
+          "latitude": 49.8427305,
+          "longitude": 20.3754461,
+          "name": "Trzciana 509, Trzciana, powiat bocheński, województwo małopolskie, 32-733, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KS Bratucice"
+      },
+      "awayTeam": {
+        "name": "Gryf Chronów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8c69c6670ce7573e6f0c341a0b51f0b6",
+      "stadium": {
+        "address": "Bratucice, 32-765 Bratucice",
+        "venue": "Boisko KS Bratucice",
+        "geo": {
+          "latitude": 50.0673161,
+          "longitude": 20.5386956,
+          "name": "Bratucice, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Borek"
+      },
+      "awayTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f6a8dd46d1e735816091e9b51d20fa1d",
+      "stadium": {
+        "address": "Borek 204, 32-765 Borek",
+        "venue": "Boisko Borkowianka Borek",
+        "geo": {
+          "latitude": 50.025687,
+          "longitude": 20.5191529,
+          "name": "Borek 204, Borek, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "awayTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3838a990b2bbb16bc89a55bbef8e9082",
+      "stadium": {
+        "address": "Brzeźnica 261, 32-700 Brzeźnica",
+        "venue": "Boisko Korona Brzeźnica",
+        "geo": {
+          "latitude": 49.9582513,
+          "longitude": 20.4879242,
+          "name": "Brzeźnica 261, Brzeźnica, powiat bocheński, województwo małopolskie, 32-700, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Gryf Chronów"
+      },
+      "awayTeam": {
+        "name": "GKS II Drwinia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "20a2c8c1353c7abc087eb5bb3bababfd",
+      "stadium": {
+        "address": "Chronów 101, 32-720 Chronów",
+        "venue": "Boisko LKS Gryf Chronów",
+        "geo": {
+          "latitude": 49.8971895,
+          "longitude": 20.5363412,
+          "name": "Chronów 101, Chronów, gmina Nowy Wiśnicz, powiat bocheński, województwo małopolskie, 32-720, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "awayTeam": {
+        "name": "KS Bratucice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e3a3a6d46c3aa52448a07b04d55880e3",
+      "stadium": {
+        "address": "Gawłówek 63, 32-708 Gawłówek",
+        "venue": "Boisko KS Żubr Gawłówek",
+        "geo": {
+          "latitude": 50.0530038,
+          "longitude": 20.4496564,
+          "name": "Gawłówek 63, Gawłówek, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Polonia Wyżyce"
+      },
+      "awayTeam": {
+        "name": "LKS II Trzciana 2000"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3dc757dde9948b34bd13f95cf3ecb217",
+      "stadium": {
+        "address": "Wyżyce 105, 32-709 Wyżyce",
+        "venue": "Boisko KS Polonia Wyżyce",
+        "geo": {
+          "latitude": 50.0818623,
+          "longitude": 20.4860611,
+          "name": "Wyżyce 105, Wyżyce, powiat bocheński, województwo małopolskie, 32-709, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "awayTeam": {
+        "name": "Raba Niedary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "67d158ce0e0de9b941925e28200cfd9c",
+      "stadium": {
+        "address": "Tarnawa 173, 32-741 Tarnawa",
+        "venue": "Boisko LKS Tarnavia",
+        "geo": {
+          "latitude": 49.826766,
+          "longitude": 20.3019135,
+          "name": "Tarnawa 173, Tarnawa, powiat bocheński, województwo małopolskie, 32-741, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Raba II Książnice"
+      },
+      "awayTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "75d87629bfe177ee6ba6421d2289516c",
+      "stadium": {
+        "address": "Książnice 213, 32-420 Książnice",
+        "venue": "Boisko LKS Raba Książnice",
+        "geo": {
+          "latitude": 49.9528443,
+          "longitude": 20.3072872,
+          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "awayTeam": {
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "515f940cb2eab5154d2342078f41aede",
       "stadium": null
     },
     {
@@ -64,18 +746,332 @@
         "name": "Klasa B (Bochnia)"
       },
       "homeTeam": {
-        "name": "Polonia Wyżyce",
-        "crest": null
+        "name": "Raba Niedary"
       },
       "awayTeam": {
-        "name": "Tarnavia Tarnawa",
-        "crest": null
+        "name": "Raba II Książnice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
       },
-      "id": "6a819315651b385746731cea7babc2d4",
+      "id": "652760457fddf440caa3896a4be7a842",
+      "stadium": {
+        "address": "Niedary, 32-820 Niedary",
+        "venue": "Boisko Raba Niedary",
+        "geo": {
+          "latitude": 50.1206009,
+          "longitude": 20.4897215,
+          "name": "Raba Niedary, Niedary, powiat brzeski, województwo małopolskie, 32-820, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "LKS II Trzciana 2000"
+      },
+      "awayTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d6424485290f58f3cf95ab8da160cf2f",
+      "stadium": {
+        "address": "Rdzawa, 32-733 Trzciana",
+        "venue": "Stadion LKS Trzciana 2000",
+        "geo": {
+          "latitude": 49.8427305,
+          "longitude": 20.3754461,
+          "name": "Trzciana 509, Trzciana, powiat bocheński, województwo małopolskie, 32-733, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KS Bratucice"
+      },
+      "awayTeam": {
+        "name": "Polonia Wyżyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a0d9c6aa44974dfb33b6652c7f27543e",
+      "stadium": {
+        "address": "Bratucice, 32-765 Bratucice",
+        "venue": "Boisko KS Bratucice",
+        "geo": {
+          "latitude": 50.0673161,
+          "longitude": 20.5386956,
+          "name": "Bratucice, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "GKS II Drwinia"
+      },
+      "awayTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e0deeac2d342b571bd19a6d66743d66f",
+      "stadium": {
+        "address": "Grobla 146, 32-709 Drwinia",
+        "venue": "Stadion Gminny w Drwini",
+        "geo": {
+          "latitude": 50.1289322,
+          "longitude": 20.4430783,
+          "name": "Grobla 226, Grobla, gmina Drwinia, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Borek"
+      },
+      "awayTeam": {
+        "name": "Gryf Chronów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "1e5e846a5de27400da8d240d06d5ac99",
+      "stadium": {
+        "address": "Borek 204, 32-765 Borek",
+        "venue": "Boisko Borkowianka Borek",
+        "geo": {
+          "latitude": 50.025687,
+          "longitude": 20.5191529,
+          "name": "Borek 204, Borek, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Gryf Chronów"
+      },
+      "awayTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f18d5ca27d3541198f62d005cb4b819f",
+      "stadium": {
+        "address": "Chronów 101, 32-720 Chronów",
+        "venue": "Boisko LKS Gryf Chronów",
+        "geo": {
+          "latitude": 49.8971895,
+          "longitude": 20.5363412,
+          "name": "Chronów 101, Chronów, gmina Nowy Wiśnicz, powiat bocheński, województwo małopolskie, 32-720, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "awayTeam": {
+        "name": "Borek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "de93c7d660761c18fd29ec10d083c5c6",
+      "stadium": {
+        "address": "Gawłówek 63, 32-708 Gawłówek",
+        "venue": "Boisko KS Żubr Gawłówek",
+        "geo": {
+          "latitude": 50.0530038,
+          "longitude": 20.4496564,
+          "name": "Gawłówek 63, Gawłówek, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Polonia Wyżyce"
+      },
+      "awayTeam": {
+        "name": "GKS II Drwinia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7a0e845cfab74fde84893ffe915df444",
+      "stadium": {
+        "address": "Wyżyce 105, 32-709 Wyżyce",
+        "venue": "Boisko KS Polonia Wyżyce",
+        "geo": {
+          "latitude": 50.0818623,
+          "longitude": 20.4860611,
+          "name": "Wyżyce 105, Wyżyce, powiat bocheński, województwo małopolskie, 32-709, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "awayTeam": {
+        "name": "KS Bratucice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2fd1336f13fa9c1304c7562b2a03c0b5",
+      "stadium": {
+        "address": "Tarnawa 173, 32-741 Tarnawa",
+        "venue": "Boisko LKS Tarnavia",
+        "geo": {
+          "latitude": 49.826766,
+          "longitude": 20.3019135,
+          "name": "Tarnawa 173, Tarnawa, powiat bocheński, województwo małopolskie, 32-741, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Raba II Książnice"
+      },
+      "awayTeam": {
+        "name": "LKS II Trzciana 2000"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "738e432a4488de99b7d20c4eda752db3",
+      "stadium": {
+        "address": "Książnice 213, 32-420 Książnice",
+        "venue": "Boisko LKS Raba Książnice",
+        "geo": {
+          "latitude": 49.9528443,
+          "longitude": 20.3072872,
+          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "awayTeam": {
+        "name": "Raba Niedary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1a750ac54c6b720e69c44da531c2403c",
       "stadium": null
     },
     {
@@ -83,18 +1079,332 @@
         "name": "Klasa B (Bochnia)"
       },
       "homeTeam": {
-        "name": "Korona Brzeźnica (k. Bochni)",
-        "crest": null
+        "name": "Raba Niedary"
       },
       "awayTeam": {
-        "name": "GKS II Drwinia",
-        "crest": null
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
       },
-      "id": "c8b12eb7d07655a51b3c514932d9e082",
+      "id": "fe2be9c11e5bfd9f7ea84831a081d984",
+      "stadium": {
+        "address": "Niedary, 32-820 Niedary",
+        "venue": "Boisko Raba Niedary",
+        "geo": {
+          "latitude": 50.1206009,
+          "longitude": 20.4897215,
+          "name": "Raba Niedary, Niedary, powiat brzeski, województwo małopolskie, 32-820, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "LKS II Trzciana 2000"
+      },
+      "awayTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b784404afd1144457404c55f30e29628",
+      "stadium": {
+        "address": "Rdzawa, 32-733 Trzciana",
+        "venue": "Stadion LKS Trzciana 2000",
+        "geo": {
+          "latitude": 49.8427305,
+          "longitude": 20.3754461,
+          "name": "Trzciana 509, Trzciana, powiat bocheński, województwo małopolskie, 32-733, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KS Bratucice"
+      },
+      "awayTeam": {
+        "name": "Raba II Książnice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "eb8d60016be6ce5bc8f10a3bd89c27e4",
+      "stadium": {
+        "address": "Bratucice, 32-765 Bratucice",
+        "venue": "Boisko KS Bratucice",
+        "geo": {
+          "latitude": 50.0673161,
+          "longitude": 20.5386956,
+          "name": "Bratucice, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "GKS II Drwinia"
+      },
+      "awayTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "dbf4a22048c556924c237538ab5157e7",
+      "stadium": {
+        "address": "Grobla 146, 32-709 Drwinia",
+        "venue": "Stadion Gminny w Drwini",
+        "geo": {
+          "latitude": 50.1289322,
+          "longitude": 20.4430783,
+          "name": "Grobla 226, Grobla, gmina Drwinia, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Borek"
+      },
+      "awayTeam": {
+        "name": "Polonia Wyżyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "352ff17b65f2c2d5cf61b85ca35792f4",
+      "stadium": {
+        "address": "Borek 204, 32-765 Borek",
+        "venue": "Boisko Borkowianka Borek",
+        "geo": {
+          "latitude": 50.025687,
+          "longitude": 20.5191529,
+          "name": "Borek 204, Borek, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "awayTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "34c0376b883f71fd966c0467cfac2b38",
+      "stadium": {
+        "address": "Mikluszowice 32, 32-708 Mikluszowice",
+        "venue": "Stadion KS Promień Mikluszowice",
+        "geo": {
+          "latitude": 50.0646641,
+          "longitude": 20.4622358,
+          "name": "Mikluszowice 32, Mikluszowice, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "awayTeam": {
+        "name": "Gryf Chronów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "67250f731990ddd28c6544a1c412cc47",
+      "stadium": {
+        "address": "Brzeźnica 261, 32-700 Brzeźnica",
+        "venue": "Boisko Korona Brzeźnica",
+        "geo": {
+          "latitude": 49.9582513,
+          "longitude": 20.4879242,
+          "name": "Brzeźnica 261, Brzeźnica, powiat bocheński, województwo małopolskie, 32-700, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Polonia Wyżyce"
+      },
+      "awayTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1750284850efbc8d66037f6dc3c2f2be",
+      "stadium": {
+        "address": "Wyżyce 105, 32-709 Wyżyce",
+        "venue": "Boisko KS Polonia Wyżyce",
+        "geo": {
+          "latitude": 50.0818623,
+          "longitude": 20.4860611,
+          "name": "Wyżyce 105, Wyżyce, powiat bocheński, województwo małopolskie, 32-709, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "awayTeam": {
+        "name": "Borek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "897d5ef69c95277461813a7bdb275d68",
+      "stadium": {
+        "address": "Tarnawa 173, 32-741 Tarnawa",
+        "venue": "Boisko LKS Tarnavia",
+        "geo": {
+          "latitude": 49.826766,
+          "longitude": 20.3019135,
+          "name": "Tarnawa 173, Tarnawa, powiat bocheński, województwo małopolskie, 32-741, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Raba II Książnice"
+      },
+      "awayTeam": {
+        "name": "GKS II Drwinia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bf05f71f7ac8ebb614e29ff70259569c",
+      "stadium": {
+        "address": "Książnice 213, 32-420 Książnice",
+        "venue": "Boisko LKS Raba Książnice",
+        "geo": {
+          "latitude": 49.9528443,
+          "longitude": 20.3072872,
+          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "awayTeam": {
+        "name": "KS Bratucice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6ff1cbd057659b152af1649f24c77495",
       "stadium": null
     },
     {
@@ -102,19 +1412,217 @@
         "name": "Klasa B (Bochnia)"
       },
       "homeTeam": {
-        "name": "Żubr Gawłówek",
-        "crest": null
+        "name": "Raba Niedary"
       },
       "awayTeam": {
-        "name": "Raba II Książnice",
-        "crest": null
+        "name": "LKS II Trzciana 2000"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
       },
-      "id": "341df9cb7fdc865d2498d6dbf71c84ca",
-      "stadium": null
+      "id": "4100638d5a57743bbb74e911f48a54c0",
+      "stadium": {
+        "address": "Niedary, 32-820 Niedary",
+        "venue": "Boisko Raba Niedary",
+        "geo": {
+          "latitude": 50.1206009,
+          "longitude": 20.4897215,
+          "name": "Raba Niedary, Niedary, powiat brzeski, województwo małopolskie, 32-820, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "LKS II Trzciana 2000"
+      },
+      "awayTeam": {
+        "name": "Korona Brzeźnica (k. Bochni)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "59a3804b7a746b2e857b454f913225c5",
+      "stadium": {
+        "address": "Rdzawa, 32-733 Trzciana",
+        "venue": "Stadion LKS Trzciana 2000",
+        "geo": {
+          "latitude": 49.8427305,
+          "longitude": 20.3754461,
+          "name": "Trzciana 509, Trzciana, powiat bocheński, województwo małopolskie, 32-733, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "KS Bratucice"
+      },
+      "awayTeam": {
+        "name": "Raba Niedary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "beb3d1a6a6279d25c83f009031733f1c",
+      "stadium": {
+        "address": "Bratucice, 32-765 Bratucice",
+        "venue": "Boisko KS Bratucice",
+        "geo": {
+          "latitude": 50.0673161,
+          "longitude": 20.5386956,
+          "name": "Bratucice, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "GKS II Drwinia"
+      },
+      "awayTeam": {
+        "name": "Sanka Łąkta Górna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "45f0cc63758d8622ecace2f80424c7d6",
+      "stadium": {
+        "address": "Grobla 146, 32-709 Drwinia",
+        "venue": "Stadion Gminny w Drwini",
+        "geo": {
+          "latitude": 50.1289322,
+          "longitude": 20.4430783,
+          "name": "Grobla 226, Grobla, gmina Drwinia, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Borek"
+      },
+      "awayTeam": {
+        "name": "Raba II Książnice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "56cd93b720939b6d892199d60d956648",
+      "stadium": {
+        "address": "Borek 204, 32-765 Borek",
+        "venue": "Boisko Borkowianka Borek",
+        "geo": {
+          "latitude": 50.025687,
+          "longitude": 20.5191529,
+          "name": "Borek 204, Borek, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Promień Mikluszowice"
+      },
+      "awayTeam": {
+        "name": "Tarnavia Tarnawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "307a6ef0f3d02a31709427bbc192eca0",
+      "stadium": {
+        "address": "Mikluszowice 32, 32-708 Mikluszowice",
+        "venue": "Stadion KS Promień Mikluszowice",
+        "geo": {
+          "latitude": 50.0646641,
+          "longitude": 20.4622358,
+          "name": "Mikluszowice 32, Mikluszowice, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Gryf Chronów"
+      },
+      "awayTeam": {
+        "name": "Żubr Gawłówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "5c78c2f160bed705c0b8738fb8a89f93",
+      "stadium": {
+        "address": "Chronów 101, 32-720 Chronów",
+        "venue": "Boisko LKS Gryf Chronów",
+        "geo": {
+          "latitude": 49.8971895,
+          "longitude": 20.5363412,
+          "name": "Chronów 101, Chronów, gmina Nowy Wiśnicz, powiat bocheński, województwo małopolskie, 32-720, Polska"
+        }
+      }
     }
   ]
 }

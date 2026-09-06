@@ -1,138 +1,84 @@
 {
   "competitionName": "Klasa A (Zabno)",
-  "count": 8,
+  "count": 65,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Zabno)"
       },
       "homeTeam": {
-        "name": "FC Pawęzów",
-        "crest": null
+        "name": "Wolania Wola Żelichowska"
       },
       "awayTeam": {
-        "name": "LKS Niwka",
-        "crest": null
+        "name": "Dunajec Konary"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "a5b9d83331a06ff2ba6dffa33499eff2",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zabno)"
-      },
-      "homeTeam": {
-        "name": "LUKS Wola Radłowska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ava Grądy",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "1bde244c225c429e9bd242fd735a1fe0",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zabno)"
-      },
-      "homeTeam": {
-        "name": "Spartakus Radgoszcz",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Łukovia Łukowa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "8a474b91f135826b36ea272fc5bcb2c4",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zabno)"
-      },
-      "homeTeam": {
-        "name": "Unia Niedomice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Dąbrovia II Dąbrowa Tarnowska",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:30:00.000Z"
-      },
-      "id": "4cf8512a5154274ec134db6dfc770f8d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zabno)"
-      },
-      "homeTeam": {
-        "name": "MLKS II Żabno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Brzoza Brzezówka",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
-      },
-      "id": "7b5722ede755c78a6085a203dba94081",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zabno)"
-      },
-      "homeTeam": {
-        "name": "Strażak Karsy",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LZS Luszowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
-      },
-      "id": "4e161cc4f23db4c4accf1ba323340ca4",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zabno)"
-      },
-      "homeTeam": {
-        "name": "Wolania Wola Żelichowska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Dunajec Konary",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "id": "aa30161187a144ff9d83c406945a76e5",
+      "stadium": {
+        "address": "Wola Żelichowska 9, 33-260 Wola Żelichowska",
+        "venue": "Stadion Miejski w Woli Żelichowskiej",
+        "geo": {
+          "latitude": 50.2387393,
+          "longitude": 20.8195807,
+          "name": "Wola Żelichowska 9, Wola Żelichowska, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "awayTeam": {
+        "name": "LZS Luszowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "e4bc3d3137e7cc009fe7a96708551d70",
+      "stadium": {
+        "address": "Brzezówka, 33-230 Brzezówka",
+        "venue": "Boisko LKS Brzoza Brzezówka",
+        "geo": {
+          "latitude": 50.2538224,
+          "longitude": 21.1035784,
+          "name": "LKS Brzoza Brzezówka, Brzezówka, powiat dąbrowski, województwo małopolskie, 33-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LKS Niwka"
+      },
+      "awayTeam": {
+        "name": "Unia Niedomice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "2ad029d43f711ae48c7694f1ff73efc8",
       "stadium": null
     },
     {
@@ -140,19 +86,1878 @@
         "name": "Klasa A (Zabno)"
       },
       "homeTeam": {
-        "name": "LUKS Wola Radłowska",
-        "crest": null
+        "name": "Dunajec Konary"
       },
       "awayTeam": {
-        "name": "Dunajec Konary",
-        "crest": null
+        "name": "FC Pawęzów"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "79720fbf03b543034607c4aae9730a80",
+      "stadium": {
+        "address": "Błonia 2, 33-240 Żabno",
+        "venue": "Boisko Dunajec Konary",
+        "geo": {
+          "latitude": 50.1328403,
+          "longitude": 20.8624367,
+          "name": "Błonia 2, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "awayTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "f5097030e9afbece8b803af21a3b5239",
+      "stadium": {
+        "address": "Łukowa 83a, 33-140 Łukowa",
+        "venue": "Stadion KS Łukovia",
+        "geo": {
+          "latitude": 50.0932838,
+          "longitude": 20.972258,
+          "name": "Łukowa 83a, Łukowa, powiat tarnowski, województwo małopolskie, 33-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Ava Grądy"
+      },
+      "awayTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "f56e99bff65c9989dad17c31f55bad6b",
+      "stadium": {
+        "address": "Grądy 88, 33-221 Grądy",
+        "venue": "Boisko piłkarskie Grądy",
+        "geo": {
+          "latitude": 50.2636718,
+          "longitude": 20.9176313,
+          "name": "Grądy 99, Grądy, powiat dąbrowski, województwo małopolskie, 33-221, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Strażak Karsy"
+      },
+      "awayTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "ca76125c0d2d5f3f255e5d586007ccc4",
+      "stadium": {
+        "address": "Karsy 83, 33-260 Karsy",
+        "venue": "Boisko LZS Strażak Karsy",
+        "geo": {
+          "latitude": 50.2663759,
+          "longitude": 20.7738664,
+          "name": "Karsy 83, Karsy, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "awayTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "a6009845041b8c0dc70030a9e338e8f8",
+      "stadium": {
+        "address": "Sportowa 4, 33-200 Dąbrowa Tarnowska",
+        "venue": "Stadion MLKS Dąbrovia",
+        "geo": {
+          "latitude": 50.1689839,
+          "longitude": 20.9870833,
+          "name": "MLKS Dąbrovia, Sportowa, Dąbrowa Tarnowska, powiat dąbrowski, województwo małopolskie, 33-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LZS Luszowice"
+      },
+      "awayTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1cc2473a0a41dce9db00dc25a00c9d19",
+      "stadium": {
+        "address": "Tarnowska 6, 33-206 Luszowice",
+        "venue": "Stadion LZS Luszowice",
+        "geo": {
+          "latitude": 50.1475984,
+          "longitude": 21.0997789,
+          "name": "Tarnowska 6, Luszowice, powiat dąbrowski, województwo małopolskie, 33-206, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "awayTeam": {
+        "name": "Strażak Karsy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d3e7cb0acd2a6230b68ab54e2cd4a6a9",
+      "stadium": {
+        "address": "Jagiellońska 11, 33-207 Radgoszcz",
+        "venue": "Stadion RKS Radgoszcz",
+        "geo": {
+          "latitude": 50.2036952,
+          "longitude": 21.1084449,
+          "name": "Jagiellońska 11, Radgoszcz, powiat dąbrowski, województwo małopolskie, 33-207, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "awayTeam": {
+        "name": "Ava Grądy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "902424e0d31030ac42df992c11943e11",
+      "stadium": {
+        "address": "Wola Żelichowska 9, 33-260 Wola Żelichowska",
+        "venue": "Stadion Miejski w Woli Żelichowskiej",
+        "geo": {
+          "latitude": 50.2387393,
+          "longitude": 20.8195807,
+          "name": "Wola Żelichowska 9, Wola Żelichowska, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "FC Pawęzów"
+      },
+      "awayTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "374a9e8047bc9fb2c8f1c39c9122e9b3",
+      "stadium": {
+        "address": "Pawęzów 66, 33-103 Pawęzów",
+        "venue": "Stadion FC Pawęzów",
+        "geo": {
+          "latitude": 50.0716519,
+          "longitude": 20.9904002,
+          "name": "Stadion Pawęzów, Pawęzów, powiat tarnowski, województwo małopolskie, 33-103, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Unia Niedomice"
+      },
+      "awayTeam": {
+        "name": "Dunajec Konary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b8642cf6c27528eacf4b00895b931206",
+      "stadium": {
+        "address": "Szkolna 1, 33-132 Niedomice",
+        "venue": "Stadion ŚKS Unia Niedomice",
+        "geo": {
+          "latitude": 50.1045527,
+          "longitude": 20.8935834,
+          "name": "Szkolna 1, Niedomice, powiat tarnowski, województwo małopolskie, 33-132, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "awayTeam": {
+        "name": "LKS Niwka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4971a71e3e0b33a6959890da2a66820e",
+      "stadium": {
+        "address": "Świętego Jana 1, 33-240 Żabno",
+        "venue": "Stadion Miejski w Żabnie",
+        "geo": {
+          "latitude": 50.1332885,
+          "longitude": 20.8807541,
+          "name": "Świętego Jana 1, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "awayTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "93ea3889d55d2c118a1da37182f4867d",
+      "stadium": {
+        "address": "Brzezówka, 33-230 Brzezówka",
+        "venue": "Boisko LKS Brzoza Brzezówka",
+        "geo": {
+          "latitude": 50.2538224,
+          "longitude": 21.1035784,
+          "name": "LKS Brzoza Brzezówka, Brzezówka, powiat dąbrowski, województwo małopolskie, 33-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "awayTeam": {
+        "name": "LZS Luszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "55ee1d269e80766bbc27feb6ed87025e",
+      "stadium": {
+        "address": "Sportowa 4, 33-200 Dąbrowa Tarnowska",
+        "venue": "Stadion MLKS Dąbrovia",
+        "geo": {
+          "latitude": 50.1689839,
+          "longitude": 20.9870833,
+          "name": "MLKS Dąbrovia, Sportowa, Dąbrowa Tarnowska, powiat dąbrowski, województwo małopolskie, 33-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LKS Niwka"
+      },
+      "awayTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b69eea28629bcefec4f65448da7f21bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Konary"
+      },
+      "awayTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "73ff8220df8938198a95e1fd8b35087c",
+      "stadium": {
+        "address": "Błonia 2, 33-240 Żabno",
+        "venue": "Boisko Dunajec Konary",
+        "geo": {
+          "latitude": 50.1328403,
+          "longitude": 20.8624367,
+          "name": "Błonia 2, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "awayTeam": {
+        "name": "Unia Niedomice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "63c486de670dcde52853e33d9964cdbe",
+      "stadium": {
+        "address": "Łukowa 83a, 33-140 Łukowa",
+        "venue": "Stadion KS Łukovia",
+        "geo": {
+          "latitude": 50.0932838,
+          "longitude": 20.972258,
+          "name": "Łukowa 83a, Łukowa, powiat tarnowski, województwo małopolskie, 33-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Ava Grądy"
+      },
+      "awayTeam": {
+        "name": "FC Pawęzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9bc572e827e5b1a100fc85de805fb566",
+      "stadium": {
+        "address": "Grądy 88, 33-221 Grądy",
+        "venue": "Boisko piłkarskie Grądy",
+        "geo": {
+          "latitude": 50.2636718,
+          "longitude": 20.9176313,
+          "name": "Grądy 99, Grądy, powiat dąbrowski, województwo małopolskie, 33-221, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Strażak Karsy"
+      },
+      "awayTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e88da209503febfb6dc96e7e7644b8ac",
+      "stadium": {
+        "address": "Karsy 83, 33-260 Karsy",
+        "venue": "Boisko LZS Strażak Karsy",
+        "geo": {
+          "latitude": 50.2663759,
+          "longitude": 20.7738664,
+          "name": "Karsy 83, Karsy, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "awayTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5edee8639ae2bda73c334d718f64356b",
+      "stadium": {
+        "address": "Wola Radłowska 67, 33-133 Wola Radłowska",
+        "venue": "Stadion LUKS Wola Radłowska",
+        "geo": {
+          "latitude": 50.0956213,
+          "longitude": 20.8160892,
+          "name": "Wola Radłowska 67, Wola Radłowska, powiat tarnowski, województwo małopolskie, 33-133, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LZS Luszowice"
+      },
+      "awayTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c0843af084eb51c09cfef9c66e689dfd",
+      "stadium": {
+        "address": "Tarnowska 6, 33-206 Luszowice",
+        "venue": "Stadion LZS Luszowice",
+        "geo": {
+          "latitude": 50.1475984,
+          "longitude": 21.0997789,
+          "name": "Tarnowska 6, Luszowice, powiat dąbrowski, województwo małopolskie, 33-206, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "awayTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a9d559e8b11c2d3f8151a06bcbe4bcd5",
+      "stadium": {
+        "address": "Wola Żelichowska 9, 33-260 Wola Żelichowska",
+        "venue": "Stadion Miejski w Woli Żelichowskiej",
+        "geo": {
+          "latitude": 50.2387393,
+          "longitude": 20.8195807,
+          "name": "Wola Żelichowska 9, Wola Żelichowska, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "FC Pawęzów"
+      },
+      "awayTeam": {
+        "name": "Strażak Karsy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "965e3f33c64ad5644c2be303c6a19c63",
+      "stadium": {
+        "address": "Pawęzów 66, 33-103 Pawęzów",
+        "venue": "Stadion FC Pawęzów",
+        "geo": {
+          "latitude": 50.0716519,
+          "longitude": 20.9904002,
+          "name": "Stadion Pawęzów, Pawęzów, powiat tarnowski, województwo małopolskie, 33-103, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Unia Niedomice"
+      },
+      "awayTeam": {
+        "name": "Ava Grądy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a06322bca1d9021c79a74eb7b9ba17cc",
+      "stadium": {
+        "address": "Szkolna 1, 33-132 Niedomice",
+        "venue": "Stadion ŚKS Unia Niedomice",
+        "geo": {
+          "latitude": 50.1045527,
+          "longitude": 20.8935834,
+          "name": "Szkolna 1, Niedomice, powiat tarnowski, województwo małopolskie, 33-132, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "awayTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c511e80a2a236da5f5240f70752ae1fb",
+      "stadium": {
+        "address": "Świętego Jana 1, 33-240 Żabno",
+        "venue": "Stadion Miejski w Żabnie",
+        "geo": {
+          "latitude": 50.1332885,
+          "longitude": 20.8807541,
+          "name": "Świętego Jana 1, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "awayTeam": {
+        "name": "Dunajec Konary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "369bf61d2b52c31156f4ef9cdd439f1e",
+      "stadium": {
+        "address": "Brzezówka, 33-230 Brzezówka",
+        "venue": "Boisko LKS Brzoza Brzezówka",
+        "geo": {
+          "latitude": 50.2538224,
+          "longitude": 21.1035784,
+          "name": "LKS Brzoza Brzezówka, Brzezówka, powiat dąbrowski, województwo małopolskie, 33-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "awayTeam": {
+        "name": "LKS Niwka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "df0699a207734bbb97a9fa1120fc322d",
+      "stadium": {
+        "address": "Sportowa 4, 33-200 Dąbrowa Tarnowska",
+        "venue": "Stadion MLKS Dąbrovia",
+        "geo": {
+          "latitude": 50.1689839,
+          "longitude": 20.9870833,
+          "name": "MLKS Dąbrovia, Sportowa, Dąbrowa Tarnowska, powiat dąbrowski, województwo małopolskie, 33-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LKS Niwka"
+      },
+      "awayTeam": {
+        "name": "LZS Luszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e34a33bdd77cb7c85dc5100dfa9a36b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Konary"
+      },
+      "awayTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d3d60e163485baadd83d330858e5bec8",
+      "stadium": {
+        "address": "Błonia 2, 33-240 Żabno",
+        "venue": "Boisko Dunajec Konary",
+        "geo": {
+          "latitude": 50.1328403,
+          "longitude": 20.8624367,
+          "name": "Błonia 2, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "awayTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "85725d1c7ccc140a38b59b52d396ff81",
+      "stadium": {
+        "address": "Łukowa 83a, 33-140 Łukowa",
+        "venue": "Stadion KS Łukovia",
+        "geo": {
+          "latitude": 50.0932838,
+          "longitude": 20.972258,
+          "name": "Łukowa 83a, Łukowa, powiat tarnowski, województwo małopolskie, 33-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Ava Grądy"
+      },
+      "awayTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f7c740374b1d033af0a35dfdb791b8e1",
+      "stadium": {
+        "address": "Grądy 88, 33-221 Grądy",
+        "venue": "Boisko piłkarskie Grądy",
+        "geo": {
+          "latitude": 50.2636718,
+          "longitude": 20.9176313,
+          "name": "Grądy 99, Grądy, powiat dąbrowski, województwo małopolskie, 33-221, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Strażak Karsy"
+      },
+      "awayTeam": {
+        "name": "Unia Niedomice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a9fdf81a25ad42b8097dc5ad0ce16e52",
+      "stadium": {
+        "address": "Karsy 83, 33-260 Karsy",
+        "venue": "Boisko LZS Strażak Karsy",
+        "geo": {
+          "latitude": 50.2663759,
+          "longitude": 20.7738664,
+          "name": "Karsy 83, Karsy, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "awayTeam": {
+        "name": "FC Pawęzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "23274d7c5e9696a0b98a4941a435a0d6",
+      "stadium": {
+        "address": "Wola Radłowska 67, 33-133 Wola Radłowska",
+        "venue": "Stadion LUKS Wola Radłowska",
+        "geo": {
+          "latitude": 50.0956213,
+          "longitude": 20.8160892,
+          "name": "Wola Radłowska 67, Wola Radłowska, powiat tarnowski, województwo małopolskie, 33-133, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "awayTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "682b4801c9ecd08d45502beb9f5b685a",
+      "stadium": {
+        "address": "Jagiellońska 11, 33-207 Radgoszcz",
+        "venue": "Stadion RKS Radgoszcz",
+        "geo": {
+          "latitude": 50.2036952,
+          "longitude": 21.1084449,
+          "name": "Jagiellońska 11, Radgoszcz, powiat dąbrowski, województwo małopolskie, 33-207, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LZS Luszowice"
+      },
+      "awayTeam": {
+        "name": "FC Pawęzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a8f27bcd1d9a63c012b1ed9bcaa85777",
+      "stadium": {
+        "address": "Tarnowska 6, 33-206 Luszowice",
+        "venue": "Stadion LZS Luszowice",
+        "geo": {
+          "latitude": 50.1475984,
+          "longitude": 21.0997789,
+          "name": "Tarnowska 6, Luszowice, powiat dąbrowski, województwo małopolskie, 33-206, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Unia Niedomice"
+      },
+      "awayTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9ada348fc8c3f3caa6bfe20ef8e7fa65",
+      "stadium": {
+        "address": "Szkolna 1, 33-132 Niedomice",
+        "venue": "Stadion ŚKS Unia Niedomice",
+        "geo": {
+          "latitude": 50.1045527,
+          "longitude": 20.8935834,
+          "name": "Szkolna 1, Niedomice, powiat tarnowski, województwo małopolskie, 33-132, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "awayTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8a0c9948d752df4ec92870b28dd65c61",
+      "stadium": {
+        "address": "Świętego Jana 1, 33-240 Żabno",
+        "venue": "Stadion Miejski w Żabnie",
+        "geo": {
+          "latitude": 50.1332885,
+          "longitude": 20.8807541,
+          "name": "Świętego Jana 1, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "awayTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6405d8a60d76736a42239a2cc9174052",
+      "stadium": {
+        "address": "Brzezówka, 33-230 Brzezówka",
+        "venue": "Boisko LKS Brzoza Brzezówka",
+        "geo": {
+          "latitude": 50.2538224,
+          "longitude": 21.1035784,
+          "name": "LKS Brzoza Brzezówka, Brzezówka, powiat dąbrowski, województwo małopolskie, 33-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "awayTeam": {
+        "name": "Strażak Karsy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b0ee51bbb56b2f876375445342ad6f8b",
+      "stadium": {
+        "address": "Sportowa 4, 33-200 Dąbrowa Tarnowska",
+        "venue": "Stadion MLKS Dąbrovia",
+        "geo": {
+          "latitude": 50.1689839,
+          "longitude": 20.9870833,
+          "name": "MLKS Dąbrovia, Sportowa, Dąbrowa Tarnowska, powiat dąbrowski, województwo małopolskie, 33-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LKS Niwka"
+      },
+      "awayTeam": {
+        "name": "Ava Grądy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3d10ac9a9ffa819f2eff5b693aff5e24",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Konary"
+      },
+      "awayTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "cb31bb8656148b436a3f256c5b10c3e6",
+      "stadium": {
+        "address": "Błonia 2, 33-240 Żabno",
+        "venue": "Boisko Dunajec Konary",
+        "geo": {
+          "latitude": 50.1328403,
+          "longitude": 20.8624367,
+          "name": "Błonia 2, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LZS Luszowice"
+      },
+      "awayTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "35d76f0aa07b41463ba06d5ba3b70604",
+      "stadium": {
+        "address": "Tarnowska 6, 33-206 Luszowice",
+        "venue": "Stadion LZS Luszowice",
+        "geo": {
+          "latitude": 50.1475984,
+          "longitude": 21.0997789,
+          "name": "Tarnowska 6, Luszowice, powiat dąbrowski, województwo małopolskie, 33-206, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "FC Pawęzów"
+      },
+      "awayTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2c75364f2b7f82b51fd48f96f1a910c1",
+      "stadium": {
+        "address": "Pawęzów 66, 33-103 Pawęzów",
+        "venue": "Stadion FC Pawęzów",
+        "geo": {
+          "latitude": 50.0716519,
+          "longitude": 20.9904002,
+          "name": "Stadion Pawęzów, Pawęzów, powiat tarnowski, województwo małopolskie, 33-103, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Unia Niedomice"
+      },
+      "awayTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ed3c4fc21ccea1cc9d083a2338f2a89c",
+      "stadium": {
+        "address": "Szkolna 1, 33-132 Niedomice",
+        "venue": "Stadion ŚKS Unia Niedomice",
+        "geo": {
+          "latitude": 50.1045527,
+          "longitude": 20.8935834,
+          "name": "Szkolna 1, Niedomice, powiat tarnowski, województwo małopolskie, 33-132, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "awayTeam": {
+        "name": "Strażak Karsy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e5de9bcc0ce35d09bd9671a4317df45a",
+      "stadium": {
+        "address": "Świętego Jana 1, 33-240 Żabno",
+        "venue": "Stadion Miejski w Żabnie",
+        "geo": {
+          "latitude": 50.1332885,
+          "longitude": 20.8807541,
+          "name": "Świętego Jana 1, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "awayTeam": {
+        "name": "Ava Grądy"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "30e39c1375ca5b26812fa33b5862fbc6",
+      "stadium": {
+        "address": "Brzezówka, 33-230 Brzezówka",
+        "venue": "Boisko LKS Brzoza Brzezówka",
+        "geo": {
+          "latitude": 50.2538224,
+          "longitude": 21.1035784,
+          "name": "LKS Brzoza Brzezówka, Brzezówka, powiat dąbrowski, województwo małopolskie, 33-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "awayTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "74f3c418c9ad9754286bf04704eed76a",
+      "stadium": {
+        "address": "Sportowa 4, 33-200 Dąbrowa Tarnowska",
+        "venue": "Stadion MLKS Dąbrovia",
+        "geo": {
+          "latitude": 50.1689839,
+          "longitude": 20.9870833,
+          "name": "MLKS Dąbrovia, Sportowa, Dąbrowa Tarnowska, powiat dąbrowski, województwo małopolskie, 33-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LKS Niwka"
+      },
+      "awayTeam": {
+        "name": "Dunajec Konary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "50976548cfee2c332822a0cd920b7d2a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Konary"
+      },
+      "awayTeam": {
+        "name": "LZS Luszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d4631ee3c5f732c1b8671dcfdef34600",
+      "stadium": {
+        "address": "Błonia 2, 33-240 Żabno",
+        "venue": "Boisko Dunajec Konary",
+        "geo": {
+          "latitude": 50.1328403,
+          "longitude": 20.8624367,
+          "name": "Błonia 2, Żabno, powiat tarnowski, województwo małopolskie, 33-240, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "awayTeam": {
+        "name": "LKS Niwka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c2cd9309e8d338b71430d38d40cf92aa",
+      "stadium": {
+        "address": "Łukowa 83a, 33-140 Łukowa",
+        "venue": "Stadion KS Łukovia",
+        "geo": {
+          "latitude": 50.0932838,
+          "longitude": 20.972258,
+          "name": "Łukowa 83a, Łukowa, powiat tarnowski, województwo małopolskie, 33-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Ava Grądy"
+      },
+      "awayTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7354709ecc52a6e834acf176a4cc51ce",
+      "stadium": {
+        "address": "Grądy 88, 33-221 Grądy",
+        "venue": "Boisko piłkarskie Grądy",
+        "geo": {
+          "latitude": 50.2636718,
+          "longitude": 20.9176313,
+          "name": "Grądy 99, Grądy, powiat dąbrowski, województwo małopolskie, 33-221, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Strażak Karsy"
+      },
+      "awayTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4eb17fb8ede6e4383de5eb314748afc2",
+      "stadium": {
+        "address": "Karsy 83, 33-260 Karsy",
+        "venue": "Boisko LZS Strażak Karsy",
+        "geo": {
+          "latitude": 50.2663759,
+          "longitude": 20.7738664,
+          "name": "Karsy 83, Karsy, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "awayTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8738f2ff3c630a53c31c02281ce04ae9",
+      "stadium": {
+        "address": "Wola Radłowska 67, 33-133 Wola Radłowska",
+        "venue": "Stadion LUKS Wola Radłowska",
+        "geo": {
+          "latitude": 50.0956213,
+          "longitude": 20.8160892,
+          "name": "Wola Radłowska 67, Wola Radłowska, powiat tarnowski, województwo małopolskie, 33-133, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "awayTeam": {
+        "name": "Unia Niedomice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b12ced3da9c14b1f946afbf6d64ea507",
+      "stadium": {
+        "address": "Jagiellońska 11, 33-207 Radgoszcz",
+        "venue": "Stadion RKS Radgoszcz",
+        "geo": {
+          "latitude": 50.2036952,
+          "longitude": 21.1084449,
+          "name": "Jagiellońska 11, Radgoszcz, powiat dąbrowski, województwo małopolskie, 33-207, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "awayTeam": {
+        "name": "FC Pawęzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "cb0e1abb15aea27f9a0ef821f99c6154",
+      "stadium": {
+        "address": "Wola Żelichowska 9, 33-260 Wola Żelichowska",
+        "venue": "Stadion Miejski w Woli Żelichowskiej",
+        "geo": {
+          "latitude": 50.2387393,
+          "longitude": 20.8195807,
+          "name": "Wola Żelichowska 9, Wola Żelichowska, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Łukovia Łukowa"
+      },
+      "awayTeam": {
+        "name": "LZS Luszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2d74ddf7899a445771594248217ce2cf",
+      "stadium": {
+        "address": "Łukowa 83a, 33-140 Łukowa",
+        "venue": "Stadion KS Łukovia",
+        "geo": {
+          "latitude": 50.0932838,
+          "longitude": 20.972258,
+          "name": "Łukowa 83a, Łukowa, powiat tarnowski, województwo małopolskie, 33-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Ava Grądy"
+      },
+      "awayTeam": {
+        "name": "Dunajec Konary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "152ba377783b4692d57cfec4458fd037",
+      "stadium": {
+        "address": "Grądy 88, 33-221 Grądy",
+        "venue": "Boisko piłkarskie Grądy",
+        "geo": {
+          "latitude": 50.2636718,
+          "longitude": 20.9176313,
+          "name": "Grądy 99, Grądy, powiat dąbrowski, województwo małopolskie, 33-221, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Strażak Karsy"
+      },
+      "awayTeam": {
+        "name": "LKS Niwka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a8797cd2e274585d5545fb775b58f8b9",
+      "stadium": {
+        "address": "Karsy 83, 33-260 Karsy",
+        "venue": "Boisko LZS Strażak Karsy",
+        "geo": {
+          "latitude": 50.2663759,
+          "longitude": 20.7738664,
+          "name": "Karsy 83, Karsy, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "awayTeam": {
+        "name": "Dąbrovia II Dąbrowa Tarnowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ecbc3d201258dab2488e169714a1fd8e",
+      "stadium": {
+        "address": "Wola Radłowska 67, 33-133 Wola Radłowska",
+        "venue": "Stadion LUKS Wola Radłowska",
+        "geo": {
+          "latitude": 50.0956213,
+          "longitude": 20.8160892,
+          "name": "Wola Radłowska 67, Wola Radłowska, powiat tarnowski, województwo małopolskie, 33-133, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Spartakus Radgoszcz"
+      },
+      "awayTeam": {
+        "name": "Brzoza Brzezówka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "13df33d9b1129e975fba293a4c2461d9",
+      "stadium": {
+        "address": "Jagiellońska 11, 33-207 Radgoszcz",
+        "venue": "Stadion RKS Radgoszcz",
+        "geo": {
+          "latitude": 50.2036952,
+          "longitude": 21.1084449,
+          "name": "Jagiellońska 11, Radgoszcz, powiat dąbrowski, województwo małopolskie, 33-207, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "Wolania Wola Żelichowska"
+      },
+      "awayTeam": {
+        "name": "MLKS II Żabno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2e768b1b4ee15e610f47e82f60a87d91",
+      "stadium": {
+        "address": "Wola Żelichowska 9, 33-260 Wola Żelichowska",
+        "venue": "Stadion Miejski w Woli Żelichowskiej",
+        "geo": {
+          "latitude": 50.2387393,
+          "longitude": 20.8195807,
+          "name": "Wola Żelichowska 9, Wola Żelichowska, powiat dąbrowski, województwo małopolskie, 33-260, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "FC Pawęzów"
+      },
+      "awayTeam": {
+        "name": "Unia Niedomice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a2937d8718121cf8b007a75dd4327a9c",
+      "stadium": {
+        "address": "Pawęzów 66, 33-103 Pawęzów",
+        "venue": "Stadion FC Pawęzów",
+        "geo": {
+          "latitude": 50.0716519,
+          "longitude": 20.9904002,
+          "name": "Stadion Pawęzów, Pawęzów, powiat tarnowski, województwo małopolskie, 33-103, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zabno)"
+      },
+      "homeTeam": {
+        "name": "LUKS Wola Radłowska"
+      },
+      "awayTeam": {
+        "name": "Dunajec Konary"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-11T12:00:00.000Z"
       },
       "date": {
         "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "dateTime": "2026-11-11T12:00:00.000Z"
       },
       "id": "5253d334126ff82a851a232fef48272c",
-      "stadium": null
+      "stadium": {
+        "address": "Wola Radłowska 67, 33-133 Wola Radłowska",
+        "venue": "Stadion LUKS Wola Radłowska",
+        "geo": {
+          "latitude": 50.0956213,
+          "longitude": 20.8160892,
+          "name": "Wola Radłowska 67, Wola Radłowska, powiat tarnowski, województwo małopolskie, 33-133, Polska"
+        }
+      }
     }
   ]
 }
