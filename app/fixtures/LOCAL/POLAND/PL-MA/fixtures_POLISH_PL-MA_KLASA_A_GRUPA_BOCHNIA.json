@@ -1,60 +1,24 @@
 {
   "competitionName": "Klasa A (Bochnia)",
-  "count": 7,
+  "count": 12,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "LKS Trzciana 2000",
-        "crest": null
+        "name": "Zryw Królówka"
       },
       "awayTeam": {
-        "name": "Górnik Siedlec",
-        "crest": null
+        "name": "Błękitni Krzeczów"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "d38b0bfd1eeb14e64cc25f5dfb96c32f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Ceramika Muchówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód Sobolów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "4c6e08245675d82b657921cc8599b144",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Zryw Królówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Błękitni Krzeczów",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T11:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+        "dateTime": "2026-09-06T11:00:00.000Z"
       },
       "id": "630ee6ca0b22a7985f3ff3c36ca89e48",
       "stadium": null
@@ -64,54 +28,76 @@
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "KR Jodłówka",
-        "crest": null
+        "name": "KR Jodłówka"
       },
       "awayTeam": {
-        "name": "Nieszkowianka Nieszkowice Małe",
-        "crest": null
+        "name": "Nieszkowianka Nieszkowice Małe"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T11:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+        "dateTime": "2026-09-06T11:00:00.000Z"
       },
       "id": "e6e7a9015b23621c7c89f108c51c8add",
-      "stadium": null
+      "stadium": {
+        "address": "Jodłówka 21, 32-765 Rzezawa",
+        "venue": "Boisko KR Jodłówka",
+        "geo": {
+          "latitude": 49.9894101,
+          "longitude": 20.5390459,
+          "name": "Jodłówka 274, Jodłówka, powiat bocheński, województwo małopolskie, 32-765, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "Raba Książnice",
-        "crest": null
+        "name": "Raba Książnice"
       },
       "awayTeam": {
-        "name": "Polanka Nieszkowice Wielkie",
-        "crest": null
+        "name": "Polanka Nieszkowice Wielkie"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T11:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+        "dateTime": "2026-09-06T11:00:00.000Z"
       },
       "id": "ff401ce4db0dc2e3368eb85786fe130a",
-      "stadium": null
+      "stadium": {
+        "address": "Książnice 213, 32-420 Książnice",
+        "venue": "Boisko LKS Raba Książnice",
+        "geo": {
+          "latitude": 49.9528443,
+          "longitude": 20.3072872,
+          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "Novi/Rzezawianka Rzezawa",
-        "crest": null
+        "name": "Novi/Rzezawianka Rzezawa"
       },
       "awayTeam": {
-        "name": "Macierz Lipnica Murowana",
-        "crest": null
+        "name": "Macierz Lipnica Murowana"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "id": "e62c9f72ac873c24dd8bd8859467fbb6",
       "stadium": null
@@ -121,19 +107,232 @@
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
-        "name": "GKS Drwinia",
-        "crest": null
+        "name": "GKS Drwinia"
       },
       "awayTeam": {
-        "name": "Husaria Łapczyca",
-        "crest": null
+        "name": "Husaria Łapczyca"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "id": "9fb43bdd64b9b883ecb60b58947d8baa",
-      "stadium": null
+      "stadium": {
+        "address": "Grobla 146, 32-709 Drwinia",
+        "venue": "Stadion Gminny w Drwini",
+        "geo": {
+          "latitude": 50.1289322,
+          "longitude": 20.4430783,
+          "name": "Grobla 226, Grobla, gmina Drwinia, powiat bocheński, województwo małopolskie, 32-708, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Górnik Siedlec"
+      },
+      "awayTeam": {
+        "name": "Zryw Królówka"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "86609f933b936f951d861a612b7f5079",
+      "stadium": {
+        "address": "Siedlec, 32-744 Łapczyca",
+        "venue": "Stadion KS Górnik Siedlec",
+        "geo": {
+          "latitude": 49.9592242,
+          "longitude": 20.3236879,
+          "name": "LKS Górnik Siedlec, Siedlecka, Anielskie Kąty, Siedlec, gmina Bochnia, powiat bocheński, województwo małopolskie, 32-015, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Sobolów"
+      },
+      "awayTeam": {
+        "name": "Novi/Rzezawianka Rzezawa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "b715206b8d322eed4616f1ed3844ab43",
+      "stadium": {
+        "address": "Sobolów 156, 32-742 Sobolów",
+        "venue": "Boisko LKS Naprzód Sobolów",
+        "geo": {
+          "latitude": 49.9043382,
+          "longitude": 20.3254385,
+          "name": "LKS Naprzód Sobolów, Sobolów, gmina Łapanów, powiat bocheński, województwo małopolskie, 32-742, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Husaria Łapczyca"
+      },
+      "awayTeam": {
+        "name": "LKS Trzciana 2000"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "eb6b3d3fc064cee882a437ab868a65e3",
+      "stadium": {
+        "address": "Moszczenica, 32-744 Moszczenica",
+        "venue": "Stadion KS Husarii Łapczyca",
+        "geo": {
+          "latitude": 49.9704691,
+          "longitude": 20.3396234,
+          "name": "Stadion KS Husarii Łapczyca, Siedlec, gmina Bochnia, powiat bocheński, województwo małopolskie, 32-744, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Nieszkowianka Nieszkowice Małe"
+      },
+      "awayTeam": {
+        "name": "Raba Książnice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "d884fb9a1fd1c3543b5f6ec1c3f1daf7",
+      "stadium": {
+        "address": "Nieszkowice Małe 85, 32-744 Nieszkowice Małe",
+        "venue": "Boisko KS Nieszkowianka",
+        "geo": {
+          "latitude": 49.9353726,
+          "longitude": 20.3174894,
+          "name": "Nieszkowice Małe 85, Nieszkowice Małe, powiat bocheński, województwo małopolskie, 32-744, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Polanka Nieszkowice Wielkie"
+      },
+      "awayTeam": {
+        "name": "Ceramika Muchówka"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "id": "8dfdb775d531be22b70859ac3cb84d22",
+      "stadium": {
+        "address": "Nieszkowice Wielkie 34, 32-700 Bochnia",
+        "venue": "Boisko LZS Polanka",
+        "geo": {
+          "latitude": 49.9073568,
+          "longitude": 20.4078583,
+          "name": "Nieszkowice Wielkie 35, Nieszkowice Wielkie, powiat bocheński, województwo małopolskie, 32-700, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Macierz Lipnica Murowana"
+      },
+      "awayTeam": {
+        "name": "GKS Drwinia"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "01ef0bea7428faf84b9fb7b2a5f05c1f",
+      "stadium": {
+        "address": "Lipnica Dolna 276, 32-724 Lipnica Murowana",
+        "venue": "Stadion LZS Macierz",
+        "geo": {
+          "latitude": 49.8607031,
+          "longitude": 20.5354368,
+          "name": "Boisko, Lipnica Dolna, powiat bocheński, województwo małopolskie, 32-724, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Krzeczów"
+      },
+      "awayTeam": {
+        "name": "KR Jodłówka"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "06804923851a38d57a169c1bdd64d33f",
+      "stadium": {
+        "address": "Krzeczów 179, 32-700 Bochnia",
+        "venue": "Boisko LZS Błękitni Krzeczów",
+        "geo": {
+          "latitude": 49.9877196,
+          "longitude": 20.4712388,
+          "name": "Sportowa 32, Krzeczów, gmina Rzezawa, powiat bocheński, województwo małopolskie, 32-700, Polska"
+        }
+      }
     }
   ]
 }
