@@ -1,87 +1,24 @@
 {
   "competitionName": "Klasa B (Krakow II)",
-  "count": 5,
+  "count": 52,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Krakow II)"
       },
       "homeTeam": {
-        "name": "Maszycanka Maszyce",
-        "crest": null
+        "name": "Bronowicki KS Kraków"
       },
       "awayTeam": {
-        "name": "Błękitni Czułówek",
-        "crest": null
+        "name": "Niegoszowianka Niegoszowice"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
-      },
-      "id": "2bd8baebd84fe666571ed439edd38b59",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Tonianka Tonie (Kraków)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisła Jeziorzany",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:30:00.000Z"
-      },
-      "id": "409454fc37080ed9679c703d96c6d169",
-      "stadium": {
-        "address": "Skotnica, Kraków (Tonie)",
-        "venue": "LKS Tonianka",
-        "geo": {
-          "latitude": 50.1022466,
-          "longitude": 19.9003654,
-          "name": "LKS Tonianka, Skotnica, Tonie, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Górzanka Nawojowa Góra",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Topór Aleksandrowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "4b36d9bbf704d1eb222ea2dc0b78a4fc",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Bronowicki KS Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Niegoszowianka Niegoszowice",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+        "dateTime": "2026-09-06T14:30:00.000Z"
       },
       "id": "6d5971747e39344ed4bd57c2a692c911",
       "stadium": {
@@ -99,18 +36,1208 @@
         "name": "Klasa B (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Czułów",
-        "crest": null
+        "name": "Iskra Czułów"
       },
       "awayTeam": {
-        "name": "Płomień Cholerzyn",
-        "crest": null
+        "name": "Płomień Cholerzyn"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "id": "cc9d73a23bdea78c384c7e3ba0add8cc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "awayTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "id": "c1295914a6c9bdb3e17305ccf3d75aeb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "awayTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "caefdd76ad78f9ebfeed83aa19d64dd0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "awayTeam": {
+        "name": "Iskra Czułów"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "f0b7c1764a0cbf21da6263e3a4f5a808",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "awayTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
+      },
+      "id": "740ad7cdb0174ad1408a503e6f67831c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "awayTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T10:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:30:00.000Z"
+      },
+      "id": "93214ecd73be7bd649c932bf17dec42b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "awayTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "58fdedd5da15561407838dd6a46fbf09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "awayTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "61f70b9a84b1aac02aa6b24b87481f8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "04b501494cf937e1c91dde8740eecc70",
+      "stadium": {
+        "address": "Jasnogórska, Kraków (Tonie)",
+        "venue": "KS Bronowicki Kraków",
+        "geo": {
+          "latitude": 50.1065962,
+          "longitude": 19.8839241,
+          "name": "KS Bronowicki Kraków, Jasnogórska, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Czułów"
+      },
+      "awayTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0db175723bfb627de2151ea489b86bd5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "awayTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "eaec7abc989f682ec6d5adf5488e3a29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "awayTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "775115ee17c268374527f045f27dd344",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "awayTeam": {
+        "name": "Iskra Czułów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "856d0cec468586160305923ac0c279e7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "awayTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f0e6d339ba4073be60baf4094ff52e48",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "awayTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "bfd10b00a8cbd09e6186187e32c3a5c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "awayTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "311e7a1dff125905998d92828d25e71d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "20e6d3cc92cc6eb95f543ad7f5222c6f",
+      "stadium": {
+        "address": "Skotnica, Kraków (Tonie)",
+        "venue": "LKS Tonianka",
+        "geo": {
+          "latitude": 50.1022466,
+          "longitude": 19.9003654,
+          "name": "LKS Tonianka, Skotnica, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "awayTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7992a792fb7d58e91977042e11259b0b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Czułów"
+      },
+      "awayTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c062d2aba0496276f8a898c145258968",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "awayTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a2ecce96ef8450be7dd54c47053e3d8e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "awayTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1b323cda32c730554c68ac93ecb6238b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "awayTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "377847b5787970ef4d7835c928ba4498",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "awayTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7cc47f5e704ab202e14ef9d6f5b84e8d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "awayTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ced7b52f83ac200a874cc85dffb741a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "awayTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ea5824b5f8ded7fd445761ba800a0b12",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "awayTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "97206d803994dac46ee23751f3aa61c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "316eb57ab6c1692fdfa8b2ab5eeabc71",
+      "stadium": {
+        "address": "Jasnogórska, Kraków (Tonie)",
+        "venue": "KS Bronowicki Kraków",
+        "geo": {
+          "latitude": 50.1065962,
+          "longitude": 19.8839241,
+          "name": "KS Bronowicki Kraków, Jasnogórska, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Czułów"
+      },
+      "awayTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "76a90649b7746ef71c6e88522400d029",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "awayTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7dea7ac89a2e0bf8dd51a173884b39c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "awayTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5867e260928caaa374bf54ce5e5c954a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "awayTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "32a07cdcdcdb46da94c98d10e0f42b2c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "awayTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "60c1552898f0ab64bfcd84f7afd9bb72",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8c61378c95df8c1c01fe4df1c9746411",
+      "stadium": {
+        "address": "Jasnogórska, Kraków (Tonie)",
+        "venue": "KS Bronowicki Kraków",
+        "geo": {
+          "latitude": 50.1065962,
+          "longitude": 19.8839241,
+          "name": "KS Bronowicki Kraków, Jasnogórska, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Czułów"
+      },
+      "awayTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "12c7751474c062f0340924ef54554cc7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "awayTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6031a66091277c0fa78e1e6d1305a81b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "awayTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "00feb1d7f15d236ea4f32d88fc1c4645",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Topór Aleksandrowice"
+      },
+      "awayTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9ebc16451ee8859b8812239088459d71",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "awayTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "121cfb9f41103933a2c0973f2a4f8068",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "awayTeam": {
+        "name": "Iskra Czułów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "5562a75189e4a2f1d66a266065ac31ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "awayTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6d9959374d6a60eb5cf361418f38552d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bd910a6ba6311bad734bd8ed25721fe3",
+      "stadium": {
+        "address": "Skotnica, Kraków (Tonie)",
+        "venue": "LKS Tonianka",
+        "geo": {
+          "latitude": 50.1022466,
+          "longitude": 19.9003654,
+          "name": "LKS Tonianka, Skotnica, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "awayTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "43586e9e78ecbd905007d894c38d77ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "awayTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c3f1eb9665f42a3d775e480de920cb70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "awayTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "207b69080c31706b349696ac9e6289e5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Iskra Czułów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6c933f0d3cc83bc35d39813a93a5cc2f",
+      "stadium": {
+        "address": "Skotnica, Kraków (Tonie)",
+        "venue": "LKS Tonianka",
+        "geo": {
+          "latitude": 50.1022466,
+          "longitude": 19.9003654,
+          "name": "LKS Tonianka, Skotnica, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "awayTeam": {
+        "name": "Bronowicki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "47f4d2fa3e8e4ff9eba7c269a2219790",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Czułów"
+      },
+      "awayTeam": {
+        "name": "Maszycanka Maszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "63995b0a7ba8ec322cf5c0fd4c9d2d3f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Cholerzyn"
+      },
+      "awayTeam": {
+        "name": "Tonianka Tonie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "453983455c3842163466a0f81223e530",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Niegoszowianka Niegoszowice"
+      },
+      "awayTeam": {
+        "name": "Górzanka Nawojowa Góra"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "02298da788c76aa57ac7681bc434852d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Czułówek"
+      },
+      "awayTeam": {
+        "name": "Piast II Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "89b10eb88d50c34413ffd9ebcd84ac1f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jeziorzany"
+      },
+      "awayTeam": {
+        "name": "Dragon Szczyglice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9b0cab660a7aa3d111c2a7b12e23774a",
       "stadium": null
     }
   ]

@@ -1,31 +1,33 @@
 {
   "competitionName": "Klasa A (Krakow III)",
-  "count": 7,
+  "count": 71,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Krakow III)"
       },
       "homeTeam": {
-        "name": "Iskra Krzęcin",
-        "crest": null
+        "name": "Prokocim Kraków"
       },
       "awayTeam": {
-        "name": "Dragoons Kraków",
-        "crest": null
+        "name": "Pychowianka Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T20:00:00.000Z"
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
-      "id": "6802187d1049144ae83c99300daaf993",
+      "id": "f78a637cc6017a827321e753f7bd39cf",
       "stadium": {
-        "address": "Krzęcin, 32-051",
-        "venue": "LKS Iskra Krzęcin",
+        "address": "Na Wrzosach 57, Kraków (park Jerzmanowskich)",
+        "venue": "Boisko w parku Jerzmanowskich",
         "geo": {
-          "latitude": 49.9440504,
-          "longitude": 19.7336784,
-          "name": "LKS Iskra Krzęcin, Krzęcin"
+          "latitude": 50.0209903,
+          "longitude": 19.9960577,
+          "name": "57, Na Wrzosach, Prokocim, Kraków"
         }
       }
     },
@@ -34,18 +36,77 @@
         "name": "Klasa A (Krakow III)"
       },
       "homeTeam": {
-        "name": "Cedronka Wola Radziszowska",
-        "crest": null
+        "name": "Trzebol Wielkie Drogi"
       },
       "awayTeam": {
-        "name": "Radziszowianka II Radziszów",
-        "crest": null
+        "name": "Skawinka Skawina"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
-      "id": "0b158a5a6223c88ffd0d3039c31e838b",
+      "id": "03d1617007521507a215d1f193f572c0",
+      "stadium": {
+        "address": "Parkowa 10, Wielkie Drogi",
+        "venue": "LKS Trzebol Wielkie Drogi",
+        "geo": {
+          "latitude": 49.9600743,
+          "longitude": 19.7045004,
+          "name": "LKS Trzebol Wielkie Drogi, Parkowa, Wielkie Drogi"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "7615cc5682607bd6d18ca81f4b6828bf",
+      "stadium": {
+        "venue": "Stadion Zwierzyniecki KS",
+        "address": "Na Błoniach 7, Kraków",
+        "geo": {
+          "latitude": 50.05727151819558,
+          "longitude": 19.90734688743269
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "awayTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "cd5c3287d1880e680d4b04a46263a0b6",
       "stadium": {
         "address": "Wola Radziszowska 6, 32-053 Wola Radziszowska",
         "venue": "PKS Cedronka",
@@ -61,25 +122,27 @@
         "name": "Klasa A (Krakow III)"
       },
       "homeTeam": {
-        "name": "Nadwiślan Kraków",
-        "crest": null
+        "name": "Tramwaj II Kraków"
       },
       "awayTeam": {
-        "name": "Tramwaj II Kraków",
-        "crest": null
+        "name": "Iskra Krzęcin"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
-      "id": "3ab60514e148ba236e322cbfe8dc773a",
+      "id": "d7fd2b7eec74b51ddd89892e8cf99f9f",
       "stadium": {
-        "address": "Józefa Dietla, Kraków (Stradom)",
-        "venue": "Klub Sportowy Nadwiślan",
+        "address": "Praska 61A, Kraków",
+        "venue": "TS Tramwaj Kraków",
         "geo": {
-          "latitude": 50.0510593,
-          "longitude": 19.9369778,
-          "name": "Klub Sportowy Nadwiślan, Józefa Dietla, Stradom, Kraków"
+          "latitude": 50.0469821,
+          "longitude": 19.9082296,
+          "name": "KS Tramwaj, Praska, Kraków"
         }
       }
     },
@@ -88,25 +151,27 @@
         "name": "Klasa A (Krakow III)"
       },
       "homeTeam": {
-        "name": "Skawinka Skawina",
-        "crest": null
+        "name": "Pychowianka Kraków"
       },
       "awayTeam": {
-        "name": "Bratniak Kraków",
-        "crest": "https://crests.football-data.org/11289.png"
+        "name": "Bieżanowianka Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T18:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:30:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T18:00:00.000Z"
       },
-      "id": "0c195d8daba281f931be524eab8b7c2e",
+      "id": "482d815ab148c9a3ad5f5401d73f9e07",
       "stadium": {
-        "address": "Adama Mickiewicza 52, Skawina",
-        "venue": "Stadion Miejski w Skawinie",
+        "address": null,
+        "venue": "Uczelniane Centrum Sportowo - Rekreacyjne UJ",
         "geo": {
-          "latitude": 49.9763351,
-          "longitude": 19.8123928,
-          "name": "Stadion Miejski w Skawinie, Adama Mickiewicza, Skawina"
+          "latitude": 50.029104908245394,
+          "longitude": 19.901828030460408,
+          "name": null
         }
       }
     },
@@ -115,18 +180,111 @@
         "name": "Klasa A (Krakow III)"
       },
       "homeTeam": {
-        "name": "Bieżanowianka Kraków",
-        "crest": null
+        "name": "Radziszowianka II Radziszów"
       },
       "awayTeam": {
-        "name": "Zwierzyniecki KS Kraków",
-        "crest": null
+        "name": "Dragoons Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
-      "id": "3ba5f256900638bfbf2f9bf040a8c781",
+      "id": "ef170b12e3e67f8cff7ed74243337e0a",
+      "stadium": {
+        "address": "Skawińska, Radziszów",
+        "venue": "LKS Radziszowianka",
+        "geo": {
+          "latitude": 49.9464965,
+          "longitude": 19.8097761,
+          "name": "LKS Radziszowianka, Skawińska, Radziszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "awayTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "89b52666166cfe4264f023cb1e7cf5ee",
+      "stadium": {
+        "address": "Jana Woronicza, Kraków",
+        "venue": "Stadion Miejski KS Prądniczanka",
+        "geo": {
+          "latitude": 50.0875257,
+          "longitude": 19.9583497,
+          "name": "Stadion Miejski KS Prądniczanka im. Władysława Kawuli, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "awayTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "fa767c74646ccfc78e4834f83bfdc7d7",
+      "stadium": {
+        "address": "Na Wrzosach 57, Kraków (park Jerzmanowskich)",
+        "venue": "Boisko w parku Jerzmanowskich",
+        "geo": {
+          "latitude": 50.0209903,
+          "longitude": 19.9960577,
+          "name": "57, Na Wrzosach, Prokocim, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "378deae436540a6e3285c0e6176dfe86",
       "stadium": {
         "address": "Wojciecha Lipowskiego 5, Kraków (Bieżanów)",
         "venue": "Klub Sportowy Bieżanowianka",
@@ -142,18 +300,22 @@
         "name": "Klasa A (Krakow III)"
       },
       "homeTeam": {
-        "name": "Dąbski KS Kraków",
-        "crest": null
+        "name": "Dąbski KS Kraków"
       },
       "awayTeam": {
-        "name": "Trzebol Wielkie Drogi",
-        "crest": null
+        "name": "Pychowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "c1d750f319ee987434f263e269becede",
+      "id": "f130de30ef3afc1b2f330acd6b17aac7",
       "stadium": {
         "address": "Dąbska, Kraków (Dąbie)",
         "venue": "Klub Sportowy Dąbski",
@@ -169,18 +331,331 @@
         "name": "Klasa A (Krakow III)"
       },
       "homeTeam": {
-        "name": "Prokocim Kraków",
-        "crest": null
+        "name": "Skawinka Skawina"
       },
       "awayTeam": {
-        "name": "Pychowianka Kraków",
-        "crest": "https://historiawisly.pl/wiki/images/4/40/Pychowianka_herb.jpg"
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "f78a637cc6017a827321e753f7bd39cf",
+      "id": "fb54e06f80f8e5d14ca7c42d44edd0d1",
+      "stadium": {
+        "address": "Adama Mickiewicza 52, Skawina",
+        "venue": "Stadion Miejski w Skawinie",
+        "geo": {
+          "latitude": 49.9763351,
+          "longitude": 19.8123928,
+          "name": "Stadion Miejski w Skawinie, Adama Mickiewicza, Skawina"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "awayTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d76b8323c2068e6ddedfff235591b33a",
+      "stadium": {
+        "address": "Józefa Dietla, Kraków (Stradom)",
+        "venue": "Klub Sportowy Nadwiślan",
+        "geo": {
+          "latitude": 50.0510593,
+          "longitude": 19.9369778,
+          "name": "Klub Sportowy Nadwiślan, Józefa Dietla, Stradom, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "awayTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "909eda96728a69852ce44b01107ef3b9",
+      "stadium": {
+        "address": "Krzęcin, 32-051",
+        "venue": "LKS Iskra Krzęcin",
+        "geo": {
+          "latitude": 49.9440504,
+          "longitude": 19.7336784,
+          "name": "LKS Iskra Krzęcin, Krzęcin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "awayTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8072539feae3f977a7517a9ff7c31c29",
+      "stadium": {
+        "address": "Gronostajowa 12, Kraków",
+        "venue": "Uczelniane Centrum Sportowo-Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.0295063,
+          "longitude": 19.9021324,
+          "name": "Uczelniane Centrum Sportowo-Rekreacyjne UJ, Gronostajowa, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "awayTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3acb67297bb4a92617edc71b2441fb87",
+      "stadium": {
+        "address": "Skawińska, Radziszów",
+        "venue": "LKS Radziszowianka",
+        "geo": {
+          "latitude": 49.9464965,
+          "longitude": 19.8097761,
+          "name": "LKS Radziszowianka, Skawińska, Radziszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "awayTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "70fe9f3495622cf3ad6a89d871389671",
+      "stadium": {
+        "address": "Jana Woronicza, Kraków",
+        "venue": "Stadion Miejski KS Prądniczanka",
+        "geo": {
+          "latitude": 50.0875257,
+          "longitude": 19.9583497,
+          "name": "Stadion Miejski KS Prądniczanka im. Władysława Kawuli, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "awayTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a651c14f5a529b1f9d195ae69f5b8e78",
+      "stadium": {
+        "address": "Parkowa 10, Wielkie Drogi",
+        "venue": "LKS Trzebol Wielkie Drogi",
+        "geo": {
+          "latitude": 49.9600743,
+          "longitude": 19.7045004,
+          "name": "LKS Trzebol Wielkie Drogi, Parkowa, Wielkie Drogi"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5b820e13efa7b4609d1a657a95a78e9d",
+      "stadium": {
+        "venue": "Stadion Zwierzyniecki KS",
+        "address": "Na Błoniach 7, Kraków",
+        "geo": {
+          "latitude": 50.05727151819558,
+          "longitude": 19.90734688743269
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f07f6e99d1b4154b1a3ebc2b7a691b14",
+      "stadium": {
+        "address": null,
+        "venue": "Uczelniane Centrum Sportowo - Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.029104908245394,
+          "longitude": 19.901828030460408,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "awayTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "634eba58b049db605deded198bd5b459",
+      "stadium": {
+        "address": "Wola Radziszowska 6, 32-053 Wola Radziszowska",
+        "venue": "PKS Cedronka",
+        "geo": {
+          "latitude": 49.9077188,
+          "longitude": 19.7888375,
+          "name": "PKS Cedronka, Szkolna, Wola Radziszowska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "awayTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "05c625588594969654495b99b634e482",
       "stadium": {
         "address": "Na Wrzosach 57, Kraków (park Jerzmanowskich)",
         "venue": "Boisko w parku Jerzmanowskich",
@@ -188,6 +663,1522 @@
           "latitude": 50.0209903,
           "longitude": 19.9960577,
           "name": "57, Na Wrzosach, Prokocim, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a6137847d36c276a23e86a5d7090974e",
+      "stadium": {
+        "address": "Wojciecha Lipowskiego 5, Kraków (Bieżanów)",
+        "venue": "Klub Sportowy Bieżanowianka",
+        "geo": {
+          "latitude": 50.0147901,
+          "longitude": 20.0381983,
+          "name": "Klub Sportowy Bieżanowianka, 5, Wojciecha Lipowskiego, Bieżanów, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e04660077df4e45c92dee30cde8c9a82",
+      "stadium": {
+        "address": "Dąbska, Kraków (Dąbie)",
+        "venue": "Klub Sportowy Dąbski",
+        "geo": {
+          "latitude": 50.0651182,
+          "longitude": 19.9800341,
+          "name": "Klub Sportowy \"Dąbski\", Dąbska, Dąbie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "awayTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d5119d8f8dbd781f7ced87965808dc0e",
+      "stadium": {
+        "address": "Adama Mickiewicza 52, Skawina",
+        "venue": "Stadion Miejski w Skawinie",
+        "geo": {
+          "latitude": 49.9763351,
+          "longitude": 19.8123928,
+          "name": "Stadion Miejski w Skawinie, Adama Mickiewicza, Skawina"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "awayTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b6dfcfecf27ef9002a9c2df2b954932f",
+      "stadium": {
+        "address": "Józefa Dietla, Kraków (Stradom)",
+        "venue": "Klub Sportowy Nadwiślan",
+        "geo": {
+          "latitude": 50.0510593,
+          "longitude": 19.9369778,
+          "name": "Klub Sportowy Nadwiślan, Józefa Dietla, Stradom, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "awayTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4946cf79c42fdedd0e5ab8f4532ac84f",
+      "stadium": {
+        "address": "Krzęcin, 32-051",
+        "venue": "LKS Iskra Krzęcin",
+        "geo": {
+          "latitude": 49.9440504,
+          "longitude": 19.7336784,
+          "name": "LKS Iskra Krzęcin, Krzęcin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "awayTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d0497526317c2d3797e5f457f652e137",
+      "stadium": {
+        "address": "Gronostajowa 12, Kraków",
+        "venue": "Uczelniane Centrum Sportowo-Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.0295063,
+          "longitude": 19.9021324,
+          "name": "Uczelniane Centrum Sportowo-Rekreacyjne UJ, Gronostajowa, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "awayTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b6ce7d138e3e00b7835e3216ec40e610",
+      "stadium": {
+        "address": "Praska 61A, Kraków",
+        "venue": "TS Tramwaj Kraków",
+        "geo": {
+          "latitude": 50.0469821,
+          "longitude": 19.9082296,
+          "name": "KS Tramwaj, Praska, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "awayTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "949e20dbe058b55d9ddf4ab6a91c0832",
+      "stadium": {
+        "address": "Skawińska, Radziszów",
+        "venue": "LKS Radziszowianka",
+        "geo": {
+          "latitude": 49.9464965,
+          "longitude": 19.8097761,
+          "name": "LKS Radziszowianka, Skawińska, Radziszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "awayTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a356fe052e0f154c0b465e87570ac6a9",
+      "stadium": {
+        "address": "Parkowa 10, Wielkie Drogi",
+        "venue": "LKS Trzebol Wielkie Drogi",
+        "geo": {
+          "latitude": 49.9600743,
+          "longitude": 19.7045004,
+          "name": "LKS Trzebol Wielkie Drogi, Parkowa, Wielkie Drogi"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9b1cce03a749bb847a6d6f899030e463",
+      "stadium": {
+        "venue": "Stadion Zwierzyniecki KS",
+        "address": "Na Błoniach 7, Kraków",
+        "geo": {
+          "latitude": 50.05727151819558,
+          "longitude": 19.90734688743269
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dfe72caebc1e7a527da74b57da98a8aa",
+      "stadium": {
+        "address": null,
+        "venue": "Uczelniane Centrum Sportowo - Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.029104908245394,
+          "longitude": 19.901828030460408,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "awayTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2764bc79ceae96a50a80912d695b6abb",
+      "stadium": {
+        "address": "Wola Radziszowska 6, 32-053 Wola Radziszowska",
+        "venue": "PKS Cedronka",
+        "geo": {
+          "latitude": 49.9077188,
+          "longitude": 19.7888375,
+          "name": "PKS Cedronka, Szkolna, Wola Radziszowska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "awayTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b5cb45a1a0851a63072475d58477eaf7",
+      "stadium": {
+        "address": "Na Wrzosach 57, Kraków (park Jerzmanowskich)",
+        "venue": "Boisko w parku Jerzmanowskich",
+        "geo": {
+          "latitude": 50.0209903,
+          "longitude": 19.9960577,
+          "name": "57, Na Wrzosach, Prokocim, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "67187332032b62a19dc718a373ec934d",
+      "stadium": {
+        "address": "Wojciecha Lipowskiego 5, Kraków (Bieżanów)",
+        "venue": "Klub Sportowy Bieżanowianka",
+        "geo": {
+          "latitude": 50.0147901,
+          "longitude": 20.0381983,
+          "name": "Klub Sportowy Bieżanowianka, 5, Wojciecha Lipowskiego, Bieżanów, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "awayTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a12be532a760c78998a006bd22536f59",
+      "stadium": {
+        "address": "Adama Mickiewicza 52, Skawina",
+        "venue": "Stadion Miejski w Skawinie",
+        "geo": {
+          "latitude": 49.9763351,
+          "longitude": 19.8123928,
+          "name": "Stadion Miejski w Skawinie, Adama Mickiewicza, Skawina"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "awayTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5c4cf12bf350ea7f65591e8cd99d735c",
+      "stadium": {
+        "address": "Józefa Dietla, Kraków (Stradom)",
+        "venue": "Klub Sportowy Nadwiślan",
+        "geo": {
+          "latitude": 50.0510593,
+          "longitude": 19.9369778,
+          "name": "Klub Sportowy Nadwiślan, Józefa Dietla, Stradom, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "awayTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "555afe9e4850facd81bb41ac170a8d64",
+      "stadium": {
+        "address": "Krzęcin, 32-051",
+        "venue": "LKS Iskra Krzęcin",
+        "geo": {
+          "latitude": 49.9440504,
+          "longitude": 19.7336784,
+          "name": "LKS Iskra Krzęcin, Krzęcin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "awayTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "804049e41e2513ac9ffff5316a247ad8",
+      "stadium": {
+        "address": "Gronostajowa 12, Kraków",
+        "venue": "Uczelniane Centrum Sportowo-Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.0295063,
+          "longitude": 19.9021324,
+          "name": "Uczelniane Centrum Sportowo-Rekreacyjne UJ, Gronostajowa, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "awayTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8a6af7ed8659b18b79bba5c4da4ca30d",
+      "stadium": {
+        "address": "Praska 61A, Kraków",
+        "venue": "TS Tramwaj Kraków",
+        "geo": {
+          "latitude": 50.0469821,
+          "longitude": 19.9082296,
+          "name": "KS Tramwaj, Praska, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "awayTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7f945e54a671da5c5c06dc7c4962f6b8",
+      "stadium": {
+        "address": "Jana Woronicza, Kraków",
+        "venue": "Stadion Miejski KS Prądniczanka",
+        "geo": {
+          "latitude": 50.0875257,
+          "longitude": 19.9583497,
+          "name": "Stadion Miejski KS Prądniczanka im. Władysława Kawuli, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "awayTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "eac5805f1c3cf177580b5ec6fb3a7219",
+      "stadium": {
+        "address": "Parkowa 10, Wielkie Drogi",
+        "venue": "LKS Trzebol Wielkie Drogi",
+        "geo": {
+          "latitude": 49.9600743,
+          "longitude": 19.7045004,
+          "name": "LKS Trzebol Wielkie Drogi, Parkowa, Wielkie Drogi"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "24fce28c44f7f43aa803a5e5e9f5c4bd",
+      "stadium": {
+        "address": "Dąbska, Kraków (Dąbie)",
+        "venue": "Klub Sportowy Dąbski",
+        "geo": {
+          "latitude": 50.0651182,
+          "longitude": 19.9800341,
+          "name": "Klub Sportowy \"Dąbski\", Dąbska, Dąbie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "awayTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5bcca814f0f84942277f70ee597e776b",
+      "stadium": {
+        "address": "Adama Mickiewicza 52, Skawina",
+        "venue": "Stadion Miejski w Skawinie",
+        "geo": {
+          "latitude": 49.9763351,
+          "longitude": 19.8123928,
+          "name": "Stadion Miejski w Skawinie, Adama Mickiewicza, Skawina"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "awayTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3c6ae4742565c5e145cae270ae2c985a",
+      "stadium": {
+        "address": "Józefa Dietla, Kraków (Stradom)",
+        "venue": "Klub Sportowy Nadwiślan",
+        "geo": {
+          "latitude": 50.0510593,
+          "longitude": 19.9369778,
+          "name": "Klub Sportowy Nadwiślan, Józefa Dietla, Stradom, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "awayTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "13f39050aec4e7a37d83c98fe95149b1",
+      "stadium": {
+        "address": "Krzęcin, 32-051",
+        "venue": "LKS Iskra Krzęcin",
+        "geo": {
+          "latitude": 49.9440504,
+          "longitude": 19.7336784,
+          "name": "LKS Iskra Krzęcin, Krzęcin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "awayTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "db4002734a409ad882c56fda4b69fd4f",
+      "stadium": {
+        "address": "Gronostajowa 12, Kraków",
+        "venue": "Uczelniane Centrum Sportowo-Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.0295063,
+          "longitude": 19.9021324,
+          "name": "Uczelniane Centrum Sportowo-Rekreacyjne UJ, Gronostajowa, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "awayTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ec7fcd5cdc502abd0c86e7092e948e95",
+      "stadium": {
+        "address": "Praska 61A, Kraków",
+        "venue": "TS Tramwaj Kraków",
+        "geo": {
+          "latitude": 50.0469821,
+          "longitude": 19.9082296,
+          "name": "KS Tramwaj, Praska, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "awayTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1f195a2d9a374df63e489525539d2cc6",
+      "stadium": {
+        "address": "Jana Woronicza, Kraków",
+        "venue": "Stadion Miejski KS Prądniczanka",
+        "geo": {
+          "latitude": 50.0875257,
+          "longitude": 19.9583497,
+          "name": "Stadion Miejski KS Prądniczanka im. Władysława Kawuli, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "awayTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b344b5df16635ee4965377b0efef23c8",
+      "stadium": {
+        "address": "Skawińska, Radziszów",
+        "venue": "LKS Radziszowianka",
+        "geo": {
+          "latitude": 49.9464965,
+          "longitude": 19.8097761,
+          "name": "LKS Radziszowianka, Skawińska, Radziszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ff1d546ca8f76d685e291e6dc5826c9b",
+      "stadium": {
+        "venue": "Stadion Zwierzyniecki KS",
+        "address": "Na Błoniach 7, Kraków",
+        "geo": {
+          "latitude": 50.05727151819558,
+          "longitude": 19.90734688743269
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "168756a944eed79eb9955bd030367b30",
+      "stadium": {
+        "address": null,
+        "venue": "Uczelniane Centrum Sportowo - Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.029104908245394,
+          "longitude": 19.901828030460408,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "awayTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c9295f6b90cb7be97a0e3dbfa9f0bf10",
+      "stadium": {
+        "address": "Wola Radziszowska 6, 32-053 Wola Radziszowska",
+        "venue": "PKS Cedronka",
+        "geo": {
+          "latitude": 49.9077188,
+          "longitude": 19.7888375,
+          "name": "PKS Cedronka, Szkolna, Wola Radziszowska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "awayTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0014bb1909df208f26c1ddd324186988",
+      "stadium": {
+        "address": "Na Wrzosach 57, Kraków (park Jerzmanowskich)",
+        "venue": "Boisko w parku Jerzmanowskich",
+        "geo": {
+          "latitude": 50.0209903,
+          "longitude": 19.9960577,
+          "name": "57, Na Wrzosach, Prokocim, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d634bcf459d6250ccfdd3af927322e5a",
+      "stadium": {
+        "address": "Wojciecha Lipowskiego 5, Kraków (Bieżanów)",
+        "venue": "Klub Sportowy Bieżanowianka",
+        "geo": {
+          "latitude": 50.0147901,
+          "longitude": 20.0381983,
+          "name": "Klub Sportowy Bieżanowianka, 5, Wojciecha Lipowskiego, Bieżanów, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "19a36b3959becccd8a69bba433483ce7",
+      "stadium": {
+        "address": "Dąbska, Kraków (Dąbie)",
+        "venue": "Klub Sportowy Dąbski",
+        "geo": {
+          "latitude": 50.0651182,
+          "longitude": 19.9800341,
+          "name": "Klub Sportowy \"Dąbski\", Dąbska, Dąbie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "awayTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "932fd4a1763cf52e8a522efda1efe76f",
+      "stadium": {
+        "address": "Skawińska, Radziszów",
+        "venue": "LKS Radziszowianka",
+        "geo": {
+          "latitude": 49.9464965,
+          "longitude": 19.8097761,
+          "name": "LKS Radziszowianka, Skawińska, Radziszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e92c5efe81c7effcbabf729e1fce09a3",
+      "stadium": {
+        "address": null,
+        "venue": "Uczelniane Centrum Sportowo - Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.029104908245394,
+          "longitude": 19.901828030460408,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "awayTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "42b0494f5ea9a3680126956de71c2877",
+      "stadium": {
+        "address": "Wola Radziszowska 6, 32-053 Wola Radziszowska",
+        "venue": "PKS Cedronka",
+        "geo": {
+          "latitude": 49.9077188,
+          "longitude": 19.7888375,
+          "name": "PKS Cedronka, Szkolna, Wola Radziszowska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "awayTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "195d733a60facc99bd7fd6fc0853d5c6",
+      "stadium": {
+        "address": "Na Wrzosach 57, Kraków (park Jerzmanowskich)",
+        "venue": "Boisko w parku Jerzmanowskich",
+        "geo": {
+          "latitude": 50.0209903,
+          "longitude": 19.9960577,
+          "name": "57, Na Wrzosach, Prokocim, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c315d1dfea774b34b698ed9652e78dbb",
+      "stadium": {
+        "address": "Wojciecha Lipowskiego 5, Kraków (Bieżanów)",
+        "venue": "Klub Sportowy Bieżanowianka",
+        "geo": {
+          "latitude": 50.0147901,
+          "longitude": 20.0381983,
+          "name": "Klub Sportowy Bieżanowianka, 5, Wojciecha Lipowskiego, Bieżanów, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "597049b6d93cd02fcb5604115608acef",
+      "stadium": {
+        "address": "Dąbska, Kraków (Dąbie)",
+        "venue": "Klub Sportowy Dąbski",
+        "geo": {
+          "latitude": 50.0651182,
+          "longitude": 19.9800341,
+          "name": "Klub Sportowy \"Dąbski\", Dąbska, Dąbie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "awayTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "72bb04fc2b53d6ec988d39c6f40ccb71",
+      "stadium": {
+        "address": "Adama Mickiewicza 52, Skawina",
+        "venue": "Stadion Miejski w Skawinie",
+        "geo": {
+          "latitude": 49.9763351,
+          "longitude": 19.8123928,
+          "name": "Stadion Miejski w Skawinie, Adama Mickiewicza, Skawina"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślan Kraków"
+      },
+      "awayTeam": {
+        "name": "Radziszowianka II Radziszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ccb1442340751757cb199bee32f09d2b",
+      "stadium": {
+        "address": "Józefa Dietla, Kraków (Stradom)",
+        "venue": "Klub Sportowy Nadwiślan",
+        "geo": {
+          "latitude": 50.0510593,
+          "longitude": 19.9369778,
+          "name": "Klub Sportowy Nadwiślan, Józefa Dietla, Stradom, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Iskra Krzęcin"
+      },
+      "awayTeam": {
+        "name": "Skawinka Skawina"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7a325c943fee5af0879de2e1cef4ff97",
+      "stadium": {
+        "address": "Krzęcin, 32-051",
+        "venue": "LKS Iskra Krzęcin",
+        "geo": {
+          "latitude": 49.9440504,
+          "longitude": 19.7336784,
+          "name": "LKS Iskra Krzęcin, Krzęcin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Dragoons Kraków"
+      },
+      "awayTeam": {
+        "name": "Dąbski KS Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "890e69f9710b8f793e8705fadd293a84",
+      "stadium": {
+        "address": "Gronostajowa 12, Kraków",
+        "venue": "Uczelniane Centrum Sportowo-Rekreacyjne UJ",
+        "geo": {
+          "latitude": 50.0295063,
+          "longitude": 19.9021324,
+          "name": "Uczelniane Centrum Sportowo-Rekreacyjne UJ, Gronostajowa, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj II Kraków"
+      },
+      "awayTeam": {
+        "name": "Bieżanowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b19224e4b1daae6e264ca577c97a2e92",
+      "stadium": {
+        "address": "Praska 61A, Kraków",
+        "venue": "TS Tramwaj Kraków",
+        "geo": {
+          "latitude": 50.0469821,
+          "longitude": 19.9082296,
+          "name": "KS Tramwaj, Praska, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bratniak Kraków"
+      },
+      "awayTeam": {
+        "name": "Prokocim Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8138fc3cdf65a55bca3a813081e42080",
+      "stadium": {
+        "address": "Jana Woronicza, Kraków",
+        "venue": "Stadion Miejski KS Prądniczanka",
+        "geo": {
+          "latitude": 50.0875257,
+          "longitude": 19.9583497,
+          "name": "Stadion Miejski KS Prądniczanka im. Władysława Kawuli, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Trzebol Wielkie Drogi"
+      },
+      "awayTeam": {
+        "name": "Cedronka Wola Radziszowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "fa95eb58d7783dfda3a77eed9e7ed304",
+      "stadium": {
+        "address": "Parkowa 10, Wielkie Drogi",
+        "venue": "LKS Trzebol Wielkie Drogi",
+        "geo": {
+          "latitude": 49.9600743,
+          "longitude": 19.7045004,
+          "name": "LKS Trzebol Wielkie Drogi, Parkowa, Wielkie Drogi"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Zwierzyniecki KS Kraków"
+      },
+      "awayTeam": {
+        "name": "Pychowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7ab702cbb08fb4fc20805d25e9861852",
+      "stadium": {
+        "venue": "Stadion Zwierzyniecki KS",
+        "address": "Na Błoniach 7, Kraków",
+        "geo": {
+          "latitude": 50.05727151819558,
+          "longitude": 19.90734688743269
         }
       }
     }

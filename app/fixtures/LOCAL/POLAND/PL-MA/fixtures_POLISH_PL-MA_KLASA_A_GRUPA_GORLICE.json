@@ -1,139 +1,325 @@
 {
   "competitionName": "Klasa A (Gorlice)",
-  "count": 7,
+  "count": 11,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Gorlice)"
       },
       "homeTeam": {
-        "name": "LKS Ropa",
-        "crest": null
+        "name": "Biała Brunary"
       },
       "awayTeam": {
-        "name": "LKS Wójtowa",
-        "crest": null
+        "name": "Olimpijczyk Racławice"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "edb1b79faa222d0a9bf904fa1d229006",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Gorlice)"
-      },
-      "homeTeam": {
-        "name": "LKS Szymbark",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Staszkówka",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+        "dateTime": "2026-09-06T12:00:00.000Z"
       },
-      "id": "a4d5e97004be2ffea0d482bcc7022a02",
-      "stadium": null
+      "id": "abd8a6a52502f12e165143afd9fb6fb6",
+      "stadium": {
+        "address": "Brunary 122, 38-315 Uście Gorlickie",
+        "venue": "Stadion LKS Biała Brunary",
+        "geo": {
+          "latitude": 49.535978,
+          "longitude": 21.0304191,
+          "name": "LKS Biała Brunary, Brunary, gmina Uście Gorlickie, powiat gorlicki, województwo małopolskie, 38-315, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Gorlice)"
       },
       "homeTeam": {
-        "name": "Biała Brunary",
-        "crest": null
+        "name": "LKS Łużna"
       },
       "awayTeam": {
-        "name": "Olimpijczyk Racławice",
-        "crest": null
+        "name": "KS Bobowa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T13:00:00.000Z"
+      },
+      "id": "d5e11a4695f434949053f21b192ab51f",
+      "stadium": {
+        "address": "Łużna 723, 38-322 Łużna",
+        "venue": "Boisko LKS Łużna",
+        "geo": {
+          "latitude": 49.7114688,
+          "longitude": 21.0556009,
+          "name": "Łużna 401, Łużna, powiat gorlicki, województwo małopolskie, 38-322, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Gorlice)"
+      },
+      "homeTeam": {
+        "name": "Moszczanka Moszczenica"
+      },
+      "awayTeam": {
+        "name": "Nafta Kryg"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
         "dateTime": "2026-09-06T14:00:00.000Z"
       },
-      "id": "abd8a6a52502f12e165143afd9fb6fb6",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Gorlice)"
-      },
-      "homeTeam": {
-        "name": "LKS Łużna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Bobowa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "id": "d5e11a4695f434949053f21b192ab51f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Gorlice)"
-      },
-      "homeTeam": {
-        "name": "Moszczanka Moszczenica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Nafta Kryg",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
-      },
       "id": "82636e492740c20356301c4e34610853",
-      "stadium": null
+      "stadium": {
+        "address": "Średnie 6, 38-321 Moszczenica",
+        "venue": "Stadion Moszczanka Moszczenica",
+        "geo": {
+          "latitude": 49.7214525,
+          "longitude": 21.1115317,
+          "name": "Średnie 4, Moszczenica, powiat gorlicki, województwo małopolskie, 38-321, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Gorlice)"
       },
       "homeTeam": {
-        "name": "LKS Bystra (k. Gorlic)",
-        "crest": null
+        "name": "LKS Bystra (k. Gorlic)"
       },
       "awayTeam": {
-        "name": "Ogień Sękowa",
-        "crest": null
+        "name": "Ogień Sękowa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "id": "8cc093143bf63aed4fae6ac72d8de0ac",
-      "stadium": null
+      "stadium": {
+        "address": "Bystra 150, 38-300 Bystra",
+        "venue": "Boisko LKS Bystra",
+        "geo": {
+          "latitude": 49.6527777,
+          "longitude": 21.0977649,
+          "name": "Bystra 150, Bystra, powiat gorlicki, województwo małopolskie, 38-300, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Gorlice)"
       },
       "homeTeam": {
-        "name": "LKS Wójtowa",
-        "crest": null
+        "name": "LKS Wójtowa"
       },
       "awayTeam": {
-        "name": "KS Bobowa",
-        "crest": null
+        "name": "Moszczanka Moszczenica"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "237858247477dc1b81dcd9ca57444d3d",
+      "stadium": {
+        "address": "Wójtowa, 38-305 Lipinki",
+        "venue": "Stadion LKS Wójtowa",
+        "geo": {
+          "latitude": 49.6926931,
+          "longitude": 21.2928996,
+          "name": "Stadion LKS Wójtowa, Wójtowa, powiat gorlicki, województwo małopolskie, 38-305, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Gorlice)"
+      },
+      "homeTeam": {
+        "name": "Sokół Staszkówka"
+      },
+      "awayTeam": {
+        "name": "LKS Łużna"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "e831851f0bfcce9330ba2614965a6517",
+      "stadium": {
+        "address": "Sportowa 3, 38-325 Staszkówka",
+        "venue": "Park Arena Staszkówka",
+        "geo": {
+          "latitude": 49.7565555,
+          "longitude": 21.0257729,
+          "name": "Sportowa, Staszkówka, powiat gorlicki, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Gorlice)"
+      },
+      "homeTeam": {
+        "name": "Nafta Kryg"
+      },
+      "awayTeam": {
+        "name": "Biała Brunary"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:30:00.000Z"
+      },
+      "id": "e7da6344200ea9b2e9011d822f28f1ca",
+      "stadium": {
+        "address": "Kryg 253, 38-304 Kryg",
+        "venue": "Stadion LKS Nafta Kryg",
+        "geo": {
+          "latitude": 49.6662911,
+          "longitude": 21.2542673,
+          "name": "Kryg 386, Kryg, powiat gorlicki, województwo małopolskie, 38-304, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Gorlice)"
+      },
+      "homeTeam": {
+        "name": "Ogień Sękowa"
+      },
+      "awayTeam": {
+        "name": "LKS Szymbark"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "d00dbb364234c0f4ad7061ef6a440b98",
+      "stadium": {
+        "address": "Sękowa 406, 38-307 Sękowa",
+        "venue": "Stadion Gminny Sękowa",
+        "geo": {
+          "latitude": 49.6270076,
+          "longitude": 21.1945037,
+          "name": "Sękowa 406, Sękowa, powiat gorlicki, województwo małopolskie, 38-307, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Gorlice)"
+      },
+      "homeTeam": {
+        "name": "Olimpijczyk Racławice"
+      },
+      "awayTeam": {
+        "name": "LKS Bystra (k. Gorlic)"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "235e4f510400ad14bb408e802eab0c6e",
+      "stadium": {
+        "address": "Racławice 103, 38-323 Racławice",
+        "venue": "Stadion LKS Racławice",
+        "geo": {
+          "latitude": 49.7511969,
+          "longitude": 21.1828603,
+          "name": "Racławice 103, Racławice, gmina Biecz, powiat gorlicki, województwo małopolskie, 38-323, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Gorlice)"
+      },
+      "homeTeam": {
+        "name": "KS Bobowa"
+      },
+      "awayTeam": {
+        "name": "LKS Ropa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "d7ee414dfb78239a725b62dd3e2ac476",
+      "stadium": {
+        "address": "Sportowa 2, 38-350 Bobowa",
+        "venue": "Boisko KS Bobowa",
+        "geo": {
+          "latitude": 49.7069682,
+          "longitude": 20.9362485,
+          "name": "Sportowa 2, Bobowa, powiat gorlicki, województwo małopolskie, 38-350, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Gorlice)"
+      },
+      "homeTeam": {
+        "name": "LKS Wójtowa"
+      },
+      "awayTeam": {
+        "name": "KS Bobowa"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T10:00:00.000Z"
       },
       "date": {
         "date": "2026-11-07",
-        "dateTime": "2026-11-07T11:00:00.000Z"
+        "dateTime": "2026-11-07T10:00:00.000Z"
       },
       "id": "5c8d8e3dba32c2a613819bf76bedb004",
-      "stadium": null
+      "stadium": {
+        "address": "Wójtowa, 38-305 Lipinki",
+        "venue": "Stadion LKS Wójtowa",
+        "geo": {
+          "latitude": 49.6926931,
+          "longitude": 21.2928996,
+          "name": "Stadion LKS Wójtowa, Wójtowa, powiat gorlicki, województwo małopolskie, 38-305, Polska"
+        }
+      }
     }
   ]
 }

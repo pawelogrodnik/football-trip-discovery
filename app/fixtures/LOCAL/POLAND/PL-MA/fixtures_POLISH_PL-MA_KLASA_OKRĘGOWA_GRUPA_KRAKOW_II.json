@@ -1,133 +1,24 @@
 {
   "competitionName": "Klasa okręgowa (Krakow II)",
-  "count": 9,
+  "count": 67,
   "matches": [
     {
       "competition": {
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Clepardia Kraków",
-        "crest": null
+        "name": "Kaszowianka Kaszów"
       },
       "awayTeam": {
-        "name": "Płomień Kostrze (Kraków)",
-        "crest": null
+        "name": "Pogoń Skotniki (Kraków)"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
-      },
-      "id": "183642552ed8d1ffafa428c176f2841a",
-      "stadium": {
-        "address": "Generała Augusta Fieldorfa-Nila 5, Kraków",
-        "venue": "KS Clepardia",
-        "geo": {
-          "latitude": 50.0885126,
-          "longitude": 19.9362116,
-          "name": "KS Clepardia, 5, Generała Augusta Fieldorfa-Nila, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Tramwaj Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zieleńczanka Zielonki",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
-      },
-      "id": "1eca02693a073a6fb56d8221584c6477",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Wanda Nowa Huta (Kraków)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
-      },
-      "id": "3e0912ce9fb37c6788ff179a7c10fec5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Bronowianka Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Grębałowianka Kraków",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "2198868d3af450ef85f2042517004ad0",
-      "stadium": {
-        "address": "Wiedeńska, Kraków (Bronowice)",
-        "venue": "Bronowianka",
-        "geo": {
-          "latitude": 50.0753297,
-          "longitude": 19.8822739,
-          "name": "Bronowianka, Wiedeńska, Bronowice, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Piast Wołowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Borek (Kraków)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "c661cd9a17c54e49f77f16da5445ed67",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Kaszowianka Kaszów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogoń Skotniki (Kraków)",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+        "dateTime": "2026-09-06T12:00:00.000Z"
       },
       "id": "bec79b0c39ada9793139fb68f03772ec",
       "stadium": {
@@ -145,16 +36,18 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Liszczanka Liszki",
-        "crest": null
+        "name": "Liszczanka Liszki"
       },
       "awayTeam": {
-        "name": "Strażak/Pajda Rączna",
-        "crest": null
+        "name": "Strażak/Pajda Rączna"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "id": "866ef05587bf7c93496d41cf07aad7e1",
       "stadium": {
@@ -172,16 +65,362 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tramwaj Kraków",
-        "crest": null
+        "name": "Pogoń Skotniki (Kraków)"
       },
       "awayTeam": {
-        "name": "KS Borek (Kraków)",
-        "crest": null
+        "name": "Liszczanka Liszki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "a01280f3508553a798471d3f1afb56be",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "f33718c4ac1a6416fee42dfc742a7d09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Piast Wołowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T09:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T09:00:00.000Z"
+      },
+      "id": "880aaf07cf855cd6877c1b851670a5ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "a9745a846e7b1aab4ff6ccc3366e9231",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "e3299490b2bc4f7ec17fb8b184f5744d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "awayTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T10:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:30:00.000Z"
+      },
+      "id": "b20d2a251c01e1fbe6babf127131c63d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "awayTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "a1e83214d9e11ae3660b221f965434fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a0ca1461fd32e989f0f9989926922e95",
+      "stadium": {
+        "address": "Wiedeńska, Kraków (Bronowice)",
+        "venue": "Bronowianka",
+        "geo": {
+          "latitude": 50.0753297,
+          "longitude": 19.8822739,
+          "name": "Bronowianka, Wiedeńska, Bronowice, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "awayTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1d2ca574208a4795d5e5a5c18702827e",
+      "stadium": {
+        "address": "Brzozowa, Kaszów",
+        "venue": "LKS Kaszowianka",
+        "geo": {
+          "latitude": 50.038196,
+          "longitude": 19.7309011,
+          "name": "LKS Kaszowianka, Brzozowa, Kaszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "awayTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "70973ec2db0854e2ef18fa07e37e9b29",
+      "stadium": {
+        "address": "Księdza Adolfa Baścika, Liszki",
+        "venue": "LKS Liszczanka",
+        "geo": {
+          "latitude": 50.0416297,
+          "longitude": 19.7651159,
+          "name": "LKS Liszczanka, Księdza Adolfa Baścika, Liszki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "awayTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0c95f71d27477d13ac95fedd467abf81",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "02b207c3776d410dff40057c35700f0e",
+      "stadium": {
+        "address": "Generała Augusta Fieldorfa-Nila 5, Kraków",
+        "venue": "KS Clepardia",
+        "geo": {
+          "latitude": 50.0885126,
+          "longitude": 19.9362116,
+          "name": "KS Clepardia, 5, Generała Augusta Fieldorfa-Nila, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast Wołowice"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6955a5c8534a1bab3d2ac4edbb60bb43",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b5b90c196f6525ea5969f4ddebc3ccd3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "awayTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-23T17:30:00.000Z"
       },
       "date": {
         "date": "2026-09-23",
-        "dateTime": "2026-09-23T19:30:00.000Z"
+        "dateTime": "2026-09-23T17:30:00.000Z"
       },
       "id": "9b4e4cd54f62b2eaa344289f1a3b0b24",
       "stadium": null
@@ -191,16 +430,1241 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wanda Nowa Huta (Kraków)",
-        "crest": null
+        "name": "Płomień Kostrze (Kraków)"
       },
       "awayTeam": {
-        "name": "Strażak/Pajda Rączna",
-        "crest": null
+        "name": "Bronowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2867ad2a3e130519bb48201c22721cc2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "awayTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4c4002a264268f0311ba799ff05a3b66",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "awayTeam": {
+        "name": "Piast Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "88a0bf06c76df8854adf3532ba9d682b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5fa7ec305618fec8a95c5d06daaf1cb8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4d53c4fb96dbb6165e06d5074aa10d22",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ec38244d89df9442a5e524fccec04f03",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "11af7216061625dcb175585741c6c0a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c5ab2ad7eb0dec568709d548924c5cfb",
+      "stadium": {
+        "address": "Wiedeńska, Kraków (Bronowice)",
+        "venue": "Bronowianka",
+        "geo": {
+          "latitude": 50.0753297,
+          "longitude": 19.8822739,
+          "name": "Bronowianka, Wiedeńska, Bronowice, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "awayTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d3a5b0f8fffcddca55a9d073a56c4ab3",
+      "stadium": {
+        "address": "Księdza Adolfa Baścika, Liszki",
+        "venue": "LKS Liszczanka",
+        "geo": {
+          "latitude": 50.0416297,
+          "longitude": 19.7651159,
+          "name": "LKS Liszczanka, Księdza Adolfa Baścika, Liszki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "awayTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d32a951587e89b5befe92cd7ebafa22c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "awayTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3fb517bd7b773a57ca384003f1332552",
+      "stadium": {
+        "address": "Generała Augusta Fieldorfa-Nila 5, Kraków",
+        "venue": "KS Clepardia",
+        "geo": {
+          "latitude": 50.0885126,
+          "longitude": 19.9362116,
+          "name": "KS Clepardia, 5, Generała Augusta Fieldorfa-Nila, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast Wołowice"
+      },
+      "awayTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5dee7906a52bb99a1e78230b99138051",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "32cb3ce2286e98cd1798cbd7c87371fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "489e2f12964cfae12956b52e2fd1292f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "awayTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b32d11fad8ea52ccd85d9cc8afcf9fd1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "awayTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e9572213487007d7acf332a1da135da3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b39fbbe426f248d13138c96eb4b5bdcf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Piast Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a77941ec6d3b11b50ec05ec4a1acd9a7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9abfed8137a43cc28c04decb7c5ccc50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "1f0e2c05c2930924f71696775d6092ba",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "awayTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "21b165f88226772a55d2c7d2d1d07c44",
+      "stadium": {
+        "address": "Brzozowa, Kaszów",
+        "venue": "LKS Kaszowianka",
+        "geo": {
+          "latitude": 50.038196,
+          "longitude": 19.7309011,
+          "name": "LKS Kaszowianka, Brzozowa, Kaszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7fd1c701ae40f84ad9d43bdb8cf00313",
+      "stadium": {
+        "address": "Wiedeńska, Kraków (Bronowice)",
+        "venue": "Bronowianka",
+        "geo": {
+          "latitude": 50.0753297,
+          "longitude": 19.8822739,
+          "name": "Bronowianka, Wiedeńska, Bronowice, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "awayTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "cbaa7c7ab5fc59e39efef9f6406dfafc",
+      "stadium": {
+        "address": "Generała Augusta Fieldorfa-Nila 5, Kraków",
+        "venue": "KS Clepardia",
+        "geo": {
+          "latitude": 50.0885126,
+          "longitude": 19.9362116,
+          "name": "KS Clepardia, 5, Generała Augusta Fieldorfa-Nila, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast Wołowice"
+      },
+      "awayTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8c4e12298932a744caa31fe904624aa3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "56f1954f67e193aac85aaa7e8d3bf396",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "40bfe76552eeb4eee48923544e6b58b9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "awayTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b62b7abb4fc921d85e019e42885de585",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "awayTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d01b1e9bcf8b21a783c7e03c50289184",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e38886c508d4c9b85fc5b04ba81fd216",
+      "stadium": {
+        "address": "Wiedeńska, Kraków (Bronowice)",
+        "venue": "Bronowianka",
+        "geo": {
+          "latitude": 50.0753297,
+          "longitude": 19.8822739,
+          "name": "Bronowianka, Wiedeńska, Bronowice, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "awayTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "86ac3bc4d6db2a9c54b8a14c0a97d350",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "awayTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f141026fce2313cade882b0db53b193d",
+      "stadium": {
+        "address": "Generała Augusta Fieldorfa-Nila 5, Kraków",
+        "venue": "KS Clepardia",
+        "geo": {
+          "latitude": 50.0885126,
+          "longitude": 19.9362116,
+          "name": "KS Clepardia, 5, Generała Augusta Fieldorfa-Nila, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Piast Wołowice"
+      },
+      "awayTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e404bed83697704e638ff55801749594",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ed1e0a517fd335c624187091e933bcbd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ba36a3c4089c03db5a1a44493a064a1f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2a029e39d1a1aded0a28182efff84874",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "awayTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2b85a5e71c573e95bd4d70b5913f73a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "5e27691e16c9daa0c922b7d54ddf12f2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "92a4c95189c27f68f7679ec9fb035126",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9a8b881e9fc8a882756e8d6a1f37db41",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Piast Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f1a267c202b410fdddae75437195a325",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "awayTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "58ade824411ffbdb41dea76592b71793",
+      "stadium": {
+        "address": "Brzozowa, Kaszów",
+        "venue": "LKS Kaszowianka",
+        "geo": {
+          "latitude": 50.038196,
+          "longitude": 19.7309011,
+          "name": "LKS Kaszowianka, Brzozowa, Kaszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "awayTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e5ddd0cbbf33ccd680a4b549ff1f79f5",
+      "stadium": {
+        "address": "Księdza Adolfa Baścika, Liszki",
+        "venue": "LKS Liszczanka",
+        "geo": {
+          "latitude": 50.0416297,
+          "longitude": 19.7651159,
+          "name": "LKS Liszczanka, Księdza Adolfa Baścika, Liszki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Bronowianka Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "23a64442a271aa6cff62319262cc1d49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Piaski Wielkie (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ace90d77cf7ee4a001eb374f73dc86b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Grębałowianka Kraków"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "85d90e41e31423b94b31a8c81a1be3c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Płomień Kostrze (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0ae8a0488f94322164904fa5cc622b82",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kaszowianka Kaszów"
+      },
+      "awayTeam": {
+        "name": "KS Borek (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8b81112b2af3a8f5d48b453314a8b97b",
+      "stadium": {
+        "address": "Brzozowa, Kaszów",
+        "venue": "LKS Kaszowianka",
+        "geo": {
+          "latitude": 50.038196,
+          "longitude": 19.7309011,
+          "name": "LKS Kaszowianka, Brzozowa, Kaszów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Liszczanka Liszki"
+      },
+      "awayTeam": {
+        "name": "Piast Wołowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8949e65f74a821e4d772b2fa81871b80",
+      "stadium": {
+        "address": "Księdza Adolfa Baścika, Liszki",
+        "venue": "LKS Liszczanka",
+        "geo": {
+          "latitude": 50.0416297,
+          "longitude": 19.7651159,
+          "name": "LKS Liszczanka, Księdza Adolfa Baścika, Liszki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tramwaj Kraków"
+      },
+      "awayTeam": {
+        "name": "Clepardia Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "60042876313ee582e998d771d77f9b7d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wanda Nowa Huta (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda Rączna"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-11T10:00:00.000Z"
       },
       "date": {
         "date": "2026-11-11",
-        "dateTime": "2026-11-11T11:00:00.000Z"
+        "dateTime": "2026-11-11T10:00:00.000Z"
       },
       "id": "cf431a817d66065f31596c0f84c05962",
       "stadium": null

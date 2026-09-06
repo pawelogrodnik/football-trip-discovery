@@ -1,119 +1,142 @@
 {
   "competitionName": "Klasa A (Chrzanow)",
-  "count": 7,
+  "count": 9,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Chrzanow)"
       },
       "homeTeam": {
-        "name": "Nadwiślanin Gromiec",
-        "crest": null
+        "name": "LKS Żarki"
       },
       "awayTeam": {
-        "name": "Błyskawica Myślachowice",
-        "crest": null
+        "name": "MKS II Trzebinia"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
-      },
-      "id": "02cf6693fd1c66b985c642e23eaecd2c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Chrzanow)"
-      },
-      "homeTeam": {
-        "name": "Nadwiślanka Okleśna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ciężkowianka Jaworzno",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "7c572fec87fbbac653f38a49b27c2865",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Chrzanow)"
-      },
-      "homeTeam": {
-        "name": "Wisła Jankowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Arka Babice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "73f2777c7ead1e56f2ec6621e30808f5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Chrzanow)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Balin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zagórzanka Zagórze",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "49c002f4be366b6471d5bf34f271dad6",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Chrzanow)"
-      },
-      "homeTeam": {
-        "name": "Polonia Luszowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Fablok Chrzanów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "b662ea2675ada338fcf6b49a30292fe5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Chrzanow)"
-      },
-      "homeTeam": {
-        "name": "LKS Żarki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "MKS II Trzebinia",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "id": "3f377db33b4b5e9ecc4ee5c4cca8b5e5",
+      "stadium": {
+        "address": "Klubowa 5, 32-593 Żarki",
+        "venue": "Stadion LKS Żarki",
+        "geo": {
+          "latitude": 50.0821993,
+          "longitude": 19.3471111,
+          "name": "Klubowa 1, Żarki, powiat chrzanowski, województwo małopolskie, 32-593, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MZKS Alwernia"
+      },
+      "awayTeam": {
+        "name": "Korona Mętków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-06",
+        "dateTime": "2026-09-06T15:00:00.000Z"
+      },
+      "id": "026503eb37aa041a6560c3a53f4d818a",
+      "stadium": {
+        "address": "Zygmunta Zięby 1, 32-566 Alwernia",
+        "venue": "Stadion Miejski w Alwerni",
+        "geo": {
+          "latitude": 50.0576625,
+          "longitude": 19.5458106,
+          "name": "Zygmunta Zięby 1, Alwernia, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślanka Okleśna"
+      },
+      "awayTeam": {
+        "name": "Orzeł Balin"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "6404e19a778ec7d159a7bf5c5d9b7b9a",
+      "stadium": {
+        "address": "Nowa Kolonia, 32-566 Okleśna",
+        "venue": "Boisko KS Nadwiślanka",
+        "geo": {
+          "latitude": 50.0279827,
+          "longitude": 19.533746,
+          "name": "KS Nadwiślanka, Nowa Kolonia, Okleśna, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Korona Mętków"
+      },
+      "awayTeam": {
+        "name": "Wisła Jankowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "id": "4d4626bc7a116df03510212b1f295208",
+      "stadium": {
+        "address": "Mętków, 32-551 Mętków",
+        "venue": "Boisko KS Korona Mętków",
+        "geo": {
+          "latitude": 50.0481475,
+          "longitude": 19.3732035,
+          "name": "KS Korona Mętków, Mętków, powiat chrzanowski, województwo małopolskie, 32-551, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Fablok Chrzanów"
+      },
+      "awayTeam": {
+        "name": "LKS Żarki"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "e8be8dcb7030652ce2b0fbda9feed5ba",
       "stadium": null
     },
     {
@@ -121,19 +144,116 @@
         "name": "Klasa A (Chrzanow)"
       },
       "homeTeam": {
-        "name": "MZKS Alwernia",
-        "crest": null
+        "name": "Arka Babice"
       },
       "awayTeam": {
-        "name": "Korona Mętków",
-        "crest": null
+        "name": "Ciężkowianka Jaworzno"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
-      "id": "026503eb37aa041a6560c3a53f4d818a",
-      "stadium": null
+      "id": "889c554ca7727dfb5a82a5445ef31b78",
+      "stadium": {
+        "address": null,
+        "venue": "Arka Babice",
+        "geo": {
+          "latitude": 50.06309681378425,
+          "longitude": 19.447348388865855,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zagórzanka Zagórze"
+      },
+      "awayTeam": {
+        "name": "Nadwiślanin Gromiec"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:30:00.000Z"
+      },
+      "id": "b4168736f9862877e994103dd145a481",
+      "stadium": {
+        "address": "Wieczysta 72, 32-555 Zagórze",
+        "venue": "Ośrodek Sportowo-Rekreacyjny Zagórze",
+        "geo": {
+          "latitude": 50.0811924,
+          "longitude": 19.391266,
+          "name": "KS Zagórze, Wieczysta, Zagórze, gmina Babice, powiat chrzanowski, województwo małopolskie, 32-555, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Myślachowice"
+      },
+      "awayTeam": {
+        "name": "Polonia Luszowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "e47dd6c88a376aa3874b70738594618c",
+      "stadium": {
+        "address": "Trzebińska 15, 32-543 Myślachowice",
+        "venue": "Stadion UKS Błyskawica",
+        "geo": {
+          "latitude": 50.1822976,
+          "longitude": 19.4780629,
+          "name": "UKS Błyskawica, Parkowa, Myślachowice, powiat chrzanowski, województwo małopolskie, 32-540, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MKS II Trzebinia"
+      },
+      "awayTeam": {
+        "name": "MZKS Alwernia"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:30:00.000Z"
+      },
+      "id": "4b4d391769d3367901318ba6ef524ca5",
+      "stadium": {
+        "address": "Ochronkowa 24a, 32-540 Trzebinia",
+        "venue": "Miejski Stadion Sportowy (sztuczna)",
+        "geo": {
+          "latitude": 50.1579615,
+          "longitude": 19.4659906,
+          "name": "Ochronkowa 24A, Trzebinia, powiat chrzanowski, województwo małopolskie, 32-540, Polska"
+        }
+      }
     }
   ]
 }

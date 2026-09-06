@@ -1,157 +1,24 @@
 {
   "competitionName": "Klasa A (Krakow I)",
-  "count": 7,
+  "count": 72,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Krakow I)"
       },
       "homeTeam": {
-        "name": "Galicja Raciborowice",
-        "crest": null
+        "name": "Błękitni II Modlnica"
       },
       "awayTeam": {
-        "name": "Partyzant Dojazdów",
-        "crest": null
+        "name": "Szreniawa Koszyce"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "0c0ac2d1aea27abbae621e3d9cf1dbee",
-      "stadium": {
-        "address": "Jana Długosza, Raciborowice",
-        "venue": "LKS Galicja Raciborowice",
-        "geo": {
-          "latitude": 50.1147747,
-          "longitude": 20.0299922,
-          "name": "Ludowy Klub Sportowy Galicja Raciborowice, Raciborowice"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Podgórze Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jastrzębiec Książ Wielki",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "9bf6a036f0084bf233be1a1ffd2e68d5",
-      "stadium": {
-        "address": "Niwy, Kraków (Zabłocie)",
-        "venue": "SKS Podgórze",
-        "geo": {
-          "latitude": 50.0473889,
-          "longitude": 19.9680835,
-          "name": "SKS Podgórze, Niwy, Zabłocie, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Sportowiec Modlniczka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Juvenia Prandocin",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "3e8f1d544f90f5ea772ea6633c226874",
-      "stadium": {
-        "address": "Wrzosy 3, Modlniczka",
-        "venue": "Boisko Sportowiec Modlniczka",
-        "geo": {
-          "latitude": 50.1139604,
-          "longitude": 19.8599683,
-          "name": "Boisko Sportowiec Modlniczka, Wrzosy, Modlniczka"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Bibiczanka Bibice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "TS Węgrzce",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "8c418b8cb589a9ba582d392e6d1ec1c7",
-      "stadium": {
-        "address": "Sportowa 2, Bibice",
-        "venue": "Boisko Sportowe Bibiczanka Bibice",
-        "geo": {
-          "latitude": 50.1365466,
-          "longitude": 19.9531023,
-          "name": "Boisko Sportowe Bibiczanka Bibice, Sportowa, Bibice"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Zawisza Sulechów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wawrzynianka Wawrzeńczyce",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "5db2601d29fa103256fa989d55be6e67",
-      "stadium": {
-        "address": "Sulechów, 32-010",
-        "venue": "UKS Zawisza Sulechów",
-        "geo": {
-          "latitude": 50.1287866,
-          "longitude": 20.0913457,
-          "name": "UKS Zawisza Sulechów, Sulechów"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Błękitni II Modlnica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Szreniawa Koszyce",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+        "dateTime": "2026-09-06T13:00:00.000Z"
       },
       "id": "cd47821f4f716591ca10092bbadd4502",
       "stadium": {
@@ -169,16 +36,18 @@
         "name": "Klasa A (Krakow I)"
       },
       "homeTeam": {
-        "name": "Czarni 03 Grzegorzowice",
-        "crest": null
+        "name": "Czarni 03 Grzegorzowice"
       },
       "awayTeam": {
-        "name": "Kosynierzy Łuczyce",
-        "crest": null
+        "name": "Kosynierzy Łuczyce"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "dateTime": "2026-09-06T15:00:00.000Z"
       },
       "id": "487b6a6db1a2a3d1b9cef6c1b9641c4c",
       "stadium": {
@@ -188,6 +57,2162 @@
           "latitude": 50.2563841,
           "longitude": 19.9492529,
           "name": "Boisko Sportowe Czarni 03 Grzegorzowice, Grzegorzowice Wielkie"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "TS Węgrzce"
+      },
+      "awayTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "id": "626a90a58349510e148d3bbd1774fee8",
+      "stadium": {
+        "address": "B5 1, Węgrzce",
+        "venue": "TS Węgrzce",
+        "geo": {
+          "latitude": 50.11439433415371,
+          "longitude": 19.983401390751634,
+          "name": "TS Węgrzce, B5, Węgrzce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "awayTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "fe7b5bbb4ed3b0df6b300afc579c0f73",
+      "stadium": {
+        "address": "Grzegorzowice Wielkie, 32-095 Iwanowice",
+        "venue": "Boisko Sportowe Czarni 03 Grzegorzowice",
+        "geo": {
+          "latitude": 50.2563841,
+          "longitude": 19.9492529,
+          "name": "Boisko Sportowe Czarni 03 Grzegorzowice, Grzegorzowice Wielkie"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "awayTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "e66ec18fecb7dd04aefba27c3a7f279a",
+      "stadium": {
+        "address": "Dojazdów, 32-010",
+        "venue": "KS Partyzant Dojazdów",
+        "geo": {
+          "latitude": 50.120026,
+          "longitude": 20.1135715,
+          "name": "KS Partyzant Dojazdów, Dojazdów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "awayTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "5459b94ce0951e00b9d6c3147f15f44a",
+      "stadium": {
+        "address": "Tadeusza Kościuszki, Koszyce",
+        "venue": "KS Szreniawa Koszyce",
+        "geo": {
+          "latitude": 50.1641154,
+          "longitude": 20.5703695,
+          "name": "KS Szreniawa Koszyce, Tadeusza Kościuszki, Koszyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "awayTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "75ed3db08c8489840d0d0ffd4e8d5432",
+      "stadium": {
+        "address": "Świętego Floriana, Łuczyce",
+        "venue": "Boisko LKS Kosynierzy Łuczyce",
+        "geo": {
+          "latitude": 50.1629476,
+          "longitude": 20.0852859,
+          "name": "Boisko LKS Kosynierzy Łuczyce, Świętego Floriana, Łuczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "awayTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "59b26a5c6c76bd01266b42c3bfca29ca",
+      "stadium": {
+        "address": "Wawrzeńczyce 406, Wawrzeńczyce",
+        "venue": "KS Nowa Wawrzynianka",
+        "geo": {
+          "latitude": 50.1114171,
+          "longitude": 20.2967605,
+          "name": "Boisko Sportowe KS Nowa Wawrzynianka, Wawrzeńczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "awayTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "df99be4b3ace88c2ea4675bd87c26a53",
+      "stadium": {
+        "address": "Dziadówki Prandockie 772, Prandocin",
+        "venue": "LKS Juvenia Prandocin",
+        "geo": {
+          "latitude": 50.2635451,
+          "longitude": 20.0938682,
+          "name": "LKS Juvenia Prandocin, Dziadówki Prandockie, Prandocin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "awayTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a4823696ced2424841e6188fe32f2af2",
+      "stadium": {
+        "address": "Sportowa 19, Modlnica",
+        "venue": "LKS Błękitni Modlnica",
+        "geo": {
+          "latitude": 50.1278376,
+          "longitude": 19.8600676,
+          "name": "Ludowy Klub Sportowy Błękitni Modlnica, Sportowa, Modlnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "awayTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8f7ca943717a008d364db300f6a5143e",
+      "stadium": {
+        "address": "Jana Długosza, Raciborowice",
+        "venue": "LKS Galicja Raciborowice",
+        "geo": {
+          "latitude": 50.1147747,
+          "longitude": 20.0299922,
+          "name": "Ludowy Klub Sportowy Galicja Raciborowice, Raciborowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "awayTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0ed5e6aed1634fe26006d9e20a45d11d",
+      "stadium": {
+        "address": "Wrzosy 3, Modlniczka",
+        "venue": "Boisko Sportowiec Modlniczka",
+        "geo": {
+          "latitude": 50.1139604,
+          "longitude": 19.8599683,
+          "name": "Boisko Sportowiec Modlniczka, Wrzosy, Modlniczka"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "awayTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "67271f52dfacc72e508c1797a67ed424",
+      "stadium": {
+        "address": "Sportowa 2, Bibice",
+        "venue": "Boisko Sportowe Bibiczanka Bibice",
+        "geo": {
+          "latitude": 50.1365466,
+          "longitude": 19.9531023,
+          "name": "Boisko Sportowe Bibiczanka Bibice, Sportowa, Bibice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "awayTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "bc59aa8421509cfc8e7d36ce1c8c6c18",
+      "stadium": {
+        "address": "Sulechów, 32-010",
+        "venue": "UKS Zawisza Sulechów",
+        "geo": {
+          "latitude": 50.1287866,
+          "longitude": 20.0913457,
+          "name": "UKS Zawisza Sulechów, Sulechów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "awayTeam": {
+        "name": "TS Węgrzce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "af1c7242f5370f1e84103e661b38c70d",
+      "stadium": {
+        "address": "Niwy, Kraków (Zabłocie)",
+        "venue": "SKS Podgórze",
+        "geo": {
+          "latitude": 50.0473889,
+          "longitude": 19.9680835,
+          "name": "SKS Podgórze, Niwy, Zabłocie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "awayTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "128e1b250b23982b019e9aacb2039e96",
+      "stadium": {
+        "address": "Mikołaja Reja 4, Książ Wielki",
+        "venue": "Stadion SKS Jastrzębiec Książ Wielki",
+        "geo": {
+          "latitude": 50.4422095,
+          "longitude": 20.1467782,
+          "name": "Stadion SKS Jastrzębiec, Mikołaja Reja, Książ Wielki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "awayTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6abba2b31e317f9fa79bc281840f2658",
+      "stadium": {
+        "address": "Świętego Floriana, Łuczyce",
+        "venue": "Boisko LKS Kosynierzy Łuczyce",
+        "geo": {
+          "latitude": 50.1629476,
+          "longitude": 20.0852859,
+          "name": "Boisko LKS Kosynierzy Łuczyce, Świętego Floriana, Łuczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "TS Węgrzce"
+      },
+      "awayTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fe83d952908b6c10d7c0366bdbf6b54a",
+      "stadium": {
+        "address": "B5 1, Węgrzce",
+        "venue": "TS Węgrzce",
+        "geo": {
+          "latitude": 50.11439433415371,
+          "longitude": 19.983401390751634,
+          "name": "TS Węgrzce, B5, Węgrzce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "awayTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d9040c68f4725a1316eaf38a7a17de51",
+      "stadium": {
+        "address": "Dziadówki Prandockie 772, Prandocin",
+        "venue": "LKS Juvenia Prandocin",
+        "geo": {
+          "latitude": 50.2635451,
+          "longitude": 20.0938682,
+          "name": "LKS Juvenia Prandocin, Dziadówki Prandockie, Prandocin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "awayTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "48e07388845f82a28b57f31e2b3a04aa",
+      "stadium": {
+        "address": "Dojazdów, 32-010",
+        "venue": "KS Partyzant Dojazdów",
+        "geo": {
+          "latitude": 50.120026,
+          "longitude": 20.1135715,
+          "name": "KS Partyzant Dojazdów, Dojazdów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "awayTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6529574e321475d522c10a68c4ddbb0c",
+      "stadium": {
+        "address": "Tadeusza Kościuszki, Koszyce",
+        "venue": "KS Szreniawa Koszyce",
+        "geo": {
+          "latitude": 50.1641154,
+          "longitude": 20.5703695,
+          "name": "KS Szreniawa Koszyce, Tadeusza Kościuszki, Koszyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "awayTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1ce482a9d08f40bae159c9206242906a",
+      "stadium": {
+        "address": "Grzegorzowice Wielkie, 32-095 Iwanowice",
+        "venue": "Boisko Sportowe Czarni 03 Grzegorzowice",
+        "geo": {
+          "latitude": 50.2563841,
+          "longitude": 19.9492529,
+          "name": "Boisko Sportowe Czarni 03 Grzegorzowice, Grzegorzowice Wielkie"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "awayTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "deaf4aa66568fbfbfaea4a955bcc6568",
+      "stadium": {
+        "address": "Sportowa 19, Modlnica",
+        "venue": "LKS Błękitni Modlnica",
+        "geo": {
+          "latitude": 50.1278376,
+          "longitude": 19.8600676,
+          "name": "Ludowy Klub Sportowy Błękitni Modlnica, Sportowa, Modlnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "awayTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e1a715baba0e5ef691e83f4939e1769d",
+      "stadium": {
+        "address": "Jana Długosza, Raciborowice",
+        "venue": "LKS Galicja Raciborowice",
+        "geo": {
+          "latitude": 50.1147747,
+          "longitude": 20.0299922,
+          "name": "Ludowy Klub Sportowy Galicja Raciborowice, Raciborowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "awayTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "76cbcd7f68789bd744f19d1d3753750f",
+      "stadium": {
+        "address": "Wrzosy 3, Modlniczka",
+        "venue": "Boisko Sportowiec Modlniczka",
+        "geo": {
+          "latitude": 50.1139604,
+          "longitude": 19.8599683,
+          "name": "Boisko Sportowiec Modlniczka, Wrzosy, Modlniczka"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "awayTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ad58a6ddf4848b21021820a882fb33be",
+      "stadium": {
+        "address": "Sportowa 2, Bibice",
+        "venue": "Boisko Sportowe Bibiczanka Bibice",
+        "geo": {
+          "latitude": 50.1365466,
+          "longitude": 19.9531023,
+          "name": "Boisko Sportowe Bibiczanka Bibice, Sportowa, Bibice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "awayTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "85da8c7707f266ad5e8390ab953ca8b6",
+      "stadium": {
+        "address": "Sulechów, 32-010",
+        "venue": "UKS Zawisza Sulechów",
+        "geo": {
+          "latitude": 50.1287866,
+          "longitude": 20.0913457,
+          "name": "UKS Zawisza Sulechów, Sulechów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "awayTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c4f863137eb4333a7303819596465906",
+      "stadium": {
+        "address": "Niwy, Kraków (Zabłocie)",
+        "venue": "SKS Podgórze",
+        "geo": {
+          "latitude": 50.0473889,
+          "longitude": 19.9680835,
+          "name": "SKS Podgórze, Niwy, Zabłocie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "awayTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3f3a2709f7e1e7dd77a610850d705fde",
+      "stadium": {
+        "address": "Mikołaja Reja 4, Książ Wielki",
+        "venue": "Stadion SKS Jastrzębiec Książ Wielki",
+        "geo": {
+          "latitude": 50.4422095,
+          "longitude": 20.1467782,
+          "name": "Stadion SKS Jastrzębiec, Mikołaja Reja, Książ Wielki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "awayTeam": {
+        "name": "TS Węgrzce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "eb37146a3ef1c7a875ef30cb625e0f94",
+      "stadium": {
+        "address": "Wawrzeńczyce 406, Wawrzeńczyce",
+        "venue": "KS Nowa Wawrzynianka",
+        "geo": {
+          "latitude": 50.1114171,
+          "longitude": 20.2967605,
+          "name": "Boisko Sportowe KS Nowa Wawrzynianka, Wawrzeńczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "awayTeam": {
+        "name": "TS Węgrzce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ad3c0133c918c86ea4058e4f805bdb3c",
+      "stadium": {
+        "address": "Świętego Floriana, Łuczyce",
+        "venue": "Boisko LKS Kosynierzy Łuczyce",
+        "geo": {
+          "latitude": 50.1629476,
+          "longitude": 20.0852859,
+          "name": "Boisko LKS Kosynierzy Łuczyce, Świętego Floriana, Łuczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "awayTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "eba0768ab8fe6ccb5e5c887248c9c5f9",
+      "stadium": {
+        "address": "Dziadówki Prandockie 772, Prandocin",
+        "venue": "LKS Juvenia Prandocin",
+        "geo": {
+          "latitude": 50.2635451,
+          "longitude": 20.0938682,
+          "name": "LKS Juvenia Prandocin, Dziadówki Prandockie, Prandocin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "awayTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a13bc8fc65e1c1a5fa057bfb4b1141b9",
+      "stadium": {
+        "address": "Dojazdów, 32-010",
+        "venue": "KS Partyzant Dojazdów",
+        "geo": {
+          "latitude": 50.120026,
+          "longitude": 20.1135715,
+          "name": "KS Partyzant Dojazdów, Dojazdów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "awayTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f45d330b8faa1d5a592874c7e0b3fd25",
+      "stadium": {
+        "address": "Tadeusza Kościuszki, Koszyce",
+        "venue": "KS Szreniawa Koszyce",
+        "geo": {
+          "latitude": 50.1641154,
+          "longitude": 20.5703695,
+          "name": "KS Szreniawa Koszyce, Tadeusza Kościuszki, Koszyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "awayTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5acc4dc3dc72f84fa73ca4a0a11aa050",
+      "stadium": {
+        "address": "Grzegorzowice Wielkie, 32-095 Iwanowice",
+        "venue": "Boisko Sportowe Czarni 03 Grzegorzowice",
+        "geo": {
+          "latitude": 50.2563841,
+          "longitude": 19.9492529,
+          "name": "Boisko Sportowe Czarni 03 Grzegorzowice, Grzegorzowice Wielkie"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "awayTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f8ff04a58c862e47c9c5ccf400dbcf84",
+      "stadium": {
+        "address": "Sportowa 19, Modlnica",
+        "venue": "LKS Błękitni Modlnica",
+        "geo": {
+          "latitude": 50.1278376,
+          "longitude": 19.8600676,
+          "name": "Ludowy Klub Sportowy Błękitni Modlnica, Sportowa, Modlnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "awayTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c8b6c05cc18dda6a23c76e9812a5de79",
+      "stadium": {
+        "address": "Jana Długosza, Raciborowice",
+        "venue": "LKS Galicja Raciborowice",
+        "geo": {
+          "latitude": 50.1147747,
+          "longitude": 20.0299922,
+          "name": "Ludowy Klub Sportowy Galicja Raciborowice, Raciborowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "awayTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e1cdbf681d3b7effb03d38a346d9c871",
+      "stadium": {
+        "address": "Sportowa 2, Bibice",
+        "venue": "Boisko Sportowe Bibiczanka Bibice",
+        "geo": {
+          "latitude": 50.1365466,
+          "longitude": 19.9531023,
+          "name": "Boisko Sportowe Bibiczanka Bibice, Sportowa, Bibice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "awayTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3b0decc78f0b84ee74120b44cdd5f5be",
+      "stadium": {
+        "address": "Sulechów, 32-010",
+        "venue": "UKS Zawisza Sulechów",
+        "geo": {
+          "latitude": 50.1287866,
+          "longitude": 20.0913457,
+          "name": "UKS Zawisza Sulechów, Sulechów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "awayTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3c4dd1a491bc4ca7fa0c4c59cba9a817",
+      "stadium": {
+        "address": "Niwy, Kraków (Zabłocie)",
+        "venue": "SKS Podgórze",
+        "geo": {
+          "latitude": 50.0473889,
+          "longitude": 19.9680835,
+          "name": "SKS Podgórze, Niwy, Zabłocie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "awayTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8ff6bd064c160fe3bd25e7d780635575",
+      "stadium": {
+        "address": "Mikołaja Reja 4, Książ Wielki",
+        "venue": "Stadion SKS Jastrzębiec Książ Wielki",
+        "geo": {
+          "latitude": 50.4422095,
+          "longitude": 20.1467782,
+          "name": "Stadion SKS Jastrzębiec, Mikołaja Reja, Książ Wielki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "awayTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "73397257df4018f360b07470c2b1f928",
+      "stadium": {
+        "address": "Wawrzeńczyce 406, Wawrzeńczyce",
+        "venue": "KS Nowa Wawrzynianka",
+        "geo": {
+          "latitude": 50.1114171,
+          "longitude": 20.2967605,
+          "name": "Boisko Sportowe KS Nowa Wawrzynianka, Wawrzeńczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "TS Węgrzce"
+      },
+      "awayTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d4b433cde1a05206a6909da986c966b3",
+      "stadium": {
+        "address": "B5 1, Węgrzce",
+        "venue": "TS Węgrzce",
+        "geo": {
+          "latitude": 50.11439433415371,
+          "longitude": 19.983401390751634,
+          "name": "TS Węgrzce, B5, Węgrzce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "awayTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a33bdfb1461679b1999016d43bfdd936",
+      "stadium": {
+        "address": "Dziadówki Prandockie 772, Prandocin",
+        "venue": "LKS Juvenia Prandocin",
+        "geo": {
+          "latitude": 50.2635451,
+          "longitude": 20.0938682,
+          "name": "LKS Juvenia Prandocin, Dziadówki Prandockie, Prandocin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "awayTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9dcbdf88801ccbb7e6d0f39c49017640",
+      "stadium": {
+        "address": "Wrzosy 3, Modlniczka",
+        "venue": "Boisko Sportowiec Modlniczka",
+        "geo": {
+          "latitude": 50.1139604,
+          "longitude": 19.8599683,
+          "name": "Boisko Sportowiec Modlniczka, Wrzosy, Modlniczka"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "awayTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b257ac3a8a31413a7b51841014ef108a",
+      "stadium": {
+        "address": "Sportowa 2, Bibice",
+        "venue": "Boisko Sportowe Bibiczanka Bibice",
+        "geo": {
+          "latitude": 50.1365466,
+          "longitude": 19.9531023,
+          "name": "Boisko Sportowe Bibiczanka Bibice, Sportowa, Bibice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "awayTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2dc8ac3c871f142afa2cb93188ffdbc7",
+      "stadium": {
+        "address": "Sulechów, 32-010",
+        "venue": "UKS Zawisza Sulechów",
+        "geo": {
+          "latitude": 50.1287866,
+          "longitude": 20.0913457,
+          "name": "UKS Zawisza Sulechów, Sulechów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "awayTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "643cea8fef738828d9e84fd9603c8d10",
+      "stadium": {
+        "address": "Niwy, Kraków (Zabłocie)",
+        "venue": "SKS Podgórze",
+        "geo": {
+          "latitude": 50.0473889,
+          "longitude": 19.9680835,
+          "name": "SKS Podgórze, Niwy, Zabłocie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "awayTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ae114d0d97c61023029d6449e1fd417a",
+      "stadium": {
+        "address": "Mikołaja Reja 4, Książ Wielki",
+        "venue": "Stadion SKS Jastrzębiec Książ Wielki",
+        "geo": {
+          "latitude": 50.4422095,
+          "longitude": 20.1467782,
+          "name": "Stadion SKS Jastrzębiec, Mikołaja Reja, Książ Wielki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "awayTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "fb0402dba73dacc0412a33f824984d49",
+      "stadium": {
+        "address": "Wawrzeńczyce 406, Wawrzeńczyce",
+        "venue": "KS Nowa Wawrzynianka",
+        "geo": {
+          "latitude": 50.1114171,
+          "longitude": 20.2967605,
+          "name": "Boisko Sportowe KS Nowa Wawrzynianka, Wawrzeńczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "TS Węgrzce"
+      },
+      "awayTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f4d7e221732cf92c8e84f9dac106ce5a",
+      "stadium": {
+        "address": "B5 1, Węgrzce",
+        "venue": "TS Węgrzce",
+        "geo": {
+          "latitude": 50.11439433415371,
+          "longitude": 19.983401390751634,
+          "name": "TS Węgrzce, B5, Węgrzce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "awayTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "207073dcc0ca915207ea03269b5c2547",
+      "stadium": {
+        "address": "Świętego Floriana, Łuczyce",
+        "venue": "Boisko LKS Kosynierzy Łuczyce",
+        "geo": {
+          "latitude": 50.1629476,
+          "longitude": 20.0852859,
+          "name": "Boisko LKS Kosynierzy Łuczyce, Świętego Floriana, Łuczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "awayTeam": {
+        "name": "TS Węgrzce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6f4bf2bd4c5246c1d353a1db304e5d09",
+      "stadium": {
+        "address": "Dojazdów, 32-010",
+        "venue": "KS Partyzant Dojazdów",
+        "geo": {
+          "latitude": 50.120026,
+          "longitude": 20.1135715,
+          "name": "KS Partyzant Dojazdów, Dojazdów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "awayTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "832fe31036b811db7852cc702dfc994f",
+      "stadium": {
+        "address": "Tadeusza Kościuszki, Koszyce",
+        "venue": "KS Szreniawa Koszyce",
+        "geo": {
+          "latitude": 50.1641154,
+          "longitude": 20.5703695,
+          "name": "KS Szreniawa Koszyce, Tadeusza Kościuszki, Koszyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "awayTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4ead3dc5e24a023dc9060d6c4d399c54",
+      "stadium": {
+        "address": "Grzegorzowice Wielkie, 32-095 Iwanowice",
+        "venue": "Boisko Sportowe Czarni 03 Grzegorzowice",
+        "geo": {
+          "latitude": 50.2563841,
+          "longitude": 19.9492529,
+          "name": "Boisko Sportowe Czarni 03 Grzegorzowice, Grzegorzowice Wielkie"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "awayTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bc32b11b313c8c2696b9cd8222a5bad4",
+      "stadium": {
+        "address": "Sportowa 19, Modlnica",
+        "venue": "LKS Błękitni Modlnica",
+        "geo": {
+          "latitude": 50.1278376,
+          "longitude": 19.8600676,
+          "name": "Ludowy Klub Sportowy Błękitni Modlnica, Sportowa, Modlnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "awayTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8d7bfd8f8d3f862d11ebd1009e967092",
+      "stadium": {
+        "address": "Jana Długosza, Raciborowice",
+        "venue": "LKS Galicja Raciborowice",
+        "geo": {
+          "latitude": 50.1147747,
+          "longitude": 20.0299922,
+          "name": "Ludowy Klub Sportowy Galicja Raciborowice, Raciborowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "awayTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "96fd0e6dedd85a712092abc4e6abc88b",
+      "stadium": {
+        "address": "Wrzosy 3, Modlniczka",
+        "venue": "Boisko Sportowiec Modlniczka",
+        "geo": {
+          "latitude": 50.1139604,
+          "longitude": 19.8599683,
+          "name": "Boisko Sportowiec Modlniczka, Wrzosy, Modlniczka"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "awayTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "60317a95a1290f4a0a641da0ca586de8",
+      "stadium": {
+        "address": "Świętego Floriana, Łuczyce",
+        "venue": "Boisko LKS Kosynierzy Łuczyce",
+        "geo": {
+          "latitude": 50.1629476,
+          "longitude": 20.0852859,
+          "name": "Boisko LKS Kosynierzy Łuczyce, Świętego Floriana, Łuczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "awayTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ce41f13fe68c64e6a2a0d3cce5c6abb3",
+      "stadium": {
+        "address": "Tadeusza Kościuszki, Koszyce",
+        "venue": "KS Szreniawa Koszyce",
+        "geo": {
+          "latitude": 50.1641154,
+          "longitude": 20.5703695,
+          "name": "KS Szreniawa Koszyce, Tadeusza Kościuszki, Koszyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "awayTeam": {
+        "name": "TS Węgrzce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f6dce81b8c6842e03c1d9782f1284095",
+      "stadium": {
+        "address": "Grzegorzowice Wielkie, 32-095 Iwanowice",
+        "venue": "Boisko Sportowe Czarni 03 Grzegorzowice",
+        "geo": {
+          "latitude": 50.2563841,
+          "longitude": 19.9492529,
+          "name": "Boisko Sportowe Czarni 03 Grzegorzowice, Grzegorzowice Wielkie"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "awayTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b020354a4da327517baf38170cbac00a",
+      "stadium": {
+        "address": "Sportowa 19, Modlnica",
+        "venue": "LKS Błękitni Modlnica",
+        "geo": {
+          "latitude": 50.1278376,
+          "longitude": 19.8600676,
+          "name": "Ludowy Klub Sportowy Błękitni Modlnica, Sportowa, Modlnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "awayTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6803aeee158a4631332876cfbb91f9fe",
+      "stadium": {
+        "address": "Jana Długosza, Raciborowice",
+        "venue": "LKS Galicja Raciborowice",
+        "geo": {
+          "latitude": 50.1147747,
+          "longitude": 20.0299922,
+          "name": "Ludowy Klub Sportowy Galicja Raciborowice, Raciborowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "awayTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "51207c76ae3568518544fb0708f9281f",
+      "stadium": {
+        "address": "Wrzosy 3, Modlniczka",
+        "venue": "Boisko Sportowiec Modlniczka",
+        "geo": {
+          "latitude": 50.1139604,
+          "longitude": 19.8599683,
+          "name": "Boisko Sportowiec Modlniczka, Wrzosy, Modlniczka"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "awayTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e7d79d202d82554e5491747e147ae194",
+      "stadium": {
+        "address": "Sportowa 2, Bibice",
+        "venue": "Boisko Sportowe Bibiczanka Bibice",
+        "geo": {
+          "latitude": 50.1365466,
+          "longitude": 19.9531023,
+          "name": "Boisko Sportowe Bibiczanka Bibice, Sportowa, Bibice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sulechów"
+      },
+      "awayTeam": {
+        "name": "Kosynierzy Łuczyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ae0f6496b6a72bb4231ae335c6b783f8",
+      "stadium": {
+        "address": "Sulechów, 32-010",
+        "venue": "UKS Zawisza Sulechów",
+        "geo": {
+          "latitude": 50.1287866,
+          "longitude": 20.0913457,
+          "name": "UKS Zawisza Sulechów, Sulechów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Podgórze Kraków"
+      },
+      "awayTeam": {
+        "name": "Bibiczanka Bibice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "598f06d6864c11d2d25187ce2e6311aa",
+      "stadium": {
+        "address": "Niwy, Kraków (Zabłocie)",
+        "venue": "SKS Podgórze",
+        "geo": {
+          "latitude": 50.0473889,
+          "longitude": 19.9680835,
+          "name": "SKS Podgórze, Niwy, Zabłocie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębiec Książ Wielki"
+      },
+      "awayTeam": {
+        "name": "Sportowiec Modlniczka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "53cbe4729c589192f561fd871d23c8f5",
+      "stadium": {
+        "address": "Mikołaja Reja 4, Książ Wielki",
+        "venue": "Stadion SKS Jastrzębiec Książ Wielki",
+        "geo": {
+          "latitude": 50.4422095,
+          "longitude": 20.1467782,
+          "name": "Stadion SKS Jastrzębiec, Mikołaja Reja, Książ Wielki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Wawrzynianka Wawrzeńczyce"
+      },
+      "awayTeam": {
+        "name": "Galicja Raciborowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "628fbb8987c176daad47dd57cb5568ad",
+      "stadium": {
+        "address": "Wawrzeńczyce 406, Wawrzeńczyce",
+        "venue": "KS Nowa Wawrzynianka",
+        "geo": {
+          "latitude": 50.1114171,
+          "longitude": 20.2967605,
+          "name": "Boisko Sportowe KS Nowa Wawrzynianka, Wawrzeńczyce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "TS Węgrzce"
+      },
+      "awayTeam": {
+        "name": "Błękitni II Modlnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0ddb4abe0846fbe67e0d76a09f90bf9a",
+      "stadium": {
+        "address": "B5 1, Węgrzce",
+        "venue": "TS Węgrzce",
+        "geo": {
+          "latitude": 50.11439433415371,
+          "longitude": 19.983401390751634,
+          "name": "TS Węgrzce, B5, Węgrzce"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Juvenia Prandocin"
+      },
+      "awayTeam": {
+        "name": "Czarni 03 Grzegorzowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "38264bb0de90ac93721e87dd525c4adf",
+      "stadium": {
+        "address": "Dziadówki Prandockie 772, Prandocin",
+        "venue": "LKS Juvenia Prandocin",
+        "geo": {
+          "latitude": 50.2635451,
+          "longitude": 20.0938682,
+          "name": "LKS Juvenia Prandocin, Dziadówki Prandockie, Prandocin"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow I)"
+      },
+      "homeTeam": {
+        "name": "Partyzant Dojazdów"
+      },
+      "awayTeam": {
+        "name": "Szreniawa Koszyce"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "cf47bf63721dad7fac597ceef40a4a11",
+      "stadium": {
+        "address": "Dojazdów, 32-010",
+        "venue": "KS Partyzant Dojazdów",
+        "geo": {
+          "latitude": 50.120026,
+          "longitude": 20.1135715,
+          "name": "KS Partyzant Dojazdów, Dojazdów"
         }
       }
     }

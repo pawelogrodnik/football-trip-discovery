@@ -1,157 +1,24 @@
 {
   "competitionName": "Klasa A (Krakow II)",
-  "count": 8,
+  "count": 72,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tęcza Piekary",
-        "crest": null
+        "name": "Kmita II Zabierzów"
       },
       "awayTeam": {
-        "name": "Zieleńczanka II Zielonki",
-        "crest": null
+        "name": "Pogoń II Skotniki (Kraków)"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
-      },
-      "id": "f017eb0b384167814b0be728b720ad39",
-      "stadium": {
-        "address": null,
-        "venue": "LKS Tęcza Piekary",
-        "geo": {
-          "latitude": 50.023618670270345,
-          "longitude": 19.798440902136306,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Gwiazda Ściejowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lotnik Kryspinów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "5e7614e17f8e82bb090b5e4b18084069",
-      "stadium": {
-        "address": "Ściejowice 260, 32-060 Liszki",
-        "venue": "Boisko Sportowe LKS Gwiazda Ściejowice",
-        "geo": {
-          "latitude": 50.0004234,
-          "longitude": 19.7838323,
-          "name": "Boisko Sportowe LKS Gwiazda Ściejowice, Ściejowice"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Sokół Rybna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisła Rząska",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "8a4f3ec6aaac9b3bee66c5ce9b41e6a2",
-      "stadium": {
-        "address": "Liliowa, Rybna",
-        "venue": "LKS Sokół Rybna",
-        "geo": {
-          "latitude": 50.0383653,
-          "longitude": 19.6363134,
-          "name": "LKS Sokół Rybna, Liliowa, Rybna"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Potok Więckowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Fairant Kraków",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "7f54663e2d2e139a5b2057f8b70a6f25",
-      "stadium": {
-        "address": "Sportowa 1, Więckowice",
-        "venue": "Stadion LKS Potok Więckowice",
-        "geo": {
-          "latitude": 50.1312006,
-          "longitude": 19.7607128,
-          "name": "Stadion LKS Potok Więckowice, Sportowa, Więckowice"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Start Kamień",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orlęta Rudawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "2bbbdeb27c5834481bb2e472438919b5",
-      "stadium": {
-        "address": "Sportowa 1, Kamień",
-        "venue": "Stadion LKS Start Kamień",
-        "geo": {
-          "latitude": 50.0157837,
-          "longitude": 19.590038,
-          "name": "Stadion LKS Start Kamień, Sportowa, Kamień"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Kmita II Zabierzów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+        "dateTime": "2026-09-06T12:00:00.000Z"
       },
       "id": "1724ab5d816ee7392d3451b1e52a20fb",
       "stadium": {
@@ -169,16 +36,18 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Radwanowice",
-        "crest": null
+        "name": "Iskra Radwanowice"
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna",
-        "crest": null
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "dateTime": "2026-09-06T14:00:00.000Z"
       },
       "id": "60b149af835fda4ac834964fde32211d",
       "stadium": {
@@ -196,16 +65,1923 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Sokół Rybna",
-        "crest": null
+        "name": "Pogoń II Skotniki (Kraków)"
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna",
-        "crest": null
+        "name": "Lotnik Kryspinów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "7410e7ac8a25da3411031ab9bc3bc8f5",
+      "stadium": {
+        "venue": "Stadion Pogoń Skotniki",
+        "address": "Szczawnicka 5, Kraków",
+        "geo": {
+          "latitude": 50.007448752321565,
+          "longitude": 19.877624518052
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "awayTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T09:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T09:30:00.000Z"
+      },
+      "id": "c1513b9504e8f6576b6bf73898b6ca44",
+      "stadium": {
+        "address": "Do Cegielni, Zielonki",
+        "venue": "Stadion LKS Zieleńczanka",
+        "geo": {
+          "latitude": 50.1161547,
+          "longitude": 19.9267891,
+          "name": "Stadion LKS Zieleńczanka, Do Cegielni, Zielonki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "awayTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "4ca7a26baa0b337fa97f048258656df2",
+      "stadium": {
+        "address": null,
+        "venue": "Orlęta Rudawa",
+        "geo": {
+          "latitude": 50.11607460354288,
+          "longitude": 19.713081058864724,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Rząska"
+      },
+      "awayTeam": {
+        "name": "Potok Więckowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "b9e99eb874e33583b8ec21251b2ddae1",
+      "stadium": {
+        "address": "Wapienna 19A, Rząska",
+        "venue": "Stadion LKS Wisła Rząska",
+        "geo": {
+          "latitude": 50.1003742,
+          "longitude": 19.8249152,
+          "name": "Ludowy Klub Sportowy Wisła Rząska, Wapienna, Rząska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "awayTeam": {
+        "name": "Sokół Rybna"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "ebdccfe003fa4453645967411e437164",
+      "stadium": {
+        "address": "Sportowa, Zabierzów",
+        "venue": "LKS Kmita Zabierzów",
+        "geo": {
+          "latitude": 50.1174162,
+          "longitude": 19.7971222,
+          "name": "LKS Kmita Zabierzów, Sportowa, Zabierzów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "awayTeam": {
+        "name": "Start Kamień"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "ee5aa32c3d4311f113a7db5a08e14007",
+      "stadium": {
+        "address": "Rączna 757, 32-060 Liszki",
+        "venue": "Cracovia Training Center",
+        "geo": {
+          "latitude": 50.0014771,
+          "longitude": 19.7667605,
+          "name": "Cracovia Training Center, Rączna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Fairant Kraków"
+      },
+      "awayTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "89fa0d2e4671103be08f79cefcb65237",
+      "stadium": {
+        "address": "Zarzecze, Kraków",
+        "venue": "KS Bronowianka",
+        "geo": {
+          "latitude": 50.0753542,
+          "longitude": 19.8822955,
+          "name": "Bronowianka, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Rybna"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0aa53dda7f62c833a6a7bcf889ac69d7",
+      "stadium": {
+        "address": "Liliowa, Rybna",
+        "venue": "LKS Sokół Rybna",
+        "geo": {
+          "latitude": 50.0383653,
+          "longitude": 19.6363134,
+          "name": "LKS Sokół Rybna, Liliowa, Rybna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Potok Więckowice"
+      },
+      "awayTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "496ff8ae15fbd3f8df69ab1a546363e0",
+      "stadium": {
+        "address": "Sportowa 1, Więckowice",
+        "venue": "Stadion LKS Potok Więckowice",
+        "geo": {
+          "latitude": 50.1312006,
+          "longitude": 19.7607128,
+          "name": "Stadion LKS Potok Więckowice, Sportowa, Więckowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "awayTeam": {
+        "name": "Wisła Rząska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "098c11d0c0571f32dceb240c1f6d2826",
+      "stadium": {
+        "address": "Radwanowice, 32-064",
+        "venue": "Boisko Sportowe KS Iskra Radwanowice",
+        "geo": {
+          "latitude": 50.1506557,
+          "longitude": 19.7037239,
+          "name": "Boisko Sportowe KS Iskra Radwanowice, Radwanowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Start Kamień"
+      },
+      "awayTeam": {
+        "name": "Fairant Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c3afb457cc9d36c3807e682fcc4cdf47",
+      "stadium": {
+        "address": "Sportowa 1, Kamień",
+        "venue": "Stadion LKS Start Kamień",
+        "geo": {
+          "latitude": 50.0157837,
+          "longitude": 19.590038,
+          "name": "Stadion LKS Start Kamień, Sportowa, Kamień"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "89a97328e1ed5c13cb5bbc34027bee30",
+      "stadium": {
+        "address": null,
+        "venue": "LKS Tęcza Piekary",
+        "geo": {
+          "latitude": 50.023618670270345,
+          "longitude": 19.798440902136306,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "awayTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3b756e11dba790224c1dce2196eb3ab7",
+      "stadium": {
+        "address": "Ściejowice 260, 32-060 Liszki",
+        "venue": "Boisko Sportowe LKS Gwiazda Ściejowice",
+        "geo": {
+          "latitude": 50.0004234,
+          "longitude": 19.7838323,
+          "name": "Boisko Sportowe LKS Gwiazda Ściejowice, Ściejowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f9602c00fe80eea22901cfc2213b71e6",
+      "stadium": {
+        "address": "Kryspinów 47, 32-060 Liszki",
+        "venue": "Stadion LKS Lotnik Kryspinów",
+        "geo": {
+          "latitude": 50.041557,
+          "longitude": 19.7930008,
+          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8359106c48c3435072c0e74f00253d54",
+      "stadium": {
+        "venue": "Stadion Pogoń Skotniki",
+        "address": "Szczawnicka 5, Kraków",
+        "geo": {
+          "latitude": 50.007448752321565,
+          "longitude": 19.877624518052
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "awayTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8fe82300c8be2b5aa61ed3eca94423c3",
+      "stadium": {
+        "address": null,
+        "venue": "Orlęta Rudawa",
+        "geo": {
+          "latitude": 50.11607460354288,
+          "longitude": 19.713081058864724,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "awayTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c7c76f4b2a28c2730d6c2f62d5dce44c",
+      "stadium": {
+        "address": "Rączna 757, 32-060 Liszki",
+        "venue": "Cracovia Training Center",
+        "geo": {
+          "latitude": 50.0014771,
+          "longitude": 19.7667605,
+          "name": "Cracovia Training Center, Rączna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Fairant Kraków"
+      },
+      "awayTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "47814bc7c50b8dbd65e21b5fc59c680f",
+      "stadium": {
+        "address": "Zarzecze, Kraków",
+        "venue": "KS Bronowianka",
+        "geo": {
+          "latitude": 50.0753542,
+          "longitude": 19.8822955,
+          "name": "Bronowianka, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Rząska"
+      },
+      "awayTeam": {
+        "name": "Start Kamień"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "18aea1b71117f4166e7db0f17d9269bd",
+      "stadium": {
+        "address": "Wapienna 19A, Rząska",
+        "venue": "Stadion LKS Wisła Rząska",
+        "geo": {
+          "latitude": 50.1003742,
+          "longitude": 19.8249152,
+          "name": "Ludowy Klub Sportowy Wisła Rząska, Wapienna, Rząska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "awayTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2bff917a9be4c9f294f01aa3a6691d4f",
+      "stadium": {
+        "address": "Sportowa, Zabierzów",
+        "venue": "LKS Kmita Zabierzów",
+        "geo": {
+          "latitude": 50.1174162,
+          "longitude": 19.7971222,
+          "name": "LKS Kmita Zabierzów, Sportowa, Zabierzów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Rybna"
+      },
+      "awayTeam": {
+        "name": "Potok Więckowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fc4abfbad8077c75549f6e7f0d524890",
+      "stadium": {
+        "address": "Liliowa, Rybna",
+        "venue": "LKS Sokół Rybna",
+        "geo": {
+          "latitude": 50.0383653,
+          "longitude": 19.6363134,
+          "name": "LKS Sokół Rybna, Liliowa, Rybna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Potok Więckowice"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "423250bf23b87323e867871b223b87c6",
+      "stadium": {
+        "address": "Sportowa 1, Więckowice",
+        "venue": "Stadion LKS Potok Więckowice",
+        "geo": {
+          "latitude": 50.1312006,
+          "longitude": 19.7607128,
+          "name": "Stadion LKS Potok Więckowice, Sportowa, Więckowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "awayTeam": {
+        "name": "Sokół Rybna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a06fc528da50844eb7ac6e7b679ac813",
+      "stadium": {
+        "address": "Radwanowice, 32-064",
+        "venue": "Boisko Sportowe KS Iskra Radwanowice",
+        "geo": {
+          "latitude": 50.1506557,
+          "longitude": 19.7037239,
+          "name": "Boisko Sportowe KS Iskra Radwanowice, Radwanowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Start Kamień"
+      },
+      "awayTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2615a859ed7ca82c1f024b2a141cad6e",
+      "stadium": {
+        "address": "Sportowa 1, Kamień",
+        "venue": "Stadion LKS Start Kamień",
+        "geo": {
+          "latitude": 50.0157837,
+          "longitude": 19.590038,
+          "name": "Stadion LKS Start Kamień, Sportowa, Kamień"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "awayTeam": {
+        "name": "Wisła Rząska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d65c3c0420e8c2acf4ba9d9c407f0674",
+      "stadium": {
+        "address": null,
+        "venue": "LKS Tęcza Piekary",
+        "geo": {
+          "latitude": 50.023618670270345,
+          "longitude": 19.798440902136306,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "awayTeam": {
+        "name": "Fairant Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e3be21882422a2e3d2bf4d8cdad8835d",
+      "stadium": {
+        "address": "Ściejowice 260, 32-060 Liszki",
+        "venue": "Boisko Sportowe LKS Gwiazda Ściejowice",
+        "geo": {
+          "latitude": 50.0004234,
+          "longitude": 19.7838323,
+          "name": "Boisko Sportowe LKS Gwiazda Ściejowice, Ściejowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "00848bbfbfe6cdf36e44f5b5bb835a4a",
+      "stadium": {
+        "address": "Kryspinów 47, 32-060 Liszki",
+        "venue": "Stadion LKS Lotnik Kryspinów",
+        "geo": {
+          "latitude": 50.041557,
+          "longitude": 19.7930008,
+          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "awayTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ed41fab9679fdec4ee85cafc92ba7a3c",
+      "stadium": {
+        "address": "Do Cegielni, Zielonki",
+        "venue": "Stadion LKS Zieleńczanka",
+        "geo": {
+          "latitude": 50.1161547,
+          "longitude": 19.9267891,
+          "name": "Stadion LKS Zieleńczanka, Do Cegielni, Zielonki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d16e0d54870a9d516c9250b95492a509",
+      "stadium": {
+        "venue": "Stadion Pogoń Skotniki",
+        "address": "Szczawnicka 5, Kraków",
+        "geo": {
+          "latitude": 50.007448752321565,
+          "longitude": 19.877624518052
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "14d75cc1a4d698a56efecdc830715039",
+      "stadium": {
+        "address": "Rączna 757, 32-060 Liszki",
+        "venue": "Cracovia Training Center",
+        "geo": {
+          "latitude": 50.0014771,
+          "longitude": 19.7667605,
+          "name": "Cracovia Training Center, Rączna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Fairant Kraków"
+      },
+      "awayTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e05bfe6c622027bb870e21d1ebd4196c",
+      "stadium": {
+        "address": "Zarzecze, Kraków",
+        "venue": "KS Bronowianka",
+        "geo": {
+          "latitude": 50.0753542,
+          "longitude": 19.8822955,
+          "name": "Bronowianka, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Rząska"
+      },
+      "awayTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "837a0e60d3dda5e27d0736e9ce5ca5ca",
+      "stadium": {
+        "address": "Wapienna 19A, Rząska",
+        "venue": "Stadion LKS Wisła Rząska",
+        "geo": {
+          "latitude": 50.1003742,
+          "longitude": 19.8249152,
+          "name": "Ludowy Klub Sportowy Wisła Rząska, Wapienna, Rząska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "awayTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f7944e5b222a1938d1c3842eebf9ac5f",
+      "stadium": {
+        "address": "Sportowa, Zabierzów",
+        "venue": "LKS Kmita Zabierzów",
+        "geo": {
+          "latitude": 50.1174162,
+          "longitude": 19.7971222,
+          "name": "LKS Kmita Zabierzów, Sportowa, Zabierzów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Rybna"
+      },
+      "awayTeam": {
+        "name": "Start Kamień"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d792bd3ba703edda71a5bf9781104c8e",
+      "stadium": {
+        "address": "Liliowa, Rybna",
+        "venue": "LKS Sokół Rybna",
+        "geo": {
+          "latitude": 50.0383653,
+          "longitude": 19.6363134,
+          "name": "LKS Sokół Rybna, Liliowa, Rybna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Potok Więckowice"
+      },
+      "awayTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0933033af42d494cba4838da055490d1",
+      "stadium": {
+        "address": "Sportowa 1, Więckowice",
+        "venue": "Stadion LKS Potok Więckowice",
+        "geo": {
+          "latitude": 50.1312006,
+          "longitude": 19.7607128,
+          "name": "Stadion LKS Potok Więckowice, Sportowa, Więckowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Start Kamień"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7bf60d2a02df1ad213a703393be40b9d",
+      "stadium": {
+        "address": "Sportowa 1, Kamień",
+        "venue": "Stadion LKS Start Kamień",
+        "geo": {
+          "latitude": 50.0157837,
+          "longitude": 19.590038,
+          "name": "Stadion LKS Start Kamień, Sportowa, Kamień"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "awayTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e7f3a618538e60bd267f0446706d57ef",
+      "stadium": {
+        "address": null,
+        "venue": "LKS Tęcza Piekary",
+        "geo": {
+          "latitude": 50.023618670270345,
+          "longitude": 19.798440902136306,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "awayTeam": {
+        "name": "Potok Więckowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c5deb5c9f2a481147681180ea5e8af9a",
+      "stadium": {
+        "address": "Ściejowice 260, 32-060 Liszki",
+        "venue": "Boisko Sportowe LKS Gwiazda Ściejowice",
+        "geo": {
+          "latitude": 50.0004234,
+          "longitude": 19.7838323,
+          "name": "Boisko Sportowe LKS Gwiazda Ściejowice, Ściejowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "awayTeam": {
+        "name": "Sokół Rybna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "dbd0e681b4b8ebe514e419c280cfc7d2",
+      "stadium": {
+        "address": "Kryspinów 47, 32-060 Liszki",
+        "venue": "Stadion LKS Lotnik Kryspinów",
+        "geo": {
+          "latitude": 50.041557,
+          "longitude": 19.7930008,
+          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "awayTeam": {
+        "name": "Wisła Rząska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "83f77cb86c767b96d6558abfb09080d4",
+      "stadium": {
+        "address": null,
+        "venue": "Orlęta Rudawa",
+        "geo": {
+          "latitude": 50.11607460354288,
+          "longitude": 19.713081058864724,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "awayTeam": {
+        "name": "Fairant Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2bbdbafa6d4f81e9d50a4ab67bd7da7b",
+      "stadium": {
+        "address": "Rączna 757, 32-060 Liszki",
+        "venue": "Cracovia Training Center",
+        "geo": {
+          "latitude": 50.0014771,
+          "longitude": 19.7667605,
+          "name": "Cracovia Training Center, Rączna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6055fe9075e053d998139a910123803d",
+      "stadium": {
+        "address": "Radwanowice, 32-064",
+        "venue": "Boisko Sportowe KS Iskra Radwanowice",
+        "geo": {
+          "latitude": 50.1506557,
+          "longitude": 19.7037239,
+          "name": "Boisko Sportowe KS Iskra Radwanowice, Radwanowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Start Kamień"
+      },
+      "awayTeam": {
+        "name": "Potok Więckowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "73cff8b35b063499e31c0a421711f1e2",
+      "stadium": {
+        "address": "Sportowa 1, Kamień",
+        "venue": "Stadion LKS Start Kamień",
+        "geo": {
+          "latitude": 50.0157837,
+          "longitude": 19.590038,
+          "name": "Stadion LKS Start Kamień, Sportowa, Kamień"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "awayTeam": {
+        "name": "Sokół Rybna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "71ee6169cd5653b5518e7cd590d9ce95",
+      "stadium": {
+        "address": null,
+        "venue": "LKS Tęcza Piekary",
+        "geo": {
+          "latitude": 50.023618670270345,
+          "longitude": 19.798440902136306,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "awayTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "59f797b9880e48471316fd3bfdef1c95",
+      "stadium": {
+        "address": "Ściejowice 260, 32-060 Liszki",
+        "venue": "Boisko Sportowe LKS Gwiazda Ściejowice",
+        "geo": {
+          "latitude": 50.0004234,
+          "longitude": 19.7838323,
+          "name": "Boisko Sportowe LKS Gwiazda Ściejowice, Ściejowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "awayTeam": {
+        "name": "Wisła Rząska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7d0a0431c3db0aa51b546e608dcf855b",
+      "stadium": {
+        "address": "Kryspinów 47, 32-060 Liszki",
+        "venue": "Stadion LKS Lotnik Kryspinów",
+        "geo": {
+          "latitude": 50.041557,
+          "longitude": 19.7930008,
+          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "awayTeam": {
+        "name": "Fairant Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b59b62e25f4a30591295adaecf6fbe77",
+      "stadium": {
+        "address": "Do Cegielni, Zielonki",
+        "venue": "Stadion LKS Zieleńczanka",
+        "geo": {
+          "latitude": 50.1161547,
+          "longitude": 19.9267891,
+          "name": "Stadion LKS Zieleńczanka, Do Cegielni, Zielonki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0a482ebab7bcdc8f35af9f3a9de9a128",
+      "stadium": {
+        "address": null,
+        "venue": "Orlęta Rudawa",
+        "geo": {
+          "latitude": 50.11607460354288,
+          "longitude": 19.713081058864724,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "417445ee3876ec2adc3e88b88a61902b",
+      "stadium": {
+        "venue": "Stadion Pogoń Skotniki",
+        "address": "Szczawnicka 5, Kraków",
+        "geo": {
+          "latitude": 50.007448752321565,
+          "longitude": 19.877624518052
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Fairant Kraków"
+      },
+      "awayTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bfcff83608535f045f98e1ec146a32f3",
+      "stadium": {
+        "address": "Zarzecze, Kraków",
+        "venue": "KS Bronowianka",
+        "geo": {
+          "latitude": 50.0753542,
+          "longitude": 19.8822955,
+          "name": "Bronowianka, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Rząska"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d3d377ee5d295cf033cfff203ac4a1a3",
+      "stadium": {
+        "address": "Wapienna 19A, Rząska",
+        "venue": "Stadion LKS Wisła Rząska",
+        "geo": {
+          "latitude": 50.1003742,
+          "longitude": 19.8249152,
+          "name": "Ludowy Klub Sportowy Wisła Rząska, Wapienna, Rząska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "awayTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1bcc024c18751cbe4650ecb66610775a",
+      "stadium": {
+        "address": "Sportowa, Zabierzów",
+        "venue": "LKS Kmita Zabierzów",
+        "geo": {
+          "latitude": 50.1174162,
+          "longitude": 19.7971222,
+          "name": "LKS Kmita Zabierzów, Sportowa, Zabierzów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Rybna"
+      },
+      "awayTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2d363bc2bde2e6a85dcc412f7aea3760",
+      "stadium": {
+        "address": "Liliowa, Rybna",
+        "venue": "LKS Sokół Rybna",
+        "geo": {
+          "latitude": 50.0383653,
+          "longitude": 19.6363134,
+          "name": "LKS Sokół Rybna, Liliowa, Rybna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Potok Więckowice"
+      },
+      "awayTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f13f962791b2b61f07558be67ffbc0eb",
+      "stadium": {
+        "address": "Sportowa 1, Więckowice",
+        "venue": "Stadion LKS Potok Więckowice",
+        "geo": {
+          "latitude": 50.1312006,
+          "longitude": 19.7607128,
+          "name": "Stadion LKS Potok Więckowice, Sportowa, Więckowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "awayTeam": {
+        "name": "Start Kamień"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "512362e319cb5210a083e7abd069b41c",
+      "stadium": {
+        "address": "Radwanowice, 32-064",
+        "venue": "Boisko Sportowe KS Iskra Radwanowice",
+        "geo": {
+          "latitude": 50.1506557,
+          "longitude": 19.7037239,
+          "name": "Boisko Sportowe KS Iskra Radwanowice, Radwanowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "awayTeam": {
+        "name": "Fairant Kraków"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "853cbb77edb7daec9233be0114f268f3",
+      "stadium": {
+        "venue": "Stadion Pogoń Skotniki",
+        "address": "Szczawnicka 5, Kraków",
+        "geo": {
+          "latitude": 50.007448752321565,
+          "longitude": 19.877624518052
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Rząska"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "887035c172128b832ae71cf4122d6230",
+      "stadium": {
+        "address": "Wapienna 19A, Rząska",
+        "venue": "Stadion LKS Wisła Rząska",
+        "geo": {
+          "latitude": 50.1003742,
+          "longitude": 19.8249152,
+          "name": "Ludowy Klub Sportowy Wisła Rząska, Wapienna, Rząska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "awayTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0893a737314f3db19b4d9b13079d2113",
+      "stadium": {
+        "address": "Sportowa, Zabierzów",
+        "venue": "LKS Kmita Zabierzów",
+        "geo": {
+          "latitude": 50.1174162,
+          "longitude": 19.7971222,
+          "name": "LKS Kmita Zabierzów, Sportowa, Zabierzów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Rybna"
+      },
+      "awayTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4544ba9f7e74435e40a7e0f626eee041",
+      "stadium": {
+        "address": "Liliowa, Rybna",
+        "venue": "LKS Sokół Rybna",
+        "geo": {
+          "latitude": 50.0383653,
+          "longitude": 19.6363134,
+          "name": "LKS Sokół Rybna, Liliowa, Rybna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Potok Więckowice"
+      },
+      "awayTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e792700cd22b646cebc5fe2cdd757b6a",
+      "stadium": {
+        "address": "Sportowa 1, Więckowice",
+        "venue": "Stadion LKS Potok Więckowice",
+        "geo": {
+          "latitude": 50.1312006,
+          "longitude": 19.7607128,
+          "name": "Stadion LKS Potok Więckowice, Sportowa, Więckowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "awayTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "686c80221ec2c75458122e918d393619",
+      "stadium": {
+        "address": "Radwanowice, 32-064",
+        "venue": "Boisko Sportowe KS Iskra Radwanowice",
+        "geo": {
+          "latitude": 50.1506557,
+          "longitude": 19.7037239,
+          "name": "Boisko Sportowe KS Iskra Radwanowice, Radwanowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Start Kamień"
+      },
+      "awayTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "418b3b43ac4a986ca1312cef3a888303",
+      "stadium": {
+        "address": "Sportowa 1, Kamień",
+        "venue": "Stadion LKS Start Kamień",
+        "geo": {
+          "latitude": 50.0157837,
+          "longitude": 19.590038,
+          "name": "Stadion LKS Start Kamień, Sportowa, Kamień"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Rybna"
+      },
+      "awayTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-11T12:00:00.000Z"
       },
       "date": {
         "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "dateTime": "2026-11-11T12:00:00.000Z"
       },
       "id": "8cf3868d6877b1b7878f9f5eb0272a0c",
       "stadium": {
@@ -215,6 +1991,223 @@
           "latitude": 50.0383653,
           "longitude": 19.6363134,
           "name": "LKS Sokół Rybna, Liliowa, Rybna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Piekary"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Skotniki (Kraków)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "45a57b5ce584782b4cee0c9dd7cc66f3",
+      "stadium": {
+        "address": null,
+        "venue": "LKS Tęcza Piekary",
+        "geo": {
+          "latitude": 50.023618670270345,
+          "longitude": 19.798440902136306,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Ściejowice"
+      },
+      "awayTeam": {
+        "name": "Start Kamień"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8e2ff46af82d1a78e3f39598d4facbf3",
+      "stadium": {
+        "address": "Ściejowice 260, 32-060 Liszki",
+        "venue": "Boisko Sportowe LKS Gwiazda Ściejowice",
+        "geo": {
+          "latitude": 50.0004234,
+          "longitude": 19.7838323,
+          "name": "Boisko Sportowe LKS Gwiazda Ściejowice, Ściejowice"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Lotnik Kryspinów"
+      },
+      "awayTeam": {
+        "name": "Iskra Radwanowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f9f4b83d658816ceb2cc104146b1f602",
+      "stadium": {
+        "address": "Kryspinów 47, 32-060 Liszki",
+        "venue": "Stadion LKS Lotnik Kryspinów",
+        "geo": {
+          "latitude": 50.041557,
+          "longitude": 19.7930008,
+          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Zieleńczanka II Zielonki"
+      },
+      "awayTeam": {
+        "name": "Potok Więckowice"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "67ae6f06ec3c5bb347fb21f5c6fc170c",
+      "stadium": {
+        "address": "Do Cegielni, Zielonki",
+        "venue": "Stadion LKS Zieleńczanka",
+        "geo": {
+          "latitude": 50.1161547,
+          "longitude": 19.9267891,
+          "name": "Stadion LKS Zieleńczanka, Do Cegielni, Zielonki"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Orlęta Rudawa"
+      },
+      "awayTeam": {
+        "name": "Sokół Rybna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "48a99d3340a4bf3b318b5644d1192f27",
+      "stadium": {
+        "address": null,
+        "venue": "Orlęta Rudawa",
+        "geo": {
+          "latitude": 50.11607460354288,
+          "longitude": 19.713081058864724,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Strażak/Pajda II Rączna"
+      },
+      "awayTeam": {
+        "name": "Kmita II Zabierzów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0d073f301cdaa05baa8e0309bdefee77",
+      "stadium": {
+        "address": "Rączna 757, 32-060 Liszki",
+        "venue": "Cracovia Training Center",
+        "geo": {
+          "latitude": 50.0014771,
+          "longitude": 19.7667605,
+          "name": "Cracovia Training Center, Rączna"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Fairant Kraków"
+      },
+      "awayTeam": {
+        "name": "Wisła Rząska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7d35bd4a312539dae6e66e1d2cd214f9",
+      "stadium": {
+        "address": "Zarzecze, Kraków",
+        "venue": "KS Bronowianka",
+        "geo": {
+          "latitude": 50.0753542,
+          "longitude": 19.8822955,
+          "name": "Bronowianka, Kraków"
         }
       }
     }
