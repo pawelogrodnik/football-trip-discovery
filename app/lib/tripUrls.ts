@@ -1,4 +1,4 @@
-import type { DiscoverTrip } from './discover';
+import { isGenericTripDestinationLabel, type DiscoverTrip } from './discover';
 import {
   FIND_DEFAULT_RADIUS_KM,
   FIND_RADIUS_MAX_KM,
@@ -74,14 +74,6 @@ function venueOf(m: {
   };
 }
 
-function isGenericDestinationLabel(label: string | undefined | null): boolean {
-  if (!label) {
-    return true;
-  }
-  const t = label.trim().toLowerCase();
-  return t === '' || t === 'football trip';
-}
-
 /**
  * Deterministic search area for Discover -> Customize.
  * Centroid of trip venues + max distance + margin, snapped UP to a
@@ -113,7 +105,9 @@ export function deriveFindContextFromTrip(trip: DiscoverTrip): {
   const endDate = trip.tripEndDate ? parseDateOnlyLocal(trip.tripEndDate) : null;
 
   const fallbackLocation: FindLocation = {
-    label: isGenericDestinationLabel(trip.destinationLabel) ? 'Trip area' : trip.destinationLabel,
+    label: isGenericTripDestinationLabel(trip.destinationLabel)
+      ? 'Trip area'
+      : trip.destinationLabel,
     lat: venues.length > 0 ? venues[0].lat : 0,
     lon: venues.length > 0 ? venues[0].lon : 0,
   };
@@ -134,7 +128,7 @@ export function deriveFindContextFromTrip(trip: DiscoverTrip): {
   // Required radius from venue geography, snapped UP to a supported option
   // so no selected venue is ever excluded.
   const radiusKm = snapRadiusUp(Math.ceil((maxDist + 15) / 10) * 10);
-  const label = isGenericDestinationLabel(trip.destinationLabel)
+  const label = isGenericTripDestinationLabel(trip.destinationLabel)
     ? 'Trip area'
     : trip.destinationLabel;
 

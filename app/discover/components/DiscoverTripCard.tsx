@@ -10,7 +10,7 @@ import {
   IconTrophy,
 } from '@tabler/icons-react';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
-import type { DiscoverTrip } from 'lib/discover';
+import { isGenericTripDestinationLabel, type DiscoverTrip } from 'lib/discover';
 import { scheduleCertaintyCounts } from 'lib/matchSchedule';
 import { Badge, Box, Button, Card, Group, Stack, Text, Tooltip } from '@mantine/core';
 import { formatShortRange } from './format';
@@ -174,7 +174,9 @@ export default function DiscoverTripCard({
   // TBC-only trips have no route: hide km metrics instead of showing 0 km.
   const routeKm = trip.matches.length > 0 ? trip.totalKm : Number.NaN;
 
-  const destination = trip.destinationLabel || 'Football trip';
+  const destination = isGenericTripDestinationLabel(trip.destinationLabel)
+    ? t('tripArea')
+    : trip.destinationLabel;
   const datesLine = `${formatShortRange(trip.tripStartDate, trip.tripEndDate, locale)} · ${t('daysOption', { count: trip.tripLengthDays })}${countryLabel ? ` · ${countryLabel}` : ''}`;
   // User-facing certainty: date-confirmed itinerary slots count as TBC.
   const confirmedCount = trip.confirmedCount ?? scheduleCertaintyCounts(trip.matches).confirmed;

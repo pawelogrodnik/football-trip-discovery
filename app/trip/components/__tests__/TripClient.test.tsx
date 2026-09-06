@@ -37,6 +37,7 @@ const messages = {
   },
   TripPage: {
     title: 'Football trip',
+    tripArea: 'Trip area',
     matchCount: '{{count}} matches',
     copyLink: 'Copy link',
     linkCopied: 'Link copied',
@@ -126,15 +127,14 @@ describe('TripClient', () => {
     expect(meta).toContain('2 matches');
   });
 
-  test('single trip header, no checkboxes, trip card family', async () => {
+  test('destination title, no checkboxes, trip card family', async () => {
     mockFetch([
       mkApiMatch('m1', '2026-09-07T15:30:00.000Z'),
       mkApiMatch('m2', '2026-09-07T18:00:00.000Z'),
     ]);
     renderTrip();
     await waitFor(() => expect(screen.getByTestId('trip-match-card-m1')).toBeInTheDocument());
-    // ONE trip header — no duplicate page title
-    expect(screen.getAllByText('Football trip')).toHaveLength(1);
+    expect(screen.getByTestId('trip-title')).toHaveTextContent('Kraków');
     // read-only trip: no selection checkboxes
     expect(screen.queryByRole('checkbox')).toBeNull();
     // shared card language: both crests, competition logo + name, venue
@@ -149,15 +149,11 @@ describe('TripClient', () => {
 
   test('duplicate fixture rows (same id or same event) render once', async () => {
     const base = mkApiMatch('m1', '2026-09-07T15:30:00.000Z');
-    mockFetch([
-      base,
-      { ...base },
-      { ...base, _id: 'm1-alias-form', id: 'm1-alias-form' },
-    ]);
+    mockFetch([base, { ...base }, { ...base, _id: 'm1-alias-form', id: 'm1-alias-form' }]);
     renderTrip();
     await waitFor(() => expect(screen.getByTestId('trip-match-card-m1')).toBeInTheDocument());
     expect(screen.queryByTestId('trip-match-card-m1-alias-form')).toBeNull();
-    expect(screen.getAllByText('Football trip')).toHaveLength(1);
+    expect(screen.getByTestId('trip-title')).toHaveTextContent('Kraków');
     expect(screen.getByTestId('trip-meta').textContent).toContain('1 match');
   });
 

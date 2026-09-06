@@ -49,6 +49,7 @@ const messages = {
   },
   TripPage: {
     title: 'Football trip',
+    tripArea: 'Trip area',
     matchCount: '{{count}} matches',
     copyLink: 'Copy link',
     linkCopied: 'Link copied',

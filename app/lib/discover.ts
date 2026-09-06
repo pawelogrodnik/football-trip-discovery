@@ -198,24 +198,47 @@ type StadiumLike = {
   venue?: string | null;
   name?: string | null;
   address?: string | null;
-  geo?: { latitude?: number; longitude?: number; name?: string | null } | null;
+  geo?: { latitude?: unknown; longitude?: unknown; name?: string | null } | null;
 };
 
-/** Frequency-based destination label from stadium.city. Never parses team names. */
+function localityFromGeoName(name: string | null | undefined): string {
+  const parts = (name ?? '')
+    .split(',')
+    .map((part) => part.trim())
+    .filter(Boolean);
+  if (parts.length < 2) {
+    return '';
+  }
+  const locality = parts[parts.length - 1];
+  // A final number/postcode is not a reliable locality. Never infer from team names.
+  return /\d/.test(locality) ? '' : locality;
+}
+
+function localityOf(stadium: StadiumLike | undefined): string {
+  return (stadium?.city ?? '').trim() || localityFromGeoName(stadium?.geo?.name);
+}
+
+/** True for labels from older shared URLs that lack meaningful destination data. */
+export function isGenericTripDestinationLabel(label: string | null | undefined): boolean {
+  const normalized = (label ?? '').trim().toLowerCase();
+  return !normalized || normalized === 'football trip' || normalized === 'trip area';
+}
+
+/** Frequency-based destination label from reliable venue locality. Never parses team names. */
 export function getTripDestinationLabel(trip: {
   matches: Array<{ stadium?: StadiumLike }>;
 }): string {
   const counts = new Map<string, number>();
   for (const m of trip.matches) {
-    const city = (m.stadium?.city ?? '').trim();
+    const city = localityOf(m.stadium);
     if (!city) {
       continue;
     }
     counts.set(city, (counts.get(city) ?? 0) + 1);
   }
   if (counts.size === 0) {
-    // Last-resort: reliable venue locality is unavailable -> generic label
-    return 'Football trip';
+    // The UI supplies a localized fallback only when locality is truly unavailable.
+    return '';
   }
   const sorted = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
   const total = trip.matches.length;

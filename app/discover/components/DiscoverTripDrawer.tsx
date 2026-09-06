@@ -3,7 +3,7 @@
 import { IconBallFootball, IconBed, IconPencil, IconRoute, IconTrophy } from '@tabler/icons-react';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { isUefaCompetition } from 'lib/competitionPriority';
-import type { DiscoverTrip } from 'lib/discover';
+import { isGenericTripDestinationLabel, type DiscoverTrip } from 'lib/discover';
 import { getFixtureSchedule, scheduleCertaintyCounts } from 'lib/matchSchedule';
 import { Avatar, Badge, Button, Drawer, Group, Stack, Text, Timeline } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
@@ -61,7 +61,11 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
       onClose={onClose}
       position={isMobile ? 'bottom' : 'right'}
       size={isMobile ? '85vh' : 'clamp(380px, 24vw, 440px)'}
-      title={trip ? trip.destinationLabel || 'Football trip' : ''}
+      title={
+        trip && !isGenericTripDestinationLabel(trip.destinationLabel)
+          ? trip.destinationLabel
+          : t('tripArea')
+      }
       withOverlay={false}
       // Above the results dock (1001, portal order wins ties), below the header (1002).
       zIndex={1001}
@@ -94,7 +98,7 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
             )}
           </Group>
           <div className={classes.drawerBaseBox} data-testid="discover-drawer-base">
-            {trip.destinationLabel && trip.destinationLabel !== 'Football trip' ? (
+            {!isGenericTripDestinationLabel(trip.destinationLabel) ? (
               <>
                 <Group gap={6} wrap="nowrap">
                   <IconBed size={16} />
@@ -244,9 +248,6 @@ export default function DiscoverTripDrawer({ trip, onClose, onCustomize }: Props
                   </Group>
                 );
               })}
-              <Text size="xs" c="dimmed">
-                {t('tbcOpportunities', { count: trip.tbcMatches?.length ?? 0 })}
-              </Text>
             </Stack>
           )}
           {onCustomize && (

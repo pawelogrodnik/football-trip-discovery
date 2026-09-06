@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { IconAlertCircle, IconCopy, IconPencil } from '@tabler/icons-react';
 import { useLocale, useTranslations } from 'components/providers/LocaleProvider';
 import { combineAllMatches } from 'lib/combineMatches';
+import { getTripDestinationLabel } from 'lib/discover';
 import { panelViewportInsets } from 'lib/mapViewport';
 import {
   buildFindUrl,
@@ -242,6 +243,10 @@ export default function TripClient() {
   const compactLabel = useMemo(
     () => sharedLocation?.label?.split(',')[0]?.trim() || '',
     [sharedLocation]
+  );
+  const tripTitle = useMemo(
+    () => getTripDestinationLabel({ matches: sortedMatches }) || compactLabel || t('tripArea'),
+    [sortedMatches, compactLabel, t]
   );
   const tripMeta = useMemo(() => {
     const parts = [
@@ -545,8 +550,8 @@ export default function TripClient() {
           data-testid="trip-panel"
         >
           <div className={classes.tripHeader} data-testid="trip-header">
-            <Text fw={700} size="lg" truncate title={compactLabel || undefined}>
-              {t('title')}
+            <Text fw={700} size="lg" truncate title={tripTitle} data-testid="trip-title">
+              {tripTitle}
             </Text>
             <Text size="sm" c="dimmed" mt={2} data-testid="trip-meta">
               {tripMeta}

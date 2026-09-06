@@ -38,10 +38,7 @@ export function formatKickoff(dateTime: string | undefined, locale: string): str
   if (!dateTime) {
     return '';
   }
-  return new Date(dateTime).toLocaleString(locale, {
-    dateStyle: 'medium',
-    timeStyle: 'short',
-  });
+  return new Date(dateTime).toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit' });
 }
 
 export function matchIdOf(m: { _id?: unknown; id?: unknown }): string {

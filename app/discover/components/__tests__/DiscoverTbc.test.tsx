@@ -9,6 +9,7 @@ import {
 } from 'lib/discover';
 import { MantineProvider } from '@mantine/core';
 import DiscoverTripCard from '../DiscoverTripCard';
+import DiscoverTripDrawer from '../DiscoverTripDrawer';
 
 const messages = {
   Discover: {
@@ -20,6 +21,7 @@ const messages = {
     moreTeams: '+{{count}} teams',
     viewTrip: 'View trip',
     topPick: 'Top pick',
+    tripArea: 'Trip area',
     possibleMatches: 'Possible matches',
     tbcOpportunities: '+{{count}} awaiting kickoff',
     confirmedTbc: '{{confirmed}} confirmed · {{tbc}} TBC',
@@ -143,5 +145,30 @@ describe('Discover confirmed-vs-TBC (issue #9)', () => {
     );
     expect(screen.getByTestId('discover-trip-tbc')).toHaveTextContent('+1 awaiting kickoff');
     expect(screen.getByTestId('discover-trip-metrics')).toHaveTextContent('1 confirmed · 1 TBC');
+  });
+
+  test('drawer lists every possible match instead of a collapsed TBC count', () => {
+    const trip = baseTrip({
+      tbcMatches: ['Hutnik', 'Dalin', 'Garbarnia'].map((home, i) => ({
+        id: `w${i + 1}`,
+        homeTeam: { name: home },
+        awayTeam: { name: `Away ${i + 1}` },
+        competition: { name: 'Klasa A' },
+        date: { startDate: '2026-10-22', endDate: '2026-10-23' },
+        stadium: {},
+      })) as never,
+      tbcCount: 3,
+    });
+    render(
+      <MantineProvider>
+        <LocaleProvider locale="en" messages={messages}>
+          <DiscoverTripDrawer trip={trip} onClose={() => {}} />
+        </LocaleProvider>
+      </MantineProvider>
+    );
+    expect(screen.getAllByTestId('discover-drawer-tbc-item')).toHaveLength(3);
+    expect(screen.getByText('Hutnik vs Away 1')).toBeInTheDocument();
+    expect(screen.getAllByText(/Oct 22.*Oct 23.*Klasa A/)).toHaveLength(3);
+    expect(screen.queryByText('+3 awaiting kickoff')).toBeNull();
   });
 });

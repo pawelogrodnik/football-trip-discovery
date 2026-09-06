@@ -289,7 +289,7 @@ describe('discover: validation', () => {
 });
 
 describe('discover: destination label', () => {
-  test('TEST 10: single city, multiple cities, missing, fallback', () => {
+  test('TEST 10: single city, multiple cities, geo locality, missing fallback', () => {
     expect(
       getTripDestinationLabel({
         matches: [
@@ -301,13 +301,16 @@ describe('discover: destination label', () => {
     ).toBe('Milan');
     expect(
       getTripDestinationLabel({
-        matches: [{ stadium: { city: 'Milan' } }, { stadium: { city: 'Bergamo' } }],
+        matches: [{ stadium: { city: 'Milan' } }, { stadium: { city: 'Como' } }],
       })
-    ).toBe('Milan & Bergamo');
-    expect(getTripDestinationLabel({ matches: [{ stadium: {} }, { stadium: {} }] })).toBe(
-      'Football trip'
-    );
-    expect(getTripDestinationLabel({ matches: [] })).toBe('Football trip');
+    ).toBe('Milan & Como');
+    expect(
+      getTripDestinationLabel({
+        matches: [{ stadium: { geo: { name: 'Club, District, Kraków' } } }],
+      })
+    ).toBe('Kraków');
+    expect(getTripDestinationLabel({ matches: [{ stadium: {} }, { stadium: {} }] })).toBe('');
+    expect(getTripDestinationLabel({ matches: [] })).toBe('');
   });
 
   test('enrichTrip adds metadata without fabricating regions', () => {
