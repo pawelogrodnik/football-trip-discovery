@@ -255,9 +255,32 @@ export type DiscoverGenOpts = {
   maxInterTravelKm: number;
   bufferMinutes?: number;
   startLocation?: { lat: number; lon: number } | null;
+  /** Explicit test/defensive override. Normal searches use the high guard below. */
   perWindowLimit?: number;
-  maxCandidates?: number;
 };
+
+/**
+ * Defensive work budget only. Normal windows exhaust the optimizer's
+ * sensible, disjoint alternatives; broad windows scale their extraction
+ * count to avoid repeatedly running the O(n²) optimizer per raw fixture.
+ */
+export const DISCOVER_OPTIMIZER_WORK_BUDGET = 1_000_000;
+const DISCOVER_DIVERSITY_SEED_LIMIT = 2;
+
+export function discoverPerWindowLimit(schedulableCount: number, requested?: number): number {
+  if (schedulableCount <= 0) {
+    return 0;
+  }
+  if (requested !== undefined) {
+    return Math.min(Math.max(1, requested), schedulableCount);
+  }
+  // k DP extractions cost roughly k * n². This leaves normal n≈100 windows
+  // exhaustive, while broad searches use a performance-derived guard.
+  return Math.min(
+    schedulableCount,
+    Math.max(2, Math.floor(DISCOVER_OPTIMIZER_WORK_BUDGET / schedulableCount ** 2))
+  );
+}
 
 function matchesInWindow(matches: TripMatch[], ws: string, we: string): TripMatch[] {
   return matches.filter((m) => {
@@ -435,7 +458,6 @@ export function suggestDiscoverTrips(
   opts: DiscoverGenOpts
 ): DiscoverTrip[] {
   const windows = rollingWindows(availabilityStart, availabilityEnd, durations);
-  const perWindowLimit = opts.perWindowLimit ?? 2;
   const collected: Trip[] = [];
   for (const w of windows) {
     const inWindow = matchesInWindow(availabilityMatches, w.windowStart, w.windowEnd);
@@ -453,14 +475,34 @@ export function suggestDiscoverTrips(
     // TBC attached (rolling window for days, itinerary venues for place).
     const usedTbcIds = new Set<string>();
     if (schedulable.length > 0) {
-      const found = suggestTrips(schedulable, {
+      const perWindowLimit = discoverPerWindowLimit(schedulable.length, opts.perWindowLimit);
+      const optimizerOpts = {
         maxInterTravelKm: opts.maxInterTravelKm,
         bufferMinutes: opts.bufferMinutes ?? 30,
         startLocation: opts.startLocation ?? null,
-        limit: perWindowLimit,
-      });
+      };
+      const found = suggestTrips(schedulable, { ...optimizerOpts, limit: perWindowLimit });
+
+      // If the defensive guard activates, retain lower-tier and UEFA seeds
+      // before the generic optimizer budget. This is category diversity, not
+      // a Top Picks pre-rank; normal-sized windows need no truncation at all.
+      if (schedulable.length > perWindowLimit) {
+        for (const categoryPool of [
+          schedulable.filter((m) => isUefaMatch(m)),
+          schedulable.filter((m) => getCompetitionTier(m.competition) === 4),
+        ]) {
+          if (categoryPool.length > 0) {
+            found.push(
+              ...suggestTrips(categoryPool, {
+                ...optimizerOpts,
+                limit: Math.min(DISCOVER_DIVERSITY_SEED_LIMIT, categoryPool.length),
+              })
+            );
+          }
+        }
+      }
       // Guard: never emit a trip longer (calendar days) than the window duration
-      for (const t of found) {
+      for (const t of dedupeTrips(found)) {
         const { lengthDays } = tripDates(t);
         if (lengthDays > w.tripLengthDays) {
           continue;
@@ -491,9 +533,9 @@ export function suggestDiscoverTrips(
   // Re-id deterministically after merge, then dedupe
   const reId = collected.map((t, i) => ({ ...t, id: `discover_${i}` }));
   const deduped = dedupeTrips(reId);
-  const enriched = deduped.map(enrichTrip);
-  const max = opts.maxCandidates ?? 20;
-  return rankTopPicks(enriched).slice(0, max);
+  // Keep the complete sensible pool. Category order belongs to rankByCategory
+  // in the client, never to generation or a hidden Top Picks slice.
+  return deduped.map(enrichTrip);
 }
 
 // ---------- ranking (client + server safe) ----------
