@@ -4,6 +4,8 @@ import {
   calendarDaysInclusive,
   candidateKey,
   dedupeTrips,
+  DISCOVER_OPTIMIZER_WORK_BUDGET,
+  discoverPerWindowLimit,
   enrichTrip,
   getAvailableCategories,
   getTripDestinationLabel,
@@ -146,6 +148,72 @@ describe('discover: candidate generation', () => {
     expect(out).toHaveLength(1);
     expect(out[0].totalKm).toBe(50);
     expect(candidateKey(t1)).toBe(candidateKey(t2));
+  });
+
+  test('keeps the full pool for category ranking instead of Top Picks top 20', () => {
+    const topFlight = Array.from({ length: 25 }, (_, i) =>
+      mkMatch(`top-${i}`, '2026-09-12T18:00:00.000Z', 50.06, 19.94)
+    );
+    const lower = [
+      mkMatch('lower-a', '2026-09-12T18:00:00.000Z', 50.06, 19.94, 'IV liga'),
+      mkMatch('lower-b', '2026-09-12T18:00:00.000Z', 50.06, 19.94, 'IV liga'),
+    ];
+    const windowOnly = {
+      ...mkMatch('lower-tbc', '2026-09-12T18:00:00.000Z', 50.06, 19.94, 'IV liga'),
+      date: { startDate: '2026-09-12', endDate: '2026-09-13' },
+      schedule: { status: 'date-window', startDate: '2026-09-12', endDate: '2026-09-13' },
+    } as TripMatch;
+    const input = [...topFlight, ...lower, windowOnly];
+    const pool = suggestDiscoverTrips(input, '2026-09-11', '2026-09-13', [3], {
+      maxInterTravelKm: 100,
+    });
+
+    expect(pool).toHaveLength(27);
+    expect(pool.flatMap((trip) => trip.matches.map((match) => match.id))).toEqual(
+      expect.arrayContaining(['lower-a', 'lower-b'])
+    );
+    // This is exactly what the old global Top Picks slice would have lost.
+    expect(
+      rankTopPicks(pool)
+        .slice(0, 20)
+        .flatMap((trip) => trip.matches.map((match) => match.id))
+    ).not.toEqual(expect.arrayContaining(['lower-a', 'lower-b']));
+    expect(rankLowerLeagueGems(pool)[0].matches[0].id).toMatch(/^lower-/);
+    expect(getAvailableCategories(pool)).toContain('lower');
+    expect(pool.some((trip) => trip.tbcMatches?.some((match) => match.id === 'lower-tbc'))).toBe(
+      true
+    );
+    expect(pool.flatMap((trip) => trip.matches.map((match) => match.id))).not.toContain(
+      'lower-tbc'
+    );
+    expect(new Set(pool.map(candidateKey)).size).toBe(pool.length);
+
+    const repeat = suggestDiscoverTrips(input, '2026-09-11', '2026-09-13', [3], {
+      maxInterTravelKm: 100,
+    });
+    expect(repeat.map(candidateKey)).toEqual(pool.map(candidateKey));
+  });
+
+  test('defensive per-window guard preserves lower-league diversity', () => {
+    const guardInputSize = Math.ceil(Math.sqrt(DISCOVER_OPTIMIZER_WORK_BUDGET)) + 16;
+    const topFlight = Array.from({ length: guardInputSize }, (_, i) =>
+      mkMatch(`top-${i}`, '2026-09-12T18:00:00.000Z', 50.06, 19.94)
+    );
+    const lower = [
+      mkMatch('lower-a', '2026-09-12T18:00:00.000Z', 50.06, 19.94, 'IV liga'),
+      mkMatch('lower-b', '2026-09-12T18:00:00.000Z', 50.06, 19.94, 'IV liga'),
+    ];
+    const pool = suggestDiscoverTrips([...topFlight, ...lower], '2026-09-11', '2026-09-13', [3], {
+      maxInterTravelKm: 100,
+    });
+
+    expect(discoverPerWindowLimit(topFlight.length + lower.length)).toBe(2);
+    expect(pool.length).toBeLessThan(topFlight.length);
+    expect(pool.length).toBeGreaterThan(2);
+    expect(pool.flatMap((trip) => trip.matches.map((match) => match.id))).toEqual(
+      expect.arrayContaining(['lower-a', 'lower-b'])
+    );
+    expect(getAvailableCategories(pool)).toContain('lower');
   });
 });
 

@@ -310,8 +310,6 @@ export async function POST(req: Request) {
       maxInterTravelKm: validatedMaxInterTravelKm,
       bufferMinutes: Number(bufferMinutes),
       startLocation: startLocation && typeof startLocation.lat === 'number' ? startLocation : null,
-      perWindowLimit: 2,
-      maxCandidates: 20,
     });
     return NextResponse.json({
       trips,
