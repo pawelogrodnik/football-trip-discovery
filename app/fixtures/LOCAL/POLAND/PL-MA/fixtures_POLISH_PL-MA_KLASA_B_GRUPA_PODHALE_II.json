@@ -1,43 +1,58 @@
 {
   "competitionName": "Klasa B (Podhale II)",
-  "count": 7,
+  "count": 55,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Podhale II)"
       },
       "homeTeam": {
-        "name": "Szczyt Murzasichle",
+        "name": "KS Łapsze Niżne",
         "crest": null
       },
       "awayTeam": {
-        "name": "Biali Biały Dunajec",
+        "name": "Spływ Sromowce Wyżne",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T20:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T18:30:00.000Z"
       },
-      "id": "22dd22c2cffe1c22914e2f61f58a9182",
-      "stadium": null
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T18:30:00.000Z"
+      },
+      "id": "d9c08af8b69af88bc548a9ae9d9670d1",
+      "stadium": {
+        "venue": "Boisko KS Łapsze Niżne",
+        "address": "Łapsze Niżne 300, Łapsze Niżne",
+        "geo": {
+          "latitude": 49.40343512394046,
+          "longitude": 20.22460821929415
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa B (Podhale II)"
       },
       "homeTeam": {
-        "name": "Wierchy Lasek",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Dunajec Ostrowsko",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "awayTeam": {
+        "name": "Spisz Krempachy",
+        "crest": null
       },
-      "id": "8da4d7a6b9a8d06662b83f7879271875",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "17f2ecb265c5bceca66a68984416d971",
       "stadium": null
     },
     {
@@ -45,18 +60,91 @@
         "name": "Klasa B (Podhale II)"
       },
       "homeTeam": {
-        "name": "Łęgi Nowa Biała",
+        "name": "Przełęcz Łopuszna",
         "crest": null
       },
       "awayTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "id": "66807ef17e67879f59c4f5cc82fee3a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "76041b30c544e71b5331077a1f7ee66c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
         "name": "ZOR Frydman",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "awayTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
       },
-      "id": "a2bf4d6ac6eea74b1aa4f8994e279c5a",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "7f8e75be259c214fc315211d8c5eef72",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "2f936817f7389850fd128888dc2987b6",
       "stadium": null
     },
     {
@@ -68,14 +156,70 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2fb914669efff12d2b51cbb822999e0a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e6a993657bdffb46083dbca23001cc6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Przełęcz Łopuszna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "1ec8739e77c53b685b14bfbc18c52ec9",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ad26c86587b89f4a1fa36b3fca0d5ef0",
       "stadium": null
     },
     {
@@ -87,14 +231,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS Łapsze Niżne",
+        "name": "ZOR Frydman",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "924d12f7538a27cfacc3c55333bf8d61",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "feb946741d97a28637ebd61b8f6346dd",
       "stadium": null
     },
     {
@@ -106,14 +256,1116 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "fe66fd97a5cdf779f638f652820f0e69",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
         "name": "LKS II Szaflary",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:30:00.000Z"
+      "awayTeam": {
+        "name": "KS Łapsze Niżne",
+        "crest": null
       },
-      "id": "b6e565480743987b65a4a2ddc76f902d",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d0779c9d4553778f3fc6387842cf447b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Szaflary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "46a23cea871da7eb36ba0ff268b57a2e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "ZOR Frydman",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spływ Sromowce Wyżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4fbcdd72db0521f5e00daeffebac44ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Przełęcz Łopuszna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3bfb6f6d0419ac2b652e46633b857ba2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0a3fd1a3ca387192187936e411deabce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "aa5c679be87d05b3236557dfd4722207",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spisz Krempachy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "51a266cc562304514fab8af6e8da07ac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1d11b9d4faf344af22a6b224744f16f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "61997bc800ee2ef6e2b322df2eb0a66d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3ce4131f98941619b37fd52af504bfbe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Spływ Sromowce Wyżne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przełęcz Łopuszna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f198f6072207fe7466171c294eb14226",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Szaflary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ZOR Frydman",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ffe7717b118b602c8a769663595bfce1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS Łapsze Niżne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "55e83c81ba6aacd860a46c0473a61a32",
+      "stadium": {
+        "venue": "Boisko KS Łapsze Niżne",
+        "address": "Łapsze Niżne 300, Łapsze Niżne",
+        "geo": {
+          "latitude": 49.40343512394046,
+          "longitude": 20.22460821929415
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "ZOR Frydman",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Łapsze Niżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7b4eeaca1b1578aa3e2f1436ea539a5a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Przełęcz Łopuszna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Szaflary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0872008fdcd2d85801775f8a859768f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spływ Sromowce Wyżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d98e1dbc8f3b01bf206ce170d5d8b035",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "55f5c23f0cccd216537c8cc1b420d0d2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a87e09dfa7700cd00a3a1594b8bfe285",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Spisz Krempachy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "74f61f8dc348c15785f4f790fa784d8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c14fa7aa70f9785ade1bf22ae7bb6df1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Spływ Sromowce Wyżne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spisz Krempachy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8a490e915359d25050750e3cbfd8711c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Szaflary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1ccc435fda11acac546524e8daece4f1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS Łapsze Niżne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "049e91526d43429f96c707725a5f27b1",
+      "stadium": {
+        "venue": "Boisko KS Łapsze Niżne",
+        "address": "Łapsze Niżne 300, Łapsze Niżne",
+        "geo": {
+          "latitude": 49.40343512394046,
+          "longitude": 20.22460821929415
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "770460dc166189b1c509d46ccf080289",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "ZOR Frydman",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przełęcz Łopuszna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2102df79cd4573c870b657dbcb66d389",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spisz Krempachy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3a35815d10eda17170b846b589ad44ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "feaa4e45a0a8e3736349881e17987a15",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Spływ Sromowce Wyżne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e6fa15fc254001f6f585635e4494f5fa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Szaflary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "da76dba103b6be1f7d09d89bdac695d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS Łapsze Niżne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przełęcz Łopuszna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a0fe2cf009d4cb31dec3828911fabd74",
+      "stadium": {
+        "venue": "Boisko KS Łapsze Niżne",
+        "address": "Łapsze Niżne 300, Łapsze Niżne",
+        "geo": {
+          "latitude": 49.40343512394046,
+          "longitude": 20.22460821929415
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ZOR Frydman",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5f32e7ef4e331e6326dbaeec471bbba6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Przełęcz Łopuszna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "657726133aa883ad9aa9987c4a6cb320",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Łapsze Niżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "349c2e0670e1b296ca9ec7f4ab336aee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Szaflary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3495912f5bc5de19bdb531f08d943ca6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spływ Sromowce Wyżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e3311c50ad5908feb6f011800abee30e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Spisz Krempachy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "aa7c4a4dd1747fb5325c69aba3d3d6ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7b2e062e0e47e9043d4fb34de6575ec1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Ostrowsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ZOR Frydman",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d8e5a449aad6a876935eabfc15d2eab8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "KS II Zakopane",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biali Biały Dunajec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6cd2829cb2c5cbae3b5dfc9929535124",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Wierchy Lasek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Łapsze Niżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3b0366556af0f14eb146ad09d8922bfd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Spisz Krempachy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Szaflary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8aef63edfafd620f2c1629e53062a0db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Łęgi Nowa Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spływ Sromowce Wyżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "27dd226e350009c5c61bfaf0943e12d3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale II)"
+      },
+      "homeTeam": {
+        "name": "Szczyt Murzasichle",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Niedzica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d8749eda41ca4aa66f4cf4c5417f40b7",
       "stadium": null
     },
     {
@@ -127,6 +1379,10 @@
       "awayTeam": {
         "name": "LKS II Szaflary",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-13T20:00:00.000Z"
       },
       "date": {
         "date": "2026-11-13",

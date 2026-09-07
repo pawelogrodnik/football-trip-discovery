@@ -1,25 +1,37 @@
 {
   "competitionName": "Klasa B (Oswiecim)",
-  "count": 5,
+  "count": 30,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Oswiecim)"
       },
       "homeTeam": {
-        "name": "LKS Palczowice",
+        "name": "Przeciszovia II Przeciszów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Sygnał Włosienica",
+        "name": "LKS Piotrowice (k. Oświęcimia)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
-      "id": "ddb0d2d0b3685355893560fd402b9ad1",
-      "stadium": null
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "0e85b7711235899cb17eb59959a41553",
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -30,14 +42,95 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Zaborzanka Zaborze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "76667a74ef453be0c46021e32057cc5b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Sygnał Włosienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Brzezinka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "13db8d9232a97ecca7518fe9389d4343",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał II Kęty",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Palczowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "7ac319357cdceeeaae90f78fb62e92de",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
         "name": "LKS Bulowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "KS II Chełmek",
+        "crest": null
       },
-      "id": "50a1ba451fa1d4e7bbe6d0b98199b8f3",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "46cced57f9d700f2dec818080adce178",
       "stadium": null
     },
     {
@@ -49,14 +142,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Przeciszovia II Przeciszów",
+        "name": "LKS Harmęże",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "e973d9cbb5bc48398b606f0ff74c9564",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2c100c7cc4de9a02feaa9bc6df2aa1c2",
       "stadium": null
     },
     {
@@ -68,14 +167,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Hejnał II Kęty",
+        "name": "LKS Bulowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "9f474f6ed14c66088d6802df16abecc8",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "afb3a4bb9a262189447fbaa7accfd476",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Palczowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przeciszovia II Przeciszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "44b6e47483716d6fff295878e19f319b",
       "stadium": null
     },
     {
@@ -87,15 +217,578 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Hejnał II Kęty",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6da9516251d8b20d3f1358fb8fe4c67f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
         "name": "Zaborzanka Zaborze",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "awayTeam": {
+        "name": "Sygnał Włosienica",
+        "crest": null
       },
-      "id": "90bd928f4bae0d19c08eb4fd535c794e",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "56335b65b49f7d84cf2ebc6d0836326b",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Harmęże",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sygnał Włosienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b9639c5213e63a4f31d89a023bbcaefc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał II Kęty",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborzanka Zaborze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "39c450bdcfc261f41521022787b83926",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Przeciszovia II Przeciszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Brzezinka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5b07c3bfc48b0b901fd38ec906788f14",
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Bulowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Palczowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "15a07606279b80bdd2589e44d2770e2e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "KS II Chełmek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Piotrowice (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "db08a67715e744ddd06f48981416712d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Piotrowice (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Harmęże",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "95a6b4fedeb7063f524d9d3578f37a2a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Palczowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Chełmek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bf571cba04f0f0ee37a27f2726957926",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Iskra Brzezinka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bulowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a56644ca6cad0575fd2fa8dc92761a7b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zaborzanka Zaborze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przeciszovia II Przeciszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6bd84ca943af05ef3dcbaeaf9964498b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Sygnał Włosienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hejnał II Kęty",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6dac0bd405f564553cc9eb287f75000d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Harmęże",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hejnał II Kęty",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "90f984578f075f541ad6753fcb891b8e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Przeciszovia II Przeciszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sygnał Włosienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d60a7f91dceabaf58cccda52af720ebc",
+      "stadium": {
+        "address": "Podlesie 94, 32-641 Przeciszów",
+        "venue": "Ośrodek LKS Przeciszovia",
+        "geo": {
+          "latitude": 50.0231503,
+          "longitude": 19.3760103,
+          "name": "LKS Przeciszovia, Podlesie 94, Przeciszów, powiat oświęcimski, województwo małopolskie, 32-641, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Bulowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborzanka Zaborze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2db7eafaa603f68e5ebd8c37400a119b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "KS II Chełmek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Brzezinka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "14d6e1b24316535f67aa3d1355befeca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Piotrowice (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Palczowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0c7f7b3c95d0ccb97b1ffe12fac01b7e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "LKS Palczowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Harmęże",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a8b6c4d6fee2af20bfb996fea2a105d4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Iskra Brzezinka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Piotrowice (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8ff8f679690663dde5052b2bec5f31d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Zaborzanka Zaborze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Chełmek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7d6b04ff036078b8f871f6b1a9c8769a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Sygnał Włosienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bulowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "959a12c22397cc174ba63503c591c42e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Oswiecim)"
+      },
+      "homeTeam": {
+        "name": "Hejnał II Kęty",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przeciszovia II Przeciszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "07a547ddf890a493301dfac937f4f0f7",
+      "stadium": {
+        "address": "Sobieskiego 36, 32-650 Kęty",
+        "venue": "Stadion Hejnału Kęty",
+        "geo": {
+          "latitude": 49.8814056,
+          "longitude": 19.2055384,
+          "name": "Hejnał Kęty, Sobieskiego, Kęty, powiat oświęcimski, województwo małopolskie, 32-650, Polska"
+        }
+      }
     }
   ]
 }

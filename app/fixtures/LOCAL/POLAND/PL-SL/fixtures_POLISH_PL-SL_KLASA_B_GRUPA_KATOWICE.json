@@ -1,62 +1,128 @@
 {
   "competitionName": "Klasa B (Katowice)",
-  "count": 5,
+  "count": 56,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Katowice)"
       },
       "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "MKS Górnik 09 Mysłowice",
         "crest": null
       },
-      "awayTeam": {
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "f6f1765f2dd723387d1759aa24473972",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
         "name": "Śląsk II Świętochłowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "153e32f41672f635bfe7e02be45fc74d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Katowice)"
-      },
-      "homeTeam": {
-        "name": "Siemianowiczanka II Siemianowice Śląskie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Demon Świętochłowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
-      },
-      "id": "1e2acee87b64035236a61d3c04f735a3",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Katowice)"
-      },
-      "homeTeam": {
-        "name": "Lechia 06 Mysłowice",
         "crest": null
       },
       "awayTeam": {
         "name": "Podlesianka II Katowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
-      "id": "abad32139e9f851046653e4da6f161dc",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "b934655572d648d341e2f18d158ba368",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "dcaa09ac6de4bbefe7af129dbb7668f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "f737e7124d72fc420b271b8203ffd4ec",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "cff4f942ea3b20b71da53984728dadc8",
       "stadium": null
     },
     {
@@ -68,14 +134,220 @@
         "crest": "https://crests.football-data.org/5641.png"
       },
       "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "98c68596521381f2d7f3093e061b3d02",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "51d6b0d11505e4f79a8aa26153021899",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "1.FC Katowice (2)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:15:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "7c4aebd19abc8c3d7556248c28d94cbc",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "590c15a22434cda8ef817a4c55a07bb2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0a79cafd0faf7d8e58c1110cc4a72e1f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e1b28f0d33f9eebb2f1c3fb19992e287",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "37534ef5e2f3af45d75af79d332f6fa7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fe42847da4f7aba112b7a610c02322e8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7a1a69b5063d11633cb761aabbf7f89c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fd9cc2e9bf35099ea448757c4236e7e9",
       "stadium": null
     },
     {
@@ -87,14 +359,1067 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "bc9f7320dd60691c5d028dc3ca31ee43",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a28f08d3e025370268430695832eafaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3aa753b5751f1a69cf51f93db72c540b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5b7e13d5f1be6c9cbe6a52a8da657894",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "75bb06381867dbc1b3a6542da3651ff5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ebecf2335741867e9147afdd38a4730a",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a71980e4fd01d4bd2d1a1d5a180702d7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "43004b7b699b7bb4e85b140319dd10ce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
         "name": "Pogoń II Imielin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
       },
-      "id": "71c32ad3ab0952a568c47b69a772e684",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6e9b7e35dd87f5fd3c1bd2ece251b9d1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f0ac3ea0072350934fff1548d2753691",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5b87f5ba6e35dda0ff0547b3068f69bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "02c956507f1467fbeec806d7a7f05e84",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "97471cf19ae8e877e4853f2ffbfd7224",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "30817bf53b78496f21c728d9e174a143",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "57d3bf6775f12638df06060458f306a0",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c459c0dbcc2397eb8c7c66567038fc6b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4e34ea5228a86de21943ed110370316b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1fc986536495c0ecedda77ee0e2456bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a34902118eedb947bdfd09247ff6d9da",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "efc9612e6d04df3e469984a7b0a17b06",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "37f1483027541a504ffe35340f131849",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c4a2103101bc0260f8573f727ec94254",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5d501fff7ad967dccd5fd7f276ac6c16",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a555e416f8d32e577c662830dcf32750",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "830ab5d8e68df5440b3878580b85de91",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4971db0f851200e9040db67310d2d21f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-11-11"
+      },
+      "date": {
+        "date": "2026-11-11",
+        "time": "TBD"
+      },
+      "id": "f7afcc030bde08b7c92735d59e3c4692",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-11-11"
+      },
+      "date": {
+        "date": "2026-11-11",
+        "time": "TBD"
+      },
+      "id": "ea65103509c495c022161740ca14ed4b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-11-11"
+      },
+      "date": {
+        "date": "2026-11-11",
+        "time": "TBD"
+      },
+      "id": "10564afde20bd4b8ee285b9bb5d9df61",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-11-11"
+      },
+      "date": {
+        "date": "2026-11-11",
+        "time": "TBD"
+      },
+      "id": "6bf6030283d581d9afa0668ce02811d2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-11-11"
+      },
+      "date": {
+        "date": "2026-11-11",
+        "time": "TBD"
+      },
+      "id": "7b1b2789d3e092eec17ff3cbab8937da",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c0fdbf558ca3927743a02aa8a2d73160",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "743d69bb92ac5866eb853778120bc054",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "370b57bc5ff57bbc0adde157c93b71a9",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c894775083d505bbf95e77ff4757c40a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c1bf563c1639046006ef166346800c41",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e26738689ab8ecccc512f6b86b177b91",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "98e0d56a80efcf9de8aa62398aab035f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "389566bc5c0ab5ae04095f3b824bf298",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "05de50407e44a15fa01466ffc952997f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "2d09f077c8a7468c221880a9edfc6de9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "e4b809ef672a0dfb9fc054b622ffa48e",
       "stadium": null
     }
   ]

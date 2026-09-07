@@ -4,166 +4,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Aberdeen",
-      "crest": "https://crests.football-data.org/5368.png"
-    },
-    "awayTeam": {
-      "name": "Kilmarnock",
-      "crest": "https://crests.football-data.org/5373.png"
-    },
-    "date": {
-      "date": "2026-09-05T14:00:00.000Z",
-      "dateTime": "2026-09-05T14:00:00.000Z"
-    },
-    "id": "7b7f679e6dc9c012fb510096c899515e",
-    "stadium": {
-      "address": "Pittodrie Street Aberdeen AB24 5QH",
-      "venue": "Pittodrie Stadium",
-      "geo": {
-        "latitude": 57.1592769,
-        "longitude": -2.0886287,
-        "name": "Pittodrie Stadium, Pittodrie Street, Pittodrie, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB24 5QH, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "Dundee Utd",
-      "crest": "https://crests.football-data.org/5381.png"
-    },
-    "awayTeam": {
-      "name": "Falkirk",
-      "crest": "https://crests.football-data.org/5382.png"
-    },
-    "date": {
-      "date": "2026-09-05T14:00:00.000Z",
-      "dateTime": "2026-09-05T14:00:00.000Z"
-    },
-    "id": "450354494d58e2fe331df9506190be65",
-    "stadium": {
-      "address": "Sandeman Street Dundee DD3 7JY",
-      "venue": "Kilmac Stadium at Dens Park",
-      "geo": {
-        "latitude": 56.4752697,
-        "longitude": -2.9682838,
-        "name": "Sandeman Street, Clepington, Stobswell, Dundee, Dundee City, Alba / Scotland, DD3 7LE, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "Rangers",
-      "crest": "https://crests.football-data.org/69.png"
-    },
-    "awayTeam": {
-      "name": "Motherwell",
-      "crest": "https://crests.football-data.org/5374.png"
-    },
-    "date": {
-      "date": "2026-09-05T14:00:00.000Z",
-      "dateTime": "2026-09-05T14:00:00.000Z"
-    },
-    "id": "0adfc4151325d47e9044c7405d58ad96",
-    "stadium": {
-      "address": "South Africa Road, Shepherds Bush London W12 7PA",
-      "venue": "Kiyan Prince Foundation Stadium",
-      "geo": {
-        "latitude": 51.5094016,
-        "longitude": -0.2321136,
-        "name": "MATRADE Loftus Road Stadium, South Africa Road, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 7PA, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "St. Mirren",
-      "crest": "https://crests.football-data.org/5387.png"
-    },
-    "awayTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "date": {
-      "date": "2026-09-05T19:00:00.000Z",
-      "dateTime": "2026-09-05T19:00:00.000Z"
-    },
-    "id": "693e6e2aed63f3987df953468f8b686c",
-    "stadium": {
-      "address": "Paisley",
-      "venue": "The Simple Digital Arena",
-      "geo": {
-        "latitude": 55.8455828,
-        "longitude": -4.4239646,
-        "name": "Paisley, Renfrewshire, Alba / Scotland, PA1 1DG, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "Hearts",
-      "crest": "https://crests.football-data.org/5371.png"
-    },
-    "awayTeam": {
-      "name": "Dundee FC",
-      "crest": "https://crests.football-data.org/5369.png"
-    },
-    "date": {
-      "date": "2026-09-06T14:00:00.000Z",
-      "dateTime": "2026-09-06T14:00:00.000Z"
-    },
-    "id": "31aa804ca74c645956ac4a831378192d",
-    "stadium": {
-      "address": "Darwin, NT",
-      "venue": null,
-      "geo": {
-        "latitude": -12.46044,
-        "longitude": 130.8410469,
-        "name": "Darwin, City of Darwin, Northern Territory, 0800, Australia"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "St Johnstone",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Hibernian",
-      "crest": "https://crests.football-data.org/1892.png"
-    },
-    "date": {
-      "date": "2026-09-06T14:00:00.000Z",
-      "dateTime": "2026-09-06T14:00:00.000Z"
-    },
-    "id": "555566eb87c31eb9c4e3737383979195",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
     "awayTeam": {
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-09T18:45:00.000Z"
     },
     "date": {
       "date": "2026-09-09T18:45:00.000Z",
@@ -192,6 +42,10 @@
       "name": "Celtic",
       "crest": "https://crests.football-data.org/732.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-09T19:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-09T19:00:00.000Z",
       "dateTime": "2026-09-09T19:00:00.000Z"
@@ -210,6 +64,10 @@
     "awayTeam": {
       "name": "Hearts",
       "crest": "https://crests.football-data.org/5371.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-15T18:45:00.000Z"
     },
     "date": {
       "date": "2026-09-15T18:45:00.000Z",
@@ -238,6 +96,10 @@
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-15T18:45:00.000Z"
+    },
     "date": {
       "date": "2026-09-15T18:45:00.000Z",
       "dateTime": "2026-09-15T18:45:00.000Z"
@@ -256,6 +118,10 @@
     "awayTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-15T18:45:00.000Z"
     },
     "date": {
       "date": "2026-09-15T18:45:00.000Z",
@@ -284,6 +150,10 @@
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T14:00:00.000Z",
       "dateTime": "2026-09-19T14:00:00.000Z"
@@ -311,6 +181,10 @@
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T14:00:00.000Z",
       "dateTime": "2026-09-19T14:00:00.000Z"
@@ -330,6 +204,10 @@
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T14:00:00.000Z",
       "dateTime": "2026-09-19T14:00:00.000Z"
@@ -348,6 +226,10 @@
     "awayTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T14:00:00.000Z"
     },
     "date": {
       "date": "2026-09-19T14:00:00.000Z",
@@ -376,6 +258,10 @@
       "name": "Hearts",
       "crest": "https://crests.football-data.org/5371.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T16:45:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T16:45:00.000Z",
       "dateTime": "2026-09-19T16:45:00.000Z"
@@ -403,6 +289,10 @@
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-20T11:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-20T11:00:00.000Z",
       "dateTime": "2026-09-20T11:00:00.000Z"
@@ -423,39 +313,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Aberdeen",
-      "crest": "https://crests.football-data.org/5368.png"
-    },
-    "awayTeam": {
-      "name": "St Johnstone",
-      "crest": null
-    },
-    "date": {
-      "date": "2026-10-10T14:00:00.000Z",
-      "dateTime": "2026-10-10T14:00:00.000Z"
-    },
-    "id": "811e1154a77452ccdbf0ec3022557e5c",
-    "stadium": {
-      "address": "Pittodrie Street Aberdeen AB24 5QH",
-      "venue": "Pittodrie Stadium",
-      "geo": {
-        "latitude": 57.1592769,
-        "longitude": -2.0886287,
-        "name": "Pittodrie Stadium, Pittodrie Street, Pittodrie, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB24 5QH, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
     "awayTeam": {
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T14:00:00.000Z"
     },
     "date": {
       "date": "2026-10-10T14:00:00.000Z",
@@ -484,6 +351,10 @@
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T14:00:00.000Z",
       "dateTime": "2026-10-10T14:00:00.000Z"
@@ -511,6 +382,10 @@
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T14:00:00.000Z",
       "dateTime": "2026-10-10T14:00:00.000Z"
@@ -531,39 +406,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Motherwell",
-      "crest": "https://crests.football-data.org/5374.png"
-    },
-    "awayTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "date": {
-      "date": "2026-10-10T14:00:00.000Z",
-      "dateTime": "2026-10-10T14:00:00.000Z"
-    },
-    "id": "fb4fe7f20f0f99a527fcabac8c9b05ec",
-    "stadium": {
-      "address": "Firpark Street Motherwell ML1 2QN",
-      "venue": "Fir Park",
-      "geo": {
-        "latitude": 53.3807503,
-        "longitude": -2.7482866,
-        "name": "Fir Park, Upton Rocks, Widnes, Halton, Liverpool City Region, England, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
     "awayTeam": {
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T14:00:00.000Z"
     },
     "date": {
       "date": "2026-10-10T14:00:00.000Z",
@@ -585,12 +437,78 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
+      "name": "Motherwell",
+      "crest": "https://crests.football-data.org/5374.png"
+    },
+    "awayTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-11T11:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-10-11T11:00:00.000Z",
+      "dateTime": "2026-10-11T11:00:00.000Z"
+    },
+    "id": "fb4fe7f20f0f99a527fcabac8c9b05ec",
+    "stadium": {
+      "address": "Firpark Street Motherwell ML1 2QN",
+      "venue": "Fir Park",
+      "geo": {
+        "latitude": 53.3807503,
+        "longitude": -2.7482866,
+        "name": "Fir Park, Upton Rocks, Widnes, Halton, Liverpool City Region, England, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Aberdeen",
+      "crest": "https://crests.football-data.org/5368.png"
+    },
+    "awayTeam": {
+      "name": "St Johnstone",
+      "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-11T13:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-10-11T13:00:00.000Z",
+      "dateTime": "2026-10-11T13:00:00.000Z"
+    },
+    "id": "811e1154a77452ccdbf0ec3022557e5c",
+    "stadium": {
+      "address": "Pittodrie Street Aberdeen AB24 5QH",
+      "venue": "Pittodrie Stadium",
+      "geo": {
+        "latitude": 57.1592769,
+        "longitude": -2.0886287,
+        "name": "Pittodrie Stadium, Pittodrie Street, Pittodrie, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB24 5QH, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
     },
     "awayTeam": {
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T14:00:00.000Z"
     },
     "date": {
       "date": "2026-10-17T14:00:00.000Z",
@@ -612,66 +530,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "awayTeam": {
-      "name": "Hearts",
-      "crest": "https://crests.football-data.org/5371.png"
-    },
-    "date": {
-      "date": "2026-10-17T14:00:00.000Z",
-      "dateTime": "2026-10-17T14:00:00.000Z"
-    },
-    "id": "c32034ea5a96abce2ca0a7c82312172a",
-    "stadium": {
-      "address": "Celtic Park Glasgow G40 3RE",
-      "venue": "Celtic Park",
-      "geo": {
-        "latitude": 55.8501815,
-        "longitude": -4.2068227,
-        "name": "Celtic Park, Upper Plaza, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RE, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "Dundee FC",
-      "crest": "https://crests.football-data.org/5369.png"
-    },
-    "awayTeam": {
-      "name": "Rangers",
-      "crest": "https://crests.football-data.org/69.png"
-    },
-    "date": {
-      "date": "2026-10-17T14:00:00.000Z",
-      "dateTime": "2026-10-17T14:00:00.000Z"
-    },
-    "id": "a204b85bbdedf4ab959de28023aec911",
-    "stadium": {
-      "address": "Sandeman Street Dundee DD3 7JY",
-      "venue": "Kilmac Stadium at Dens Park",
-      "geo": {
-        "latitude": 56.4752697,
-        "longitude": -2.9682838,
-        "name": "Sandeman Street, Clepington, Stobswell, Dundee, Dundee City, Alba / Scotland, DD3 7LE, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
     },
     "awayTeam": {
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T14:00:00.000Z"
     },
     "date": {
       "date": "2026-10-17T14:00:00.000Z",
@@ -691,6 +559,10 @@
     "awayTeam": {
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T14:00:00.000Z"
     },
     "date": {
       "date": "2026-10-17T14:00:00.000Z",
@@ -719,6 +591,10 @@
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T14:00:00.000Z",
       "dateTime": "2026-10-17T14:00:00.000Z"
@@ -731,12 +607,78 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
+      "name": "Dundee FC",
+      "crest": "https://crests.football-data.org/5369.png"
+    },
+    "awayTeam": {
+      "name": "Rangers",
+      "crest": "https://crests.football-data.org/69.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T19:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-10-17T19:00:00.000Z",
+      "dateTime": "2026-10-17T19:00:00.000Z"
+    },
+    "id": "a204b85bbdedf4ab959de28023aec911",
+    "stadium": {
+      "address": "Sandeman Street Dundee DD3 7JY",
+      "venue": "Kilmac Stadium at Dens Park",
+      "geo": {
+        "latitude": 56.4752697,
+        "longitude": -2.9682838,
+        "name": "Sandeman Street, Clepington, Stobswell, Dundee, Dundee City, Alba / Scotland, DD3 7LE, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "awayTeam": {
+      "name": "Hearts",
+      "crest": "https://crests.football-data.org/5371.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-18T14:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-10-18T14:00:00.000Z",
+      "dateTime": "2026-10-18T14:00:00.000Z"
+    },
+    "id": "c32034ea5a96abce2ca0a7c82312172a",
+    "stadium": {
+      "address": "Celtic Park Glasgow G40 3RE",
+      "venue": "Celtic Park",
+      "geo": {
+        "latitude": 55.8501815,
+        "longitude": -4.2068227,
+        "name": "Celtic Park, Upper Plaza, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RE, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
     "awayTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T14:00:00.000Z"
     },
     "date": {
       "date": "2026-10-24T14:00:00.000Z",
@@ -765,6 +707,10 @@
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-24T14:00:00.000Z",
       "dateTime": "2026-10-24T14:00:00.000Z"
@@ -785,58 +731,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Hibernian",
-      "crest": "https://crests.football-data.org/1892.png"
-    },
-    "awayTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "date": {
-      "date": "2026-10-24T14:00:00.000Z",
-      "dateTime": "2026-10-24T14:00:00.000Z"
-    },
-    "id": "bf8faf98edab7106332906c6700cec9d",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "Motherwell",
-      "crest": "https://crests.football-data.org/5374.png"
-    },
-    "awayTeam": {
-      "name": "Hearts",
-      "crest": "https://crests.football-data.org/5371.png"
-    },
-    "date": {
-      "date": "2026-10-24T14:00:00.000Z",
-      "dateTime": "2026-10-24T14:00:00.000Z"
-    },
-    "id": "7a96d403a0de56c4fd92b53ce998375b",
-    "stadium": {
-      "address": "Firpark Street Motherwell ML1 2QN",
-      "venue": "Fir Park",
-      "geo": {
-        "latitude": 53.3807503,
-        "longitude": -2.7482866,
-        "name": "Fir Park, Upton Rocks, Widnes, Halton, Liverpool City Region, England, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
     "awayTeam": {
       "name": "St Johnstone",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T14:00:00.000Z"
     },
     "date": {
       "date": "2026-10-24T14:00:00.000Z",
@@ -865,6 +769,10 @@
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T14:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-24T14:00:00.000Z",
       "dateTime": "2026-10-24T14:00:00.000Z"
@@ -885,12 +793,70 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
+      "name": "Hibernian",
+      "crest": "https://crests.football-data.org/1892.png"
+    },
+    "awayTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-25T12:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-10-25T12:00:00.000Z",
+      "dateTime": "2026-10-25T12:00:00.000Z"
+    },
+    "id": "bf8faf98edab7106332906c6700cec9d",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Motherwell",
+      "crest": "https://crests.football-data.org/5374.png"
+    },
+    "awayTeam": {
+      "name": "Hearts",
+      "crest": "https://crests.football-data.org/5371.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-25T14:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-10-25T14:00:00.000Z",
+      "dateTime": "2026-10-25T14:00:00.000Z"
+    },
+    "id": "7a96d403a0de56c4fd92b53ce998375b",
+    "stadium": {
+      "address": "Firpark Street Motherwell ML1 2QN",
+      "venue": "Fir Park",
+      "geo": {
+        "latitude": 53.3807503,
+        "longitude": -2.7482866,
+        "name": "Fir Park, Upton Rocks, Widnes, Halton, Liverpool City Region, England, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
     },
     "awayTeam": {
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-28T19:45:00.000Z"
     },
     "date": {
       "date": "2026-10-28T19:45:00.000Z",
@@ -919,6 +885,10 @@
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-28T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-10-28T19:45:00.000Z",
       "dateTime": "2026-10-28T19:45:00.000Z"
@@ -945,6 +915,10 @@
     "awayTeam": {
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-28T19:45:00.000Z"
     },
     "date": {
       "date": "2026-10-28T19:45:00.000Z",
@@ -973,6 +947,10 @@
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-28T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-10-28T19:45:00.000Z",
       "dateTime": "2026-10-28T19:45:00.000Z"
@@ -1000,6 +978,10 @@
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-28T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-10-28T19:45:00.000Z",
       "dateTime": "2026-10-28T19:45:00.000Z"
@@ -1018,6 +1000,10 @@
     "awayTeam": {
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-28T19:45:00.000Z"
     },
     "date": {
       "date": "2026-10-28T19:45:00.000Z",
@@ -1046,6 +1032,10 @@
       "name": "Hearts",
       "crest": "https://crests.football-data.org/5371.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T15:00:00.000Z",
       "dateTime": "2026-10-31T15:00:00.000Z"
@@ -1072,6 +1062,10 @@
     "awayTeam": {
       "name": "Celtic",
       "crest": "https://crests.football-data.org/732.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T15:00:00.000Z",
@@ -1100,6 +1094,10 @@
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T15:00:00.000Z",
       "dateTime": "2026-10-31T15:00:00.000Z"
@@ -1118,6 +1116,10 @@
     "awayTeam": {
       "name": "St Johnstone",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T15:00:00.000Z",
@@ -1146,6 +1148,10 @@
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T15:00:00.000Z",
       "dateTime": "2026-10-31T15:00:00.000Z"
@@ -1172,6 +1178,10 @@
     "awayTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T15:00:00.000Z",
@@ -1200,6 +1210,10 @@
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T15:00:00.000Z",
       "dateTime": "2026-11-07T15:00:00.000Z"
@@ -1220,39 +1234,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "awayTeam": {
-      "name": "Kilmarnock",
-      "crest": "https://crests.football-data.org/5373.png"
-    },
-    "date": {
-      "date": "2026-11-07T15:00:00.000Z",
-      "dateTime": "2026-11-07T15:00:00.000Z"
-    },
-    "id": "87135fe726b51dd6aef95f453ce12ae2",
-    "stadium": {
-      "address": "Celtic Park Glasgow G40 3RE",
-      "venue": "Celtic Park",
-      "geo": {
-        "latitude": 55.8501815,
-        "longitude": -4.2068227,
-        "name": "Celtic Park, Upper Plaza, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RE, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
     "awayTeam": {
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T15:00:00.000Z"
     },
     "date": {
       "date": "2026-11-07T15:00:00.000Z",
@@ -1281,6 +1272,10 @@
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T15:00:00.000Z",
       "dateTime": "2026-11-07T15:00:00.000Z"
@@ -1299,6 +1294,10 @@
     "awayTeam": {
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T15:00:00.000Z"
     },
     "date": {
       "date": "2026-11-07T15:00:00.000Z",
@@ -1327,6 +1326,10 @@
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-08T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-08T15:00:00.000Z",
       "dateTime": "2026-11-08T15:00:00.000Z"
@@ -1351,8 +1354,43 @@
       "crest": "https://crests.football-data.org/732.png"
     },
     "awayTeam": {
+      "name": "Kilmarnock",
+      "crest": "https://crests.football-data.org/5373.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-08T16:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-11-08T16:00:00.000Z",
+      "dateTime": "2026-11-08T16:00:00.000Z"
+    },
+    "id": "87135fe726b51dd6aef95f453ce12ae2",
+    "stadium": {
+      "address": "Celtic Park Glasgow G40 3RE",
+      "venue": "Celtic Park",
+      "geo": {
+        "latitude": 55.8501815,
+        "longitude": -4.2068227,
+        "name": "Celtic Park, Upper Plaza, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RE, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "awayTeam": {
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T15:00:00.000Z"
     },
     "date": {
       "date": "2026-11-21T15:00:00.000Z",
@@ -1381,6 +1419,10 @@
       "name": "Hearts",
       "crest": "https://crests.football-data.org/5371.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T15:00:00.000Z",
       "dateTime": "2026-11-21T15:00:00.000Z"
@@ -1407,6 +1449,10 @@
     "awayTeam": {
       "name": "St Johnstone",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T15:00:00.000Z"
     },
     "date": {
       "date": "2026-11-21T15:00:00.000Z",
@@ -1435,6 +1481,10 @@
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T15:00:00.000Z",
       "dateTime": "2026-11-21T15:00:00.000Z"
@@ -1453,6 +1503,10 @@
     "awayTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T15:00:00.000Z"
     },
     "date": {
       "date": "2026-11-21T15:00:00.000Z",
@@ -1481,6 +1535,10 @@
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T15:00:00.000Z",
       "dateTime": "2026-11-21T15:00:00.000Z"
@@ -1507,6 +1565,10 @@
     "awayTeam": {
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T15:00:00.000Z"
     },
     "date": {
       "date": "2026-11-28T15:00:00.000Z",
@@ -1535,6 +1597,10 @@
       "name": "St Johnstone",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-28T15:00:00.000Z",
       "dateTime": "2026-11-28T15:00:00.000Z"
@@ -1555,39 +1621,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Hearts",
-      "crest": "https://crests.football-data.org/5371.png"
-    },
-    "awayTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "date": {
-      "date": "2026-11-28T15:00:00.000Z",
-      "dateTime": "2026-11-28T15:00:00.000Z"
-    },
-    "id": "bce03ef74e4a49158772aa0b5f719657",
-    "stadium": {
-      "address": "Darwin, NT",
-      "venue": null,
-      "geo": {
-        "latitude": -12.46044,
-        "longitude": 130.8410469,
-        "name": "Darwin, City of Darwin, Northern Territory, 0800, Australia"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
     },
     "awayTeam": {
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T15:00:00.000Z"
     },
     "date": {
       "date": "2026-11-28T15:00:00.000Z",
@@ -1616,6 +1659,10 @@
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-28T15:00:00.000Z",
       "dateTime": "2026-11-28T15:00:00.000Z"
@@ -1643,6 +1690,10 @@
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-28T15:00:00.000Z",
       "dateTime": "2026-11-28T15:00:00.000Z"
@@ -1663,12 +1714,47 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
+      "name": "Hearts",
+      "crest": "https://crests.football-data.org/5371.png"
+    },
+    "awayTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-29T15:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-11-29T15:00:00.000Z",
+      "dateTime": "2026-11-29T15:00:00.000Z"
+    },
+    "id": "bce03ef74e4a49158772aa0b5f719657",
+    "stadium": {
+      "address": "Darwin, NT",
+      "venue": null,
+      "geo": {
+        "latitude": -12.46044,
+        "longitude": 130.8410469,
+        "name": "Darwin, City of Darwin, Northern Territory, 0800, Australia"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
     },
     "awayTeam": {
       "name": "Celtic",
       "crest": "https://crests.football-data.org/732.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-02T19:45:00.000Z"
     },
     "date": {
       "date": "2026-12-02T19:45:00.000Z",
@@ -1697,6 +1783,10 @@
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-02T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-12-02T19:45:00.000Z",
       "dateTime": "2026-12-02T19:45:00.000Z"
@@ -1723,6 +1813,10 @@
     "awayTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-02T19:45:00.000Z"
     },
     "date": {
       "date": "2026-12-02T19:45:00.000Z",
@@ -1751,6 +1845,10 @@
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-02T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-12-02T19:45:00.000Z",
       "dateTime": "2026-12-02T19:45:00.000Z"
@@ -1777,6 +1875,10 @@
     "awayTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-02T19:45:00.000Z"
     },
     "date": {
       "date": "2026-12-02T19:45:00.000Z",
@@ -1805,6 +1907,10 @@
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-02T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-12-02T19:45:00.000Z",
       "dateTime": "2026-12-02T19:45:00.000Z"
@@ -1823,6 +1929,10 @@
     "awayTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-05T15:00:00.000Z",
@@ -1851,6 +1961,10 @@
       "name": "St Johnstone",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-05T15:00:00.000Z",
       "dateTime": "2026-12-05T15:00:00.000Z"
@@ -1877,6 +1991,10 @@
     "awayTeam": {
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-05T15:00:00.000Z",
@@ -1905,6 +2023,10 @@
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-05T15:00:00.000Z",
       "dateTime": "2026-12-05T15:00:00.000Z"
@@ -1923,6 +2045,10 @@
     "awayTeam": {
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-05T15:00:00.000Z",
@@ -1951,6 +2077,10 @@
       "name": "Hearts",
       "crest": "https://crests.football-data.org/5371.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-05T15:00:00.000Z",
       "dateTime": "2026-12-05T15:00:00.000Z"
@@ -1971,39 +2101,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "awayTeam": {
-      "name": "Hibernian",
-      "crest": "https://crests.football-data.org/1892.png"
-    },
-    "date": {
-      "date": "2026-12-12T15:00:00.000Z",
-      "dateTime": "2026-12-12T15:00:00.000Z"
-    },
-    "id": "7c8674fc74ad209f00e94a19ef2df925",
-    "stadium": {
-      "address": "Celtic Park Glasgow G40 3RE",
-      "venue": "Celtic Park",
-      "geo": {
-        "latitude": 55.8501815,
-        "longitude": -4.2068227,
-        "name": "Celtic Park, Upper Plaza, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RE, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
     "awayTeam": {
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-12T15:00:00.000Z",
@@ -2032,6 +2139,10 @@
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-12T15:00:00.000Z",
       "dateTime": "2026-12-12T15:00:00.000Z"
@@ -2052,39 +2163,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Hearts",
-      "crest": "https://crests.football-data.org/5371.png"
-    },
-    "awayTeam": {
-      "name": "Motherwell",
-      "crest": "https://crests.football-data.org/5374.png"
-    },
-    "date": {
-      "date": "2026-12-12T15:00:00.000Z",
-      "dateTime": "2026-12-12T15:00:00.000Z"
-    },
-    "id": "4b28c5e94d20845ca88f832b96043c60",
-    "stadium": {
-      "address": "Darwin, NT",
-      "venue": null,
-      "geo": {
-        "latitude": -12.46044,
-        "longitude": 130.8410469,
-        "name": "Darwin, City of Darwin, Northern Territory, 0800, Australia"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
     },
     "awayTeam": {
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-12T15:00:00.000Z",
@@ -2113,6 +2201,10 @@
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-12T15:00:00.000Z",
       "dateTime": "2026-12-12T15:00:00.000Z"
@@ -2125,12 +2217,78 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "awayTeam": {
+      "name": "Hibernian",
+      "crest": "https://crests.football-data.org/1892.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-13T15:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-12-13T15:00:00.000Z",
+      "dateTime": "2026-12-13T15:00:00.000Z"
+    },
+    "id": "7c8674fc74ad209f00e94a19ef2df925",
+    "stadium": {
+      "address": "Celtic Park Glasgow G40 3RE",
+      "venue": "Celtic Park",
+      "geo": {
+        "latitude": 55.8501815,
+        "longitude": -4.2068227,
+        "name": "Celtic Park, Upper Plaza, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RE, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Hearts",
+      "crest": "https://crests.football-data.org/5371.png"
+    },
+    "awayTeam": {
+      "name": "Motherwell",
+      "crest": "https://crests.football-data.org/5374.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-13T15:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-12-13T15:00:00.000Z",
+      "dateTime": "2026-12-13T15:00:00.000Z"
+    },
+    "id": "4b28c5e94d20845ca88f832b96043c60",
+    "stadium": {
+      "address": "Darwin, NT",
+      "venue": null,
+      "geo": {
+        "latitude": -12.46044,
+        "longitude": 130.8410469,
+        "name": "Darwin, City of Darwin, Northern Territory, 0800, Australia"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
     },
     "awayTeam": {
       "name": "Celtic",
       "crest": "https://crests.football-data.org/732.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-19T15:00:00.000Z",
@@ -2159,6 +2317,10 @@
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-19T15:00:00.000Z",
       "dateTime": "2026-12-19T15:00:00.000Z"
@@ -2186,6 +2348,10 @@
       "name": "St Johnstone",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-19T15:00:00.000Z",
       "dateTime": "2026-12-19T15:00:00.000Z"
@@ -2204,6 +2370,10 @@
     "awayTeam": {
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-19T15:00:00.000Z",
@@ -2225,39 +2395,16 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Rangers",
-      "crest": "https://crests.football-data.org/69.png"
-    },
-    "awayTeam": {
-      "name": "Hearts",
-      "crest": "https://crests.football-data.org/5371.png"
-    },
-    "date": {
-      "date": "2026-12-19T15:00:00.000Z",
-      "dateTime": "2026-12-19T15:00:00.000Z"
-    },
-    "id": "8385bcf2803e2b2c5fbd3ae1fbd81c0e",
-    "stadium": {
-      "address": "South Africa Road, Shepherds Bush London W12 7PA",
-      "venue": "Kiyan Prince Foundation Stadium",
-      "geo": {
-        "latitude": 51.5094016,
-        "longitude": -0.2321136,
-        "name": "MATRADE Loftus Road Stadium, South Africa Road, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 7PA, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
     },
     "awayTeam": {
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-19T15:00:00.000Z",
@@ -2279,12 +2426,47 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
+      "name": "Rangers",
+      "crest": "https://crests.football-data.org/69.png"
+    },
+    "awayTeam": {
+      "name": "Hearts",
+      "crest": "https://crests.football-data.org/5371.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-20T15:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-12-20T15:00:00.000Z",
+      "dateTime": "2026-12-20T15:00:00.000Z"
+    },
+    "id": "8385bcf2803e2b2c5fbd3ae1fbd81c0e",
+    "stadium": {
+      "address": "South Africa Road, Shepherds Bush London W12 7PA",
+      "venue": "Kiyan Prince Foundation Stadium",
+      "geo": {
+        "latitude": 51.5094016,
+        "longitude": -0.2321136,
+        "name": "MATRADE Loftus Road Stadium, South Africa Road, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 7PA, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
       "name": "Celtic",
       "crest": "https://crests.football-data.org/732.png"
     },
     "awayTeam": {
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-26T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-26T15:00:00.000Z",
@@ -2313,6 +2495,10 @@
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-26T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-26T15:00:00.000Z",
       "dateTime": "2026-12-26T15:00:00.000Z"
@@ -2339,6 +2525,10 @@
     "awayTeam": {
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-26T15:00:00.000Z"
     },
     "date": {
       "date": "2026-12-26T15:00:00.000Z",
@@ -2367,6 +2557,10 @@
       "name": "Aberdeen",
       "crest": "https://crests.football-data.org/5368.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-26T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-26T15:00:00.000Z",
       "dateTime": "2026-12-26T15:00:00.000Z"
@@ -2385,6 +2579,10 @@
     "awayTeam": {
       "name": "Rangers",
       "crest": "https://crests.football-data.org/69.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-26T17:45:00.000Z"
     },
     "date": {
       "date": "2026-12-26T17:45:00.000Z",
@@ -2413,6 +2611,10 @@
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-27T12:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-27T12:00:00.000Z",
       "dateTime": "2026-12-27T12:00:00.000Z"
@@ -2439,6 +2641,10 @@
     "awayTeam": {
       "name": "Motherwell",
       "crest": "https://crests.football-data.org/5374.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-30T19:45:00.000Z"
     },
     "date": {
       "date": "2026-12-30T19:45:00.000Z",
@@ -2467,6 +2673,10 @@
       "name": "Celtic",
       "crest": "https://crests.football-data.org/732.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-30T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-12-30T19:45:00.000Z",
       "dateTime": "2026-12-30T19:45:00.000Z"
@@ -2494,6 +2704,10 @@
       "name": "St. Mirren",
       "crest": "https://crests.football-data.org/5387.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-30T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-12-30T19:45:00.000Z",
       "dateTime": "2026-12-30T19:45:00.000Z"
@@ -2512,6 +2726,10 @@
     "awayTeam": {
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-30T19:45:00.000Z"
     },
     "date": {
       "date": "2026-12-30T19:45:00.000Z",
@@ -2540,6 +2758,10 @@
       "name": "Dundee FC",
       "crest": "https://crests.football-data.org/5369.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-30T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-12-30T19:45:00.000Z",
       "dateTime": "2026-12-30T19:45:00.000Z"
@@ -2567,6 +2789,10 @@
       "name": "Hearts",
       "crest": "https://crests.football-data.org/5371.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-30T19:45:00.000Z"
+    },
     "date": {
       "date": "2026-12-30T19:45:00.000Z",
       "dateTime": "2026-12-30T19:45:00.000Z"
@@ -2586,7 +2812,12 @@
       "name": "Dundee Utd",
       "crest": "https://crests.football-data.org/5381.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-02"
+    },
     "date": {
+      "date": "2027-01-02",
       "time": "TBD"
     },
     "id": "084a5ad8adcaa3cd88dd35043e3e2a47",
@@ -2612,7 +2843,12 @@
       "name": "Hibernian",
       "crest": "https://crests.football-data.org/1892.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-02"
+    },
     "date": {
+      "date": "2027-01-02",
       "time": "TBD"
     },
     "id": "c33096709ce30b8aa5856fd380a2d38a",
@@ -2638,7 +2874,12 @@
       "name": "Kilmarnock",
       "crest": "https://crests.football-data.org/5373.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-02"
+    },
     "date": {
+      "date": "2027-01-02",
       "time": "TBD"
     },
     "id": "e64a4935f52dff1f6645aab3056f014f",
@@ -2664,7 +2905,12 @@
       "name": "St Johnstone",
       "crest": null
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-02"
+    },
     "date": {
+      "date": "2027-01-02",
       "time": "TBD"
     },
     "id": "38eee7bb4c7b4cd3a08a2106019bdf4d",
@@ -2677,5 +2923,237 @@
         "name": "Fir Park, Upton Rocks, Widnes, Halton, Liverpool City Region, England, United Kingdom"
       }
     }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Rangers",
+      "crest": "https://crests.football-data.org/69.png"
+    },
+    "awayTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-03"
+    },
+    "date": {
+      "date": "2027-01-03",
+      "time": "TBD"
+    },
+    "id": "59b7bdb050252dcf90060b099ff6a008",
+    "stadium": {
+      "address": "South Africa Road, Shepherds Bush London W12 7PA",
+      "venue": "Kiyan Prince Foundation Stadium",
+      "geo": {
+        "latitude": 51.5094016,
+        "longitude": -0.2321136,
+        "name": "MATRADE Loftus Road Stadium, South Africa Road, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 7PA, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "St. Mirren",
+      "crest": "https://crests.football-data.org/5387.png"
+    },
+    "awayTeam": {
+      "name": "Aberdeen",
+      "crest": "https://crests.football-data.org/5368.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-03"
+    },
+    "date": {
+      "date": "2027-01-03",
+      "time": "TBD"
+    },
+    "id": "874d0d9681b0b9d76ee8f44978f322a7",
+    "stadium": {
+      "address": "Paisley",
+      "venue": "The Simple Digital Arena",
+      "geo": {
+        "latitude": 55.8455828,
+        "longitude": -4.4239646,
+        "name": "Paisley, Renfrewshire, Alba / Scotland, PA1 1DG, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Aberdeen",
+      "crest": "https://crests.football-data.org/5368.png"
+    },
+    "awayTeam": {
+      "name": "Hearts",
+      "crest": "https://crests.football-data.org/5371.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
+    "date": {
+      "date": "2027-01-09",
+      "time": "TBD"
+    },
+    "id": "bf07f5499313e4de36c79d4c7be86c6a",
+    "stadium": {
+      "address": "Pittodrie Street Aberdeen AB24 5QH",
+      "venue": "Pittodrie Stadium",
+      "geo": {
+        "latitude": 57.1592769,
+        "longitude": -2.0886287,
+        "name": "Pittodrie Stadium, Pittodrie Street, Pittodrie, Castlehill and Pittodrie, Aberdeen City, Alba / Scotland, AB24 5QH, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Celtic",
+      "crest": "https://crests.football-data.org/732.png"
+    },
+    "awayTeam": {
+      "name": "Dundee FC",
+      "crest": "https://crests.football-data.org/5369.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
+    "date": {
+      "date": "2027-01-09",
+      "time": "TBD"
+    },
+    "id": "dd41c4cc069d7f29f1e8c23118b4db44",
+    "stadium": {
+      "address": "Celtic Park Glasgow G40 3RE",
+      "venue": "Celtic Park",
+      "geo": {
+        "latitude": 55.8501815,
+        "longitude": -4.2068227,
+        "name": "Celtic Park, Upper Plaza, Newbank, Glasgow, Glasgow City, Alba / Scotland, G40 3RE, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Dundee Utd",
+      "crest": "https://crests.football-data.org/5381.png"
+    },
+    "awayTeam": {
+      "name": "Rangers",
+      "crest": "https://crests.football-data.org/69.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
+    "date": {
+      "date": "2027-01-09",
+      "time": "TBD"
+    },
+    "id": "591f20e413b6de5f112ff933af930c8b",
+    "stadium": {
+      "address": "Sandeman Street Dundee DD3 7JY",
+      "venue": "Kilmac Stadium at Dens Park",
+      "geo": {
+        "latitude": 56.4752697,
+        "longitude": -2.9682838,
+        "name": "Sandeman Street, Clepington, Stobswell, Dundee, Dundee City, Alba / Scotland, DD3 7LE, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Hibernian",
+      "crest": "https://crests.football-data.org/1892.png"
+    },
+    "awayTeam": {
+      "name": "Motherwell",
+      "crest": "https://crests.football-data.org/5374.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
+    "date": {
+      "date": "2027-01-09",
+      "time": "TBD"
+    },
+    "id": "5cc6b188d95cfa96592f2931ace9155d",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Kilmarnock",
+      "crest": "https://crests.football-data.org/5373.png"
+    },
+    "awayTeam": {
+      "name": "St. Mirren",
+      "crest": "https://crests.football-data.org/5387.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
+    "date": {
+      "date": "2027-01-09",
+      "time": "TBD"
+    },
+    "id": "2e34e1aaed308e0b9298a7d9308aaedd",
+    "stadium": {
+      "address": "Rugby Park Kilmarnock KA1 2DP",
+      "venue": "BBSP Stadium, Rugby Park",
+      "geo": {
+        "latitude": 55.6040974,
+        "longitude": -4.5093662,
+        "name": "The BBSP Stadium, Springhill Place, Grange, Kilmarnock, East Ayrshire, Alba / Scotland, KA1 2DS, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "St Johnstone",
+      "crest": null
+    },
+    "awayTeam": {
+      "name": "Falkirk",
+      "crest": "https://crests.football-data.org/5382.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
+    "date": {
+      "date": "2027-01-09",
+      "time": "TBD"
+    },
+    "id": "9670c5852ad40f6f075f06b8952a996c",
+    "stadium": null
   }
 ]

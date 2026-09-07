@@ -1,7 +1,99 @@
 {
   "competitionName": "Klasa B (Czestochowa I)",
-  "count": 4,
+  "count": 36,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "57307f040345cdcf3621bccb367c682b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "2bcda48c4d10c3b1ccea72d013cbe4d8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "ee0e9723fac4c7714db5225a78e6f2b1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "fdb328620db4682e70f9efd955ccdb9c",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa B (Czestochowa I)"
@@ -11,52 +103,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Lotnik II Kościelec",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T17:00:00.000Z"
-      },
-      "id": "d017f21db154644adb133076d61ba101",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Czestochowa I)"
-      },
-      "homeTeam": {
         "name": "Huragan Jezioro",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Unia II Rędziny",
-        "crest": null
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "c1be75ec09b816dbe428061f9fd8f86b",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Czestochowa I)"
-      },
-      "homeTeam": {
-        "name": "Grom Miedźno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast Lubojna",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "49d69bdac62f7f0663fb53ca2eb68952",
+      "id": "7611e297190fc8ade73bfd4080fd26a9",
       "stadium": null
     },
     {
@@ -68,14 +128,770 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "eb628a55e5c2519ca98a509d8b4b78d9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5eec54b11af1d24114230d7da2e9def5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Stradom II Częstochowa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "bc68115d81bd33d809363902f79d98aa",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9b5a939314425e7b6e0b3d645ac7eaf1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9a04c020bd8dcf24217b1c31c210c3bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "bbd9e150c4c011583571333624bd723f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "647faf03534cdb43c639e6dcb23a35d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3dce02874100ef511df54d6886132ab3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7923490ffd9e9e60c6150caa3d677923",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f63b08b3fcd835937f6d1f8311c4c125",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0d150605c106b27c3d790a3b231fb8c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9709c956391e21e5fb370fad9e261e03",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ba0b64963895026b9b54b73b8a39ce35",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dcc4c30dded460437c0b47c8ecbca7c3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "19553129562e8bc2e907bf1d47c0da28",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d5155f70ec146ac645b3728836178a49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "65eaf33be782c83b75cec3341e44aa96",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2cf494b439a9b5635920a2e09422c0f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9cf93b5fd1ea602cc271fbebc8528606",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "38bd566a62f7df1c2a0c90a501b8a95e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e445350c4737f92f31cce812fb0d5f32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "940e8aa9897fed551d5ede34dcd90425",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ede411e557dcbe38d4e8408f562b082a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "fcd1b12c0d17eb54f47f4ab5e0e9e0e5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a30d2283af2500245afa63fbdb4d4b6b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3c4ca9601340fb8d63a262f6b1b02994",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "33671e8c8921bb6f81d311c441e2031e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "274041bfbb9243fb6834528332196ac0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5ab0f5e7f43491a85250fabb8b45d2fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "410258af57512718f1f3fab44876a737",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "236b181d5bc2c36177d35058344c3cc7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9184e1956b9e1fbd606f935010f2434d",
       "stadium": null
     }
   ]

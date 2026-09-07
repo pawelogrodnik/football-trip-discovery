@@ -4,138 +4,16 @@
       "name": "Liga MX (Mexico 1 League)"
     },
     "homeTeam": {
-      "name": "Juarez",
-      "crest": "https://crests.football-data.org/5792.png"
-    },
-    "awayTeam": {
-      "name": "Pachuca",
-      "crest": "https://crests.football-data.org/5781.png"
-    },
-    "date": {
-      "date": "2026-09-05T03:00:00.000Z",
-      "dateTime": "2026-09-05T03:00:00.000Z"
-    },
-    "id": "223ef32a228fb609679c2c361fda1054",
-    "stadium": {
-      "address": "Henry Dunant 5150, Col. Progresista Ciudad Juárez, Chihuahua 32310",
-      "venue": "Estadio Olímpico Benito Juárez",
-      "geo": {
-        "latitude": 31.7530863,
-        "longitude": -106.4678289,
-        "name": "Estadio Olimpico Benito Juárez, Avenida Rafael P. Serna, Ciudad Juárez, Juárez, Chihuahua, 32317, México"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Liga MX (Mexico 1 League)"
-    },
-    "homeTeam": {
-      "name": "Atl. San Luis",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Guadalajara Chivas",
-      "crest": "https://crests.football-data.org/10061.png"
-    },
-    "date": {
-      "date": "2026-09-05T23:00:00.000Z",
-      "dateTime": "2026-09-05T23:00:00.000Z"
-    },
-    "id": "5ac616b3f9669c09a1f3d1972be669ee",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "Liga MX (Mexico 1 League)"
-    },
-    "homeTeam": {
-      "name": "Tigres UANL",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Necaxa",
-      "crest": "https://crests.football-data.org/5785.png"
-    },
-    "date": {
-      "date": "2026-09-06T01:00:00.000Z",
-      "dateTime": "2026-09-06T01:00:00.000Z"
-    },
-    "id": "a24b71a7d46ae71216cf1725e9d6aed7",
-    "stadium": {
-      "venue": "Estadio Universitario",
-      "address": "Niños Héroes, Ciudad Universitaria, 66451 San Nicolás de los Garza, Nuevo Leon, Meksyk",
-      "geo": {
-        "latitude": 25.72260743561374,
-        "longitude": -100.31164210980538
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Liga MX (Mexico 1 League)"
-    },
-    "homeTeam": {
-      "name": "Atlas",
-      "crest": "https://crests.football-data.org/5771.png"
-    },
-    "awayTeam": {
-      "name": "Atlante",
-      "crest": null
-    },
-    "date": {
-      "date": "2026-09-06T03:00:00.000Z",
-      "dateTime": "2026-09-06T03:00:00.000Z"
-    },
-    "id": "5367ae39ed25da53299223b18bc87af5",
-    "stadium": {
-      "address": "Av de la Patria 1501, Jardines Universidad Zapopan, Jalisco 45110",
-      "venue": "Estadio Jalisco",
-      "geo": {
-        "latitude": 20.7047861,
-        "longitude": -103.3276735,
-        "name": "Estadio Jalisco, 1772, Calle Siete Colinas, Independencia, Guadalajara, Región Centro, Jalisco, 44290, México"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Liga MX (Mexico 1 League)"
-    },
-    "homeTeam": {
-      "name": "Cruz Azul",
-      "crest": "https://crests.football-data.org/5789.png"
-    },
-    "awayTeam": {
-      "name": "Santos Laguna",
-      "crest": "https://crests.football-data.org/5787.png"
-    },
-    "date": {
-      "date": "2026-09-07T02:00:00.000Z",
-      "dateTime": "2026-09-07T02:00:00.000Z"
-    },
-    "id": "6b282841951777583705eafb40afaccc",
-    "stadium": {
-      "address": "Indiana 255, Ciudad de los Deportes, Benito Juárez Ciudad de México 03810",
-      "venue": "Estadio Azteca",
-      "geo": {
-        "latitude": 19.3029794,
-        "longitude": -99.15047,
-        "name": "Estadio Azteca, Circuito Estadio Azteca, Ex-ejido de Santa Úrsula Coapa, Ciudad de México, Coyoacán, Ciudad de México, 04650, México"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Liga MX (Mexico 1 League)"
-    },
-    "homeTeam": {
       "name": "UNAM Pumas",
       "crest": "https://crests.football-data.org/5796.png"
     },
     "awayTeam": {
       "name": "Club Leon",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-11T03:00:00.000Z"
     },
     "date": {
       "date": "2026-09-11T03:00:00.000Z",
@@ -164,6 +42,10 @@
       "name": "Puebla",
       "crest": "https://crests.football-data.org/5786.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-12T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-12T01:00:00.000Z",
       "dateTime": "2026-09-12T01:00:00.000Z"
@@ -182,6 +64,10 @@
     "awayTeam": {
       "name": "Pachuca",
       "crest": "https://crests.football-data.org/5781.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-12T03:00:00.000Z"
     },
     "date": {
       "date": "2026-09-12T03:00:00.000Z",
@@ -210,6 +96,10 @@
       "name": "Queretaro",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-12T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-12T03:00:00.000Z",
       "dateTime": "2026-09-12T03:00:00.000Z"
@@ -236,6 +126,10 @@
     "awayTeam": {
       "name": "Atlas",
       "crest": "https://crests.football-data.org/5771.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-12T23:00:00.000Z"
     },
     "date": {
       "date": "2026-09-12T23:00:00.000Z",
@@ -264,6 +158,10 @@
       "name": "Tigres UANL",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-13T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-13T01:00:00.000Z",
       "dateTime": "2026-09-13T01:00:00.000Z"
@@ -290,6 +188,10 @@
     "awayTeam": {
       "name": "Club America",
       "crest": "https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-13T03:00:00.000Z"
     },
     "date": {
       "date": "2026-09-13T03:00:00.000Z",
@@ -318,6 +220,10 @@
       "name": "Juarez",
       "crest": "https://crests.football-data.org/5792.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-14T00:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-14T00:00:00.000Z",
       "dateTime": "2026-09-14T00:00:00.000Z"
@@ -336,6 +242,10 @@
     "awayTeam": {
       "name": "UNAM Pumas",
       "crest": "https://crests.football-data.org/5796.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-14T01:07:00.000Z"
     },
     "date": {
       "date": "2026-09-14T01:07:00.000Z",
@@ -356,6 +266,10 @@
       "name": "Atl. San Luis",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-15T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-15T01:00:00.000Z",
       "dateTime": "2026-09-15T01:00:00.000Z"
@@ -374,6 +288,10 @@
     "awayTeam": {
       "name": "Toluca",
       "crest": "https://crests.football-data.org/5790.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-16T01:00:00.000Z"
     },
     "date": {
       "date": "2026-09-16T01:00:00.000Z",
@@ -402,6 +320,10 @@
       "name": "Atlante",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T01:00:00.000Z",
       "dateTime": "2026-09-19T01:00:00.000Z"
@@ -428,6 +350,10 @@
     "awayTeam": {
       "name": "Tigres UANL",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T03:00:00.000Z"
     },
     "date": {
       "date": "2026-09-19T03:00:00.000Z",
@@ -456,6 +382,10 @@
       "name": "Necaxa",
       "crest": "https://crests.football-data.org/5785.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T23:00:00.000Z",
       "dateTime": "2026-09-19T23:00:00.000Z"
@@ -474,6 +404,10 @@
     "awayTeam": {
       "name": "UNAM Pumas",
       "crest": "https://crests.football-data.org/5796.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T23:00:00.000Z"
     },
     "date": {
       "date": "2026-09-19T23:00:00.000Z",
@@ -502,6 +436,10 @@
       "name": "Cruz Azul",
       "crest": "https://crests.football-data.org/5789.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-20T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-20T01:00:00.000Z",
       "dateTime": "2026-09-20T01:00:00.000Z"
@@ -528,6 +466,10 @@
     "awayTeam": {
       "name": "Guadalajara Chivas",
       "crest": "https://crests.football-data.org/10061.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-20T03:00:00.000Z"
     },
     "date": {
       "date": "2026-09-20T03:00:00.000Z",
@@ -556,6 +498,10 @@
       "name": "Club Tijuana",
       "crest": "https://crests.football-data.org/5788.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-21T00:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-21T00:00:00.000Z",
       "dateTime": "2026-09-21T00:00:00.000Z"
@@ -582,6 +528,10 @@
     "awayTeam": {
       "name": "Santos Laguna",
       "crest": "https://crests.football-data.org/5787.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-21T00:00:00.000Z"
     },
     "date": {
       "date": "2026-09-21T00:00:00.000Z",
@@ -610,6 +560,10 @@
       "name": "Club Leon",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-21T02:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-21T02:00:00.000Z",
       "dateTime": "2026-09-21T02:00:00.000Z"
@@ -628,6 +582,10 @@
     "awayTeam": {
       "name": "Monterrey",
       "crest": "https://crests.football-data.org/5780.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-26T01:00:00.000Z"
     },
     "date": {
       "date": "2026-09-26T01:00:00.000Z",
@@ -656,6 +614,10 @@
       "name": "Atlas",
       "crest": "https://crests.football-data.org/5771.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-26T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-26T03:00:00.000Z",
       "dateTime": "2026-09-26T03:00:00.000Z"
@@ -682,6 +644,10 @@
     "awayTeam": {
       "name": "Toluca",
       "crest": "https://crests.football-data.org/5790.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-26T23:00:00.000Z"
     },
     "date": {
       "date": "2026-09-26T23:00:00.000Z",
@@ -710,6 +676,10 @@
       "name": "Queretaro",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-26T23:07:00.000Z"
+    },
     "date": {
       "date": "2026-09-26T23:07:00.000Z",
       "dateTime": "2026-09-26T23:07:00.000Z"
@@ -729,6 +699,10 @@
       "name": "Pachuca",
       "crest": "https://crests.football-data.org/5781.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-27T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-27T01:00:00.000Z",
       "dateTime": "2026-09-27T01:00:00.000Z"
@@ -747,6 +721,10 @@
     "awayTeam": {
       "name": "Puebla",
       "crest": "https://crests.football-data.org/5786.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-27T01:00:00.000Z"
     },
     "date": {
       "date": "2026-09-27T01:00:00.000Z",
@@ -773,6 +751,10 @@
     "awayTeam": {
       "name": "Atl. San Luis",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-27T18:00:00.000Z"
     },
     "date": {
       "date": "2026-09-27T18:00:00.000Z",
@@ -801,6 +783,10 @@
       "name": "Juarez",
       "crest": "https://crests.football-data.org/5792.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-28T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-28T01:00:00.000Z",
       "dateTime": "2026-09-28T01:00:00.000Z"
@@ -820,6 +806,10 @@
       "name": "Club America",
       "crest": "https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-28T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-28T03:00:00.000Z",
       "dateTime": "2026-09-28T03:00:00.000Z"
@@ -838,6 +828,10 @@
     "awayTeam": {
       "name": "Club Leon",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T01:00:00.000Z"
     },
     "date": {
       "date": "2026-10-10T01:00:00.000Z",
@@ -866,6 +860,10 @@
       "name": "Atlante",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T01:00:00.000Z",
       "dateTime": "2026-10-10T01:00:00.000Z"
@@ -884,6 +882,10 @@
     "awayTeam": {
       "name": "Toluca",
       "crest": "https://crests.football-data.org/5790.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T03:00:00.000Z"
     },
     "date": {
       "date": "2026-10-10T03:00:00.000Z",
@@ -910,6 +912,10 @@
     "awayTeam": {
       "name": "Club Tijuana",
       "crest": "https://crests.football-data.org/5788.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T23:00:00.000Z"
     },
     "date": {
       "date": "2026-10-10T23:00:00.000Z",
@@ -938,6 +944,10 @@
       "name": "Guadalajara Chivas",
       "crest": "https://crests.football-data.org/10061.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-11T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-11T01:00:00.000Z",
       "dateTime": "2026-10-11T01:00:00.000Z"
@@ -964,6 +974,10 @@
     "awayTeam": {
       "name": "Monterrey",
       "crest": "https://crests.football-data.org/5780.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-11T03:00:00.000Z"
     },
     "date": {
       "date": "2026-10-11T03:00:00.000Z",
@@ -992,6 +1006,10 @@
       "name": "Santos Laguna",
       "crest": "https://crests.football-data.org/5787.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-11T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-11T23:00:00.000Z",
       "dateTime": "2026-10-11T23:00:00.000Z"
@@ -1010,6 +1028,10 @@
     "awayTeam": {
       "name": "Necaxa",
       "crest": "https://crests.football-data.org/5785.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-11T23:00:00.000Z"
     },
     "date": {
       "date": "2026-10-11T23:00:00.000Z",
@@ -1038,6 +1060,10 @@
       "name": "Cruz Azul",
       "crest": "https://crests.football-data.org/5789.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-12T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-12T01:00:00.000Z",
       "dateTime": "2026-10-12T01:00:00.000Z"
@@ -1065,6 +1091,10 @@
       "name": "Atlas",
       "crest": "https://crests.football-data.org/5771.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T01:00:00.000Z",
       "dateTime": "2026-10-17T01:00:00.000Z"
@@ -1083,6 +1113,10 @@
     "awayTeam": {
       "name": "UNAM Pumas",
       "crest": "https://crests.football-data.org/5796.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T03:00:00.000Z"
     },
     "date": {
       "date": "2026-10-17T03:00:00.000Z",
@@ -1111,6 +1145,10 @@
       "name": "Puebla",
       "crest": "https://crests.football-data.org/5786.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T03:00:00.000Z",
       "dateTime": "2026-10-17T03:00:00.000Z"
@@ -1138,6 +1176,10 @@
       "name": "Queretaro",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T23:00:00.000Z",
       "dateTime": "2026-10-17T23:00:00.000Z"
@@ -1156,6 +1198,10 @@
     "awayTeam": {
       "name": "Tigres UANL",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T23:07:00.000Z"
     },
     "date": {
       "date": "2026-10-17T23:07:00.000Z",
@@ -1176,6 +1222,10 @@
       "name": "Club America",
       "crest": "https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-18T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-18T01:00:00.000Z",
       "dateTime": "2026-10-18T01:00:00.000Z"
@@ -1194,6 +1244,10 @@
     "awayTeam": {
       "name": "Atl. San Luis",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-18T01:00:00.000Z"
     },
     "date": {
       "date": "2026-10-18T01:00:00.000Z",
@@ -1222,6 +1276,10 @@
       "name": "Juarez",
       "crest": "https://crests.football-data.org/5792.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-18T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-18T03:00:00.000Z",
       "dateTime": "2026-10-18T03:00:00.000Z"
@@ -1248,6 +1306,10 @@
     "awayTeam": {
       "name": "Pachuca",
       "crest": "https://crests.football-data.org/5781.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-19T01:00:00.000Z"
     },
     "date": {
       "date": "2026-10-19T01:00:00.000Z",
@@ -1276,6 +1338,10 @@
       "name": "Necaxa",
       "crest": "https://crests.football-data.org/5785.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-21T00:07:00.000Z"
+    },
     "date": {
       "date": "2026-10-21T00:07:00.000Z",
       "dateTime": "2026-10-21T00:07:00.000Z"
@@ -1295,6 +1361,10 @@
       "name": "Queretaro",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-21T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-21T01:00:00.000Z",
       "dateTime": "2026-10-21T01:00:00.000Z"
@@ -1313,6 +1383,10 @@
     "awayTeam": {
       "name": "Atlante",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-21T01:00:00.000Z"
     },
     "date": {
       "date": "2026-10-21T01:00:00.000Z",
@@ -1341,6 +1415,10 @@
       "name": "Club Leon",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-21T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-21T03:00:00.000Z",
       "dateTime": "2026-10-21T03:00:00.000Z"
@@ -1366,6 +1444,10 @@
     "awayTeam": {
       "name": "Club America",
       "crest": "https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-22T01:00:00.000Z"
     },
     "date": {
       "date": "2026-10-22T01:00:00.000Z",
@@ -1394,6 +1476,10 @@
       "name": "Monterrey",
       "crest": "https://crests.football-data.org/5780.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-22T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-22T01:00:00.000Z",
       "dateTime": "2026-10-22T01:00:00.000Z"
@@ -1420,6 +1506,10 @@
     "awayTeam": {
       "name": "Club Tijuana",
       "crest": "https://crests.football-data.org/5788.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-22T01:00:00.000Z"
     },
     "date": {
       "date": "2026-10-22T01:00:00.000Z",
@@ -1448,6 +1538,10 @@
       "name": "Cruz Azul",
       "crest": "https://crests.football-data.org/5789.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-22T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-22T03:00:00.000Z",
       "dateTime": "2026-10-22T03:00:00.000Z"
@@ -1475,6 +1569,10 @@
       "name": "UNAM Pumas",
       "crest": "https://crests.football-data.org/5796.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-22T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-22T03:00:00.000Z",
       "dateTime": "2026-10-22T03:00:00.000Z"
@@ -1494,6 +1592,10 @@
       "name": "Juarez",
       "crest": "https://crests.football-data.org/5792.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-24T01:00:00.000Z",
       "dateTime": "2026-10-24T01:00:00.000Z"
@@ -1512,6 +1614,10 @@
     "awayTeam": {
       "name": "Atl. San Luis",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T03:00:00.000Z"
     },
     "date": {
       "date": "2026-10-24T03:00:00.000Z",
@@ -1540,6 +1646,10 @@
       "name": "Toluca",
       "crest": "https://crests.football-data.org/5790.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-24T23:00:00.000Z",
       "dateTime": "2026-10-24T23:00:00.000Z"
@@ -1558,6 +1668,10 @@
     "awayTeam": {
       "name": "Guadalajara Chivas",
       "crest": "https://crests.football-data.org/10061.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-25T00:00:00.000Z"
     },
     "date": {
       "date": "2026-10-25T00:00:00.000Z",
@@ -1586,6 +1700,10 @@
       "name": "Tigres UANL",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-25T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-25T03:00:00.000Z",
       "dateTime": "2026-10-25T03:00:00.000Z"
@@ -1612,6 +1730,10 @@
     "awayTeam": {
       "name": "Puebla",
       "crest": "https://crests.football-data.org/5786.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-25T23:00:00.000Z"
     },
     "date": {
       "date": "2026-10-25T23:00:00.000Z",
@@ -1640,6 +1762,10 @@
       "name": "Pachuca",
       "crest": "https://crests.football-data.org/5781.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-25T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-25T23:00:00.000Z",
       "dateTime": "2026-10-25T23:00:00.000Z"
@@ -1667,6 +1793,10 @@
       "name": "Cruz Azul",
       "crest": "https://crests.football-data.org/5789.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-26T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-26T01:00:00.000Z",
       "dateTime": "2026-10-26T01:00:00.000Z"
@@ -1685,6 +1815,10 @@
     "awayTeam": {
       "name": "Santos Laguna",
       "crest": "https://crests.football-data.org/5787.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-26T03:00:00.000Z"
     },
     "date": {
       "date": "2026-10-26T03:00:00.000Z",
@@ -1713,6 +1847,10 @@
       "name": "Club Tijuana",
       "crest": "https://crests.football-data.org/5788.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-29T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-29T03:00:00.000Z",
       "dateTime": "2026-10-29T03:00:00.000Z"
@@ -1740,6 +1878,10 @@
       "name": "Atlas",
       "crest": "https://crests.football-data.org/5771.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T01:00:00.000Z",
       "dateTime": "2026-10-31T01:00:00.000Z"
@@ -1758,6 +1900,10 @@
     "awayTeam": {
       "name": "Queretaro",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T01:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T01:00:00.000Z",
@@ -1786,6 +1932,10 @@
       "name": "UNAM Pumas",
       "crest": "https://crests.football-data.org/5796.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T03:00:00.000Z",
       "dateTime": "2026-10-31T03:00:00.000Z"
@@ -1812,6 +1962,10 @@
     "awayTeam": {
       "name": "Tigres UANL",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T23:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T23:00:00.000Z",
@@ -1840,6 +1994,10 @@
       "name": "Club Tijuana",
       "crest": "https://crests.football-data.org/5788.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-01T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-01T01:00:00.000Z",
       "dateTime": "2026-11-01T01:00:00.000Z"
@@ -1867,6 +2025,10 @@
       "name": "Atlante",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-01T01:07:00.000Z"
+    },
     "date": {
       "date": "2026-11-01T01:07:00.000Z",
       "dateTime": "2026-11-01T01:07:00.000Z"
@@ -1885,6 +2047,10 @@
     "awayTeam": {
       "name": "Toluca",
       "crest": "https://crests.football-data.org/5790.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-01T03:00:00.000Z"
     },
     "date": {
       "date": "2026-11-01T03:00:00.000Z",
@@ -1913,6 +2079,10 @@
       "name": "Necaxa",
       "crest": "https://crests.football-data.org/5785.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-01T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-01T23:00:00.000Z",
       "dateTime": "2026-11-01T23:00:00.000Z"
@@ -1931,6 +2101,10 @@
     "awayTeam": {
       "name": "Club Leon",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-02T01:00:00.000Z"
     },
     "date": {
       "date": "2026-11-02T01:00:00.000Z",
@@ -1959,6 +2133,10 @@
       "name": "Juarez",
       "crest": "https://crests.football-data.org/5792.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T01:00:00.000Z",
       "dateTime": "2026-11-07T01:00:00.000Z"
@@ -1978,6 +2156,10 @@
       "name": "Club Tijuana",
       "crest": "https://crests.football-data.org/5788.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T01:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T01:00:00.000Z",
       "dateTime": "2026-11-07T01:00:00.000Z"
@@ -1996,6 +2178,10 @@
     "awayTeam": {
       "name": "Santos Laguna",
       "crest": "https://crests.football-data.org/5787.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T03:00:00.000Z"
     },
     "date": {
       "date": "2026-11-07T03:00:00.000Z",
@@ -2024,6 +2210,10 @@
       "name": "Pachuca",
       "crest": "https://crests.football-data.org/5781.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T23:00:00.000Z",
       "dateTime": "2026-11-07T23:00:00.000Z"
@@ -2051,6 +2241,10 @@
       "name": "Cruz Azul",
       "crest": "https://crests.football-data.org/5789.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T23:00:00.000Z",
       "dateTime": "2026-11-07T23:00:00.000Z"
@@ -2076,6 +2270,10 @@
     "awayTeam": {
       "name": "Monterrey",
       "crest": "https://crests.football-data.org/5780.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-08T01:00:00.000Z"
     },
     "date": {
       "date": "2026-11-08T01:00:00.000Z",
@@ -2104,6 +2302,10 @@
       "name": "Club America",
       "crest": "https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-08T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-08T03:00:00.000Z",
       "dateTime": "2026-11-08T03:00:00.000Z"
@@ -2131,6 +2333,10 @@
       "name": "Puebla",
       "crest": "https://crests.football-data.org/5786.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-09T00:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-09T00:00:00.000Z",
       "dateTime": "2026-11-09T00:00:00.000Z"
@@ -2149,6 +2355,10 @@
     "awayTeam": {
       "name": "Guadalajara Chivas",
       "crest": "https://crests.football-data.org/10061.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-09T02:00:00.000Z"
     },
     "date": {
       "date": "2026-11-09T02:00:00.000Z",
@@ -2169,6 +2379,10 @@
       "name": "Monterrey",
       "crest": "https://crests.football-data.org/5780.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-14T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-14T23:00:00.000Z",
       "dateTime": "2026-11-14T23:00:00.000Z"
@@ -2187,6 +2401,10 @@
     "awayTeam": {
       "name": "Atl. San Luis",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T01:00:00.000Z"
     },
     "date": {
       "date": "2026-11-21T01:00:00.000Z",
@@ -2215,6 +2433,10 @@
       "name": "Atlante",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T03:00:00.000Z",
       "dateTime": "2026-11-21T03:00:00.000Z"
@@ -2241,6 +2463,10 @@
     "awayTeam": {
       "name": "Atlas",
       "crest": "https://crests.football-data.org/5771.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T03:00:00.000Z"
     },
     "date": {
       "date": "2026-11-21T03:00:00.000Z",
@@ -2269,6 +2495,10 @@
       "name": "Toluca",
       "crest": "https://crests.football-data.org/5790.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T23:00:00.000Z",
       "dateTime": "2026-11-21T23:00:00.000Z"
@@ -2296,6 +2526,10 @@
       "name": "Club Leon",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T23:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T23:00:00.000Z",
       "dateTime": "2026-11-21T23:00:00.000Z"
@@ -2314,6 +2548,10 @@
     "awayTeam": {
       "name": "Monterrey",
       "crest": "https://crests.football-data.org/5780.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-22T01:00:00.000Z"
     },
     "date": {
       "date": "2026-11-22T01:00:00.000Z",
@@ -2342,6 +2580,10 @@
       "name": "Club America",
       "crest": "https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-22T03:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-22T03:00:00.000Z",
       "dateTime": "2026-11-22T03:00:00.000Z"
@@ -2368,6 +2610,10 @@
       "name": "Cruz Azul",
       "crest": "https://crests.football-data.org/5789.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-22T23:07:00.000Z"
+    },
     "date": {
       "date": "2026-11-22T23:07:00.000Z",
       "dateTime": "2026-11-22T23:07:00.000Z"
@@ -2386,6 +2632,10 @@
     "awayTeam": {
       "name": "Necaxa",
       "crest": "https://crests.football-data.org/5785.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-23T01:00:00.000Z"
     },
     "date": {
       "date": "2026-11-23T01:00:00.000Z",

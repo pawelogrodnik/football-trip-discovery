@@ -1,55 +1,30 @@
 {
   "competitionName": "Klasa okręgowa (Krakow II)",
-  "count": 67,
+  "count": 65,
   "matches": [
     {
       "competition": {
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
       },
-      "id": "bec79b0c39ada9793139fb68f03772ec",
-      "stadium": {
-        "address": "Brzozowa, Kaszów",
-        "venue": "LKS Kaszowianka",
-        "geo": {
-          "latitude": 50.038196,
-          "longitude": 19.7309011,
-          "name": "LKS Kaszowianka, Brzozowa, Kaszów"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Liszczanka Liszki"
-      },
-      "awayTeam": {
-        "name": "Strażak/Pajda Rączna"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "id": "866ef05587bf7c93496d41cf07aad7e1",
+      "id": "d46eb358aa66cb719c2cee7ef24e2655",
       "stadium": {
         "address": "Księdza Adolfa Baścika, Liszki",
         "venue": "LKS Liszczanka",
@@ -65,10 +40,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -80,49 +57,36 @@
         "endDate": "2026-09-13",
         "time": "TBD"
       },
-      "id": "a01280f3508553a798471d3f1afb56be",
-      "stadium": null
+      "id": "15f1a898145b9dafa4924d74f991cda3",
+      "stadium": {
+        "address": "Brzozowa, Kaszów",
+        "venue": "LKS Kaszowianka",
+        "geo": {
+          "latitude": 50.038196,
+          "longitude": 19.7309011,
+          "name": "LKS Kaszowianka, Brzozowa, Kaszów"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kaszowianka Kaszów"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "f33718c4ac1a6416fee42dfc742a7d09",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Płomień Kostrze (Kraków)"
-      },
-      "awayTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T09:00:00.000Z"
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T09:00:00.000Z"
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
       "id": "880aaf07cf855cd6877c1b851670a5ad",
       "stadium": null
@@ -132,18 +96,20 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
       "id": "a9745a846e7b1aab4ff6ccc3366e9231",
       "stadium": null
@@ -153,18 +119,20 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "id": "e3299490b2bc4f7ec17fb8b184f5744d",
       "stadium": null
@@ -174,18 +142,20 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T10:30:00.000Z"
+        "dateTime": "2026-09-13T12:30:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T10:30:00.000Z"
+        "dateTime": "2026-09-13T12:30:00.000Z"
       },
       "id": "b20d2a251c01e1fbe6babf127131c63d",
       "stadium": null
@@ -195,18 +165,20 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T17:00:00.000Z"
       },
       "id": "a1e83214d9e11ae3660b221f965434fc",
       "stadium": null
@@ -216,10 +188,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -247,10 +221,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -278,10 +254,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -309,10 +287,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -332,10 +312,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -363,10 +345,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -386,10 +370,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -409,18 +395,20 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-23T17:30:00.000Z"
+        "dateTime": "2026-09-23T19:30:00.000Z"
       },
       "date": {
         "date": "2026-09-23",
-        "dateTime": "2026-09-23T17:30:00.000Z"
+        "dateTime": "2026-09-23T19:30:00.000Z"
       },
       "id": "9b4e4cd54f62b2eaa344289f1a3b0b24",
       "stadium": null
@@ -430,10 +418,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -453,10 +443,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -476,10 +468,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -499,10 +493,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -522,10 +518,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -545,10 +543,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -568,10 +568,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -591,10 +593,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -622,10 +626,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -653,10 +659,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -676,10 +684,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -707,10 +717,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -730,10 +742,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -753,10 +767,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -776,10 +792,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -799,10 +817,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -822,10 +842,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -845,10 +867,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -868,10 +892,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -891,10 +917,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -914,10 +942,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -945,10 +975,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -976,10 +1008,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1007,10 +1041,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1030,10 +1066,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1053,10 +1091,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1076,10 +1116,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1099,10 +1141,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1122,10 +1166,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1153,10 +1199,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1176,10 +1224,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1207,10 +1257,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1230,10 +1282,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1253,10 +1307,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1276,10 +1332,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1299,10 +1357,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1322,10 +1382,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1345,10 +1407,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1368,10 +1432,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1391,10 +1457,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1414,10 +1482,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1445,10 +1515,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1476,10 +1548,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń Skotniki (Kraków)"
+        "name": "Pogoń Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Bronowianka Kraków"
+        "name": "Bronowianka Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1499,10 +1573,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orzeł Piaski Wielkie (Kraków)"
+        "name": "Orzeł Piaski Wielkie (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1522,10 +1598,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Grębałowianka Kraków"
+        "name": "Grębałowianka Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka Zielonki"
+        "name": "Zieleńczanka Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1545,10 +1623,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Płomień Kostrze (Kraków)"
+        "name": "Płomień Kostrze (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1568,10 +1648,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kaszowianka Kaszów"
+        "name": "Kaszowianka Kaszów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "KS Borek (Kraków)"
+        "name": "KS Borek (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1599,10 +1681,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Liszczanka Liszki"
+        "name": "Liszczanka Liszki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Piast Wołowice"
+        "name": "Piast Wołowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1630,10 +1714,12 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tramwaj Kraków"
+        "name": "Tramwaj Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Clepardia Kraków"
+        "name": "Clepardia Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1653,18 +1739,20 @@
         "name": "Klasa okręgowa (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wanda Nowa Huta (Kraków)"
+        "name": "Wanda Nowa Huta (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda Rączna"
+        "name": "Strażak/Pajda Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-11-11T10:00:00.000Z"
+        "dateTime": "2026-11-11T11:00:00.000Z"
       },
       "date": {
         "date": "2026-11-11",
-        "dateTime": "2026-11-11T10:00:00.000Z"
+        "dateTime": "2026-11-11T11:00:00.000Z"
       },
       "id": "cf431a817d66065f31596c0f84c05962",
       "stadium": null

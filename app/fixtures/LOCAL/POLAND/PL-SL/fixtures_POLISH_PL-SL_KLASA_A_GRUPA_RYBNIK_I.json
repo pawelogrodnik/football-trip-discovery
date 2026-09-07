@@ -1,81 +1,28 @@
 {
   "competitionName": "Klasa A (Rybnik I)",
-  "count": 6,
+  "count": 54,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Rybnik I)"
       },
       "homeTeam": {
-        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jedność Jejkowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "e26dd6f8336dbf920c3ca7f9a402cce2",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Rybnik I)"
-      },
-      "homeTeam": {
-        "name": "Rymer Rybnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód Rydułtowy",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "e12459dd020958c16ec800ec24485496",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Rybnik I)"
-      },
-      "homeTeam": {
-        "name": "KP Kamień (Rybnik)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Szczerbice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "ac8a9383ff53bcd9855d3c518aa8b8c6",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Rybnik I)"
-      },
-      "homeTeam": {
-        "name": "Górnik Boguszowice (Rybnik)",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "MKS 32 Radziejów (Rybnik)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
       },
-      "id": "7c161abfb2ab48f33e13da6cc4810f9f",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "0165316c73266c8fdca84db9837bce8e",
       "stadium": null
     },
     {
@@ -83,18 +30,114 @@
         "name": "Klasa A (Rybnik I)"
       },
       "homeTeam": {
-        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "name": "Naprzód Rydułtowy",
         "crest": null
       },
       "awayTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "643cbe287256d753725f9d33ae1d2d32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "1c9456a27e8d0bdf2dff38e707150e8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
         "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
       },
-      "id": "d88fc47d70182c3a6028a6d5f0a01b7f",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "1036490df03ce4fdbe9cfafaed8ec6fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "953167038a4abefd6f0da65f8d90f86f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "fbc02616fd2167a1f5166d8ca393e08b",
       "stadium": null
     },
     {
@@ -106,14 +149,1195 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e7808273118a6bbc5db7cd8809ea9338",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Płomień Ochojec (Rybnik)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0320790f90623bb66107f26b8bfa6708",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "22d96745aea1bbf41b7f76d041180783",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "87d97a80661e6ff33a0d711550fcb1e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "24dd7c9dd0a50fe74bde2655dbbb5af9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1bf5646cfde632bbdb687bf115c0b72d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "461c0be4cc02e1ee4ef29bc91a2e0ea6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7fc3b3d1487706aa4a0d1c1572b9b768",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6509039962f29b1920d2b45ebfb5065c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e044c9e8fb7877c7555ac5575fd027fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "aafba1c0a9d6915ccf458e2074c5aef0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6891514a2ab0a89a20039508c701dbb1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d082b4d4dc80ac6fb3163e5c193f3969",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "62fe3fda841eaf0678b1ae2bd14e2857",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "60438039fed241e7a2505ca868bc37d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a4f17c0a1351ab20f81c1bc094078bdb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "068ee4d2e44e0f698a139707d9f705dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b1f491e2288b1b9b6eb3af041f79a08f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4a8a1bd90154a1c37654d6d30c12a32a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "eaf7d0a112e2ca2c10038f88d54636e0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4fd3f0104341fdc5f319a6492ee8a96a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0c019033a2ba12e917d065790b32b46f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "22c74c7a845bf00f8613fb108c0448e1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c0ca11f501f45de25e9aa503759035e8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "beab0899948ffa565659b683037bbf8f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b4056a7f2901b90836ec2a4a8ac40b9c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "abcd067d0329c7a1272e47adcd91aeca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bdefbc8b2dcaf491ea713cf18b14f9c6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "21f63104a987a3da518340cefdae3c5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ce283934c9d0812f8e32bc500372cc26",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4249599cf44de852f8a0be0970e6046c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "866984a84f9bf7f9d9262b06f35a43cb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "190a8beeef73dc9a4ccef35f03529ba1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6b4b87e064a54c11153db078e659deeb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "348f1659b88f09aa91a29a953c46821f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c9ef197d36427efa4a0d90377d9001c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "779310787e303ad57b567b27bb1554bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1aac9d62c4a8e9113dd7460249316209",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c54183cb280823727daab8d3d6d4d0ab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "882b82dba4530b146e1bf4c366123527",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bd3f43dea3a2864caba00670f671a67f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ced34841516bfcea258bc3098d335747",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "be10d2f760f6c1fd7f8d44538e547021",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Jedność Jejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb II Gaszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d484ac19dbc5830312fae717e5e93ecf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "03f4d6cfbc4e527257f25e2f16b19c42",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "MKS Czerwionka (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szczerbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b9213e6af9738dbe157cf6634dc06cf5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czuchów (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "59c96e721526e58d107801f26f736f4e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KP Kamień (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS 32 Radziejów (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0528507a9930fb9d8293fb7218c3245c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Jedność Grabownia (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Boguszowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "843e35f38d167713af3c81fb5d84cdc2",
       "stadium": null
     }
   ]

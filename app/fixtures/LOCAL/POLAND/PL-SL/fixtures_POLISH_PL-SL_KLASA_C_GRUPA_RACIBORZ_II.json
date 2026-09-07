@@ -1,7 +1,99 @@
 {
   "competitionName": "Klasa C (Raciborz II)",
-  "count": 4,
+  "count": 40,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "0a332971efc909ceeeee691dd1a63317",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "ccdae7bc71ea3917207b7b9eb583fb66",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "a2553d3404a459a7f8a172ec339a5d5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "f6d25c061ccbcf3c5bbd18c9ae35227e",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa C (Raciborz II)"
@@ -11,14 +103,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Pstrążna",
+        "name": "Naprzód 37 II Krzyżkowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "096fbd397394d55129223b6d4022fbd9",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "eb4d07dac3191e07da8d9111f3c2181e",
       "stadium": null
     },
     {
@@ -30,14 +128,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Strzelec Rzuchów",
+        "name": "LKS Pstrążna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "1a2c2fe0fb38fb24cc40b9801cad0df1",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6452de3e9dbab5fa4391f13aba180731",
       "stadium": null
     },
     {
@@ -49,14 +153,120 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "cf7320ffa6c1a6ea0676ff7b66ee5e86",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
         "name": "Zameczek II Czernica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:30:00.000Z"
+      "awayTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
       },
-      "id": "9d162ae5b2b544036bafc6b556a96c53",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0a072739fbc7ab53025b0d906cbdb291",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7559da9b3a25a4061338bd957477c4aa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "403a937ce7daa193a57c8a5e28dbc67c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "65827fd02a58b0358bd00941d6f859fe",
       "stadium": null
     },
     {
@@ -68,14 +278,720 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ecfa402828fbb936fc4ada6276f97f8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d92ba063d49735531c99e17d0b8d0f5c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "555a3f2d5fe93223a502838a3415fc63",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d8046d5a693fdf807b33bc0135a68aca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
         "name": "LKS II Gamów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
       },
-      "id": "94d5896decffebb0ed595bd2aec57910",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8b5c8ba7bf7679d039410fd1ce665818",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cb34fe6108c5f8dcca4c32787c2da14e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a2af242c5f06de72d0e04fdda238248a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fdb0a9025646b349819baf09a10ad9c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "797e7032e083c4c53d8e5c953826b955",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d7d64d5c68dffbf8bda55a366646c9da",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2628b2a9768483562810f410eb5d166b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "4d8559799ff02ba980099ea9ca284e80",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8f8d1f600e9ecdbb95da86eb852a424c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c6ced88b83ef0e7580968c419db2603b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0016951d57b9a2a72a4fe2b7f8515836",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0b7bee58c1f6ae9c2adab00d42c2f5c3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "848f61c44e51f08cb4df83c28a170ae1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3508efaf5ac2ec1df45f5782f0ef2abd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "006dd823548c253e39d5e779b6e3197c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "52197d9a82ebd897442c15087de1d616",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "730f2c65fc19a9c886b473dad9a9ae02",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "1732a0dc24763cd31173be341a23201e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "91b65b0ceac1dffd0796b368793c4ac3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e213251ad8cc6c1bb7a178c736fe3b4f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "37a276b9911bda7b400a7c9df59c69c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strzelec Rzuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "a3e26d604067cbcd56fbcc20de7228e8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "Zameczek II Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "ab9b289adcee7d2b004c5912fc07ed36",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Dzimierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Pstrążna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "bf9e6e1be561a5afe3d62e570e2ec20d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz II)"
+      },
+      "homeTeam": {
+        "name": "LKS Adamowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 II Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "792b0a8343a98d2ad07c496d5a39e8e7",
       "stadium": null
     }
   ]

@@ -1,24 +1,28 @@
 {
   "competitionName": "Klasa B (Rzeszow IV - lancut)",
-  "count": 6,
+  "count": 60,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Rzeszow IV - lancut)"
       },
       "homeTeam": {
-        "name": "Palkovia Palikówka",
+        "name": "Orzeł Wysoka",
         "crest": null
       },
       "awayTeam": {
-        "name": "ŁKS Łukawiec",
+        "name": "GKS II Trzebownisko",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "e3df2b6cf0d8323fc70b8df92e81ab9d",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "013c4f7fe50ab58de2e48b7e6e399353",
       "stadium": null
     },
     {
@@ -26,18 +30,45 @@
         "name": "Klasa B (Rzeszow IV - lancut)"
       },
       "homeTeam": {
-        "name": "Wisłok Czarna",
+        "name": "Włókniarz II Rakszawa",
         "crest": null
       },
       "awayTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "2e84fa8ffce3fe46056fc029e844bad8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
         "name": "Leśna Wólka Podleśna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
       },
-      "id": "2de91b1682a59078fa79a65f1c8b653d",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "16ca9f068d6698b649b2b69cd7d7e2d9",
       "stadium": null
     },
     {
@@ -49,14 +80,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Włókniarz II Rakszawa",
+        "name": "Palkovia Palikówka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
-      "id": "4bfeced2f799763ccf65171b649b501d",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "cc0bef87fd1b75a83ebcd4a31266f851",
       "stadium": null
     },
     {
@@ -64,18 +99,95 @@
         "name": "Klasa B (Rzeszow IV - lancut)"
       },
       "homeTeam": {
-        "name": "GKS II Trzebownisko",
+        "name": "ŁKS Łukawiec",
         "crest": null
       },
       "awayTeam": {
-        "name": "Brzeg Białobrzegi",
+        "name": "Wisłok Czarna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
-      "id": "bc14d45ec91e0ae7a4f98d530249bba7",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "000996608679a4da57d11d7237736ca7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "15d44884e2063f230808976cf603e41d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "49f247485970ffe5080899f789e25f24",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "cfb79e21b067a5f408732db2d43fcc4f",
       "stadium": null
     },
     {
@@ -87,14 +199,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Szarotka Rogóżno",
+        "name": "ŁKS Łukawiec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0379c0e9e54f41abfaa6a908252a3da0",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7d75361e2cc6384605d2ff4b44d4862b",
       "stadium": null
     },
     {
@@ -106,14 +224,1270 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7093656405094d2492cc17f7419a9c38",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "837312137f5daf7faee0b140078d70f0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2784b956669137ec7925f01cecd33a32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5a80f4391a0cef12ec3a8625ff3f7a51",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
         "name": "Orzeł Wysoka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "awayTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
       },
-      "id": "755561a5281a2bcf204ca841c17ad42c",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a70e9665470e75222b41e39a55588833",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ca04f2ae7f9e1c8df78d27a13fc10b7f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łukawiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "cb0b960abab37e01d4271d43dd903995",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "59ce1bb000497bc940c092f5b5f2a27d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fc6059d1af46c7f1a54ed33e8df40d27",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c558efa3de42032cee1977581547343f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b48b0e843e79b58e29d3e97ecb2330d4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d2d4cbe470498faa7b2baaef3af17c49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS Łukawiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a333afb4dbbbe0e41bef6a9c9892ab49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7f3b0a7d4129ac05e21a0ec6009696b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wysoka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ef18a581f4912a99944d490a6d89cc60",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wysoka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5925608fd2ee74bde82b2f50f33f23bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3ab423ff22fa4956807e3a055b2947ec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7de2948ab1624488a2f326eb3d84aab3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ef4ee9ce6e57e56852d3b20576750c11",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "15ce3c406c876807f965e324ce3f28e1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cc92203f6055e47896db1bd2a9be6341",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3cc0d81d4f2e3983bbb3b955c968d72f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bed220f90c21a33fbba55ee9026db13e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "df71cc13661d07738b1be4c1efc56c87",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "fb82c3ed4cda743ea6b2885b8f46c9d8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wysoka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS Łukawiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e68569ab7f3efc8dbccf77824b3a2b1b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "00f7e4f46d94e5276864f2ed41132645",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "4dd9e417397e159f8b4e3d9f000787f1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e9d9bbf344a2ceaec79bde357fe0df43",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b4d3247447eabb0ab0fd74d16025fde7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS Łukawiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c4286b4d01869f2ef3ee50a9439a3459",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f8a2d30fa19a445f9bb98c7c3e3e13e1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wysoka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "95641f9d4f1b86aa95dd19710f8db73c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "57cfb9e11de8e35cec0848802dbc9cc3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wysoka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "59a5772ef0e0956725b125b9fe398c24",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łukawiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "72f4a8f02a2cb409060286fa7a5313c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d59b3d82ff7344db442503b2ae43fc89",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d1b29900a5f6f92775f177b69e6c6987",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c73c75ab350866de756fbee9380cb47e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "30fb84b5d571383a492c0db4d8de8010",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "ŁKS Łukawiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "20adbf76499a81351af9b25fc7f1002b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wysoka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7e486b64a004781d2e1450deeac5739e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ccd1e265ab91ea6631f209012d1cc994",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6fff0757bbd37512b231177c5bed83d2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Wola Dalsza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "30388e3451f511cc31cea663e37eb784",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "GKS II Trzebownisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Włókniarz II Rakszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c10594d204a2067ba15b208c5d00ffa1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Budovia Budy Łańcuckie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Brzóza Stadnicka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e331b4d462d51c5a90481eb1633d2efb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Brzeg Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłok Czarna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d5ccf7c4ef420434ee5b54eb3321d664",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wysoka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Palkovia Palikówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "83f634302155ea4e814533b345cb3d70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Szarotka Rogóżno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Kosina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "60b8d58b2aa8cabb0cc50f0655964cc9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow IV - lancut)"
+      },
+      "homeTeam": {
+        "name": "Leśna Wólka Podleśna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS Łukawiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8dcaf2d167cea932e525aee4aa0edf98",
       "stadium": null
     }
   ]

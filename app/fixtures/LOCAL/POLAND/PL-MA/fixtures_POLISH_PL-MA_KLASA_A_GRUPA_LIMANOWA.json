@@ -1,7 +1,254 @@
 {
   "competitionName": "Klasa A (Limanowa)",
-  "count": 7,
+  "count": 49,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "704abf8ca4bd2e60c784dd3643dbbbf7",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Piłkarski KUKS Laskovia",
+        "geo": {
+          "latitude": 49.764505,
+          "longitude": 20.4541668,
+          "name": "Stadion Piłkarski KUKS Laskovia, Laskowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "362c7f29d43ae079392508f42500113c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orkan Szczyrzyc",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "ad9d99077cca8525fc1976f4d13c3bad",
+      "stadium": {
+        "address": "Świdnik 22, 34-606 Świdnik",
+        "venue": "Stadion w Świdniku",
+        "geo": {
+          "latitude": 49.5919296,
+          "longitude": 20.5322771,
+          "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Uran Łukowica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Limanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "bef25324a4ecaaf14be8a562e17c5dec",
+      "stadium": {
+        "address": "Łukowica 349, 34-606 Łukowica",
+        "venue": "Stadion Uran Łukowica",
+        "geo": {
+          "latitude": 49.6035902,
+          "longitude": 20.4922355,
+          "name": "Boisko Uran Łukowica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "AKS Ujanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zenit Kasinka Mała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "17855139d032affb5579a03472c0c3c5",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Gorce Kamienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4bd0064e48408da558a4b0cd76c4cff5",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Gorce Kamienica",
+        "geo": {
+          "latitude": 49.5720002,
+          "longitude": 20.345815,
+          "name": "Gorce Kamienica, Kamienica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Orkan Szczyrzyc",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dobrzanka Dobra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "55ea38d3fcded6fd8c8cc7f27d6d19d7",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Orkan Szczyrzyc",
+        "geo": {
+          "latitude": 49.7804749,
+          "longitude": 20.1896752,
+          "name": "Orkan Szczyrzyc"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Zenit Kasinka Mała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1e3e7bfa7d6e89eb5b1f7b23393b0b9f",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Zenit Kasinka Mała",
+        "geo": {
+          "latitude": 49.7214913,
+          "longitude": 20.0530377,
+          "name": "Stadion Zenit, Kasinka Mała"
+        }
+      }
+    },
     {
       "competition": {
         "name": "Klasa A (Limanowa)"
@@ -11,14 +258,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS Szyk",
+        "name": "AKS Ujanowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "24c9bead833cc4261a021f4bb1eaf2d0",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6b26421f056f24960974fd6c3c852e23",
       "stadium": {
         "address": "Michała Dudka 12, Limanowa",
         "venue": "Stadion Płomienia Limanowa",
@@ -34,18 +287,599 @@
         "name": "Klasa A (Limanowa)"
       },
       "homeTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Uran Łukowica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f6a04a2db925d99e3ef4fcd8b69904c8",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Piłkarski KUKS Laskovia",
+        "geo": {
+          "latitude": 49.764505,
+          "longitude": 20.4541668,
+          "name": "Stadion Piłkarski KUKS Laskovia, Laskowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Starówka Stara Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a33cdc6586b196320633ed14d25bc6df",
+      "stadium": {
+        "address": "Stara Wieś 564, 34-600 Stara Wieś",
+        "venue": "Stadion LKS Starówka",
+        "geo": {
+          "latitude": 49.6746678,
+          "longitude": 20.3976224,
+          "name": "Boisko LKS Starówka, Stara Wieś"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Uran Łukowica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Starówka Stara Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "cbdf496e791481d82ca4dd1faccb52a5",
+      "stadium": {
+        "address": "Łukowica 349, 34-606 Łukowica",
+        "venue": "Stadion Uran Łukowica",
+        "geo": {
+          "latitude": 49.6035902,
+          "longitude": 20.4922355,
+          "name": "Boisko Uran Łukowica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "AKS Ujanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7884dcdb9408e5c7a557bd8007d91ff6",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Limanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2d345a3c3e6299c943aa24af602589d6",
+      "stadium": {
+        "address": "Świdnik 22, 34-606 Świdnik",
+        "venue": "Stadion w Świdniku",
+        "geo": {
+          "latitude": 49.5919296,
+          "longitude": 20.5322771,
+          "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Dobrzanka Dobra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zenit Kasinka Mała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b1b3b89182e1968e9b35abd3bd27842f",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Dobrzanki Dobra",
+        "geo": {
+          "latitude": 49.7013253,
+          "longitude": 20.2358609,
+          "name": "Dobrzanka Dobra, Dobra"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orkan Szczyrzyc",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "08cae69d01d8e5ac5b97397c57ad1b1c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
         "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gorce Kamienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "afabd81c9ffbcbb8b1c41e9ff5691fb1",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Orkan Szczyrzyc",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "791ffb371b6b9e9abf8e651463e0ed18",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Orkan Szczyrzyc",
+        "geo": {
+          "latitude": 49.7804749,
+          "longitude": 20.1896752,
+          "name": "Orkan Szczyrzyc"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Zenit Kasinka Mała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bb34688a04d29a580bfbcfcefee45135",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Zenit Kasinka Mała",
+        "geo": {
+          "latitude": 49.7214913,
+          "longitude": 20.0530377,
+          "name": "Stadion Zenit, Kasinka Mała"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Płomień Limanowa",
         "crest": null
       },
       "awayTeam": {
         "name": "Dobrzanka Dobra",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "83859da7473150537f4904a3febcbb1b",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d735c00cab2072199e21dabff667a83f",
+      "stadium": {
+        "address": "Michała Dudka 12, Limanowa",
+        "venue": "Stadion Płomienia Limanowa",
+        "geo": {
+          "latitude": 49.7409628,
+          "longitude": 20.3972141,
+          "name": "Stadion Płomienia Limanowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9a993dfb5fd576d6015b0167e63ff0a9",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Piłkarski KUKS Laskovia",
+        "geo": {
+          "latitude": 49.764505,
+          "longitude": 20.4541668,
+          "name": "Stadion Piłkarski KUKS Laskovia, Laskowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Starówka Stara Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Ujanowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e8f302d7821a58ca38d41926655f34a4",
+      "stadium": {
+        "address": "Stara Wieś 564, 34-600 Stara Wieś",
+        "venue": "Stadion LKS Starówka",
+        "geo": {
+          "latitude": 49.6746678,
+          "longitude": 20.3976224,
+          "name": "Boisko LKS Starówka, Stara Wieś"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Uran Łukowica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "dc3af8fdb205234b004c095d3f644991",
+      "stadium": {
+        "address": "Sadek 1, 34-620 Sadek",
+        "venue": "Stadion KS Szyk",
+        "geo": {
+          "latitude": 49.7911467,
+          "longitude": 20.2694222,
+          "name": "Boisko piłkarskie KS Szyk, Sadek"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "AKS Ujanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "48992a5126e4606892c7c6dde9f2a548",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Starówka Stara Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "44df173cbdc56add97fda130b70ade59",
+      "stadium": {
+        "address": "Świdnik 22, 34-606 Świdnik",
+        "venue": "Stadion w Świdniku",
+        "geo": {
+          "latitude": 49.5919296,
+          "longitude": 20.5322771,
+          "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Dobrzanka Dobra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "65a0775280952890d2d31ce1ec866b10",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Dobrzanki Dobra",
+        "geo": {
+          "latitude": 49.7013253,
+          "longitude": 20.2358609,
+          "name": "Dobrzanka Dobra, Dobra"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Limanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d05b793b95134d41646c228398ff42d1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zenit Kasinka Mała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e52e125d3fc0171edc6e78a828539561",
       "stadium": {
         "venue": "Boisko Zalesianka Zalesie",
         "address": "Zalesie 80, Zalesie",
@@ -64,14 +898,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Krokus Przyszowa",
+        "name": "Orkan Szczyrzyc",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
       },
-      "id": "95da6984bd05176fd184c709fdc4e004",
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "07021899de027e53beb9330c491c6b97",
       "stadium": {
         "address": null,
         "venue": "Stadion Gorce Kamienica",
@@ -87,18 +927,57 @@
         "name": "Klasa A (Limanowa)"
       },
       "homeTeam": {
+        "name": "Płomień Limanowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orkan Szczyrzyc",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3c290b24731845b685fb78ad8a116384",
+      "stadium": {
+        "address": "Michała Dudka 12, Limanowa",
+        "venue": "Stadion Płomienia Limanowa",
+        "geo": {
+          "latitude": 49.7409628,
+          "longitude": 20.3972141,
+          "name": "Stadion Płomienia Limanowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
         "name": "Laskovia Laskowa",
         "crest": null
       },
       "awayTeam": {
-        "name": "Starówka Stara Wieś",
+        "name": "Gorce Kamienica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
       },
-      "id": "35aad4b77b03407e4489dda5b159b5aa",
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4c05f6daf9f03e4334cdfaaadd72f250",
       "stadium": {
         "address": null,
         "venue": "Stadion Piłkarski KUKS Laskovia",
@@ -114,18 +993,155 @@
         "name": "Klasa A (Limanowa)"
       },
       "homeTeam": {
+        "name": "Starówka Stara Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "588c55657c557fb6f7067147d31bb362",
+      "stadium": {
+        "address": "Stara Wieś 564, 34-600 Stara Wieś",
+        "venue": "Stadion LKS Starówka",
+        "geo": {
+          "latitude": 49.6746678,
+          "longitude": 20.3976224,
+          "name": "Boisko LKS Starówka, Stara Wieś"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2abc7d89ade90dcc120707c5747c21eb",
+      "stadium": {
+        "address": "Sadek 1, 34-620 Sadek",
+        "venue": "Stadion KS Szyk",
+        "geo": {
+          "latitude": 49.7911467,
+          "longitude": 20.2694222,
+          "name": "Boisko piłkarskie KS Szyk, Sadek"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Uran Łukowica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dobrzanka Dobra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a1e29aef68709f14ffd502e15f6743ed",
+      "stadium": {
+        "address": "Łukowica 349, 34-606 Łukowica",
+        "venue": "Stadion Uran Łukowica",
+        "geo": {
+          "latitude": 49.6035902,
+          "longitude": 20.4922355,
+          "name": "Boisko Uran Łukowica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "AKS Ujanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ec91b958b650ffa6b7436630dbc6f88c",
+      "stadium": {
+        "venue": "Boisko AKS Ujanowice",
+        "address": "Ujanowice 120, Ujanowice",
+        "geo": {
+          "latitude": 49.74616831648374,
+          "longitude": 20.56207907685618
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
         "name": "Zenit Kasinka Mała",
         "crest": null
       },
       "awayTeam": {
-        "name": "Uran Łukowica",
+        "name": "Gorce Kamienica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
       },
-      "id": "2362d1704c553b04a619d2f6641522b7",
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6be5c7c7951abdb72665062c76188dda",
       "stadium": {
         "address": null,
         "venue": "Stadion Zenit Kasinka Mała",
@@ -141,18 +1157,345 @@
         "name": "Klasa A (Limanowa)"
       },
       "homeTeam": {
-        "name": "Orkan Szczyrzyc",
+        "name": "Płomień Limanowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f9d96b12ecf3379725731936e05b2990",
+      "stadium": {
+        "address": "Michała Dudka 12, Limanowa",
+        "venue": "Stadion Płomienia Limanowa",
+        "geo": {
+          "latitude": 49.7409628,
+          "longitude": 20.3972141,
+          "name": "Stadion Płomienia Limanowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a59460df8d8b293882d5af97feaf685e",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Piłkarski KUKS Laskovia",
+        "geo": {
+          "latitude": 49.764505,
+          "longitude": 20.4541668,
+          "name": "Stadion Piłkarski KUKS Laskovia, Laskowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Starówka Stara Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dobrzanka Dobra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "91f2a8b62b40da01ccf8115e099de72a",
+      "stadium": {
+        "address": "Stara Wieś 564, 34-600 Stara Wieś",
+        "venue": "Stadion LKS Starówka",
+        "geo": {
+          "latitude": 49.6746678,
+          "longitude": 20.3976224,
+          "name": "Boisko LKS Starówka, Stara Wieś"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3e2fcaee2b9e2a76d26d36cd8605d70a",
+      "stadium": {
+        "address": "Sadek 1, 34-620 Sadek",
+        "venue": "Stadion KS Szyk",
+        "geo": {
+          "latitude": 49.7911467,
+          "longitude": 20.2694222,
+          "name": "Boisko piłkarskie KS Szyk, Sadek"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Uran Łukowica",
         "crest": null
       },
       "awayTeam": {
         "name": "AKS Ujanowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
       },
-      "id": "b4f8f100b496ccaf1db8cfbdf1be2ee6",
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "acc4be6acde202a81ea6383e35aa498f",
+      "stadium": {
+        "address": "Łukowica 349, 34-606 Łukowica",
+        "venue": "Stadion Uran Łukowica",
+        "geo": {
+          "latitude": 49.6035902,
+          "longitude": 20.4922355,
+          "name": "Boisko Uran Łukowica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Krokus Przyszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Uran Łukowica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d2bfe45805162da695598a8dc0c1be8e",
+      "stadium": {
+        "address": "Świdnik 22, 34-606 Świdnik",
+        "venue": "Stadion w Świdniku",
+        "geo": {
+          "latitude": 49.5919296,
+          "longitude": 20.5322771,
+          "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Dobrzanka Dobra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ada1017bf1d6d1813d95f8568ed3e818",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Dobrzanki Dobra",
+        "geo": {
+          "latitude": 49.7013253,
+          "longitude": 20.2358609,
+          "name": "Dobrzanka Dobra, Dobra"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Słomka Siekierczyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Starówka Stara Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "50c4cb33829c04ba7016f5cda93d8b8d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Zalesianka Zalesie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "92a20f706aa2a4439b7e4b2e70e6a1ee",
+      "stadium": {
+        "venue": "Boisko Zalesianka Zalesie",
+        "address": "Zalesie 80, Zalesie",
+        "geo": {
+          "latitude": 49.63224048715973,
+          "longitude": 20.339504063843076
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Gorce Kamienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Limanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "67520a881779dc4f9190928f9582434a",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Gorce Kamienica",
+        "geo": {
+          "latitude": 49.5720002,
+          "longitude": 20.345815,
+          "name": "Gorce Kamienica, Kamienica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Orkan Szczyrzyc",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zenit Kasinka Mała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3b5450a99fd4a8a7df255b7625e5b8c8",
       "stadium": {
         "address": null,
         "venue": "Stadion Orkan Szczyrzyc",
@@ -168,12 +1511,47 @@
         "name": "Klasa A (Limanowa)"
       },
       "homeTeam": {
+        "name": "Dobrzanka Dobra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gorce Kamienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T14:00:00.000Z"
+      },
+      "id": "fb551ba24bf2387b86fe061df960e481",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Dobrzanki Dobra",
+        "geo": {
+          "latitude": 49.7013253,
+          "longitude": 20.2358609,
+          "name": "Dobrzanka Dobra, Dobra"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
         "name": "Płomień Limanowa",
         "crest": null
       },
       "awayTeam": {
         "name": "Starówka Stara Wieś",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T16:00:00.000Z"
       },
       "date": {
         "date": "2026-11-07",

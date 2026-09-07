@@ -1,7 +1,145 @@
 {
   "competitionName": "Klasa B (Wieliczka)",
-  "count": 6,
+  "count": 54,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda II Brzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "13ee642aa3e588206131d03ff91e947b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Chorągwica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "1b185813da279ea0b72d24253863c817",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ochmanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Targowianka Targowisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "da8b58ef0fa2380d7b4ca4fc3b61cffc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "id": "af84cb07098b87627db2b0b7a0a4e629",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Batory Wola Batorska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "id": "c4bc96cf995a037237dc8f544ec7901c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "6dcdafea39a34dd3651c9623d9348d9e",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa B (Wieliczka)"
@@ -11,33 +149,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Naprzód Ochmanów",
+        "name": "Zieloni Niegowić",
         "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "0d50d29f84dc6ab373ec91280599c4fe",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Wieliczka)"
-      },
-      "homeTeam": {
-        "name": "Wiarusy II Igołomia",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Contra Sułków",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
-      },
-      "id": "4fde65f93468a954e2d65d07975bb12a",
+      "id": "6970cbd7c048e8e7af35d7c503e98d08",
       "stadium": null
     },
     {
@@ -49,14 +174,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Wieliczanka Wieliczka",
+        "name": "Contra Sułków",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "d39498528b68d291eb24c369543a614f",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b652f095c7c80ce0f28e14e50ecbf95a",
       "stadium": null
     },
     {
@@ -68,33 +199,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Gdovia II Gdów",
+        "name": "Naprzód Ochmanów",
         "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "9cb606502561c171d433c81f7431faa3",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Wieliczka)"
-      },
-      "homeTeam": {
-        "name": "KS Rożnowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LZS II Czarnochowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "e2f52dc3ae4a44faac8678551141a05f",
+      "id": "5aa1538eac1150047a70851cc03084c2",
       "stadium": null
     },
     {
@@ -106,14 +224,1152 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "34748d462f474aefe1aad801f98f2a8e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "26c332c1a258e9cb4e9c1890a26e64f0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Gwiazda II Brzegi",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "fd82aebcd95e412b29890b4e2e9cf91b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4ec60309f0df09415ba8552688fd29c9",
+      "stadium": {
+        "address": "Czarnochowice 150, 32-020 Czarnochowice",
+        "venue": "Boisko LKS Czarnochowice",
+        "geo": {
+          "latitude": 50.0071681,
+          "longitude": 20.0680408,
+          "name": "LKS Czarnochowice, Czarnochowice, powiat wielicki, województwo małopolskie, 32-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2efeb4dabcd8116a7fc2622e61aa009f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "deb23e72d1ea9a5332176e8e4882b7f0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ochmanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5db2b450cfbcb232780128ef0ea8268d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Chorągwica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "71d38e984335bde6f576868552d735c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Targowianka Targowisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f2eddc8baa48bb37dd2801e39c12155a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Batory Wola Batorska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3e914c368d9e9226ba4126def4b8ac7b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Targowianka Targowisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4c6981233299d5833e2cbeb39ab0ac5c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Sokół Chorągwica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c979f12eb88ba9cbab43b7b41ad8a050",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6f58ac6f348c548844245faddd82cb7f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Ochmanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "17bd779f9611c2d21ffe9beed54ea085",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "211777cd3c0cebc42c7ec951ca3b4726",
+      "stadium": {
+        "address": "Czarnochowice 150, 32-020 Czarnochowice",
+        "venue": "Boisko LKS Czarnochowice",
+        "geo": {
+          "latitude": 50.0071681,
+          "longitude": 20.0680408,
+          "name": "LKS Czarnochowice, Czarnochowice, powiat wielicki, województwo małopolskie, 32-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda II Brzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "30621382ba93d4b282029613c6902849",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwiazda II Brzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d7014bb8a3c74679d4a52fd45b3552e0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ochmanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cfd86e8b6297553887abc5fdced1ec75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e24f73d8f676e34efc107daabc2708dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f70d4c0a770b7bb342a6834886fb9bbf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Chorągwica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cdc99dd1380c3b995d8b8a2bea9a8fb1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Batory Wola Batorska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Targowianka Targowisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d0445009ff50a9fb2afa4afbdfe1281f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Targowianka Targowisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "85a76e024b36f6b7e5aefa4a2773ae0f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Batory Wola Batorska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "451d4f3d4e12f8d83bdaea4ff0f64afe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "dc329ca36256948f22fe0f2ac699fd3f",
+      "stadium": {
+        "address": "Czarnochowice 150, 32-020 Czarnochowice",
+        "venue": "Boisko LKS Czarnochowice",
+        "geo": {
+          "latitude": 50.0071681,
+          "longitude": 20.0680408,
+          "name": "LKS Czarnochowice, Czarnochowice, powiat wielicki, województwo małopolskie, 32-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda II Brzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9be543fcaabebf3817653bc555c06ba9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c32f8371c0617489ee776fd9d158a879",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Ochmanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d4c117befb5c768eef81e1b77527779b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Sokół Chorągwica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Batory Wola Batorska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d8bc1bf9e7d867c50d2b13adbeb2764c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "03b41eab75d27aa29998f07f21986033",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ecb0dbaa4391ad33e207bfc28265ca3b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d4fd9e0d5746ddeb74c6504c0767f47f",
+      "stadium": {
+        "address": "Czarnochowice 150, 32-020 Czarnochowice",
+        "venue": "Boisko LKS Czarnochowice",
+        "geo": {
+          "latitude": 50.0071681,
+          "longitude": 20.0680408,
+          "name": "LKS Czarnochowice, Czarnochowice, powiat wielicki, województwo małopolskie, 32-020, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda II Brzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Ochmanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "aba28d0c11d73f598577a0b876e9886f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "df4f5a457c9d607b869eb5685fcce34a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ochmanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "23eb574e22f1ec2918b2e431a173d483",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwiazda II Brzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3f9824b3fa20f1471632867729c6b853",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ece595caed8b14be207f032e4904c402",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2d81e8b5ea425a3695ff5501b6c6feb1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Batory Wola Batorska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bd0326f01626d490ce12de3d3eeab3c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Targowianka Targowisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Chorągwica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6460e9835bc0c1970e6ea4b000a9cf85",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Contra Sułków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wieliczanka Wieliczka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8258a9a37833a51cba1a16057ec70383",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Niegowić",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gdovia II Gdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9580492fc4ac904eb5ebdfa24a25491c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Wiarusy II Igołomia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwiazda II Brzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "30196c404d771b74ae2894ddf06967f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Batory Wola Batorska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LZS II Czarnochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ad613570e20eb1f88351e03f1cc83210",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Targowianka Targowisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rożnowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2a0a764615b10485fca8e93abe3c849c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wieliczka)"
+      },
+      "homeTeam": {
+        "name": "Sokół Chorągwica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Śledziejowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "24ec4ee98f3da64678fabb2b9240ab64",
       "stadium": null
     }
   ]

@@ -1,74 +1,18 @@
 {
   "competitionName": "Klasa A (Krakow II)",
-  "count": 72,
+  "count": 70,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
-      },
-      "id": "1724ab5d816ee7392d3451b1e52a20fb",
-      "stadium": {
-        "address": "Sportowa, Zabierzów",
-        "venue": "LKS Kmita Zabierzów",
-        "geo": {
-          "latitude": 50.1174162,
-          "longitude": 19.7971222,
-          "name": "LKS Kmita Zabierzów, Sportowa, Zabierzów"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Iskra Radwanowice"
-      },
-      "awayTeam": {
-        "name": "Strażak/Pajda II Rączna"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
-      },
-      "id": "60b149af835fda4ac834964fde32211d",
-      "stadium": {
-        "address": "Radwanowice, 32-064",
-        "venue": "Boisko Sportowe KS Iskra Radwanowice",
-        "geo": {
-          "latitude": 50.1506557,
-          "longitude": 19.7037239,
-          "name": "Boisko Sportowe KS Iskra Radwanowice, Radwanowice"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
-      },
-      "awayTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -80,13 +24,14 @@
         "endDate": "2026-09-13",
         "time": "TBD"
       },
-      "id": "7410e7ac8a25da3411031ab9bc3bc8f5",
+      "id": "da0c8888dd4dca6ba2cbdbd65b5ceb85",
       "stadium": {
-        "venue": "Stadion Pogoń Skotniki",
-        "address": "Szczawnicka 5, Kraków",
+        "address": "Kryspinów 47, 32-060 Liszki",
+        "venue": "Stadion LKS Lotnik Kryspinów",
         "geo": {
-          "latitude": 50.007448752321565,
-          "longitude": 19.877624518052
+          "latitude": 50.041557,
+          "longitude": 19.7930008,
+          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
         }
       }
     },
@@ -95,18 +40,20 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T09:30:00.000Z"
+        "dateTime": "2026-09-12T11:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T09:30:00.000Z"
+        "dateTime": "2026-09-12T11:30:00.000Z"
       },
       "id": "c1513b9504e8f6576b6bf73898b6ca44",
       "stadium": {
@@ -124,18 +71,20 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "id": "4ca7a26baa0b337fa97f048258656df2",
       "stadium": {
@@ -153,18 +102,20 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "id": "b9e99eb874e33583b8ec21251b2ddae1",
       "stadium": {
@@ -182,18 +133,20 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "id": "ebdccfe003fa4453645967411e437164",
       "stadium": {
@@ -211,18 +164,20 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T13:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T13:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "ee5aa32c3d4311f113a7db5a08e14007",
       "stadium": {
@@ -240,18 +195,20 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T17:00:00.000Z"
       },
       "id": "89fa0d2e4671103be08f79cefcb65237",
       "stadium": {
@@ -269,10 +226,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -300,10 +259,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -331,10 +292,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -362,10 +325,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -393,10 +358,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -424,10 +391,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -455,10 +424,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -486,10 +457,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -516,10 +489,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -547,10 +522,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -578,10 +555,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -609,10 +588,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -640,10 +621,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -671,10 +654,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -702,10 +687,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -733,10 +720,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -764,10 +753,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -795,10 +786,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -826,10 +819,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -857,10 +852,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -888,10 +885,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -919,10 +918,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -949,10 +950,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -980,10 +983,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1011,10 +1016,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1042,10 +1049,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1073,10 +1082,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1104,10 +1115,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1135,10 +1148,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1166,10 +1181,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1197,10 +1214,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1228,10 +1247,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1259,10 +1280,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1290,10 +1313,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1321,10 +1346,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1352,10 +1379,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1383,10 +1412,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1414,10 +1445,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1445,10 +1478,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1476,10 +1511,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1507,10 +1544,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1538,10 +1577,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1568,10 +1609,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1599,10 +1642,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1630,10 +1675,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1661,10 +1708,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1692,10 +1741,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1723,10 +1774,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1754,10 +1807,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1784,10 +1839,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1815,10 +1872,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1846,10 +1905,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1877,10 +1938,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1908,10 +1971,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1939,10 +2004,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -1970,18 +2037,20 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-11-11T12:00:00.000Z"
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "date": {
         "date": "2026-11-11",
-        "dateTime": "2026-11-11T12:00:00.000Z"
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "id": "8cf3868d6877b1b7878f9f5eb0272a0c",
       "stadium": {
@@ -1999,10 +2068,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Tęcza Piekary"
+        "name": "Tęcza Piekary",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)"
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -2030,10 +2101,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Gwiazda Ściejowice"
+        "name": "Gwiazda Ściejowice",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Start Kamień"
+        "name": "Start Kamień",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -2061,10 +2134,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Lotnik Kryspinów"
+        "name": "Lotnik Kryspinów",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Iskra Radwanowice"
+        "name": "Iskra Radwanowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -2092,10 +2167,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Zieleńczanka II Zielonki"
+        "name": "Zieleńczanka II Zielonki",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Potok Więckowice"
+        "name": "Potok Więckowice",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -2123,10 +2200,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Orlęta Rudawa"
+        "name": "Orlęta Rudawa",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Sokół Rybna"
+        "name": "Sokół Rybna",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -2154,10 +2233,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Strażak/Pajda II Rączna"
+        "name": "Strażak/Pajda II Rączna",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Kmita II Zabierzów"
+        "name": "Kmita II Zabierzów",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",
@@ -2185,10 +2266,12 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Fairant Kraków"
+        "name": "Fairant Kraków",
+        "crest": null
       },
       "awayTeam": {
-        "name": "Wisła Rząska"
+        "name": "Wisła Rząska",
+        "crest": null
       },
       "schedule": {
         "status": "date-window",

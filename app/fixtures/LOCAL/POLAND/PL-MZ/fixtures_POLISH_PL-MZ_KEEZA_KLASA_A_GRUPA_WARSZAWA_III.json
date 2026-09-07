@@ -1,43 +1,28 @@
 {
   "competitionName": "Keeza Klasa A (Warszawa III)",
-  "count": 8,
+  "count": 72,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa A (Warszawa III)"
       },
       "homeTeam": {
-        "name": "Progres Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Perła II Złotokłos",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T10:00:00.000Z"
-      },
-      "id": "0ef6dd87fb735371503cad899e1ecb9a",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Sparta Jazgarzew",
+        "name": "Sarmata Warszawa",
         "crest": null
       },
       "awayTeam": {
         "name": "Świt Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
-      "id": "51e32e57a5c18c5458499c7e2c86176f",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "id": "87b05b498b437e07e41e642e55c3c962",
       "stadium": null
     },
     {
@@ -45,18 +30,168 @@
         "name": "Keeza Klasa A (Warszawa III)"
       },
       "homeTeam": {
-        "name": "Hubertus Zalesie Górne",
+        "name": "Olimpia Warszawa",
         "crest": null
       },
       "awayTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "7af35fb8fc17a88a0ef7b58aa17458ab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "9d777f7199c5bb80b7924456b57faf9d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "f15f0a4c49d9e1abb2021a9ac84ee642",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T10:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:30:00.000Z"
+      },
+      "id": "f28dcd3b49d17dd2bdd4988b1721d78b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
         "name": "Ursus III Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
       },
-      "id": "937075cdb7dc9e8fbd0a392fffa24a20",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "bfbb27eab8811ef43c73b08fb3a3075b",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T18:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T18:30:00.000Z"
+      },
+      "id": "2dbf0733079d3a40ea1e75f0a94d6dc1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-16T18:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-16",
+        "dateTime": "2026-09-16T18:30:00.000Z"
+      },
+      "id": "943ec91e459784d857c42f6b96140c2d",
       "stadium": null
     },
     {
@@ -68,14 +203,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Przyszłość Włochy (Warszawa)",
+        "name": "Sarmata Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "555a4d65ba08057a1eed78c7c7aaef20",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ec9a9f6abfed8c7b182b570147f1dca1",
       "stadium": {
         "venue": "Stadion Miejski w Piasecznie",
         "address": "1 Maja 16, Piaseczno",
@@ -91,18 +232,49 @@
         "name": "Keeza Klasa A (Warszawa III)"
       },
       "homeTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "015a6caa2e7166365b75a3dd338fde0f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
         "name": "Orzeł II Baniocha",
         "crest": null
       },
       "awayTeam": {
-        "name": "Olimpia Warszawa",
+        "name": "Przyszłość Włochy (Warszawa)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "93ca7f584fd47150804ac9a7eea55d9d",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d151c1d75f601072d3a637f00b9a3da2",
       "stadium": null
     },
     {
@@ -114,14 +286,228 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "99fb811aee236fda1645b3a2cbb772e5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1fbb443b14b44507e9ca5d90826bb577",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Victoria Głosków",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T19:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "3c2ac93c48fbffffa3491451913366c1",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a1850f51fead3685d89f6ba947c67a62",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9f02aa65ac28dc60c63f0415300f2749",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8feb90ee1661064c129d171302374c23",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4275910934e61879bdf0eaa1a9fd6462",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3cd0ac1bb2e40a93f4588a2eb047d8e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "965cdfa7064b2abbfd1fd64576dac5b2",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c398ce1c38d7a0acf17441ba0e9f506a",
       "stadium": null
     },
     {
@@ -133,14 +519,594 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1c1b7fc994880c256070a302f2e03a3f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3a43b0f8d67e9ecafc33e94fbb5788bb",
+      "stadium": {
+        "venue": "Stadion Miejski w Piasecznie",
+        "address": "1 Maja 16, Piaseczno",
+        "geo": {
+          "latitude": 52.0604678,
+          "longitude": 21.0354393,
+          "name": "16, 1 Maja, Zalesie Dolne, Piaseczno, gmina Piaseczno, powiat piaseczyński, województwo mazowieckie, 05-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Sarmata Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-16",
-        "dateTime": "2026-09-16T18:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "943ec91e459784d857c42f6b96140c2d",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ac72c746413609154031f2f9d2bfeab2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "413d06f2f08e241460a1cfd22adb6525",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "19075c732049bab1c4a164c06bb9931c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0596156b8c94f07451e2223205306ff4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8531fc44188b34b03e8d03116ed98332",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "891d04f304b4731c8128eea85915a4a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3deab86fbcd55067e8121d4578bd92c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7aa6321e56571c76c25fb37bc85f32aa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e062580f9b7ec2a4e3140cd9df743802",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f2f85e4c535aa0bdb9ac4975cae54cbe",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "12ac52c06d932bbdfc68ea23c0657abc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5e8625963ece32552945708959ea56e0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7e89ca0dace969379fd8b010d1eda917",
+      "stadium": {
+        "venue": "Stadion Miejski w Piasecznie",
+        "address": "1 Maja 16, Piaseczno",
+        "geo": {
+          "latitude": 52.0604678,
+          "longitude": 21.0354393,
+          "name": "16, 1 Maja, Zalesie Dolne, Piaseczno, gmina Piaseczno, powiat piaseczyński, województwo mazowieckie, 05-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "54f8e6d079e696962b5684e700cf289a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a6e1d23a990f2ce67735c7e2df32e48e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "15c8e3c1502a9f390a83140c07685736",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "23a1580a66eefc4fad2c6aac302aa6c6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d9053ced6974e9dc27c36cf94e4f19b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c43a1425f30db92600a62f648008a6c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "be72d0875aabf115d20aa906cb078cec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "093c6a522ce814ee622d03beefb37bdb",
       "stadium": null
     },
     {
@@ -155,12 +1121,748 @@
         "name": "Sparta Jazgarzew",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-14T19:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-14",
         "dateTime": "2026-10-14T19:00:00.000Z"
       },
       "id": "d73a240cf7a73b18dff8023caebdb572",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "fe2d75a7263af495bde619fe3bc98cfe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f9461700b47484e04bf0f4fd5653c704",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "12c2543ddc1355d68f7fb19af04b60c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "03c217c9cb0b176bdb03fc6e179398f1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1e1dd6cb8502f6dcd28ff446519a3af4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "bf59d67b93fbe390ea8250fa3041fb05",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "775cef99337821baaf00d5b39c603965",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4d3934974346873617e6cd8b6a3ae51a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "98fd9dd53002b9bf1791e59c3b3ac3af",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "49441be40e19f1f78c593018892ab045",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f94dc752a7627bcd5a4033ac37c91641",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9904f3639122e067fd12d54d34b08d10",
+      "stadium": {
+        "venue": "Stadion Miejski w Piasecznie",
+        "address": "1 Maja 16, Piaseczno",
+        "geo": {
+          "latitude": 52.0604678,
+          "longitude": 21.0354393,
+          "name": "16, 1 Maja, Zalesie Dolne, Piaseczno, gmina Piaseczno, powiat piaseczyński, województwo mazowieckie, 05-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6d18a294f735a893094390da0472490d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "945e1e15bcc156b0892a728434a86648",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0ab627090370b8dfe811ab6ee699d6ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bda0eabf60c8d3df852fe6135a7f7b46",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "03e4ffe88e3d7c2e9d089d2e3f292ba2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3cdcb431c37cf542833093ec1a2fdf22",
+      "stadium": {
+        "venue": "Stadion Miejski w Piasecznie",
+        "address": "1 Maja 16, Piaseczno",
+        "geo": {
+          "latitude": 52.0604678,
+          "longitude": 21.0354393,
+          "name": "16, 1 Maja, Zalesie Dolne, Piaseczno, gmina Piaseczno, powiat piaseczyński, województwo mazowieckie, 05-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0c746b234a3c3c4f697d0fcaf5fbd95b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a6253a0f9d275732d1ffac7c0d83d4ab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "35e917dab1659a6b95a8a613977df9ce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Progres Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmata Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bdf24bc608745d2a3c3c4fb7531d9608",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Jazgarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Farmacja Tarchomin (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2b566ae732c075de1ad9eecbe92164d9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "3f3b3325b8c32109be6d6d73888ddc84",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Perła II Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hubertus Zalesie Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "1a99db16f12269854d687dad369a9111",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Piaseczno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d7c0ee1e8eea04b50924f445aee35b34",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Raszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f10845d2bea3cd5c2c87b8c565afbae1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Ursus III Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Włochy (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d5d1e4ed2a089371254686c90bef521d",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
     }
   ]
 }

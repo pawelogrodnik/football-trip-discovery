@@ -1,62 +1,30 @@
 {
   "competitionName": "Klasa B (Wadowice I)",
-  "count": 6,
+  "count": 49,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Wadowice I)"
       },
       "homeTeam": {
-        "name": "Huragan Skawica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Czarni Koziniec",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "1ae73791193115f0c63e5dec1a6ea6d9",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Wadowice I)"
-      },
-      "homeTeam": {
-        "name": "Jubilat Izdebnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Błyskawica Marcówka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "90fc59ee83c5313d02c2221173e8bfba",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Wadowice I)"
-      },
-      "homeTeam": {
-        "name": "Dąb Sidzina",
+        "name": "Grom Grzechynia",
         "crest": null
       },
       "awayTeam": {
         "name": "LKS Bieńkówka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
       },
-      "id": "8956e0cfc517d48247b38d3524e0a759",
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "6600b37e67a9fc942a3a353c0d0563cd",
       "stadium": null
     },
     {
@@ -64,18 +32,91 @@
         "name": "Klasa B (Wadowice I)"
       },
       "homeTeam": {
-        "name": "Świt Osielec",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Olimpia Zebrzydowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
       },
-      "id": "557987b0d6c46beb73468aba4cb91a9e",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "7b360df6096728ad6e7ee03499756806",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "4654605dbcb6afb36034a8c3a5f9792f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "006d1b47491ea31796b16eff32c7bd65",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "d80b650d1448a905272581565fb7fdf3",
       "stadium": null
     },
     {
@@ -87,14 +128,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Zryw Lanckorona",
+        "name": "Huragan Skawica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
       },
-      "id": "193e91c28c195f5d4ee560f1bfecd335",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "c337b2bd916cae3d5e3201fba628fbe9",
       "stadium": null
     },
     {
@@ -109,11 +154,1065 @@
         "name": "Żarek Stronie",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-16T20:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-16",
         "dateTime": "2026-09-16T20:00:00.000Z"
       },
       "id": "f7033adfc8a104daa87f5d7d95326a5e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Skawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7c8ab70cc28e8f47b67b93a55a117bdc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartak Skawce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "be4aa6d7ca4378db9bc32da6318d28c5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "de15f7833fabdf651906d3b0d8c51c96",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e2ac1e298ffd452e68a31a96dcc23e6c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f5dedaa03d1a1b5d38e7cc5041532cd0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "37b5d3481f273252328bc6bec18e8e76",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4e2a1b51ec9c4148cb8299b350a2e772",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Zebrzydowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "45569b2ac9dd9e8ed964b701d12de429",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "80f0144697ddf3d1ae89c391ad479ac0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c7ed67bf83270b7b0ac784588060c8c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Spartak Skawce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "620edd06f5f9dca95eb4a940064ecc5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Skawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2cc25de08b7350b973ec4c32d6957d8e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "08cc698137863e9a4af6d8df4de8ff82",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Skawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a2c2ffa7dadf2ed516f4bc72128cce6e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartak Skawce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0db1cd48f3d8f54985da7bc002459531",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9b28ea726552a03e3a11c119ffa364c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3fe683587801d2d56161e77e07f8da6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f66adbe3ba1154dd983a26e394f75623",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "941b28ba6ce5f9ab730954343314ba1f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "037b42dbecd7fa71eae10e9e28982693",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d44037ab7884726239bfb06debadb852",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Spartak Skawce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a36214e4834cf4cd281913d50a3a0db2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Skawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "69c9db519248ab26fbcea83fab707272",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e462beb4a49de02fddecd3c2373f277b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "efdf9ecb9c41bbb530ad61e692aa71b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cc56fe39c5d8e1adf320ce6ff92eae3a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Skawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2d8959d8edc93fe063ac8d99fdc2c628",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartak Skawce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5fa1be698cffab6098996b82e3a59052",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9a473da1a7bd23e30f9ebf10a8e4d5db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Zebrzydowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ee8b974a3b3834936dc1b561c71495a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "baa3524d4387e5a04ed5c4234ce3e0ec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1a77127295562703611893ea05653eab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Spartak Skawce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7697d7d00aaab7e972bbc74e58fb9023",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Skawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2a91b7c6568c07b7713c5564c7331495",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "11fb15cd7cb8e2f6bd3886b89d9f7afb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "30c015f4d98798d0545120dc68a8968e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Sidzina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Lanckorona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "483ac660441f58a5b383169b248f4168",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Osielec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6b2bac0a99085596f4c00da88ccf9328",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Stronie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jubilat Izdebnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "23f99640ba51c7aa5fd96095529d3908",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Skawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1d3b411324c6b28915af3a3afe2c63a7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Zebrzydowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartak Skawce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c0d859b3fd504e9df0539314efca32db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Marcówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Koziniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5631ab43f9aeb9aede443da169aa8a3f",
       "stadium": null
     }
   ]

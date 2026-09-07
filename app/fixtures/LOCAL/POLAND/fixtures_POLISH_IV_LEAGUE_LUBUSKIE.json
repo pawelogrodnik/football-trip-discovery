@@ -1,25 +1,276 @@
 {
   "competitionName": "IV Liga Lubuskie",
-  "count": 9,
+  "count": 99,
   "matches": [
     {
       "competition": {
         "name": "IV Liga Lubuskie"
       },
       "homeTeam": {
-        "name": "Promień Żary",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Ilanka Rzepin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
       },
-      "id": "9a203fb30a931f588dc5913f86020b8b",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "7db0483f51496ed1559d891ee17b7e1e",
+      "stadium": {
+        "venue": "Stadion Ilanka Rzepin",
+        "address": "Słubicka 36, Rzepin",
+        "geo": {
+          "latitude": 52.3461461,
+          "longitude": 14.8278189,
+          "name": "36, Słubicka, Rzepin, gmina Rzepin, powiat słubicki, województwo lubuskie, 69-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "51e6cc2daab2c66e0e0a3e457168d757",
+      "stadium": {
+        "venue": "Stadion Czarni Żagań",
+        "address": "Rydgiera 25, Żagań",
+        "geo": {
+          "latitude": 51.61187187395166,
+          "longitude": 15.310907314400765
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "a1cf3ce580f11e404c9172af71d9fe52",
+      "stadium": {
+        "venue": "Stadion Miejski w Strzelcach Krajeńskich",
+        "address": "Strzelecka 1, Strzelce Krajeńskie",
+        "geo": {
+          "latitude": 52.8808033,
+          "longitude": 15.5301846,
+          "name": "1, Strzelecka, Osiedle Królów Polskich, Strzelce Krajeńskie, gmina Strzelce Krajeńskie, powiat strzelecko-drezdenecki, województwo lubuskie, 66-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "9f5885454788a7bb39acdd3e79fc7d21",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "50e3661c98490cecb0045dad438e7404",
+      "stadium": {
+        "venue": "Boisko Victoria Szczaniec",
+        "address": "Szczaniec 75, Szczaniec",
+        "geo": {
+          "latitude": 52.2692546,
+          "longitude": 15.6855248,
+          "name": "Szczaniec, gmina Szczaniec, powiat świebodziński, województwo lubuskie, 66-225, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "8f3aff38b0916658c7a0b5b2e7380f33",
+      "stadium": {
+        "venue": "Stadion Sprotavia Szprotawa",
+        "address": "Kożuchowska 60, Szprotawa",
+        "geo": {
+          "latitude": 51.5695289,
+          "longitude": 15.5488633,
+          "name": "Kożuchowska, Zarzecze, Szprotawa, gmina Szprotawa, powiat żagański, województwo lubuskie, 67-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "acf9b92d23c61049239513441c8d345f",
+      "stadium": {
+        "venue": "Stadion SOSiR Słubice",
+        "address": "Sportowa 1, Słubice",
+        "geo": {
+          "latitude": 52.3453358,
+          "longitude": 14.5917276,
+          "name": "Sportowy, 1, Sportowa, Słubice, gmina Słubice, powiat słubicki, województwo lubuskie, 69-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "efc7b414a02c156e78140c22d8a2fd22",
+      "stadium": {
+        "venue": "Stadion Miejski w Zielonej Górze",
+        "address": "Wyspiańskiego 58, Zielona Góra",
+        "geo": {
+          "latitude": 51.9450734,
+          "longitude": 15.5264352,
+          "name": "Stadion Uniwersytetu Zielonogórskiego, 58, Stanisława Wyspiańskiego, Osiedle Tysiąclecia, Osiedle Wazów, Zielona Góra, województwo lubuskie, 65-036, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "8074cf42be55fd9582b77610d91f3dae",
+      "stadium": {
+        "venue": "Stadion Miejski w Sulęcinie",
+        "address": "Moniuszki 1, Sulęcin",
+        "geo": {
+          "latitude": 52.4370477,
+          "longitude": 15.1087607,
+          "name": "1, Stanisława Moniuszki, Sulęcin, gmina Sulęcin, powiat sulęciński, województwo lubuskie, 69-200, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -30,14 +281,581 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "37f468f2ad51aa38fda885e7335f3124",
+      "stadium": {
+        "venue": "Boisko Odra Nietków",
+        "address": "Sportowa 1, Nietków",
+        "geo": {
+          "latitude": 52.0254714,
+          "longitude": 15.3590178,
+          "name": "1, Sportowa, Nietków, gmina Czerwieńsk, powiat zielonogórski, województwo lubuskie, 66-016, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Victoria Szczaniec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "291587745d637051b86955176c0c374e",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "75deac564a7f2d829b98bfacc3ee816a",
+      "stadium": {
+        "venue": "Stadion Pogoń Skwierzyna",
+        "address": "Sportowa 3, Skwierzyna",
+        "geo": {
+          "latitude": 52.586991,
+          "longitude": 15.4889592,
+          "name": "3, Sportowa, Osiedle Wojska Polskiego, Skwierzyna, gmina Skwierzyna, powiat międzyrzecki, województwo lubuskie, 66-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "deec629a7e3d04db43b94897c7523d28",
+      "stadium": {
+        "venue": "Stadion MOSiR Nowa Sól",
+        "address": "1 Maja 26, Nowa Sól",
+        "geo": {
+          "latitude": 51.8023809,
+          "longitude": 15.6929507,
+          "name": "26, 1 Maja, Osiedle Konstytucji 3 Maja, Nowa Sól, powiat nowosolski, województwo lubuskie, 67-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8f4536693187bbc427ede9a1c23d1aa5",
+      "stadium": {
+        "venue": "Stadion Miejski w Iłowej",
+        "address": "Żagańska 51, Iłowa",
+        "geo": {
+          "latitude": 51.51091,
+          "longitude": 15.2074385,
+          "name": "Żagańska, Skarbiec, Iłowa, gmina Iłowa, powiat żagański, województwo lubuskie, 68-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e08fc8f476f0d70dc76989aa20abd76d",
+      "stadium": {
+        "venue": "Stadion Miejski w Świebodzinie",
+        "address": "Żaków 1, Świebodzin",
+        "geo": {
+          "latitude": 52.2559282,
+          "longitude": 15.5240908,
+          "name": "1, Żaków, Osiedle Żaków, Świebodzin, gmina Świebodzin, powiat świebodziński, województwo lubuskie, 66-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "df29fad3d058cc04ec33b96085f79d2e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "575869b987352e36e21aecd2a47b99b3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c34dd9384ed828db6d6bc58014c2d5d3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "61df10a7cce8bd777fe061effee7aabb",
+      "stadium": {
+        "venue": "Stadion Miejski w Zielonej Górze",
+        "address": "Wyspiańskiego 58, Zielona Góra",
+        "geo": {
+          "latitude": 51.9450734,
+          "longitude": 15.5264352,
+          "name": "Stadion Uniwersytetu Zielonogórskiego, 58, Stanisława Wyspiańskiego, Osiedle Tysiąclecia, Osiedle Wazów, Zielona Góra, województwo lubuskie, 65-036, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3c578584afd48fca5a6e940eddfca5df",
+      "stadium": {
+        "venue": "Stadion Czarni Żagań",
+        "address": "Rydgiera 25, Żagań",
+        "geo": {
+          "latitude": 51.61187187395166,
+          "longitude": 15.310907314400765
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "dac66d5ff9f9adfd3873af9f3ec3e79e",
+      "stadium": {
+        "venue": "Stadion Ilanka Rzepin",
+        "address": "Słubicka 36, Rzepin",
+        "geo": {
+          "latitude": 52.3461461,
+          "longitude": 14.8278189,
+          "name": "36, Słubicka, Rzepin, gmina Rzepin, powiat słubicki, województwo lubuskie, 69-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f6262072373da21801ec26c194d7b267",
+      "stadium": {
+        "venue": "Stadion Miejski w Strzelcach Krajeńskich",
+        "address": "Strzelecka 1, Strzelce Krajeńskie",
+        "geo": {
+          "latitude": 52.8808033,
+          "longitude": 15.5301846,
+          "name": "1, Strzelecka, Osiedle Królów Polskich, Strzelce Krajeńskie, gmina Strzelce Krajeńskie, powiat strzelecko-drezdenecki, województwo lubuskie, 66-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5b5ca3cd18fdc2b403c47d3ef98169f7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "804922afd7b7fd34274b570cb5d8db8a",
+      "stadium": {
+        "venue": "Stadion Sprotavia Szprotawa",
+        "address": "Kożuchowska 60, Szprotawa",
+        "geo": {
+          "latitude": 51.5695289,
+          "longitude": 15.5488633,
+          "name": "Kożuchowska, Zarzecze, Szprotawa, gmina Szprotawa, powiat żagański, województwo lubuskie, 67-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "45846ade8e8b13e10fcae9086ba7f616",
+      "stadium": {
+        "venue": "Stadion SOSiR Słubice",
+        "address": "Sportowa 1, Słubice",
+        "geo": {
+          "latitude": 52.3453358,
+          "longitude": 14.5917276,
+          "name": "Sportowy, 1, Sportowa, Słubice, gmina Słubice, powiat słubicki, województwo lubuskie, 69-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7b9318108528e6091db4406316656ce6",
+      "stadium": {
+        "venue": "Stadion Miejski w Sulęcinie",
+        "address": "Moniuszki 1, Sulęcin",
+        "geo": {
+          "latitude": 52.4370477,
+          "longitude": 15.1087607,
+          "name": "1, Stanisława Moniuszki, Sulęcin, gmina Sulęcin, powiat sulęciński, województwo lubuskie, 69-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2043e2a4babfd7237e62d1855cd4105e",
+      "stadium": {
+        "venue": "Boisko Victoria Szczaniec",
+        "address": "Szczaniec 75, Szczaniec",
+        "geo": {
+          "latitude": 52.2692546,
+          "longitude": 15.6855248,
+          "name": "Szczaniec, gmina Szczaniec, powiat świebodziński, województwo lubuskie, 66-225, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a1e0a6539d61c8df8d985051693f1b75",
+      "stadium": {
+        "venue": "Boisko Sportowe Róża Różanki",
+        "address": "Sportowa 4, Różanki",
+        "geo": {
+          "latitude": 52.8015144,
+          "longitude": 15.320304,
+          "name": "4, Sportowa, Różanki, gmina Kłodawa, powiat gorzowski, województwo lubuskie, 66-416, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "09003aaaa80103fe4f214ca6641a311c",
       "stadium": {
         "venue": "Boisko Odra Nietków",
         "address": "Sportowa 1, Nietków",
@@ -57,14 +875,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Sprotavia Szprotawa",
+        "name": "Róża Różanki",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "75bb1aca4fefffd8aab197a294ed847e",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "60e63fcb8692c62054079ec7f3e5365e",
       "stadium": {
         "venue": "Stadion MOSiR Nowa Sól",
         "address": "1 Maja 26, Nowa Sól",
@@ -80,110 +904,24 @@
         "name": "IV Liga Lubuskie"
       },
       "homeTeam": {
-        "name": "Korona Kożuchów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Czarni Żagań",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "b651aead161fdfec05f064410cc9eb3c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubuskie"
-      },
-      "homeTeam": {
-        "name": "Piast Karnin (Gorzów Wielkopolski)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lechia II Zielona Góra",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "fa33fb5b47a0c29343ddae3ab7d7d67c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubuskie"
-      },
-      "homeTeam": {
-        "name": "Pogoń Skwierzyna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Polonia Słubice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "73c9d5c3a219cda157b593053848600f",
-      "stadium": {
-        "venue": "Stadion Pogoń Skwierzyna",
-        "address": "Sportowa 3, Skwierzyna",
-        "geo": {
-          "latitude": 52.586991,
-          "longitude": 15.4889592,
-          "name": "3, Sportowa, Osiedle Wojska Polskiego, Skwierzyna, gmina Skwierzyna, powiat międzyrzecki, województwo lubuskie, 66-440, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubuskie"
-      },
-      "homeTeam": {
-        "name": "Pogoń Świebodzin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Łucznik Strzelce Krajeńskie",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "b34e4f3b2770af606ad16be4e28eb577",
-      "stadium": {
-        "venue": "Stadion Miejski w Świebodzinie",
-        "address": "Żaków 1, Świebodzin",
-        "geo": {
-          "latitude": 52.2559282,
-          "longitude": 15.5240908,
-          "name": "1, Żaków, Osiedle Żaków, Świebodzin, gmina Świebodzin, powiat świebodziński, województwo lubuskie, 66-200, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubuskie"
-      },
-      "homeTeam": {
         "name": "KP Piast Iłowa",
         "crest": null
       },
       "awayTeam": {
-        "name": "Celuloza Kostrzyn nad Odrą",
+        "name": "Victoria Szczaniec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "daaef4535c76d6887432539d4074d0b1",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e673a0ef5c8e2fee50fc382c1dc430ee",
       "stadium": {
         "venue": "Stadion Miejski w Iłowej",
         "address": "Żagańska 51, Iłowa",
@@ -199,18 +937,420 @@
         "name": "IV Liga Lubuskie"
       },
       "homeTeam": {
-        "name": "Róża Różanki",
+        "name": "Pogoń Świebodzin",
         "crest": null
       },
       "awayTeam": {
         "name": "Stal Sulęcin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "adcf4e2e70ad72b062b8cb2bae320973",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4e19bd0636f54c6fed9ef2e34d56be08",
+      "stadium": {
+        "venue": "Stadion Miejski w Świebodzinie",
+        "address": "Żaków 1, Świebodzin",
+        "geo": {
+          "latitude": 52.2559282,
+          "longitude": 15.5240908,
+          "name": "1, Żaków, Osiedle Żaków, Świebodzin, gmina Świebodzin, powiat świebodziński, województwo lubuskie, 66-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "02e4f336ecea9eec256d21cf939e803d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d1c03f97a952c9602b94beec94ba85eb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8d5910c55f69867f8b5d589d7d3e45a9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "59d4f74953688d5f573e51127e28c480",
+      "stadium": {
+        "venue": "Stadion Miejski w Zielonej Górze",
+        "address": "Wyspiańskiego 58, Zielona Góra",
+        "geo": {
+          "latitude": 51.9450734,
+          "longitude": 15.5264352,
+          "name": "Stadion Uniwersytetu Zielonogórskiego, 58, Stanisława Wyspiańskiego, Osiedle Tysiąclecia, Osiedle Wazów, Zielona Góra, województwo lubuskie, 65-036, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0986caf6b1379203e26e78d37406becb",
+      "stadium": {
+        "venue": "Stadion Czarni Żagań",
+        "address": "Rydgiera 25, Żagań",
+        "geo": {
+          "latitude": 51.61187187395166,
+          "longitude": 15.310907314400765
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "123d1c7a1440f24a4a95c68b88e40357",
+      "stadium": {
+        "venue": "Stadion Ilanka Rzepin",
+        "address": "Słubicka 36, Rzepin",
+        "geo": {
+          "latitude": 52.3461461,
+          "longitude": 14.8278189,
+          "name": "36, Słubicka, Rzepin, gmina Rzepin, powiat słubicki, województwo lubuskie, 69-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c5151b2ff61150ab300d17132943e548",
+      "stadium": {
+        "venue": "Stadion Miejski w Strzelcach Krajeńskich",
+        "address": "Strzelecka 1, Strzelce Krajeńskie",
+        "geo": {
+          "latitude": 52.8808033,
+          "longitude": 15.5301846,
+          "name": "1, Strzelecka, Osiedle Królów Polskich, Strzelce Krajeńskie, gmina Strzelce Krajeńskie, powiat strzelecko-drezdenecki, województwo lubuskie, 66-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6189d104aa65783a4e9f4662a9f4807c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f31d76fe15a10677b0b04299c857fd00",
+      "stadium": {
+        "venue": "Stadion Sprotavia Szprotawa",
+        "address": "Kożuchowska 60, Szprotawa",
+        "geo": {
+          "latitude": 51.5695289,
+          "longitude": 15.5488633,
+          "name": "Kożuchowska, Zarzecze, Szprotawa, gmina Szprotawa, powiat żagański, województwo lubuskie, 67-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e36ec0a79510caee77502a4d010a4900",
+      "stadium": {
+        "venue": "Stadion SOSiR Słubice",
+        "address": "Sportowa 1, Słubice",
+        "geo": {
+          "latitude": 52.3453358,
+          "longitude": 14.5917276,
+          "name": "Sportowy, 1, Sportowa, Słubice, gmina Słubice, powiat słubicki, województwo lubuskie, 69-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8145edb56ca2dadc8e9a391664bd0bf2",
+      "stadium": {
+        "venue": "Stadion Miejski w Sulęcinie",
+        "address": "Moniuszki 1, Sulęcin",
+        "geo": {
+          "latitude": 52.4370477,
+          "longitude": 15.1087607,
+          "name": "1, Stanisława Moniuszki, Sulęcin, gmina Sulęcin, powiat sulęciński, województwo lubuskie, 69-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bec656e6e7bfca8d295aeaa992f35559",
+      "stadium": {
+        "venue": "Boisko Victoria Szczaniec",
+        "address": "Szczaniec 75, Szczaniec",
+        "geo": {
+          "latitude": 52.2692546,
+          "longitude": 15.6855248,
+          "name": "Szczaniec, gmina Szczaniec, powiat świebodziński, województwo lubuskie, 66-225, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e837a97de4f9812b50cfd9cc7b8f749c",
       "stadium": {
         "venue": "Boisko Sportowe Róża Różanki",
         "address": "Sportowa 4, Różanki",
@@ -218,6 +1358,1722 @@
           "latitude": 52.8015144,
           "longitude": 15.320304,
           "name": "4, Sportowa, Różanki, gmina Kłodawa, powiat gorzowski, województwo lubuskie, 66-416, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6b1ea4f961f5ef4183915f565f90eb5a",
+      "stadium": {
+        "venue": "Stadion Pogoń Skwierzyna",
+        "address": "Sportowa 3, Skwierzyna",
+        "geo": {
+          "latitude": 52.586991,
+          "longitude": 15.4889592,
+          "name": "3, Sportowa, Osiedle Wojska Polskiego, Skwierzyna, gmina Skwierzyna, powiat międzyrzecki, województwo lubuskie, 66-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bfb846a2f014e409d08270254cfcd615",
+      "stadium": {
+        "venue": "Boisko Odra Nietków",
+        "address": "Sportowa 1, Nietków",
+        "geo": {
+          "latitude": 52.0254714,
+          "longitude": 15.3590178,
+          "name": "1, Sportowa, Nietków, gmina Czerwieńsk, powiat zielonogórski, województwo lubuskie, 66-016, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e79f8e713d2161769189bebc6eebfb47",
+      "stadium": {
+        "venue": "Stadion Miejski w Świebodzinie",
+        "address": "Żaków 1, Świebodzin",
+        "geo": {
+          "latitude": 52.2559282,
+          "longitude": 15.5240908,
+          "name": "1, Żaków, Osiedle Żaków, Świebodzin, gmina Świebodzin, powiat świebodziński, województwo lubuskie, 66-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "65ac62b90803a3cd12599287b072fae1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "93e5bdfaea05aac122352500ae36578f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c5b5340d446b2d5120fcc630a15e8486",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "67aa855b97f3f413f1ce89e2ae6e5142",
+      "stadium": {
+        "venue": "Stadion Miejski w Zielonej Górze",
+        "address": "Wyspiańskiego 58, Zielona Góra",
+        "geo": {
+          "latitude": 51.9450734,
+          "longitude": 15.5264352,
+          "name": "Stadion Uniwersytetu Zielonogórskiego, 58, Stanisława Wyspiańskiego, Osiedle Tysiąclecia, Osiedle Wazów, Zielona Góra, województwo lubuskie, 65-036, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9c64c9da4e42ecd9c01c297d27fe60c6",
+      "stadium": {
+        "venue": "Stadion Czarni Żagań",
+        "address": "Rydgiera 25, Żagań",
+        "geo": {
+          "latitude": 51.61187187395166,
+          "longitude": 15.310907314400765
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8f55590886f5274066f56cc7bc4431f4",
+      "stadium": {
+        "venue": "Stadion Ilanka Rzepin",
+        "address": "Słubicka 36, Rzepin",
+        "geo": {
+          "latitude": 52.3461461,
+          "longitude": 14.8278189,
+          "name": "36, Słubicka, Rzepin, gmina Rzepin, powiat słubicki, województwo lubuskie, 69-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "dbe3173a4c5dfbb7d972a3e40f2f2943",
+      "stadium": {
+        "venue": "Stadion Miejski w Strzelcach Krajeńskich",
+        "address": "Strzelecka 1, Strzelce Krajeńskie",
+        "geo": {
+          "latitude": 52.8808033,
+          "longitude": 15.5301846,
+          "name": "1, Strzelecka, Osiedle Królów Polskich, Strzelce Krajeńskie, gmina Strzelce Krajeńskie, powiat strzelecko-drezdenecki, województwo lubuskie, 66-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "07705168129f2de4211f9100ba9da9ff",
+      "stadium": {
+        "venue": "Boisko Odra Nietków",
+        "address": "Sportowa 1, Nietków",
+        "geo": {
+          "latitude": 52.0254714,
+          "longitude": 15.3590178,
+          "name": "1, Sportowa, Nietków, gmina Czerwieńsk, powiat zielonogórski, województwo lubuskie, 66-016, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0c41a867af4004c2125f443768bd8641",
+      "stadium": {
+        "venue": "Stadion Miejski w Iłowej",
+        "address": "Żagańska 51, Iłowa",
+        "geo": {
+          "latitude": 51.51091,
+          "longitude": 15.2074385,
+          "name": "Żagańska, Skarbiec, Iłowa, gmina Iłowa, powiat żagański, województwo lubuskie, 68-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c15b4388f67321d375c76a5356793347",
+      "stadium": {
+        "venue": "Stadion Miejski w Świebodzinie",
+        "address": "Żaków 1, Świebodzin",
+        "geo": {
+          "latitude": 52.2559282,
+          "longitude": 15.5240908,
+          "name": "1, Żaków, Osiedle Żaków, Świebodzin, gmina Świebodzin, powiat świebodziński, województwo lubuskie, 66-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "523c01d601ef4695226722e3ec3e8334",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "27528e8656a82ff2f88f6be74178ad63",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0149c6cbd6313489633ab1c39331b26c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8e3209bc7fd8d3892e96aabf508cccc4",
+      "stadium": {
+        "venue": "Stadion Miejski w Zielonej Górze",
+        "address": "Wyspiańskiego 58, Zielona Góra",
+        "geo": {
+          "latitude": 51.9450734,
+          "longitude": 15.5264352,
+          "name": "Stadion Uniwersytetu Zielonogórskiego, 58, Stanisława Wyspiańskiego, Osiedle Tysiąclecia, Osiedle Wazów, Zielona Góra, województwo lubuskie, 65-036, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "58bbe68f14e4af255aed4a46c28b4c04",
+      "stadium": {
+        "venue": "Stadion Czarni Żagań",
+        "address": "Rydgiera 25, Żagań",
+        "geo": {
+          "latitude": 51.61187187395166,
+          "longitude": 15.310907314400765
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "30da5d558075f12b4bb6b50ccae249e1",
+      "stadium": {
+        "venue": "Stadion Ilanka Rzepin",
+        "address": "Słubicka 36, Rzepin",
+        "geo": {
+          "latitude": 52.3461461,
+          "longitude": 14.8278189,
+          "name": "36, Słubicka, Rzepin, gmina Rzepin, powiat słubicki, województwo lubuskie, 69-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ccaf7ba53ffc624db741cde6a36c8cde",
+      "stadium": {
+        "venue": "Stadion Miejski w Strzelcach Krajeńskich",
+        "address": "Strzelecka 1, Strzelce Krajeńskie",
+        "geo": {
+          "latitude": 52.8808033,
+          "longitude": 15.5301846,
+          "name": "1, Strzelecka, Osiedle Królów Polskich, Strzelce Krajeńskie, gmina Strzelce Krajeńskie, powiat strzelecko-drezdenecki, województwo lubuskie, 66-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "48208d18e50ca71f8017b06c699e98aa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "aa1954a090c3310575c001333b93b288",
+      "stadium": {
+        "venue": "Stadion Sprotavia Szprotawa",
+        "address": "Kożuchowska 60, Szprotawa",
+        "geo": {
+          "latitude": 51.5695289,
+          "longitude": 15.5488633,
+          "name": "Kożuchowska, Zarzecze, Szprotawa, gmina Szprotawa, powiat żagański, województwo lubuskie, 67-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3aa40275fb7f13896fc8cdadce711f3c",
+      "stadium": {
+        "venue": "Stadion SOSiR Słubice",
+        "address": "Sportowa 1, Słubice",
+        "geo": {
+          "latitude": 52.3453358,
+          "longitude": 14.5917276,
+          "name": "Sportowy, 1, Sportowa, Słubice, gmina Słubice, powiat słubicki, województwo lubuskie, 69-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "18f251bd945c24cc7ab64f12832f2016",
+      "stadium": {
+        "venue": "Stadion Miejski w Sulęcinie",
+        "address": "Moniuszki 1, Sulęcin",
+        "geo": {
+          "latitude": 52.4370477,
+          "longitude": 15.1087607,
+          "name": "1, Stanisława Moniuszki, Sulęcin, gmina Sulęcin, powiat sulęciński, województwo lubuskie, 69-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2cdf971148f627df3a6fcb1e9bc11c56",
+      "stadium": {
+        "venue": "Boisko Victoria Szczaniec",
+        "address": "Szczaniec 75, Szczaniec",
+        "geo": {
+          "latitude": 52.2692546,
+          "longitude": 15.6855248,
+          "name": "Szczaniec, gmina Szczaniec, powiat świebodziński, województwo lubuskie, 66-225, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e6d4ce03a7b4d736461f72d542cd30a4",
+      "stadium": {
+        "venue": "Boisko Sportowe Róża Różanki",
+        "address": "Sportowa 4, Różanki",
+        "geo": {
+          "latitude": 52.8015144,
+          "longitude": 15.320304,
+          "name": "4, Sportowa, Różanki, gmina Kłodawa, powiat gorzowski, województwo lubuskie, 66-416, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "26a448d7370d0c58e6f00267e49540ea",
+      "stadium": {
+        "venue": "Stadion Pogoń Skwierzyna",
+        "address": "Sportowa 3, Skwierzyna",
+        "geo": {
+          "latitude": 52.586991,
+          "longitude": 15.4889592,
+          "name": "3, Sportowa, Osiedle Wojska Polskiego, Skwierzyna, gmina Skwierzyna, powiat międzyrzecki, województwo lubuskie, 66-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1f1682d25d31352866521d576dc60805",
+      "stadium": {
+        "venue": "Stadion MOSiR Nowa Sól",
+        "address": "1 Maja 26, Nowa Sól",
+        "geo": {
+          "latitude": 51.8023809,
+          "longitude": 15.6929507,
+          "name": "26, 1 Maja, Osiedle Konstytucji 3 Maja, Nowa Sól, powiat nowosolski, województwo lubuskie, 67-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1cc284c12dac334772cb81e67ea16fc2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6db25e81ec6841bc0a6f83cba10b2c37",
+      "stadium": {
+        "venue": "Stadion Sprotavia Szprotawa",
+        "address": "Kożuchowska 60, Szprotawa",
+        "geo": {
+          "latitude": 51.5695289,
+          "longitude": 15.5488633,
+          "name": "Kożuchowska, Zarzecze, Szprotawa, gmina Szprotawa, powiat żagański, województwo lubuskie, 67-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9a527bedf9265f98330824ae74fcd6ed",
+      "stadium": {
+        "venue": "Stadion SOSiR Słubice",
+        "address": "Sportowa 1, Słubice",
+        "geo": {
+          "latitude": 52.3453358,
+          "longitude": 14.5917276,
+          "name": "Sportowy, 1, Sportowa, Słubice, gmina Słubice, powiat słubicki, województwo lubuskie, 69-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f9b8edeb8e5d70b963ffe9be9960d385",
+      "stadium": {
+        "venue": "Stadion Miejski w Sulęcinie",
+        "address": "Moniuszki 1, Sulęcin",
+        "geo": {
+          "latitude": 52.4370477,
+          "longitude": 15.1087607,
+          "name": "1, Stanisława Moniuszki, Sulęcin, gmina Sulęcin, powiat sulęciński, województwo lubuskie, 69-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7945ee9034107def9adf043358068594",
+      "stadium": {
+        "venue": "Boisko Victoria Szczaniec",
+        "address": "Szczaniec 75, Szczaniec",
+        "geo": {
+          "latitude": 52.2692546,
+          "longitude": 15.6855248,
+          "name": "Szczaniec, gmina Szczaniec, powiat świebodziński, województwo lubuskie, 66-225, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b280052c661d156ad1f3be4977059f13",
+      "stadium": {
+        "venue": "Boisko Sportowe Róża Różanki",
+        "address": "Sportowa 4, Różanki",
+        "geo": {
+          "latitude": 52.8015144,
+          "longitude": 15.320304,
+          "name": "4, Sportowa, Różanki, gmina Kłodawa, powiat gorzowski, województwo lubuskie, 66-416, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ecd0f3be2e9ce1a65847b340df858af1",
+      "stadium": {
+        "venue": "Stadion Pogoń Skwierzyna",
+        "address": "Sportowa 3, Skwierzyna",
+        "geo": {
+          "latitude": 52.586991,
+          "longitude": 15.4889592,
+          "name": "3, Sportowa, Osiedle Wojska Polskiego, Skwierzyna, gmina Skwierzyna, powiat międzyrzecki, województwo lubuskie, 66-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "37a680f26d3a584bf5b11c4fa3a9c5bc",
+      "stadium": {
+        "venue": "Stadion MOSiR Nowa Sól",
+        "address": "1 Maja 26, Nowa Sól",
+        "geo": {
+          "latitude": 51.8023809,
+          "longitude": 15.6929507,
+          "name": "26, 1 Maja, Osiedle Konstytucji 3 Maja, Nowa Sól, powiat nowosolski, województwo lubuskie, 67-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ab9606645a2c99ebcc3ef9de5eebae55",
+      "stadium": {
+        "venue": "Stadion Miejski w Iłowej",
+        "address": "Żagańska 51, Iłowa",
+        "geo": {
+          "latitude": 51.51091,
+          "longitude": 15.2074385,
+          "name": "Żagańska, Skarbiec, Iłowa, gmina Iłowa, powiat żagański, województwo lubuskie, 68-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8129c0b4e3576b20ee3ca72e8ff40f82",
+      "stadium": {
+        "venue": "Boisko Odra Nietków",
+        "address": "Sportowa 1, Nietków",
+        "geo": {
+          "latitude": 52.0254714,
+          "longitude": 15.3590178,
+          "name": "1, Sportowa, Nietków, gmina Czerwieńsk, powiat zielonogórski, województwo lubuskie, 66-016, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "6098614bbccbec860c7e5e8dae7d100c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7de92a7fd94928dc194ddcceed28f5ed",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "3212a90a84b70a88abd5eeee12114a61",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2bbd3fcaf9b7d512e03f1bd5b47a1f7c",
+      "stadium": {
+        "venue": "Stadion Miejski w Zielonej Górze",
+        "address": "Wyspiańskiego 58, Zielona Góra",
+        "geo": {
+          "latitude": 51.9450734,
+          "longitude": 15.5264352,
+          "name": "Stadion Uniwersytetu Zielonogórskiego, 58, Stanisława Wyspiańskiego, Osiedle Tysiąclecia, Osiedle Wazów, Zielona Góra, województwo lubuskie, 65-036, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "120e968d14cb6a1df77be8d1c6e89025",
+      "stadium": {
+        "venue": "Stadion Czarni Żagań",
+        "address": "Rydgiera 25, Żagań",
+        "geo": {
+          "latitude": 51.61187187395166,
+          "longitude": 15.310907314400765
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2ced9c589e81a4a5c10d38c19f9ae38d",
+      "stadium": {
+        "venue": "Stadion Ilanka Rzepin",
+        "address": "Słubicka 36, Rzepin",
+        "geo": {
+          "latitude": 52.3461461,
+          "longitude": 14.8278189,
+          "name": "36, Słubicka, Rzepin, gmina Rzepin, powiat słubicki, województwo lubuskie, 69-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "4060aac66e0bbe6aaf1af024d901f49a",
+      "stadium": {
+        "venue": "Stadion Miejski w Strzelcach Krajeńskich",
+        "address": "Strzelecka 1, Strzelce Krajeńskie",
+        "geo": {
+          "latitude": 52.8808033,
+          "longitude": 15.5301846,
+          "name": "1, Strzelecka, Osiedle Królów Polskich, Strzelce Krajeńskie, gmina Strzelce Krajeńskie, powiat strzelecko-drezdenecki, województwo lubuskie, 66-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "83404d01a340a99d06e5f00f435e1b85",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Sprotavia Szprotawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Nietków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "e8dfdde2ece429bc8bb1e05a97ecdcfa",
+      "stadium": {
+        "venue": "Stadion Sprotavia Szprotawa",
+        "address": "Kożuchowska 60, Szprotawa",
+        "geo": {
+          "latitude": 51.5695289,
+          "longitude": 15.5488633,
+          "name": "Kożuchowska, Zarzecze, Szprotawa, gmina Szprotawa, powiat żagański, województwo lubuskie, 67-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Słubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Celuloza Kostrzyn nad Odrą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "ed26454a29d5535500b4bef90aa873cb",
+      "stadium": {
+        "venue": "Stadion SOSiR Słubice",
+        "address": "Sportowa 1, Słubice",
+        "geo": {
+          "latitude": 52.3453358,
+          "longitude": 14.5917276,
+          "name": "Sportowy, 1, Sportowa, Słubice, gmina Słubice, powiat słubicki, województwo lubuskie, 69-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Stal Sulęcin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łucznik Strzelce Krajeńskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "e4df6a7f2f799ffef16670e09382a90c",
+      "stadium": {
+        "venue": "Stadion Miejski w Sulęcinie",
+        "address": "Moniuszki 1, Sulęcin",
+        "geo": {
+          "latitude": 52.4370477,
+          "longitude": 15.1087607,
+          "name": "1, Stanisława Moniuszki, Sulęcin, gmina Sulęcin, powiat sulęciński, województwo lubuskie, 69-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Szczaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ilanka Rzepin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "d9b08bd86c7bf1f26b0c9920f4eef931",
+      "stadium": {
+        "venue": "Boisko Victoria Szczaniec",
+        "address": "Szczaniec 75, Szczaniec",
+        "geo": {
+          "latitude": 52.2692546,
+          "longitude": 15.6855248,
+          "name": "Szczaniec, gmina Szczaniec, powiat świebodziński, województwo lubuskie, 66-225, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Róża Różanki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Żagań",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "4afcbdbffa583937cf6d856fbd069c72",
+      "stadium": {
+        "venue": "Boisko Sportowe Róża Różanki",
+        "address": "Sportowa 4, Różanki",
+        "geo": {
+          "latitude": 52.8015144,
+          "longitude": 15.320304,
+          "name": "4, Sportowa, Różanki, gmina Kłodawa, powiat gorzowski, województwo lubuskie, 66-416, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Skwierzyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia II Zielona Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "e114570b4732b1f852cdbb353db2565c",
+      "stadium": {
+        "venue": "Stadion Pogoń Skwierzyna",
+        "address": "Sportowa 3, Skwierzyna",
+        "geo": {
+          "latitude": 52.586991,
+          "longitude": 15.4889592,
+          "name": "3, Sportowa, Osiedle Wojska Polskiego, Skwierzyna, gmina Skwierzyna, powiat międzyrzecki, województwo lubuskie, 66-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Dozamet Nowa Sól",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Karnin (Gorzów Wielkopolski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "4f53dfa54cd60d9429a90eb8afc37a99",
+      "stadium": {
+        "venue": "Stadion MOSiR Nowa Sól",
+        "address": "1 Maja 26, Nowa Sól",
+        "geo": {
+          "latitude": 51.8023809,
+          "longitude": 15.6929507,
+          "name": "26, 1 Maja, Osiedle Konstytucji 3 Maja, Nowa Sól, powiat nowosolski, województwo lubuskie, 67-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "KP Piast Iłowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kożuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "3d4b575a02b1867763d3ab2ef260e4f0",
+      "stadium": {
+        "venue": "Stadion Miejski w Iłowej",
+        "address": "Żagańska 51, Iłowa",
+        "geo": {
+          "latitude": 51.51091,
+          "longitude": 15.2074385,
+          "name": "Żagańska, Skarbiec, Iłowa, gmina Iłowa, powiat żagański, województwo lubuskie, 68-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubuskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Świebodzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Żary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "6ef04995ad1991135b6934a8d9336e8e",
+      "stadium": {
+        "venue": "Stadion Miejski w Świebodzinie",
+        "address": "Żaków 1, Świebodzin",
+        "geo": {
+          "latitude": 52.2559282,
+          "longitude": 15.5240908,
+          "name": "1, Żaków, Osiedle Żaków, Świebodzin, gmina Świebodzin, powiat świebodziński, województwo lubuskie, 66-200, Polska"
         }
       }
     }

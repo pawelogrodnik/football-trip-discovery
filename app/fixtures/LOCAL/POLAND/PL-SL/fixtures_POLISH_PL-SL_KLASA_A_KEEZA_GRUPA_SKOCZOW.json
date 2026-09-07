@@ -1,62 +1,28 @@
 {
   "competitionName": "Klasa A Keeza (Skoczow)",
-  "count": 7,
+  "count": 56,
   "matches": [
     {
       "competition": {
         "name": "Klasa A Keeza (Skoczow)"
       },
       "homeTeam": {
-        "name": "Olza Pogwizdów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Beskid Brenna",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "540d25aa4b35876b9bb913d3598f77f6",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A Keeza (Skoczow)"
-      },
-      "homeTeam": {
-        "name": "Strażak Pielgrzymowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "CKS Piast Cieszyn",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "ae6474b053bc99dd94f8efe84624ca31",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A Keeza (Skoczow)"
-      },
-      "homeTeam": {
-        "name": "Błyskawica Kończyce Wielkie",
+        "name": "LKS II Pogórze",
         "crest": null
       },
       "awayTeam": {
         "name": "Olimpia Goleszów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
-      "id": "e8b2aba478d2596868713a800ef78f61",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "367f020b05f2b952c14eca8fe9395ff3",
       "stadium": null
     },
     {
@@ -64,18 +30,22 @@
         "name": "Klasa A Keeza (Skoczow)"
       },
       "homeTeam": {
-        "name": "LKS 99 Pruchna",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Błękitni Pierściec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
       },
-      "id": "898b3297889e43393a24e08734f71a6a",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "f7d5090c119b71f5ac192b6bd741a1e5",
       "stadium": null
     },
     {
@@ -83,18 +53,91 @@
         "name": "Klasa A Keeza (Skoczow)"
       },
       "homeTeam": {
-        "name": "KS Nierodzim (Ustroń)",
+        "name": "Iskra Iskrzyczyn",
         "crest": null
       },
       "awayTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "53c67d8d813035c28471fe62bd92fae5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Kończyce Małe",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "de86d29dc1c4c60ef4e7da980cc68cc3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
         "name": "Zryw Bąków",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
       },
-      "id": "a152f30de3c3ca4c82035bbeb7d320c7",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "a03d587197def222ceb6bd585ef95ca3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "a70941376a4f200f3b90467cd4ac6a77",
       "stadium": null
     },
     {
@@ -106,14 +149,118 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "358459e9ac0b6fb962606a97382b0e67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "LKS II Pogórze",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "5c773ac6f53005747dd0182514aa0f29",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d00157f2bd50aba26ed824a8844fd5bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spójnia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f569a7f64c2de3674ffd2f8ef9829f09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Pierściec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "497ea8751e54f274140053d754bbc93c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "27043753934a282b9e88e924988661a1",
       "stadium": null
     },
     {
@@ -125,14 +272,1120 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Zryw Bąków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9c4076e8c055a3a01f1ac9d9cb9ead59",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5b4451c5d18929cc1a8b440c98cd2b5e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Goleszów",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Iskra Iskrzyczyn",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "2d403cbfe5d4247e20c5307672529e36",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "977a61b9c95a11a02f82dbaf7f609bc0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS II Pogórze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Iskrzyczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a266f4ccc2327e63425567ec292fcb70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Goleszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fc2f9f2a97d6f48600141552b2ba1cf0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bąków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ccc31cdeaced63b3fba86847f9b5a397",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Kończyce Małe",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a600885e981275d5dfb8737d3f23cdec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Pierściec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ca6ba7f4481a4986f45241f92ea32c0b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Spójnia Zebrzydowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ad91544241b41f9d77e1361f3120aafb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "eddbac8c4e823ffc88e9a108d4468861",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Pogórze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0cd84d6968e48ce32993b83a75dda78f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e2edbf79f9f61376aade45e8a6122263",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spójnia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "db35a59692a48829ca98f3791e322acf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Kończyce Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Pierściec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5170edff2aa491613f1e850857ac34a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0706255670b5990e752f4f9b1603fb20",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Goleszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Bąków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9117839718583b8475addddef1ef5a0d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Iskra Iskrzyczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d5909f9b33ab0141c2d2bf4add819b13",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS II Pogórze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "150d1554cedcc450cefe282dbc8664db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bąków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Iskrzyczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "54c38e77d27882f5f9ab141968767543",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Goleszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "40640559d102bc108edf4a1db89c72ac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Pierściec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ac5c45b71ff625ce26e143b2037c1a06",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Spójnia Zebrzydowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Kończyce Małe",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b941b1b1331a0bd710996e98153cbc52",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4892916b36cf33f322d5ac84462daaee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b9231c8109c43e8bdd191861c9e57338",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Pogórze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "766887e566361cbe4b5882d5d5b43978",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Kończyce Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "71b6bc42e4c946db8d90dc1de2d99b4b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "397eaecc12e2dca469be9bc45cf52414",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Goleszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7b700b0b41a994510ebc4cad52c145e4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Iskra Iskrzyczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spójnia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "91214b89c305424ad47d9ca1f834437e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Pierściec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "cc0507d1ba62c691a539074f34f1c181",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bąków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d3ea79d8d65be7ae2d34b14a345ccd09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Pogórze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "46ec456642579666e66e56c05beaf36c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "bd979922f342c2161a4c43e831de6123",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Kończyce Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cfaf5b32da691628756ebbea26f1927f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spójnia Zebrzydowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b59a10f01f1200829c3b59453d0460ac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Goleszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Pierściec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a837a3bfc47850154fcf36e777e35f26",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Iskra Iskrzyczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f559940e772f726f58197265948fc739",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Bąków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "82e5343f591605358a768a707567aa9d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS II Pogórze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Bąków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "af60af38714fe76b7fb21d29e3b9943a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Beskid Brenna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Piast Cieszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1bb15cc2cd0398b90f284f50a0147b4d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Pierściec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Iskrzyczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "48190f4077728c26bab906dd21e64da5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Spójnia Zebrzydowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Goleszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "905f96c0c403b859ecc486234a004ef5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS 99 Pruchna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Kończyce Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "99e7db122d2c2b08aa26c0a18e1a63d7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Kończyce Małe",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1670c1ebc3930b0e3055b9c148155b32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "KS Nierodzim (Ustroń)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak Pielgrzymowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "22150745d29fa72b2724821097b52115",
       "stadium": null
     }
   ]

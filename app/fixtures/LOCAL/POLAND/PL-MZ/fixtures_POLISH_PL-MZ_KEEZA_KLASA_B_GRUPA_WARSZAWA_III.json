@@ -1,26 +1,7 @@
 {
   "competitionName": "Keeza Klasa B (Warszawa III)",
-  "count": 8,
+  "count": 71,
   "matches": [
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Mewa II Krubin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "PKS II Radość (Warszawa)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "7d3b12cea4bb4e7091dd97e777920d91",
-      "stadium": null
-    },
     {
       "competition": {
         "name": "Keeza Klasa B (Warszawa III)"
@@ -30,14 +11,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Zły Warszawa",
+        "name": "Jedność Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:30:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-09T17:30:00.000Z"
       },
-      "id": "a03a5ebff387c0daab57acb70fbea833",
+      "date": {
+        "date": "2026-09-09",
+        "dateTime": "2026-09-09T17:30:00.000Z"
+      },
+      "id": "7895648ac4b969b82cf3d524f950ccea",
       "stadium": null
     },
     {
@@ -45,18 +30,91 @@
         "name": "Keeza Klasa B (Warszawa III)"
       },
       "homeTeam": {
-        "name": "Warszawiak Warszawa",
+        "name": "Unia II Warszawa",
         "crest": null
       },
       "awayTeam": {
-        "name": "KKS Żoliborz (Warszawa)",
+        "name": "Mewa II Krubin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T18:30:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
-      "id": "89701925484d030bc9dd8fc12f99c7e1",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "058edda2a64fd4acc2ebf932bc9486f0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T20:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T20:30:00.000Z"
+      },
+      "id": "55dc54469d35ea99751e87bb39534966",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "224f66959cbebbf8d63d17fcd55f6b4f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "e048673396ed2afece1096cbfb3d2540",
       "stadium": null
     },
     {
@@ -68,14 +126,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Amigos Warszawa",
+        "name": "Warszawiak Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T20:15:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:45:00.000Z"
       },
-      "id": "492a37fa7d77bc45ab7c9179b79c3964",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:45:00.000Z"
+      },
+      "id": "587128abe765b4e75e078f6969865d27",
       "stadium": null
     },
     {
@@ -83,56 +145,70 @@
         "name": "Keeza Klasa B (Warszawa III)"
       },
       "homeTeam": {
-        "name": "Pahonia Warszawa",
+        "name": "KKS Żoliborz (Warszawa)",
         "crest": null
       },
       "awayTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:30:00.000Z"
+      },
+      "id": "bafda0078ecf638e831e3092070ae687",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
         "name": "Jedność Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:30:00.000Z"
-      },
-      "id": "b8dfbe22c404ab2a92cc631be20ec82e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Sparta Marki",
-        "crest": null
-      },
       "awayTeam": {
-        "name": "SEMP III Ursynów (Warszawa)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T18:30:00.000Z"
-      },
-      "id": "1c422bc0037f34083455f04ba0cac4eb",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa III)"
-      },
-      "homeTeam": {
         "name": "Marymont Warszawa",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Unia II Warszawa",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T20:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T19:30:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T20:00:00.000Z"
       },
-      "id": "ec7f830b3709fc89d3de8c4eb3a51f65",
+      "id": "6785da84d6b65662438fb0ec636bb946",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8ee33ce77c30270dce8e94735483f44a",
       "stadium": null
     },
     {
@@ -144,14 +220,1545 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1e0090591ed0503dec7cc5d16308a165",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ac40dd17081bb0cd91a8dd28cb0604af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "141cad1c0e02a4fd80993a15dfc6fe4c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "76a9cd4f74ef0b8c71c74e92796cbd45",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Jedność Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-09",
-        "dateTime": "2026-09-09T17:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "7895648ac4b969b82cf3d524f950ccea",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "43cc554cfdb32ebd5d33a6b6855ba6b3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "293cf747f1908f84b1d34f3e100a1297",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "947964c782b787b9fea5a589a3aba485",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "bc66a92e55c35b20668eba57761ef53d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c6fc890e0786b2c2649e91a668b595be",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fb591c3fd6d7fcfed9bf162091341226",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b40fb9057fc9a824d497b6ecb5597540",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6012950346f76786075fe3a64d739575",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "900afdd8d872bc46008b75627af87faa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e1629a008747ec5d70b61ce42ee1d504",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "14b3447e553130e46628708b8892b923",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "384419994ab8a9ad2aa51315e1e7c242",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "05dc85cb28f3fafe505990d72b441af4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "620524d075d87a79e08986837dbbd8e3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "378f6d8a07a136e1238f506f8ae1be5d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "77c8e7452b314d5e9096630b9c9a0d4a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e9f9544b0bbbd37a45e39b9c67977b8b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e345cf5293fa029340474f02d25cfc9b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "589c4158cee0332075c3fd3047a70c8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ad388e86bc0750188aa2b85387ecc578",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "06a05877f449b39abf0806d0c33abce7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dd5bda906c9ff8fb87d70c0487282fb2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ad039c175fc864a4a16986579eac13cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "caf8a4084c0191c0499ad0baf1204a49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "39f9c9ed6cf51b292112e609bc2fe390",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bce3610b8d5e5fb23174bfb5411e851c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "cf4e87df827603b81c83a2b903cb45a0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f8b4c4dc0a2e2d797b6d0eff8949f17d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ef9660911b3e28eed9944f2338360c54",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "81a252a9aef21528c2eeab86907b4daa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b5deb639ca8f6f7a6e81da23c42d4179",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a52310e3ffd1052260e867875326aab3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e54d3c7554be5d42c77de207ea0e15ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "539f463bcd027d8577b680e9a272b2e3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0615938993f1b2aa28e692e93f13c41a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "39a15f3a03c06ef5322f089cf3d6034c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6594b2e53bfec5715052bdbbf0b53614",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "117d24b6039ea1000e268bd6f5d1f0bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d0282fc3de07d70cbd2d079b89635215",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6372b2a8f1a2da6eec6525d8e0dbb473",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "994f8f889fc3d55a8efebe70d58b40c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1af38b055ae26541c9fadf5357e4f316",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "254c4726406cdb57db4d446567dbb907",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c9c777e2b9bd25b2c39aa330621f07fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "16060176e1a77d3ad2fe07eadc95b6e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a4c76d0d826e2ecc09bb79fe1f9a1779",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "48141e99507272d54db6a6758b1eadc4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4a0d99c173824ef89e0a462f40425861",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8ed7ca73bea686a24f77de791065ed6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "75de01729a65eee557bb946eeaecb6c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "275ff52a6cf2f55d5985e423e3e96dd5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Marymont Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amigos Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2e590ee8822314b985d6098d8e623ec7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Mewa II Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pahonia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "99545c790f2ef378329b5bc8b55e3b2f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "PKS II Radość (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Marki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2ad80a1c1ca78c33ea640343c5cdc1ff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Unia II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Juventus Academy Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "92725f552c937b05fd784f86d3b79474",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Jedność Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warszawiak Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b76066ba4fe8bcad750c09aac98966e9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "SEMP III Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Real Varsovia Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0e68294c0cc59d65adb66f4dc76718eb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Zły Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKS Żoliborz (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ab2aea8f44e41f5a1a430caabf141cbf",
       "stadium": null
     }
   ]

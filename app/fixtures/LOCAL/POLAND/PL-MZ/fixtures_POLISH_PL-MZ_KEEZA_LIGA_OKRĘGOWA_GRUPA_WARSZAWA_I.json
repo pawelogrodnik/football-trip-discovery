@@ -1,62 +1,59 @@
 {
   "competitionName": "Keeza Liga okręgowa (Warszawa I)",
-  "count": 9,
+  "count": 81,
   "matches": [
     {
       "competition": {
         "name": "Keeza Liga okręgowa (Warszawa I)"
       },
       "homeTeam": {
-        "name": "KS Halinów",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Świt II Nowy Dwór Mazowiecki",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T10:00:00.000Z"
-      },
-      "id": "58f333f9c0e7e0c25397c5b0af83fcde",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Liga okręgowa (Warszawa I)"
-      },
-      "homeTeam": {
-        "name": "AP EsKadra Warszawa",
-        "crest": null
-      },
       "awayTeam": {
-        "name": "Delta Warszawa",
+        "name": "Ząbkovia II Ząbki",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T10:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T18:00:00.000Z"
       },
-      "id": "9e30a05b64def05daab479d5145a44fb",
-      "stadium": null
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T18:00:00.000Z"
+      },
+      "id": "6cfd7abb8f9193ffdcdb92b086c8a1b7",
+      "stadium": {
+        "address": "Sportowa 66 Nowy Dwór Mazowiecki 05-100",
+        "venue": "Stadion Świtu Nowy Dwór Mazowiecki",
+        "geo": {
+          "latitude": 52.42686633169032,
+          "longitude": 20.727739621854276,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
         "name": "Keeza Liga okręgowa (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Agape Białołęka (Warszawa)",
+        "name": "Grom Warszawa",
         "crest": null
       },
       "awayTeam": {
         "name": "Madziar Nieporęt",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:30:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T18:30:00.000Z"
       },
-      "id": "84d8fa6f0269fe90725c755cc149d7fd",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T18:30:00.000Z"
+      },
+      "id": "9398cc63264a8b424c238b61307cceec",
       "stadium": null
     },
     {
@@ -68,14 +65,205 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T19:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T19:00:00.000Z"
+      },
+      "id": "d7ff8817af6085d68aa5496ac3d9ce6c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "id": "1366861834512b96fc2038980359add9",
+      "stadium": {
+        "venue": "Stadion Hutnika Warszawa",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "id": "fdb815550742f7e79a4e4ddb1523a287",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "f7d8dde93f9fde0fff42cf853631ec28",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:30:00.000Z"
+      },
+      "id": "044aaa2b3924d303b6ea9bad19d91064",
+      "stadium": {
+        "address": "Sulejówek",
+        "venue": null,
+        "geo": {
+          "latitude": 52.244349,
+          "longitude": 21.2782482,
+          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "64a6ae8d2c95f63bdc7c0147c36f4fd0",
+      "stadium": {
+        "venue": "Ośrodek Sportu i Rekreacji Targówek",
+        "address": "Łabiszyńska 20, Warszawa",
+        "geo": {
+          "latitude": 52.2989415,
+          "longitude": 21.0337277,
+          "name": "Pływalnia Polonez, 20, Łabiszyńska, Kondratowicza, Bródno, Targówek, Warszawa, województwo mazowieckie, 03-397, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-17T20:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-17",
+        "dateTime": "2026-09-17T20:00:00.000Z"
+      },
+      "id": "51e30c3761d5607d47778c8ba9942a37",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Grom Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "e52d99a06a1d616175b99ea5e964592f",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "835540db5572c893733d0123954e0dae",
       "stadium": null
     },
     {
@@ -87,14 +275,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Talent II Warszawa",
+        "name": "Mazur Radzymin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "fc93a5ec81ffcdbe1601d572759192fc",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "88bc654507e3b9ed520478ce4dfdeb50",
       "stadium": null
     },
     {
@@ -106,14 +300,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Orły Zielonka",
+        "name": "AP EsKadra Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "a5a458006ff69744b9f5b603b0c1c75d",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "683ec72cf85adf9803289cb057afaca9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f5441b4546bdce3b947dffbfb02e7834",
       "stadium": null
     },
     {
@@ -125,14 +350,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Victoria II Sulejówek",
+        "name": "Orły Zielonka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "ac21ea3ff8a53ae373635d83cc07d5af",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "32ebadb781fd6d6fec40b0344fb24453",
       "stadium": {
         "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
         "geo": {
@@ -151,14 +382,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Hutnik II Warszawa",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:30:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "69315c2d11f4ba24b5a3bb8cbd8cf877",
+      "id": "62ce17288489b1bace9c2fbb9018a515",
       "stadium": {
         "address": "Parkowa 27a Legionowo 05-120",
         "venue": "Stadion Miejski w Legionowie",
@@ -174,18 +411,1837 @@
         "name": "Keeza Liga okręgowa (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Advit Wiązowna",
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9d263f24e256ec4cf95704872b7f594f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b48010130cda13e98b541638728604e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "25983a71d0933299ad850a9404066569",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria II Sulejówek",
         "crest": null
       },
       "awayTeam": {
         "name": "Madziar Nieporęt",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-17",
-        "dateTime": "2026-09-17T20:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
-      "id": "51e30c3761d5607d47778c8ba9942a37",
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "117856dfd0d61ee470a91f0f4c7b7b40",
+      "stadium": {
+        "address": "Sulejówek",
+        "venue": null,
+        "geo": {
+          "latitude": 52.244349,
+          "longitude": 21.2782482,
+          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "641378f08936568d2b675bd35551db55",
+      "stadium": {
+        "address": "Sportowa 66 Nowy Dwór Mazowiecki 05-100",
+        "venue": "Stadion Świtu Nowy Dwór Mazowiecki",
+        "geo": {
+          "latitude": 52.42686633169032,
+          "longitude": 20.727739621854276,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "55d1e069fe7c871c980d725e71ee9a0e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "109504f52dac7272dfd041a23c8ad109",
+      "stadium": {
+        "venue": "Ośrodek Sportu i Rekreacji Targówek",
+        "address": "Łabiszyńska 20, Warszawa",
+        "geo": {
+          "latitude": 52.2989415,
+          "longitude": 21.0337277,
+          "name": "Pływalnia Polonez, 20, Łabiszyńska, Kondratowicza, Bródno, Targówek, Warszawa, województwo mazowieckie, 03-397, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4cf312e87e6b864f1fffc0fbae734a50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "32c605a0f51b8065d0e9e535c467144a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "eba17688b886bc2018db3d89f4205b71",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2222303be3a1a2ebd6576acfab8e8406",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d35aa9e52f0722895933b9514db25c09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f81c2ff2a0bd8434d1086d758f8f6bf1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9f5bfec50adb4eca79ad2fd09e01b23c",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e6306ace8642fb9d7095b4e6ace991ff",
+      "stadium": {
+        "address": "Parkowa 27a Legionowo 05-120",
+        "venue": "Stadion Miejski w Legionowie",
+        "geo": {
+          "latitude": 52.4043135,
+          "longitude": 20.9174233,
+          "name": "27A, Parkowa, Przystanek, Legionowo, powiat legionowski, województwo mazowieckie, 05-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "224f962637da2aef89d0a67dd2b412cc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ddc04d3ee5ea68ec356f4ff0915205c5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "511b7b6ee1e736f576731245d3633111",
+      "stadium": {
+        "venue": "Stadion Hutnika Warszawa",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f24912c0328e9f00b1ad47bd85000db3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5bb1ec50532730e297b1d5d2e0b4c3b1",
+      "stadium": {
+        "address": "Sportowa 66 Nowy Dwór Mazowiecki 05-100",
+        "venue": "Stadion Świtu Nowy Dwór Mazowiecki",
+        "geo": {
+          "latitude": 52.42686633169032,
+          "longitude": 20.727739621854276,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f38ec3a8c1e3e0840330d36bb466fa31",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d9ca84a3e19807543c6e4969d9e26ecc",
+      "stadium": {
+        "venue": "Ośrodek Sportu i Rekreacji Targówek",
+        "address": "Łabiszyńska 20, Warszawa",
+        "geo": {
+          "latitude": 52.2989415,
+          "longitude": 21.0337277,
+          "name": "Pływalnia Polonez, 20, Łabiszyńska, Kondratowicza, Bródno, Targówek, Warszawa, województwo mazowieckie, 03-397, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9a86a7efcfa1efcccb045d4c8844c55f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d6d80a0013a82555203bf9d89a05a82f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c43549cfcb32dc008bd58f01ada35a42",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "645b86eecffcf18a4785e662469c988e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "90ad540406fcec2593ec79fb9122cf1e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5e255f3af839264aea733d4709243a0e",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ffaf52f1735c0834e6d6abdb3a62a436",
+      "stadium": {
+        "address": "Parkowa 27a Legionowo 05-120",
+        "venue": "Stadion Miejski w Legionowie",
+        "geo": {
+          "latitude": 52.4043135,
+          "longitude": 20.9174233,
+          "name": "27A, Parkowa, Przystanek, Legionowo, powiat legionowski, województwo mazowieckie, 05-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ca025da03c8a8495789b75729eb14768",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8627a9ec6c53ae10b8b363d679720a49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e038fbc2d9b2d8dbc7c170ce8cb26ff4",
+      "stadium": {
+        "venue": "Stadion Hutnika Warszawa",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ff8e6d521e253aa1e12ad0a61c893d29",
+      "stadium": {
+        "address": "Sulejówek",
+        "venue": null,
+        "geo": {
+          "latitude": 52.244349,
+          "longitude": 21.2782482,
+          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "69c45d03fb263ca1cac9872b5dd5e2fb",
+      "stadium": {
+        "address": "Sportowa 66 Nowy Dwór Mazowiecki 05-100",
+        "venue": "Stadion Świtu Nowy Dwór Mazowiecki",
+        "geo": {
+          "latitude": 52.42686633169032,
+          "longitude": 20.727739621854276,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b57f9acb0ba3e2c3ab40f310f60c51fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "95b43096a96776b428f2ed91014876db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e7cdc7eea691a6c4a0102f7ac634bac5",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "fbd8262d277c6e8ccf77c63cafb0b363",
+      "stadium": {
+        "address": "Parkowa 27a Legionowo 05-120",
+        "venue": "Stadion Miejski w Legionowie",
+        "geo": {
+          "latitude": 52.4043135,
+          "longitude": 20.9174233,
+          "name": "27A, Parkowa, Przystanek, Legionowo, powiat legionowski, województwo mazowieckie, 05-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3fa05f044d93e7f14efd74bab86cf275",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "97c6b17d2f346f734953690bc1781b7c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a20f498a9b27512e1ecea0f423d3da7c",
+      "stadium": {
+        "venue": "Stadion Hutnika Warszawa",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "399ef28d561773f8ce41323429ae6ecc",
+      "stadium": {
+        "address": "Sulejówek",
+        "venue": null,
+        "geo": {
+          "latitude": 52.244349,
+          "longitude": 21.2782482,
+          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a4a0e104694ae505598af5f02fddc77f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1dcb3eb837115f363b79e32be19fdd5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9194de97812b2fba057c8a8a1ed5bf84",
+      "stadium": {
+        "venue": "Ośrodek Sportu i Rekreacji Targówek",
+        "address": "Łabiszyńska 20, Warszawa",
+        "geo": {
+          "latitude": 52.2989415,
+          "longitude": 21.0337277,
+          "name": "Pływalnia Polonez, 20, Łabiszyńska, Kondratowicza, Bródno, Targówek, Warszawa, województwo mazowieckie, 03-397, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "afa12be0f23e8a3d39d3558386c5b00c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8f1a604dd796d14b766b1b92375de96f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f2e0d3262f6bfb490a5b758399c2f346",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a5e4c9376bc5a12be17c5e1c1c766ece",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c35dd8b15a53fcdb42f082f949918a38",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5690f30c1933a6a8a0caffd6525b6153",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "91caab67d7c008a6cdc341673ac16868",
+      "stadium": {
+        "venue": "Ośrodek Sportu i Rekreacji Targówek",
+        "address": "Łabiszyńska 20, Warszawa",
+        "geo": {
+          "latitude": 52.2989415,
+          "longitude": 21.0337277,
+          "name": "Pływalnia Polonez, 20, Łabiszyńska, Kondratowicza, Bródno, Targówek, Warszawa, województwo mazowieckie, 03-397, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "393b92bafc2f041b4b42ba00e4d8eea4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1f03373b5a913993e5344ed6a95817c4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7ffc5fd53ae986be3f3e44d110c81fa8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d2dbd39d69cf9efdc3f1dbab71eb64ea",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "be8e2f14ee863cb884113a92d07ffb73",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b5e5fdf283bbd98108f2ff7df11f7900",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Ząbkovia II Ząbki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "81223b34fcc2375e94adbd66e30e5f85",
+      "stadium": {
+        "venue": "Dozbud Arena (Stadion Miejski w Ząbkach, ul. Słowackiego 21)",
+        "geo": {
+          "latitude": 52.292778,
+          "longitude": 21.121944,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Legionovia II Legionowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Halinów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "4c8d1f3116ca1f1f910f5110c9ee6e1f",
+      "stadium": {
+        "address": "Parkowa 27a Legionowo 05-120",
+        "venue": "Stadion Miejski w Legionowie",
+        "geo": {
+          "latitude": 52.4043135,
+          "longitude": 20.9174233,
+          "name": "27A, Parkowa, Przystanek, Legionowo, powiat legionowski, województwo mazowieckie, 05-120, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Advit Wiązowna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "5d26197351328a258f0d410cc8ed2e67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Madziar Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wesoła (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bb054a5a85f1509909ee4482296ab196",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Hutnik II Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Delta Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8af4b1b3e182d903da50c970b141edf8",
+      "stadium": {
+        "venue": "Stadion Hutnika Warszawa",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria II Sulejówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazur Radzymin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "624a25981199545ed65363efa4870209",
+      "stadium": {
+        "address": "Sulejówek",
+        "venue": null,
+        "geo": {
+          "latitude": 52.244349,
+          "longitude": 21.2782482,
+          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Świt II Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AP EsKadra Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "1ccd3d13db31857c746426bc840ad815",
+      "stadium": {
+        "address": "Sportowa 66 Nowy Dwór Mazowiecki 05-100",
+        "venue": "Stadion Świtu Nowy Dwór Mazowiecki",
+        "geo": {
+          "latitude": 52.42686633169032,
+          "longitude": 20.727739621854276,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Liga okręgowa (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Orły Zielonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Talent II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "90fcd6524476fb9b38400dfc598fb80c",
       "stadium": null
     }
   ]

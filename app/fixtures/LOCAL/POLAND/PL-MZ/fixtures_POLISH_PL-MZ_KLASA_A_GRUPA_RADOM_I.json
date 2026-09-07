@@ -1,7 +1,145 @@
 {
   "competitionName": "Klasa A (Radom I)",
-  "count": 7,
+  "count": 70,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "41f0cab30990ea4576a0891ef0a8c566",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "bb8dff17e7c1bbac0370af36fcea4fa1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "54dc0cb9caca8c0c804c5dda652ba1a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "89e4296b28e84bb3299c6914f0aa599f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "59093e1a1eb843e7572ae071ab68d3b5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "734e60888f592aa5c861edfc5777672c",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa A (Radom I)"
@@ -11,14 +149,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Skaryszewianka Skaryszew",
+        "name": "KS Jastrząb",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T10:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
       },
-      "id": "ef7aaa01169b9c6717504b7b3c8fb5a9",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "e946ad6bba921ac0fe3f1b677ec0013a",
       "stadium": null
     },
     {
@@ -30,14 +172,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Postęp Łaziska",
+        "name": "Skaryszewianka Skaryszew",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "181d547bd7dc4fd83965a7335676f323",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "67865d8a5fea8b03c18fcb29c95ed990",
       "stadium": null
     },
     {
@@ -49,14 +197,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Akcja I Jastrzębia",
+        "name": "KS Magnuszew",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "e62d6e0848b016069e2d6496052c7239",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e19fa981abf5418619d448717c8fcb34",
       "stadium": null
     },
     {
@@ -68,52 +222,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Iskra Gózd",
+        "name": "Postęp Łaziska",
         "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "fa1d4e023e3a9e5cdc54914704b63a3c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Zwolenianka Zwoleń",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Proch II Pionki",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "52ca77b9609e2df8d3834eb0eb9cee9f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "KS Maków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Chomentów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T10:00:00.000Z"
-      },
-      "id": "ff3e9e75d9dc736a292da760ebcae0e4",
+      "id": "3748999a51ec34b4f307613dec46271b",
       "stadium": null
     },
     {
@@ -125,14 +247,1495 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2a7e4f31024fced538b7a696500c807f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "bee6002744e51f0793e044c432e18e35",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Zawisza Sienno",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "651e3617bf8cdea06beff5d0dba6e997",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "72b0ccaebdc5b9d6d3bfe329afdeb247",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "750ba154d92337a5b78746a261b858d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b8ca051cfb9486710ac467ccd8818b4e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d9f818fff0c809b673d825e3a8179066",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "57178e653b82b229580358809f861905",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b99d2debf41ce8a0f7ee551263214d24",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4a5552480326e62905a6ac79af307917",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "051d41e5f1fd4bd08c9d09ccd8746c42",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "cfa114633242ec1596478fe8012c3e5e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "952804835f29269d436bcdd82d9c7bc8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9f25b06c5feaa85334b57788fbfd84fd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "dd304184ff0e327f372b010966b1a703",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8f62ea463484e6ca15d99ed1fe5cbb95",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "fa701a7c09f9fe194822d03ba8434a99",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "37e0b5825dc34bc2c90907defd83f7e3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0154dff79f3baeb22322c04013eccbab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f1c4f113d6c1f7a302bd50a3aa629bf7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fde6f1d131de34b6d3b11ad105469909",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "167b4390b6ffbae9d718a56e94666259",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "1864261a775a25c39babe6ef85bd4f9d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e32ec85ce094e27c7260abfa5126e76d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2944535bde9d9bacd3e94e852431c8c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "45e4f95214e4f9590b002201d6293b07",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3acd857eb97d2a99951771f7fd0ad7d9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "97b7100eacd96f2d1b2fa8175b5ca43f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0fe17e236d5848e935dd4a39e16e84e1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "fe2ead96b0991bdba3507882e04805b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2fd2eaaaed9b608a9c365e3a68090e21",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "620319928b2c750a3dcb18e79f637c6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ca19bdf00526855e81f94cfa7a06657a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "89209d2cd9e853f701f6c48b44e37d49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8b6c43db7b5e16bf910f874501280ff8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3a8d7ebdd206679335a09a58b6e6e78c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "614f0f0ddc7267dbe052e82994be2596",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "abccce10b0063e12fc47284e35c80b91",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f0d33ad7869070bc17b5bd57f8241a77",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "158aebfd3646a89018c8b316985d3f9d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "da986ecf897c8ad1140194387ab3afc1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "59f6be2806211d4441c1c4b4477640ba",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d2dd8647b0a1774e5991947bc67a2973",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "94dc7914f712c446c499da0b70210944",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ac8d21667ae1c307e21a0fa0dbbdb662",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3aadd2aa68666a973605e2eb338f6538",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1c13270702ae0d9c0c449866d3c586ce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f88e1fca767069560eb8ab47ea9e3455",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f086d5ec36a0fae0407407968fd5fe2e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0c664821c8df4de8d57492d516f713fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "65285d5f69cb60196748ba08a24e8419",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a3ba82724739abd6c33b58644d66c080",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e8cd805c1617f9d55834cc995c5b8863",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f7c9b5455ba141495ab5908cc711d028",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f26d000f356c20ff40c7e96ab1071f90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f5a091b0e60928805fdfced5d117a5bb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d1050230f9791d3c0adfad86bf635dff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "70a2d5bb518932323c5677c2ff67c4f7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e2688b6456661064e8e7288a17f1be9f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f2428aa77f977b4c7be6bf9372fd8ac5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "4c94b1645109965635c26670e056ff40",
       "stadium": null
     }
   ]

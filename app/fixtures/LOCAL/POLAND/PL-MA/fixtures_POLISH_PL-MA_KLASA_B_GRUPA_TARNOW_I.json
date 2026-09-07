@@ -1,7 +1,30 @@
 {
   "competitionName": "Klasa B (Tarnow I)",
-  "count": 5,
+  "count": 30,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni 1947 Tarnów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Koszyce Małe",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "13fef042ac72e86eb0618f6b463c30be",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa B (Tarnow I)"
@@ -11,14 +34,145 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "English Football Zakliczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "id": "285775cda0aeda27bb94bde9f213a86f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Westovia Tarnów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Wojnicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "a80de4bf72026812124b4512bb0a5b94",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Mikołajowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec II Zbylitowska Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "a1d6117d4f3bc1c4bb585b28a5df24db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "LKS II Koszyce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "b5f1fed24600d94e02e3fc2a42901a40",
+      "stadium": {
+        "address": "Szkolna, 33-111 Koszyce Wielkie",
+        "venue": "Boisko LKS Koszyce Wielkie",
+        "geo": {
+          "latitude": 49.9647112,
+          "longitude": 20.9442037,
+          "name": "Szkolna, Koszyce Wielkie, powiat tarnowski, województwo małopolskie, 33-111, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Tarnów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Westovia Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8789f9543906c506831195eff17d6b4d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
         "name": "Błękitni 1947 Tarnów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
+      "awayTeam": {
+        "name": "Dunajec II Zbylitowska Góra",
+        "crest": null
       },
-      "id": "4b21bfb1ae57dfb822fd086cbb12ded6",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f7a857c59c1c38b59b4fab0fb3bc192f",
       "stadium": null
     },
     {
@@ -30,14 +184,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Dunajec Mikołajowice",
+        "name": "Olimpia Wojnicz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "6227b1b4691524b0eab06103b09e6f15",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b0eb6fda275d4fbba84344eaf973ddaa",
       "stadium": null
     },
     {
@@ -45,18 +205,165 @@
         "name": "Klasa B (Tarnow I)"
       },
       "homeTeam": {
-        "name": "Dunajec II Zbylitowska Góra",
+        "name": "LKS II Koszyce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec Mikołajowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "abcce7f6279e4a6622b0e273069c46c2",
+      "stadium": {
+        "address": "Szkolna, 33-111 Koszyce Wielkie",
+        "venue": "Boisko LKS Koszyce Wielkie",
+        "geo": {
+          "latitude": 49.9647112,
+          "longitude": 20.9442037,
+          "name": "Szkolna, Koszyce Wielkie, powiat tarnowski, województwo małopolskie, 33-111, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Victoria Koszyce Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS US Śmigno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0447c76b865b135fcff3c4c21a384f27",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Mikołajowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni 1947 Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e2ee87d351cdeef3882ecbcba4cd84b2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "LKS II Koszyce Wielkie",
         "crest": null
       },
       "awayTeam": {
         "name": "Westovia Tarnów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
-      "id": "a0f590bfac838157a404aae10d7b9b41",
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "70e2c64611869ed096a7b59f21742be7",
+      "stadium": {
+        "address": "Szkolna, 33-111 Koszyce Wielkie",
+        "venue": "Boisko LKS Koszyce Wielkie",
+        "geo": {
+          "latitude": 49.9647112,
+          "longitude": 20.9442037,
+          "name": "Szkolna, Koszyce Wielkie, powiat tarnowski, województwo małopolskie, 33-111, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Victoria Koszyce Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "English Football Zakliczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7d36111bb1e7e146f2e3ad8f9b6389e6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Tarnów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS US Śmigno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2462a5c81b5ab44422519ba9b564c35e",
       "stadium": null
     },
     {
@@ -68,14 +375,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS II Koszyce Wielkie",
+        "name": "Dunajec II Zbylitowska Góra",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
-      "id": "1f1af1a8d4e68191d6b011316c5fb625",
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d59f34c4eac1bfde7fd2e0005a0eaaf5",
       "stadium": {
         "venue": "Stadion Olimpia Wojnicz",
         "address": "Konopnickiej 10, Wojnicz",
@@ -90,18 +403,389 @@
         "name": "Klasa B (Tarnow I)"
       },
       "homeTeam": {
+        "name": "LKS II Koszyce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni 1947 Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b3953e2b0b684fcbd9309f36b97665eb",
+      "stadium": {
+        "address": "Szkolna, 33-111 Koszyce Wielkie",
+        "venue": "Boisko LKS Koszyce Wielkie",
+        "geo": {
+          "latitude": 49.9647112,
+          "longitude": 20.9442037,
+          "name": "Szkolna, Koszyce Wielkie, powiat tarnowski, województwo małopolskie, 33-111, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "English Football Zakliczyn",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Iskra Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1370f4ebaccdd0c45a25129170376c14",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Dunajec II Zbylitowska Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS US Śmigno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "aa7dbd2bdd0dd81d45b62ec5c18a3efe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Westovia Tarnów",
         "crest": null
       },
       "awayTeam": {
         "name": "Victoria Koszyce Małe",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "fab3e28f3e9bd1e1d3e02ba13c88128d",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1be936cc97fb2113c2a5786a3a963b4a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Dunajec Mikołajowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Wojnicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9883d62e874483877e3b5c63a50326de",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni 1947 Tarnów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Westovia Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a3c6aeddcb69e1d18033fb5a9f37d316",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Victoria Koszyce Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec Mikołajowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "1d0e01a2e257a71c8b77a42fc4c00af6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Wojnicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "60a7dcf725dd4fa2064dc3c2b58a7552",
+      "stadium": {
+        "venue": "Stadion Olimpia Wojnicz",
+        "address": "Konopnickiej 10, Wojnicz",
+        "geo": {
+          "latitude": 49.967419279970585,
+          "longitude": 20.84118220698488
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Dunajec II Zbylitowska Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "English Football Zakliczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "900c2af9ea38be3693d37e5f8efdc660",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "KS US Śmigno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Koszyce Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f53b64eaaddd2fcd79054a3ffdeda5f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Victoria Koszyce Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Koszyce Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "85b1328137f61b384d9daf81af8f7bc5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "KS US Śmigno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Wojnicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a72ed449e5f015d61028e04c95228a53",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "English Football Zakliczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni 1947 Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2ff2cebe1adff6efba82401403a024ab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Westovia Tarnów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec Mikołajowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "75063197c5757bcbb070143f2311259e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Tarnów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dunajec II Zbylitowska Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "efa6483e25d362e3a0c3d0ac940d2542",
       "stadium": null
     }
   ]

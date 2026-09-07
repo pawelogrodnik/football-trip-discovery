@@ -1,62 +1,97 @@
 {
   "competitionName": "Decathlon V liga (mazowiecka II)",
-  "count": 8,
+  "count": 80,
   "matches": [
     {
       "competition": {
         "name": "Decathlon V liga (mazowiecka II)"
       },
       "homeTeam": {
-        "name": "Wektra Zbuczyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Drogowiec Jedlińsk",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
-      },
-      "id": "8f6a7d64ddac35f6b1c15e91c090b501",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Tygrys Huta Mińska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogoń II Siedlce",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
-      },
-      "id": "3d7962dff5e341c1a1db66fe6b6aa9a3",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Powiślanka Lipsko",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Żyrardowianka Żyrardów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
       },
-      "id": "601cba1e661d66ddfa218c46bcbfbdb2",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "5176f5d40f689365a38a2ad3889a18fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "0c79cf1aa19f010f34275081a3a12df6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "ecd0175ea345ae73b53ad9708b31ea68",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "fb2d53d0fcb64dd99f6e8c1ebf184923",
       "stadium": null
     },
     {
@@ -68,14 +103,253 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "id": "cfc1cf05804983cfdeda22858679c961",
+      "stadium": {
+        "venue": "Stadion Wilgi Garwolin",
+        "address": "Sportowa 34, Garwolin",
+        "geo": {
+          "latitude": 51.949448,
+          "longitude": 21.5360645,
+          "name": "34, Sportowa, Pilawa, gmina Pilawa, powiat garwoliński, województwo mazowieckie, 08-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "472f92004291487347d325ab5148a745",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
         "name": "LKS Chlebnia",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
       },
-      "id": "e0c81d32ea8bd28448b13da636a4388a",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "ace174497d4614a55b4feb62d9bb11cf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T18:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T18:30:00.000Z"
+      },
+      "id": "6aa624a6c2b9757da0bfbca16d91b998",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2ade1f7383fe46d6365dcfd8cc933aee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4176a4e2558d8694b9aa159dfdbb0bf8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9d5510e668d1277d3d4f360a9dc3904c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c771a02acf5d06c433ec3e301ca3a1b8",
+      "stadium": {
+        "address": "Narutowicza 9 Radom 26-600",
+        "venue": "Stadion im. Braci Czachorów",
+        "geo": {
+          "latitude": 51.4097973,
+          "longitude": 21.1723041,
+          "name": "Stadion im. Braci Czachorów RKS Radomiak, Stanisława Zbrowskiego, Śródmieście, Radom, województwo mazowieckie, 26-615, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f26cb20824b0981908438d0eda1ec8c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1cd6642c5c30da7bb04c20dba1d78e44",
       "stadium": {
         "venue": "Stadion Wilgi Garwolin",
         "address": "Sportowa 34, Garwolin",
@@ -95,14 +369,211 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "816ee6114c2c6b98be79687ec16b4230",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
         "name": "Ursus II Warszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
+      "awayTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
       },
-      "id": "013ca4177062f0994c909569465ae9fd",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e807020eee8a0841ed6cb7612dc699b3",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ac606ef4d2275f7e0b5216ad34cac20e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "271c04381edc070c2a74648de5a34c40",
+      "stadium": {
+        "address": "Jana Pawła II 6 Siedlce 08-110",
+        "venue": "Stadion ROSRRiT",
+        "geo": {
+          "latitude": 52.1787405,
+          "longitude": 22.2978655,
+          "name": "6, Jana Pawła II, Piaski Starowiejskie, Siedlce, województwo mazowieckie, 08-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "026feddc54fae7ea6e1305e634186eb9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ff4469e686803652a48e9c74757e43dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ae1fc8a7ae892faaaa35e9b02ff1e3ca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f4e28f06ceb9ce32c83a2ecfeb7ff433",
       "stadium": null
     },
     {
@@ -114,14 +585,70 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ae8c99f70c9c7132914673001d830846",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "408769dbf0e540a82d8604864912a1c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Perła Złotokłos",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "d4087866e2aaee9a5a3ddc5753f39102",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4dfe774c03c1e9642bc786d1c7b2a999",
       "stadium": null
     },
     {
@@ -133,14 +660,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Champion Warszawa",
+        "name": "Powiślanka Lipsko",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "baf8b9b8c5d0dafb88c70ccc62541ebf",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "cb0553fe8be02ce1995db02b5042d2ef",
       "stadium": null
     },
     {
@@ -152,14 +685,20 @@
         "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
       },
       "awayTeam": {
-        "name": "Józefovia Józefów",
+        "name": "Jodła Jedlnia-Letnisko",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "3d9b596397152e3f3b9822f286715ee5",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b4d3f9a60ecfe3d8217e266460e53474",
       "stadium": {
         "address": "Narutowicza 9 Radom 26-600",
         "venue": "Stadion im. Braci Czachorów",
@@ -169,6 +708,1443 @@
           "name": "Stadion im. Braci Czachorów RKS Radomiak, Stanisława Zbrowskiego, Śródmieście, Radom, województwo mazowieckie, 26-615, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "fe15ab2ae2981fcd495bf3d27035b012",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1c86ab6394b6d8b5627bb3286445a3a4",
+      "stadium": {
+        "venue": "Stadion Wilgi Garwolin",
+        "address": "Sportowa 34, Garwolin",
+        "geo": {
+          "latitude": 51.949448,
+          "longitude": 21.5360645,
+          "name": "34, Sportowa, Pilawa, gmina Pilawa, powiat garwoliński, województwo mazowieckie, 08-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2a79842e8b74b84d6c4073d72097aa6d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "84a2b97684dabe59abfe7b50c03ae8fb",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "de383026b64f245db2dad9a129f029cb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "683e9d8c334e698635e424f9fc8eb317",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fb4a1a030c89ee4a1bb5f5b4f97ba009",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "29f0682bdcdf9e285f7a1f4263a69a96",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3c68ef003e8603dcdad19faf4b2c1c49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "36867cc10bf8d2f8b7888752f0f2ea9e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4cdc1fa9b473cd223cd5dde3374f89f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4840328f9f9391ed71390774d268ebc1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9492a92cf2830e8123dcec24dc10ae1a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "eedefdd6fd830d035d9bf5411e7a8890",
+      "stadium": {
+        "address": "Narutowicza 9 Radom 26-600",
+        "venue": "Stadion im. Braci Czachorów",
+        "geo": {
+          "latitude": 51.4097973,
+          "longitude": 21.1723041,
+          "name": "Stadion im. Braci Czachorów RKS Radomiak, Stanisława Zbrowskiego, Śródmieście, Radom, województwo mazowieckie, 26-615, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1f4c903a4d49c35ab131d46a3e5562b5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "784316f8930011c24f777e190e46d99a",
+      "stadium": {
+        "venue": "Stadion Wilgi Garwolin",
+        "address": "Sportowa 34, Garwolin",
+        "geo": {
+          "latitude": 51.949448,
+          "longitude": 21.5360645,
+          "name": "34, Sportowa, Pilawa, gmina Pilawa, powiat garwoliński, województwo mazowieckie, 08-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "78f4b68e60b30b7ba4bdddd12f2deeef",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "18613f34dbc6b32f2b79f89ed3831d67",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6b4710bcc24731c4a2d3d5b6010b2d67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2e488ae331ed60db579c765afb8f76fc",
+      "stadium": {
+        "address": "Jana Pawła II 6 Siedlce 08-110",
+        "venue": "Stadion ROSRRiT",
+        "geo": {
+          "latitude": 52.1787405,
+          "longitude": 22.2978655,
+          "name": "6, Jana Pawła II, Piaski Starowiejskie, Siedlce, województwo mazowieckie, 08-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8ae4b2d03c760eef167095f9735ed8f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "16b70c6e7dd6526f52453c50d74cbfa6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9cafca1059d531892d83e2f3084f7683",
+      "stadium": {
+        "address": "Narutowicza 9 Radom 26-600",
+        "venue": "Stadion im. Braci Czachorów",
+        "geo": {
+          "latitude": 51.4097973,
+          "longitude": 21.1723041,
+          "name": "Stadion im. Braci Czachorów RKS Radomiak, Stanisława Zbrowskiego, Śródmieście, Radom, województwo mazowieckie, 26-615, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7c898b675d2344bf3b7cb327b2edf9b1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "71a58d2816829a7e72f1f445685914dd",
+      "stadium": {
+        "venue": "Stadion Wilgi Garwolin",
+        "address": "Sportowa 34, Garwolin",
+        "geo": {
+          "latitude": 51.949448,
+          "longitude": 21.5360645,
+          "name": "34, Sportowa, Pilawa, gmina Pilawa, powiat garwoliński, województwo mazowieckie, 08-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "84033496b73e192bcde9f6157b5fe9c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7896ea3ed02eb10bff6dfd5f6af54a71",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "945e0e9856db09a255c04329b36639bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d4b2aa71b6b9b8179e9898d3726b33cf",
+      "stadium": {
+        "address": "Jana Pawła II 6 Siedlce 08-110",
+        "venue": "Stadion ROSRRiT",
+        "geo": {
+          "latitude": 52.1787405,
+          "longitude": 22.2978655,
+          "name": "6, Jana Pawła II, Piaski Starowiejskie, Siedlce, województwo mazowieckie, 08-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6604ee5a579a89703b23dabc39d7143f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ebd9fd7c2575b056faf441ba7c648e29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4116584bf0ef7135fed3aa92e143e81c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c3e76ab208f6288b2691f99d31bf7bed",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8b4aee1f61e7d01849cc6a005c695ab2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "abf0d8ec7e3a14c18618eec0ac9588fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4a85dce5324e6cd76e6ec0acf0e90ff0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "31dda26c39e9062d29c86318a3878891",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "24de8d01ce2205c4158a7d9744ed04df",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0b2f51b75bec4f110ad661e8f17d41cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b381f204a60f2421a1fe68812265cd87",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "90d91c4021362744745fb922a9d5c2f2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4d8efaa1b7973703a7db0bdabcfb153f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8b8f795929429b53736b143be811a5e8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "793616b60a58f56068660467b6868170",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "dbc6a81e217a4bda3004e8e1c3b02636",
+      "stadium": {
+        "address": "Narutowicza 9 Radom 26-600",
+        "venue": "Stadion im. Braci Czachorów",
+        "geo": {
+          "latitude": 51.4097973,
+          "longitude": 21.1723041,
+          "name": "Stadion im. Braci Czachorów RKS Radomiak, Stanisława Zbrowskiego, Śródmieście, Radom, województwo mazowieckie, 26-615, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Perła Złotokłos",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "939cd7aa18da79ba5b1ae8ee45c0a4e9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Wilga Garwolin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radomiak II Radom",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "3f91b94a408231fe593538ad35772a31",
+      "stadium": {
+        "venue": "Stadion Wilgi Garwolin",
+        "address": "Sportowa 34, Garwolin",
+        "geo": {
+          "latitude": 51.949448,
+          "longitude": 21.5360645,
+          "name": "34, Sportowa, Pilawa, gmina Pilawa, powiat garwoliński, województwo mazowieckie, 08-440, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Białobrzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Proch Pionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bb2ff5be77e7b357dfd3d73db1209c32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Ursus II Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "6d8270d50911bcadf40a10076599a89e",
+      "stadium": {
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
+        "geo": {
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "LKS Chlebnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiślanka Lipsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "eeccfe11eaccc41cda70aceb82e14580",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Siedlce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "733b61ef04583a98ba535bdad1d466c3",
+      "stadium": {
+        "address": "Jana Pawła II 6 Siedlce 08-110",
+        "venue": "Stadion ROSRRiT",
+        "geo": {
+          "latitude": 52.1787405,
+          "longitude": 22.2978655,
+          "name": "6, Jana Pawła II, Piaski Starowiejskie, Siedlce, województwo mazowieckie, 08-110, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Józefovia Józefów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żyrardowianka Żyrardów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9f470c2e2efc63c62f70c36a32dfd624",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drogowiec Jedlińsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bedc43d16f3bd9c1aae950c653479c01",
+      "stadium": null
     }
   ]
 }

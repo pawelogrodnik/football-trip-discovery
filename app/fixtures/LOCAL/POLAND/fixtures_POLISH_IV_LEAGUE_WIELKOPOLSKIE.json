@@ -1,7 +1,245 @@
 {
   "competitionName": "IV Liga Wielkopolskie",
-  "count": 9,
+  "count": 99,
   "matches": [
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-11T19:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T19:00:00.000Z"
+      },
+      "id": "293fa03c13a5228f0c9d1797f3f680d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "a1423a657a9610e2d52cc0b45bc66193",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "538d4495e19c8898f8bc1c24583597ab",
+      "stadium": {
+        "venue": "Boisko Piast Kobylnica",
+        "address": "Wrzesińska 49, Kobylnica",
+        "geo": {
+          "latitude": 52.447246509787774,
+          "longitude": 17.078208450906853
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "7277058912239d53260c9c37ede2457a",
+      "stadium": {
+        "venue": "Stadion Miejski w Nowych Skalmierzycach",
+        "address": "Mostowa 1, Nowe Skalmierzyce",
+        "geo": {
+          "latitude": 51.7070956,
+          "longitude": 18.0013244,
+          "name": "1, Mostowa, Podkoce, Nowe Skalmierzyce, gmina Nowe Skalmierzyce, powiat ostrowski, województwo wielkopolskie, 63-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "b70bb93c3294197d764097f6a13479d7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "7e7e10ff8c81cba766ebc6205ed79f50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "0c25e8be26feafa873c4b8bf01cbe29b",
+      "stadium": {
+        "venue": "Stadion Miejski w Ostrowie Wielkopolskim",
+        "address": "Paderewskiego 4, Ostrów Wielkopolski",
+        "geo": {
+          "latitude": 51.6403965,
+          "longitude": 17.8216802,
+          "name": "Basen Miejski „Olimpijska”, 4, Ignacego Jana Paderewskiego, Osiedle Robotnicze, Osiedle Powstańców Wielkopolskich, Ostrów Wielkopolski, powiat ostrowski, województwo wielkopolskie, 63-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "c96c6e18e6bd233845996a30f5f54dc1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T19:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T19:30:00.000Z"
+      },
+      "id": "ced65dcef3b7d04653b1f2646fae27a0",
+      "stadium": {
+        "venue": "Stadion Miejski w Chodzieży",
+        "address": "Staszica 1, Chodzież",
+        "geo": {
+          "latitude": 52.98882,
+          "longitude": 16.9194,
+          "name": "1, Stanisława Staszica, Chodzież, powiat chodzieski, województwo wielkopolskie, 64-800, Polska"
+        }
+      }
+    },
     {
       "competition": {
         "name": "IV Liga Wielkopolskie"
@@ -11,14 +249,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Piast Kobylnica",
+        "name": "Nielba Wągrowiec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "ea10b9fd9db0226f143e1e388bd99251",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5a64defc2524d074c17c78ea684a79e6",
       "stadium": null
     },
     {
@@ -30,96 +274,21 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Pogoń Nowe Skalmierzyce",
+        "name": "Piast Kobylnica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "2ce4e04e41561311312ce38cc5d0c651",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a53b02e3a92032c702943adf439012d7",
       "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Wielkopolskie"
-      },
-      "homeTeam": {
-        "name": "Mieszko Gniezno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Avia Kamionki",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
-      },
-      "id": "70bdb3aa13685a1251b5c4244bdbdf63",
-      "stadium": {
-        "venue": "Stadion Miejski im. Alfonsa Flinika",
-        "address": "Strumykowa 8, Gniezno",
-        "geo": {
-          "latitude": 52.5293757,
-          "longitude": 17.5857881,
-          "name": "8, Strumykowa, Dziekanka, Dalki, Gniezno, powiat gnieźnieński, województwo wielkopolskie, 62-200, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Wielkopolskie"
-      },
-      "homeTeam": {
-        "name": "Nielba Wągrowiec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Polonia Chodzież",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "dd667adfc117fe9b04082ff676e526d5",
-      "stadium": {
-        "venue": "Stadion Miejski OSiR Wągrowiec",
-        "address": "Kościuszki 59, Wągrowiec",
-        "geo": {
-          "latitude": 52.8206755,
-          "longitude": 17.2041318,
-          "name": "59, Tadeusza Kościuszki, Nowe Miasto, Durowo, Wągrowiec, powiat wągrowiecki, województwo wielkopolskie, 62-100, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Wielkopolskie"
-      },
-      "homeTeam": {
-        "name": "Warta Śrem",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Górnik Konin",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "14063f079398d9c6480a24d6b3994725",
-      "stadium": {
-        "venue": "Stadion Miejski w Śremie",
-        "address": "Zamenhofa 20, Śrem",
-        "geo": {
-          "latitude": 52.0829702,
-          "longitude": 17.0177836,
-          "name": "20, Ludwika Zamenhofa, Stare Miasto, Śrem, gmina Śrem, powiat śremski, województwo wielkopolskie, 63-100, Polska"
-        }
-      }
     },
     {
       "competition": {
@@ -130,14 +299,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Kłos Budzyń",
+        "name": "Polonia Chodzież",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "979047bf46df001addf694aa9360d7d8",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8b80595df4614fc22d8234e1bc98f5e3",
       "stadium": {
         "venue": "Stadion Miejski w Golinie",
         "address": "Plac Kazimierza Wielkiego 3, Golina",
@@ -157,14 +332,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "name": "Pogoń Nowe Skalmierzyce",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0d6f3e16f6d2b093672487a166765ae4",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4f3e0f808ae6d88fcd594aa2f355c69c",
       "stadium": {
         "venue": "Stadion Miejski w Gostyniu",
         "address": "Sportowa 1, Gostyń",
@@ -180,18 +361,57 @@
         "name": "IV Liga Wielkopolskie"
       },
       "homeTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "67eca76f515abe99927858abf7120457",
+      "stadium": {
+        "venue": "Stadion Miejski im. Alfonsa Flinika",
+        "address": "Strumykowa 8, Gniezno",
+        "geo": {
+          "latitude": 52.5293757,
+          "longitude": 17.5857881,
+          "name": "8, Strumykowa, Dziekanka, Dalki, Gniezno, powiat gnieźnieński, województwo wielkopolskie, 62-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
         "name": "Huragan Pobiedziska",
         "crest": null
       },
       "awayTeam": {
-        "name": "Astra Krotoszyn",
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "14ea07a1eb1d51d58d49e1db186d9161",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5b83aca4ce261569b8f6785770b1454c",
       "stadium": null
     },
     {
@@ -203,15 +423,2427 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2d3ac1f9135329b3e9e8b9c2a7766241",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9fe3fe1cbf754ccc856d8339324351ed",
+      "stadium": {
+        "venue": "Stadion Miejski w Śremie",
+        "address": "Zamenhofa 20, Śrem",
+        "geo": {
+          "latitude": 52.0829702,
+          "longitude": 17.0177836,
+          "name": "20, Ludwika Zamenhofa, Stare Miasto, Śrem, gmina Śrem, powiat śremski, województwo wielkopolskie, 63-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Meblorz Swarzędz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "1a5905e920a55e1808d0a86d9475e7d5",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "dafbbd34c8f567592831c0e59c71912a",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "183fbd7fc8b32c19537c3e444c5dce17",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f4d98032573a70ff80c2a2a05f609b4c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8b9b32a71dcc43f449933f525c742a37",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "13c5692858a74b80f87132f37e1a1379",
+      "stadium": {
+        "venue": "Stadion Miejski w Ostrowie Wielkopolskim",
+        "address": "Paderewskiego 4, Ostrów Wielkopolski",
+        "geo": {
+          "latitude": 51.6403965,
+          "longitude": 17.8216802,
+          "name": "Basen Miejski „Olimpijska”, 4, Ignacego Jana Paderewskiego, Osiedle Robotnicze, Osiedle Powstańców Wielkopolskich, Ostrów Wielkopolski, powiat ostrowski, województwo wielkopolskie, 63-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "460cd5f6d6327312552b8bcda8770963",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "19bf78e381860ffc72a6c4cdba228d97",
+      "stadium": {
+        "venue": "Stadion Miejski w Nowych Skalmierzycach",
+        "address": "Mostowa 1, Nowe Skalmierzyce",
+        "geo": {
+          "latitude": 51.7070956,
+          "longitude": 18.0013244,
+          "name": "1, Mostowa, Podkoce, Nowe Skalmierzyce, gmina Nowe Skalmierzyce, powiat ostrowski, województwo wielkopolskie, 63-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2c86b384ee5c0351b16db8d4cb091b5a",
+      "stadium": {
+        "venue": "Stadion Miejski w Chodzieży",
+        "address": "Staszica 1, Chodzież",
+        "geo": {
+          "latitude": 52.98882,
+          "longitude": 16.9194,
+          "name": "1, Stanisława Staszica, Chodzież, powiat chodzieski, województwo wielkopolskie, 64-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c25e04c9d0efd65a24dce9db8e06dc52",
+      "stadium": {
+        "venue": "Boisko Piast Kobylnica",
+        "address": "Wrzesińska 49, Kobylnica",
+        "geo": {
+          "latitude": 52.447246509787774,
+          "longitude": 17.078208450906853
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3b283585368bd9d0903fe51b6b53cea0",
+      "stadium": {
+        "venue": "Stadion Miejski OSiR Wągrowiec",
+        "address": "Kościuszki 59, Wągrowiec",
+        "geo": {
+          "latitude": 52.8206755,
+          "longitude": 17.2041318,
+          "name": "59, Tadeusza Kościuszki, Nowe Miasto, Durowo, Wągrowiec, powiat wągrowiecki, województwo wielkopolskie, 62-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "82f180447a4e3628c8e06f8003e09f90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ed8ec9fda341bfdaf6235e855f5b025f",
+      "stadium": {
+        "venue": "Stadion Miejski w Golinie",
+        "address": "Plac Kazimierza Wielkiego 3, Golina",
+        "geo": {
+          "latitude": 52.2424118,
+          "longitude": 18.0973295,
+          "name": "3, Plac Kazimierza Wielkiego, Dołki, Golina, gmina Golina, powiat koniński, województwo wielkopolskie, 62-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "25d7a437b8fda478b9362f0315aec834",
+      "stadium": {
+        "venue": "Stadion Miejski w Gostyniu",
+        "address": "Sportowa 1, Gostyń",
+        "geo": {
+          "latitude": 51.8883382,
+          "longitude": 16.9963498,
+          "name": "1, Sportowa, Pożegowo, Gostyń, gmina Gostyń, powiat gostyński, województwo wielkopolskie, 63-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "46a0031326e9b1db4ac72b451a9c24e0",
+      "stadium": {
+        "venue": "Stadion Miejski im. Alfonsa Flinika",
+        "address": "Strumykowa 8, Gniezno",
+        "geo": {
+          "latitude": 52.5293757,
+          "longitude": 17.5857881,
+          "name": "8, Strumykowa, Dziekanka, Dalki, Gniezno, powiat gnieźnieński, województwo wielkopolskie, 62-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9001d15306e0e3d8ae9b1ecf1a11bff7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e15201164a48b004a3e0a8ad8fd95eec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bc56a66e88abad99da3e108b0942a362",
+      "stadium": {
+        "venue": "Stadion Miejski w Śremie",
+        "address": "Zamenhofa 20, Śrem",
+        "geo": {
+          "latitude": 52.0829702,
+          "longitude": 17.0177836,
+          "name": "20, Ludwika Zamenhofa, Stare Miasto, Śrem, gmina Śrem, powiat śremski, województwo wielkopolskie, 63-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2435d6be81d6a5c52c5de67a30e0d617",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b0e8cd7479966cd4959bbee10ccbc85c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8f2a43146431d8a8b8514c8de1d8c084",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e125bdc5c1cc830ea9705208054ab767",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4c457b9cabca6998924a1625136a39da",
+      "stadium": {
+        "venue": "Stadion Miejski w Ostrowie Wielkopolskim",
+        "address": "Paderewskiego 4, Ostrów Wielkopolski",
+        "geo": {
+          "latitude": 51.6403965,
+          "longitude": 17.8216802,
+          "name": "Basen Miejski „Olimpijska”, 4, Ignacego Jana Paderewskiego, Osiedle Robotnicze, Osiedle Powstańców Wielkopolskich, Ostrów Wielkopolski, powiat ostrowski, województwo wielkopolskie, 63-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "67c4aa7fdb97a157710f16011ded9d8f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "eb6bac4e80df741396059f9c3e6fa641",
+      "stadium": {
+        "venue": "Stadion Miejski w Nowych Skalmierzycach",
+        "address": "Mostowa 1, Nowe Skalmierzyce",
+        "geo": {
+          "latitude": 51.7070956,
+          "longitude": 18.0013244,
+          "name": "1, Mostowa, Podkoce, Nowe Skalmierzyce, gmina Nowe Skalmierzyce, powiat ostrowski, województwo wielkopolskie, 63-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bc64d60551d65dfb7d74720c41f94bc6",
+      "stadium": {
+        "venue": "Stadion Miejski w Chodzieży",
+        "address": "Staszica 1, Chodzież",
+        "geo": {
+          "latitude": 52.98882,
+          "longitude": 16.9194,
+          "name": "1, Stanisława Staszica, Chodzież, powiat chodzieski, województwo wielkopolskie, 64-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d024605214ec8395b34674a21eac3b68",
+      "stadium": {
+        "venue": "Boisko Piast Kobylnica",
+        "address": "Wrzesińska 49, Kobylnica",
+        "geo": {
+          "latitude": 52.447246509787774,
+          "longitude": 17.078208450906853
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "efb5382c70aade247e6cae8987e77c2f",
+      "stadium": {
+        "venue": "Stadion Miejski OSiR Wągrowiec",
+        "address": "Kościuszki 59, Wągrowiec",
+        "geo": {
+          "latitude": 52.8206755,
+          "longitude": 17.2041318,
+          "name": "59, Tadeusza Kościuszki, Nowe Miasto, Durowo, Wągrowiec, powiat wągrowiecki, województwo wielkopolskie, 62-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5353d7c717091397014be2292b25f289",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c5b8f7ce3226a5c938625a82d41e215b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d9d5609181e68a9701c6a7de79544e2c",
+      "stadium": {
+        "venue": "Stadion Miejski im. Alfonsa Flinika",
+        "address": "Strumykowa 8, Gniezno",
+        "geo": {
+          "latitude": 52.5293757,
+          "longitude": 17.5857881,
+          "name": "8, Strumykowa, Dziekanka, Dalki, Gniezno, powiat gnieźnieński, województwo wielkopolskie, 62-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "237a275d6dc68697fcb8f08498f59f22",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "08fe079d43ae86c1f202f523ed107b0f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "339220791b5dc83f0e582fe9df602cf1",
+      "stadium": {
+        "venue": "Stadion Miejski w Śremie",
+        "address": "Zamenhofa 20, Śrem",
+        "geo": {
+          "latitude": 52.0829702,
+          "longitude": 17.0177836,
+          "name": "20, Ludwika Zamenhofa, Stare Miasto, Śrem, gmina Śrem, powiat śremski, województwo wielkopolskie, 63-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4c41472cd9ac9097c2f2a189491c6c1a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "01ac6d109ecaa3ef6eae35ba12edc69e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a69d8de953423481bf4968cdfdffee5d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "94f030eaf180b7f8b2bf494cf0f49fc4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6ddc3ffe6794f223ede6b914109ea5f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "63ee7a68d599ed3f8f17e09f8f2056a9",
+      "stadium": {
+        "venue": "Stadion Miejski w Gostyniu",
+        "address": "Sportowa 1, Gostyń",
+        "geo": {
+          "latitude": 51.8883382,
+          "longitude": 16.9963498,
+          "name": "1, Sportowa, Pożegowo, Gostyń, gmina Gostyń, powiat gostyński, województwo wielkopolskie, 63-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8b7020843127b3ef005b5543544a6862",
+      "stadium": {
+        "venue": "Stadion Miejski im. Alfonsa Flinika",
+        "address": "Strumykowa 8, Gniezno",
+        "geo": {
+          "latitude": 52.5293757,
+          "longitude": 17.5857881,
+          "name": "8, Strumykowa, Dziekanka, Dalki, Gniezno, powiat gnieźnieński, województwo wielkopolskie, 62-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e1c22d8a3f23863430befa4256d02d80",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "47bec475689668a033587ea351ee63d3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "96349ebf9e9e426e58c7db9973c7d5c2",
+      "stadium": {
+        "venue": "Stadion Miejski w Śremie",
+        "address": "Zamenhofa 20, Śrem",
+        "geo": {
+          "latitude": 52.0829702,
+          "longitude": 17.0177836,
+          "name": "20, Ludwika Zamenhofa, Stare Miasto, Śrem, gmina Śrem, powiat śremski, województwo wielkopolskie, 63-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e44583f877e36c77e248b590f83d4ac7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7b38704f5b0ed63b8538090023700c8e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c69d0f6dfd4dbf69e5754fd07998e51d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "30f8795da903442941c74c2820b1c345",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "77a6d32007cdaa5ba15a9ef546239926",
+      "stadium": {
+        "venue": "Stadion Miejski w Ostrowie Wielkopolskim",
+        "address": "Paderewskiego 4, Ostrów Wielkopolski",
+        "geo": {
+          "latitude": 51.6403965,
+          "longitude": 17.8216802,
+          "name": "Basen Miejski „Olimpijska”, 4, Ignacego Jana Paderewskiego, Osiedle Robotnicze, Osiedle Powstańców Wielkopolskich, Ostrów Wielkopolski, powiat ostrowski, województwo wielkopolskie, 63-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7f5d7b47bcd6f0433a3d485171b59797",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "58df3aef07ae37708c04053bef744c50",
+      "stadium": {
+        "venue": "Stadion Miejski w Nowych Skalmierzycach",
+        "address": "Mostowa 1, Nowe Skalmierzyce",
+        "geo": {
+          "latitude": 51.7070956,
+          "longitude": 18.0013244,
+          "name": "1, Mostowa, Podkoce, Nowe Skalmierzyce, gmina Nowe Skalmierzyce, powiat ostrowski, województwo wielkopolskie, 63-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a56ff93d40f8f0f8d8ff8b4074af3266",
+      "stadium": {
+        "venue": "Stadion Miejski w Chodzieży",
+        "address": "Staszica 1, Chodzież",
+        "geo": {
+          "latitude": 52.98882,
+          "longitude": 16.9194,
+          "name": "1, Stanisława Staszica, Chodzież, powiat chodzieski, województwo wielkopolskie, 64-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6ca5c96d0215f8b83eba892a8420137e",
+      "stadium": {
+        "venue": "Boisko Piast Kobylnica",
+        "address": "Wrzesińska 49, Kobylnica",
+        "geo": {
+          "latitude": 52.447246509787774,
+          "longitude": 17.078208450906853
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1bf9e3b843ee62b42636fa442a039e58",
+      "stadium": {
+        "venue": "Stadion Miejski OSiR Wągrowiec",
+        "address": "Kościuszki 59, Wągrowiec",
+        "geo": {
+          "latitude": 52.8206755,
+          "longitude": 17.2041318,
+          "name": "59, Tadeusza Kościuszki, Nowe Miasto, Durowo, Wągrowiec, powiat wągrowiecki, województwo wielkopolskie, 62-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "684f3cfc82ba8be326e91197387bf325",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ad14ad476a8498939c2bb6e1a34aa014",
+      "stadium": {
+        "venue": "Stadion Miejski w Golinie",
+        "address": "Plac Kazimierza Wielkiego 3, Golina",
+        "geo": {
+          "latitude": 52.2424118,
+          "longitude": 18.0973295,
+          "name": "3, Plac Kazimierza Wielkiego, Dołki, Golina, gmina Golina, powiat koniński, województwo wielkopolskie, 62-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8ce9f9c8951e661b38718ce0067b9bf7",
+      "stadium": {
+        "venue": "Stadion Miejski w Ostrowie Wielkopolskim",
+        "address": "Paderewskiego 4, Ostrów Wielkopolski",
+        "geo": {
+          "latitude": 51.6403965,
+          "longitude": 17.8216802,
+          "name": "Basen Miejski „Olimpijska”, 4, Ignacego Jana Paderewskiego, Osiedle Robotnicze, Osiedle Powstańców Wielkopolskich, Ostrów Wielkopolski, powiat ostrowski, województwo wielkopolskie, 63-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "15f1bacc85f9e0e2bbf997b84eb5a865",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d2583d5c729bea17471a2ba64ebd9d46",
+      "stadium": {
+        "venue": "Stadion Miejski w Nowych Skalmierzycach",
+        "address": "Mostowa 1, Nowe Skalmierzyce",
+        "geo": {
+          "latitude": 51.7070956,
+          "longitude": 18.0013244,
+          "name": "1, Mostowa, Podkoce, Nowe Skalmierzyce, gmina Nowe Skalmierzyce, powiat ostrowski, województwo wielkopolskie, 63-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f3cdeee7ad209d67d7dcdb19392430bc",
+      "stadium": {
+        "venue": "Stadion Miejski w Chodzieży",
+        "address": "Staszica 1, Chodzież",
+        "geo": {
+          "latitude": 52.98882,
+          "longitude": 16.9194,
+          "name": "1, Stanisława Staszica, Chodzież, powiat chodzieski, województwo wielkopolskie, 64-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "819844c92cd83fac65d014e92b01e50d",
+      "stadium": {
+        "venue": "Boisko Piast Kobylnica",
+        "address": "Wrzesińska 49, Kobylnica",
+        "geo": {
+          "latitude": 52.447246509787774,
+          "longitude": 17.078208450906853
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7c22795c4c1800079e86484150ce1ad7",
+      "stadium": {
+        "venue": "Stadion Miejski OSiR Wągrowiec",
+        "address": "Kościuszki 59, Wągrowiec",
+        "geo": {
+          "latitude": 52.8206755,
+          "longitude": 17.2041318,
+          "name": "59, Tadeusza Kościuszki, Nowe Miasto, Durowo, Wągrowiec, powiat wągrowiecki, województwo wielkopolskie, 62-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c8b92acca907d85355220af7d84a0ae5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "23536e182c72aa2194eb29669e68321f",
+      "stadium": {
+        "venue": "Stadion Miejski w Golinie",
+        "address": "Plac Kazimierza Wielkiego 3, Golina",
+        "geo": {
+          "latitude": 52.2424118,
+          "longitude": 18.0973295,
+          "name": "3, Plac Kazimierza Wielkiego, Dołki, Golina, gmina Golina, powiat koniński, województwo wielkopolskie, 62-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "798ffc2e95a403bc2eb1f115f5eff8cf",
+      "stadium": {
+        "venue": "Stadion Miejski w Gostyniu",
+        "address": "Sportowa 1, Gostyń",
+        "geo": {
+          "latitude": 51.8883382,
+          "longitude": 16.9963498,
+          "name": "1, Sportowa, Pożegowo, Gostyń, gmina Gostyń, powiat gostyński, województwo wielkopolskie, 63-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "5ed84faf32045621fb1e4bceb4c9ce30",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "fb76ccd709febc4c698562ab54f7f6a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "20a3fa94d27d252df60e9559fb5b51ea",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "6d3e3117cb0eec7ce7644e284e8dc671",
+      "stadium": {
+        "venue": "Stadion Miejski w Śremie",
+        "address": "Zamenhofa 20, Śrem",
+        "geo": {
+          "latitude": 52.0829702,
+          "longitude": 17.0177836,
+          "name": "20, Ludwika Zamenhofa, Stare Miasto, Śrem, gmina Śrem, powiat śremski, województwo wielkopolskie, 63-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "fe9c32190a3f20ec330b54cc4a6c587e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e45fcd659efe22ec8f98f59ad8beb164",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "74196027359c4f296c64768d50c1f9ca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "98d73dee7d702f7afe1f1585d36ef5bb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "4334960d4dd5e1e875e493a7bdcebbcb",
+      "stadium": {
+        "venue": "Stadion Miejski w Ostrowie Wielkopolskim",
+        "address": "Paderewskiego 4, Ostrów Wielkopolski",
+        "geo": {
+          "latitude": 51.6403965,
+          "longitude": 17.8216802,
+          "name": "Basen Miejski „Olimpijska”, 4, Ignacego Jana Paderewskiego, Osiedle Robotnicze, Osiedle Powstańców Wielkopolskich, Ostrów Wielkopolski, powiat ostrowski, województwo wielkopolskie, 63-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kłos Budzyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gołuchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "11d3f05b49d59b3bc97cdae791770a5b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Nowe Skalmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia 1909 Ostrów Wielkopolski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "fe5c91a5d34f9587ee5c35756e9c6fc1",
+      "stadium": {
+        "venue": "Stadion Miejski w Nowych Skalmierzycach",
+        "address": "Mostowa 1, Nowe Skalmierzyce",
+        "geo": {
+          "latitude": 51.7070956,
+          "longitude": 18.0013244,
+          "name": "1, Mostowa, Podkoce, Nowe Skalmierzyce, gmina Nowe Skalmierzyce, powiat ostrowski, województwo wielkopolskie, 63-460, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Chodzież",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Avia Kamionki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "9a0aadd9d0392f74638812470cbf55b9",
+      "stadium": {
+        "venue": "Stadion Miejski w Chodzieży",
+        "address": "Staszica 1, Chodzież",
+        "geo": {
+          "latitude": 52.98882,
+          "longitude": 16.9194,
+          "name": "1, Stanisława Staszica, Chodzież, powiat chodzieski, województwo wielkopolskie, 64-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Piast Kobylnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Astra Krotoszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "2911abdbddf60d217c48f261a45ee3a9",
+      "stadium": {
+        "venue": "Boisko Piast Kobylnica",
+        "address": "Wrzesińska 49, Kobylnica",
+        "geo": {
+          "latitude": 52.447246509787774,
+          "longitude": 17.078208450906853
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Nielba Wągrowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Meblorz Swarzędz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "30bf09e46a79b1512b7476e6cb6670d4",
+      "stadium": {
+        "venue": "Stadion Miejski OSiR Wągrowiec",
+        "address": "Kościuszki 59, Wągrowiec",
+        "geo": {
+          "latitude": 52.8206755,
+          "longitude": 17.2041318,
+          "name": "59, Tadeusza Kościuszki, Nowe Miasto, Durowo, Wągrowiec, powiat wągrowiecki, województwo wielkopolskie, 62-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia 1912 Leszno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Konin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "da8df755db9f7b17fda16f32a595009c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Polonia Golina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Śrem",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "7a4907ac1e067b43406cfed718bdaadb",
+      "stadium": {
+        "venue": "Stadion Miejski w Golinie",
+        "address": "Plac Kazimierza Wielkiego 3, Golina",
+        "geo": {
+          "latitude": 52.2424118,
+          "longitude": 18.0973295,
+          "name": "3, Plac Kazimierza Wielkiego, Dołki, Golina, gmina Golina, powiat koniński, województwo wielkopolskie, 62-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Kania Gostyń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Obra Kościan",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "a5c03ea14acafcc6fada35bdfe1d8301",
+      "stadium": {
+        "venue": "Stadion Miejski w Gostyniu",
+        "address": "Sportowa 1, Gostyń",
+        "geo": {
+          "latitude": 51.8883382,
+          "longitude": 16.9963498,
+          "name": "1, Sportowa, Pożegowo, Gostyń, gmina Gostyń, powiat gostyński, województwo wielkopolskie, 63-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Wielkopolskie"
+      },
+      "homeTeam": {
+        "name": "Mieszko Gniezno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Pobiedziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "a6f1efb7de944d1d5696c04ed1cac357",
+      "stadium": {
+        "venue": "Stadion Miejski im. Alfonsa Flinika",
+        "address": "Strumykowa 8, Gniezno",
+        "geo": {
+          "latitude": 52.5293757,
+          "longitude": 17.5857881,
+          "name": "8, Strumykowa, Dziekanka, Dalki, Gniezno, powiat gnieźnieński, województwo wielkopolskie, 62-200, Polska"
+        }
+      }
     }
   ]
 }

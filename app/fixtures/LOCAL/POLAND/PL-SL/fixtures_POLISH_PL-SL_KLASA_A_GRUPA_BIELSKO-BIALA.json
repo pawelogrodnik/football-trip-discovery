@@ -1,24 +1,28 @@
 {
   "competitionName": "Klasa A (Bielsko-Biala)",
-  "count": 8,
+  "count": 64,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Bielsko-Biala)"
       },
       "homeTeam": {
-        "name": "Centrum Ligota",
-        "crest": null
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
       },
       "awayTeam": {
-        "name": "Zamek Grodziec Śląski",
+        "name": "Rekord III Bielsko-Biała",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-09T17:30:00.000Z"
       },
-      "id": "59e5c56d0251378dfed53f0ce09b916d",
+      "date": {
+        "date": "2026-09-09",
+        "dateTime": "2026-09-09T17:30:00.000Z"
+      },
+      "id": "c0cf64160da946bdba2dec04c0071cc7",
       "stadium": null
     },
     {
@@ -26,18 +30,22 @@
         "name": "Klasa A (Bielsko-Biala)"
       },
       "homeTeam": {
-        "name": "Żar Międzybrodzie Bialskie",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Orzeł Kozy",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "GLKS II Wilkowice",
+        "crest": null
       },
-      "id": "ced8e8c4b9e2906127f09a76e384a822",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "eecf2d65d49927d877477c20aad6d619",
       "stadium": null
     },
     {
@@ -45,37 +53,137 @@
         "name": "Klasa A (Bielsko-Biala)"
       },
       "homeTeam": {
-        "name": "Zapora Wapienica (Bielsko-Biała)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zapora Porąbka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T18:00:00.000Z"
-      },
-      "id": "3c72ff0f78779d9593af84fcce05a73c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bielsko-Biala)"
-      },
-      "homeTeam": {
-        "name": "LKS II Czaniec",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Soła Kobiernice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
       },
-      "id": "d2e764060fe31f2475536505600fd198",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "52d26d15ae02e2cf3441911e4416407c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "51d2ab41c282e31c4e2aa55078f94b72",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "b34c09069f638f631af13b40eb87e0a0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "952b500f060a95616cccffb2478c1408",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "38ea248e2a5d986d1123271eae165610",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rekord III Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "id": "af7d17fee96c0249279f71ab409a6a08",
       "stadium": null
     },
     {
@@ -87,14 +195,70 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Rekord III Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "aee3ab336b52b363db4a360a3c9d6563",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Drzewiarz Jasienica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0257e63b387772e10a7b9f30a0f3fab3",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "16ff700f9671cca25ca51b1e5154eb13",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "44c80efa815936b202ab04350b1d7b95",
       "stadium": null
     },
     {
@@ -106,14 +270,245 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e42ba0a0edd9ca55ae2860bd347c2893",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "95acfb9eb507eaf342dc59546e8aed2a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Pionier Pisarzowice",
         "crest": "https://crests.football-data.org/487.png"
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "a46ea22cf8d03415decca4f6d36ea553",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e74e646db0b62b252ca9d94ad3142e43",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e09601cb975ece41dedda014b800e1f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GLKS II Wilkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "cbdda3c01d2dbe384cbee8dbbea232c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3d5c9c29677586f299d7bf833e713b35",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c3de1da0aa0232c84aeda60e9d5cc80c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e3cb9b98d27f29f80534ae4cac955b7e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "81cc42d83e25a5070bbbd916e0fe6193",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "dfb94d11822253fd0535ab5602bdb8b6",
       "stadium": null
     },
     {
@@ -125,14 +520,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Sokół Zabrzeg",
+        "name": "Zapora Wapienica (Bielsko-Biała)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
-      "id": "77f593b4011114e09aaccac3e10338e4",
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "15efe9d4be2ded396cd1537dbb821274",
       "stadium": {
         "address": "Startowa 13 Bielsko-Biała 43-300",
         "venue": null,
@@ -148,18 +549,1073 @@
         "name": "Klasa A (Bielsko-Biala)"
       },
       "homeTeam": {
-        "name": "Pionier Pisarzowice",
-        "crest": "https://crests.football-data.org/487.png"
+        "name": "GLKS II Wilkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e62a98a170dd88430b07f7b5c638604a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
       },
       "awayTeam": {
         "name": "Rekord III Bielsko-Biała",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-09",
-        "dateTime": "2026-09-09T17:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "c0cf64160da946bdba2dec04c0071cc7",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "72ca9b64b9145e0ecc15a00d4f88f0ec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a7ba9b22d4c92eb0dd602bee40e3f18a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5f487dc5c6f48a50d8dfefd22ed0118c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "43aa9002a6fe7fd4dbf487d376c45bf8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "73094c7203d784a39c9815d2f294fc1f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ed46ad06f5dcf6a310626e2a694afb99",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "GLKS II Wilkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ee357f26564ab911de567ffa3f565b97",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "79f1eee414bfd95864e84a8584010bed",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8552d969ff7b0c7fb97f3155d2ba438c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3352ab1606a2d4a88e9112cb52611af8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "23eb0b398ed6c0a45b10b3ae7ddf2f00",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Rekord III Bielsko-Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "140f723338699a2c5cc52929ce30f307",
+      "stadium": {
+        "address": "Startowa 13 Bielsko-Biała 43-300",
+        "venue": null,
+        "geo": {
+          "latitude": 49.7907044,
+          "longitude": 19.0526923,
+          "name": "13, Startowa, Olszówka Dolna, Mikuszowice Śląskie, Bielsko-Biała, województwo śląskie, 43-309, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7491d0eea45fbfbbb7ff41017ed11a7c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "GLKS II Wilkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0c8c7f0f8ecd08ecd40c89dbfb19ab28",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8b07cc480d1a9a3b99165b28167352d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8d377521f48959bdfdc4a80775e0e62a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rekord III Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "195ec26410b7b6d200ab6dcb9f46579f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "513a05662d62a2ac42256b069df4f69c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3d43ef004f2f914e2830beafa819623f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6f58c8d6f2b27e3ca9d115a5931eab6b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "GLKS II Wilkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0ecb4c296d09b60e5d1ed5aa5fd38563",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3ad82c1d094d91cdf70c4a1db8133646",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rekord III Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2011c4ce2dfcdf2c325fc5b8b067b7b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cc4e0afff93461e752b389baf05ad183",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "336361621b90632429383018abf70704",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "afa0524f87ea0040b3b0d8ef4abeb90e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ea76c8632a7cceada3fd5888508b1741",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GLKS II Wilkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "de6414f193b1f299c2a156d6dd31e543",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9ddbb953595efcba32f80a56d1311e13",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "02ad22f03973f67740256d8aa93f9f25",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a8a660b6aa78fa62635c290cfeb1a8a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Rekord III Bielsko-Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "93e566ca5617ebb770365389545d908a",
+      "stadium": {
+        "address": "Startowa 13 Bielsko-Biała 43-300",
+        "venue": null,
+        "geo": {
+          "latitude": 49.7907044,
+          "longitude": 19.0526923,
+          "name": "13, Startowa, Olszówka Dolna, Mikuszowice Śląskie, Bielsko-Biała, województwo śląskie, 43-309, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "cdcf72e1a57e3b2c3ab5e3c8057b4c3f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "aa7b0fbd3e02f8f3821ce939593306d1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GLKS II Wilkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bb16301c6ef95cfcfff52be1b60bf5ec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zamek Grodziec Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d7e983d9f055f6ce3cf3029a87b3732e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Drzewiarz Jasienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Pisarzowice",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "24ee2dac85bfdb48fdc27ae1be8c5cd7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Rekord III Bielsko-Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Kobiernice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b85ab226daaa312ce3435b161cd322a1",
+      "stadium": {
+        "address": "Startowa 13 Bielsko-Biała 43-300",
+        "venue": null,
+        "geo": {
+          "latitude": 49.7907044,
+          "longitude": 19.0526923,
+          "name": "13, Startowa, Olszówka Dolna, Mikuszowice Śląskie, Bielsko-Biała, województwo śląskie, 43-309, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Wapienica (Bielsko-Biała)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Kozy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5b33cd538bbcdf0007c6defa8fe09f36",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Centrum Ligota",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Międzybrodzie Bialskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3ae6df33beccee57a34cd6e4a7447189",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Czaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e004c3eed8f4a269c031c2fd87262a80",
       "stadium": null
     }
   ]

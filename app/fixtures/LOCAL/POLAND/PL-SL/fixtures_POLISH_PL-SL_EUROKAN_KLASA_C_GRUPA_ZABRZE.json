@@ -1,24 +1,28 @@
 {
   "competitionName": "Eurokan Klasa C (Zabrze)",
-  "count": 8,
+  "count": 80,
   "matches": [
     {
       "competition": {
         "name": "Eurokan Klasa C (Zabrze)"
       },
       "homeTeam": {
-        "name": "Przyszłość Ciochowice",
+        "name": "Piast Pawłów (Zabrze)",
         "crest": null
       },
       "awayTeam": {
-        "name": "Start Kleszczów",
+        "name": "Harpagan Gliwice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:30:00.000Z"
       },
-      "id": "828d74366fea50fcbe48aeaa85c856b6",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:30:00.000Z"
+      },
+      "id": "68d7706842696daf0e7159c67964c682",
       "stadium": null
     },
     {
@@ -30,14 +34,18 @@
         "crest": "https://crests.football-data.org/11289.png"
       },
       "awayTeam": {
-        "name": "ŁTS II Łabędy (Gliwice)",
+        "name": "Przyszłość Ciochowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "9fc6d4045129e631280c1e9c4e537ee0",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "7c44eca845e8db99e6dd555c9ff9b276",
       "stadium": null
     },
     {
@@ -45,18 +53,162 @@
         "name": "Eurokan Klasa C (Zabrze)"
       },
       "homeTeam": {
-        "name": "Korona Bargłówka",
+        "name": "LKS 35 Gierałtowice",
         "crest": null
       },
       "awayTeam": {
-        "name": "Piast Pawłów (Zabrze)",
+        "name": "LKS 45 II Bujaków (Mikołów)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:30:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
-      "id": "0735ee3c390abe7d234128097abeecd2",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "959819acba625a8e35463ada5b4f97af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "9f8295767ec726d0b93f7549ec4c06fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "c52d1616c8c64fa6cb3557e14331df1d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "602eda17f816ecae833a5e9c69a3c1bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "3635b4c9adbc7582aa1163890bb94d78",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "03bf663b8d30f68b6cd22db5f1e85f88",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5b316ee2be32acb1a67230700f5220d3",
       "stadium": null
     },
     {
@@ -68,14 +220,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Naprzód II Żernica",
-        "crest": null
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "e5d31d3a73562316273e5db3b23cdb82",
+      "id": "cc22ca56cb1147252df857f321f9ac67",
       "stadium": null
     },
     {
@@ -87,14 +245,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Kłodnica Gliwice",
+        "name": "Start Kleszczów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "3ef49c6629f4134270ce6f36bb068c12",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c67d37121ed3331f318be27bdf61572f",
       "stadium": null
     },
     {
@@ -106,14 +270,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS 35 Gierałtowice",
+        "name": "Naprzód II Żernica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "6c64029a210c91e2290a9d50118cdc48",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "934ac7b78e64903364e13a0e1a4a784a",
       "stadium": null
     },
     {
@@ -125,14 +295,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "name": "Kłodnica Gliwice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "3730a476c68d5265bb2ac6fa3359c9ad",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "96eac5f219492aa488a74f4bb4174eb2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "efaccf70ec63d391dd69dfe70a877d21",
       "stadium": null
     },
     {
@@ -144,14 +345,1645 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d8295513224ec62b75402509659040f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
         "name": "APN Knurów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
       },
-      "id": "7a43614f64357cb9f370233ce2af01ff",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e37be7157ec34eee083ba6158a8ae78f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ee02b46db0e9aef718ab3a33be0e0120",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d3909b67855477cf74bce452ae28fc42",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8793df217a66e89c8bc12958ff00c59b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8e75696c28db4106f79be2fabb8efbce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9b909134b56a8fcc71819285d0d72f64",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "542cb74713f6360ac928e6e8b55a71bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "awayTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b6e79d99585d0dfad1905660f6dd6d14",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c209b216fe3d1ab21d5d51b77562ceec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6c3f42cf921cb8ab27ea3cc67e349761",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "25eed942e5259837dfaf9b0ff826e937",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bfb09e03305c7ac1881433d56bc32cda",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3530f8c8e55cc2d25e06334d40a1c374",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1f9f46323e9bf0c079663bc41e534370",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d8243c9887246ff880fe797b13f0219f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f20df9c4389acfc8bf7c1966a50c7e39",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a64791a0078c9a2c3746f84ac92e70d8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "15f2ec9152853fbb33059af4bb9d7dc6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6e1f4c146a37d8b3c326173a91fdbb62",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ec65ef5f1e237800fe53ed25079971c4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d02d0b0e370d08e72f5701ce85be7b67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "449e3dd2bd3fbae636bf58de74af542d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "awayTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9757d67ce22414d2cb81d673f4ab2b67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6d9359fec9cadc2484cb1751986ebfcd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7085ac57e861562dd16e01920e2cf368",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0052da242c187301597d8fd5c58de0d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "46fea040391d680f84ebc8c2dfce9b7c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "28c1dc378d5823134c9666da645e5a93",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1329281d2b53de09f615bcfcd93bc17d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d4e9b6af82c82c53f5646a429881f016",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ca25ac02f35d1fc5f8c3746fff1cc1f2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b82cb7ae35cd27de00484e8d71fd22dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d88a5378a4406acc82f0cf4b680621a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "458d06fa829390bb50ed611493f15807",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "683085082d2f79bdce7a357420fc7930",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "aa91bc790397f039a4dcb080bee589dc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "bd653975f93581f715cb62442fb774f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "644db19812f7ede1b9c345957006d0c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d0131328b4c847667fa59c3a6e348151",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "dd8e16028d91046cc5a7f3c75800158e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f65afefe9bdeb0d2f9c7b803b0b52710",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "03410f90ee9595574ebc53b4e67cf847",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d3b04f2b6afd73fbe953123eacecdf35",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "28cf280780ffec69e3c981d5bf790a58",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "612e7d4abeba4748dfab2e30fd05f5f7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "awayTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f3c9109c3fdffec5e67966746b1a9d88",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1e344407d7e685854184f151eb4e43e3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "846a359ef5288f171e3a4c18cba99149",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0d9d0f9bf7ee0500abb7f0f167226947",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1a52f0384a34c8af470d3c14dc6eb2f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "36742a20dccc540bcad2aff6181e47c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7bc73c65575438f04215440a1c87db7a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "awayTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b1e48f338f3342c88293c5dab16ff675",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a70f6c8289b0b1b35500d1d4ab7b3f2d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2c75d12af084fde1a8cd4a5c6ff58c99",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8ff01fcb366b0b7c457e70e84c9466a7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e68183ba7aa31f13fd1a6bf4a83425a3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 45 II Bujaków (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁTS II Łabędy (Gliwice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e0d0a4da3d90c7fb4fbe72d4e7315b88",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Korona Bargłówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nowy Sikornik Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "315e38f186f8e084220a3141403143f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Harpagan Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Radonia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e2c58b309fc3bcf84fe1a3ca6cbbb849",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "APN Knurów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Walka II Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e48225445c511bb4d65052154d2b7204",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Piast Pawłów (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przyszłość Ciochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "4a089722d75aedf46a06043b2022511a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Trampkarz 22 Biskupice (Zabrze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brasil Florian Czekanów",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8a1e30dc6eb7d212a9984e62fb62c841",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "LKS 35 Gierałtowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Kleszczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "6643b64df140d0166e913eb99b04a0e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Eurokan Klasa C (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Kłodnica Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ba32fc1046304ea664cda2ba419890f5",
       "stadium": null
     }
   ]

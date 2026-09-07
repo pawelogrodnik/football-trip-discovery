@@ -1,111 +1,250 @@
 {
   "competitionName": "IV Liga Dolnośląska",
-  "count": 9,
+  "count": 90,
   "matches": [
     {
       "competition": {
         "name": "IV Liga Dolnośląska"
       },
       "homeTeam": {
-        "name": "AKS Strzegom",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "WKS Wierzbice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
-      },
-      "id": "d8050cabb03a4d9797a1843007f46008",
-      "stadium": {
-        "venue": "Stadion AKS Strzegom",
-        "address": "Mickiewicza 2, Strzegom",
-        "geo": {
-          "latitude": 50.97019026023128,
-          "longitude": 16.350937132280446
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Dolnośląska"
-      },
-      "homeTeam": {
-        "name": "Górnik Złotoryja",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast Żmigród",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
-      },
-      "id": "9eccf5c4e0797b3340e21ec22ce7163a",
-      "stadium": {
-        "venue": "Stadion Górnik Złotoryja",
-        "address": "Lubelska 3, Złotoryja",
-        "geo": {
-          "latitude": 51.126587357634484,
-          "longitude": 15.90584180271561
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Dolnośląska"
-      },
-      "homeTeam": {
-        "name": "Moto Jelcz Oława",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast Nowa Ruda",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
-      },
-      "id": "ffc4b1d0504b684336605dfdf75e9ed2",
-      "stadium": {
-        "venue": "Stadion Miejski Oława",
-        "address": "Sportowa 1, Oława",
-        "geo": {
-          "latitude": 50.94745041055875,
-          "longitude": 17.298881150307878
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Dolnośląska"
-      },
-      "homeTeam": {
-        "name": "Polonia Środa Śląska",
+        "name": "GKS Mirków/Długołęka",
         "crest": null
       },
       "awayTeam": {
         "name": "Orzeł Ząbkowice Śląskie",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-11T19:00:00.000Z"
       },
-      "id": "c0dc612928f88e4727ee3d60ff7dbc51",
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T19:00:00.000Z"
+      },
+      "id": "639a6197d483faa160714f6b95e83b14",
       "stadium": {
-        "venue": "Stadion Miejski w Środzie Śląskiej",
-        "address": "Sportowa 1, Środa Śląska",
+        "venue": "Stadion GKS Mirków/Długołęka",
+        "address": "Wrocławska 11, Mirków",
         "geo": {
-          "latitude": 51.2008569,
-          "longitude": 16.8358253,
-          "name": "1, Sportowa, Brzezina, gmina Miękinia, powiat średzki, województwo dolnośląskie, 55-330, Polska"
+          "latitude": 51.16634360349024,
+          "longitude": 17.16364662975704
         }
       }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "138794d3e1cf82f7bf6bba2ff45d86e6",
+      "stadium": {
+        "venue": "Stadion Miejski w Prochowicach",
+        "address": "Mickiewicza 15, Prochowice",
+        "geo": {
+          "latitude": 51.2743422,
+          "longitude": 16.3571467,
+          "name": "Adama Mickiewicza, Prochowice, gmina Prochowice, powiat legnicki, województwo dolnośląskie, 59-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "785a7b43e54ce7a7854d33996fab5b0b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "51380e07fb74b63dab2eb43e2f52184a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "49c4755e54f4a833854631f3c1e7bd18",
+      "stadium": {
+        "venue": "Stadion Miejski w Żmigrodzie",
+        "address": "Parkowa 12, Żmigród",
+        "geo": {
+          "latitude": 51.4791022,
+          "longitude": 16.9173911,
+          "name": "Leśny Kompleks Promocyjny Lasy Doliny Baryczy, 12, Parkowa, Żmigród, gmina Żmigród, powiat trzebnicki, województwo dolnośląskie, 55-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "4d12685b2e6575a5476db10b4313c930",
+      "stadium": {
+        "venue": "Boisko Iskra Księginice",
+        "address": "Księginice 25, Księginice",
+        "geo": {
+          "latitude": 51.40668474219579,
+          "longitude": 16.27382062764868
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "3597dc14fde4cfb191c963830330bf3a",
+      "stadium": {
+        "venue": "Stadion Piast Nowa Ruda",
+        "address": "Świętej Anny 12, Nowa Ruda",
+        "geo": {
+          "latitude": 50.580580555281884,
+          "longitude": 16.494876321766686
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "aa8b1061978368739acc23c1c03c1564",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "e1f2613918bb3157b2c5954028819bb8",
+      "stadium": null
     },
     {
       "competition": {
@@ -116,69 +255,21 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Odra Ścinawa",
+        "name": "GKS Mirków/Długołęka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "b0448b39051ab5e42f5c180b232826b8",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8272c12e2e6eac3d45e69f741b5b80a4",
       "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Dolnośląska"
-      },
-      "homeTeam": {
-        "name": "Lechia Dzierżoniów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Prochowiczanka Prochowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T18:00:00.000Z"
-      },
-      "id": "8a1b17fd0aba6b559b770b396f84ebd4",
-      "stadium": {
-        "address": "Wrocławska 47 Dzierżoniów 58-200",
-        "venue": null,
-        "geo": {
-          "latitude": 50.7295619,
-          "longitude": 16.6524527,
-          "name": "Wrocławska, Sobieszyn, Osiedle Słoneczne, Dzierżoniów, powiat dzierżoniowski, województwo dolnośląskie, 58-200, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Dolnośląska"
-      },
-      "homeTeam": {
-        "name": "Chrobry II Głogów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iskra Księginice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
-      },
-      "id": "c1bf8d4c5ff19cbd81064f21aea9aba8",
-      "stadium": {
-        "venue": "Stadion GOS Chrobry Głogów",
-        "address": "Wita Stwosza 3, Głogów",
-        "geo": {
-          "latitude": 51.656742,
-          "longitude": 16.0984359,
-          "name": "3, Wita Stwosza, Hutnik, Głogów, powiat głogowski, województwo dolnośląskie, 67-200, Polska"
-        }
-      }
     },
     {
       "competition": {
@@ -189,14 +280,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS Raciborowice",
+        "name": "Polonia-Stal Świdnica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "05a37aeb7445682dfc58f1a716e2fcce",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ccdd456abadb6ab08fe582915629d6d4",
       "stadium": {
         "venue": "Boisko Sportowe Błyskawica Gać",
         "address": "Gać 80, Oława",
@@ -212,19 +309,2420 @@
         "name": "IV Liga Dolnośląska"
       },
       "homeTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "60b6dc0bdc9fb696e5c7a97afd3cbfa3",
+      "stadium": {
+        "venue": "Stadion AKS Strzegom",
+        "address": "Mickiewicza 2, Strzegom",
+        "geo": {
+          "latitude": 50.97019026023128,
+          "longitude": 16.350937132280446
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "dddbc43ff2214e87c0dab98c83fc8a5a",
+      "stadium": {
+        "venue": "Stadion Miejski Oława",
+        "address": "Sportowa 1, Oława",
+        "geo": {
+          "latitude": 50.94745041055875,
+          "longitude": 17.298881150307878
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "769e3e059fb26184057b5c4addbc5227",
+      "stadium": {
+        "venue": "Stadion GOS Chrobry Głogów",
+        "address": "Wita Stwosza 3, Głogów",
+        "geo": {
+          "latitude": 51.656742,
+          "longitude": 16.0984359,
+          "name": "3, Wita Stwosza, Hutnik, Głogów, powiat głogowski, województwo dolnośląskie, 67-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e92743a5b87d1237790468787d2020cf",
+      "stadium": {
+        "venue": "Stadion Górnik Złotoryja",
+        "address": "Lubelska 3, Złotoryja",
+        "geo": {
+          "latitude": 51.126587357634484,
+          "longitude": 15.90584180271561
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "92bb464cfe7051582ff801bed7ac9901",
+      "stadium": {
+        "address": "Wrocławska 47 Dzierżoniów 58-200",
+        "venue": null,
+        "geo": {
+          "latitude": 50.7295619,
+          "longitude": 16.6524527,
+          "name": "Wrocławska, Sobieszyn, Osiedle Słoneczne, Dzierżoniów, powiat dzierżoniowski, województwo dolnośląskie, 58-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1262ef06b04c0edc4748ecc323f85956",
+      "stadium": {
+        "venue": "Stadion Miejski w Środzie Śląskiej",
+        "address": "Sportowa 1, Środa Śląska",
+        "geo": {
+          "latitude": 51.2008569,
+          "longitude": 16.8358253,
+          "name": "1, Sportowa, Brzezina, gmina Miękinia, powiat średzki, województwo dolnośląskie, 55-330, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "faf8ac1ee193cad5c06fb71706eb8bc3",
+      "stadium": {
+        "venue": "Stadion Orła Ząbkowice Śląskie",
+        "address": "Orkana 32, Ząbkowice Śląskie",
+        "geo": {
+          "latitude": 50.5941814,
+          "longitude": 16.8200446,
+          "name": "32, Władysława Orkana, Osiedle Słoneczne, Sadlno, Ząbkowice Śląskie, gmina Ząbkowice Śląskie, powiat ząbkowicki, województwo dolnośląskie, 57-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Mirków/Długołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c75b2b839f2a8aff1c585cec17f8fcdb",
+      "stadium": {
+        "venue": "Stadion GKS Mirków/Długołęka",
+        "address": "Wrocławska 11, Mirków",
+        "geo": {
+          "latitude": 51.16634360349024,
+          "longitude": 17.16364662975704
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "da5cf73181e8efd947a7f0089845d426",
+      "stadium": {
+        "venue": "Stadion Miejski w Żmigrodzie",
+        "address": "Parkowa 12, Żmigród",
+        "geo": {
+          "latitude": 51.4791022,
+          "longitude": 16.9173911,
+          "name": "Leśny Kompleks Promocyjny Lasy Doliny Baryczy, 12, Parkowa, Żmigród, gmina Żmigród, powiat trzebnicki, województwo dolnośląskie, 55-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7e5c950ff28bc680d54344311dc65bbc",
+      "stadium": {
+        "venue": "Boisko Iskra Księginice",
+        "address": "Księginice 25, Księginice",
+        "geo": {
+          "latitude": 51.40668474219579,
+          "longitude": 16.27382062764868
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8bb2a42c12910594aed93848e83b01e7",
+      "stadium": {
+        "venue": "Stadion Piast Nowa Ruda",
+        "address": "Świętej Anny 12, Nowa Ruda",
+        "geo": {
+          "latitude": 50.580580555281884,
+          "longitude": 16.494876321766686
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d06782d1c34c7a8d7166b5ccfdf7f86e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4cb33f16eedcc3be20ffd3a7d5aeca73",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "72cdf814d36a47e7ecc3de0965c0a4d7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
         "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b097227e477e783e76690f09d98194db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "19988c1f6d07ed8654f92847d81a28c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Gać",
         "crest": null
       },
       "awayTeam": {
         "name": "GKS Mirków/Długołęka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "3084c829c80642f38369d112a47e9b8c",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d03c7d73051fdb6ecd0542bfa5675116",
+      "stadium": {
+        "venue": "Boisko Sportowe Błyskawica Gać",
+        "address": "Gać 80, Oława",
+        "geo": {
+          "latitude": 50.886861,
+          "longitude": 17.3671462,
+          "name": "80, Gać, gmina Oława, powiat oławski, województwo dolnośląskie, 55-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "cd0c3a375c62f87c48a496944a231915",
+      "stadium": {
+        "venue": "Stadion AKS Strzegom",
+        "address": "Mickiewicza 2, Strzegom",
+        "geo": {
+          "latitude": 50.97019026023128,
+          "longitude": 16.350937132280446
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0b59da4c6e9d1414c0a422926054d9d0",
+      "stadium": {
+        "venue": "Stadion Miejski Oława",
+        "address": "Sportowa 1, Oława",
+        "geo": {
+          "latitude": 50.94745041055875,
+          "longitude": 17.298881150307878
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "062df8ab97d18d3416086ee10f1b0340",
+      "stadium": {
+        "venue": "Stadion GOS Chrobry Głogów",
+        "address": "Wita Stwosza 3, Głogów",
+        "geo": {
+          "latitude": 51.656742,
+          "longitude": 16.0984359,
+          "name": "3, Wita Stwosza, Hutnik, Głogów, powiat głogowski, województwo dolnośląskie, 67-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c231144b763317a293850b727ac69a82",
+      "stadium": {
+        "venue": "Stadion Górnik Złotoryja",
+        "address": "Lubelska 3, Złotoryja",
+        "geo": {
+          "latitude": 51.126587357634484,
+          "longitude": 15.90584180271561
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a50fde6c2f38037fa5f6d02a76244edf",
+      "stadium": {
+        "address": "Wrocławska 47 Dzierżoniów 58-200",
+        "venue": null,
+        "geo": {
+          "latitude": 50.7295619,
+          "longitude": 16.6524527,
+          "name": "Wrocławska, Sobieszyn, Osiedle Słoneczne, Dzierżoniów, powiat dzierżoniowski, województwo dolnośląskie, 58-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6b7779c69b62119710fa5248e1d34c92",
+      "stadium": {
+        "venue": "Stadion Miejski w Środzie Śląskiej",
+        "address": "Sportowa 1, Środa Śląska",
+        "geo": {
+          "latitude": 51.2008569,
+          "longitude": 16.8358253,
+          "name": "1, Sportowa, Brzezina, gmina Miękinia, powiat średzki, województwo dolnośląskie, 55-330, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c745697a392fed7c7bf06bea96d87c54",
+      "stadium": {
+        "venue": "Stadion Orła Ząbkowice Śląskie",
+        "address": "Orkana 32, Ząbkowice Śląskie",
+        "geo": {
+          "latitude": 50.5941814,
+          "longitude": 16.8200446,
+          "name": "32, Władysława Orkana, Osiedle Słoneczne, Sadlno, Ząbkowice Śląskie, gmina Ząbkowice Śląskie, powiat ząbkowicki, województwo dolnośląskie, 57-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bf6626e8cdb3dec0084dee3d02c7880e",
+      "stadium": {
+        "venue": "Stadion Miejski w Prochowicach",
+        "address": "Mickiewicza 15, Prochowice",
+        "geo": {
+          "latitude": 51.2743422,
+          "longitude": 16.3571467,
+          "name": "Adama Mickiewicza, Prochowice, gmina Prochowice, powiat legnicki, województwo dolnośląskie, 59-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Mirków/Długołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5f0596563296419e63f7c073e6a63eb2",
+      "stadium": {
+        "venue": "Stadion GKS Mirków/Długołęka",
+        "address": "Wrocławska 11, Mirków",
+        "geo": {
+          "latitude": 51.16634360349024,
+          "longitude": 17.16364662975704
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7df4eaba3ad4930001eb76fd414f71e8",
+      "stadium": {
+        "venue": "Boisko Iskra Księginice",
+        "address": "Księginice 25, Księginice",
+        "geo": {
+          "latitude": 51.40668474219579,
+          "longitude": 16.27382062764868
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "76c518c23bbabb8d14d31039b7e49acb",
+      "stadium": {
+        "venue": "Stadion Piast Nowa Ruda",
+        "address": "Świętej Anny 12, Nowa Ruda",
+        "geo": {
+          "latitude": 50.580580555281884,
+          "longitude": 16.494876321766686
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a16f6faf15f1657d15fce1ec542608ea",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "de7e0eaffc147083736744c95b5d93a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4d09504e31f526930d8bd79d81d8eb60",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bfe49b62e4473bbad83b8dbae5d8c3c4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c3562bb8b48a9f2615db43b1e2e3d09a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "72e822c6570195e2c7f8fa0a5068f1da",
+      "stadium": {
+        "venue": "Boisko Sportowe Błyskawica Gać",
+        "address": "Gać 80, Oława",
+        "geo": {
+          "latitude": 50.886861,
+          "longitude": 17.3671462,
+          "name": "80, Gać, gmina Oława, powiat oławski, województwo dolnośląskie, 55-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Mirków/Długołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f1f1459a3ac0f56397341d637a7d74b8",
+      "stadium": {
+        "venue": "Stadion Miejski Oława",
+        "address": "Sportowa 1, Oława",
+        "geo": {
+          "latitude": 50.94745041055875,
+          "longitude": 17.298881150307878
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c612534ab4a5241392dd01b26a476d1d",
+      "stadium": {
+        "venue": "Stadion GOS Chrobry Głogów",
+        "address": "Wita Stwosza 3, Głogów",
+        "geo": {
+          "latitude": 51.656742,
+          "longitude": 16.0984359,
+          "name": "3, Wita Stwosza, Hutnik, Głogów, powiat głogowski, województwo dolnośląskie, 67-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e6fc15007c0f5a3072fe7d1f7c4b4444",
+      "stadium": {
+        "venue": "Stadion Górnik Złotoryja",
+        "address": "Lubelska 3, Złotoryja",
+        "geo": {
+          "latitude": 51.126587357634484,
+          "longitude": 15.90584180271561
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "90dcde945d05e6e51f893be4e3e29cde",
+      "stadium": {
+        "address": "Wrocławska 47 Dzierżoniów 58-200",
+        "venue": null,
+        "geo": {
+          "latitude": 50.7295619,
+          "longitude": 16.6524527,
+          "name": "Wrocławska, Sobieszyn, Osiedle Słoneczne, Dzierżoniów, powiat dzierżoniowski, województwo dolnośląskie, 58-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9a5f8879cb2c5b20ed33c0bf36ebb203",
+      "stadium": {
+        "venue": "Stadion Miejski w Środzie Śląskiej",
+        "address": "Sportowa 1, Środa Śląska",
+        "geo": {
+          "latitude": 51.2008569,
+          "longitude": 16.8358253,
+          "name": "1, Sportowa, Brzezina, gmina Miękinia, powiat średzki, województwo dolnośląskie, 55-330, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "67ed4348224b9c13e1fbd3fc8c0d37c9",
+      "stadium": {
+        "venue": "Stadion Orła Ząbkowice Śląskie",
+        "address": "Orkana 32, Ząbkowice Śląskie",
+        "geo": {
+          "latitude": 50.5941814,
+          "longitude": 16.8200446,
+          "name": "32, Władysława Orkana, Osiedle Słoneczne, Sadlno, Ząbkowice Śląskie, gmina Ząbkowice Śląskie, powiat ząbkowicki, województwo dolnośląskie, 57-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7910a2e636b5485417d2887f18003911",
+      "stadium": {
+        "venue": "Stadion Miejski w Prochowicach",
+        "address": "Mickiewicza 15, Prochowice",
+        "geo": {
+          "latitude": 51.2743422,
+          "longitude": 16.3571467,
+          "name": "Adama Mickiewicza, Prochowice, gmina Prochowice, powiat legnicki, województwo dolnośląskie, 59-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "04aa589b76397feeb729a092f61413db",
+      "stadium": {
+        "venue": "Stadion Miejski w Żmigrodzie",
+        "address": "Parkowa 12, Żmigród",
+        "geo": {
+          "latitude": 51.4791022,
+          "longitude": 16.9173911,
+          "name": "Leśny Kompleks Promocyjny Lasy Doliny Baryczy, 12, Parkowa, Żmigród, gmina Żmigród, powiat trzebnicki, województwo dolnośląskie, 55-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "350f8a87239389e75e5494a04e1f125e",
+      "stadium": {
+        "venue": "Boisko Iskra Księginice",
+        "address": "Księginice 25, Księginice",
+        "geo": {
+          "latitude": 51.40668474219579,
+          "longitude": 16.27382062764868
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Mirków/Długołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "002d31e025ce07831f9231e9e2d7e5d2",
+      "stadium": {
+        "venue": "Stadion AKS Strzegom",
+        "address": "Mickiewicza 2, Strzegom",
+        "geo": {
+          "latitude": 50.97019026023128,
+          "longitude": 16.350937132280446
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "db55e411e169f3151b2efed6f66df112",
+      "stadium": {
+        "venue": "Stadion Miejski Oława",
+        "address": "Sportowa 1, Oława",
+        "geo": {
+          "latitude": 50.94745041055875,
+          "longitude": 17.298881150307878
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "47ce9b81f2c339def3a5130d38c10cf2",
+      "stadium": {
+        "venue": "Stadion GOS Chrobry Głogów",
+        "address": "Wita Stwosza 3, Głogów",
+        "geo": {
+          "latitude": 51.656742,
+          "longitude": 16.0984359,
+          "name": "3, Wita Stwosza, Hutnik, Głogów, powiat głogowski, województwo dolnośląskie, 67-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "521ef6e2189a2907631e35477ed01dcb",
+      "stadium": {
+        "venue": "Stadion Górnik Złotoryja",
+        "address": "Lubelska 3, Złotoryja",
+        "geo": {
+          "latitude": 51.126587357634484,
+          "longitude": 15.90584180271561
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9f376c79a276bfb2cfbe78d05a7ee641",
+      "stadium": {
+        "address": "Wrocławska 47 Dzierżoniów 58-200",
+        "venue": null,
+        "geo": {
+          "latitude": 50.7295619,
+          "longitude": 16.6524527,
+          "name": "Wrocławska, Sobieszyn, Osiedle Słoneczne, Dzierżoniów, powiat dzierżoniowski, województwo dolnośląskie, 58-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1d9099198d4431a0927b099a03b28825",
+      "stadium": {
+        "venue": "Stadion Miejski w Środzie Śląskiej",
+        "address": "Sportowa 1, Środa Śląska",
+        "geo": {
+          "latitude": 51.2008569,
+          "longitude": 16.8358253,
+          "name": "1, Sportowa, Brzezina, gmina Miękinia, powiat średzki, województwo dolnośląskie, 55-330, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8dfafe80978cdaa0fd37b8f3571863ba",
+      "stadium": {
+        "venue": "Stadion Orła Ząbkowice Śląskie",
+        "address": "Orkana 32, Ząbkowice Śląskie",
+        "geo": {
+          "latitude": 50.5941814,
+          "longitude": 16.8200446,
+          "name": "32, Władysława Orkana, Osiedle Słoneczne, Sadlno, Ząbkowice Śląskie, gmina Ząbkowice Śląskie, powiat ząbkowicki, województwo dolnośląskie, 57-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "37291e5ae28538933c20f9dfa05852c3",
+      "stadium": {
+        "venue": "Stadion Miejski w Prochowicach",
+        "address": "Mickiewicza 15, Prochowice",
+        "geo": {
+          "latitude": 51.2743422,
+          "longitude": 16.3571467,
+          "name": "Adama Mickiewicza, Prochowice, gmina Prochowice, powiat legnicki, województwo dolnośląskie, 59-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "50f30a129372363698539dd219a23357",
+      "stadium": {
+        "venue": "Stadion Miejski w Żmigrodzie",
+        "address": "Parkowa 12, Żmigród",
+        "geo": {
+          "latitude": 51.4791022,
+          "longitude": 16.9173911,
+          "name": "Leśny Kompleks Promocyjny Lasy Doliny Baryczy, 12, Parkowa, Żmigród, gmina Żmigród, powiat trzebnicki, województwo dolnośląskie, 55-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Mirków/Długołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "80795e5cf6a6ef06a266073b0bf4a8fd",
+      "stadium": {
+        "venue": "Stadion GKS Mirków/Długołęka",
+        "address": "Wrocławska 11, Mirków",
+        "geo": {
+          "latitude": 51.16634360349024,
+          "longitude": 17.16364662975704
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e0b4245d905f1117816ab06c0218cdb3",
+      "stadium": {
+        "venue": "Stadion Piast Nowa Ruda",
+        "address": "Świętej Anny 12, Nowa Ruda",
+        "geo": {
+          "latitude": 50.580580555281884,
+          "longitude": 16.494876321766686
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "61619afe0cc6d9ac81fcd486879123c4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "789d46fc942e9af2224edd8d018a2196",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bc30549f47caa2f6cc1a8a1b07f8dac3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "16f2a7dfc7f38235310366fac92c0dc7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "fa1fb459d3a028b6db4989b87166aad7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a16a295bbf42fc8e05cff296c80a3baa",
+      "stadium": {
+        "venue": "Boisko Sportowe Błyskawica Gać",
+        "address": "Gać 80, Oława",
+        "geo": {
+          "latitude": 50.886861,
+          "longitude": 17.3671462,
+          "name": "80, Gać, gmina Oława, powiat oławski, województwo dolnośląskie, 55-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f3691e1b75869cdc77ef6b8025393d6e",
+      "stadium": {
+        "venue": "Stadion AKS Strzegom",
+        "address": "Mickiewicza 2, Strzegom",
+        "geo": {
+          "latitude": 50.97019026023128,
+          "longitude": 16.350937132280446
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Mirków/Długołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bbd1813d65ff97b830544b4c168efbdc",
+      "stadium": {
+        "venue": "Stadion GKS Mirków/Długołęka",
+        "address": "Wrocławska 11, Mirków",
+        "geo": {
+          "latitude": 51.16634360349024,
+          "longitude": 17.16364662975704
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9f08e02b54dd65d3996b61a18feb8467",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "479d4d5bdb32a59c2f1edc36ef844d4b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bff8c2dfbfeb47d4e3c5baaaf6636534",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4d4f3caa1248c2cbf342d9755b362e9e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e5c1b8c9ce26e316406efcc456818cf8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0d5c561bd784806eae9c8e6e05e910a0",
+      "stadium": {
+        "venue": "Boisko Sportowe Błyskawica Gać",
+        "address": "Gać 80, Oława",
+        "geo": {
+          "latitude": 50.886861,
+          "longitude": 17.3671462,
+          "name": "80, Gać, gmina Oława, powiat oławski, województwo dolnośląskie, 55-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e3b37ba25ee1baba7610634a771dc1d5",
+      "stadium": {
+        "venue": "Stadion AKS Strzegom",
+        "address": "Mickiewicza 2, Strzegom",
+        "geo": {
+          "latitude": 50.97019026023128,
+          "longitude": 16.350937132280446
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "90bcb6cdfcfe7f72f50242e5067a91b1",
+      "stadium": {
+        "venue": "Stadion Miejski Oława",
+        "address": "Sportowa 1, Oława",
+        "geo": {
+          "latitude": 50.94745041055875,
+          "longitude": 17.298881150307878
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Chrobry II Głogów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Mirków/Długołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b4732bc44185feff5ae95d9fb5993131",
+      "stadium": {
+        "venue": "Stadion GOS Chrobry Głogów",
+        "address": "Wita Stwosza 3, Głogów",
+        "geo": {
+          "latitude": 51.656742,
+          "longitude": 16.0984359,
+          "name": "3, Wita Stwosza, Hutnik, Głogów, powiat głogowski, województwo dolnośląskie, 67-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Górnik Złotoryja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moto Jelcz Oława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "fc88183e41916a1dc0aa6c7dc64df9a0",
+      "stadium": {
+        "venue": "Stadion Górnik Złotoryja",
+        "address": "Lubelska 3, Złotoryja",
+        "geo": {
+          "latitude": 51.126587357634484,
+          "longitude": 15.90584180271561
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Lechia Dzierżoniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Strzegom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8cf5806d8ee3a845a9be72f5ca64b8fb",
+      "stadium": {
+        "address": "Wrocławska 47 Dzierżoniów 58-200",
+        "venue": null,
+        "geo": {
+          "latitude": 50.7295619,
+          "longitude": 16.6524527,
+          "name": "Wrocławska, Sobieszyn, Osiedle Słoneczne, Dzierżoniów, powiat dzierżoniowski, województwo dolnośląskie, 58-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Polonia Środa Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Gać",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c4507cce88269afc3893f0948c5b01a1",
+      "stadium": {
+        "venue": "Stadion Miejski w Środzie Śląskiej",
+        "address": "Sportowa 1, Środa Śląska",
+        "geo": {
+          "latitude": 51.2008569,
+          "longitude": 16.8358253,
+          "name": "1, Sportowa, Brzezina, gmina Miękinia, powiat średzki, województwo dolnośląskie, 55-330, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Orzeł Ząbkowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Bielany Wrocławskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "598e0b5030e39bf0a20d793b71d31d14",
+      "stadium": {
+        "venue": "Stadion Orła Ząbkowice Śląskie",
+        "address": "Orkana 32, Ząbkowice Śląskie",
+        "geo": {
+          "latitude": 50.5941814,
+          "longitude": 16.8200446,
+          "name": "32, Władysława Orkana, Osiedle Słoneczne, Sadlno, Ząbkowice Śląskie, gmina Ząbkowice Śląskie, powiat ząbkowicki, województwo dolnośląskie, 57-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Prochowiczanka Prochowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia-Stal Świdnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "3466605b469321591a98997baa6b20c9",
+      "stadium": {
+        "venue": "Stadion Miejski w Prochowicach",
+        "address": "Mickiewicza 15, Prochowice",
+        "geo": {
+          "latitude": 51.2743422,
+          "longitude": 16.3571467,
+          "name": "Adama Mickiewicza, Prochowice, gmina Prochowice, powiat legnicki, województwo dolnośląskie, 59-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Żmigród",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Ścinawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bf6f086c2d1ed32da2ffeb35df22498d",
+      "stadium": {
+        "venue": "Stadion Miejski w Żmigrodzie",
+        "address": "Parkowa 12, Żmigród",
+        "geo": {
+          "latitude": 51.4791022,
+          "longitude": 16.9173911,
+          "name": "Leśny Kompleks Promocyjny Lasy Doliny Baryczy, 12, Parkowa, Żmigród, gmina Żmigród, powiat trzebnicki, województwo dolnośląskie, 55-140, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Iskra Księginice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Raciborowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "77b942d7cc46a3dedba1a5a1b4642062",
+      "stadium": {
+        "venue": "Boisko Iskra Księginice",
+        "address": "Księginice 25, Księginice",
+        "geo": {
+          "latitude": 51.40668474219579,
+          "longitude": 16.27382062764868
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Dolnośląska"
+      },
+      "homeTeam": {
+        "name": "Piast Nowa Ruda",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Wierzbice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7394214b7064250666f1dae1d9324423",
+      "stadium": {
+        "venue": "Stadion Piast Nowa Ruda",
+        "address": "Świętej Anny 12, Nowa Ruda",
+        "geo": {
+          "latitude": 50.580580555281884,
+          "longitude": 16.494876321766686
+        }
+      }
     }
   ]
 }

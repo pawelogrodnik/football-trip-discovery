@@ -1,31 +1,37 @@
 {
   "competitionName": "III Liga, grupa IV",
-  "count": 68,
+  "count": 135,
   "matches": [
     {
       "competition": {
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
-        "name": "Sokół Kolbuszowa Dolna",
-        "crest": null
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
       },
       "awayTeam": {
-        "name": "Star Starachowice",
+        "name": "Chełmianka Chełm",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
       },
-      "id": "aff61ab709b49139e243807b9ce6557c",
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "50b0b65bdc7f261f760512adb848a6e3",
       "stadium": {
-        "venue": "Stadion Miejski w Kolbuszowej",
-        "address": "Wolska 2, Kolbuszowa",
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
         "geo": {
-          "latitude": 50.235838,
-          "longitude": 21.7682199,
-          "name": "2, Wolska, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska"
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
         }
       }
     },
@@ -34,25 +40,97 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
-        "name": "Wisła II Kraków",
-        "crest": "https://crests.football-data.org/5664.png"
-      },
-      "awayTeam": {
-        "name": "Chełmianka Chełm",
+        "name": "Star Starachowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
+      "awayTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
       },
-      "id": "bf49cef4e7a012fcaacf1dd98f1ea6de",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
+      },
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "a9d61c12872796d31ec4e879e6e7c953",
       "stadium": {
-        "venue": "Stadion im. Henryka Reymana",
-        "address": "Reymonta 22, Kraków",
+        "venue": "Stadion Miejski w Starachowicach",
+        "address": "Szkolna 14, Starachowice",
         "geo": {
-          "latitude": 50.063581,
-          "longitude": 19.9117441,
-          "name": "Stadion Miejski im. Henryka Reymana, 22, Władysława Reymonta, Cichy Kącik, Czarna Wieś, Krowodrza, Kraków, województwo małopolskie, 30-059, Polska"
+          "latitude": 51.0622563,
+          "longitude": 21.0669293,
+          "name": "Urząd Miejski w Starachowicach, 45, Radomska, Stadion, Starachowice, powiat starachowicki, województwo świętokrzyskie, 27-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
+      },
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "b5693c2e7cdf50eddd8f3c34e640da97",
+      "stadium": {
+        "venue": "Stadion Miejski w Białej Podlaskiej",
+        "address": "Piłsudskiego 38, Biała Podlaska",
+        "geo": {
+          "latitude": 52.0375032,
+          "longitude": 23.1115082,
+          "name": "38, Marszałka Józefa Piłsudskiego, Osiedle Jagiellońskie, Biała Podlaska, województwo lubelskie, 21-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
+      },
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "f7f3d0116886bf8cbfbdca7eabc555b1",
+      "stadium": {
+        "address": "Aleja Niepodległości 2 Tarnobrzeg 39-400",
+        "venue": null,
+        "geo": {
+          "latitude": 50.5672776,
+          "longitude": 21.6671497,
+          "name": "3/2, Aleja Niepodległości, Przywiśle, Tarnobrzeg, województwo podkarpackie, 39-400, Polska"
         }
       }
     },
@@ -65,14 +143,20 @@
         "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
       },
       "awayTeam": {
-        "name": "Siarka Tarnobrzeg",
+        "name": "Naprzód Jędrzejów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
       },
-      "id": "a90aab3f50e1b28a07a3c52566131575",
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "5ed9359cd1e9c5c9cd51f7a9b50c4b68",
       "stadium": {
         "venue": "Stadion Wieczysta Kraków",
         "address": "Chałupnika 16, Kraków",
@@ -88,153 +172,24 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
-        "name": "Czarni Połaniec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogoń-Sokół Lubaczów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
-      },
-      "id": "4d8b701168ea892a9cc7329435a40ed8",
-      "stadium": {
-        "venue": "Stadion OSiR w Połańcu",
-        "address": "Sportowa 1, Połaniec",
-        "geo": {
-          "latitude": 50.4410566,
-          "longitude": 21.2833896,
-          "name": "Sportowa, Połaniec, gmina Połaniec, powiat staszowski, województwo świętokrzyskie, 28-230, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
-        "name": "JKS Jarosław",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Korona II Kielce",
-        "crest": "https://crests.football-data.org/5635.png"
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "ea3536523a27c8c192c57fb16ab41dbf",
-      "stadium": {
-        "venue": "Stadion Miejski im. Grzegorza Kozakiewicza",
-        "address": "Poniatowskiego 57, Jarosław",
-        "geo": {
-          "latitude": 50.010882,
-          "longitude": 22.6810235,
-          "name": "57, Józefa Poniatowskiego, Osiedle im. Wojska Polskiego, Jarosław, powiat jarosławski, województwo podkarpackie, 37-500, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
-        "name": "Hetman Zamość",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Moravia Morawica",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "37596d79c8d5a74d47adfe3948895e91",
-      "stadium": {
-        "venue": "Stadion OSiR w Zamościu",
-        "address": "Królowej Jadwigi 8, Zamość",
-        "geo": {
-          "latitude": 50.720101,
-          "longitude": 23.2442775,
-          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
-        "name": "KSZO 1929 Ostrowiec Świętokrzyski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód Jędrzejów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T18:00:00.000Z"
-      },
-      "id": "e37156e47ca17ccee5daba40a14a5e2b",
-      "stadium": {
-        "address": "Ostrowiec Świętokrzyski",
-        "venue": "Stadion Miejskiego Klubu Sportowego KSZO Ostrowiec Świętokrzyski",
-        "geo": {
-          "latitude": 50.92463351518723,
-          "longitude": 21.37827153427341,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
-        "name": "AKS 1947 Busko Zdrój",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wiślanie Skawina",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
-      },
-      "id": "4d1dbe83bcbe0b33f0f48c8f717a4b36",
-      "stadium": {
-        "venue": "Stadion Miejski w Busku-Zdroju",
-        "address": "Grotta 3, Busko-Zdrój",
-        "geo": {
-          "latitude": 50.4686068,
-          "longitude": 20.7256416,
-          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
         "name": "Wisłoka Dębica",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
       },
       "awayTeam": {
-        "name": "Podlasie Biała Podlaska",
-        "crest": null
+        "name": "Wisła II Kraków",
+        "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
       },
-      "id": "2bad0f7122b8880b7375faca4a9f23e9",
+      "id": "2a2dbc4468a452f699e410c49b2daa82",
       "stadium": {
         "address": null,
         "venue": "Stadion Klubu Sportowego Wisłoka Dębica",
@@ -250,12 +205,115 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KSZO 1929 Ostrowiec Świętokrzyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
+      },
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "2afe02bb2180eff0793aca795567f2d5",
+      "stadium": {
+        "venue": "Stadion Miejski w Kolbuszowej",
+        "address": "Wolska 2, Kolbuszowa",
+        "geo": {
+          "latitude": 50.235838,
+          "longitude": 21.7682199,
+          "name": "2, Wolska, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
+      },
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "a45b155d3bcfab964a01f77fcdc4584c",
+      "stadium": {
+        "venue": "Stadion Miejski im. Grzegorza Kozakiewicza",
+        "address": "Poniatowskiego 57, Jarosław",
+        "geo": {
+          "latitude": 50.010882,
+          "longitude": 22.6810235,
+          "name": "57, Józefa Poniatowskiego, Osiedle im. Wojska Polskiego, Jarosław, powiat jarosławski, województwo podkarpackie, 37-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12"
+      },
+      "date": {
+        "startDate": "2026-05-31",
+        "endDate": "2027-05-12",
+        "time": "TBD"
+      },
+      "id": "98dbfbe776e8704e3129ce4bf05f9901",
+      "stadium": {
+        "venue": "Stadion Miejski w Busku-Zdroju",
+        "address": "Grotta 3, Busko-Zdrój",
+        "geo": {
+          "latitude": 50.4686068,
+          "longitude": 20.7256416,
+          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Podlasie Biała Podlaska",
         "crest": null
       },
       "awayTeam": {
         "name": "Wieczysta II Kraków",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-11T19:57:00.000Z"
       },
       "date": {
         "date": "2026-09-11",
@@ -284,6 +342,10 @@
         "name": "Sokół Kolbuszowa Dolna",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-12",
         "dateTime": "2026-09-12T12:00:00.000Z"
@@ -310,6 +372,10 @@
       "awayTeam": {
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
@@ -338,6 +404,10 @@
         "name": "Siarka Tarnobrzeg",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-12",
         "dateTime": "2026-09-12T14:00:00.000Z"
@@ -356,6 +426,10 @@
       "awayTeam": {
         "name": "AKS 1947 Busko Zdrój",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
@@ -384,6 +458,10 @@
         "name": "Hetman Zamość",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-12",
         "dateTime": "2026-09-12T16:00:00.000Z"
@@ -410,6 +488,10 @@
       "awayTeam": {
         "name": "JKS Jarosław",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T19:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
@@ -438,6 +520,10 @@
         "name": "Wisłoka Dębica",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-13",
         "dateTime": "2026-09-13T17:00:00.000Z"
@@ -465,6 +551,10 @@
         "name": "Czarni Połaniec",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-13",
         "dateTime": "2026-09-13T17:00:00.000Z"
@@ -483,6 +573,10 @@
       "awayTeam": {
         "name": "Star Starachowice",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-19",
@@ -511,6 +605,10 @@
         "name": "Podlasie Biała Podlaska",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T15:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-19",
         "dateTime": "2026-09-19T15:00:00.000Z"
@@ -537,6 +635,10 @@
       "awayTeam": {
         "name": "Wisła II Kraków",
         "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
         "date": "2026-09-19",
@@ -565,6 +667,10 @@
         "name": "Pogoń-Sokół Lubaczów",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-19",
         "dateTime": "2026-09-19T16:00:00.000Z"
@@ -591,6 +697,10 @@
       "awayTeam": {
         "name": "Naprzód Jędrzejów",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-19",
@@ -619,6 +729,10 @@
         "name": "Moravia Morawica",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T17:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-19",
         "dateTime": "2026-09-19T17:00:00.000Z"
@@ -645,6 +759,10 @@
       "awayTeam": {
         "name": "Chełmianka Chełm",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T18:00:00.000Z"
       },
       "date": {
         "date": "2026-09-19",
@@ -673,6 +791,10 @@
         "name": "Korona II Kielce",
         "crest": "https://crests.football-data.org/5635.png"
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T18:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-19",
         "dateTime": "2026-09-19T18:00:00.000Z"
@@ -699,6 +821,10 @@
       "awayTeam": {
         "name": "Wiślanie Skawina",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "date": {
         "date": "2026-09-20",
@@ -727,6 +853,10 @@
         "name": "Czarni Połaniec",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-25T13:00:00.000Z"
+      },
       "date": {
         "date": "2026-09-25",
         "dateTime": "2026-09-25T13:00:00.000Z"
@@ -747,12 +877,140 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Wieczysta II Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2a36f867c3368bfbe6016c629ca0b3ef",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "214f9c0206981956bdf2f27f59953de1",
+      "stadium": {
+        "venue": "Stadion Miejski w Skawinie",
+        "address": "Mickiewicza 52, Skawina",
+        "geo": {
+          "latitude": 49.9761036,
+          "longitude": 19.8138438,
+          "name": "52, Adama Mickiewicza, Rynek, Osiedle Stare Miasto, Skawina, gmina Skawina, powiat krakowski, województwo małopolskie, 32-050, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "dee837fe3618777318ac6577ca9a34d9",
+      "stadium": {
+        "venue": "Stadion Miejski w Lubaczowie",
+        "address": "Kardynała Stefana Wyszyńskiego 125, Lubaczów",
+        "geo": {
+          "latitude": 50.1480164,
+          "longitude": 23.1108348,
+          "name": "Kardynała Stefana Wyszyńskiego, Zaprzekop, Lubaczów, powiat lubaczowski, województwo podkarpackie, 37-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c1aa5c5a09a5e98366214010bbe476a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Chełmianka Chełm",
         "crest": null
       },
       "awayTeam": {
         "name": "Podlasie Biała Podlaska",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-26",
@@ -772,6 +1030,10 @@
       "awayTeam": {
         "name": "AKS 1947 Busko Zdrój",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-26",
@@ -793,12 +1055,47 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T17:00:00.000Z"
+      },
+      "id": "a58968186cd93b86152fb8ff1deb97c5",
+      "stadium": {
+        "venue": "Stadion Miejski w Starachowicach",
+        "address": "Szkolna 14, Starachowice",
+        "geo": {
+          "latitude": 51.0622563,
+          "longitude": 21.0669293,
+          "name": "Urząd Miejski w Starachowicach, 45, Radomska, Stadion, Starachowice, powiat starachowicki, województwo świętokrzyskie, 27-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
       },
       "awayTeam": {
         "name": "Hetman Zamość",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T20:00:00.000Z"
       },
       "date": {
         "date": "2026-09-27",
@@ -827,6 +1124,10 @@
         "name": "Star Starachowice",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-01T18:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-01",
         "dateTime": "2026-10-01T18:00:00.000Z"
@@ -854,6 +1155,10 @@
         "name": "Pogoń-Sokół Lubaczów",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-02T17:30:00.000Z"
+      },
       "date": {
         "date": "2026-10-02",
         "dateTime": "2026-10-02T17:30:00.000Z"
@@ -874,12 +1179,49 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Kraków",
+        "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "545842426b51f83bcfa2feb74b05e051",
+      "stadium": {
+        "venue": "Stadion Miejski w Busku-Zdroju",
+        "address": "Grotta 3, Busko-Zdrój",
+        "geo": {
+          "latitude": 50.4686068,
+          "longitude": 20.7256416,
+          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Wieczysta II Kraków",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
       },
       "awayTeam": {
         "name": "Wiślanie Skawina",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T12:00:00.000Z"
       },
       "date": {
         "date": "2026-10-03",
@@ -901,39 +1243,16 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
-        "name": "Hetman Zamość",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Chełmianka Chełm",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T15:00:00.000Z"
-      },
-      "id": "cce6f223b5f4fc95b0007ce369b19ea2",
-      "stadium": {
-        "venue": "Stadion OSiR w Zamościu",
-        "address": "Królowej Jadwigi 8, Zamość",
-        "geo": {
-          "latitude": 50.720101,
-          "longitude": 23.2442775,
-          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
         "name": "Siarka Tarnobrzeg",
         "crest": null
       },
       "awayTeam": {
         "name": "Korona II Kielce",
         "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T15:00:00.000Z"
       },
       "date": {
         "date": "2026-10-03",
@@ -962,6 +1281,10 @@
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T15:30:00.000Z"
+      },
       "date": {
         "date": "2026-10-03",
         "dateTime": "2026-10-03T15:30:00.000Z"
@@ -988,6 +1311,10 @@
       "awayTeam": {
         "name": "Naprzód Jędrzejów",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T15:30:00.000Z"
       },
       "date": {
         "date": "2026-10-03",
@@ -1016,6 +1343,10 @@
         "name": "Moravia Morawica",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T15:30:00.000Z"
+      },
       "date": {
         "date": "2026-10-03",
         "dateTime": "2026-10-03T15:30:00.000Z"
@@ -1036,12 +1367,204 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełmianka Chełm",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-04T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T15:00:00.000Z"
+      },
+      "id": "cce6f223b5f4fc95b0007ce369b19ea2",
+      "stadium": {
+        "venue": "Stadion OSiR w Zamościu",
+        "address": "Królowej Jadwigi 8, Zamość",
+        "geo": {
+          "latitude": 50.720101,
+          "longitude": 23.2442775,
+          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "16695f63929cceac0359341e3445812b",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ba5ea54fb792b6335e2f6283c55aeeb0",
+      "stadium": {
+        "venue": "Stadion Miejski w Skawinie",
+        "address": "Mickiewicza 52, Skawina",
+        "geo": {
+          "latitude": 49.9761036,
+          "longitude": 19.8138438,
+          "name": "52, Adama Mickiewicza, Rynek, Osiedle Stare Miasto, Skawina, gmina Skawina, powiat krakowski, województwo małopolskie, 32-050, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wieczysta II Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e1f9df32351181755e4c24334b8ef9c0",
+      "stadium": {
+        "venue": "Stadion Miejski w Lubaczowie",
+        "address": "Kardynała Stefana Wyszyńskiego 125, Lubaczów",
+        "geo": {
+          "latitude": 50.1480164,
+          "longitude": 23.1108348,
+          "name": "Kardynała Stefana Wyszyńskiego, Zaprzekop, Lubaczów, powiat lubaczowski, województwo podkarpackie, 37-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "825bef6726ce62ec60c7770f71f88234",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cacd3d1adfcd1a388937ef3d3d5bcf30",
+      "stadium": {
+        "venue": "Stadion Miejski im. Pawła Świerkowskiego",
+        "address": "Sportowa 1, Jędrzejów",
+        "geo": {
+          "latitude": 50.648787,
+          "longitude": 20.2941992,
+          "name": "1, Sportowa, Osiedle Zachód, Jędrzejów, gmina Jędrzejów, powiat jędrzejowski, województwo świętokrzyskie, 28-310, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Wisła II Kraków",
         "crest": "https://crests.football-data.org/5664.png"
       },
       "awayTeam": {
         "name": "JKS Jarosław",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "date": {
         "date": "2026-10-10",
@@ -1070,6 +1593,10 @@
         "name": "Star Starachowice",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-10T15:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-10",
         "dateTime": "2026-10-10T15:00:00.000Z"
@@ -1082,39 +1609,16 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
-        "name": "Hetman Zamość",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Czarni Połaniec",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T15:00:00.000Z"
-      },
-      "id": "69e18d2cba44c003573176de65ac5f5d",
-      "stadium": {
-        "venue": "Stadion OSiR w Zamościu",
-        "address": "Królowej Jadwigi 8, Zamość",
-        "geo": {
-          "latitude": 50.720101,
-          "longitude": 23.2442775,
-          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
       },
       "awayTeam": {
         "name": "AKS 1947 Busko Zdrój",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-10T19:29:00.000Z"
       },
       "date": {
         "date": "2026-10-10",
@@ -1136,12 +1640,278 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-11T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T15:00:00.000Z"
+      },
+      "id": "69e18d2cba44c003573176de65ac5f5d",
+      "stadium": {
+        "venue": "Stadion OSiR w Zamościu",
+        "address": "Królowej Jadwigi 8, Zamość",
+        "geo": {
+          "latitude": 50.720101,
+          "longitude": 23.2442775,
+          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełmianka Chełm",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "08e41803e262672d7f3a71df97aecc29",
+      "stadium": {
+        "venue": "Stadion Miejski w Busku-Zdroju",
+        "address": "Grotta 3, Busko-Zdrój",
+        "geo": {
+          "latitude": 50.4686068,
+          "longitude": 20.7256416,
+          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "abd9adfa50358b4cf79135ba4a67fd8b",
+      "stadium": {
+        "venue": "Stadion Miejski w Białej Podlaskiej",
+        "address": "Piłsudskiego 38, Biała Podlaska",
+        "geo": {
+          "latitude": 52.0375032,
+          "longitude": 23.1115082,
+          "name": "38, Marszałka Józefa Piłsudskiego, Osiedle Jagiellońskie, Biała Podlaska, województwo lubelskie, 21-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f377aa67550e89c24e508136d8717db7",
+      "stadium": {
+        "venue": "Stadion Miejski w Starachowicach",
+        "address": "Szkolna 14, Starachowice",
+        "geo": {
+          "latitude": 51.0622563,
+          "longitude": 21.0669293,
+          "name": "Urząd Miejski w Starachowicach, 45, Radomska, Stadion, Starachowice, powiat starachowicki, województwo świętokrzyskie, 27-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0b72d7604641f65d303882ed8c57827a",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "77a55414c16f3b447d3e82cde47715b5",
+      "stadium": {
+        "venue": "Stadion Miejski w Busku-Zdroju",
+        "address": "Grotta 3, Busko-Zdrój",
+        "geo": {
+          "latitude": 50.4686068,
+          "longitude": 20.7256416,
+          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0abd2532f61ea11ba3f90da90aad46a3",
+      "stadium": {
+        "venue": "Stadion Miejski w Białej Podlaskiej",
+        "address": "Piłsudskiego 38, Biała Podlaska",
+        "geo": {
+          "latitude": 52.0375032,
+          "longitude": 23.1115082,
+          "name": "38, Marszałka Józefa Piłsudskiego, Osiedle Jagiellońskie, Biała Podlaska, województwo lubelskie, 21-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e1f9b73dd060b4726c474439cd812e2d",
+      "stadium": {
+        "venue": "Stadion Miejski w Starachowicach",
+        "address": "Szkolna 14, Starachowice",
+        "geo": {
+          "latitude": 51.0622563,
+          "longitude": 21.0669293,
+          "name": "Urząd Miejski w Starachowicach, 45, Radomska, Stadion, Starachowice, powiat starachowicki, województwo świętokrzyskie, 27-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Wieczysta II Kraków",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
       },
       "awayTeam": {
         "name": "Moravia Morawica",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-17T12:00:00.000Z"
       },
       "date": {
         "date": "2026-10-17",
@@ -1170,6 +1940,10 @@
         "name": "Pogoń-Sokół Lubaczów",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-17T14:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-17",
         "dateTime": "2026-10-17T14:00:00.000Z"
@@ -1196,6 +1970,10 @@
       "awayTeam": {
         "name": "Chełmianka Chełm",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-17T15:00:00.000Z"
       },
       "date": {
         "date": "2026-10-17",
@@ -1224,6 +2002,10 @@
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-17T15:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-17",
         "dateTime": "2026-10-17T15:00:00.000Z"
@@ -1250,6 +2032,10 @@
       "awayTeam": {
         "name": "Wisła II Kraków",
         "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-17T15:00:00.000Z"
       },
       "date": {
         "date": "2026-10-17",
@@ -1278,6 +2064,10 @@
         "name": "Naprzód Jędrzejów",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-17T17:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-17",
         "dateTime": "2026-10-17T17:00:00.000Z"
@@ -1298,12 +2088,173 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a56f63334dfbb4a73311d821cc26c107",
+      "stadium": {
+        "venue": "Stadion Miejski w Skawinie",
+        "address": "Mickiewicza 52, Skawina",
+        "geo": {
+          "latitude": 49.9761036,
+          "longitude": 19.8138438,
+          "name": "52, Adama Mickiewicza, Rynek, Osiedle Stare Miasto, Skawina, gmina Skawina, powiat krakowski, województwo małopolskie, 32-050, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "17ebb73d219a0a0385cc05a25d42b1e7",
+      "stadium": {
+        "venue": "Stadion Miejski w Lubaczowie",
+        "address": "Kardynała Stefana Wyszyńskiego 125, Lubaczów",
+        "geo": {
+          "latitude": 50.1480164,
+          "longitude": 23.1108348,
+          "name": "Kardynała Stefana Wyszyńskiego, Zaprzekop, Lubaczów, powiat lubaczowski, województwo podkarpackie, 37-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a926f8b1eb77ea055a44b415f9bf61ee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wieczysta II Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ca130cd2a23251bcb16ec12e9791074f",
+      "stadium": {
+        "venue": "Stadion Miejski im. Pawła Świerkowskiego",
+        "address": "Sportowa 1, Jędrzejów",
+        "geo": {
+          "latitude": 50.648787,
+          "longitude": 20.2941992,
+          "name": "1, Sportowa, Osiedle Zachód, Jędrzejów, gmina Jędrzejów, powiat jędrzejowski, województwo świętokrzyskie, 28-310, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e5cba6ed586dcf49c0256ebcf00e3f86",
+      "stadium": {
+        "venue": "Stadion OSiR w Połańcu",
+        "address": "Sportowa 1, Połaniec",
+        "geo": {
+          "latitude": 50.4410566,
+          "longitude": 21.2833896,
+          "name": "Sportowa, Połaniec, gmina Połaniec, powiat staszowski, województwo świętokrzyskie, 28-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Wisła II Kraków",
         "crest": "https://crests.football-data.org/5664.png"
       },
       "awayTeam": {
         "name": "Wisłoka Dębica",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "date": {
         "date": "2026-10-24",
@@ -1332,6 +2283,10 @@
         "name": "Korona II Kielce",
         "crest": "https://crests.football-data.org/5635.png"
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-24T14:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-24",
         "dateTime": "2026-10-24T14:00:00.000Z"
@@ -1344,39 +2299,16 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
-        "name": "Hetman Zamość",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "JKS Jarosław",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T14:30:00.000Z"
-      },
-      "id": "e026d5a095e4e811255d9d44039d11e9",
-      "stadium": {
-        "venue": "Stadion OSiR w Zamościu",
-        "address": "Królowej Jadwigi 8, Zamość",
-        "geo": {
-          "latitude": 50.720101,
-          "longitude": 23.2442775,
-          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
       },
       "awayTeam": {
         "name": "Sokół Kolbuszowa Dolna",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-24T19:29:00.000Z"
       },
       "date": {
         "date": "2026-10-24",
@@ -1398,12 +2330,47 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-25T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T14:30:00.000Z"
+      },
+      "id": "e026d5a095e4e811255d9d44039d11e9",
+      "stadium": {
+        "venue": "Stadion OSiR w Zamościu",
+        "address": "Królowej Jadwigi 8, Zamość",
+        "geo": {
+          "latitude": 50.720101,
+          "longitude": 23.2442775,
+          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Wieczysta II Kraków",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
       },
       "awayTeam": {
         "name": "Wisła II Kraków",
         "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T12:00:00.000Z"
       },
       "date": {
         "date": "2026-10-31",
@@ -1432,6 +2399,10 @@
         "name": "Naprzód Jędrzejów",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T13:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-31",
         "dateTime": "2026-10-31T13:00:00.000Z"
@@ -1458,6 +2429,10 @@
       "awayTeam": {
         "name": "Czarni Połaniec",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T13:30:00.000Z"
       },
       "date": {
         "date": "2026-10-31",
@@ -1486,6 +2461,10 @@
         "name": "Hetman Zamość",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T14:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-31",
         "dateTime": "2026-10-31T14:00:00.000Z"
@@ -1513,6 +2492,10 @@
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T19:08:00.000Z"
+      },
       "date": {
         "date": "2026-10-31",
         "dateTime": "2026-10-31T19:08:00.000Z"
@@ -1533,12 +2516,140 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "fdae1e87b84382358f3d871a9088f9f7",
+      "stadium": {
+        "venue": "Stadion Miejski w Lubaczowie",
+        "address": "Kardynała Stefana Wyszyńskiego 125, Lubaczów",
+        "geo": {
+          "latitude": 50.1480164,
+          "longitude": 23.1108348,
+          "name": "Kardynała Stefana Wyszyńskiego, Zaprzekop, Lubaczów, powiat lubaczowski, województwo podkarpackie, 37-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "55e286cfc6ba7ad9ea583185275649d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "253a25e494d779b3264248dcaef3431d",
+      "stadium": {
+        "venue": "Stadion Miejski im. Pawła Świerkowskiego",
+        "address": "Sportowa 1, Jędrzejów",
+        "geo": {
+          "latitude": 50.648787,
+          "longitude": 20.2941992,
+          "name": "1, Sportowa, Osiedle Zachód, Jędrzejów, gmina Jędrzejów, powiat jędrzejowski, województwo świętokrzyskie, 28-310, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "628cbde5c964df9a6d94ff689bfb0a1d",
+      "stadium": {
+        "venue": "Stadion Miejski w Busku-Zdroju",
+        "address": "Grotta 3, Busko-Zdrój",
+        "geo": {
+          "latitude": 50.4686068,
+          "longitude": 20.7256416,
+          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Wisła II Kraków",
         "crest": "https://crests.football-data.org/5664.png"
       },
       "awayTeam": {
         "name": "Siarka Tarnobrzeg",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T12:00:00.000Z"
       },
       "date": {
         "date": "2026-11-07",
@@ -1567,6 +2678,10 @@
         "name": "Wiślanie Skawina",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T13:00:00.000Z"
+      },
       "date": {
         "date": "2026-11-07",
         "dateTime": "2026-11-07T13:00:00.000Z"
@@ -1579,39 +2694,16 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
-        "name": "Hetman Zamość",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisłoka Dębica",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
-      },
-      "date": {
-        "date": "2026-11-07",
-        "dateTime": "2026-11-07T13:00:00.000Z"
-      },
-      "id": "b96eca4fa5389e1218a44ed2a979e1c5",
-      "stadium": {
-        "venue": "Stadion OSiR w Zamościu",
-        "address": "Królowej Jadwigi 8, Zamość",
-        "geo": {
-          "latitude": 50.720101,
-          "longitude": 23.2442775,
-          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa IV"
-      },
-      "homeTeam": {
         "name": "Czarni Połaniec",
         "crest": null
       },
       "awayTeam": {
         "name": "Sokół Kolbuszowa Dolna",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "date": {
         "date": "2026-11-07",
@@ -1640,6 +2732,10 @@
         "name": "Wieczysta II Kraków",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T16:00:00.000Z"
+      },
       "date": {
         "date": "2026-11-07",
         "dateTime": "2026-11-07T16:00:00.000Z"
@@ -1660,12 +2756,179 @@
         "name": "III Liga, grupa IV"
       },
       "homeTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-08T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
+      },
+      "id": "b96eca4fa5389e1218a44ed2a979e1c5",
+      "stadium": {
+        "venue": "Stadion OSiR w Zamościu",
+        "address": "Królowej Jadwigi 8, Zamość",
+        "geo": {
+          "latitude": 50.720101,
+          "longitude": 23.2442775,
+          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Kraków",
+        "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ac819841b71fc9e49bbdd2c8a96ed8a7",
+      "stadium": {
+        "venue": "Stadion Miejski w Białej Podlaskiej",
+        "address": "Piłsudskiego 38, Biała Podlaska",
+        "geo": {
+          "latitude": 52.0375032,
+          "longitude": 23.1115082,
+          "name": "38, Marszałka Józefa Piłsudskiego, Osiedle Jagiellońskie, Biała Podlaska, województwo lubelskie, 21-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d617f94b1cc0634ffa14467ed8951cb0",
+      "stadium": {
+        "venue": "Stadion Miejski w Starachowicach",
+        "address": "Szkolna 14, Starachowice",
+        "geo": {
+          "latitude": 51.0622563,
+          "longitude": 21.0669293,
+          "name": "Urząd Miejski w Starachowicach, 45, Radomska, Stadion, Starachowice, powiat starachowicki, województwo świętokrzyskie, 27-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b7729f1c4ed43a2c5aeeb35bea8748dc",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9bbab28a9fb90ab457cce840384d5c58",
+      "stadium": {
+        "venue": "Stadion Miejski w Skawinie",
+        "address": "Mickiewicza 52, Skawina",
+        "geo": {
+          "latitude": 49.9761036,
+          "longitude": 19.8138438,
+          "name": "52, Adama Mickiewicza, Rynek, Osiedle Stare Miasto, Skawina, gmina Skawina, powiat krakowski, województwo małopolskie, 32-050, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
         "name": "Wieczysta II Kraków",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
       },
       "awayTeam": {
         "name": "Hetman Zamość",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
       "date": {
         "date": "2026-11-14",
@@ -1694,6 +2957,10 @@
         "name": "Chełmianka Chełm",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-14T13:00:00.000Z"
+      },
       "date": {
         "date": "2026-11-14",
         "dateTime": "2026-11-14T13:00:00.000Z"
@@ -1720,6 +2987,10 @@
       "awayTeam": {
         "name": "AKS 1947 Busko Zdrój",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-14T13:00:00.000Z"
       },
       "date": {
         "date": "2026-11-14",
@@ -1748,6 +3019,10 @@
         "name": "KSZO 1929 Ostrowiec Świętokrzyski",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-14T13:00:00.000Z"
+      },
       "date": {
         "date": "2026-11-14",
         "dateTime": "2026-11-14T13:00:00.000Z"
@@ -1775,6 +3050,10 @@
         "name": "Czarni Połaniec",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-14T17:00:00.000Z"
+      },
       "date": {
         "date": "2026-11-14",
         "dateTime": "2026-11-14T17:00:00.000Z"
@@ -1787,6 +3066,1170 @@
           "latitude": 50.047535383109405,
           "longitude": 21.398020812039583,
           "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Chełmianka Chełm",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "b12044edc03e495ee4edcd4d7ffa8e34",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "0333899fe3703900aa3e3eef82c30081",
+      "stadium": {
+        "venue": "Stadion Miejski w Skawinie",
+        "address": "Mickiewicza 52, Skawina",
+        "geo": {
+          "latitude": 49.9761036,
+          "longitude": 19.8138438,
+          "name": "52, Adama Mickiewicza, Rynek, Osiedle Stare Miasto, Skawina, gmina Skawina, powiat krakowski, województwo małopolskie, 32-050, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "7ca9da67279021f166d2d9dd7cfd8231",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Kraków",
+        "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "1deede9127d5a2772287e268a8720eda",
+      "stadium": {
+        "venue": "Stadion Miejski w Starachowicach",
+        "address": "Szkolna 14, Starachowice",
+        "geo": {
+          "latitude": 51.0622563,
+          "longitude": 21.0669293,
+          "name": "Urząd Miejski w Starachowicach, 45, Radomska, Stadion, Starachowice, powiat starachowicki, województwo świętokrzyskie, 27-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KSZO 1929 Ostrowiec Świętokrzyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "88b883cc5c89e364e73c2a592a4f5e8d",
+      "stadium": {
+        "venue": "Stadion Miejski w Białej Podlaskiej",
+        "address": "Piłsudskiego 38, Biała Podlaska",
+        "geo": {
+          "latitude": 52.0375032,
+          "longitude": 23.1115082,
+          "name": "38, Marszałka Józefa Piłsudskiego, Osiedle Jagiellońskie, Biała Podlaska, województwo lubelskie, 21-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "0deb19a3e373e6dea329a1e897ed2914",
+      "stadium": {
+        "address": "Aleja Niepodległości 2 Tarnobrzeg 39-400",
+        "venue": null,
+        "geo": {
+          "latitude": 50.5672776,
+          "longitude": 21.6671497,
+          "name": "3/2, Aleja Niepodległości, Przywiśle, Tarnobrzeg, województwo podkarpackie, 39-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wieczysta II Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "awayTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "f52903f182e814cc94bf3062293eb46b",
+      "stadium": {
+        "venue": "Stadion Wieczysta Kraków",
+        "address": "Chałupnika 16, Kraków",
+        "geo": {
+          "latitude": 50.0771903,
+          "longitude": 19.9768469,
+          "name": "KS Wieczysta, 16, Kazimierza Chałupnika, Ugorek, Rakowice, Prądnik Czerwony, Kraków, województwo małopolskie, 31-464, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "awayTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "b6a8edc39ab81bfa245f45ad0a6a887b",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Klubu Sportowego Wisłoka Dębica",
+        "geo": {
+          "latitude": 50.047535383109405,
+          "longitude": 21.398020812039583,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "db27303fc9b4253e11c2ecee412e1e10",
+      "stadium": {
+        "venue": "Stadion Miejski w Kolbuszowej",
+        "address": "Wolska 2, Kolbuszowa",
+        "geo": {
+          "latitude": 50.235838,
+          "longitude": 21.7682199,
+          "name": "2, Wolska, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełmianka Chełm",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "e80d491a297c07e545fbe1bde90cafac",
+      "stadium": {
+        "venue": "Stadion Miejski w Kolbuszowej",
+        "address": "Wolska 2, Kolbuszowa",
+        "geo": {
+          "latitude": 50.235838,
+          "longitude": 21.7682199,
+          "name": "2, Wolska, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "524b61ccca95e1383273b96c0f808564",
+      "stadium": {
+        "venue": "Stadion Miejski im. Grzegorza Kozakiewicza",
+        "address": "Poniatowskiego 57, Jarosław",
+        "geo": {
+          "latitude": 50.010882,
+          "longitude": 22.6810235,
+          "name": "57, Józefa Poniatowskiego, Osiedle im. Wojska Polskiego, Jarosław, powiat jarosławski, województwo podkarpackie, 37-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wieczysta II Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "26ee16bd16019d65d89232c219bcc714",
+      "stadium": {
+        "venue": "Stadion Miejski w Busku-Zdroju",
+        "address": "Grotta 3, Busko-Zdrój",
+        "geo": {
+          "latitude": 50.4686068,
+          "longitude": 20.7256416,
+          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "8eb4ea76e53db5f64147a5d3cf3ea398",
+      "stadium": {
+        "venue": "Stadion OSiR w Połańcu",
+        "address": "Sportowa 1, Połaniec",
+        "geo": {
+          "latitude": 50.4410566,
+          "longitude": 21.2833896,
+          "name": "Sportowa, Połaniec, gmina Połaniec, powiat staszowski, województwo świętokrzyskie, 28-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "6a4ebe0b14b3993c2cd5f00e9fd87c17",
+      "stadium": {
+        "venue": "Stadion OSiR w Zamościu",
+        "address": "Królowej Jadwigi 8, Zamość",
+        "geo": {
+          "latitude": 50.720101,
+          "longitude": 23.2442775,
+          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "KSZO 1929 Ostrowiec Świętokrzyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "d55bcabb907ae656c8cb372cd9d2869b",
+      "stadium": {
+        "address": "Ostrowiec Świętokrzyski",
+        "venue": "Stadion Miejskiego Klubu Sportowego KSZO Ostrowiec Świętokrzyski",
+        "geo": {
+          "latitude": 50.92463351518723,
+          "longitude": 21.37827153427341,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wisła II Kraków",
+        "crest": "https://crests.football-data.org/5664.png"
+      },
+      "awayTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "61d8ce13b51992d36727d7cdb9514419",
+      "stadium": {
+        "venue": "Stadion im. Henryka Reymana",
+        "address": "Reymonta 22, Kraków",
+        "geo": {
+          "latitude": 50.063581,
+          "longitude": 19.9117441,
+          "name": "Stadion Miejski im. Henryka Reymana, 22, Władysława Reymonta, Cichy Kącik, Czarna Wieś, Krowodrza, Kraków, województwo małopolskie, 30-059, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "ddd09df6c0041dc42d91ba5830f6ba7d",
+      "stadium": {
+        "venue": "Stadion Miejski im. Pawła Świerkowskiego",
+        "address": "Sportowa 1, Jędrzejów",
+        "geo": {
+          "latitude": 50.648787,
+          "longitude": 20.2941992,
+          "name": "1, Sportowa, Osiedle Zachód, Jędrzejów, gmina Jędrzejów, powiat jędrzejowski, województwo świętokrzyskie, 28-310, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "7789a10125bd8afc193294a4a0b0a781",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Chełmianka Chełm",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "c2d4df35b68020f2b2913e01db0c9f36",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "b73bdc6c7ab64b97cd02b7d054cafcac",
+      "stadium": {
+        "venue": "Stadion Miejski w Lubaczowie",
+        "address": "Kardynała Stefana Wyszyńskiego 125, Lubaczów",
+        "geo": {
+          "latitude": 50.1480164,
+          "longitude": 23.1108348,
+          "name": "Kardynała Stefana Wyszyńskiego, Zaprzekop, Lubaczów, powiat lubaczowski, województwo podkarpackie, 37-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Kraków",
+        "crest": "https://crests.football-data.org/5664.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "ed9419298c087d189418d37d20e00c75",
+      "stadium": {
+        "venue": "Stadion Miejski w Skawinie",
+        "address": "Mickiewicza 52, Skawina",
+        "geo": {
+          "latitude": 49.9761036,
+          "longitude": 19.8138438,
+          "name": "52, Adama Mickiewicza, Rynek, Osiedle Stare Miasto, Skawina, gmina Skawina, powiat krakowski, województwo małopolskie, 32-050, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "KSZO 1929 Ostrowiec Świętokrzyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "ea90b8154d23dbcf2d1183b3544be449",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "900ecef9e81acc0f33b136ed7563ee15",
+      "stadium": {
+        "venue": "Stadion Miejski w Starachowicach",
+        "address": "Szkolna 14, Starachowice",
+        "geo": {
+          "latitude": 51.0622563,
+          "longitude": 21.0669293,
+          "name": "Urząd Miejski w Starachowicach, 45, Radomska, Stadion, Starachowice, powiat starachowicki, województwo świętokrzyskie, 27-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "f7a793051d684eb8fffcda9acf042eb2",
+      "stadium": {
+        "venue": "Stadion Miejski w Białej Podlaskiej",
+        "address": "Piłsudskiego 38, Biała Podlaska",
+        "geo": {
+          "latitude": 52.0375032,
+          "longitude": 23.1115082,
+          "name": "38, Marszałka Józefa Piłsudskiego, Osiedle Jagiellońskie, Biała Podlaska, województwo lubelskie, 21-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "0a1ad0bbc4632543e2d520240d045ba2",
+      "stadium": {
+        "address": "Aleja Niepodległości 2 Tarnobrzeg 39-400",
+        "venue": null,
+        "geo": {
+          "latitude": 50.5672776,
+          "longitude": 21.6671497,
+          "name": "3/2, Aleja Niepodległości, Przywiśle, Tarnobrzeg, województwo podkarpackie, 39-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wieczysta II Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "awayTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "02e511f163c5597ea271803a694f248c",
+      "stadium": {
+        "venue": "Stadion Wieczysta Kraków",
+        "address": "Chałupnika 16, Kraków",
+        "geo": {
+          "latitude": 50.0771903,
+          "longitude": 19.9768469,
+          "name": "KS Wieczysta, 16, Kazimierza Chałupnika, Ugorek, Rakowice, Prądnik Czerwony, Kraków, województwo małopolskie, 31-464, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "awayTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28"
+      },
+      "date": {
+        "startDate": "2027-02-27",
+        "endDate": "2027-02-28",
+        "time": "TBD"
+      },
+      "id": "f89c2b384eb6e367e8adaf2abab6e0d5",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Klubu Sportowego Wisłoka Dębica",
+        "geo": {
+          "latitude": 50.047535383109405,
+          "longitude": 21.398020812039583,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wisłoka Dębica",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Wis%C5%82oka_D%C4%99bica.png/640px-Wis%C5%82oka_D%C4%99bica.png"
+      },
+      "awayTeam": {
+        "name": "Chełmianka Chełm",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "77de7bb50e6ee525063336a1fc813938",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Klubu Sportowego Wisłoka Dębica",
+        "geo": {
+          "latitude": 50.047535383109405,
+          "longitude": 21.398020812039583,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Sokół Kolbuszowa Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wieczysta II Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/b/bb/KS_Wieczysta_Krak%C3%B3w_Logo.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "4a42d6f3a010a7bfb489e2cad942e4c5",
+      "stadium": {
+        "venue": "Stadion Miejski w Kolbuszowej",
+        "address": "Wolska 2, Kolbuszowa",
+        "geo": {
+          "latitude": 50.235838,
+          "longitude": 21.7682199,
+          "name": "2, Wolska, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "JKS Jarosław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siarka Tarnobrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "26387f65c0eaf01e6e49d5999bbbbc71",
+      "stadium": {
+        "venue": "Stadion Miejski im. Grzegorza Kozakiewicza",
+        "address": "Poniatowskiego 57, Jarosław",
+        "geo": {
+          "latitude": 50.010882,
+          "longitude": 22.6810235,
+          "name": "57, Józefa Poniatowskiego, Osiedle im. Wojska Polskiego, Jarosław, powiat jarosławski, województwo podkarpackie, 37-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "AKS 1947 Busko Zdrój",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlasie Biała Podlaska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "c08d4e82cfdfe52d5838b39710fa07eb",
+      "stadium": {
+        "venue": "Stadion Miejski w Busku-Zdroju",
+        "address": "Grotta 3, Busko-Zdrój",
+        "geo": {
+          "latitude": 50.4686068,
+          "longitude": 20.7256416,
+          "name": "Publiczna Szkoła Podstawowa nr 3 im. Płk. Aleksandra Krzyżanowskiego \"Wilka\", 3, Profesora Józefa Wacława Grotta, Osiedle Orła Białego, Busko-Zdrój, gmina Busko-Zdrój, powiat buski, województwo świętokrzyskie, 28-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Czarni Połaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Star Starachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "3b55bb9e76bce31844b9d58f29fbcf5c",
+      "stadium": {
+        "venue": "Stadion OSiR w Połańcu",
+        "address": "Sportowa 1, Połaniec",
+        "geo": {
+          "latitude": 50.4410566,
+          "longitude": 21.2833896,
+          "name": "Sportowa, Połaniec, gmina Połaniec, powiat staszowski, województwo świętokrzyskie, 28-230, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Hetman Zamość",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona II Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "eb46fe1f17622be208f9b4e007fcf92f",
+      "stadium": {
+        "venue": "Stadion OSiR w Zamościu",
+        "address": "Królowej Jadwigi 8, Zamość",
+        "geo": {
+          "latitude": 50.720101,
+          "longitude": 23.2442775,
+          "name": "Ośrodek Sportu i Rekreacji, 8, Królowej Jadwigi, Osiedle Podgroble, Osiedle Stare Miasto, Zamość, województwo lubelskie, 22-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "KSZO 1929 Ostrowiec Świętokrzyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Skawina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "d7e4fc0a4554cead3bf88f5ea7482c42",
+      "stadium": {
+        "address": "Ostrowiec Świętokrzyski",
+        "venue": "Stadion Miejskiego Klubu Sportowego KSZO Ostrowiec Świętokrzyski",
+        "geo": {
+          "latitude": 50.92463351518723,
+          "longitude": 21.37827153427341,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Wisła II Kraków",
+        "crest": "https://crests.football-data.org/5664.png"
+      },
+      "awayTeam": {
+        "name": "Pogoń-Sokół Lubaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "991624beb130233fb5e780d6fc1f9676",
+      "stadium": {
+        "venue": "Stadion im. Henryka Reymana",
+        "address": "Reymonta 22, Kraków",
+        "geo": {
+          "latitude": 50.063581,
+          "longitude": 19.9117441,
+          "name": "Stadion Miejski im. Henryka Reymana, 22, Władysława Reymonta, Cichy Kącik, Czarna Wieś, Krowodrza, Kraków, województwo małopolskie, 30-059, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa IV"
+      },
+      "homeTeam": {
+        "name": "Naprzód Jędrzejów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Moravia Morawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07"
+      },
+      "date": {
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-07",
+        "time": "TBD"
+      },
+      "id": "ae720987b3babc45096a192b6900df61",
+      "stadium": {
+        "venue": "Stadion Miejski im. Pawła Świerkowskiego",
+        "address": "Sportowa 1, Jędrzejów",
+        "geo": {
+          "latitude": 50.648787,
+          "longitude": 20.2941992,
+          "name": "1, Sportowa, Osiedle Zachód, Jędrzejów, gmina Jędrzejów, powiat jędrzejowski, województwo świętokrzyskie, 28-310, Polska"
         }
       }
     }

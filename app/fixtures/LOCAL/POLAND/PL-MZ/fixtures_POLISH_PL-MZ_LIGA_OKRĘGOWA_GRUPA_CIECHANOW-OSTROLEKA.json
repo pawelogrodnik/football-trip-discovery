@@ -1,100 +1,120 @@
 {
   "competitionName": "Liga okręgowa (Ciechanow-Ostroleka)",
-  "count": 8,
+  "count": 80,
   "matches": [
     {
       "competition": {
         "name": "Liga okręgowa (Ciechanow-Ostroleka)"
       },
       "homeTeam": {
-        "name": "GKS Strzegowo",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Żbik Nasielsk",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T19:00:00.000Z"
-      },
-      "id": "1e8fde5fa9521beb314db6af343a38a2",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "Kurpik Kadzidło",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wkra Żuromin",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
-      },
-      "id": "833c77feb285fa90d9b4953dbe82c8a1",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "Opia Opinogóra",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Korona Szydłowo",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "1d3a14057bbdb20be036a70050c1fde8",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "Kryształ Glinojeck",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "MKS Ciechanów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
-      },
-      "id": "cf8e42969206e56dedae2d29a035200e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "Mazowsze Jednorożec",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Ostrovia Ostrów Mazowiecka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
       },
-      "id": "0f3c1ab67eeb9f06b055ac30b2845620",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "d39e6589f0b75e19ac57d33f3a6847a0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "44e4fa693efaa2e8831dee52e8933ae9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "cae39517c56726b2626a81d1c1877b91",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "id": "12a854a2a25ebdde0911c05c32fcad1b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "bf4a9266b1a879e860ed2c5ccebf7534",
       "stadium": null
     },
     {
@@ -106,14 +126,171 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "d15a0e5a48cf1088822ff8f9146e89ab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "ac31c8e75cc10e418ded91322662afa3",
+      "stadium": {
+        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
+        "geo": {
+          "latitude": 53.122744,
+          "longitude": 20.38092,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
         "name": "Rzekunianka Rzekuń",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "awayTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
       },
-      "id": "e561972c122778f8ecd7d0a73070d059",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "66e65de9b44e0bb73dc8b6389541e63d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ed81cd366ab656a01882d141446b0857",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "858fd5a2e6cacbf30c9ee455843b3647",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0928bebba1a10b9e1a971bb535ecb24c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2bfbb54d1cfb3a4767819e4254afcf18",
       "stadium": null
     },
     {
@@ -125,14 +302,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Mławianka II Mława",
+        "name": "MKS Ciechanów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "3aaa414e980ca2ff3f793ec6168c07a0",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "85b40633240a3adf43f0becc7081ee27",
       "stadium": null
     },
     {
@@ -144,14 +327,1698 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9522f553e1d74dc08287de9a8c369050",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "66689ca51e6417f0a5548faa10886f4d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Konopianka Konopki",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "35e86bbad9acc27d7b302d2a92f7e6d1",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "452cbbfdf99846d40b148f6875fa0559",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6c5e502fe5739e8b0d336d4c1bb521f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5f5e0047c96e6a88de792e2bb596a1fc",
+      "stadium": {
+        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
+        "geo": {
+          "latitude": 53.122744,
+          "longitude": 20.38092,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a6f5f867a52be6db8597ba7dd665cae6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e84e97d4bc1d292d76d12ecf9d22e527",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e52f26459a4ad94abdf706bae36ff770",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "243329e22d551a31f815158bd679110c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e89ee45e3db28982c8ab3087e352027d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "52cd9b296a7a7bb7e5ff7300765f00fa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e2713ca2ade695e3e466d35dc6f37cf7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f614db9875dc973cdeeef2ede2ad41b5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "341559376162cdeee9ebe63c62c0b486",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c698a9e55c9213c8c454508e9b84421f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "946cddf9cf731489ad4ae786878f4c1c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "14f935434be56d0cf5795511d39ccbb8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "10b5259c4ee7bb4bd8c2fa4658fc0cac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1144d1cdae46b6c532ef8ff6a8b5bb34",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b1947fc0e4e5792419bb1c7b2d17f5a6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4dac6829af401c6c4c12ffed921f221e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cb8305d5512819371e5a8ec30d20b62f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f074996d21c5641e3c0ca3c319bd54b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dc88996df47da7106147e00dd12165df",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dab5bc4eba2c9342db8823898b691196",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "255028e4d103886df4c98a3108cd8d75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cd1d86e698066a358ef3052c79fa4da6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "32027475fb9d88bb8608718e0aed892a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a234a625b39ac9204c01280d35e4e1e0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a49833071d8fac95f2e713a5e79912f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "42ee8fc67019d55e60c742095be73938",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "11ecbd95259e9554e11f7a67d427938e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "fcb448f961962d8fca595a2d638ae5cb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "45dbf98df725dfbe929958f393d54896",
+      "stadium": {
+        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
+        "geo": {
+          "latitude": 53.122744,
+          "longitude": 20.38092,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d165e26b39dbcf2841600ed95d23a457",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c2c796535439f29cf8acfe2b3b8bed29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "408a072299a7bbd6f23198e3e9adf8c6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2ff9f4eea509c31386e35977f067fab9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3303f949e66f5052a6fe0d63637582d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "49873f06a322ee36b59764b3c45377f9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5a8fbf4c78af2b85d4987f4e9e53535e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7d3be356e87bb949b1af69ec3c972d2f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "57b22552cf80e78537e9ef581c6a6927",
+      "stadium": {
+        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
+        "geo": {
+          "latitude": 53.122744,
+          "longitude": 20.38092,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d6f983236036fb17a6d62b1b8a963a86",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "38cccd6ea90ac8ab1121607860ef7ddb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "79a68b39eada6b672f5b0e2fed35a721",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d0e3a5cdc01e622b97dd34b5bc4ab8d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "564f52f4899d8a8146cc072d6fe374be",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0abec15f669bab27d22a4c8a209eba3f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8888cfca3790c0dba57a4eee5ee5d51c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7be678e141026d416f278dbd6a951231",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9d3345eb3fc0682d1dd3d540ad8b68ca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0b3281f64ed39b3c6cc1af15430c5f6d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a3b6313d69eb74cc4010eee6c75c2516",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "613e3c1909870c6c4ca43b478414a9fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c3ff04f36d13095ff87c5f281c976342",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "eee75a7b74fd208d996d178ef33d9f32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "aaef178c5ea952cfff26ba9d5e8ac6c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "66e7a9b94c61003faae2ac9fcdc42cf7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Sypniewo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rzekunianka Rzekuń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "a788f39e9746c68ab7c5acc1876b6f52",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "ULKS Ołdaki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Jednorożec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "1006475eed8345828841170c6253c51b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "GKS Strzegowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kryształ Glinojeck",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8aec3b9e9b4e3a4c868d57f346732254",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Żbik Nasielsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Opia Opinogóra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "741b63a58ea2f1e53cbd0a0952b7b244",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Konopianka Konopki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kurpik Kadzidło",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c1bfb7a9b342127dcf810382217a65f2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Mławianka II Mława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Narew II Ostrołęka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "64d4bc1523cf2403187d65c24dbeba29",
+      "stadium": {
+        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
+        "geo": {
+          "latitude": 53.122744,
+          "longitude": 20.38092,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "Ostrovia Ostrów Mazowiecka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Żuromin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "afa8e97099cf0b11c2d8c748c9dd3bca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Ciechanow-Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "MKS Ciechanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Szydłowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ccfce587510499fa84a7c9a337e27f05",
       "stadium": null
     }
   ]

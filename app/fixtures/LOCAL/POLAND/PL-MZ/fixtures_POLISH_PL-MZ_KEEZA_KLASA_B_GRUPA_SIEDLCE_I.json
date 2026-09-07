@@ -1,24 +1,28 @@
 {
   "competitionName": "Keeza Klasa B (Siedlce I)",
-  "count": 5,
+  "count": 35,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa B (Siedlce I)"
       },
       "homeTeam": {
-        "name": "ULKS II Gołąbek",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Wektra II Zbuczyn",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
+      "awayTeam": {
+        "name": "Armia Żelków",
+        "crest": null
       },
-      "id": "36096c6266689bf939c811ca8107138b",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "baf40b45b20a4c9e7e432d5907244d3a",
       "stadium": null
     },
     {
@@ -26,18 +30,91 @@
         "name": "Keeza Klasa B (Siedlce I)"
       },
       "homeTeam": {
-        "name": "Korona Kornica",
+        "name": "Jastrząb II Żeliszew",
         "crest": null
       },
       "awayTeam": {
+        "name": "Korona Kornica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "ad7513630ce44d850355a21f27a26781",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
         "name": "ŁDK II Łosice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "awayTeam": {
+        "name": "ULKS II Gołąbek",
+        "crest": null
       },
-      "id": "e6cdedaa344dcce8515b965c4c28bb1f",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "d6bd0bcaed0d443c77aef5c049b6362b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Kolektyw Oleśnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKL SEMP Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "1680b5942b45e2564b08d5280f5a50b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Korczew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Niwa Tęczki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "6bbf9d69da2291269e7ba24eb8959f7f",
       "stadium": null
     },
     {
@@ -49,14 +126,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Kolektyw Oleśnica",
+        "name": "MKL SEMP Siedlce",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "495879a15f77591f5c8843a9ce90031b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "55578faf3494e30da5013a18491775e3",
       "stadium": null
     },
     {
@@ -68,14 +151,195 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Kolektyw Oleśnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "998d0c08209754a267a528e49e8a6187",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Korona Kornica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Korczew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5f261c350a3feeead3198002c254f347",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "ULKS II Gołąbek",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Jastrząb II Żeliszew",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "712a92ff107353a80c615436b31098f7",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8f5856e837e29df4bcfb114e9610de3f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Wektra II Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁDK II Łosice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d31229da816f69460321a8e097e15e2c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "ŁDK II Łosice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Armia Żelków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7e11ed276eb71928663d95a10d237d83",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Jastrząb II Żeliszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wektra II Zbuczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c12891496890a845b062662389a38e67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Korczew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS II Gołąbek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "256730b168c0558eb7669af15afac8f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Kolektyw Oleśnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kornica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a4bca4a08aeb6623933a73daf1d4fd5d",
       "stadium": null
     },
     {
@@ -87,14 +351,520 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Niwa Tęczki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "61011dd4c9b3f2b7b7136f465ce8647b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Armia Żelków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Niwa Tęczki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "af85e824951d65a847bac3e38b908048",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Korona Kornica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKL SEMP Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "430b569436b5e6a802a7506758b4dfcd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "ULKS II Gołąbek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kolektyw Oleśnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d8653d9f89a798ee965e28f2c2170922",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Wektra II Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Tęcza Korczew",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:15:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "803ef5587e790ea86777ae0c39a2eefe",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0d963796511f3f7a3dc8ff3a139a84a7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "ŁDK II Łosice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jastrząb II Żeliszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "160fe4e20e975b51a67e17dd6ba1466d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Jastrząb II Żeliszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Armia Żelków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "64b2fe24535fd6c5989318e1737550b5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Korczew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁDK II Łosice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "180e664a1d71d7c914e65ea91eecc3c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Kolektyw Oleśnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wektra II Zbuczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "457b730af07ec65db77c796c2a21ea05",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "MKL SEMP Siedlce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS II Gołąbek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6e6aacf21329af7fe47058304313ca3c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Niwa Tęczki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kornica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "81e98ef30af5494a190ec400b9fdd28e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Armia Żelków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Kornica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "144f1e4cf3df6f9fec8fa5ea3619d3b5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "ULKS II Gołąbek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Niwa Tęczki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e6ccd58c609fd6c99211d6701a02e8ec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Wektra II Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKL SEMP Siedlce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ececb0a059c60bfae631b22841443dae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "ŁDK II Łosice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kolektyw Oleśnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6529c29e4f04ae3829e9bc3717df660c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Jastrząb II Żeliszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Korczew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "84b8dbfd16e54f99a56fec515e6c00a3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Korczew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Armia Żelków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a97c4a77d4bf74e30fadaf96b05977f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Kolektyw Oleśnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jastrząb II Żeliszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "23f477f2d5bc717f2fd0df0fbcdf83c4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "MKL SEMP Siedlce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁDK II Łosice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "90d27114dfc7ec6e0bf0efa3ba916f3b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Niwa Tęczki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wektra II Zbuczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f1458fa2d8c3b03b9015484d6d8d208a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce I)"
+      },
+      "homeTeam": {
+        "name": "Korona Kornica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ULKS II Gołąbek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d105bc2331e6d9e0cc1659669cf34fdf",
       "stadium": null
     }
   ]

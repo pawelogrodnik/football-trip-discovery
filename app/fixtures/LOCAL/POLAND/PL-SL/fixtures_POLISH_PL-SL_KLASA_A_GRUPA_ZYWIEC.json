@@ -1,7 +1,147 @@
 {
   "competitionName": "Klasa A (Zywiec)",
-  "count": 6,
+  "count": 54,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "2b21c78df0a0cf70d22800c99d81abc0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "528be52d92b6559ad2a1562b29567e26",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Koszarawa Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "5610f4c2907f3ea35e93699a46adfe44",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "LKS Sopotnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "a5ae2c998bc9374f6df01be77fcd45a5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Stal-Śrubiarnia II Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Gilowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:30:00.000Z"
+      },
+      "id": "eb29342a07899bb8207f4fc66090ab54",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "a6ee3407a7bfb7738ee7281b7a87326b",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa A (Zywiec)"
@@ -11,71 +151,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Stal-Śrubiarnia II Żywiec",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "52170df2bf0ad08a418020d7f3337e04",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zywiec)"
-      },
-      "homeTeam": {
-        "name": "Świt Cięcina",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Magórka Czernichów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "53c1465d94fa4b0c1a819354dde37508",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zywiec)"
-      },
-      "homeTeam": {
-        "name": "Magura Bystra",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Soła Rajcza",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "7dcd9c958fac78e2b7381ae71e6ba0a4",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Zywiec)"
-      },
-      "homeTeam": {
         "name": "Beskid Gilowice",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Grapa Trzebinia",
-        "crest": null
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "7876bc6f8fee116b45c88f2141af9664",
+      "id": "0fc1a198581309720bccebf92c3680ef",
       "stadium": null
     },
     {
@@ -87,14 +176,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS II Radziechowy-Wieprz",
+        "name": "Stal-Śrubiarnia II Żywiec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "20a31ce89b86b8c47cc97b40161f054b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9ff5b108b376521ebfee3b07d216e02a",
       "stadium": null
     },
     {
@@ -106,14 +201,1145 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e9f9db4146194109f47795ae866996f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7ac8aeb7ab86c1e91d3b587bf961135f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "LKS Sopotnia",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "313715cedb477b97cf758e749e728260",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1947c59f7a57dc25162a24e94ff9ae9b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6b9cf9541ad85b3f064c5fad3c562750",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ba40d150705e21f089bdd8e80e7ae9e1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "LKS Sopotnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "85e7e5c4ecda5d6280d29b28916da20f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4be74c275cddaf4ec252f6eda06a3136",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "cde7a29701fbc662701111f5a0fcb99f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Stal-Śrubiarnia II Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "19a89e9ac33d113ad7ee77455cd364d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Beskid Gilowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e361a75ea35e7f840c85f82468b3fbc5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Koszarawa Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "08c5a7a614f133aac13a2753757f5fca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Gilowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "dc39997f5e03a6a6ff6db8cc171b32f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal-Śrubiarnia II Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "22a12d9ea1fac10c696dc5645347a183",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "65e866662e3990ac4daa9b7c5d38b179",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "33d939918e52bb80f9c1acf9177a91bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Sopotnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "06da466b5a499393308b7bac17894a6d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Koszarawa Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "1c3f835a363407e1f9f329ade85fc6f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d444b218243e4438e848d1b92fb9d3f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "004f7c7cdfb02aed6fcb261ae355ceaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Stal-Śrubiarnia II Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c2bebd144fd7723c0db073fb21955e0c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Beskid Gilowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2ee2b6ca4912c8296b2e71354b81c49e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "65ec00d24f2bcf6ea15358424f8aab48",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Koszarawa Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bd23cb9a9c4c078679048338390ebef3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b26be0b57bee1a013736e2ebcda87aee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d3923e958f0135c28586692fb1d0f2b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Gilowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ed4fd23ca21f80a86af9d00a3a8bdfed",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1d19f742f53e0088a761e970602815d7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "LKS Sopotnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1ecb4c8e5351b90bbe1e7878606e2099",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Koszarawa Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8e6e2101c0d83f3c5b5f73a3e29f82ea",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "bff2b479f95f9e2db106e2bd989f458c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Gilowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "67090cc7ad6edf058fdcffbcc727c6ba",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal-Śrubiarnia II Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a87d2062e4e5d4ca15019828008df01e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c8620ac6205810ae597489c047c1c0fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Sopotnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "54bd4488e7b75488a9a877c596b29e45",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "LKS Sopotnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Koszarawa Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "be9911dd0ef8a25c94f9eac452ba66af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2e48f46ff39be5223540e69deef55f75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Stal-Śrubiarnia II Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d954654c4514e3d636e148f39f31e02a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Beskid Gilowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8ae991d9bd7c952c9b204bba8df7903d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "53f9dacb80ad0bce64ec34c70049c847",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7a30c066a6a1ea71c36f15a19094afa6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "GKS II Radziechowy-Wieprz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Koszarawa Żywiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "906b29696628739b49153ee4612f38d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Grapa Trzebinia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Sopotnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0486fa4312b3a87bdd0f3d0e6f02ff2c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Stal-Śrubiarnia II Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Magórka Czernichów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a7d66fcbe8ad372c74e2b12615d30a03",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Skrzyczne Lipowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Soła Rajcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d697f95ebfeb84d2122ee7d16f8b7cc2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Czarni-Góral Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Magura Bystra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0c13c0d46b1f3cc6d0fa772d64eef32b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Świt Cięcina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Żabnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "14cbddad1b3a3cd1a9849fc88b7d4ea7",
       "stadium": null
     }
   ]

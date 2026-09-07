@@ -1,24 +1,28 @@
 {
   "competitionName": "Keeza Klasa B (Warszawa I)",
-  "count": 5,
+  "count": 48,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa B (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Agape II Białołęka (Warszawa)",
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
         "crest": null
       },
       "awayTeam": {
-        "name": "Rotavia Nieporęt",
+        "name": "Wisła Jabłonna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T10:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
-      "id": "76c969af3e3e0a1c835a55767087b538",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "ce9359ed17fcca4d9e49eae2bfdfa0e2",
       "stadium": null
     },
     {
@@ -26,18 +30,22 @@
         "name": "Keeza Klasa B (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Dąb II Wieliszew",
+        "name": "Victoria Warszawa",
         "crest": null
       },
       "awayTeam": {
-        "name": "Rządza Załubice",
+        "name": "Agape II Białołęka (Warszawa)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:30:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
-      "id": "991234d7af130e68bd9bc0722a7c0ee0",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "52736dbf688549e745062ce5a2e54452",
       "stadium": null
     },
     {
@@ -49,14 +57,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Impet Łajski",
+        "name": "Mewa Krubin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "5e8a6d05ac8920195860bcbc07dc1e71",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "f8e8da4585b8352bcf3c4aba42e04a61",
       "stadium": null
     },
     {
@@ -64,18 +76,118 @@
         "name": "Keeza Klasa B (Warszawa I)"
       },
       "homeTeam": {
-        "name": "Wisła Jabłonna",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Pensylwania Łajski",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+      "awayTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
       },
-      "id": "7b70fd9016593174e8a168f2c69c2e2e",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:30:00.000Z"
+      },
+      "id": "55a2287cec52c61f20fb4f3fa8fd9380",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "8cbb293ba50b90ec8e9e8c480a5d18b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "id": "99801d25bad410dd6bc75289b05cd3a9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mewa Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0824f8403615b5e4e589ed99fe16a5c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape II Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Pomiechówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c41173068794fbe094c48e743357efa5",
       "stadium": null
     },
     {
@@ -87,14 +199,995 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Victoria Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "04e26a64bddcc34e9520db5a5691f648",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a6d528d9b4a75079d49b36220de31451",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "87e40d63620e3d4581ae140b5269b478",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "61f6ffd1c8d74bd224f4ceaee315e801",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e64053fe650f637571ff88bdd05b6782",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "097229e06ab168a838094b65842a960d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c8567d85f717d3acb904b916629a340c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7d8b8ac8fa63c65b4890cbb38db7a45b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "610912a0cb71de20bc2ee5d7c3d67a05",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wkra Pomiechówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ceaa55e99f68f7e72c8aece615334738",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mewa Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Agape II Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6360c92a8774f38962c40dc8a01f4c31",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape II Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "386e2215185799cca6193b78bebe9291",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mewa Krubin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9d6317aa8c58db7735d13e9ac16174e8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Pomiechówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b31eb0010b402d3646c43d04f0612c32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "682484f5779d04092efb3d8f5cb13565",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e04565cb29a477fbd097566033e7f658",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "92c28f2f79a0fcff28e56ee340e9649a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a2f35d8b41c746317471c706b499c6ca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ac0011b79cf5da01b19d8b0f85949df5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4fb65e5852d2c832d2f3d1fd303259e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wkra Pomiechówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "13cfc916feb7c128631d090391c31c5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mewa Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d7ef6273a2d535333c46f5c140ac6b0c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape II Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d7ed8e72e6c28d1458fe6038ed8cd7c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "06fa348428034ed11a0c06758694ba14",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Agape II Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "51367ade2519c4149f597cb91a37d699",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mewa Krubin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8884de3dc154210906818c936117fb8f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Pomiechówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "16818ae2ab0740bf906a0dafc3ebf226",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "bdc2ab19d152a61d67a0aebd4ff28d58",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cd452e69e9c79072693d969c4da5aea2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "09993b53c266313ba03f599ec1420981",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Victoria Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4c6b90ccd72a1a3af7cbaa289c3a0e73",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wkra Pomiechówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d8f78386abd566a05bf2c2afc706287c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Mewa Krubin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8d89bf099900547076d9e28dbb2ea4fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Agape II Białołęka (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b63baacee46dd99f41ec8f7a6c1a4e8a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "54a18ad9240bfd2d926feab4e1abac2d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jabłonna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Impet Łajski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6dcbe51fe602d1c27c845bc6eb88b807",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Dąb II Wieliszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czosnów United",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "90304ffd436661f73f5c70f3631902c5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rządza Załubice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Agape II Białołęka (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bca84b81e1209b63595d45dbcfa49b76",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Pensylwania Łajski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mewa Krubin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3bea20fe076685040d776c981a69c80b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Lotnisko Modlin (Nowy Dwór Mazowiecki)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wkra Pomiechówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a8e4cc58a2e7b1d2a36393b1c4ff72df",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa I)"
+      },
+      "homeTeam": {
+        "name": "Rotavia Nieporęt",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8a7ec0565b08701ab390e3a76e8ced1a",
       "stadium": null
     }
   ]

@@ -1,31 +1,58 @@
 {
   "competitionName": "IV liga (slaska)",
-  "count": 11,
+  "count": 92,
   "matches": [
     {
       "competition": {
         "name": "IV liga (slaska)"
       },
       "homeTeam": {
-        "name": "Drama Zbrosławice",
+        "name": "Spójnia Landek",
         "crest": null
       },
       "awayTeam": {
-        "name": "Ruch II Chorzów",
-        "crest": "https://crests.football-data.org/5641.png"
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
-      "id": "0bdf029862c0ec7067fab45494f53d11",
+      "id": "88d59d56f38347a0eeb68192d690d6f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "74004be9af8bd5343db37b148765a4d5",
       "stadium": {
-        "venue": "Stadion LKS Drama Zbrosławice",
-        "address": "Wolności 33, Zbrosławice",
+        "venue": "Stadion KS Unia Turza Śląska",
+        "address": "Bogumińska 17, Turza Śląska",
         "geo": {
-          "latitude": 50.4128765,
-          "longitude": 18.734456,
-          "name": "33, Wolności, Kępczowice, Zbrosławice, gmina Zbrosławice, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-674, Polska"
+          "latitude": 49.9800087,
+          "longitude": 18.449709,
+          "name": "Bogumińska, Jedłownik-Turzyczka- Karkoszka, Turza Śląska, gmina Gorzyce, powiat wodzisławski, województwo śląskie, 44-351, Polska"
         }
       }
     },
@@ -34,25 +61,159 @@
         "name": "IV liga (slaska)"
       },
       "homeTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "7da8c3c973a09dd0a11aabbab63971f6",
+      "stadium": {
+        "address": "Zgody 28 Katowice 40-573",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2390273,
+          "longitude": 18.9831812,
+          "name": "28, Zgody, Stara Ligota, Załęska Hałda-Brynów, Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-573, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "319b62b343ae7499c50d6c0fb23a2542",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "139c15af29d4ac326630fcb90bf02d56",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "awayTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "e27090b13145738a2c039c6cb0f2419a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "d7271ebdd82a78a338eb0f6c79bb15be",
+      "stadium": {
+        "venue": "Stadion Victorii Częstochowa",
+        "address": "Laskowa 4, Częstochowa",
+        "geo": {
+          "latitude": 50.798306387095884,
+          "longitude": 19.126134106500846
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
         "name": "Piast II Gliwice",
         "crest": "https://crests.football-data.org/5628.png"
       },
-      "awayTeam": {
-        "name": "Gwarek Tarnowskie Góry",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
-      "id": "9d55cd3bef5f19d065ec92614dd27884",
+      "id": "f4ac96831cfc593915fa90ad31493b69",
       "stadium": {
-        "address": "Stefana Okrzei 20, 44-100 Gliwice",
-        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
         "geo": {
-          "latitude": 50.306665511925104,
-          "longitude": 18.695654832996254,
-          "name": null
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
         }
       }
     },
@@ -65,14 +226,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Podlesianka Katowice",
+        "name": "Przemsza Siewierz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
-      "id": "4e38f7003a9e3602c8d733f99422032f",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "837a1a6b6dd414abf584c080c0d6ef1b",
       "stadium": {
         "address": "Bukowa 1 Katowice 40-108",
         "venue": "Stadion Bukowa",
@@ -88,18 +253,24 @@
         "name": "IV liga (slaska)"
       },
       "homeTeam": {
-        "name": "Polonia Łaziska Górne",
+        "name": "Kuźnia Ustroń",
         "crest": null
       },
       "awayTeam": {
         "name": "Spójnia Landek",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "ca9effe6e5690ec72b411f4f7abe65ad",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "39c7da8bd47d6b33ee85377f7f2fe3fb",
       "stadium": null
     },
     {
@@ -107,19 +278,33 @@
         "name": "IV liga (slaska)"
       },
       "homeTeam": {
-        "name": "Kuźnia Ustroń",
+        "name": "Podbeskidzie II Bielsko-Biała",
         "crest": null
       },
       "awayTeam": {
-        "name": "Victoria Częstochowa",
+        "name": "Polonia Łaziska Górne",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "b872b46a5f8eaef75c2ffba9ad4d18bf",
-      "stadium": null
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8ba0e3f697db0bf7f61d7744bb96b6f3",
+      "stadium": {
+        "address": "Rychlińskiego 21 Bielsko-Biała 43-300",
+        "venue": "Stadion Miejski BKS Stal",
+        "geo": {
+          "latitude": 49.8166907,
+          "longitude": 19.0543963,
+          "name": "21, Tadeusza Rychlińskiego, Osiedle Grunwaldzkie, Biała Śródmieście, Bielsko-Biała, województwo śląskie, 43-300, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -130,14 +315,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Unia Turza Śląska",
+        "name": "Victoria Częstochowa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "887c6ace51924ad3271a913575a8db1b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4010e7525327132dab8792939ea6a416",
       "stadium": {
         "venue": "Stadion Ruchu Radzionków",
         "address": "Knosały 113, Radzionków",
@@ -157,14 +348,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Szombierki Bytom",
-        "crest": "https://crests.football-data.org/10170.png"
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "de60798976e6e0f674da4c9d006b0aad",
+      "id": "b8357b09cb805539f8772c8d6970ed28",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "11705d37b85c6fe013c716bf00f0f92d",
       "stadium": null
     },
     {
@@ -176,14 +398,375 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8a575371c96fccaa32b0e442abd44e28",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8a17c9c009b1f6ef371eca4d9cb69096",
+      "stadium": {
+        "venue": "Stadion LKS Drama Zbrosławice",
+        "address": "Wolności 33, Zbrosławice",
+        "geo": {
+          "latitude": 50.4128765,
+          "longitude": 18.734456,
+          "name": "33, Wolności, Kępczowice, Zbrosławice, gmina Zbrosławice, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-674, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "awayTeam": {
         "name": "LKS Bełk",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "11eb919b3fd9c14cc6e5f024cff12aac",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "76462117c749ecc61519d06c7c974744",
+      "stadium": {
+        "address": "Stefana Okrzei 20, 44-100 Gliwice",
+        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        "geo": {
+          "latitude": 50.306665511925104,
+          "longitude": 18.695654832996254,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6f0e994ad769409ae20ed2593819669e",
+      "stadium": {
+        "venue": "Stadion TS Gwarek Tarnowskie Góry",
+        "address": "Wojska Polskiego 2e, Tarnowskie Góry",
+        "geo": {
+          "latitude": 50.4519721,
+          "longitude": 18.8540371,
+          "name": "Wojska Polskiego, Śródmieście – Centrum, Tarnowskie Góry, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Spójnia Landek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "91108fcd70216cbea6a850527343f6cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "28c0a8a4cb15fcc974c9bb660592a1d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c08b64989740a09719262c97c38df22a",
+      "stadium": {
+        "address": "Bukowa 1 Katowice 40-108",
+        "venue": "Stadion Bukowa",
+        "geo": {
+          "latitude": 50.27974049618523,
+          "longitude": 19.001281670201603,
+          "name": "Stadion Sportowy w Bukowej, Leśna, Bukowa, gmina Krasocin, powiat włoszczowski, województwo świętokrzyskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "awayTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b01741b8e238df059f24f336d5028fec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4a7112f4af135c3913675b0c75b3f3fc",
+      "stadium": {
+        "venue": "Stadion KS Unia Turza Śląska",
+        "address": "Bogumińska 17, Turza Śląska",
+        "geo": {
+          "latitude": 49.9800087,
+          "longitude": 18.449709,
+          "name": "Bogumińska, Jedłownik-Turzyczka- Karkoszka, Turza Śląska, gmina Gorzyce, powiat wodzisławski, województwo śląskie, 44-351, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "afcc854a7c56af1a49069c82c29ec829",
+      "stadium": {
+        "address": "Zgody 28 Katowice 40-573",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2390273,
+          "longitude": 18.9831812,
+          "name": "28, Zgody, Stara Ligota, Załęska Hałda-Brynów, Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-573, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "61f387901d74fbcc52bc6350839a3c5a",
+      "stadium": {
+        "venue": "Stadion Victorii Częstochowa",
+        "address": "Laskowa 4, Częstochowa",
+        "geo": {
+          "latitude": 50.798306387095884,
+          "longitude": 19.126134106500846
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f7309e97a6187ace0ca34d089e6cb046",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ec5492ded3a94efc3eae41fe57dfcce5",
       "stadium": null
     },
     {
@@ -195,14 +778,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Rozwój Katowice",
+        "name": "Spójnia Landek",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "7e26fc060240db7586e73b089e3851b5",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f5a6ff1f8742dc90d1f9b46b9ad45711",
       "stadium": {
         "address": "Rychlińskiego 21 Bielsko-Biała 43-300",
         "venue": "Stadion Miejski BKS Stal",
@@ -218,12 +807,1843 @@
         "name": "IV liga (slaska)"
       },
       "homeTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f6c2cb29b8ecfd21911743004ba26d1c",
+      "stadium": {
+        "venue": "Stadion Ruchu Radzionków",
+        "address": "Knosały 113, Radzionków",
+        "geo": {
+          "latitude": 50.4047281,
+          "longitude": 18.9001152,
+          "name": "Szkoła Mistrzostwa Sportowego Radzionków, 113, Księdza Józefa Knosały, Radzionków, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-922, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3f134951ad7deddc872a1725d71abf56",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "14882a22422a638cf53d4502c1cd977a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9259bcc59afceefa6ff481af4ac92d5d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f56783d948338d82c7fa2ab8aba1a0c7",
+      "stadium": {
+        "venue": "Stadion LKS Drama Zbrosławice",
+        "address": "Wolności 33, Zbrosławice",
+        "geo": {
+          "latitude": 50.4128765,
+          "longitude": 18.734456,
+          "name": "33, Wolności, Kępczowice, Zbrosławice, gmina Zbrosławice, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-674, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "awayTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8d275b21c11d8d085d94d6a7f2a3d807",
+      "stadium": {
+        "address": "Stefana Okrzei 20, 44-100 Gliwice",
+        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        "geo": {
+          "latitude": 50.306665511925104,
+          "longitude": 18.695654832996254,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "59127cbf20f701147de8e61b3b1ea8e8",
+      "stadium": {
+        "venue": "Stadion TS Gwarek Tarnowskie Góry",
+        "address": "Wojska Polskiego 2e, Tarnowskie Góry",
+        "geo": {
+          "latitude": 50.4519721,
+          "longitude": 18.8540371,
+          "name": "Wojska Polskiego, Śródmieście – Centrum, Tarnowskie Góry, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "69ad04f50d0b4a9a9be7e883f3bbd7d8",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Spójnia Landek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "750ff8a2dd16cbfa89f2b4ba80391245",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5b65ec1907cef22cb909ef2ed43328a8",
+      "stadium": {
+        "address": "Bukowa 1 Katowice 40-108",
+        "venue": "Stadion Bukowa",
+        "geo": {
+          "latitude": 50.27974049618523,
+          "longitude": 19.001281670201603,
+          "name": "Stadion Sportowy w Bukowej, Leśna, Bukowa, gmina Krasocin, powiat włoszczowski, województwo świętokrzyskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "awayTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "656217eb82fd12367d10a01fdcdebf1b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2a01234a5e58c2fb50537169cd919ce7",
+      "stadium": {
+        "venue": "Stadion KS Unia Turza Śląska",
+        "address": "Bogumińska 17, Turza Śląska",
+        "geo": {
+          "latitude": 49.9800087,
+          "longitude": 18.449709,
+          "name": "Bogumińska, Jedłownik-Turzyczka- Karkoszka, Turza Śląska, gmina Gorzyce, powiat wodzisławski, województwo śląskie, 44-351, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "43ce4ef49c94e28e3fdcc5b1591b4cde",
+      "stadium": {
+        "address": "Zgody 28 Katowice 40-573",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2390273,
+          "longitude": 18.9831812,
+          "name": "28, Zgody, Stara Ligota, Załęska Hałda-Brynów, Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-573, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "02b5a21a40c95ed31c9d0182c821a997",
+      "stadium": {
+        "venue": "Stadion Victorii Częstochowa",
+        "address": "Laskowa 4, Częstochowa",
+        "geo": {
+          "latitude": 50.798306387095884,
+          "longitude": 19.126134106500846
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5a6eae314330bfe3d78c0acb44461e55",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a9d38de6b2a8a6977f04411225c91a28",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a6f619e171dbf96ffb1d6b84a8a123f4",
+      "stadium": {
+        "address": "Rychlińskiego 21 Bielsko-Biała 43-300",
+        "venue": "Stadion Miejski BKS Stal",
+        "geo": {
+          "latitude": 49.8166907,
+          "longitude": 19.0543963,
+          "name": "21, Tadeusza Rychlińskiego, Osiedle Grunwaldzkie, Biała Śródmieście, Bielsko-Biała, województwo śląskie, 43-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spójnia Landek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "950136c959317a8aaebf3d904d56e60b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "15f0ade4368c4951f670c28948cfb541",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e4aa82573db4d43b99c54a662a79117b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7f509eb26197f557718675ded0e13b20",
+      "stadium": {
+        "venue": "Stadion LKS Drama Zbrosławice",
+        "address": "Wolności 33, Zbrosławice",
+        "geo": {
+          "latitude": 50.4128765,
+          "longitude": 18.734456,
+          "name": "33, Wolności, Kępczowice, Zbrosławice, gmina Zbrosławice, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-674, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1b28ac8e23f31e3a8552928ed8ddb81f",
+      "stadium": {
+        "address": "Stefana Okrzei 20, 44-100 Gliwice",
+        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        "geo": {
+          "latitude": 50.306665511925104,
+          "longitude": 18.695654832996254,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "98c6e41f3667c09251ad0821a28831ea",
+      "stadium": {
+        "venue": "Stadion TS Gwarek Tarnowskie Góry",
+        "address": "Wojska Polskiego 2e, Tarnowskie Góry",
+        "geo": {
+          "latitude": 50.4519721,
+          "longitude": 18.8540371,
+          "name": "Wojska Polskiego, Śródmieście – Centrum, Tarnowskie Góry, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "697cc0a0eabd2100d7109181149635df",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3e7b97bd1f14f076e0d43e60b268844c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "463c845d6c020874be1ce786d9f817a1",
+      "stadium": {
+        "address": "Bukowa 1 Katowice 40-108",
+        "venue": "Stadion Bukowa",
+        "geo": {
+          "latitude": 50.27974049618523,
+          "longitude": 19.001281670201603,
+          "name": "Stadion Sportowy w Bukowej, Leśna, Bukowa, gmina Krasocin, powiat włoszczowski, województwo świętokrzyskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spójnia Landek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1909d082c473dab10573b28d662b39d8",
+      "stadium": {
+        "venue": "Stadion Ruchu Radzionków",
+        "address": "Knosały 113, Radzionków",
+        "geo": {
+          "latitude": 50.4047281,
+          "longitude": 18.9001152,
+          "name": "Szkoła Mistrzostwa Sportowego Radzionków, 113, Księdza Józefa Knosały, Radzionków, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-922, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "081740e77cb32a4ccf4ff4467a834c4e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0495b6fb3d61ab8048b1ee2649fdfd14",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5978c76369bb6a9680f39614bc013de3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "bef0781df15fd6597bb509ba4597b623",
+      "stadium": {
+        "venue": "Stadion LKS Drama Zbrosławice",
+        "address": "Wolności 33, Zbrosławice",
+        "geo": {
+          "latitude": 50.4128765,
+          "longitude": 18.734456,
+          "name": "33, Wolności, Kępczowice, Zbrosławice, gmina Zbrosławice, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-674, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "awayTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "400bf9c9e39ad807084c59c346da7f12",
+      "stadium": {
+        "address": "Stefana Okrzei 20, 44-100 Gliwice",
+        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        "geo": {
+          "latitude": 50.306665511925104,
+          "longitude": 18.695654832996254,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "50be1432719ff56c122ece2c0a581fb2",
+      "stadium": {
+        "venue": "Stadion TS Gwarek Tarnowskie Góry",
+        "address": "Wojska Polskiego 2e, Tarnowskie Góry",
+        "geo": {
+          "latitude": 50.4519721,
+          "longitude": 18.8540371,
+          "name": "Wojska Polskiego, Śródmieście – Centrum, Tarnowskie Góry, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a9ec18fcc50186d58e47451d799fa780",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7a21e73827226102899040e750e072f7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Spójnia Landek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3da1c6fb145b12376cc8d4aa85f179a3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "awayTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1754ae7b4b05eb0255109259619f224b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "97b600283bcafe29b9327967ce6dc0ea",
+      "stadium": {
+        "venue": "Stadion KS Unia Turza Śląska",
+        "address": "Bogumińska 17, Turza Śląska",
+        "geo": {
+          "latitude": 49.9800087,
+          "longitude": 18.449709,
+          "name": "Bogumińska, Jedłownik-Turzyczka- Karkoszka, Turza Śląska, gmina Gorzyce, powiat wodzisławski, województwo śląskie, 44-351, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "aaa639c4724adec17a66a5e661ec7fb3",
+      "stadium": {
+        "address": "Zgody 28 Katowice 40-573",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2390273,
+          "longitude": 18.9831812,
+          "name": "28, Zgody, Stara Ligota, Załęska Hałda-Brynów, Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-573, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f6d4b40dcd8e647aefcaf55962ec9793",
+      "stadium": {
+        "venue": "Stadion Victorii Częstochowa",
+        "address": "Laskowa 4, Częstochowa",
+        "geo": {
+          "latitude": 50.798306387095884,
+          "longitude": 19.126134106500846
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "15613738cff94658dae01b2b90877f24",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "fa46fc761b0858a09c763650a964cf47",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b5c50b4261a432705f983f6a13307145",
+      "stadium": {
+        "address": "Rychlińskiego 21 Bielsko-Biała 43-300",
+        "venue": "Stadion Miejski BKS Stal",
+        "geo": {
+          "latitude": 49.8166907,
+          "longitude": 19.0543963,
+          "name": "21, Tadeusza Rychlińskiego, Osiedle Grunwaldzkie, Biała Śródmieście, Bielsko-Biała, województwo śląskie, 43-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "cee059a5fb1c0d6fb499030f8449f833",
+      "stadium": {
+        "venue": "Stadion Ruchu Radzionków",
+        "address": "Knosały 113, Radzionków",
+        "geo": {
+          "latitude": 50.4047281,
+          "longitude": 18.9001152,
+          "name": "Szkoła Mistrzostwa Sportowego Radzionków, 113, Księdza Józefa Knosały, Radzionków, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-922, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Spójnia Landek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a13ce6d9651ffc316bc8fa36e383a34d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d4ac2a8545e988cf4b8a2eec7eafbaf5",
+      "stadium": {
+        "venue": "Stadion KS Unia Turza Śląska",
+        "address": "Bogumińska 17, Turza Śląska",
+        "geo": {
+          "latitude": 49.9800087,
+          "longitude": 18.449709,
+          "name": "Bogumińska, Jedłownik-Turzyczka- Karkoszka, Turza Śląska, gmina Gorzyce, powiat wodzisławski, województwo śląskie, 44-351, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b2955a44600495e13d69d9a38ee5bc21",
+      "stadium": {
+        "address": "Zgody 28 Katowice 40-573",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2390273,
+          "longitude": 18.9831812,
+          "name": "28, Zgody, Stara Ligota, Załęska Hałda-Brynów, Katowice, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 40-573, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a6e0d57ab21a62f734bc029a8c330676",
+      "stadium": {
+        "venue": "Stadion Victorii Częstochowa",
+        "address": "Laskowa 4, Częstochowa",
+        "geo": {
+          "latitude": 50.798306387095884,
+          "longitude": 19.126134106500846
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ecb4223b9525da49f33cc220c71340ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0e9a4edccf9b7ed34b257a604574bab3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1b4b1800df295924c327e83086da19de",
+      "stadium": {
+        "address": "Rychlińskiego 21 Bielsko-Biała 43-300",
+        "venue": "Stadion Miejski BKS Stal",
+        "geo": {
+          "latitude": 49.8166907,
+          "longitude": 19.0543963,
+          "name": "21, Tadeusza Rychlińskiego, Osiedle Grunwaldzkie, Biała Śródmieście, Bielsko-Biała, województwo śląskie, 43-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "796fd7b8b03089af00a2600b572d39d3",
+      "stadium": {
+        "venue": "Stadion Ruchu Radzionków",
+        "address": "Knosały 113, Radzionków",
+        "geo": {
+          "latitude": 50.4047281,
+          "longitude": 18.9001152,
+          "name": "Szkoła Mistrzostwa Sportowego Radzionków, 113, Księdza Józefa Knosały, Radzionków, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-922, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "130bb0fd6f888b4786100a3d4d469198",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spójnia Landek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "82d798e23d7aad9a493c17ce4f6d9a4a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Przemsza Siewierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MRKS Czechowice-Dziedzice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d34b0c09ad8906cd83d47e80ce1c75af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Drama Zbrosławice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Radzionków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7de1796a71db607cb0e9d5fd4de328a6",
+      "stadium": {
+        "venue": "Stadion LKS Drama Zbrosławice",
+        "address": "Wolności 33, Zbrosławice",
+        "geo": {
+          "latitude": 50.4128765,
+          "longitude": 18.734456,
+          "name": "33, Wolności, Kępczowice, Zbrosławice, gmina Zbrosławice, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-674, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
+      },
+      "awayTeam": {
+        "name": "Podbeskidzie II Bielsko-Biała",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b9068dbb6eb420a96b2da834c75176c9",
+      "stadium": {
+        "address": "Stefana Okrzei 20, 44-100 Gliwice",
+        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        "geo": {
+          "latitude": 50.306665511925104,
+          "longitude": 18.695654832996254,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Tarnowskie Góry",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kuźnia Ustroń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "60940679ba71f1be613b7a80a29bdbb2",
+      "stadium": {
+        "venue": "Stadion TS Gwarek Tarnowskie Góry",
+        "address": "Wojska Polskiego 2e, Tarnowskie Góry",
+        "geo": {
+          "latitude": 50.4519721,
+          "longitude": 18.8540371,
+          "name": "Wojska Polskiego, Śródmieście – Centrum, Tarnowskie Góry, powiat tarnogórski, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 42-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Ruch II Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Górne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "a19e30f78220bad3ce06b7f53f7cbf12",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "LKS Bełk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "28eaec73e602b5aab2dabebd26610070",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "GKS II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b1f0a2558b83ff8a0080a57da75e5f65",
+      "stadium": {
+        "address": "Bukowa 1 Katowice 40-108",
+        "venue": "Stadion Bukowa",
+        "geo": {
+          "latitude": 50.27974049618523,
+          "longitude": 19.001281670201603,
+          "name": "Stadion Sportowy w Bukowej, Leśna, Bukowa, gmina Krasocin, powiat włoszczowski, województwo świętokrzyskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
+        "name": "Szombierki Bytom",
+        "crest": "https://crests.football-data.org/10170.png"
+      },
+      "awayTeam": {
+        "name": "Unia Turza Śląska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "feea65bf655b113a9d85c84ab266f18c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV liga (slaska)"
+      },
+      "homeTeam": {
         "name": "Rozwój Katowice",
         "crest": null
       },
       "awayTeam": {
         "name": "Szombierki Bytom",
         "crest": "https://crests.football-data.org/10170.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-21T11:00:00.000Z"
       },
       "date": {
         "date": "2026-11-21",
@@ -251,6 +2671,10 @@
       "awayTeam": {
         "name": "Gwarek Tarnowskie Góry",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-21T13:00:00.000Z"
       },
       "date": {
         "date": "2026-11-21",

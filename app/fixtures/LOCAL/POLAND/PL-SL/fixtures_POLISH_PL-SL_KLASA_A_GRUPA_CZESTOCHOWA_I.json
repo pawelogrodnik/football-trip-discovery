@@ -1,7 +1,124 @@
 {
   "competitionName": "Klasa A (Czestochowa I)",
-  "count": 7,
+  "count": 70,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "e692d24c87fc6e38ca2bcb45df134e0e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "1654bec326f855f29fb9505d535ac666",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "3cce3121cb4fd81acb123103ac6a9604",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "a1543bbd7cf172337c1043f8993f1535",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "26a7681b6efe65ba1452c6d0b2706737",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa A (Czestochowa I)"
@@ -11,14 +128,41 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "989e2696cdcdc0aac5710d81ababe316",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
         "name": "Oksza Łobodno",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T19:30:00.000Z"
+      "awayTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
       },
-      "id": "91eb11b812b6c71fedeb2aacecba1a50",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T18:00:00.000Z"
+      },
+      "id": "6541327e4f66f4ae8de1fa9f083fe20a",
       "stadium": null
     },
     {
@@ -30,14 +174,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Alkas Aleksandria",
+        "name": "Oksza Łobodno",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "986f56af5cc5aa9c0e504556ed405067",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d269d32feedffe6a457c5a5941073e5c",
       "stadium": null
     },
     {
@@ -49,14 +199,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Ajaks Częstochowa",
+        "name": "Pogoń Kamyk",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "668554b78d6fc22e5fe1e68d65141b3f",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c6112e60508b5e6655195632467a9377",
       "stadium": null
     },
     {
@@ -68,14 +224,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Junior Szarlejka",
+        "name": "Alkas Aleksandria",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "e46a07613fd864fc280a03b95bd15058",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8d16a016abb6a9b8192f652fd80fa621",
       "stadium": null
     },
     {
@@ -87,14 +249,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Grom Cykarzew",
+        "name": "Ajaks Częstochowa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "f04aa8c846e6a70f6a3f9334cafd785b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5291a1dcefe1e7ef89093b4915df18da",
       "stadium": null
     },
     {
@@ -106,14 +274,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Metal Rzeki Wielkie",
+        "name": "Junior Szarlejka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0254ee2df6c8934319d4ef93bac1b5e7",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "458cde177d972b80df47adac87972fed",
       "stadium": null
     },
     {
@@ -125,14 +299,1445 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1e6e91efa69008e78becf49f8a69ccd1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
         "name": "Kmicic Kruszyna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
       },
-      "id": "283cdd8f2f9699dad7680cbac78f1c40",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8bf28b4af3e653a65e95a0f85ae6641c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "44658f349673ccb3cc2cb0f6d64367dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "df04d29f48e56697e5c68b09c1f5ae93",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "443b4afbb81992039f3abd0ed6c59ef0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b3edfb0ddbcc57c4da479259988550d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "be936fbc7b3d190c5c91ee4ed5de5cfb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e96d1d6f8e6f48104d79a089acc16641",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f963aa5d383d4ad3d67c158525b93904",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "cb61b709bd617c59eec74fde0e61828f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d87f714659ec8cb6451f5ab38c3eb6d3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c436acc70b03d71badfed2719542f42e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "cd0145e6bc8f32f45fdfc4cc719ba916",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d7938f1a6883e6e368067819fcc567cf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1429261e37227856cb8e3ab42a915c69",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "83d2f6332538dbe5598287bd0fc1e315",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "eb555b8847603c3f504db18337a3bada",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6527a4ca31fff69ce3492ce8ccb96710",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9b6d4e7fbbb12e1724b54beea68ffd6d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7acac89a16202ebd5f68c01c84ee8059",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5003fe429d857aad9fbb26793bf21bd4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0aaf30eaceb477fba1dfe508625740c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dd59d07be8992d37f1e01139736670dc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ff2e62b14049b1e751598e391ebe3308",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "14889cce738ff0a3e966a894d40c3ffb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a9d388d5a52362ff4b3b8695b73eb495",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "18601eddd13e100e274b9f5a0c5af4f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "641872c463e4e26e2fffa27bbde5ca4d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "12524e51148fc2d38211e39c982a40b0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "86b58eaa8129654dfdd934b9b758f8b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f8b6e3c9d83d02589fa1f3aa7f9d06be",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "420a2f885109c86259d5d950c8933972",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8650b0f99b868b03d521b22fdaeb8adb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "707bb974ea34ff21e1a5f92d1cc8eaf8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2222355c1982eaf7bc2089351ed29f3c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cd62f6215a4f061ec4700cad1959913c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f5bd819a7d9f8618613ea9c44396b313",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b17e73380158fab4b42488d01a3c1e8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6ff6a819b220febfff162b9732b3c96a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "21bcea000033fa60909ac298cc584f57",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7e412b342fcb5d8cd53c86e7015db075",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f15406d8a164b9402b16a29643c0b6eb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d6c37cdf57f7e5a890e32fdc8d227bfd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "411e40ef61cfa6509a254e778f30b172",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a96f8f73a1a530562ed682e598f3a448",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "95c66cceaf44adb0a509d70fa16049f7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "28335f5a2e8f713ef82bea7d247951e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b0cd6237df572110ecb7f7cd286e64d4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "43db64767cd41b520212e35deb5eff88",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f690ba7cc436dcb463e350cc31b7f48f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b052b4d9e51a765c025e56e183ca95c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sokół Wręczyca Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oksza Łobodno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9292f6c7dee35e9130de5708633623c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Popów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Libidza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "89f7bccea846ac1deaff5735a1f5753b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Kmicic Kruszyna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Truskolasy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b545c61094a92aaae7376802fad9a2c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Metal Rzeki Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Ostrowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d50f5b3f4c73e796f39e3d64237122b6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Cykarzew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Czarny Las",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "5e73f77a874c0a8d6579626b22db3686",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Junior Szarlejka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Kamyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e81ef8e450b4b398e0969056ff70b44a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Ajaks Częstochowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alkas Aleksandria",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c1546dbc7939b2241b5ea2212a27bd2d",
       "stadium": null
     }
   ]

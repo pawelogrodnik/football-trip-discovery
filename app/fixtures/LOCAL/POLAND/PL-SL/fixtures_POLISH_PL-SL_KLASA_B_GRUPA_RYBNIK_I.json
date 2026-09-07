@@ -1,43 +1,30 @@
 {
   "competitionName": "Klasa B (Rybnik I)",
-  "count": 8,
+  "count": 78,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Rybnik I)"
       },
       "homeTeam": {
-        "name": "TKKF Zuch Orzepowice (Rybnik)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "196459a4bef628c45caf0254d4b0c947",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rybnik I)"
-      },
-      "homeTeam": {
-        "name": "LKS Górki Śląskie",
+        "name": "Unia Książenice",
         "crest": null
       },
       "awayTeam": {
         "name": "Polonia Niewiadom (Rybnik)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
       },
-      "id": "2afdeda73fcf99fe12e63deb27c36b5a",
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "6c7b0ceea1de755af30c4e7947eb8ae4",
       "stadium": null
     },
     {
@@ -45,18 +32,22 @@
         "name": "Klasa B (Rybnik I)"
       },
       "homeTeam": {
-        "name": "Naprzód II Rydułtowy",
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
         "crest": null
       },
       "awayTeam": {
-        "name": "KS Wielopole (Rybnik)",
-        "crest": null
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "d3a047de59b1a6e80f7d02d9de9e5b84",
+      "id": "ae5360e822e09ede3c29b73f76441785",
       "stadium": null
     },
     {
@@ -64,18 +55,22 @@
         "name": "Klasa B (Rybnik I)"
       },
       "homeTeam": {
-        "name": "Płomień II Ochojec (Rybnik)",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Górnik II Radlin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
       },
-      "id": "6697c5603deafc2b7e8cf1aa9837a640",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "35e2a5986e645b077e3927e8a946418f",
       "stadium": null
     },
     {
@@ -83,18 +78,91 @@
         "name": "Klasa B (Rybnik I)"
       },
       "homeTeam": {
-        "name": "KS 1947 Wielopole (Rybnik)",
+        "name": "KS Wielopole (Rybnik)",
         "crest": null
       },
       "awayTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "569148817ac11dbf2d9ad5376e806763",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
         "name": "Rymer II Rybnik",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "awayTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
       },
-      "id": "4c2db068c28e8eec6d0fbdfadc73a959",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "8316752bb0db0b4b25026611404a7652",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "d588338cfa55690da4086441fb4a7054",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "e3feff30bc354c960ffe5e1d042936a8",
       "stadium": null
     },
     {
@@ -106,14 +174,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Sygnały Gotartowice (Rybnik)",
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "1e200cedcbf9480942d65de23eebf5bd",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "bbb14ab9738554f7df4fe7adb30a9857",
       "stadium": null
     },
     {
@@ -125,14 +199,1720 @@
         "crest": "https://crests.football-data.org/11281.png"
       },
       "awayTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d28209a166e718813c3e82a604b3c79c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0a9faa487763a3c9caee17c0e854e916",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Pierwszy Chwałowice (Rybnik)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "a57bf2cd2d9497357a0cf662341c0100",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4bf495ae09f00692452fa72dc65b0935",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0c6d7b6c72b2e76888b447d4dd4a1983",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9f33aa5965ab1af96794169b6371fd33",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "430de588345e37e11f393af95f2eb9e8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "db8cb8f175f87a4a6df1d29cbdad9e95",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3748f833d5d8a6f6da14fad4f8ae7713",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e4fd22c3aca6fd661549f791ffbdbb1d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b248a85426c5d8aa5aea5e176e938fe4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e96f05cbf4d9ba4f5d1963de0faaad21",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6153bf057a3a272f988a26e0043b56cf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7e09de3e2759c2c0837567305b6492ce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "61a9dffc9a2ae92e6071415836e1b42d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4c8b377eff359816d08a30be2f505be1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d18df2149affcc38e52e451b84f48e88",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "42349af77f96a4810aac7cba269cf7bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "cfe4527cce7cffe62ee67223b0d5f194",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "38037e3af18fa7612931d75bc05fe007",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c8eb352302d120d35c4582fc9ce8faac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "52003ac8206137f5d836cfffcd944737",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "83d48ee2ed46e02d459dd181584d76f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "31660ca6d54961a938bbe92590f7049c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e50b6eb66c678e49d94e78e6ce768274",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7a6c5c99b574fedb5ba3f35547c9a832",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "567d4c95ec96c884f3143fba88eca1c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b5fc05d795952db5df2d89f964cdefff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7c248717d5f38f1179e46af931d5f265",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7a55f43e2d662e86a05e1c4bb7d594bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "85d9208a0f8f6e27d121f9087bfc262e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d51ff7c4636d82d0aa2820d6322ba396",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a0fe1235c5b5eefcf1394dfe5c571b98",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8ec2b970cff08319f0d557b56083ea87",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d0d64adf315ed6222f850ce1e67a27d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2fee355eb4500b9b95f54af664766750",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a1f885a36d1a0beafeab2858357c4033",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "af2be425d5bfcbdcc955103bba13b093",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "4019cf5c90290d47ed21348786e6a281",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "58a924e3e19feec542f10336761580c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "63708bfdff1d8fbde55cc5831ced1eba",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "2e6e0354143442968555ff13b7d0f554",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "745bf9672806520b174b329ef07201e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "761b2c89f5f8d9c24bbcc6ec30f5e0b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3f7bb678b30d2ec77e0cacddc4339b7a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "5da68dd9fbdcc26d395e3830cfc52e38",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ee29e9fc65207d6719058d4fba7ae666",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2ecd21bf242c5e68e7f6d7e829926fac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "86736b97b6096bc85be23029ab384d10",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8bcad1f3f88f50706deec051a56f0b6c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "98f5386351c1ad99f2ae8af73b14d759",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ec4c3c43a5f6d5aa35a96c406cd01c29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b0cfc92ebf5d89173a647ec2f3e96990",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a63f6f37b17455726058379f51cf03d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b7482bfbf9e08dc0965a8df201fb22b9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1d3e66af2749bc75269f237fcfba26be",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "cdcfb9de9f7375fd205090ebce2b0fed",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "199d91216224ced1dd4745553728b9bb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "4f275dafc351d3c0876061eabde69caf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "ea1ed8a4d88f823f350518442db2f8fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "4a23dd3b71afbb3c9d9f09c33930dff0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "a71a14d105e5bf0e4979657074ec399b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "42abab5cb50c9054f873f6e82edfa672",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Dąb Dębieńsko (Czerwionka-Leszczyny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Książenice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "4ddad6498e39f7043a1ba4511819b623",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Sygnały Gotartowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pierwszy Chwałowice (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "3237e99432b5f838b5f5604701cd9e97",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "TKKF Zuch Orzepowice (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rymer II Rybnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ac2cee6def1179926a01d20345950570",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Inter II Krostoszowice",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
+        "name": "KS Wielopole (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "cf31fb596dcf15213ecdd86b75b80c66",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "KS 1947 Wielopole (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Radlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "96a0ffb8e310cc08f5c107d0fd99b036",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Rydułtowy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Niewiadom (Rybnik)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "394543af791018d257272b42912be7ba",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik I)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Ochojec (Rybnik)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Górki Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "937623f09797f29ef6ec8c56ce7e92f8",
       "stadium": null
     },
     {
@@ -146,6 +1926,10 @@
       "awayTeam": {
         "name": "KS 1947 Wielopole (Rybnik)",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-22T15:00:00.000Z"
       },
       "date": {
         "date": "2026-11-22",

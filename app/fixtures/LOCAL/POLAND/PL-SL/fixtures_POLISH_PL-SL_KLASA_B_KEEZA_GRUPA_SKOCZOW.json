@@ -1,24 +1,28 @@
 {
   "competitionName": "Klasa B Keeza (Skoczow)",
-  "count": 5,
+  "count": 35,
   "matches": [
     {
       "competition": {
         "name": "Klasa B Keeza (Skoczow)"
       },
       "homeTeam": {
-        "name": "Promyk Golasowice",
+        "name": "Morcinek Kaczyce",
         "crest": null
       },
       "awayTeam": {
-        "name": "Olza II Pogwizdów",
+        "name": "Wisła II Strumień",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "cd9fad1c7df85164af1f31de2b6e6c9b",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "44e945cffcd913b1e9af2b8a24750869",
       "stadium": null
     },
     {
@@ -26,18 +30,91 @@
         "name": "Klasa B Keeza (Skoczow)"
       },
       "homeTeam": {
-        "name": "UKS Warszowice",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Orzeł Zabłocie",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "awayTeam": {
+        "name": "Góral II Istebna",
+        "crest": null
       },
-      "id": "d27dbb453950880c6f42c9a746dd96ca",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "2df46792e1d67b8e9c3604b4e90c5cf7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak II Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promyk Golasowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "30d4422f68da70b79f85649cb9aef8ce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Rudnik (k. Skoczowa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Ochaby 96",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "170b03e21fce89e8ac40403a24775a46",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza II Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Warszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "146c8c9b23bec1a7a0c0bab23a337436",
       "stadium": null
     },
     {
@@ -49,14 +126,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Rudnik (k. Skoczowa)",
+        "name": "LKS Ochaby 96",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0cb8ccda8e87399cc498a6793adcbb13",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e460c22d0b7d91a53cfecad0265de881",
       "stadium": null
     },
     {
@@ -64,18 +147,49 @@
         "name": "Klasa B Keeza (Skoczow)"
       },
       "homeTeam": {
-        "name": "LKS Ochaby 96",
+        "name": "Promyk Golasowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rudnik (k. Skoczowa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "fa45a1f73c93365154bfed26b2624085",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "UKS Warszowice",
         "crest": null
       },
       "awayTeam": {
         "name": "Strażak II Pielgrzymowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "6ac7e670df13d8ff6a1d2fc55a3b24c8",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "734b9280b6811d5ea71b207544308a85",
       "stadium": null
     },
     {
@@ -87,14 +201,670 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Olza II Pogwizdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "17510ce5bf46222117ac91b2dcdc7b92",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
         "name": "Morcinek Kaczyce",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Orzeł Zabłocie",
+        "crest": null
       },
-      "id": "ca2781f00ca088e6f68e06fde6f7615c",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ae0b718f90d3ad0d372a9754b0db0aad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Zabłocie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Strumień",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "43ec4db9940fb8436f673599a65465a0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza II Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Morcinek Kaczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5c13977160ad9325d31a6e3071fb36a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak II Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Góral II Istebna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "94b39eaa47486ba3aca2d52cd6c4bbd1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Rudnik (k. Skoczowa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Warszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6325e7996074065a3a1123a998a18a97",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Ochaby 96",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promyk Golasowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ff1d0c9006babba338ef540afdf4b028",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Strumień",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promyk Golasowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4ccfde94eeebff37848a22c9b6bf0376",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "UKS Warszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Ochaby 96",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bec666ccac6cb9768b18df79b1dab4ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Góral II Istebna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rudnik (k. Skoczowa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5e2c89f466d01a55f532efde6e5c8cc7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Morcinek Kaczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak II Pielgrzymowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3af3fcf768befa37108fb197674b475f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Zabłocie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza II Pogwizdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3c8b0e2661468d50d359f0350cdf3587",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza II Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Strumień",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6ca036cc29c2bd8f0a03e9883675ad93",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak II Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Zabłocie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "acaf1a3fc306a9484cd30e3304a8418e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Rudnik (k. Skoczowa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Morcinek Kaczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "baacbafd402f58aa5fb5b911a29ae110",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Ochaby 96",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Góral II Istebna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "32705a9557a23184d172fee643a0f20f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Promyk Golasowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Warszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f2d1b763a72dbc8d3c7e4bc56e3ef0fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Strumień",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Warszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f5cf31749eabf92417ab6fd2f4929c97",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Góral II Istebna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promyk Golasowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e5a34beed7bc20667c7a385f614f1bca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Morcinek Kaczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Ochaby 96",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "62bc697b7144f9d4438abdf0cedfa44e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Zabłocie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rudnik (k. Skoczowa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b34e386ea1e457be1a38527bc8046eb8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Olza II Pogwizdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak II Pielgrzymowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b468d4a3e15e43d4fbe2d9e522436d2a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Strażak II Pielgrzymowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Strumień",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d202e0237e1f8c2fd86c63624637aecd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Rudnik (k. Skoczowa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza II Pogwizdów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d2e62d90cd37bfd6cf87ed6c69dceb29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "LKS Ochaby 96",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Zabłocie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "15e4e40449ceb903ce468e3e8cc2292b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "Promyk Golasowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Morcinek Kaczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "928a4480a9d3223a169ab005f7e8ee2d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B Keeza (Skoczow)"
+      },
+      "homeTeam": {
+        "name": "UKS Warszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Góral II Istebna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0fd701c3e8e7c1acd7cc373e0584e15d",
       "stadium": null
     }
   ]

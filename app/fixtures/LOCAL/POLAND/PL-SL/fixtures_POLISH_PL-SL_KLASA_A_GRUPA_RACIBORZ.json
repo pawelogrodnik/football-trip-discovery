@@ -1,62 +1,28 @@
 {
   "competitionName": "Klasa A (Raciborz)",
-  "count": 8,
+  "count": 88,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Raciborz)"
       },
       "homeTeam": {
-        "name": "Rozwój Bełsznica",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Czarni Nowa Wieś",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "588741a856a57a944ea8ddedbd1cf891",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Raciborz)"
-      },
-      "homeTeam": {
+      "awayTeam": {
         "name": "LKS Raszczyce",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Naprzód 37 Krzyżkowice",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-11T16:30:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T16:30:00.000Z"
       },
-      "id": "6cd0b93ae15341b5a1186176ab1fbaf5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Raciborz)"
-      },
-      "homeTeam": {
-        "name": "LKS Lyski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wypoczynek Buków",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "ac497c657faf0d58e82ebd6317cca125",
+      "id": "80506f10bc2b39f7d2224192b4b30046",
       "stadium": null
     },
     {
@@ -68,14 +34,158 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "a7e85d54a5f65b714f0a95771d83b45b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "fa7c90153a3c995bf021a471cc622e84",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "a92268ce01737b0133dbfb542306bf22",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "8422180cfd59b1e5d933bd50210da8b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:30:00.000Z"
+      },
+      "id": "f04b454f78fc6d4ecb6fd0b86ed7c9a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "7ee841ccdef8148932e51ed888cc0cfa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
         "name": "Start Pietrowice Wielkie",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
       },
-      "id": "929803f291a03dd39de5f3ec65fc90d5",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "eb59afb86377faa32b97569ee4bb21c2",
       "stadium": null
     },
     {
@@ -87,52 +197,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Grzegorzowice",
+        "name": "LKS Studzienna (Racibórz)",
         "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "161549f40019b475fa4cc96f792c21cd",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Raciborz)"
-      },
-      "homeTeam": {
-        "name": "LKS Owsiszcze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zameczek Czernica",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "id": "988ef9028e27005138f7697c8674c1ad",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Raciborz)"
-      },
-      "homeTeam": {
-        "name": "Buk Rudy Wielkie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Pietraszyn",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:30:00.000Z"
-      },
-      "id": "b6da6f4c96bbc8cd2cfc441a7903b958",
+      "id": "3c1561a959d86d37e79600a83c0d02be",
       "stadium": null
     },
     {
@@ -144,14 +222,1970 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4ccd798a6df2a28bfcae8c023949a078",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "49ac05262c9a526ddf93043822562a50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "LKS II Tworków",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "184750d2fc6171f95c27fe93a4c3d379",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a865b03b1bed18610dd7eb292eca800a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3fe0e3b9943a0e0a0fdcef3f49d24047",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f4ba2fc1850c25521ea758c7118b511b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d6ae1ad21d8c10eeecbb5e5b25bea0e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4c69ccaea14122511f1619d8f84c1893",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f030b0aab65d4acb94edf30c9732f1fa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "eb143447604500e2b54e55c90af964d1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "edcb2c15bd1515634a5c673196f9f2ac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0a2396f0bed059a8da2f04a459284c98",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "521763b398e7be58f76da70090767715",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c856d3991fdbd6d695ac8ecea90ace54",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3e7e32c1df44c9ca339473727a8cbc90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "dd6ab19aa2a6e31a3e8b213930e7b0cc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "952e5e957985ecc071993d86d6f07f92",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d6af289818e233db22246ca60d9f9a9f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0dd9175e8a42eb0b3609172b44b758c6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0ef1784bb691e379cf7cf6165d7e2e56",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "18f9b206b9f798f463558dcebb23cfc7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ce9a5083d9471dc50241076fa5c0c50f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1a35248ae7b095f68795715d76ef09b9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "fc6bbbbc64a2ca85d77ed996c1373636",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "449364dfad635b3441a361ce5d895102",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f32ebfc51f0a3ed2dc4644c948a5ac4a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f0873e66162d252c67e931dc092c13a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8831558dae2708b4af511782f4d65f43",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "59eb1937264b7b35cbfd3b5cd3dd49ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b72fea98ce7e7d8c2e4195af79e5799a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3421c5952770f111b6c60ea2c1520c8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "09fd6b94b53594c7cf3d76a5b68e8706",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "da11c09a50fc1f6e991b90cb02bec41d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4e582df88bcd057b9bc77c274764b675",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c91505c1133c86489e9b19438f68ec1a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c1ef6fc33f18efd719ef3cc3bb87e31b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "18d6e7c313e154296ca90e44e3ab7d16",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "33f8c5bc0da18f236300217a3703f06b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1e36ba5873297133892a4836ad92bc1b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e7ffe120cfa6ad7426f96e9893706ab3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8f4fc9415f6d77f16e0ea77a27f6be8b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "45ff722b44f60c0910e2c99d3a81cac5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6e4b98d5d4c086239172a41e501df202",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "203be0bd9e6e9e59a857f36bc734ee04",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6a24d3a6c3c1f34b4dfd6ae645f34383",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8cade11bee016bccb1c29fd95ffac31b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "73501ac2ec2b2b775139c00d3db74053",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7df5cb9ec2a626ea9771258be46df428",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b9d53aec4d265ff15bce99733d662dd6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9f7ade91671f2fe1446f7296162be236",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "144beaf6b66b50d6247254a08592e652",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7658dbc1e499900ca283157350e482d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6031b42c03c0610e69cd097a46e3f034",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "eb0c296201afa118aacc2e9528923f14",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1ecd4d1449abf0f1c1ea8e41d992b6dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2c6c67235b50ee86349e9ece2287d6fd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "99f6075eee63e71b94c2207b00c02f26",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "cf6cd2ea10b152e0ef5e7969a585634c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3b4eb08627a6d18fea0e9f61dfc70761",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b60500613249faebb218b2d268e776f9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4978039b53d4f638bdf86696c3d8df5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6c861ee006873248de04cf4e5aae3202",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "83fe584815a61462c5b7743814d8f18e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "29e1a0629a0208591bab77fa73dda566",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "771d3f1f1785a990080621ad3c4d686e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "8d7183d7dc6b5b46fd9317e0635fde69",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "efd6925ec4ccbc1b6658c241175eb92b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "95a4ac615a1702ac11a59c2bb526c8d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "2d1ad4022446ff41b2b1ae26858977a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "06bf1047e1e25e074c565ee6dede89bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "066e68289eba305091b54194e54d341f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "9336525d1afb187fdfbd13055d361315",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS II Tworków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gamów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "6b69fe8f92160f73b5e080822bba40f7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Start Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Pietraszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f0cbd19fe8fc084ddf79385f96448d62",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Grzegorzowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bfeddea8befea6cc42498eec8eb0f547",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Studzienna (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód 37 Krzyżkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "a4f763f2f0b572318fcde83dda5e127b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Syrynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zameczek Czernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "77f11524ef98f5e25cd0bb1222c94979",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Buk Rudy Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wypoczynek Buków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7ef3fa643a0526236adc94d6e804c46c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "Rozwój Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Lyski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e4469cef1a087c4cba799bfed5ccd7f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Raciborz)"
+      },
+      "homeTeam": {
+        "name": "LKS Raszczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Owsiszcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "291bfcf6ad587733b226cb6a766dccc5",
       "stadium": null
     }
   ]

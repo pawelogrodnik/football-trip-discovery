@@ -1,7 +1,228 @@
 {
   "competitionName": "Klasa A (Nowy Sacz)",
-  "count": 9,
+  "count": 58,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "19e64c5a66996d74ab354444d4ad49b1",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Orzeł Wojnarowa",
+        "geo": {
+          "latitude": 49.6714158,
+          "longitude": 20.9118338,
+          "name": "Orzeł Wojnarowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Grybovia Grybów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polany Berest",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "e33438f27ce920782c8f8b6bba4bd812",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Grybovia",
+        "geo": {
+          "latitude": 49.6284853,
+          "longitude": 20.9552989,
+          "name": "Grybovia Grybów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "ATP Binczarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawada Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "id": "83f1210e5108b91dd5aedd5a1fc7f7c7",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion w Binczarowej",
+        "geo": {
+          "latitude": 49.5625639,
+          "longitude": 20.9441234,
+          "name": "Stadion w Binczarowej"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpik Powroźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "eb0bc331562413f01e333a53979ed87a",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Jedność Nowy Sącz",
+        "geo": {
+          "latitude": 49.6206888,
+          "longitude": 20.7416683,
+          "name": "Jedność Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Chruślice Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "81d3efbd633a5c8a951da1a41e6cc793",
+      "stadium": {
+        "address": "Chruślicka 22, 33-300 Nowy Sącz",
+        "venue": "Stadion KS Chruślice",
+        "geo": {
+          "latitude": 49.6251622,
+          "longitude": 20.7284834,
+          "name": "Boisko KS Chruślice, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Hart Tęgoborze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Witowice Dolne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "1add695271ce013204d626a15379a0c6",
+      "stadium": {
+        "address": "Sportowa 11, 33-312 Tęgoborze",
+        "venue": "Stadion Hart Tęgoborze",
+        "geo": {
+          "latitude": 49.7117111,
+          "longitude": 20.6429065,
+          "name": "Stadion Hart Tęgoborze"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Korona Beskidu Tylicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Mszalnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "7342ecf330a2cdae74403634a5c43fbf",
+      "stadium": {
+        "address": "Sportowa 6, 33-383 Tylicz",
+        "venue": "Stadion Korona Beskidu",
+        "geo": {
+          "latitude": 49.3989188,
+          "longitude": 21.0269028,
+          "name": "Stadion Korona Beskidu, Tylicz"
+        }
+      }
+    },
     {
       "competition": {
         "name": "Klasa A (Nowy Sacz)"
@@ -11,14 +232,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Grybovia Grybów",
+        "name": "Chruślice Nowy Sącz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "f0895beb8ea3b9b03c0c2694cc0724e5",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0a51e6f437e12eba2a804a113b005746",
       "stadium": {
         "address": null,
         "venue": "Stadion LKS Zawada",
@@ -38,14 +265,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Korona Beskidu Tylicz",
+        "name": "ATP Binczarowa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "3de1cb8b55b24889d3d487b7620e2897",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4c263e3c379b5f983fad0381d209a85a",
       "stadium": {
         "address": null,
         "venue": "Stadion Miejski w Polanach",
@@ -61,72 +294,24 @@
         "name": "Klasa A (Nowy Sacz)"
       },
       "homeTeam": {
-        "name": "ATP Binczarowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Chruślice Nowy Sącz",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "b6f18099dd113cca7598f22c53492098",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion w Binczarowej",
-        "geo": {
-          "latitude": 49.5625639,
-          "longitude": 20.9441234,
-          "name": "Stadion w Binczarowej"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Nowy Sacz)"
-      },
-      "homeTeam": {
-        "name": "Victoria Witowice Dolne",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jedność Nowy Sącz",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "96becc3dbfa673a9e02cb4bb880069dd",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Victoria Witowice Dolne",
-        "geo": {
-          "latitude": 49.785318,
-          "longitude": 20.660973,
-          "name": "Victoria Witowice Dolne"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Nowy Sacz)"
-      },
-      "homeTeam": {
         "name": "LKS Mszalnica",
         "crest": null
       },
       "awayTeam": {
-        "name": "Hart Tęgoborze",
+        "name": "Grybovia Grybów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "b1e169a9251f5da0570ab9cbd9b1da40",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d0b95bc417e65d390fde69a441655dcd",
       "stadium": {
         "address": null,
         "venue": "Stadion LKS Mszalnica",
@@ -142,25 +327,31 @@
         "name": "Klasa A (Nowy Sacz)"
       },
       "homeTeam": {
-        "name": "Amator Paszyn",
+        "name": "Victoria Witowice Dolne",
         "crest": null
       },
       "awayTeam": {
-        "name": "Nawoj Nawojowa",
+        "name": "Korona Beskidu Tylicz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "8d2986c9c77e2c45544e972e425f1dc0",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4be418b6fad431ecbd9be09c9346263b",
       "stadium": {
-        "address": "Paszyn 77, 33-326 Paszyn",
-        "venue": "Stadion Amator Paszyn",
+        "address": null,
+        "venue": "Stadion Victoria Witowice Dolne",
         "geo": {
-          "latitude": 49.6221976,
-          "longitude": 20.7771222,
-          "name": "LKS Amator, Paszyn"
+          "latitude": 49.785318,
+          "longitude": 20.660973,
+          "name": "Victoria Witowice Dolne"
         }
       }
     },
@@ -173,14 +364,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Wojnarowa",
+        "name": "Hart Tęgoborze",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "99ca5bb5a3c42a5408686dc821b2e2ef",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "102b2db26d14dd02d0301ba07fc9b697",
       "stadium": {
         "address": "Powroźnik 140A, 33-370 Powroźnik",
         "venue": "Stadion Olimpik Powroźnik",
@@ -196,12 +393,1237 @@
         "name": "Klasa A (Nowy Sacz)"
       },
       "homeTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6f59c6159c22779b35afbcdea3843c0d",
+      "stadium": {
+        "address": "Paszyn 77, 33-326 Paszyn",
+        "venue": "Stadion Amator Paszyn",
+        "geo": {
+          "latitude": 49.6221976,
+          "longitude": 20.7771222,
+          "name": "LKS Amator, Paszyn"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "723445d64f71ef4a9b071cf91a962792",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Nawoj Nawojowa",
+        "geo": {
+          "latitude": 49.5605738,
+          "longitude": 20.7488684,
+          "name": "Nawoj Nawojowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Chruślice Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1157cf884b5d7fc20ece3dcf0219e36f",
+      "stadium": {
+        "address": "Chruślicka 22, 33-300 Nowy Sącz",
+        "venue": "Stadion KS Chruślice",
+        "geo": {
+          "latitude": 49.6251622,
+          "longitude": 20.7284834,
+          "name": "Boisko KS Chruślice, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f0150f271895a21e575df8b42d752ad7",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Jedność Nowy Sącz",
+        "geo": {
+          "latitude": 49.6206888,
+          "longitude": 20.7416683,
+          "name": "Jedność Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Hart Tęgoborze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6d2e8e95588dc11259c2a605d3557374",
+      "stadium": {
+        "address": "Sportowa 11, 33-312 Tęgoborze",
+        "venue": "Stadion Hart Tęgoborze",
+        "geo": {
+          "latitude": 49.7117111,
+          "longitude": 20.6429065,
+          "name": "Stadion Hart Tęgoborze"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Korona Beskidu Tylicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpik Powroźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "053f19597946e724a110f07c085c123b",
+      "stadium": {
+        "address": "Sportowa 6, 33-383 Tylicz",
+        "venue": "Stadion Korona Beskidu",
+        "geo": {
+          "latitude": 49.3989188,
+          "longitude": 21.0269028,
+          "name": "Stadion Korona Beskidu, Tylicz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Grybovia Grybów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Witowice Dolne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "df4f1f4aaa2fd76fc6f8af5ca38c7f68",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Grybovia",
+        "geo": {
+          "latitude": 49.6284853,
+          "longitude": 20.9552989,
+          "name": "Grybovia Grybów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "ATP Binczarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Mszalnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ce1bf555f3eb6eee71956d27602f6761",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion w Binczarowej",
+        "geo": {
+          "latitude": 49.5625639,
+          "longitude": 20.9441234,
+          "name": "Stadion w Binczarowej"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Zawada Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polany Berest",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ade2805a5ca2485673d3d0342db248fe",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Zawada",
+        "geo": {
+          "latitude": 49.5749354,
+          "longitude": 20.7396726,
+          "name": "LKS Zawada, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Polany Berest",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chruślice Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "baec348795672d1ddde39a75275b5a8c",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Miejski w Polanach",
+        "geo": {
+          "latitude": 49.5186157,
+          "longitude": 20.9885094,
+          "name": "Stadion Miejski w Polanach"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "LKS Mszalnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawada Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "aadafcd5b000c4e80e53543aa9f3c5ca",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Mszalnica",
+        "geo": {
+          "latitude": 49.6085899,
+          "longitude": 20.8185655,
+          "name": "Stadion LKS Mszalnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Victoria Witowice Dolne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ATP Binczarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "17a84f944ee1b76d2002e59a657a7d91",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Victoria Witowice Dolne",
+        "geo": {
+          "latitude": 49.785318,
+          "longitude": 20.660973,
+          "name": "Victoria Witowice Dolne"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Olimpik Powroźnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grybovia Grybów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f17c18bbfb23b1f66ed38a77e5a135ed",
+      "stadium": {
+        "address": "Powroźnik 140A, 33-370 Powroźnik",
+        "venue": "Stadion Olimpik Powroźnik",
+        "geo": {
+          "latitude": 49.371432,
+          "longitude": 20.9473307,
+          "name": "Boisko Olimpik Powroźnik"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Beskidu Tylicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "753c6766fa00bd5ebdf36ef6fabc5420",
+      "stadium": {
+        "address": "Paszyn 77, 33-326 Paszyn",
+        "venue": "Stadion Amator Paszyn",
+        "geo": {
+          "latitude": 49.6221976,
+          "longitude": 20.7771222,
+          "name": "LKS Amator, Paszyn"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hart Tęgoborze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8dbcaad9946fcbf4bb293c8c9a7c1b9a",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Nawoj Nawojowa",
+        "geo": {
+          "latitude": 49.5605738,
+          "longitude": 20.7488684,
+          "name": "Nawoj Nawojowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0e8a29619ab511b62b14b07ec03608f9",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Orzeł Wojnarowa",
+        "geo": {
+          "latitude": 49.6714158,
+          "longitude": 20.9118338,
+          "name": "Orzeł Wojnarowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Chruślice Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c86b83954f426230ce03d5d87c092b3e",
+      "stadium": {
+        "address": "Chruślicka 22, 33-300 Nowy Sącz",
+        "venue": "Stadion KS Chruślice",
+        "geo": {
+          "latitude": 49.6251622,
+          "longitude": 20.7284834,
+          "name": "Boisko KS Chruślice, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Hart Tęgoborze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3cef5ea8b11eee9358753f8351b540c2",
+      "stadium": {
+        "address": "Sportowa 11, 33-312 Tęgoborze",
+        "venue": "Stadion Hart Tęgoborze",
+        "geo": {
+          "latitude": 49.7117111,
+          "longitude": 20.6429065,
+          "name": "Stadion Hart Tęgoborze"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Korona Beskidu Tylicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "756db5f78f7565399dc86f0e8b022cc6",
+      "stadium": {
+        "address": "Sportowa 6, 33-383 Tylicz",
+        "venue": "Stadion Korona Beskidu",
+        "geo": {
+          "latitude": 49.3989188,
+          "longitude": 21.0269028,
+          "name": "Stadion Korona Beskidu, Tylicz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Grybovia Grybów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "05e5c46d4ed51e0fc23912abae30eb5c",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Grybovia",
+        "geo": {
+          "latitude": 49.6284853,
+          "longitude": 20.9552989,
+          "name": "Grybovia Grybów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "ATP Binczarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpik Powroźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cb89cc2b34c6a0653b1f681902d9ff55",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion w Binczarowej",
+        "geo": {
+          "latitude": 49.5625639,
+          "longitude": 20.9441234,
+          "name": "Stadion w Binczarowej"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Zawada Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Witowice Dolne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f4971f5355c574eb5f348e6b48858f13",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Zawada",
+        "geo": {
+          "latitude": 49.5749354,
+          "longitude": 20.7396726,
+          "name": "LKS Zawada, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Polany Berest",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Mszalnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d7252ea47e6a3ffd36ec9530b3686d06",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Miejski w Polanach",
+        "geo": {
+          "latitude": 49.5186157,
+          "longitude": 20.9885094,
+          "name": "Stadion Miejski w Polanach"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "LKS Mszalnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chruślice Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d5996845334725e49fc847d517a050dd",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Mszalnica",
+        "geo": {
+          "latitude": 49.6085899,
+          "longitude": 20.8185655,
+          "name": "Stadion LKS Mszalnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Victoria Witowice Dolne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polany Berest",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c2ea40ecfacfd3913b58dcf87ea39183",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Victoria Witowice Dolne",
+        "geo": {
+          "latitude": 49.785318,
+          "longitude": 20.660973,
+          "name": "Victoria Witowice Dolne"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Olimpik Powroźnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawada Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "07c332bf6310ae56cd7c212bceb7736a",
+      "stadium": {
+        "address": "Powroźnik 140A, 33-370 Powroźnik",
+        "venue": "Stadion Olimpik Powroźnik",
+        "geo": {
+          "latitude": 49.371432,
+          "longitude": 20.9473307,
+          "name": "Boisko Olimpik Powroźnik"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ATP Binczarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "21f999c236cefd3ee1e443f502b0b3a7",
+      "stadium": {
+        "address": "Paszyn 77, 33-326 Paszyn",
+        "venue": "Stadion Amator Paszyn",
+        "geo": {
+          "latitude": 49.6221976,
+          "longitude": 20.7771222,
+          "name": "LKS Amator, Paszyn"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grybovia Grybów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "99c91c4f79c4130fb16ccd64668c7b91",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Nawoj Nawojowa",
+        "geo": {
+          "latitude": 49.5605738,
+          "longitude": 20.7488684,
+          "name": "Nawoj Nawojowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Beskidu Tylicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0b3797d4589707a84739ec034e0ea968",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Orzeł Wojnarowa",
+        "geo": {
+          "latitude": 49.6714158,
+          "longitude": 20.9118338,
+          "name": "Orzeł Wojnarowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hart Tęgoborze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e285c1de350687fc2f960a382ed615da",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Jedność Nowy Sącz",
+        "geo": {
+          "latitude": 49.6206888,
+          "longitude": 20.7416683,
+          "name": "Jedność Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Chruślice Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hart Tęgoborze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "49577adb2f8d03d97baa44b8f74eb0c5",
+      "stadium": {
+        "address": "Chruślicka 22, 33-300 Nowy Sącz",
+        "venue": "Stadion KS Chruślice",
+        "geo": {
+          "latitude": 49.6251622,
+          "longitude": 20.7284834,
+          "name": "Boisko KS Chruślice, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Korona Beskidu Tylicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "49277a8baab1b59495aa7d06ebb7c0ed",
+      "stadium": {
+        "address": "Sportowa 6, 33-383 Tylicz",
+        "venue": "Stadion Korona Beskidu",
+        "geo": {
+          "latitude": 49.3989188,
+          "longitude": 21.0269028,
+          "name": "Stadion Korona Beskidu, Tylicz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Grybovia Grybów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ba3db96e5177743eba65333df6666f58",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Grybovia",
+        "geo": {
+          "latitude": 49.6284853,
+          "longitude": 20.9552989,
+          "name": "Grybovia Grybów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "ATP Binczarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8d2a6089bef265603f6e8af752512fb3",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion w Binczarowej",
+        "geo": {
+          "latitude": 49.5625639,
+          "longitude": 20.9441234,
+          "name": "Stadion w Binczarowej"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Zawada Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4a1d00b22d69c368ce40b6a1930fff34",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Zawada",
+        "geo": {
+          "latitude": 49.5749354,
+          "longitude": 20.7396726,
+          "name": "LKS Zawada, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Polany Berest",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpik Powroźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9857fefce6efce08759fb1332a773de6",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Miejski w Polanach",
+        "geo": {
+          "latitude": 49.5186157,
+          "longitude": 20.9885094,
+          "name": "Stadion Miejski w Polanach"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "LKS Mszalnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Witowice Dolne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c8c44c74e98fbe886a535f26dbf5fb85",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Mszalnica",
+        "geo": {
+          "latitude": 49.6085899,
+          "longitude": 20.8185655,
+          "name": "Stadion LKS Mszalnica"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
         "name": "Victoria Witowice Dolne",
         "crest": null
       },
       "awayTeam": {
         "name": "Nawoj Nawojowa",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T15:00:00.000Z"
       },
       "date": {
         "date": "2026-10-31",
@@ -230,6 +1652,10 @@
         "name": "Amator Paszyn",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T15:00:00.000Z"
+      },
       "date": {
         "date": "2026-10-31",
         "dateTime": "2026-10-31T15:00:00.000Z"
@@ -242,6 +1668,237 @@
           "latitude": 49.6251622,
           "longitude": 20.7284834,
           "name": "Boisko KS Chruślice, Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Victoria Witowice Dolne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chruślice Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a64bb61f95e7572c93723379b16ac190",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Victoria Witowice Dolne",
+        "geo": {
+          "latitude": 49.785318,
+          "longitude": 20.660973,
+          "name": "Victoria Witowice Dolne"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Olimpik Powroźnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Mszalnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c3e7f66ee995a6c955d3b6f7be75a51e",
+      "stadium": {
+        "address": "Powroźnik 140A, 33-370 Powroźnik",
+        "venue": "Stadion Olimpik Powroźnik",
+        "geo": {
+          "latitude": 49.371432,
+          "longitude": 20.9473307,
+          "name": "Boisko Olimpik Powroźnik"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polany Berest",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "31db0fd4a7b4236becf57bd91a6c248e",
+      "stadium": {
+        "address": "Paszyn 77, 33-326 Paszyn",
+        "venue": "Stadion Amator Paszyn",
+        "geo": {
+          "latitude": 49.6221976,
+          "longitude": 20.7771222,
+          "name": "LKS Amator, Paszyn"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Nawoj Nawojowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zawada Nowy Sącz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "38956e0b746315683215ec73055e74d3",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Nawoj Nawojowa",
+        "geo": {
+          "latitude": 49.5605738,
+          "longitude": 20.7488684,
+          "name": "Nawoj Nawojowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ATP Binczarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e1ec7b472e114168a51351daadd6cd7b",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Orzeł Wojnarowa",
+        "geo": {
+          "latitude": 49.6714158,
+          "longitude": 20.9118338,
+          "name": "Orzeł Wojnarowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Jedność Nowy Sącz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grybovia Grybów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3bf7c49699095ebd50b5cc2abf0250a8",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Jedność Nowy Sącz",
+        "geo": {
+          "latitude": 49.6206888,
+          "longitude": 20.7416683,
+          "name": "Jedność Nowy Sącz"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Hart Tęgoborze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Beskidu Tylicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "31e944bc8ffb2b3c542bad0d5353c733",
+      "stadium": {
+        "address": "Sportowa 11, 33-312 Tęgoborze",
+        "venue": "Stadion Hart Tęgoborze",
+        "geo": {
+          "latitude": 49.7117111,
+          "longitude": 20.6429065,
+          "name": "Stadion Hart Tęgoborze"
         }
       }
     }

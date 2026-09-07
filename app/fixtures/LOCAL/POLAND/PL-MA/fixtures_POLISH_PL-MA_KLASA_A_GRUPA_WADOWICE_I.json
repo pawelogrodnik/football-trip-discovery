@@ -1,81 +1,166 @@
 {
   "competitionName": "Klasa A (Wadowice I)",
-  "count": 7,
+  "count": 63,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Wadowice I)"
       },
       "homeTeam": {
-        "name": "Garbarz Zembrzyce",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Strzelec Budzów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "e8d80ad67f80bd5d2f69aa758b181b0a",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Wadowice I)"
-      },
-      "homeTeam": {
-        "name": "Lachy Lachowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tempo II Białka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "1d1da1f15f2ba3f96ac28e80736e181d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Wadowice I)"
-      },
-      "homeTeam": {
-        "name": "Korona Skawinki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Leńczanka Leńcze",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "c8e0e67f9f82568b4f3bd71b1e801731",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Wadowice I)"
-      },
-      "homeTeam": {
-        "name": "Jastrzębianka Jastrzębia",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Żarek Barwałd Górny",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "awayTeam": {
+        "name": "Cedron Brody",
+        "crest": null
       },
-      "id": "16fd92c7271d614a8bebaf9c1c2278f5",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "96f9fbd0df4b4e28612fb2054b85f100",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "1217e61edf3fc17f335e1453d560d27e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "9273b3e61c0067382b253cbc410c2ab5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "88498164bc6e821a1d6d2fc8a4201d20",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "d06984d273de9b6d0e2811e5d0d12215",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "54bff981f434ea787950ae96f3ffeee9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "4f469299a33e11840e93465c3e21b0a1",
       "stadium": null
     },
     {
@@ -87,14 +172,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "BCS Zawoja",
+        "name": "Garbarz Zembrzyce",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "f7259f0c812e82dfe5e256adf5f92e5b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d8f6b31950c8ada3d07550b01e723022",
       "stadium": null
     },
     {
@@ -106,14 +197,70 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d34152ac2ae5086fb16a3938503b7b79",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4d236f595fb6ccc950c9ae3099f00d42",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Halniak II Maków Podhalański",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "3511c0ad93613d6d3745534448d67288",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b18b96c122db9e851f5a3418095a8012",
       "stadium": null
     },
     {
@@ -125,14 +272,1295 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "89d2332ceef20a5d7163c4911e6a5dc1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5f6dbe88c9eab466b68599c2492b8d0e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Jałowiec Stryszawa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0bc0298232ea3db15ab5803690fb7d6b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2425bc0c8e4f75b69c48571bcb119de2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cedron Brody",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9cec9cd9d2110b0c4c18cf9477558ae0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "085b72cad021aab2ec89d9511a1d2003",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "05c77ade58d50530960d6d9ced9ea736",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ed6b856e78d52a7015374cbca457623f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8deedcc1836e2137f5eea0470eb3b35a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8b9ed974af7b00eb082bbd1382522475",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7157bfb20def9ad4001ff3c6c3bb0c56",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Cedron Brody",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9cbf0532437853fee4c9992f5a6c5183",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "92e08738274ec3f9ee78bc2a3ce527b1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b3161ad1411ebfd093c0d848047d28c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bc91d41591df9709dba030eca8d6e1aa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c07e6a45bc001b95797d04f3d78b4ba1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ac6cbeac9d6ad11d56f04903415af19d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "759990df814a6ddffb354d283f7f2a29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cedron Brody",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8f3ad477b4c455fe85d6b9436beb7c29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0fb4330625b6552400e748296f840a23",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9dd7bfc4cf0027efddf9f5b7559e5191",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e496994fdee0c53d92cc2e0d00c8496a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b26fcb45ce94072d9e41a6ff63e9b05c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d30642c2bffa61d94a6dc3d20bfab846",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "12e8c6f29c2ab2a8b9e539915748742d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Cedron Brody",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4b2f6064ee562dcca8925b117ddf8e19",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "88ff2be8393038cdd12a85c095d0f5ee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0070cab3feb1bf5f398c9cafe67f8017",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "18a1734b1a242128aa44bd014ff695cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c27a6d17a2d79ac55f4193e85a83c683",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bf362413548a21a16f5c16de1abe6142",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a28d81ae4fcd531ed4a62e8d63d23207",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Cedron Brody",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ba137ee718c3774cb150a0b26eab4841",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0aab6a01d513ed61edd341df1e77418d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7f996ea3b15d71de0377f7d46f03b1c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "faebe24078ffb5cfe6857b086a6fc2b3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "29d66a45b99143af22e0f3a73e499713",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "809241f3912d11791e320631d404fb78",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "003436362a162572cda33dd92ceabde6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cedron Brody",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a29308dc22b47e36ac1be3cd146d822c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6916f15ad6be469401e3905d06ee2474",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "be736004d1cffedb74789de9ec881acc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "385aea04dc006cfb6dd2296924b873f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "99027135fe545ab57e747137cb5456e6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0ef907523d255b02ee2f75162771acab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1addebdf8d3e7b2f36999d1f1b497cc2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Halniak II Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cedron Brody",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a8092d30b4e812dc656be33d9a774927",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Strzelec Budzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tempo II Białka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "81033143350b733eff94546bafed88ec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "BCS Zawoja",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Leńczanka Leńcze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8a0748bb40a290085e2308b1655e14e3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Garbarz Zembrzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jałowiec Stryszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "02410d8427b82a7b81ee752a000ee470",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Chełm Stryszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żarek Barwałd Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "69fd4ee53213f2edcc659bc3b44ef178",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Lachy Lachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jastrzębianka Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6eaa1b43db59145f69a7dee15507c0cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Korona Skawinki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stanisławianka Stanisław Dolny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "94c074336f6feab03f4ad20b37848616",
       "stadium": null
     }
   ]

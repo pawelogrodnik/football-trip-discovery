@@ -1,62 +1,28 @@
 {
   "competitionName": "Liga okręgowa (Radom)",
-  "count": 8,
+  "count": 80,
   "matches": [
     {
       "competition": {
         "name": "Liga okręgowa (Radom)"
       },
       "homeTeam": {
-        "name": "KS Stromiec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Oronka Orońsko",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
-      },
-      "id": "74652e6d6ad0c50e3e11d9f03e23096f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "Centrum Radom",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Gracja Tczów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
-      },
-      "id": "5e9d7fbfeb70e5e1e022527a04e09361",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "KS Warka",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Mazowsze Grójec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
+      "awayTeam": {
+        "name": "Centrum Radom",
+        "crest": null
       },
-      "id": "6b5a4a0cb581f2d9ded36c0d5461c4f4",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "29f6cfb3067ca5ef9746532ca48c6dce",
       "stadium": null
     },
     {
@@ -64,37 +30,114 @@
         "name": "Liga okręgowa (Radom)"
       },
       "homeTeam": {
-        "name": "Iłżanka Kazanów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Szydłowianka Szydłowiec",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "e5a56981d4210261253d52fd2f74de28",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "LKS Promna",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Orzeł Wierzbica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "KS Stromiec",
+        "crest": null
       },
-      "id": "9f84e3ca8686bc9502ee408320428e5d",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "56abd35054c9b4fa8f124779da8d2beb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "0be03c1729da765dbfe4a50eb25198b2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:30:00.000Z"
+      },
+      "id": "657b5799eb3ae7f6f9d23c8caa913635",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "9035768cecaf7adf86ca7fc86b249aaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "2fef3e3465e28d8fab95e2e9da20dd30",
       "stadium": null
     },
     {
@@ -106,14 +149,41 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "42e8256992c31b961a2612e4e1ec6dde",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
         "name": "Polonia Iłża",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
+      "awayTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
       },
-      "id": "e7b5770c38efc9e0c237ae9f14af05fe",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "7f00ec157a834add0360105c35262245",
       "stadium": null
     },
     {
@@ -125,14 +195,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Młodzik 18 Radom",
+        "name": "Polonia Iłża",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "c1fc35a4558437b59920ae12c8abd51c",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "be67d8f7bf2ccb0084f439232111ad1b",
       "stadium": null
     },
     {
@@ -144,14 +220,1770 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8ad53209aa6dd73bd999705b91d9319f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8174e6470fe7d70068a1a76aaaab62fa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Sokół Przytyk",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "aacdce62c577068d01c008757020bc66",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "20c89c6b950c888227d6684712c77852",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9a11a2ea9cb1b67e987b16c150ea7abb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "bf5ffd8bfbf939d39103a1f032400157",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "16786cf75238794e4df66cc4c92ee256",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b6a16247e124ef514cb0465ececfa603",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "cf330799988e3eb7f2eac3adc48bbf63",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "59296bd1bb851216afefc136fe3378db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4b7a1f4eb794a82d0c0e8df19dc6277e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "275b77e2cf4bf91ee693e617d65758a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3790317321c53bf6c7792deb163263ca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "62c2961092efb590b34b233b82366701",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b8079bf0856f8a49c1dd600566402f73",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "25b90a101ba253871d4bc0fe7e617a45",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "48fa004e3f9267d04785ab36cbaed08d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c1a906966b18b310b03502879459bec7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e15cb39aad43272e85f9aaf72d217708",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "40de55d0857368efce295c195b9bd281",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1570c1acbb4704813f2efdaa031892bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9c7d51208971e9429bb35659271c26c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "147796f1d12ba8ad8881958e3ba02722",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9eb2f94fa7f590f5c433301d52e20d56",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6c1d01cc026fe527e9279eb6cc630e8a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9fe716b7a935d686c14c68374f4603e5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f99408a0b9a6f2e84269761acb257b12",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "78c8c02fe479a8b18c7f2e4784c4fb85",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2071d69a713aee1a6a391f2ed9e1d38e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "08832a490222e2e6b8fafe987a6b183c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "21c0a54679147622d01c1d32ccd2b85c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9e7d481790247243d9938176af026cad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7b11e4316600d24cbc05d1dddbe5a014",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ee7e83d5ea86e48958053721208fc12c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "23746a0204fbc3d2c4b18aeda4d95cb4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "64ecb88f3975f7c9150b834d005886cf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6b925e64c06ed0136773bf802904438e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3bdf73542ff7f0822a9bb70712f2914d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4ad13787a310b6022b4c0d636b1105ef",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e9067aacaf9efaf542650336c9498f96",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1f859c41e50ce553c4583c2a8395905a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8934303720543107d3116d0d138ddd04",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9fad2a7f0112ccc0e2ac974dbbe258fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "94a1b8890330b28b2da42351760200fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9362187700b707ca3419b0039c10f872",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "086e7a1349298e9a96d8bbd496de81a6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "614c1f2da40236be1fc1f50e203e9477",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "302a2432f9a0ff473eb0d4ea9bf35b39",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7e35ade946f4a5f18fc9b85ca8843d2a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7e1284b7b97de99af9c18a1fdc659e02",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "278cb8ac66214be89ea6eead8ec87620",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "5f5277ef6b3997fda6c7cfc299e27701",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a13165c687fdef4d0858bb41143fda46",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ace9c60f3d47fe8bab9871c32be08c6e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "cae6aa2358c6de423ba04b2353f5f0b3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "db79ddee226cdc2f82b7ebd3bd2971df",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0a61daa8e9b4c2965dee2d37bfd78ec3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e884eb11eb62ec9c74fd0a4f651b91a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c118edf122155526d0f87b62f41df5eb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d810736b42cff530df26cf58faa9c623",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "cc87b05bbbf6770196347b8c365720f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4232d809b86a405c978edd479a7c63ea",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9787606cad8e947ea4aa65e86bbd2b44",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "da55d920724b4bd7e550700c10cc7cf3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2409d5bb6212ce523a033b86658e61fa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "652f708f06f7ad4b634ed8aefac82cfd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "284b247e3efc5aa8e620dee742c1bdbb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9252e27a97b739ad702b1d82ef10891e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c15a2b3d9c1ccd065dfcdddc4889b1c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f68f4cc6cd56706cdc273e676d55c79a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9a14ac855360c942f7d16512436f51f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "481a0b21923544e45b56685c8b225e14",
       "stadium": null
     }
   ]

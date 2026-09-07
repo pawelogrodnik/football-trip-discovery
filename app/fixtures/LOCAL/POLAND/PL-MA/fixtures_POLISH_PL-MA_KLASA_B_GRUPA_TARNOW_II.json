@@ -1,6 +1,6 @@
 {
   "competitionName": "Klasa B (Tarnow II)",
-  "count": 5,
+  "count": 30,
   "matches": [
     {
       "competition": {
@@ -11,14 +11,110 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LUKS II Skrzyszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-11T19:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T19:00:00.000Z"
+      },
+      "id": "abb2f4c286445e9549f0486113948d87",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "LKS Olszyny (k. Ołpin)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Siemiechów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:30:00.000Z"
+      },
+      "id": "08d53f13b9585bbe9c1e99b6c7047178",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Ryglice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Tarnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "f100ba7f8fd9ed00324b236fe2f77fcc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
         "name": "KS Łękawica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T19:30:00.000Z"
+      "awayTeam": {
+        "name": "Liwocz Czermna",
+        "crest": null
       },
-      "id": "61cd62221dd118555f10a61ecd539862",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "5582c05d32c897d9dadbeed96903c22a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Rzepiennik Strzyżewski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Szynwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "id": "32650c5e012dac67ed255509713a2570",
       "stadium": null
     },
     {
@@ -30,14 +126,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS Ryglice",
+        "name": "KS Łękawica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "c92ef7e47250c9a6dd4d3a64994c80a8",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "211f900762c9e8f7d7a7dfaafad7ee86",
       "stadium": null
     },
     {
@@ -49,14 +151,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Olszyny (k. Ołpin)",
+        "name": "Alfa Siedliska",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "479e503c5602314c468c6f519c5ba3e0",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c2bade882bf784520a82c9dff88b7bed",
       "stadium": null
     },
     {
@@ -68,14 +176,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS Rzepiennik Strzyżewski",
+        "name": "KS Ryglice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "cf2c8dd27bd19333fbb3bc976fb89435",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0a9f50b3665f70e0da9506381a5c179a",
       "stadium": null
     },
     {
@@ -87,14 +201,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Liwocz Czermna",
+        "name": "LKS Olszyny (k. Ołpin)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "afe132c2cdbbe686010bcd3b7cf1aa02",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f840caf985e3f1223f3edd7409956a1c",
       "stadium": {
         "address": "Szynwałd 34, 33-158 Szynwałd",
         "venue": "Boisko LKS Szynwałd",
@@ -104,6 +224,547 @@
           "name": "Szynwałd 34, Szynwałd, powiat tarnowski, województwo małopolskie, 33-158, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "Liwocz Czermna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rzepiennik Strzyżewski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9bce36fa475958b0b302ab0f628b6a37",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Łękawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rzepiennik Strzyżewski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "06f660758eda47e87be9b0ff0c00f145",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "LKS Olszyny (k. Ołpin)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liwocz Czermna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e982cfddc455756825548d195e09ce2e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Ryglice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Szynwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "04a854898c63c31e4748eb825dfb463f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "Alfa Siedliska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Siemiechów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "62abdd104b71fdfa8a4d0fc7438ba712",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "LUKS II Skrzyszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Tarnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f2ab9eee6377691ddd51d74cf25c7fee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Tarnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Łękawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9c13e32fddea2207f52b2a216c44740f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "WKS Siemiechów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LUKS II Skrzyszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b3e50db92e9233027f43d12b5f1c6525",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Szynwałd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alfa Siedliska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a38a0aa0339d907153c8fcef9f351084",
+      "stadium": {
+        "address": "Szynwałd 34, 33-158 Szynwałd",
+        "venue": "Boisko LKS Szynwałd",
+        "geo": {
+          "latitude": 49.9839014,
+          "longitude": 21.1129814,
+          "name": "Szynwałd 34, Szynwałd, powiat tarnowski, województwo małopolskie, 33-158, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "Liwocz Czermna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Ryglice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "16ed16db3296b5b2f4d1a493643583c5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Rzepiennik Strzyżewski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Olszyny (k. Ołpin)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "81b14dcb6e70426d600f2282d5809edd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Łękawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Olszyny (k. Ołpin)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3b6d2557d854f82e4ef96d76098ef26f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Ryglice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rzepiennik Strzyżewski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7365e45c556f760c9554f9a569ca75f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "Alfa Siedliska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liwocz Czermna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ed2dfa06c5fe9b1f5af2f96e6f11d000",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "LUKS II Skrzyszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Szynwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f0c8ac061e747a8669e3a060261d5545",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Tarnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Siemiechów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "256057accb645f09f5aa3c5e3e65800d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "WKS Siemiechów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Łękawica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "442ecf32382b615b9588e564c0ddec6c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Szynwałd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Tarnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "86ff06267f68c09b5866e922287deffa",
+      "stadium": {
+        "address": "Szynwałd 34, 33-158 Szynwałd",
+        "venue": "Boisko LKS Szynwałd",
+        "geo": {
+          "latitude": 49.9839014,
+          "longitude": 21.1129814,
+          "name": "Szynwałd 34, Szynwałd, powiat tarnowski, województwo małopolskie, 33-158, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "Liwocz Czermna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LUKS II Skrzyszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1ca148c202c78fea62ac4b2e251b4ab7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "KS Rzepiennik Strzyżewski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alfa Siedliska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "28dddd8060c25232134229877fc32f8e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "LKS Olszyny (k. Ołpin)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Ryglice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b4f5334ad179287a7fbe6209bf174824",
+      "stadium": null
     }
   ]
 }

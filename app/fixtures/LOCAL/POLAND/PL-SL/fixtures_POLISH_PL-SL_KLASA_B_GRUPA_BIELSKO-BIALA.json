@@ -1,7 +1,99 @@
 {
   "competitionName": "Klasa B (Bielsko-Biala)",
-  "count": 7,
+  "count": 41,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Centrum II Ligota",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "957334ac1485aa81a05b33b3497d7a55",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Beskid Godziszka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Bestwinka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "c2a9f7e1a4f30181c1f4c30d3d0f28cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Buczkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Groń Bujaków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "22b845fa7b4454c810167aeb00a73b04",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilamowiczanka II Wilamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "02e1605feedb9db89ab2f02151ba63a5",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa B (Bielsko-Biala)"
@@ -11,14 +103,43 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS II Bystra (k. Bielska-Białej)",
+        "name": "Przełom Kaniów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T17:30:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
       },
-      "id": "47ed4a2476efa17860032389b2e1fb34",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "d55d4f44426cf641fb6954de7428533c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS Łodygowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a86ea4577564107eeb0be9d5cead56b9",
       "stadium": null
     },
     {
@@ -30,14 +151,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Centrum II Ligota",
+        "name": "Sokół Buczkowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "65c59985c5a30c88d53e755e36e244c6",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d2fd99af730e0d117712cc5fa50ed37b",
       "stadium": null
     },
     {
@@ -45,18 +172,24 @@
         "name": "Klasa B (Bielsko-Biala)"
       },
       "homeTeam": {
-        "name": "LKS Łodygowice",
+        "name": "KS II Bystra (k. Bielska-Białej)",
         "crest": null
       },
       "awayTeam": {
-        "name": "Sokół Buczkowice",
+        "name": "Beskid Godziszka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "94e036961e63873f250bbe890934daf0",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3c473b3baf35aac50986e0fbf7a89e85",
       "stadium": null
     },
     {
@@ -68,14 +201,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Wilamowiczanka II Wilamowice",
+        "name": "Centrum II Ligota",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "a4c1231d9483ff31820dce755fa978e7",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "31799b8ab19644ccb263b836b40e329f",
       "stadium": null
     },
     {
@@ -83,18 +222,99 @@
         "name": "Klasa B (Bielsko-Biala)"
       },
       "homeTeam": {
-        "name": "Groń Bujaków",
+        "name": "Wilamowiczanka II Wilamowice",
         "crest": null
       },
       "awayTeam": {
+        "name": "Sokół II Zabrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3bb58aa19c5c12aa5f1cf540c3ee3c48",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół II Zabrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9cdd8d8458a29795e4bafc940ad54f34",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Centrum II Ligota",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilamowiczanka II Wilamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7dc28a90c302ea217848258e525c0bf1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
         "name": "Beskid Godziszka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "awayTeam": {
+        "name": "Przełom Kaniów",
+        "crest": null
       },
-      "id": "08ebadcc1556f030dffa831c487a4a0e",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3a670927a7f0c670a86ce39236680b9a",
       "stadium": null
     },
     {
@@ -106,14 +326,670 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "---",
+        "name": "KS II Bystra (k. Bielska-Białej)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-08",
-        "dateTime": "2026-09-08T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
-      "id": "997df3ae75192c25d344d0cc3bc34e5f",
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fdb72e9b70e87847016c6a6d86df0890",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS Łodygowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Groń Bujaków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "06804e6075f43190cfdb22a80c4eef37",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Groń Bujaków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a3cbd537c45a9f8677a6d407745549d1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS II Bestwinka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Łodygowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2e54963cc9068d53b7e4b77e4f13dc4f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Przełom Kaniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Buczkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4d52fd4b90baa3c9b43922c792d922d4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Wilamowiczanka II Wilamowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Godziszka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9f9bf74956217c3bafe720f093e50b15",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół II Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum II Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9482be4e09ae1472b9c78a997fe562a0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum II Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9c070f8889c3cd78cbeb512f4416984c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Beskid Godziszka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół II Zabrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "36cb5e7d612a9c15076fbd9badf9bd75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Buczkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilamowiczanka II Wilamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "688abfd0865ffea3e0165c61d30d1a90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS Łodygowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d2620d7e814545fd437b715cd5820b74",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Groń Bujaków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Bestwinka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8170fda6cc7c022f062ba44ac2382c5e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS II Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d004170482c7e7461b4f4f541edab32b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Przełom Kaniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Bestwinka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ec89facd72b63457260dff71ee11fc6e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Wilamowiczanka II Wilamowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Groń Bujaków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "359fbb818f0a9c002e85f48e6ac2e1d2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół II Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Łodygowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c85f35b295deddc96fc6417aba4f3905",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Beskid Godziszka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Buczkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "84ac223adbf9ec5692ffaa92dac2b930",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS II Bestwinka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cab459290bbf9ca974d7440b7b533e48",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS II Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Groń Bujaków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "44cd17c54cce575d892e3955185f9132",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Przełom Kaniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Łodygowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b4ecacde497b487e238ca0becc007f6c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół II Zabrzeg",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Buczkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "36b23df1a839e650f3301e1182917026",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Centrum II Ligota",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Godziszka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6a4828cbe6e05da986e27d79c147962a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Czarni II Jaworze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Godziszka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "13f8608962c3ed882f57e817921a42ff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Sokół Buczkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Centrum II Ligota",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e7e930dc846e6b153dc75d162bd32b47",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "LKS Łodygowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilamowiczanka II Wilamowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "806bc891850546a62593eea042f653fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Groń Bujaków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przełom Kaniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1c23b6766349135c0a3ca412bfd6000c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "KS II Bestwinka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "14f4ded61661b50aae3d44eb8a76cbab",
       "stadium": null
     },
     {
@@ -127,6 +1003,10 @@
       "awayTeam": {
         "name": "Centrum II Ligota",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-07T15:00:00.000Z"
       },
       "date": {
         "date": "2026-11-07",

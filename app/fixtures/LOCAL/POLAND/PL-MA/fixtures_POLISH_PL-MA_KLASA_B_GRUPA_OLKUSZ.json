@@ -1,7 +1,38 @@
 {
   "competitionName": "Klasa B (Olkusz)",
-  "count": 3,
+  "count": 21,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Wielmożanka II Wielmoża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Jaroszowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "9dfb019f2aa83aec61e4695252bf4739",
+      "stadium": {
+        "address": "Szkolna 55, 32-045 Wielmoża",
+        "venue": "Boisko SSL Wielmożanka",
+        "geo": {
+          "latitude": 50.2587007,
+          "longitude": 19.8085555,
+          "name": "SSL Wielmożanka, Szkolna, Wielmoża, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
     {
       "competition": {
         "name": "Klasa B (Olkusz)"
@@ -11,14 +42,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS Olkusz",
+        "name": "Hetman Dłużec",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
-      "id": "ead0d3bcb6e56b2370998e878a4fe3d7",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "7c95ebb66aa96196c81bbde0b4b5d682",
       "stadium": null
     },
     {
@@ -26,18 +61,22 @@
         "name": "Klasa B (Olkusz)"
       },
       "homeTeam": {
-        "name": "Unia Jaroszowiec",
+        "name": "KS Olkusz",
         "crest": null
       },
       "awayTeam": {
         "name": "Trzy Buki Wierzchowisko",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T18:00:00.000Z"
       },
-      "id": "230b6c9838aba50028831e1ce6047677",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T18:00:00.000Z"
+      },
+      "id": "d9a875fe7e37e45e4c85e22faf897ba3",
       "stadium": null
     },
     {
@@ -49,15 +88,462 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "KS Olkusz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c011d8090b01bf51a75025eda348e1e7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Unia Jaroszowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hot Boys Wolbrom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "296a98ef314a9762ad8660b03dcd03e5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Buki Wierzchowisko",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Wielmożanka II Wielmoża",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "34f758a16d52263811416d243e297091",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e4e0b2ef10aa53897704fc26d7ed5118",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "KS Olkusz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wielmożanka II Wielmoża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7607e13d54dd85bd02268b316f8195b2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Buki Wierzchowisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hot Boys Wolbrom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f82fc931690d039cb2e5212649722263",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Unia Jaroszowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Dłużec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2216dae296ba186e087f95f362e93b4c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Unia Jaroszowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Olkusz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d354a7d490f55116e099704d139b9469",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Hetman Dłużec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Trzy Buki Wierzchowisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "38da260d5ebfed82ef7b8cd5a9893c31",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Hot Boys Wolbrom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wielmożanka II Wielmoża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "be1b56fc8b016480cf822f2edfbe90db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "KS Olkusz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hot Boys Wolbrom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d2702080f216843c35e36c7b89de06bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Wielmożanka II Wielmoża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Dłużec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "33869e1f9c18cbaa67a36821c0037f03",
+      "stadium": {
+        "address": "Szkolna 55, 32-045 Wielmoża",
+        "venue": "Boisko SSL Wielmożanka",
+        "geo": {
+          "latitude": 50.2587007,
+          "longitude": 19.8085555,
+          "name": "SSL Wielmożanka, Szkolna, Wielmoża, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Buki Wierzchowisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Jaroszowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6f698aea4a8f8a58d97af81e2e15fbef",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Trzy Buki Wierzchowisko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Olkusz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cb30f1144d81fc61c11a47b69832aca5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Unia Jaroszowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wielmożanka II Wielmoża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "65dd77a72a13a9e8355a959b571dc846",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Hetman Dłużec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hot Boys Wolbrom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f5cf515abc205131758c1988f992b3dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "KS Olkusz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Dłużec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7fd181979b31f2e4b668b4d175df2078",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Hot Boys Wolbrom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Jaroszowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8ed545dc9c4c392e15c08181cd91bf4d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "Wielmożanka II Wielmoża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Trzy Buki Wierzchowisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "28c58e0cf4c0681d173cb2bf8065e523",
+      "stadium": {
+        "address": "Szkolna 55, 32-045 Wielmoża",
+        "venue": "Boisko SSL Wielmożanka",
+        "geo": {
+          "latitude": 50.2587007,
+          "longitude": 19.8085555,
+          "name": "SSL Wielmożanka, Szkolna, Wielmoża, powiat krakowski, województwo małopolskie, 32-045, Polska"
+        }
+      }
     }
   ]
 }

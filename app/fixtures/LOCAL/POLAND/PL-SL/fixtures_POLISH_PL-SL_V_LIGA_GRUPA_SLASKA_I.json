@@ -1,45 +1,7 @@
 {
   "competitionName": "V liga (slaska I)",
-  "count": 9,
+  "count": 81,
   "matches": [
-    {
-      "competition": {
-        "name": "V liga (slaska I)"
-      },
-      "homeTeam": {
-        "name": "Śląsk Świętochłowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Miedary",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T10:00:00.000Z"
-      },
-      "id": "a8f4a82bd0e2f0fe9e1c7ff73c284a69",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "V liga (slaska I)"
-      },
-      "homeTeam": {
-        "name": "Zieloni Żarki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "CKS Czeladź (2)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
-      },
-      "id": "edf972dc46aac331351472d6ddb83a62",
-      "stadium": null
-    },
     {
       "competition": {
         "name": "V liga (slaska I)"
@@ -49,14 +11,158 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "663b303b87b59f4352d30f91e6196400",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "2ac42f29e35188dddbef77ca6a837f2e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:30:00.000Z"
+      },
+      "id": "693007f725bab4c6eb3157a5e77eed66",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Odra Miasteczko Śląskie",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "aa8d206b196bf12db6ccbe9c1b8de0a7",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "4af21a4e8afa583b36e3b498b9975e10",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "328b01de84f8a1b52062c731ce991480",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "5e9350e5d6b428481b9391e1eb741658",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "63673eb5bacd1c24c29cdaaf51d951b0",
       "stadium": null
     },
     {
@@ -68,14 +174,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Sarmacja Będzin",
+        "name": "Pilica Koniecpol",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "6dd2c8346b55106505e586dc34643101",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "36bdce58c33809387ed4b9f2601402d6",
       "stadium": null
     },
     {
@@ -87,14 +197,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Gwarek Ornontowice",
+        "name": "Sarmacja Będzin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "6ea439ad4f56be71df394eefe6c02e29",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c50b61ccfc4fa6f6dff79368039bce48",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "99fa54b6d3ef4bb3c9dd291da0bcfd1c",
       "stadium": null
     },
     {
@@ -106,14 +247,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Unia Dąbrowa Górnicza",
+        "name": "Gwarek Ornontowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "d1c809a26fb36d4fff050e3a30fd57bd",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f4a3a1b7d830cb1d9715893dd4d857c5",
       "stadium": null
     },
     {
@@ -125,14 +272,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Jedność 32 Przyszowice",
+        "name": "Orzeł Miedary",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "e8d32ee5c5eb3b3333e3a5cc1b6fa947",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7b1a93e39323aa011338110d7aa714f3",
       "stadium": null
     },
     {
@@ -144,14 +297,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Unia Rędziny",
+        "name": "Unia Dąbrowa Górnicza",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "2152c295377baee8d7ca6960053ef9f7",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "145c447920875a1f9b28bd29ea476c20",
       "stadium": {
         "address": "Kresowa 1 Sosnowiec 41-200",
         "venue": "Stadion Ludowy",
@@ -171,14 +330,1725 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "13604336dbde81727809a3577e59bd53",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
         "name": "AKS Mikołów",
         "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8f5d3425fa191e9b96fa9af21629b2ef",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "49bc0f7d93658459cab1f2373a8aca6f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "406c05cf6cddda8bc189b3f6b869d704",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1ee7dd07d689827c70bb0236e6d78ea2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4f8b6b12bdcc47b417e16ce90bab7698",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1abf9e335bb8266c9a587fa0334f0d20",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c455d77b8b7ee40d3640d67d443a75ab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b3d34d6dc68127975aa5759841008af4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "c2a2b3ff6b4babd7c21140a11ee303c4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1ebe221a579ccef58e394b0994caff2a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9404faa7fe82433bb1cd9be2e934d0bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "10d331c4fee4af878dbee0b3f5b9b82f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0f6c221ca4dd11e63f7e9bf893318dc7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a04897008c760e14f1e45a91c09c1d76",
+      "stadium": {
+        "address": "Kresowa 1 Sosnowiec 41-200",
+        "venue": "Stadion Ludowy",
+        "geo": {
+          "latitude": 50.2773278,
+          "longitude": 19.1036425,
+          "name": "Stadion Ludowy, Kresowa, Osiedle Piastów, Stary Sosnowiec, Sosnowiec, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-209, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "400e3de53fe8798cc475052f4c91b286",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4171852f647dad9ec50055464615a387",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b705cccc6c9b9abbde0d8678e634d971",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6679674276990a7b35b6fbbbe43203d7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c006fadd31bfc34ba25172b71ee4edf4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "924aeb3609a7482e6195f0d9862309db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7e105113f2644bc624d59c16ee1a6017",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d00b7ba38bd93f2bc6acd08ba4710ec4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9c1f1369061f966cc58f52bcbaba6979",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "70ad696bd393cf0bfb324fc6c4f84dfd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2174485a9ecdf0a81860a80e9ea2d1f1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "be3ec80b6585e91ce103fcb8be161b90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "945ee6de556568855d1f6fda64099ba3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2cb702da4301d72f305fa15b3f7b8905",
+      "stadium": {
+        "address": "Kresowa 1 Sosnowiec 41-200",
+        "venue": "Stadion Ludowy",
+        "geo": {
+          "latitude": 50.2773278,
+          "longitude": 19.1036425,
+          "name": "Stadion Ludowy, Kresowa, Osiedle Piastów, Stary Sosnowiec, Sosnowiec, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-209, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "369f1f8ecc828bc40a7e6c19a2d610a3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "01bccecd8f73e7ee2f6ec423d6931a47",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "af3a5fdb12a9d88846709e545b8824f1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1ae3339a9fd547227a0f601c62e1c1ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "22914f9c4a8d3137bb2e26b65bb40f9c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b70dd4493a301c3c8004a4a45c4ea3ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-14T18:00:00.000Z"
       },
       "date": {
         "date": "2026-10-14",
         "dateTime": "2026-10-14T18:00:00.000Z"
       },
       "id": "9f7adb28c5846472d24d1225675f2e2d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "927b15d212335f8af1d7255c9df6af40",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "25ac74dbe0514db5969031349c2348c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9b4bf36dbddd21f9ef3528a77e0007f1",
+      "stadium": {
+        "address": "Kresowa 1 Sosnowiec 41-200",
+        "venue": "Stadion Ludowy",
+        "geo": {
+          "latitude": 50.2773278,
+          "longitude": 19.1036425,
+          "name": "Stadion Ludowy, Kresowa, Osiedle Piastów, Stary Sosnowiec, Sosnowiec, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-209, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "20e6a737f2551a32231f7f29368702c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d1349636e246fc2fc43e4069e8f70505",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5dacd761af320d0e45eed0fbd42dbae6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "56a609ff33af6ac2bc5a91b20316e179",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "aebb7856e0bb3061299525c082908557",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "98161598ca72a665875c5f3c9a776587",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1e439df73efaa954b98045b360fc9c25",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4e6e3baae3fb7c2f5707e718fd417bb7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b5ed507dd57516b7e0da882b30d2408b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "59f4f2fe68b60fbbee99ddeac0cd079f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0ccb7cc03fd718c78cf6bc2d472089af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7f3bce3d2c6731ffbe5bb90620c3faaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "1b10bb0fe7d50f7ffea9639930a7af9c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "02385b25285180ce1b7fe74e6d5ef6e9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a5a802f16f5865b0dea4b89b1a77ecee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "32dc6a63f4405248361115dc3898d10a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e032ef7943bede0ed77ad97258436cb2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7663579ffcdef8c7a279f25cce21aa7f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1b2623bee1e849f73c8f67217b143a13",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "55e3108d5141d2d2b9aacbad4f093ce1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "823fe412f8cd6832d7b5d041e67cd209",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sarmacja Będzin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "1539b0f5dcbff724190b10dff7f0b0b4",
+      "stadium": {
+        "address": "Kresowa 1 Sosnowiec 41-200",
+        "venue": "Stadion Ludowy",
+        "geo": {
+          "latitude": 50.2773278,
+          "longitude": 19.1036425,
+          "name": "Stadion Ludowy, Kresowa, Osiedle Piastów, Stary Sosnowiec, Sosnowiec, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-209, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Zieloni Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "6ca16e20275ad2ec09212963ea140cb4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "AKS Mikołów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Sierakowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8718324d4270fd1f181c2cda7c334c0f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Odra Miasteczko Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "71fa5cfe24440ddc7cd5bd4db29de9eb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "CKS Czeladź (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "37ee4a4185f56d861804e2bfc24e98e5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Rędziny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Liswarta Krzepice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "24a4184bc78afb8fdecb91d5eeaf33b4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "5d3ed4d21e212d5aa4c4ccd1c2836c67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "V liga (slaska I)"
+      },
+      "homeTeam": {
+        "name": "Unia Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Miedary",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "722f6a170a29f9c200848e02fdc1f429",
       "stadium": null
     }
   ]

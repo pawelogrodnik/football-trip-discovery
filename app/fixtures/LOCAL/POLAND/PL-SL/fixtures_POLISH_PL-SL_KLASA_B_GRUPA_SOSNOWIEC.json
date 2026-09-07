@@ -1,43 +1,28 @@
 {
   "competitionName": "Klasa B (Sosnowiec)",
-  "count": 6,
+  "count": 48,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Sosnowiec)"
       },
       "homeTeam": {
-        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "name": "Akademia 2012 II Jaworzno",
         "crest": null
       },
       "awayTeam": {
-        "name": "Górnik II Piaski (Czeladź)",
+        "name": "Zagłębiak Tucznawa (Dąbrowa Górnicza)",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
-      "id": "8c5440fd7622677651aa462f942592e3",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Sosnowiec)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Dąbie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Wysoka (k. Sosnowca)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "2a612327dae52ac0712e13c19a0d683b",
+      "id": "ff7bac0ea6b84f674078c9697339a9a0",
       "stadium": null
     },
     {
@@ -49,52 +34,110 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS Preczów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "9296a240406574a947b492454567792e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Sosnowiec)"
-      },
-      "homeTeam": {
-        "name": "Akademia 2012 II Jaworzno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Płomień Niegowonice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
-      },
-      "id": "5fe6a7957cee3f772ec72560bc631a6e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Sosnowiec)"
-      },
-      "homeTeam": {
         "name": "JavaFit Sosnowiec",
         "crest": null
       },
-      "awayTeam": {
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "4647701c78ef21ac4d1bf473b7ba49b0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
         "name": "APN Czeladź",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
       },
-      "id": "c8173eb619ac021b8f140e8299da73d1",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "fe36d7bb4cab915bdab19063871f9992",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "387592626c2ff88392874e7b470efe63",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "b765b9c555e6d0c7a03d927acb6d1dbe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "id": "533da0c0f403ca0f80fc06df1e1bcc37",
       "stadium": null
     },
     {
@@ -106,14 +149,1045 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5cefd896a436540bc4ef5c14fd2be272",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akademia 2012 II Jaworzno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "371b628bd7ca997ed30b40ebb13fd67e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Zagłębie II Dąbrowa Górnicza",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "d6e51308878b4e530193c47a49c70348",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c4fcd534b33e64511c689e855e49305d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "JavaFit Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a251729cac0c13735f294f49f01ab8b5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Strzemieszyce Małe (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2821f20f91e77346e10c451d752bae71",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Czeladź",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "bb06340bdcdff9c8fe59ccfcfb5f716d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Czeladź",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "54921b420cf64eaccd45360e0a82513a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Promień Strzemieszyce Małe (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d93c4923e2c476dc945635a17f984796",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2c3f791c13960265aea16361493dd8a5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "JavaFit Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "accd17c4fd98a6d81b42d9f591fafbd9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Akademia 2012 II Jaworzno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "83b12276b3ecfc17feeca8e583e7240d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Zagłębiak Tucznawa (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "75533fbc6bef8c9b082a8d4b88ff6fd5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0efeb4aed6a35ec3b78fca63ce92ffb6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębiak Tucznawa (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bc44c95a3e3592b4ba1c612ed82b0ffa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "JavaFit Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akademia 2012 II Jaworzno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4a2f8976af5539c35664e760313c190c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Dąbrowa Górnicza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "43c0c870e61bbb7928c01eacd4f37f35",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1fd3c243acfe3ea9713e1feab968a9fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "APN Czeladź",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Strzemieszyce Małe (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "aef460e28dc7c1fab3a7e62c6b9e8301",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Strzemieszyce Małe (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fc445451b641d73b3198671982620e1d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Czeladź",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6680a59dbca84ec97b45f40ef15f236d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "80c89c445ef48061a4b90adcaa5abd3a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Akademia 2012 II Jaworzno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "04fd1a43f367393b5bb8ec5ba8bf1473",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Zagłębiak Tucznawa (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "JavaFit Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bc3ee06e31807ae49960096e4f3b7a5c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b3a195046237bbe0fc5cad1cd0000276",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "de4d93f540e9ea91746843d72c86881c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "JavaFit Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "accf04c14b84083c489325d2a5280fd7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębiak Tucznawa (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5333cd969f69c529aae5b9bb6e07a518",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akademia 2012 II Jaworzno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6cd9be55edcde7cdc707857e0417bba3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "APN Czeladź",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Dąbrowa Górnicza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f8dec5c3da276224e592d31c6c62b45c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Promień Strzemieszyce Małe (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c702605f9e470f9d1960103505b3fe3f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "680ca6ac72faaceabf407526e8b88ef5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Zagłębie II Dąbrowa Górnicza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Promień Strzemieszyce Małe (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "77fec9a56605987b90bcaad23fce354d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Akademia 2012 II Jaworzno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Czeladź",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "31c3b52d8da33da5ce427889ef83a422",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Zagłębiak Tucznawa (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d16b6ef03faedfdd3a7bc80b68e9c48d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4143ee4fb1b7d8301f9dde4f12e93f05",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "JavaFit Sosnowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bb3748d56aa34ca76c962e252dc3ae25",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "JavaFit Sosnowiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Niegowonice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c8545ca6a8fe62ffef99d340e9441334",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Górnik II Piaski (Czeladź)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Preczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c0e51219857598bd8d28da6085d383d4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Pionier Ujejsce (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dąbie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7504365361a4913d2cec0d53f0e41652",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "APN Czeladź",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębiak Tucznawa (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8ef3e8aeaad082b17ffb2a3719fdf6cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "Promień Strzemieszyce Małe (Dąbrowa Górnicza)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akademia 2012 II Jaworzno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c6510ed782c5ca06faed056641a74688",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Sosnowiec)"
+      },
+      "homeTeam": {
+        "name": "KS Wysoka (k. Sosnowca)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zagłębie II Dąbrowa Górnicza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "38459734a8fe2341a26a155ddcc19ae8",
       "stadium": null
     }
   ]

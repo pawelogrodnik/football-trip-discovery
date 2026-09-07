@@ -1,24 +1,97 @@
 {
   "competitionName": "Klasa C (Raciborz I)",
-  "count": 4,
+  "count": 40,
   "matches": [
     {
       "competition": {
         "name": "Klasa C (Raciborz I)"
       },
       "homeTeam": {
-        "name": "Start II Pietrowice Wielkie",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "LKS Bojanów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
       },
-      "id": "bf2d695111fb35d4465ed3ede958fdc3",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "8a4f44dac02f84f98a98da65fcfda356",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "1c2243709f29539445d679ef5fee095a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "b4ee185cbc692711d3750a413db086f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "b744f3f2aaf06a29ebc8bb23226d323a",
       "stadium": null
     },
     {
@@ -30,14 +103,45 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b39927048920ccf83430e80ea485986e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "LKS Olza",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "74b1a23efac5c825080fc8ccc034aefe",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8f2e407a9ff6b926c7fabd231b052d72",
       "stadium": null
     },
     {
@@ -49,14 +153,120 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f6afd4422f05dfb4b9ead2c152d793bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
         "name": "Naprzód II Borucin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
       },
-      "id": "ebf7d9929a12d7aec15dc6966862819d",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "119f023e604b267bb01d2ce9a74205fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b84bdfbfba37b003784470b3cdeceaeb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b4457ba528bd9061df55afaa3b8660d4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0654b4605aa1dd337d02448bd9bb8965",
       "stadium": null
     },
     {
@@ -68,14 +278,720 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d28fb17ab87699c0067e076f7747fc09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e174ff0d62beaf884673e0128f239683",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "05d810664d7eb31addb738a84f597d79",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8f6c84f9c3426415b16763c39299d772",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
         "name": "LKS Bolesław",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "awayTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
       },
-      "id": "cfa3cb4860f22f6b403dcca75c5e967d",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "40df3b5a9dcbe511fa79011f3833b4cc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "32c9bacf1113c905940da6761008bde4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a81385820e3c456c8662f4caed0d7c70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a9db5f2d95e3bac65f57e9d97cbb5a09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "01b0169ddd8d7c76122b01738d3dcf95",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "92c010e4cc1a2d507f7114c8d9c4a853",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a3e8851d1348906e12d411a04af1d27b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "882934746f29e5ab534a44c48aa760f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "86adefbcaba851d29c5787d01e640e74",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "23f6f3c0f30f345f52973d8a42e9ea80",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "274d6dc353ce0b21d81c6b97999607fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ece4ec384a8406c017ed617a0aee43f9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6dc6de8a3b68772277c40aa8e4f7aa32",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7f4d2d1a2426bfd8dc86e88c1074f6aa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6e940965b43d5d96f2700c6ecb8d4d54",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "09ffe4f589d52bd3e24950f5faa18e94",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "69d1e4aa412ce294af34e76a84b1ff6b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "5354d49749521ee805211d0aeef1bb82",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b39490ccf42139d81042198b0db80ad7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "86b065cb034c9a9ffa13b5210d572e82",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "88c42ca64f33de699cae23b882bf3368",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "KS 1905 II Krzanowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bojanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "9eed9ed30a8364f8b6cc3567cc0db91c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Borucin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bolesław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "c4ba03c74dfa217b354751a22a329f90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Rozwój II Bełsznica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Olza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "497ebfda024cd55533d90f27d1d247cf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa C (Raciborz I)"
+      },
+      "homeTeam": {
+        "name": "Start II Pietrowice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Brzezie (Racibórz)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "db55055cb1b79a1f73f7f27b299b9670",
       "stadium": null
     }
   ]

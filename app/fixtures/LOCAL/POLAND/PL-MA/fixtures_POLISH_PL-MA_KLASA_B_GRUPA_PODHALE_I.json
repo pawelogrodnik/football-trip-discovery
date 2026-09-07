@@ -1,62 +1,128 @@
 {
   "competitionName": "Klasa B (Podhale I)",
-  "count": 7,
+  "count": 55,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Podhale I)"
       },
       "homeTeam": {
-        "name": "KS Chabówka",
+        "name": "Babia Góra II Lipnica Wielka",
         "crest": null
       },
       "awayTeam": {
-        "name": "Skawianin II Skawa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "96b29c934bd76419ed474cda0cbcfde9",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "For Fun Lipnica Wielka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Podgórki Krauszów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "93608312855cd631dd5a5ef5ecd215e9",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
         "name": "Orawa II Jabłonka",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Lepietnica Klikuszowa",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
-      "id": "ecdafa5b74a5d9489f8ad75438b1c431",
+      "id": "170fc2e8fcdd5e21c33e4bf6ff321b38",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Topór Toporzysko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "91ee4617d876bfb08bce2a0efbab0c8f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "awayTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "ff534636c1cfc20e044d02b5c9ea8bd9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "2f3e21de1cc665504215eb2becb30b74",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Rogoźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "1d24cad2d53566f8d96332ed4f5a48e7",
       "stadium": null
     },
     {
@@ -68,14 +134,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Janosik Sieniawa",
-        "crest": null
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "d90f945c77fbcf65326adfe54cc4b024",
+      "id": "7bed17f69a05ecad650f6424583401a1",
       "stadium": null
     },
     {
@@ -87,14 +159,70 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "cbaeb8799ae05be784c78c9f0ec8a35e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f43503afb8a7a468c21a651acef84330",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Babia Góra II Lipnica Wielka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "1a524d978b5d5c3e0590a704d08aa53d",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9046a796c84268a35f03f555aa1a4bdb",
       "stadium": null
     },
     {
@@ -106,14 +234,1119 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a7df33a26cf9fda21c569238c5904bb2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
         "name": "Delta Pieniążkowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "awayTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
       },
-      "id": "4fcae2608d5d395c0f41075ba4db8354",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7561ffd7faa34cc6c4a6300e1e9ca97a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e276b44da1679ed2bb4d696496c1eefc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra II Lipnica Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2ded13de53c96bb1203438c268df319d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e228f7a3e9bd7e4512c8ffcb1c9477f0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "faaabe63e650ec7fea1f978e122a629c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "awayTeam": {
+        "name": "Skałka Rogoźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "96f0a2b85b0f8ebb9aeceedf40aab86c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Topór Toporzysko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0cdb111e43afb4bcfcfacbb2de0d83bb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Skałka Rogoźnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e89f0b83d5e35fa562efdd359f77e766",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6eb437af146579e51cd1ae468f5f4439",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c6480b0e764a897af00ce532a6380712",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2726cf6960f64934cab2745e73f868bb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra II Lipnica Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "22c65d4c873119b6043c24920f7843ef",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6d5b1ae76bb2014496ee4b8e36b8ebde",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra II Lipnica Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "6fceacee42920142b8f6a09c7fab9123",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d790bfae0720719b6c85eb28c34e082f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dc6ecf7ae6894af2766916b4965eb21b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "awayTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f0809665ed38eb3cb53e5894ecd9f01d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "68d63179eec0e547bd492ee682b38e07",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Topór Toporzysko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Rogoźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "33a7e53d645b585b0ad38db60bef22cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skałka Rogoźnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f98e2a3ca009fd3fa359154bb98f7319",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Topór Toporzysko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "251aa924ab18f6938c7921debd86f6d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "30ad48523773172b895113ceb4c85133",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6a865919f6da69ff01405d4d7a2f18fa",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3e106b54b164ef336cfe5b60af132e16",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra II Lipnica Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "44094c0bf046f5464321ad8a313002c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Topór Toporzysko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "10a57f7b11e2757a1dd07004572087d1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "cbc7802e231dcbc949ef6651ad536c65",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "119ab3431f069892aa36881bee037e09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ad798da27ba3cf4f2fe24b86eb8f591f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "46a69d3a1d23e6ba156e94a9d63ef561",
+      "stadium": {
+        "address": "Skawa 110a, 34-713 Skawa",
+        "venue": "Stadion KS Skawianin Skawa",
+        "geo": {
+          "latitude": 49.5932501,
+          "longitude": 19.8762341,
+          "name": "Skawa 110a, Skawa, powiat nowotarski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra II Lipnica Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a3fcf45770e118a79e8b40e4eef28a63",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "df37500bf51856e223eaf18855177ca0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "17848bd18a425a3050b14a4efd641c4a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "awayTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "a6133dff0bf88332f587fb573aa657f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3a342d186b8e76a2cd235beaca2ea185",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Topór Toporzysko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0e39292a1fdedbe7682984b208cfb0de",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Skałka Rogoźnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "068891030ff69ce13c19475fa07becf6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra II Lipnica Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5490cce4abfaf9cd95132e1a2dec4a47",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Jordan II Jordanów",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "awayTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8ccd31aa12a408c8afe581e725f4ca75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawianin II Skawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "014cda7f1cdf86bf2450c0013aff3f0f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Topór Toporzysko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0b8c71fb83e576dbb70b25fc6512b0bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Skałka Rogoźnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Rokiciny Podhalańskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2c65b1418d3ff861e7801650fb0d9874",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f360fde5812a93d1e3c2abaf14263cde",
       "stadium": null
     },
     {
@@ -128,11 +1361,38 @@
         "name": "Skawianin II Skawa",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-14T13:00:00.000Z"
+      },
       "date": {
         "date": "2026-11-14",
         "dateTime": "2026-11-14T13:00:00.000Z"
       },
       "id": "4bbfa5c9443d72e2fc15f519e5e0a249",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-15T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-11-15",
+        "dateTime": "2026-11-15T13:00:00.000Z"
+      },
+      "id": "8c85afd37c14ec4fa99511430002fc5a",
       "stadium": null
     }
   ]

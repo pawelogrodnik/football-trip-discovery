@@ -1,24 +1,151 @@
 {
   "competitionName": "Keeza Klasa B (Warszawa II)",
-  "count": 6,
+  "count": 60,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa B (Warszawa II)"
       },
       "homeTeam": {
-        "name": "SEMP II Ursynów (Warszawa)",
+        "name": "Wicher II Kobyłka",
         "crest": null
       },
       "awayTeam": {
-        "name": "ŁKS II Łochów",
+        "name": "Bóbr II Tłuszcz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T10:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
-      "id": "92e4f73f56d64991ebe76524e301504a",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "dbb90c09d45dfec99f357e3cff914a07",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T10:00:00.000Z"
+      },
+      "id": "43e8d42b36d1554c47034e7979b9043a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "f79d4e94869752e27af04e685fc71d10",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "awayTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "f780af9b3e9e87b2c5c6344bec38af5a",
+      "stadium": {
+        "venue": "Stadion Marcovii Marki",
+        "address": "Wspólna 12, Marki",
+        "geo": {
+          "latitude": 52.3331247,
+          "longitude": 21.1181276,
+          "name": "MTS Marcovia 2000 Marki, 12, Wspólna, Jarków, Marki, powiat wołomiński, województwo mazowieckie, 05-270, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:30:00.000Z"
+      },
+      "id": "ef046cd7a92843fa2f9d2b5b942b70fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "36c90f3d6d95fc60d8ec7d288d323d91",
       "stadium": null
     },
     {
@@ -30,71 +157,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Korona Jadów",
+        "name": "Huragan II Wołomin",
         "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "1a83d26739e2aacb2ac8b09df2653871",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "WKS Rząśnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wicher II Kobyłka",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "9b5105fc76124604eabaeab37500d65c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "Inter II Warszawa",
-        "crest": "https://crests.football-data.org/11281.png"
-      },
-      "awayTeam": {
-        "name": "Tornado II Dobczyn",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T10:00:00.000Z"
-      },
-      "id": "26b40f77b90ac6c1b64770d656f00b73",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "Nadbużanka II Słopsk",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Marcovia II Marki",
-        "crest": "https://crests.football-data.org/10355.png"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:45:00.000Z"
-      },
-      "id": "a9b927af8f1ba2a9e412c79dc6315abf",
+      "id": "cd322855485fb1e872c902154127e36e",
       "stadium": null
     },
     {
@@ -106,14 +182,1352 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3f2031b922e2d4a5fd59e3537fed423a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "59aa5ca2ee54ae1cc82fcb23f3f12104",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
         "name": "Mazur III Radzymin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T18:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "3a55f3adb1ee59d29365f1cd582832b3",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e60a81b764ab331e29aca97dcba693bf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8555e1ae2946b51970fd0865b3e19222",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "11ff3fcc9ca91d0c0a429dc227e6f56d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "awayTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "be73fb34846b63a8995f87815053eb61",
+      "stadium": {
+        "venue": "Stadion Marcovii Marki",
+        "address": "Wspólna 12, Marki",
+        "geo": {
+          "latitude": 52.3331247,
+          "longitude": 21.1181276,
+          "name": "MTS Marcovia 2000 Marki, 12, Wspólna, Jarków, Marki, powiat wołomiński, województwo mazowieckie, 05-270, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5b9952d1b9c7c3c2896e733a60de8ad1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3bb5562c26b6fa31eac23351d88f7d75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "85ca6a00823cda5e71a6b199479251f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5c94b03e8f0ee0b778d1cf637e81abce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bóbr II Tłuszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ae2a8acfa79d89b4eda71e40738ae4ae",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7b3ff32f70db59f9c8ce7b80785f9933",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1c0e1d519f71f552013691fd3e65fb9d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7d5472db001bf99bb51de09cdf5b2c1c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "63f7d056c4ea8e4f003f887125b9f64a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9bfe5952c251251347ca3569d60ff509",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1f5d998a145731877d46046321bf2649",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b7ef93c0f73829cf71651346ab8bce70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f95a35b10f50f1b4255f82cc78caf436",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f5d8f625f4c4a2ab7f17ace894013cf5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9c95c0c3738a9c4ce680304b6a5becc8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4bd63ff6d6e8fa1b1dced5a97d79397d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Bóbr II Tłuszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b9c6a589d9c6ed6aa669bdfd843e1c38",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "eb722bf75b016168541ddb222bddccd0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bóbr II Tłuszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ec6db0dfff160a87287e8acc3f2be0f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ec9d39c132ae72262fde3d8f148c6259",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f32a0863762c04775dcf0754e9ba13c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "awayTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a18c853aa7be377c2671d987acf8412d",
+      "stadium": {
+        "venue": "Stadion Marcovii Marki",
+        "address": "Wspólna 12, Marki",
+        "geo": {
+          "latitude": 52.3331247,
+          "longitude": 21.1181276,
+          "name": "MTS Marcovia 2000 Marki, 12, Wspólna, Jarków, Marki, powiat wołomiński, województwo mazowieckie, 05-270, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2fd328cf4cdeb216fc6287678975ab51",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bóbr II Tłuszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "40a794c4a0b0d0ebe98653fb0b120d86",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "awayTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "491a494925d2a1919fa2aeafcd2d0ed7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3854cb722dbea353abbdd40d7311b5a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "4e36076309fd17cc8fa7eca042a44ea7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "fdb139befdd57e8deb0f631a11a17197",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "awayTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ff2bf6c50e09b21d062e817644e32d4d",
+      "stadium": {
+        "venue": "Stadion Marcovii Marki",
+        "address": "Wspólna 12, Marki",
+        "geo": {
+          "latitude": 52.3331247,
+          "longitude": 21.1181276,
+          "name": "MTS Marcovia 2000 Marki, 12, Wspólna, Jarków, Marki, powiat wołomiński, województwo mazowieckie, 05-270, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "752b794257c242028066f6ef98a1aaf4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "aec06dba316c4f93564005326cc22388",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "fc5512085a9a61c74e453460e1ebd5a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6e1a2897646456ccd65428ebaada1464",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Bóbr II Tłuszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e6fcb8b2c840becf932ad050643c727e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "41eb4e631132b95f640a27a28048e150",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2e33528747bb8cc2618eb3bc4de9e2ba",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "876d1e58d8fc467f6b3fb1bf6a7a1ef1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "739ed50f08b876dd67b0ce84d0e2b554",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Bóbr II Tłuszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ccdc5994f03068a0333ac899147d8344",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "aa47592323c86d002e6ecc1748962ae0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter II Warszawa",
+        "crest": "https://crests.football-data.org/11281.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3ac1bab9539c7c5f8bc1c701e5cb3d1d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "SEMP II Ursynów (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nadbużanka II Słopsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2bb28260e710ea7b45fff5d8182ff62c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "ŁKS II Łochów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orły Klembów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8dbfd084ffc0830d9d7ebe6b736b4f22",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Tornado II Dobczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bóbr II Tłuszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "1e1ac95cb312b7212f88d23f77023599",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Marcovia II Marki",
+        "crest": "https://crests.football-data.org/10355.png"
+      },
+      "awayTeam": {
+        "name": "WKS Rząśnik",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0efd7590ce173a89a4ffe54338f77600",
+      "stadium": {
+        "venue": "Stadion Marcovii Marki",
+        "address": "Wspólna 12, Marki",
+        "geo": {
+          "latitude": 52.3331247,
+          "longitude": 21.1181276,
+          "name": "MTS Marcovia 2000 Marki, 12, Wspólna, Jarków, Marki, powiat wołomiński, województwo mazowieckie, 05-270, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Mazur III Radzymin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan II Wołomin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "a057ad30b177e9c0c09211c2022a51cb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa II)"
+      },
+      "homeTeam": {
+        "name": "Korona Jadów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher II Kobyłka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "536c79fafb362849bb757ac2abc0da6e",
       "stadium": null
     }
   ]

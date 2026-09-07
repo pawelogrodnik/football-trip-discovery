@@ -1,24 +1,30 @@
 {
   "competitionName": "Klasa okręgowa (Bochnia-Brzesko)",
-  "count": 7,
+  "count": 63,
   "matches": [
     {
       "competition": {
         "name": "Klasa okręgowa (Bochnia-Brzesko)"
       },
       "homeTeam": {
-        "name": "Tymon Tymowa",
+        "name": "Jadowniczanka Jadowniki",
         "crest": null
       },
       "awayTeam": {
-        "name": "Szreniawa Nowy Wiśnicz",
+        "name": "Czarni Kobyle",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
       },
-      "id": "5046d7e10db3f6d30a17d59e2ec110ab",
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "b60a39b055abbd5e4eb49a25c5e671be",
       "stadium": null
     },
     {
@@ -30,14 +36,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Wiślanie Wola Przemykowska",
+        "name": "Szreniawa Nowy Wiśnicz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
       },
-      "id": "500acead081570698e7853b37aad62e4",
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "600b8b2abe3c48be4e04a1901ac35c24",
       "stadium": null
     },
     {
@@ -45,56 +57,22 @@
         "name": "Klasa okręgowa (Bochnia-Brzesko)"
       },
       "homeTeam": {
-        "name": "Orzeł Dębno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Cikowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "344de72aafa49ec58596232a7e011264",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Bochnia-Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Jadowniczanka Jadowniki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Okocimski KS II Brzesko",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "bac2120c48dcb8de2e38bb0b9eaa8403",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Bochnia-Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Sokół Borzęcin Górny",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Błyskawica Proszówki",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "awayTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
       },
-      "id": "c72217c57f2e5e4f00f882151ee41796",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:30:00.000Z"
+      },
+      "id": "dd6ff9ca0a281322c31ccba8a47b335f",
       "stadium": null
     },
     {
@@ -102,18 +80,99 @@
         "name": "Klasa okręgowa (Bochnia-Brzesko)"
       },
       "homeTeam": {
-        "name": "Beskid Żegocina",
+        "name": "Okocimski KS II Brzesko",
         "crest": null
       },
       "awayTeam": {
-        "name": "Czarni Kobyle",
+        "name": "Sokół Borzęcin Górny",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "07f9125b4999762eadb4aaefd0aaeb49",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "af833743ffac9df0107161aa67cdddeb",
+      "stadium": {
+        "venue": "Stadion Okocimski Brzesko",
+        "address": "Okocimska 34, Brzesko",
+        "geo": {
+          "latitude": 49.9596851,
+          "longitude": 20.608898,
+          "name": "34, Okocimska, Koło Pawilonu, Brzesko, gmina Brzesko, powiat brzeski, województwo małopolskie, 32-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "53ef7fb138c0b2804c7415e3551d7993",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "c5bd761246854998f0dc12a2a3c34245",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "c022f8cac6bbb222322004ba350f0800",
       "stadium": null
     },
     {
@@ -125,14 +184,1427 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6b4a17d42534ec1692ca92c9f0357d61",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Spółdzielca Grabno",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "d62e74f497c6472401d405d6ed781679",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "59778c7e83e9e2732695151f52c389c4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "73591d34a8498b1e59151d03ba2993b9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "37e88204f55cbe4d3d74ee3a5f265545",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4d046ebd339853450df09208531aa17f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "17b191569ae3ca5e9f2890d213b6d1d8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d55cd6b8711b0718b33ae387be11999e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "600d4c89740fdfe43eaf7394c54bf8d4",
+      "stadium": {
+        "venue": "Stadion Okocimski Brzesko",
+        "address": "Okocimska 34, Brzesko",
+        "geo": {
+          "latitude": 49.9596851,
+          "longitude": 20.608898,
+          "name": "34, Okocimska, Koło Pawilonu, Brzesko, gmina Brzesko, powiat brzeski, województwo małopolskie, 32-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d771973c0f0f8615a733cbdb912b24bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "aa6bae18fe3cea41d0d08aea7624746e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "422c212be811e6add84fe7e43afeb82d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6c611583c796fe0e163ccee7afc17e87",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5dba9f2d0eb67a3f0f2a91352c26d169",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d08b1fb78ed0df17aca31c28945ac890",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "bce123e6e30e141d7cc6584d64c1dd39",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "30b9b7f2cbea9adac4265a6ed494e3ca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6274918b730e4458f660670f6997d36c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "62f3f6a46f657a7a421b0c90154e3e64",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8f0f8f048ae74d955d0c2b6cc0a87559",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "77cd73081ceb136a43c6579752879afc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "15f93605af98f4bd3b54acdffbe5ed93",
+      "stadium": {
+        "venue": "Stadion Okocimski Brzesko",
+        "address": "Okocimska 34, Brzesko",
+        "geo": {
+          "latitude": 49.9596851,
+          "longitude": 20.608898,
+          "name": "34, Okocimska, Koło Pawilonu, Brzesko, gmina Brzesko, powiat brzeski, województwo małopolskie, 32-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "51f3a0564991aaf105b06fde4a9f760c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b5dde35190b9c15c054c52f8947fcbb6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0e9c3ebe719faa83e00d91fba0d6d9a6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "10c1a1ebd84380ae7b0a72001725cbaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d984d405c340d479116be3a59a85ad3b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "944733e104bff3379740edfe3dea7c67",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "385fd4dc94d2332df043af2eaea961e7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "118c3c89ddc7cb4b7536fa77f9562cf3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6f22f1f8c39b48f080dd0680e6b1bc58",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3b34f2ecc13786ff19d580096e953685",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "29b0400d3a5e6e37dd9bf0c8aaf5f627",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e42562fede75522e986966d3b8c1fc5a",
+      "stadium": {
+        "venue": "Stadion Okocimski Brzesko",
+        "address": "Okocimska 34, Brzesko",
+        "geo": {
+          "latitude": 49.9596851,
+          "longitude": 20.608898,
+          "name": "34, Okocimska, Koło Pawilonu, Brzesko, gmina Brzesko, powiat brzeski, województwo małopolskie, 32-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "962085a3349a173009d80fd01447eb41",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b7453434e5ec216d996feeec17b39f9e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "09a564eb07636ab11a6db078b071adff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "467a677869abed8cdfd9b5bd743375d9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d6d73bd74330a77b263ef2dc67541784",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "511868dbbde6b0c9bf25f0e6424f379a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7abd9b89a9db842475fe2fee9698d462",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "69e4dd69db3d3a1674e897519c02eb38",
+      "stadium": {
+        "venue": "Stadion Okocimski Brzesko",
+        "address": "Okocimska 34, Brzesko",
+        "geo": {
+          "latitude": 49.9596851,
+          "longitude": 20.608898,
+          "name": "34, Okocimska, Koło Pawilonu, Brzesko, gmina Brzesko, powiat brzeski, województwo małopolskie, 32-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8d54134082afa7040c59a5bb29b76398",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "03f88101993a672ba47d31e5809716fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "21312a220b825b8187ee519f260bd98f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7231fcd6efd766b4724668daa6eca86e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "24e14d3ea9ffbdca504a9df3502bde26",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c00f46e4ba8184a5ae82d013ed52ee78",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ad186474af6d6b8425b6e353f17450b1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3a28e7646ba673596ccd9f2fc58a1e03",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Wiślanie Wola Przemykowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rylovia Rylowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "74ed8f7e7102d8ee212a52b6da05cae5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Szreniawa Nowy Wiśnicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Cikowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d09abdc5761d34f5ec13dd8f1df7621b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Spółdzielca Grabno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Kobyle",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ecc4ec3d20e4644f56c4bc08082c55c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Tymon Tymowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Okocimski KS II Brzesko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e4eba61e7bc80494114d33473c07e8ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Sokół Maszkienice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błyskawica Proszówki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a501d700bc694eeebb77dfc9c015ea77",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Dębno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Borzęcin Górny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b8d088504efba8186a3c92b5e243f0dc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Bochnia-Brzesko)"
+      },
+      "homeTeam": {
+        "name": "Beskid Żegocina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jadowniczanka Jadowniki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "85a0ca6b7665769b46baa0127c2669b5",
       "stadium": null
     }
   ]

@@ -1,64 +1,7 @@
 {
   "competitionName": "Klasa okręgowa (Wadowice)",
-  "count": 8,
+  "count": 80,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Wadowice)"
-      },
-      "homeTeam": {
-        "name": "LKS Rajsko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Poręba Wielka (k. Oświęcimia)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
-      },
-      "id": "9b73e5dca1077458936556d4c256816f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Wadowice)"
-      },
-      "homeTeam": {
-        "name": "Halniak Maków Podhalański",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Halniak Targanice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T13:00:00.000Z"
-      },
-      "id": "645014669fc4b9b562b4837766550cec",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Wadowice)"
-      },
-      "homeTeam": {
-        "name": "Babia Góra Sucha Beskidzka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Chocznia",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
-      },
-      "id": "dd7044da64d099500646349eb82d5a63",
-      "stadium": null
-    },
     {
       "competition": {
         "name": "Klasa okręgowa (Wadowice)"
@@ -68,14 +11,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Huragan Inwałd",
+        "name": "Unia Oświęcim",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
-      "id": "bd88e449b85d8d93003a504444a2beee",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "e8099c39aacdf8417b3d65446f819cdf",
       "stadium": null
     },
     {
@@ -83,18 +30,22 @@
         "name": "Klasa okręgowa (Wadowice)"
       },
       "homeTeam": {
-        "name": "KS Bystra (k. Wadowic)",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Skawa Wadowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
       },
-      "id": "527185a7de364c346b85b3c15c5b77aa",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T13:00:00.000Z"
+      },
+      "id": "3579bb9bb4b8452990820c59d0d174fc",
       "stadium": null
     },
     {
@@ -102,18 +53,145 @@
         "name": "Klasa okręgowa (Wadowice)"
       },
       "homeTeam": {
-        "name": "Naroże Juszczyn",
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "2ad5a968e0fc7421ad5f5b1f5a8ef22b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "ec34e786d2ec8a857b2af40750aa82eb",
+      "stadium": {
+        "address": "Mickiewicza 16, 34-130 Kalwaria Zebrzydowska",
+        "venue": "Ośrodek Sportu Kalwarianka",
+        "geo": {
+          "latitude": 49.8709301,
+          "longitude": 19.6815547,
+          "name": "Pawilon Sportowo-Turystyczny Kalwarianka, 16, Adama Mickiewicza, Rólki, Kalwaria Zebrzydowska, gmina Kalwaria Zebrzydowska, powiat wadowicki, województwo małopolskie, 34-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Huragan Inwałd",
         "crest": null
       },
       "awayTeam": {
         "name": "Brzezina Osiek",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
       },
-      "id": "173551bd1d83eec91177d037971d28c8",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "973f8cff4eafe65f9ab10ca015a249b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "e447c2d5b5dd04109ffa13d33716b95f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "810bcb8bd3845c6a5c0dc49c11237391",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "3a9b86a81e142fdbb1e74ef0ba4ac7ef",
       "stadium": null
     },
     {
@@ -125,14 +203,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "name": "Huragan Inwałd",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "d151dea16880aeda37df29fe848e2cd0",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0501288183ce55b605ef3f39413b787b",
       "stadium": null
     },
     {
@@ -144,14 +228,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Gorzów (k. Oświęcimia)",
+        "name": "Żuraw Krzeszów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "6737d61caa6fa8f7d4e122187373fe91",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c4c272fc2df78914db368f97fb978999",
       "stadium": {
         "address": null,
         "venue": "Ludowy Klub Sportowy Tęcza Tenczynek",
@@ -161,6 +251,1820 @@
           "name": null
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d50cfbd42a1ba34efd22327d09775c94",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f176c827647132f463f0cf0fa74e6df3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c728c42aa7d5f71643dff6ee7f96f93b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "768808274256d9064805509c7713c4cb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "816d7fce29d59d6210fa99d25c430a08",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "059075a90f597cbf49700ae4d0615ab5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "dbae826d3b4031d76e890dab7a0fae79",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "80690a64eb985bb1a2e4ef41cadeba30",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "51027ddc4d38ff7ded5d97a1488e77b4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5d8a787c2ebab1144894e6169e49063a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ca413ecaa9aa8f343dc8eab7c4e37922",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2d3364f6fd322d12bfd33a46d077715e",
+      "stadium": {
+        "address": "Mickiewicza 16, 34-130 Kalwaria Zebrzydowska",
+        "venue": "Ośrodek Sportu Kalwarianka",
+        "geo": {
+          "latitude": 49.8709301,
+          "longitude": 19.6815547,
+          "name": "Pawilon Sportowo-Turystyczny Kalwarianka, 16, Adama Mickiewicza, Rólki, Kalwaria Zebrzydowska, gmina Kalwaria Zebrzydowska, powiat wadowicki, województwo małopolskie, 34-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1cfe932797f1258110d64b27b44d61b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2e55dc76e5bfcd1133c661c9c74464b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8a2c17c1ff454da385e6c9993447527d",
+      "stadium": {
+        "address": null,
+        "venue": "Ludowy Klub Sportowy Tęcza Tenczynek",
+        "geo": {
+          "latitude": 50.11209428099144,
+          "longitude": 19.610128463652323,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "a2153a8a510510418b4f8c9e2bee06c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "64bc0a8001ecd0cf0a4a1c271d2aa3e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "35c380fb57525eeee27d18616868253f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "fcecc6cdab96a8f70f5cccb15eceee2d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "86da78591b950c68d188ae16d57d5971",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "492dd76969fa04075f30872941072278",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "66ff6f5fe824559dd404e3c2e749a0fd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "33a272428ab66777e4195c31dcc6c70f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "53ad2668315e65c16da12875db407b80",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9140128bc428845bd0358cfaf07628d7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3eb7ee7f9528a1b69398d9c338365c9b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5f2b68e0329d200f38f12878a9f2e77f",
+      "stadium": {
+        "address": "Mickiewicza 16, 34-130 Kalwaria Zebrzydowska",
+        "venue": "Ośrodek Sportu Kalwarianka",
+        "geo": {
+          "latitude": 49.8709301,
+          "longitude": 19.6815547,
+          "name": "Pawilon Sportowo-Turystyczny Kalwarianka, 16, Adama Mickiewicza, Rólki, Kalwaria Zebrzydowska, gmina Kalwaria Zebrzydowska, powiat wadowicki, województwo małopolskie, 34-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cffe5828e90cdf55bd5beecc0d0b7bcc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "baf98aa700a8d0dce762c7f0f25bb29e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fabba360545dc00c420ed6e0d4181479",
+      "stadium": {
+        "address": null,
+        "venue": "Ludowy Klub Sportowy Tęcza Tenczynek",
+        "geo": {
+          "latitude": 50.11209428099144,
+          "longitude": 19.610128463652323,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ff9070b8aca040f906b8e29dc8fbbf1b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "aab09dfd63d9164974fe8c01d07b4599",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c585e2d0758da38b6272bf4a54d4a577",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0dfbab4c1ff761423d27246aee17395e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a03bd9f5904fab4197b75229f5b5c0d8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "edaa5841a5c6129282f5a212b328fdaf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "fd0cf7b12f903535a8115c900a12a543",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "60fdc9b1bd538694a8ae139e38c62167",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c6ab9345fcd8ff31a5a7258441711523",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "773a6b5ef0f1a3f4c820c473e1880be4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ca4a1ac4aeb1404f9f325a4cf0d432c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e248d6b0aef1ad701296262f0be75e77",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1eb5042f7e96270a56094e07a5c906db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "fa4fcf2a59552dab871fbbdff6302552",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ca0aeaa3830a329231c79914c6b273e1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "11664f0c55566a52739cd7ca088f3e11",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "95e721736f4971706fe7b30c770dd295",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "54b38ea387f34202163ba8c1b2c193fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ea64d93080bbe99d26748e9e096f0216",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d102705b92c4cdb764755379e8f32ba2",
+      "stadium": {
+        "address": "Mickiewicza 16, 34-130 Kalwaria Zebrzydowska",
+        "venue": "Ośrodek Sportu Kalwarianka",
+        "geo": {
+          "latitude": 49.8709301,
+          "longitude": 19.6815547,
+          "name": "Pawilon Sportowo-Turystyczny Kalwarianka, 16, Adama Mickiewicza, Rólki, Kalwaria Zebrzydowska, gmina Kalwaria Zebrzydowska, powiat wadowicki, województwo małopolskie, 34-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7d89578dfdd283c214d3c97bd9819528",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c547de538ae0a86c45b93391e7adb570",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "2e7f142bcfed7f9b7cc4ca5adecca431",
+      "stadium": {
+        "address": null,
+        "venue": "Ludowy Klub Sportowy Tęcza Tenczynek",
+        "geo": {
+          "latitude": 50.11209428099144,
+          "longitude": 19.610128463652323,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0390226d0556d5424530beaa152b79fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ec276e0c915a3f057da818a09682867c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "58d52cb1666aeae4998ced4ad735376f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2f02061e1de671b2376492b89cfff0e7",
+      "stadium": {
+        "address": "Mickiewicza 16, 34-130 Kalwaria Zebrzydowska",
+        "venue": "Ośrodek Sportu Kalwarianka",
+        "geo": {
+          "latitude": 49.8709301,
+          "longitude": 19.6815547,
+          "name": "Pawilon Sportowo-Turystyczny Kalwarianka, 16, Adama Mickiewicza, Rólki, Kalwaria Zebrzydowska, gmina Kalwaria Zebrzydowska, powiat wadowicki, województwo małopolskie, 34-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "be1459172f33b1d07537b95f57d08ff2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d28394ac4696d2cbd60e63df595cd25b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e816e1a3cc8e0b026bcbd866df010e2e",
+      "stadium": {
+        "address": null,
+        "venue": "Ludowy Klub Sportowy Tęcza Tenczynek",
+        "geo": {
+          "latitude": 50.11209428099144,
+          "longitude": 19.610128463652323,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "dd36fc41566db81607b4b1be128201f1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "427e83e3e72b2c3ea8e75bb377a77cd7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Maków Podhalański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Huragan Inwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "60496291122ab01dbc8d3089d8ce14c5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Babia Góra Sucha Beskidzka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rajsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "17b0230b197f56e2fddbe2203c6975b0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Naroże Juszczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Wadowic)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c26fa3af2911ceea53073ff94b568d82",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Brzezina Osiek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Tenczynek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8150cfc0e51f11cf16329458f1ceba20",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Chocznia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia Oświęcim",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2658d417e58ef7a65a56c17351b2daaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Halniak Targanice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żuraw Krzeszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "5fa58dace8edc08d7a175edf28079a62",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "LKS Poręba Wielka (k. Oświęcimia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Kalwarianka II Kalwaria Zebrzydowska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "6b16ef748ee4326cec61df9a7267ae65",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Wadowice)"
+      },
+      "homeTeam": {
+        "name": "Skawa Wadowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Gorzów (k. Oświęcimia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2d23bdcb948cef9135358611a7560542",
+      "stadium": null
     }
   ]
 }

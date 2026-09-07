@@ -1,100 +1,28 @@
 {
   "competitionName": "Majer Klasa A (Zabrze)",
-  "count": 9,
+  "count": 81,
   "matches": [
     {
       "competition": {
         "name": "Majer Klasa A (Zabrze)"
       },
       "homeTeam": {
-        "name": "Sokół Łany Wielkie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wilki Wilcza",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T15:00:00.000Z"
-      },
-      "id": "b8b05e0fca8099bf45b8ff61419d77c3",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Majer Klasa A (Zabrze)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Stanica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód Żernica",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "97e5b335b6eb0fdeedc02d8cfb48c60d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Majer Klasa A (Zabrze)"
-      },
-      "homeTeam": {
-        "name": "KS 94 Rachowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ślązak Bycina",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "1fa159eb16eb02bc141254e2b27c85f7",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Majer Klasa A (Zabrze)"
-      },
-      "homeTeam": {
-        "name": "Zaborze Zabrze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Gwarek Zabrze",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
-      },
-      "id": "18303a05418b3ad54b64a84e7437b212",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Majer Klasa A (Zabrze)"
-      },
-      "homeTeam": {
-        "name": "Burza II Borowa Wieś (Mikołów)",
+        "name": "AP Team Gliwice",
         "crest": null
       },
       "awayTeam": {
         "name": "Jedność 32 II Przyszowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:30:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
-      "id": "08894a9c66a55aca9fc3273398d09989",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "d9272dc532b9ac4bdc11d9b9d1cd29c7",
       "stadium": null
     },
     {
@@ -102,18 +30,22 @@
         "name": "Majer Klasa A (Zabrze)"
       },
       "homeTeam": {
-        "name": "Gwarek II Ornontowice",
+        "name": "Naprzód Żernica",
         "crest": null
       },
       "awayTeam": {
-        "name": "Sośnica II Gliwice",
+        "name": "Sokół Łany Wielkie",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:30:00.000Z"
       },
-      "id": "9ce2485448dffa38b261113facab2504",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:30:00.000Z"
+      },
+      "id": "d76a30748c15fddadd3122fcc92ee3ad",
       "stadium": null
     },
     {
@@ -121,18 +53,68 @@
         "name": "Majer Klasa A (Zabrze)"
       },
       "homeTeam": {
-        "name": "Młodość Rudno",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Ruch Kozłów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "awayTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
       },
-      "id": "7817b89478cf4858684f49592cd8f612",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "db3a66f7c9985729f40d426cc32861d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "8a0f0d6f7bf9c1db19576c569d0279b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "dd298869139571525906e77fb149b9d8",
       "stadium": null
     },
     {
@@ -144,14 +126,1464 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "7018a8ad13826cbe08831810889c22a8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "c5b8b4dbd51098e8d06028e0ed0d6f0a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "76461b7fd333c438db26bcd31b0d451a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "AP Team Gliwice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "778c387f1160981de3158bcc1822f86a",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1d6f32bdaeccdedf23b8661b3bc0adab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2fb83d47aa4d4efa8feac8dac4e052a9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5042c842f4dae622bd03d2a555193462",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7de576b8f4caf1475a296bb8cc1f4eda",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6e9ef769bb70a07f3f986683aa3ba94f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a1a9b97bf0dfc6d9873132604b7490ea",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d12383f8853dd930abb49432d63b4316",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e064c71d7c9792810f8f185c2b854290",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3f03a6ecc106821c6ab3aa055c1b5658",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b3ebf9823684e0add4952768bc0e68e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b80872a3fcbb4ef3506d40a735a46d8a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5bc0224dc887b9dd3632f62f08e67c9b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ba8deac93a406784a976f46d8cf76fa1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0478e8de5a84e10d5540a5837ad5d25a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4c1a035d98a6745fd91e5b2f8489db38",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "762ecd2f1e2605918d062c7e90f0e00e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e89c2d76cf1d357227bb7779ccdbde0a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4a6efe22bf90bc6e9cd328320c32f97d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9705a76681643979e6d0bd630d94888c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "69ad4db3c2bc21e018f5e81fb7f61a60",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6e84afea204a6e939f1a7265dd5622a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2c11990fe10a10d383544f5af4292e8b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "40da861570c2105e304fe943e81ea587",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e2e1ee786fb0617d3bb4fc9665829123",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2e57624f224e11a4e01953347f406757",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "505670c6033d92d4d4986e4deea2d2e8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fe06328f26eb4de39e6779f04469bf5c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3dd9561dd2b04e6de48ca57ef7632de4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "5adc7349f378a45bfe11b92b687b9345",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0389d21ba22af806f15ec0335f6974df",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "17920d7071cf72b4ec09d60b5e267ffe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a17db23477e8c4457379f5af536bdfe9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ba674d648c32f066a313dc5b80d038b0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f112d53946652f794cf58d9bd8408aa0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e15933e523d6ff2afd785e326d2b6173",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d6b77b9f3aca879ed8eea83510eda545",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3979e8f90c21e14d6b40a0e323f90d01",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "825c135b68902a693cde3b3b32eb09b2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d1955aeac63563ce0e6db5acff8f2187",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6c731e944279b3dff4364464fc71d164",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ca0826085bf565cdc8fdcf8516d16fa1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8e455f744e4fdeb785916661cd794046",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "91994b2311bcc3816169c2a6dc21ebdd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d8e51e2232e926d909944070088053db",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8672447e4b95a7670f9e78afd8a9d086",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "fd7b3cdc14664fe91ae1fa1f502205b0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9076fc3bd0db6b60d31438f1fc0709d2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "08fd16e071f6669ef8dbb83ef8bbd29f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "773e1bc8a22edc405b80a18005042acd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "18224c63bb8aac70176fa3cba7145543",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "efce33c2324e13a1c253bc7217510a27",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "d759f3a5d169e90fa71f15f24a11437f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4734619f03064e0feff79fd0a3500787",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "eb6a4b51e45286ec9004dfb0065de92f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b45d50a52ef8391cca5b0974397a3188",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "53896d9bd1297dd434c95a5d9c04b2e0",
       "stadium": null
     },
     {
@@ -166,11 +1598,415 @@
         "name": "AP Team Gliwice",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-04T20:00:00.000Z"
+      },
       "date": {
         "date": "2026-11-04",
         "dateTime": "2026-11-04T20:00:00.000Z"
       },
       "id": "451c2bf81dee49ef672c0c89fa3346b4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b4fb338bb06998f731a4c221b7776e1d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5cfcb09b39e65ca5914a383452abdbf3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c1652838aee7ee60de4d7c9a1ee3b619",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "6027fcd02571648121302b33316fb7bc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "82b110b7eae499da35d3936f1c19eaff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c31fe3193e2b19acb354e68f6ee02b01",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "cffb35cea87ba58bf4e652cda24d3ff5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "dbbd6728e95bbf3facdaf35db4370eec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "KS 94 Rachowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AP Team Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "87dc5a9b9db20307cd8d063e0b840806",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Młodość Rudno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborze Zabrze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bebed2fdc10d8f958fe98fcbb444040b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Burza II Borowa Wieś (Mikołów)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Łany Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "75291379b6debc5d1c3d4a5fde02924e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Jedność 32 II Przyszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Stanica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7e52189c0c66d7a70f328c7e7b400f39",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ruch Kozłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwarek II Ornontowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8732582fd74fdc7ca581b13f1b7a7246",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Ślązak Bycina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Wielowieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "04d702dda616808ac676ab6ae610403b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Gwarek Zabrze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sośnica II Gliwice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2c1029bea738453b8022a7a88dfad18a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Majer Klasa A (Zabrze)"
+      },
+      "homeTeam": {
+        "name": "Wilki Wilcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Żernica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "65183bb19d3ed1089cc2c6219a63dfe2",
       "stadium": null
     }
   ]

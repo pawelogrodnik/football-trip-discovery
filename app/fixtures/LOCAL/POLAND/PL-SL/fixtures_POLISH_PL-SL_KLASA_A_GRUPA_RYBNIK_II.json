@@ -1,7 +1,145 @@
 {
   "competitionName": "Klasa A (Rybnik II)",
-  "count": 6,
+  "count": 54,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "4892d54a5647edcf70407e3e173cd996",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "50967e09a212086508cf1405ba1f4d40",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "d641b8bee7a50c264b7937d092999560",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "c3f5ed8f2fd8484569f964c1cf271fac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "516cc4dc77dcbc4911a328315a7e5334",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Rybnickie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "74bd42fddd2180c75a96f111389c1d39",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa A (Rybnik II)"
@@ -11,14 +149,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KS 27 Gołkowice",
+        "name": "Polonia Łaziska Rybnickie",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "cccfea74b2982d76d8c9f5409773590f",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "265980dea250d12828f94b46e66ec0c6",
       "stadium": null
     },
     {
@@ -30,14 +174,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Baranowice (Żory)",
+        "name": "KS 27 Gołkowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "ba3f50679b48c8b1281012cf5e1973f4",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "8c92e79faba965af9697600913462d4b",
       "stadium": null
     },
     {
@@ -49,33 +199,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
         "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "39bdaadc421df79dc3fc93640e137a6f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Rybnik II)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Jankowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iskra Rowień (Żory)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "b3f11df0a2cdb2b199712eaa78409ba7",
+      "id": "58a30908f36e89568ae3dfd47123d11f",
       "stadium": null
     },
     {
@@ -87,14 +224,195 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6d8e1699a67a7d74d502bf6967e32783",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "52b158c864c9859ba57ffc89724770c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Gwiazda Skrzyszów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "abbe8bcb44071a9f358641084c4389e5",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "176e77e10b1d3c70700efbf4334fe116",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8e0affc8fd269ecb26066f6e75f69000",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2b61b763401d595dcf7f1a39009fa992",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ab9974d9f905164b04b939f868fb141b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "df9f8796fdc556d705798342cba1c4df",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7e64041257ac10270241dd78c393b295",
       "stadium": null
     },
     {
@@ -106,14 +424,920 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f08d8413126a0565d7ab8401efb0b831",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f40457424ea7dd65c4522ea24a9ac118",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Rybnickie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6e49a8c30d66efa4be29bd80297ebbd4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9342d511ca0445b26eab39956879594b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Granica Ruptawa (Jastrzębie Zdrój)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "884dc2df83363d28a45c63db091fcdb0",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5acb2cdad31a274736c043a9ec989d90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "fc6978cfe6c58049d4bc31ec8c2917fd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ab2cf89d58bf2d35fbfbb9563668f820",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dceb22772e99d1349c7d3c7262d94be8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7d9ddccb85d0a7ae94c886eacbec7793",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "23f1f68c22e59449812610d1e907de09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3feec83ebc61c4a6955f00b50e9d136e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Rybnickie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "adb4f9b68d230b2175885ebea06e5a21",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7d73d1610ddbee565dfc4a06ff65de36",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8bc39decd20c22c79cef736b3290442c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d070fa861faaeea1cf1660d8a21b686f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1b8d7142cb59e2ce039b95d83c0f61b1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Rybnickie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "efb7b94c172d9acb81b75cd199adc1c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "cd8dc3e5170127f946139b8f5aa7b365",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "221da252d285484040eab769d5972513",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5d5138266581a9bf4c5c6770ebf89d1d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "91b60a64d950cee8f41b065e9eaf45ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Łaziska Rybnickie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6eab1eef7f1e063429a0e9fb2063c3c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1319cff71c4434c7fa23ac4a07ccff29",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "27844661f827be04f2a1daea48fe2c85",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "62ee39b7ce96dc5612a6c7efdbea5a66",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4f89592d5f8f18d2b2a0d57004ea85c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4cb65d495315dac1ec8f0e846193f175",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "99708b8d35c11f9e16fa0e9e5651212c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Rybnickie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "62c958f756a39100d22c9999a82d6219",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e935417cd4f9ced82ede3bcb7a5eb224",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "856fe4c4c1bed2444571eeb907a42ca4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Granica Ruptawa (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Marklowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "25f4fa6b446c9cd99cf21ab81523ac35",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "864675cbd72e2eedad0511a0eebb1283",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polonia Łaziska Rybnickie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Wilchwy (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "574e428e8b149477fbbad24af621c22c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Połomia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gwiazda Skrzyszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "dbb2b34e53ad56d1e8b8be3cb2ee9e1b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Borowik Szczejkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Rowień (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1bdef1b2b7f973591cd061b5d6eddcd1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Olza Godów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "308d41c38e2ebbf4208d2b52876274de",
       "stadium": null
     }
   ]

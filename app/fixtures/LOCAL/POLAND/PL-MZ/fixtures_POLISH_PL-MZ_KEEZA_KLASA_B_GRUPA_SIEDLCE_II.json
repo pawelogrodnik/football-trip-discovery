@@ -1,7 +1,99 @@
 {
   "competitionName": "Keeza Klasa B (Siedlce II)",
-  "count": 4,
+  "count": 28,
   "matches": [
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Stanisławów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rywal Ruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T10:00:00.000Z"
+      },
+      "id": "6737574e823bc7a41da3544707da88c3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "LUKS Rzakta",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Santoryn Nowinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "e7f5d9db4dc061dacf11be2223e3b420",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "MKS II Małkinia (Małkinia Górna)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Dębe Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "a9ca1ed806ff8b383948f3964cadbf17",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Sadowne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Barcząca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "c5ace5fdb2b172e7ef7f4ae006af4135",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Keeza Klasa B (Siedlce II)"
@@ -11,33 +103,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "LUKS Rzakta",
+        "name": "Santoryn Nowinki",
         "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "6ff54bec2f7bbd117cd0921a9c27b4dc",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Siedlce II)"
-      },
-      "homeTeam": {
-        "name": "LKS Ostrówek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "MKS II Małkinia (Małkinia Górna)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "id": "03fc820bce40150cb84ea4272a0d8114",
+      "id": "845fa06e24c36bb0c83371e2ce9d65ec",
       "stadium": null
     },
     {
@@ -49,14 +128,145 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LUKS Rzakta",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7ce686846c3246e7b641161d11865f28",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Rywal Ruchna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Sadowne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f29fd89a66c2c3cc386b2ea248615d72",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "LKS Ostrówek",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Tęcza Stanisławów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "7479aebe05c6d6da1444c7928df5985a",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "a808ae80963359ae7f1fbfe11256a2d3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Stanisławów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Małkinia (Małkinia Górna)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7dfba4271ad4ee2341b6a7ba1076db00",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Sadowne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Ostrówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "b5325cc58feaca619618f73c6fa83b88",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "LUKS Rzakta",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rywal Ruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6d68307f1a4667b97fc8492f195a9fa8",
       "stadium": null
     },
     {
@@ -68,14 +278,420 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Orzeł Barcząca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5dcc4ffea30348df2a38d246cac538af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Dębe Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Barcząca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6bee4304468a2461f5e8276eeba51f70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Rywal Ruchna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Santoryn Nowinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "1ec11e78b5570fd26a793e098c3a926a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "LKS Ostrówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LUKS Rzakta",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "fb2c73b7f9da19a3b7c62c27771e2388",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "MKS II Małkinia (Małkinia Górna)",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Wicher Sadowne",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "d3d80744930e1103ea2dffc5ff79f2df",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "287b9d75b2accc15e713ac4256f87463",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Stanisławów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Dębe Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e7080126e9bedb7586980bbfc9f47bab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "LUKS Rzakta",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Małkinia (Małkinia Górna)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "148d7052d8046a3bad84a36ea31e8124",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Santoryn Nowinki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Ostrówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "746fb26618c2a9ac557b5e908c96a7a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Barcząca",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rywal Ruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "8eecb243715cbd2dca2e487392271e92",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Dębe Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rywal Ruchna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ad795de9c33d3b7995c1b00a00fa466e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "LKS Ostrówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Barcząca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "aecaf48383ad3c807d1e7ccd620dd25a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "MKS II Małkinia (Małkinia Górna)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Santoryn Nowinki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5ba98b46e720489d7b06e0aa1f7518f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Stanisławów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Sadowne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c4f27b1e91d8f5bce4f278e240cd0696",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Wicher Sadowne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Dębe Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "be6e1efc8357a70f1df62e09ca6ec00a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "LUKS Rzakta",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Stanisławów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7032a95312380c04272f6958c679f24f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Barcząca",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS II Małkinia (Małkinia Górna)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "11c8d93503192cb14cbe0d999406464f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Siedlce II)"
+      },
+      "homeTeam": {
+        "name": "Rywal Ruchna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Ostrówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "177cd0f7ba2532262d83f0446a34a660",
       "stadium": null
     }
   ]

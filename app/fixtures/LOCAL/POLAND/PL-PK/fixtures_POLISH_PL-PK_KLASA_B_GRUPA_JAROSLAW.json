@@ -1,7 +1,53 @@
 {
   "competitionName": "Klasa B (Jaroslaw)",
-  "count": 7,
+  "count": 63,
   "matches": [
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "f70e0b5eb2ab6066c7e2a24e54260a03",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "acab7373fe3f27b269c6172c30417586",
+      "stadium": null
+    },
     {
       "competition": {
         "name": "Klasa B (Jaroslaw)"
@@ -11,14 +57,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Przedmieście Jarosław",
+        "name": "Syrenka Roźwienica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
-      "id": "efab18290751851636b16e8c34f5e916",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "5fb26f75f8abb60d7b3202c6e5803d9a",
       "stadium": null
     },
     {
@@ -26,18 +76,91 @@
         "name": "Klasa B (Jaroslaw)"
       },
       "homeTeam": {
-        "name": "Szkło Młyny",
+        "name": "Sanovia Michałówka",
         "crest": null
       },
       "awayTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "20c3b63bb1ece1ae4a755904f6353ada",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "fc333b93137980bf90c5ea9eddd339d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
+      },
+      "id": "c152aeae0bbc3cc8daf86a41c0da8b5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
         "name": "KS Węgierka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
+      "awayTeam": {
+        "name": "Wietlin",
+        "crest": null
       },
-      "id": "1400973fa53b95b3e578e9a32151b4e4",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "0c850a1eb86fd26bb3faf5c4fc023841",
       "stadium": null
     },
     {
@@ -49,14 +172,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Olimpia Boratyn",
+        "name": "Tęcza Jankowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "c620cc33038de81cf09a0b55f0c57b9e",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "f9b95a3f5a254f1f737e112ecc3944c9",
       "stadium": null
     },
     {
@@ -64,18 +193,24 @@
         "name": "Klasa B (Jaroslaw)"
       },
       "homeTeam": {
-        "name": "Tęcza Jankowice",
+        "name": "Szkło Młyny",
         "crest": null
       },
       "awayTeam": {
-        "name": "Strażak Sośnica",
+        "name": "Olimpia Boratyn",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0bad93d4b833c92b674fb62bf937c682",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "94981a521ffad726ea3fce8b90c86798",
       "stadium": null
     },
     {
@@ -87,14 +222,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Sanovia Michałówka",
+        "name": "Strażak Sośnica",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "7becaac9df3f0454a33ce0329c086f67",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c33843b851d51c8aec709fd65ad6d129",
       "stadium": null
     },
     {
@@ -106,14 +247,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "name": "KS Węgierka",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T13:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "c492c663c53925f7f48c72dc8e194b58",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "9fb13183a9b2b62a7cb0d7929fc39862",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "fdae73ea83716a59bbcaf5eaea60f681",
       "stadium": null
     },
     {
@@ -125,14 +297,1270 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "702a91a1258585f9d27f981482ece331",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
         "name": "LKS Duńkowice",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
       },
-      "id": "789c5bda219609b38e2a7f7acca4f48e",
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "82d9c851de31766848639f0741c640fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d8603ae7fff585a234cc1f5e501ee772",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9e2c189e52ad2870abb8e7760bbb92bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Syrenka Roźwienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e40f9b51046dda7084ba2e74e6c2fe2b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "cd04aa9f1afdcd3e1af96e21df3e3769",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "419135618e8bd3e110526a3154fc4511",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wietlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ae33d84b77eb51eaf4c9eba375e3d60b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5263debf1cebb86afd0fce7124bda507",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6ec88d65c4ca46bca3109e8c61c2a684",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Wietlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7e1b26f63e9cc6c00359359ee2ccbe45",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6f14bee2218cc18032c7eb704914389f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e4c178c02d3b35bf4f6bd6aebdb8d3d6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Syrenka Roźwienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2f65394dc29283556693c18b88a4ea9a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "19df4ff4ea4e663b1adfb2a4e364b648",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "caed12c925a9b0f42700ecf31902bdb2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "1c053be89d9127812dbb788bd5c85446",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2ea2f1c111d5ea27307f9689484ead50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e6824c5fc6b61740db962e903cfb99d9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Syrenka Roźwienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "30e804852f0aad255282651b808eaadf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "10351617f88d4802d5ee9f98c23946cf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7d977914a5917e63a50bee723d713fa1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wietlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "db76149470820beb9f9bfade7fc92103",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wietlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "5028d07ba7e7bcdaa8f09738aebffb77",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "31dd9ec8f32ef0afcd64b6b70966532d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c6cfa13c7bec84574224f133ff2232bb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Syrenka Roźwienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "212c7acfdee2b51e492719d240459384",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "0cab465cfd03b4971f21a66ed6153b75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3e19ab2657e9cf6c0cb3d17543f6d59e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "81f210686c67dcb39fdf4c0928a497cc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c08238ffcd60204dfce283acc33a1204",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3d90b60ec2a47623fd3e1921ff047935",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "cd0790d1ec78f245786138efb66105aa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c940fbecd09b90ef0ff383a2b612b036",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Syrenka Roźwienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "02c95a253dde047c5f5f5dd5af132e69",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8f0c41cf7eef687a834402ccd353fbec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Wietlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7719de37e8dc97c94a23abdd7c22ed5c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "30fe7a79ad629a41a5b0458aff17d663",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wietlin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "8942b4d13b6303e7606f7475598fc0a6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Syrenka Roźwienica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "3fa5e0f7fbe857527b76ddb87a3a0055",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "07e3a0a53ef6f98025eafb2e816fc750",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "17988d8959bd21c82a81f47fc311351f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7f82a644ea3d4c5b19b56ed393fab06e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1acd56552cdbdde3bc6a640db3350a3d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "32b8e7a95c50eb23e462e3ac6d3cfe7b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Strażak Sośnica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sanovia Michałówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "5aa8c65e7527534e252955fe4d44b15b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Boratyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Łazowianka Łazy (k. Jarosławia)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "a311d73dba37210ac2ed7941c4694a3a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Tęcza Jankowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "6ea9469c240a06d9267d3fb6f8655a9b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Szkło Młyny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Duńkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "b794e6e0524b767e2ce3d273b46d5a12",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Wietlin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Syrenka Roźwienica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "136bbef1cda5196f3bd9d283325080a6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "Victoria Kidałowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-13",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "c80078371d3a5605946b3cd33bc36a24",
       "stadium": null
     }
   ]

@@ -1,100 +1,30 @@
 {
   "competitionName": "Klasa A (Czestochowa II)",
-  "count": 7,
+  "count": 70,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Czestochowa II)"
       },
       "homeTeam": {
-        "name": "Pilica II Koniecpol",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Start Soborzyce",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-04",
-        "dateTime": "2026-09-04T17:00:00.000Z"
-      },
-      "id": "eb776fcc086cf1888c029ca13b8abff9",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Czestochowa II)"
-      },
-      "homeTeam": {
-        "name": "Czarni Starcza",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Warta Mstów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "37e209a36ccfb436f49b8929aeea1efb",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Czestochowa II)"
-      },
-      "homeTeam": {
-        "name": "Dąbrowianka Dąbrowa Zielona",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Grom Poczesna",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "cf8d2fec8298548639127a1e9e224b61",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Czestochowa II)"
-      },
-      "homeTeam": {
-        "name": "Sparta Szczekociny",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Olsztyn",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "29839fa9c88f9b2e9e0db08b75e8c8de",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Czestochowa II)"
-      },
-      "homeTeam": {
-        "name": "Piast Przyrów",
+        "name": "Zieloni II Żarki",
         "crest": null
       },
       "awayTeam": {
         "name": "Olimpia Huta Stara",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
       },
-      "id": "86407d8d769ffa4e42bec11b2602aef4",
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "8c2aa768608714d5165b427394bff0ee",
       "stadium": null
     },
     {
@@ -102,18 +32,91 @@
         "name": "Klasa A (Czestochowa II)"
       },
       "homeTeam": {
-        "name": "Biała Gwiazda Krasice",
+        "name": "Grom Poczesna",
         "crest": null
       },
       "awayTeam": {
-        "name": "Zieloni II Żarki",
+        "name": "Sparta Szczekociny",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
-      "id": "b3a3120a3c24f939f312bb2cfdc1421a",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "cb1df9d7134bc104d4923c231ed7c05a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "8dda78cefa090581bc7aaebb1090d2b1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "6a4160b950475d2c967b1b0735b626d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "5e6ebf6d339c352e9607398c56b4df48",
       "stadium": null
     },
     {
@@ -125,14 +128,1616 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "3edad1fa5c8ad408c3c88c0fdf718906",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "2481b83a284c959b46912bf28eeb1a08",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Jura Niegowa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0e7411b21c4e654d23f5cb216fa4218b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "974ebd7d2a1950f5509118eb8db62f26",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1b6e227cbf668de27d9fcd4b1d7c7194",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5afb08ef322f5357223c0a6c9fec54e3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c3f1eb78a3d37f1907b51b1b3a705813",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2581f9e0881afa6bfce11b1eb39e8e75",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "67d4ee405088f9965377daa84fa95acb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "65d9b224531533af4821879488280b14",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "64ca9d31741cfb5b67dc0f32add77fdc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8f89461c0fdfb3f82ac035dc530cd969",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7a01357634667f4933bf809bb13c259b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "76e9614358814ab87ed41f40c9046d0e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ab9fd9de1de54897e53e3dac0e324f24",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7b1babc6a6174aaa5511b952c4173df4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7635eccfae484ed1333c928d060b6859",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8a68d73d33c37bfd427d3b57ea7bd7b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "521a0eea2b53051f36d19238865dc0b6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d38bc3f970643e73a4c46b539f558b27",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "ccccede6bd1e88e86db95134a8b2ec58",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "6fe24485210bcd71b5b4fee694fee5aa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7403c3aa609a1023b1e2c872a2e714b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7ac97a541763e9fe53c2684a2de7720d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "78a49e15f8d319e8c59b3d2b874ec117",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c3068d7b888c9483f7d0320ae4769037",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "1264668b7514d9cb327e75fcc4279d31",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "947cc09fb0e38070bfd65c2b7d7fb672",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4be1f7887448eb73aed36c4aae762449",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9b3cc48a10fd3bf04d9aceadcfe8ed6d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bed943cc1413200304d86376578b4e39",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "584b07dec027ba67686f95a309396f83",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4accf9f6d02b4417f998c97accb7a308",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "43b774ada657930a0161f24fad626cdf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4ff3673a0d003228a26366ab65b0486e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "71b51ab29c8d940b8414eec12758b5f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f8246da0f5646d52818ee8b4a95f7925",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "66b29d78969c6a6c17f67ab4978b140d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "79eb55c1dca658d6650c811a1da38642",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7cdc306dc1dee7d7372a1b38a2f0359f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "4ad832a99421147cdcf88e5ec22a6801",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "da36b9b1c1e52a798a5b24ba068b55c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "867b5eab649b0b2c70c3d04404291be8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e5f0b2fdb4a344d070b902abd12936b0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "bd03b023b7865cf1afd8fbf0ae3184ce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e7d6a9ea9dfb79424fb6b48daadb6424",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "eca83058f74c2244f26055baf433dc41",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "cb69e0156947b7eeff1288e1406d8806",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "904b883131bb3ba34a9f3e9c075de7af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7ddf645a06e7077ccd90cb1f9bb6bf50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "eb8697adebe782629a308ec2979e9d6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "76d3eef63a241acfae8ee5cec85c01af",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5d9448fba6b131c51a189b0fe3590022",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "972f40c3d360710dd6bd889fb777e0f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d2813727cd8dab819e9bffd7ffe33067",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "35e087e492b2902c59a514caecaa2fc9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d26f32af962479ca40822331ab53a2f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "f65775733e20b8814f6637fe2cfae2d3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "62920c6b07adc428b9151fd1daf44666",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Piast Przyrów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jura Niegowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c79bade565c5a80de566e9d2686d835a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Szczekociny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "82d63e94533cabce5d645de3952e2e00",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Biała Gwiazda Krasice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąbrowianka Dąbrowa Zielona",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8dde97a2465b022a91f13996b4a344ac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Starcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bc9ee5109b008853982caa215fa8a05b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Sokół Olsztyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica II Koniecpol",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "34c4c455a24d58121e34f0acdc597844",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Grom Poczesna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skalniak Kroczyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "4f36eb6398ade377f0bb8c750669abb1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Warta Mstów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Soborzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "70fcfbfa7efeae51338944f387dddd63",
       "stadium": null
     }
   ]

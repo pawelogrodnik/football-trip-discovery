@@ -1,24 +1,28 @@
 {
   "competitionName": "Klasa B (Limanowa)",
-  "count": 6,
+  "count": 36,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Limanowa)"
       },
       "homeTeam": {
-        "name": "KS II Tymbark",
+        "name": "Witów Mszana Górna",
         "crest": null
       },
       "awayTeam": {
-        "name": "Śnieżnica Kasina Wielka",
+        "name": "Turbacz II Mszana Dolna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "27d7229346c8b50ec98be86ebeec37cc",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "9ba9c0302dea146f2166364638631db5",
       "stadium": null
     },
     {
@@ -26,18 +30,99 @@
         "name": "Klasa B (Limanowa)"
       },
       "homeTeam": {
-        "name": "Rybie Nowe Rybie",
+        "name": "LKS Rupniów",
         "crest": null
       },
       "awayTeam": {
+        "name": "Płomień II Limanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:30:00.000Z"
+      },
+      "id": "729d9681e5b23c793430446e2a1ac4c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Krokus II Przyszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
+      },
+      "id": "819f89ecbf685164e5f00413e57ffc8d",
+      "stadium": {
+        "address": "Świdnik 22, 34-606 Świdnik",
+        "venue": "Stadion w Świdniku",
+        "geo": {
+          "latitude": 49.5919296,
+          "longitude": 20.5322771,
+          "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
         "name": "Stradomka Skrzydlna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "KS II Tymbark",
+        "crest": null
       },
-      "id": "39cd48a2ca109a60e8ca4597071cd9f4",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "36c060085c01e0ecd79173dcc58a04ca",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "LKS Mordarka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T17:00:00.000Z"
+      },
+      "id": "a1a55cbd7a5e3827b669d9288fd50dfa",
       "stadium": null
     },
     {
@@ -49,14 +134,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Olimpia Pisarzowa",
-        "crest": "https://crests.football-data.org/487.png"
+        "name": "LKS Rupniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "5113e726b8be59e28f61b1067b9a157d",
+      "id": "8344ed06b6faff2ea5948cbef20f35a3",
       "stadium": null
     },
     {
@@ -68,14 +159,203 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Witów Mszana Górna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "63ec81999f800bc5e5ff668455bb0890",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "de0e2ffef19a737b2e49def5af2e30c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "KS II Tymbark",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Krokus II Przyszowa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "9be8cdf87e0032961409b0724f8ffdfc",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "02a5a41f279a8e12ad354ac77d5bca09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Śnieżnica Kasina Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stradomka Skrzydlna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "cb6b63810ee9b033a205540c713edc66",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Krokus II Przyszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śnieżnica Kasina Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3f732c54716cca9301a8df228ad5823d",
+      "stadium": {
+        "address": "Świdnik 22, 34-606 Świdnik",
+        "venue": "Stadion w Świdniku",
+        "geo": {
+          "latitude": 49.5919296,
+          "longitude": 20.5322771,
+          "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "KS II Tymbark",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a80056d24f44eb850b2ec5063b2eb55f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Witów Mszana Górna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3357c29a72c19fe8edaa3540f58c282b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "LKS Rupniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Mordarka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "dc0da206e0bc4a9b9502927be1a74b39",
       "stadium": null
     },
     {
@@ -87,14 +367,253 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Turbacz II Mszana Dolna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7d681b3721b8007b0cd5850d9b89e6dc",
+      "stadium": {
+        "address": "Michała Dudka 12, Limanowa",
+        "venue": "Stadion Płomienia Limanowa",
+        "geo": {
+          "latitude": 49.7409628,
+          "longitude": 20.3972141,
+          "name": "Stadion Płomienia Limanowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "LKS Mordarka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Limanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8b1a28e66090500b19e127d3fabcb7ed",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rupniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "aba25b8a9c69de2974e7113205bd5397",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "KS II Tymbark",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Witów Mszana Górna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
       },
-      "id": "596e3fb3fd3b3e9db220afee5d83052f",
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "732bbd7b34308ac9c86b570f5233712c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Śnieżnica Kasina Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "37a81afafd0745ef5dde3a0f6dc0b2ea",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Stradomka Skrzydlna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Krokus II Przyszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8ee28722f52a6e1c1da3ae0d89065119",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "Stradomka Skrzydlna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "2be5bc167e74933e5a85dd1fb5a8ab5a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Witów Mszana Górna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śnieżnica Kasina Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "47f2e21ba01217b23237d777a5bd3f89",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "LKS Rupniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Tymbark",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9c64f6966396cce22c1254a0d9f97e37",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Limanowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "81db9063124d4ce39393dffa35a4a755",
       "stadium": {
         "address": "Michała Dudka 12, Limanowa",
         "venue": "Stadion Płomienia Limanowa",
@@ -114,8 +633,303 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "LKS Mordarka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "29febaf94bf72b71303b3d0343624103",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Turbacz II Mszana Dolna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "02a79ddc3f5c753c1c5eb5d75c0e2f5e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "KS II Tymbark",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Płomień II Limanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "51d76f861e7ba5eac0e73b26b010bdbd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Śnieżnica Kasina Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rupniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "886639ca07cc348ae85c454942bb14a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
         "name": "Stradomka Skrzydlna",
         "crest": null
+      },
+      "awayTeam": {
+        "name": "Witów Mszana Górna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "9060d9d5aa7059b36dee5026f73682e4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Krokus II Przyszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ae0e97f36e9edbbd5ba59e0ebb9c4f0a",
+      "stadium": {
+        "address": "Świdnik 22, 34-606 Świdnik",
+        "venue": "Stadion w Świdniku",
+        "geo": {
+          "latitude": 49.5919296,
+          "longitude": 20.5322771,
+          "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Witów Mszana Górna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Krokus II Przyszowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6014fa46f7e5e18b8a97768ee7bd0179",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "LKS Rupniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stradomka Skrzydlna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7164f528e58ee7f4fae4bbb52885853d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Płomień II Limanowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śnieżnica Kasina Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ef6547b8ed6987a908d009a92a2ad508",
+      "stadium": {
+        "address": "Michała Dudka 12, Limanowa",
+        "venue": "Stadion Płomienia Limanowa",
+        "geo": {
+          "latitude": 49.7409628,
+          "longitude": 20.3972141,
+          "name": "Stadion Płomienia Limanowa"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Turbacz II Mszana Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS II Tymbark",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "373990c444baf4b7600a5ac73c68b30a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "LKS Mordarka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "33fd9d9342da734c3b19b480811e4586",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Turbacz II Mszana Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stradomka Skrzydlna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T12:00:00.000Z"
       },
       "date": {
         "date": "2026-10-31",

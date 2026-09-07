@@ -1,85 +1,89 @@
 {
   "competitionName": "IV Liga Pomorskie",
-  "count": 8,
+  "count": 118,
   "matches": [
     {
       "competition": {
         "name": "IV Liga Pomorskie"
       },
       "homeTeam": {
-        "name": "Arka II Gdynia",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
-      },
-      "awayTeam": {
         "name": "KP Starogard Gdański",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
-      },
-      "id": "6ad29abd4333a6dfce796f274f6afdbd",
-      "stadium": {
-        "venue": "Narodowy Stadion Rugby",
-        "address": "Kazimierza Górskiego 10, Gdynia",
-        "geo": {
-          "latitude": 54.497285,
-          "longitude": 18.5318575,
-          "name": "10, Kazimierza Górskiego, Wzgórze Świętego Maksymiliana, Gdynia, 81-304, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Pomorskie"
-      },
-      "homeTeam": {
-        "name": "Cartusia Kartuzy",
-        "crest": null
-      },
       "awayTeam": {
-        "name": "Sparta Sycewice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
-      },
-      "id": "76e2da913935a8bc12d7f56ad230b24c",
-      "stadium": {
-        "venue": "Stadion Miejski w Kartuzach",
-        "address": "3 Maja 34, Kartuzy",
-        "geo": {
-          "latitude": 54.3381134,
-          "longitude": 18.2064418,
-          "name": "34, 3 Maja, Kartuzy, gmina Kartuzy, powiat kartuski, 83-300, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Pomorskie"
-      },
-      "homeTeam": {
         "name": "Czarni Pruszcz Gdański",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-11T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T17:00:00.000Z"
+      },
+      "id": "919418882d171cff5cc136e4041f81d7",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
       "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "57caa7a2551b910e18e4ec1cc6ecee34",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
         "name": "Stolem Gniewino",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:00:00.000Z"
+      "awayTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
       },
-      "id": "a2a8bd399e8753d7c634e5ae4f8011fb",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "415207b8d995c24037b70c2f9e81eaf2",
       "stadium": {
-        "venue": "Stadion Miejski w Pruszczu Gdańskim",
-        "address": "Sportowa 1, Pruszcz Gdański",
+        "venue": "Stadion Stolem Gniewino",
+        "address": "Sportowa 1, Gniewino",
         "geo": {
-          "latitude": 54.2540351,
-          "longitude": 18.6292177,
-          "name": "1, Sportowa, Osiedle na Wzgórzu, Śródmieście, Pruszcz Gdański, powiat gdański, 83-000, Polska"
+          "latitude": 54.7135727,
+          "longitude": 18.0173109,
+          "name": "Centrum Kultury i Biblioteka, 1, Sportowa, Osiedle, Gniewino, gmina Gniewino, powiat wejherowski, 84-250, Polska"
         }
       }
     },
@@ -88,24 +92,113 @@
         "name": "IV Liga Pomorskie"
       },
       "homeTeam": {
-        "name": "Anioły Garczegorze",
+        "name": "Jaguar Gdańsk",
         "crest": null
       },
       "awayTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "5c46fab74e4202c27149d152de6cbc5b",
+      "stadium": {
+        "address": "Gdańsk",
+        "venue": "Stadion MOSiR",
+        "geo": {
+          "latitude": 52.6439417,
+          "longitude": 19.0757046,
+          "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "dec63072f46de4f7838a746c53e7fe09",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "777bd2eb90e78e5072fea0b4bfdc48db",
+      "stadium": {
+        "venue": "Stadion Miejski w Pelplinie",
+        "address": "Sportowa 2, Pelplin",
+        "geo": {
+          "latitude": 53.9224456,
+          "longitude": 18.6884513,
+          "name": "2, Sportowa, Okoniewo, Pelplin, gmina Pelplin, powiat tczewski, 83-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
         "name": "Powiśle Dzierzgoń",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T12:20:00.000Z"
+      "awayTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
       },
-      "id": "1af43ebf88f42f6ed5b211698507ac1f",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "4d4e5df72d7638d0e663d7a19c57348e",
       "stadium": {
-        "venue": "Boisko Anioły Garczegorze",
-        "address": "Garczegorze 50, Garczegorze",
+        "venue": "Stadion Miejski w Dzierzgoniu",
+        "address": "Sportowa 1, Dzierzgoń",
         "geo": {
-          "latitude": 54.59854697080878,
-          "longitude": 17.72025895817192
+          "latitude": 53.92370296812282,
+          "longitude": 19.350838826057775
         }
       }
     },
@@ -114,19 +207,54 @@
         "name": "IV Liga Pomorskie"
       },
       "homeTeam": {
-        "name": "Radunia Stężyca",
+        "name": "Sparta Sycewice",
         "crest": null
       },
       "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "b26557a6f5a81e339c36ef64aa942bba",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
         "name": "Chojniczanka II Chojnice",
         "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
       },
-      "id": "808eaf8f806ef42a30662ee33fa0cb58",
-      "stadium": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "13b0cd46420372c166f71298c08d8e32",
+      "stadium": {
+        "venue": "Stadion Chojniczanki",
+        "address": "Harcerska 36, Chojnice",
+        "geo": {
+          "latitude": 53.8885195,
+          "longitude": 17.7251511,
+          "name": "Harcerska, Brusy, gmina Brusy, powiat chojnicki, 89-632, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -137,14 +265,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Jaguar Gdańsk",
+        "name": "Pogoń Lębork",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "77a85d369e564046496ea3caae525239",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "7c1c5251ba276ac6cfcd32caffb7cfbb",
       "stadium": {
         "address": "Wzgórze Wolności 1 Wejherowo 84-200",
         "venue": "Stadion WKS Gryf Wejherowo",
@@ -160,18 +294,517 @@
         "name": "IV Liga Pomorskie"
       },
       "homeTeam": {
-        "name": "Pogoń Lębork",
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "awayTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "51c7d025175d50616674831c1d1c1cda",
+      "stadium": {
+        "venue": "Narodowy Stadion Rugby",
+        "address": "Kazimierza Górskiego 10, Gdynia",
+        "geo": {
+          "latitude": 54.497285,
+          "longitude": 18.5318575,
+          "name": "10, Kazimierza Górskiego, Wzgórze Świętego Maksymiliana, Gdynia, 81-304, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Pruszcz Gdański",
         "crest": null
       },
       "awayTeam": {
         "name": "Wierzyca Pelplin",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T17:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "34e4b7b706b855b9502e62ec41796ce5",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "24299a543a716cfaa1d3c951f5a086f6",
+      "stadium": {
+        "venue": "Stadion Miejski w Pruszczu Gdańskim",
+        "address": "Sportowa 1, Pruszcz Gdański",
+        "geo": {
+          "latitude": 54.2540351,
+          "longitude": 18.6292177,
+          "name": "1, Sportowa, Osiedle na Wzgórzu, Śródmieście, Pruszcz Gdański, powiat gdański, 83-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "0852c51f475d41d169c555fea0703635",
+      "stadium": {
+        "venue": "Boisko Sportowe Sokół Bożepole Wielkie",
+        "address": "Główna 25, Bożepole Wielkie",
+        "geo": {
+          "latitude": 54.57642045473371,
+          "longitude": 17.96799860366876
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ece6b599ce93336cd3ffa3ace586a85c",
+      "stadium": {
+        "venue": "Stadion Miejski w Kartuzach",
+        "address": "3 Maja 34, Kartuzy",
+        "geo": {
+          "latitude": 54.3381134,
+          "longitude": 18.2064418,
+          "name": "34, 3 Maja, Kartuzy, gmina Kartuzy, powiat kartuski, 83-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "eb8a6be3a1c1f85317449f9c1858f1e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b84b78e877ce7cf00daa0e2a1f567d1a",
+      "stadium": {
+        "venue": "Boisko Anioły Garczegorze",
+        "address": "Garczegorze 50, Garczegorze",
+        "geo": {
+          "latitude": 54.59854697080878,
+          "longitude": 17.72025895817192
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "1b2ca5acfad19810d854b013f7857189",
+      "stadium": {
+        "address": "Zielona 9 Słupsk 76-200",
+        "venue": null,
+        "geo": {
+          "latitude": 54.4525368,
+          "longitude": 17.0269053,
+          "name": "Stadion Gryf Słupsk, 9, Zielona, Słupsk, 76-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "685c9a8121101d8fe8205290c027fa87",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "36d76a81d6f2e11899e03d7baf28a567",
+      "stadium": {
+        "venue": "Stadion Miejski w Dzierzgoniu",
+        "address": "Sportowa 1, Dzierzgoń",
+        "geo": {
+          "latitude": 53.92370296812282,
+          "longitude": 19.350838826057775
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "4eb8f6085f9d7d332cc320a42d40d7bd",
+      "stadium": {
+        "venue": "Stadion Chojniczanki",
+        "address": "Harcerska 36, Chojnice",
+        "geo": {
+          "latitude": 53.8885195,
+          "longitude": 17.7251511,
+          "name": "Harcerska, Brusy, gmina Brusy, powiat chojnicki, 89-632, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6699c508f20dcd0f23ba806878cfe7d3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3fec4ee82c351b079f8990de921f464a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "aab460917133f9b0cfabcf098bec5432",
+      "stadium": {
+        "venue": "Stadion Stolem Gniewino",
+        "address": "Sportowa 1, Gniewino",
+        "geo": {
+          "latitude": 54.7135727,
+          "longitude": 18.0173109,
+          "name": "Centrum Kultury i Biblioteka, 1, Sportowa, Osiedle, Gniewino, gmina Gniewino, powiat wejherowski, 84-250, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "55d8fbd9ad19b9edf4dc2a75f859046b",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "331616ab8dca6f2a137ff7e24d3aa3a6",
+      "stadium": {
+        "venue": "Stadion Miejski w Pelplinie",
+        "address": "Sportowa 2, Pelplin",
+        "geo": {
+          "latitude": 53.9224456,
+          "longitude": 18.6884513,
+          "name": "2, Sportowa, Okoniewo, Pelplin, gmina Pelplin, powiat tczewski, 83-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "be1bfb7283620221a99801b20a11091c",
+      "stadium": {
+        "address": "Gdańsk",
+        "venue": "Stadion MOSiR",
+        "geo": {
+          "latitude": 52.6439417,
+          "longitude": 19.0757046,
+          "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "89324dc172391e555ba1c09200565f82",
       "stadium": {
         "venue": "Stadion Miejski w Lęborku",
         "address": "Kusocińskiego 56, Lębork",
@@ -194,9 +827,13 @@
         "name": "Dolina Speranda Niepoględzie",
         "crest": null
       },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-30T19:46:00.000Z"
+      },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T18:00:00.000Z"
+        "date": "2026-09-30",
+        "dateTime": "2026-09-30T19:46:00.000Z"
       },
       "id": "3b845c5f3f667da91967598458cfb4b2",
       "stadium": {
@@ -206,6 +843,2809 @@
           "latitude": 54.4525368,
           "longitude": 17.0269053,
           "name": "Stadion Gryf Słupsk, 9, Zielona, Słupsk, 76-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "84cd3734c1d1f3949eb1a8ff4963804e",
+      "stadium": {
+        "address": "Wzgórze Wolności 1 Wejherowo 84-200",
+        "venue": "Stadion WKS Gryf Wejherowo",
+        "geo": {
+          "latitude": 54.5922997,
+          "longitude": 18.2275428,
+          "name": "Stadion WKS Gryf Wejherowo, Wzgórze Wolności, Śródmieście, Wejherowo, powiat wejherowski, 84-215, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "10bf3141719ebdf40ba878928d018cbf",
+      "stadium": {
+        "venue": "Stadion Miejski w Pruszczu Gdańskim",
+        "address": "Sportowa 1, Pruszcz Gdański",
+        "geo": {
+          "latitude": 54.2540351,
+          "longitude": 18.6292177,
+          "name": "1, Sportowa, Osiedle na Wzgórzu, Śródmieście, Pruszcz Gdański, powiat gdański, 83-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "18b22e5b7cd22aa2cdfa5145b1b8e019",
+      "stadium": {
+        "venue": "Boisko Sportowe Sokół Bożepole Wielkie",
+        "address": "Główna 25, Bożepole Wielkie",
+        "geo": {
+          "latitude": 54.57642045473371,
+          "longitude": 17.96799860366876
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "db01b7afa38c6f48c96dc56a2bb463ca",
+      "stadium": {
+        "venue": "Stadion Miejski w Kartuzach",
+        "address": "3 Maja 34, Kartuzy",
+        "geo": {
+          "latitude": 54.3381134,
+          "longitude": 18.2064418,
+          "name": "34, 3 Maja, Kartuzy, gmina Kartuzy, powiat kartuski, 83-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "4b9f7c296121cbeeffdb505258028db3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9293b31865900dbd4211f30b8f1be43e",
+      "stadium": {
+        "venue": "Boisko Anioły Garczegorze",
+        "address": "Garczegorze 50, Garczegorze",
+        "geo": {
+          "latitude": 54.59854697080878,
+          "longitude": 17.72025895817192
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "90e4696b408d67b9748236e23b431db2",
+      "stadium": {
+        "address": "Zielona 9 Słupsk 76-200",
+        "venue": null,
+        "geo": {
+          "latitude": 54.4525368,
+          "longitude": 17.0269053,
+          "name": "Stadion Gryf Słupsk, 9, Zielona, Słupsk, 76-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "90ce886fac0e7eba8b4ef056b4f8069e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c048c5249d5a76dc5c3cfc2f7ad06f3b",
+      "stadium": {
+        "venue": "Stadion Miejski w Dzierzgoniu",
+        "address": "Sportowa 1, Dzierzgoń",
+        "geo": {
+          "latitude": 53.92370296812282,
+          "longitude": 19.350838826057775
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "213816b27fc32c4c98d8800ef7927cf6",
+      "stadium": {
+        "venue": "Stadion Chojniczanki",
+        "address": "Harcerska 36, Chojnice",
+        "geo": {
+          "latitude": 53.8885195,
+          "longitude": 17.7251511,
+          "name": "Harcerska, Brusy, gmina Brusy, powiat chojnicki, 89-632, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "4c363bf5d4c55d49202c54e7553c94bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "41d0f1bd3db70e3519ee3d513d0928c7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bff31f1e40ffb8c69e0f52a093b97e12",
+      "stadium": {
+        "venue": "Stadion Stolem Gniewino",
+        "address": "Sportowa 1, Gniewino",
+        "geo": {
+          "latitude": 54.7135727,
+          "longitude": 18.0173109,
+          "name": "Centrum Kultury i Biblioteka, 1, Sportowa, Osiedle, Gniewino, gmina Gniewino, powiat wejherowski, 84-250, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "c5a8bc2454c5ca8af52fdf5058e46636",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "17fde1bd3b4e47767e9b25f592d89eac",
+      "stadium": {
+        "venue": "Stadion Miejski w Pelplinie",
+        "address": "Sportowa 2, Pelplin",
+        "geo": {
+          "latitude": 53.9224456,
+          "longitude": 18.6884513,
+          "name": "2, Sportowa, Okoniewo, Pelplin, gmina Pelplin, powiat tczewski, 83-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "dac670b5313a187606e7b3e834e92304",
+      "stadium": {
+        "address": "Gdańsk",
+        "venue": "Stadion MOSiR",
+        "geo": {
+          "latitude": 52.6439417,
+          "longitude": 19.0757046,
+          "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "460955f829965c987c2d93547139d05e",
+      "stadium": {
+        "venue": "Stadion Miejski w Lęborku",
+        "address": "Kusocińskiego 56, Lębork",
+        "geo": {
+          "latitude": 54.5239335,
+          "longitude": 17.7505656,
+          "name": "56, Janusza Kusocińskiego, Osiedle Sportowe, Zatorze, Lębork, powiat lęborski, 84-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "awayTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "d3cbd78f7f90ec8dc92685b42eedd32d",
+      "stadium": {
+        "venue": "Narodowy Stadion Rugby",
+        "address": "Kazimierza Górskiego 10, Gdynia",
+        "geo": {
+          "latitude": 54.497285,
+          "longitude": 18.5318575,
+          "name": "10, Kazimierza Górskiego, Wzgórze Świętego Maksymiliana, Gdynia, 81-304, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d084cfafb6ff60adc84b2bef053dd28a",
+      "stadium": {
+        "address": "Wzgórze Wolności 1 Wejherowo 84-200",
+        "venue": "Stadion WKS Gryf Wejherowo",
+        "geo": {
+          "latitude": 54.5922997,
+          "longitude": 18.2275428,
+          "name": "Stadion WKS Gryf Wejherowo, Wzgórze Wolności, Śródmieście, Wejherowo, powiat wejherowski, 84-215, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "cb25a7f694b2d76a1a826acb4d6a488b",
+      "stadium": {
+        "venue": "Stadion Miejski w Kartuzach",
+        "address": "3 Maja 34, Kartuzy",
+        "geo": {
+          "latitude": 54.3381134,
+          "longitude": 18.2064418,
+          "name": "34, 3 Maja, Kartuzy, gmina Kartuzy, powiat kartuski, 83-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "64b1f47be24add2039192ec322e6a2a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7996d01390bc765120a228a37f055123",
+      "stadium": {
+        "venue": "Boisko Anioły Garczegorze",
+        "address": "Garczegorze 50, Garczegorze",
+        "geo": {
+          "latitude": 54.59854697080878,
+          "longitude": 17.72025895817192
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "840f4770ed0b71825d138e8df1b66af6",
+      "stadium": {
+        "address": "Zielona 9 Słupsk 76-200",
+        "venue": null,
+        "geo": {
+          "latitude": 54.4525368,
+          "longitude": 17.0269053,
+          "name": "Stadion Gryf Słupsk, 9, Zielona, Słupsk, 76-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1f1a47d3c8aea437961a6a3431be7959",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "597a80dac7ab166d10f81ab80b0f0235",
+      "stadium": {
+        "venue": "Stadion Miejski w Dzierzgoniu",
+        "address": "Sportowa 1, Dzierzgoń",
+        "geo": {
+          "latitude": 53.92370296812282,
+          "longitude": 19.350838826057775
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ac30543a42445c2febf8c9afb11e1bb7",
+      "stadium": {
+        "venue": "Stadion Chojniczanki",
+        "address": "Harcerska 36, Chojnice",
+        "geo": {
+          "latitude": 53.8885195,
+          "longitude": 17.7251511,
+          "name": "Harcerska, Brusy, gmina Brusy, powiat chojnicki, 89-632, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b94a0c6e312191aa83ea8edc8c9cfa70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "536b77f54d1b4a59e021cb58fba2a55b",
+      "stadium": {
+        "address": "Wzgórze Wolności 1 Wejherowo 84-200",
+        "venue": "Stadion WKS Gryf Wejherowo",
+        "geo": {
+          "latitude": 54.5922997,
+          "longitude": 18.2275428,
+          "name": "Stadion WKS Gryf Wejherowo, Wzgórze Wolności, Śródmieście, Wejherowo, powiat wejherowski, 84-215, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "f127d9583eeb288a26ee79a595a4e38e",
+      "stadium": {
+        "venue": "Boisko Sportowe Sokół Bożepole Wielkie",
+        "address": "Główna 25, Bożepole Wielkie",
+        "geo": {
+          "latitude": 54.57642045473371,
+          "longitude": 17.96799860366876
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "34e7a648a7109894655065dfff8dcd9e",
+      "stadium": {
+        "venue": "Stadion Miejski w Kartuzach",
+        "address": "3 Maja 34, Kartuzy",
+        "geo": {
+          "latitude": 54.3381134,
+          "longitude": 18.2064418,
+          "name": "34, 3 Maja, Kartuzy, gmina Kartuzy, powiat kartuski, 83-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e425a389f8714c543278f6435f192223",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "464978868db9dfb6a4de13e787a4d570",
+      "stadium": {
+        "venue": "Boisko Anioły Garczegorze",
+        "address": "Garczegorze 50, Garczegorze",
+        "geo": {
+          "latitude": 54.59854697080878,
+          "longitude": 17.72025895817192
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "720af6150ac510c21845889f9e0e397c",
+      "stadium": {
+        "address": "Zielona 9 Słupsk 76-200",
+        "venue": null,
+        "geo": {
+          "latitude": 54.4525368,
+          "longitude": 17.0269053,
+          "name": "Stadion Gryf Słupsk, 9, Zielona, Słupsk, 76-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "62d0dd6e76c5f906b01086523a0c0d6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "6133a1cba165aba0056dbe287457d1c6",
+      "stadium": {
+        "venue": "Stadion Miejski w Dzierzgoniu",
+        "address": "Sportowa 1, Dzierzgoń",
+        "geo": {
+          "latitude": 53.92370296812282,
+          "longitude": 19.350838826057775
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "46c739c3e5b4ef8c448aebd6b448388c",
+      "stadium": {
+        "venue": "Stadion Chojniczanki",
+        "address": "Harcerska 36, Chojnice",
+        "geo": {
+          "latitude": 53.8885195,
+          "longitude": 17.7251511,
+          "name": "Harcerska, Brusy, gmina Brusy, powiat chojnicki, 89-632, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "73d9b22e1a08fae5d0043741d3177796",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b576678e8016c53130e2336b8f30316c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6ee2aa92339dce6202d686cb1e391dcf",
+      "stadium": {
+        "venue": "Stadion Stolem Gniewino",
+        "address": "Sportowa 1, Gniewino",
+        "geo": {
+          "latitude": 54.7135727,
+          "longitude": 18.0173109,
+          "name": "Centrum Kultury i Biblioteka, 1, Sportowa, Osiedle, Gniewino, gmina Gniewino, powiat wejherowski, 84-250, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "4eec813c2b50027d6b8f66189cd349d3",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ff7b00f4c00cfe7134fe3a4c37c6ab4f",
+      "stadium": {
+        "venue": "Stadion Miejski w Pelplinie",
+        "address": "Sportowa 2, Pelplin",
+        "geo": {
+          "latitude": 53.9224456,
+          "longitude": 18.6884513,
+          "name": "2, Sportowa, Okoniewo, Pelplin, gmina Pelplin, powiat tczewski, 83-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "eb8cccd88c611d74e0cece1b37e8dd65",
+      "stadium": {
+        "address": "Gdańsk",
+        "venue": "Stadion MOSiR",
+        "geo": {
+          "latitude": 52.6439417,
+          "longitude": 19.0757046,
+          "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7e66cbd995f9543d0e4fd70862f3878e",
+      "stadium": {
+        "venue": "Stadion Miejski w Lęborku",
+        "address": "Kusocińskiego 56, Lębork",
+        "geo": {
+          "latitude": 54.5239335,
+          "longitude": 17.7505656,
+          "name": "56, Janusza Kusocińskiego, Osiedle Sportowe, Zatorze, Lębork, powiat lęborski, 84-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0a2728da71b935ce46b616a4b277a86b",
+      "stadium": {
+        "venue": "Narodowy Stadion Rugby",
+        "address": "Kazimierza Górskiego 10, Gdynia",
+        "geo": {
+          "latitude": 54.497285,
+          "longitude": 18.5318575,
+          "name": "10, Kazimierza Górskiego, Wzgórze Świętego Maksymiliana, Gdynia, 81-304, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "8eee7a1727ac36c75da3941c951fb31d",
+      "stadium": {
+        "venue": "Stadion Miejski w Pruszczu Gdańskim",
+        "address": "Sportowa 1, Pruszcz Gdański",
+        "geo": {
+          "latitude": 54.2540351,
+          "longitude": 18.6292177,
+          "name": "1, Sportowa, Osiedle na Wzgórzu, Śródmieście, Pruszcz Gdański, powiat gdański, 83-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "5f20d57a2539b61911b7613a31ecc3fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bc63198aa251d66dc59944eb19e1cc97",
+      "stadium": {
+        "venue": "Stadion Stolem Gniewino",
+        "address": "Sportowa 1, Gniewino",
+        "geo": {
+          "latitude": 54.7135727,
+          "longitude": 18.0173109,
+          "name": "Centrum Kultury i Biblioteka, 1, Sportowa, Osiedle, Gniewino, gmina Gniewino, powiat wejherowski, 84-250, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "483add9d9f493530eefd240ecae6a14c",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "50399e1e3669fcf957714812a10f820b",
+      "stadium": {
+        "venue": "Stadion Miejski w Pelplinie",
+        "address": "Sportowa 2, Pelplin",
+        "geo": {
+          "latitude": 53.9224456,
+          "longitude": 18.6884513,
+          "name": "2, Sportowa, Okoniewo, Pelplin, gmina Pelplin, powiat tczewski, 83-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e2d56a0fbb89898cd524ae7ca25d2fc9",
+      "stadium": {
+        "address": "Gdańsk",
+        "venue": "Stadion MOSiR",
+        "geo": {
+          "latitude": 52.6439417,
+          "longitude": 19.0757046,
+          "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "bc0363e2b2c56ca16847af5844cde2a9",
+      "stadium": {
+        "venue": "Stadion Miejski w Lęborku",
+        "address": "Kusocińskiego 56, Lębork",
+        "geo": {
+          "latitude": 54.5239335,
+          "longitude": 17.7505656,
+          "name": "56, Janusza Kusocińskiego, Osiedle Sportowe, Zatorze, Lębork, powiat lęborski, 84-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "awayTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c8e04c7d6d383a0c6bee9f68aea65f9a",
+      "stadium": {
+        "venue": "Narodowy Stadion Rugby",
+        "address": "Kazimierza Górskiego 10, Gdynia",
+        "geo": {
+          "latitude": 54.497285,
+          "longitude": 18.5318575,
+          "name": "10, Kazimierza Górskiego, Wzgórze Świętego Maksymiliana, Gdynia, 81-304, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a847d1f20b7205cd4c0e580d81bcff73",
+      "stadium": {
+        "venue": "Stadion Miejski w Pruszczu Gdańskim",
+        "address": "Sportowa 1, Pruszcz Gdański",
+        "geo": {
+          "latitude": 54.2540351,
+          "longitude": 18.6292177,
+          "name": "1, Sportowa, Osiedle na Wzgórzu, Śródmieście, Pruszcz Gdański, powiat gdański, 83-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "980cf5ce9c0e443c8c83be207223aa6e",
+      "stadium": {
+        "venue": "Boisko Sportowe Sokół Bożepole Wielkie",
+        "address": "Główna 25, Bożepole Wielkie",
+        "geo": {
+          "latitude": 54.57642045473371,
+          "longitude": 17.96799860366876
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "edcd93d643f0fc40ab8e227458a5efd7",
+      "stadium": {
+        "venue": "Stadion Stolem Gniewino",
+        "address": "Sportowa 1, Gniewino",
+        "geo": {
+          "latitude": 54.7135727,
+          "longitude": 18.0173109,
+          "name": "Centrum Kultury i Biblioteka, 1, Sportowa, Osiedle, Gniewino, gmina Gniewino, powiat wejherowski, 84-250, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "faf38a1e5382e92036606a6ce0aaaac0",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "f1c132e2398cdd79a7b95cf749017b12",
+      "stadium": {
+        "venue": "Stadion Miejski w Pelplinie",
+        "address": "Sportowa 2, Pelplin",
+        "geo": {
+          "latitude": 53.9224456,
+          "longitude": 18.6884513,
+          "name": "2, Sportowa, Okoniewo, Pelplin, gmina Pelplin, powiat tczewski, 83-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "45e7afcb5da9a0cb92148a921329ca3e",
+      "stadium": {
+        "address": "Gdańsk",
+        "venue": "Stadion MOSiR",
+        "geo": {
+          "latitude": 52.6439417,
+          "longitude": 19.0757046,
+          "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "bab01045ec6d65458a12ca0a09d87589",
+      "stadium": {
+        "venue": "Stadion Miejski w Lęborku",
+        "address": "Kusocińskiego 56, Lębork",
+        "geo": {
+          "latitude": 54.5239335,
+          "longitude": 17.7505656,
+          "name": "56, Janusza Kusocińskiego, Osiedle Sportowe, Zatorze, Lębork, powiat lęborski, 84-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "awayTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "058501f60451c2b7f496fa5da486aaa0",
+      "stadium": {
+        "venue": "Narodowy Stadion Rugby",
+        "address": "Kazimierza Górskiego 10, Gdynia",
+        "geo": {
+          "latitude": 54.497285,
+          "longitude": 18.5318575,
+          "name": "10, Kazimierza Górskiego, Wzgórze Świętego Maksymiliana, Gdynia, 81-304, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "16b7c7767510868e763764828f6e4d4d",
+      "stadium": {
+        "venue": "Stadion Miejski w Pruszczu Gdańskim",
+        "address": "Sportowa 1, Pruszcz Gdański",
+        "geo": {
+          "latitude": 54.2540351,
+          "longitude": 18.6292177,
+          "name": "1, Sportowa, Osiedle na Wzgórzu, Śródmieście, Pruszcz Gdański, powiat gdański, 83-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0cf6a5d695e2081b60cccbaab5d48328",
+      "stadium": {
+        "venue": "Boisko Sportowe Sokół Bożepole Wielkie",
+        "address": "Główna 25, Bożepole Wielkie",
+        "geo": {
+          "latitude": 54.57642045473371,
+          "longitude": 17.96799860366876
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "a5679e6b6b5d5d3287559b917fb07aba",
+      "stadium": {
+        "venue": "Stadion Miejski w Kartuzach",
+        "address": "3 Maja 34, Kartuzy",
+        "geo": {
+          "latitude": 54.3381134,
+          "longitude": 18.2064418,
+          "name": "34, 3 Maja, Kartuzy, gmina Kartuzy, powiat kartuski, 83-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "f24fab431a8e047ef0fcda457bbb21ca",
+      "stadium": {
+        "address": "Wzgórze Wolności 1 Wejherowo 84-200",
+        "venue": "Stadion WKS Gryf Wejherowo",
+        "geo": {
+          "latitude": 54.5922997,
+          "longitude": 18.2275428,
+          "name": "Stadion WKS Gryf Wejherowo, Wzgórze Wolności, Śródmieście, Wejherowo, powiat wejherowski, 84-215, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "8f5e856130b35b6ea5656b3b58035e39",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "4b1e6b37c9a15291bdb6d4c5990f9e84",
+      "stadium": {
+        "venue": "Boisko Anioły Garczegorze",
+        "address": "Garczegorze 50, Garczegorze",
+        "geo": {
+          "latitude": 54.59854697080878,
+          "longitude": 17.72025895817192
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "6b2b50219cf8bcb48ce28a63c5df24a0",
+      "stadium": {
+        "address": "Zielona 9 Słupsk 76-200",
+        "venue": null,
+        "geo": {
+          "latitude": 54.4525368,
+          "longitude": 17.0269053,
+          "name": "Stadion Gryf Słupsk, 9, Zielona, Słupsk, 76-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "914878cdb5cdad930ecc57f5f29bf5c6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "d20389d4b0abfe13ea3715c68d7971a0",
+      "stadium": {
+        "venue": "Stadion Miejski w Dzierzgoniu",
+        "address": "Sportowa 1, Dzierzgoń",
+        "geo": {
+          "latitude": 53.92370296812282,
+          "longitude": 19.350838826057775
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "cab3e565f6ee5dd0370bf94858f7a989",
+      "stadium": {
+        "venue": "Stadion Chojniczanki",
+        "address": "Harcerska 36, Chojnice",
+        "geo": {
+          "latitude": 53.8885195,
+          "longitude": 17.7251511,
+          "name": "Harcerska, Brusy, gmina Brusy, powiat chojnicki, 89-632, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "a1d9e9fb8545070f5e49a453b63b2fa3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "b874f41712aa6e93a94f5547fc7c1d97",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "428ab2fa45012fcdec3fd98925cfc066",
+      "stadium": {
+        "address": "Wzgórze Wolności 1 Wejherowo 84-200",
+        "venue": "Stadion WKS Gryf Wejherowo",
+        "geo": {
+          "latitude": 54.5922997,
+          "longitude": 18.2275428,
+          "name": "Stadion WKS Gryf Wejherowo, Wzgórze Wolności, Śródmieście, Wejherowo, powiat wejherowski, 84-215, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "93c4f726fb059f69df32c5291afa9bc0",
+      "stadium": {
+        "venue": "Stadion Miejski w Kartuzach",
+        "address": "3 Maja 34, Kartuzy",
+        "geo": {
+          "latitude": 54.3381134,
+          "longitude": 18.2064418,
+          "name": "34, 3 Maja, Kartuzy, gmina Kartuzy, powiat kartuski, 83-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "edc45e8d6d81901be2fb115bb7926ac6",
+      "stadium": {
+        "venue": "Boisko Sportowe Sokół Bożepole Wielkie",
+        "address": "Główna 25, Bożepole Wielkie",
+        "geo": {
+          "latitude": 54.57642045473371,
+          "longitude": 17.96799860366876
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "edeeeadf914cc0dd53a6a03af4fc58f9",
+      "stadium": {
+        "venue": "Stadion Miejski w Pruszczu Gdańskim",
+        "address": "Sportowa 1, Pruszcz Gdański",
+        "geo": {
+          "latitude": 54.2540351,
+          "longitude": 18.6292177,
+          "name": "1, Sportowa, Osiedle na Wzgórzu, Śródmieście, Pruszcz Gdański, powiat gdański, 83-000, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "awayTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "f3aa1b1fcb7b92b4c88804124c14dbff",
+      "stadium": {
+        "venue": "Narodowy Stadion Rugby",
+        "address": "Kazimierza Górskiego 10, Gdynia",
+        "geo": {
+          "latitude": 54.497285,
+          "longitude": 18.5318575,
+          "name": "10, Kazimierza Górskiego, Wzgórze Świętego Maksymiliana, Gdynia, 81-304, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "82c2778220d17a289428ec0821d95b6f",
+      "stadium": {
+        "venue": "Stadion Miejski w Lęborku",
+        "address": "Kusocińskiego 56, Lębork",
+        "geo": {
+          "latitude": 54.5239335,
+          "longitude": 17.7505656,
+          "name": "56, Janusza Kusocińskiego, Osiedle Sportowe, Zatorze, Lębork, powiat lęborski, 84-300, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "8c5dbd5686a13f125416244bcccd40a7",
+      "stadium": {
+        "address": "Gdańsk",
+        "venue": "Stadion MOSiR",
+        "geo": {
+          "latitude": 52.6439417,
+          "longitude": 19.0757046,
+          "name": "Stadion MOSiR, 53A, Leśna, Kolanowszczyzna, Śródmieście, Włocławek, województwo kujawsko-pomorskie, 87-800, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "e13f38732e72a30b0dab38bc5a0a9727",
+      "stadium": {
+        "venue": "Stadion Miejski w Pelplinie",
+        "address": "Sportowa 2, Pelplin",
+        "geo": {
+          "latitude": 53.9224456,
+          "longitude": 18.6884513,
+          "name": "2, Sportowa, Okoniewo, Pelplin, gmina Pelplin, powiat tczewski, 83-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22"
+      },
+      "date": {
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-22",
+        "time": "TBD"
+      },
+      "id": "db43b6c7f1d65c8ec0df55bccf8eb333",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "KP Starogard Gdański",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gryf Wejherowo",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "6a9dfff8b4effee5ce9ada567c81ab2c",
+      "stadium": {
+        "venue": "Stadion Miejski im. Kazimierza Deyny",
+        "address": "Olimpijczyków Starogardzkich 1, Starogard Gdański",
+        "geo": {
+          "latitude": 53.9703707,
+          "longitude": 18.5329711,
+          "name": "1, Olimpijczyków Starogardzkich, Starogard Gdański, powiat starogardzki, województwo pomorskie, 83-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stolem Gniewino",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierzyca Pelplin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "d1ecbd103d0abca2ac710012880d2d2d",
+      "stadium": {
+        "venue": "Stadion Stolem Gniewino",
+        "address": "Sportowa 1, Gniewino",
+        "geo": {
+          "latitude": 54.7135727,
+          "longitude": 18.0173109,
+          "name": "Centrum Kultury i Biblioteka, 1, Sportowa, Osiedle, Gniewino, gmina Gniewino, powiat wejherowski, 84-250, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Stoczniowiec Gdańsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Gdańsk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "f6b385e8e35f191359defe4c4a9639d0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Sycewice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń Lębork",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "5963ee46fb11d5a9d8e55c064d7dd132",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Chojniczanka II Chojnice",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/55/MKS_Chojniczanka_1930_%28logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Arka II Gdynia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_of_Arka_Gdynia_at_graffiti_at_ulica_Jozefa_Bema_in_Gdynia_%28cropped%29.jpg"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "6624ffaf1be0fa909ee31f1b432be5b8",
+      "stadium": {
+        "venue": "Stadion Chojniczanki",
+        "address": "Harcerska 36, Chojnice",
+        "geo": {
+          "latitude": 53.8885195,
+          "longitude": 17.7251511,
+          "name": "Harcerska, Brusy, gmina Brusy, powiat chojnicki, 89-632, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Powiśle Dzierzgoń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Pruszcz Gdański",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "7ea8f948021cdba4996e984f517830ef",
+      "stadium": {
+        "venue": "Stadion Miejski w Dzierzgoniu",
+        "address": "Sportowa 1, Dzierzgoń",
+        "geo": {
+          "latitude": 53.92370296812282,
+          "longitude": 19.350838826057775
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Dolina Speranda Niepoględzie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Bożepole Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "2bef4a8bae4d4198a078c37cce774e4e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Gryf Słupsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Cartusia Kartuzy",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "3531363cb86413aeddeed775ac2c2772",
+      "stadium": {
+        "address": "Zielona 9 Słupsk 76-200",
+        "venue": null,
+        "geo": {
+          "latitude": 54.4525368,
+          "longitude": 17.0269053,
+          "name": "Stadion Gryf Słupsk, 9, Zielona, Słupsk, 76-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Pomorskie"
+      },
+      "homeTeam": {
+        "name": "Anioły Garczegorze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radunia Stężyca",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29"
+      },
+      "date": {
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "time": "TBD"
+      },
+      "id": "5fd8f8014deb3db8617f3988d97ddf16",
+      "stadium": {
+        "venue": "Boisko Anioły Garczegorze",
+        "address": "Garczegorze 50, Garczegorze",
+        "geo": {
+          "latitude": 54.59854697080878,
+          "longitude": 17.72025895817192
         }
       }
     }

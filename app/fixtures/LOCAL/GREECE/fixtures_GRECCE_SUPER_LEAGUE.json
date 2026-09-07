@@ -4,149 +4,16 @@
       "name": "Super League"
     },
     "homeTeam": {
-      "name": "Volos",
-      "crest": "https://crests.football-data.org/7807.png"
-    },
-    "awayTeam": {
-      "name": "Olympiacos Piraeus",
-      "crest": "https://crests.football-data.org/654.png"
-    },
-    "date": {
-      "date": "2026-09-05T16:00:00.000Z",
-      "dateTime": "2026-09-05T16:00:00.000Z"
-    },
-    "id": "8cfc8cb6b89d32ed762c8b8f39d91760",
-    "stadium": {
-      "address": "Volos",
-      "venue": "Panthessaliko Stadio",
-      "geo": {
-        "latitude": 39.3873889,
-        "longitude": 22.931244,
-        "name": "Πανθεσσαλικό Στάδιο, Σταδίου, Νέα Ιωνία, Δήμος Βόλου, Περιφερειακή Ενότητα Μαγνησίας, Περιφέρεια Θεσσαλίας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 384 46, Ελλάς"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Super League"
-    },
-    "homeTeam": {
-      "name": "AEK Athens",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Aris",
-      "crest": "https://crests.football-data.org/644.png"
-    },
-    "date": {
-      "date": "2026-09-05T18:00:00.000Z",
-      "dateTime": "2026-09-05T18:00:00.000Z"
-    },
-    "id": "a183067fb4d211096fb359802e15dcdb",
-    "stadium": {
-      "venue": "Agia Sophia Stadium (OPAP Arena)",
-      "address": "Filadelfeos 14, Nea Filadelfeia",
-      "geo": {
-        "latitude": 38.037219666784175,
-        "longitude": 23.741696427106064
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Super League"
-    },
-    "homeTeam": {
-      "name": "Atromitos",
-      "crest": "https://crests.football-data.org/642.png"
-    },
-    "awayTeam": {
-      "name": "Kalamata",
-      "crest": null
-    },
-    "date": {
-      "date": "2026-09-06T16:00:00.000Z",
-      "dateTime": "2026-09-06T16:00:00.000Z"
-    },
-    "id": "1525dff10abf43be38bfd2455be1f614",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "Super League"
-    },
-    "homeTeam": {
-      "name": "OFI Crete",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Kifisia",
-      "crest": "https://crests.football-data.org/10225.png"
-    },
-    "date": {
-      "date": "2026-09-06T16:30:00.000Z",
-      "dateTime": "2026-09-06T16:30:00.000Z"
-    },
-    "id": "515fa29dc8c289f7ddad557f4d10c46f",
-    "stadium": {
-      "venue": "Theodoros Vardinogiannis Stadium",
-      "address": "Nikolaou Plastira 71, Heraklion",
-      "geo": {
-        "latitude": 35.3338258,
-        "longitude": 25.1333427,
-        "name": "Νικολάου Πλαστήρα, 1η Κοινότητα Ηρακλείου - Κεντρική, Δημοτική Ενότητα Ηρακλείου, Δήμος Ηρακλείου, Περιφερειακή Ενότητα Ηρακλείου, Περιφέρεια Κρήτης, Αποκεντρωμένη Διοίκηση Κρήτης, 712 02, Ελλάς"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Super League"
-    },
-    "homeTeam": {
-      "name": "Levadiakos",
-      "crest": "https://crests.football-data.org/655.png"
-    },
-    "awayTeam": {
-      "name": "Panetolikos",
-      "crest": "https://crests.football-data.org/10195.png"
-    },
-    "date": {
-      "date": "2026-09-06T17:00:00.000Z",
-      "dateTime": "2026-09-06T17:00:00.000Z"
-    },
-    "id": "3532da04632b47030d608da0c4789acf",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "Super League"
-    },
-    "homeTeam": {
-      "name": "Panathinaikos",
-      "crest": "https://crests.football-data.org/646.png"
-    },
-    "awayTeam": {
-      "name": "PAOK",
-      "crest": "https://crests.football-data.org/649.png"
-    },
-    "date": {
-      "date": "2026-09-06T18:30:00.000Z",
-      "dateTime": "2026-09-06T18:30:00.000Z"
-    },
-    "id": "e619726fba2f49541a95edc8c7c97293",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "Super League"
-    },
-    "homeTeam": {
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
     },
     "awayTeam": {
       "name": "Iraklis 1908",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-07T15:00:00.000Z"
     },
     "date": {
       "date": "2026-09-07T15:00:00.000Z",
@@ -175,6 +42,10 @@
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-10T18:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-10T18:00:00.000Z",
       "dateTime": "2026-09-10T18:00:00.000Z"
@@ -193,6 +64,10 @@
     "awayTeam": {
       "name": "OFI Crete",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-12T16:00:00.000Z"
     },
     "date": {
       "date": "2026-09-12T16:00:00.000Z",
@@ -221,6 +96,10 @@
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-12T18:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-12T18:00:00.000Z",
       "dateTime": "2026-09-12T18:00:00.000Z"
@@ -240,6 +119,10 @@
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-13T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-13T15:00:00.000Z",
       "dateTime": "2026-09-13T15:00:00.000Z"
@@ -258,6 +141,10 @@
     "awayTeam": {
       "name": "AEK Athens",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-13T16:00:00.000Z"
     },
     "date": {
       "date": "2026-09-13T16:00:00.000Z",
@@ -286,6 +173,10 @@
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-13T18:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-13T18:00:00.000Z",
       "dateTime": "2026-09-13T18:00:00.000Z"
@@ -304,6 +195,10 @@
     "awayTeam": {
       "name": "Aris",
       "crest": "https://crests.football-data.org/644.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-13T18:00:00.000Z"
     },
     "date": {
       "date": "2026-09-13T18:00:00.000Z",
@@ -324,6 +219,10 @@
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-13T18:30:00.000Z"
+    },
     "date": {
       "date": "2026-09-13T18:30:00.000Z",
       "dateTime": "2026-09-13T18:30:00.000Z"
@@ -342,6 +241,10 @@
     "awayTeam": {
       "name": "Iraklis 1908",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T15:00:00.000Z"
     },
     "date": {
       "date": "2026-09-19T15:00:00.000Z",
@@ -362,6 +265,10 @@
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T15:00:00.000Z",
       "dateTime": "2026-09-19T15:00:00.000Z"
@@ -380,6 +287,10 @@
     "awayTeam": {
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T15:00:00.000Z"
     },
     "date": {
       "date": "2026-09-19T15:00:00.000Z",
@@ -400,6 +311,10 @@
       "name": "Olympiacos Piraeus",
       "crest": "https://crests.football-data.org/654.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T15:00:00.000Z",
       "dateTime": "2026-09-19T15:00:00.000Z"
@@ -418,6 +333,10 @@
     "awayTeam": {
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T15:00:00.000Z"
     },
     "date": {
       "date": "2026-09-19T15:00:00.000Z",
@@ -446,6 +365,10 @@
       "name": "PAOK",
       "crest": "https://crests.football-data.org/649.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-09-19T15:00:00.000Z",
       "dateTime": "2026-09-19T15:00:00.000Z"
@@ -464,6 +387,10 @@
     "awayTeam": {
       "name": "AEK Athens",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T15:00:00.000Z"
     },
     "date": {
       "date": "2026-09-19T15:00:00.000Z",
@@ -492,6 +419,10 @@
       "name": "OFI Crete",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T15:00:00.000Z",
       "dateTime": "2026-10-10T15:00:00.000Z"
@@ -518,6 +449,10 @@
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T15:00:00.000Z",
       "dateTime": "2026-10-10T15:00:00.000Z"
@@ -536,6 +471,10 @@
     "awayTeam": {
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-10T15:00:00.000Z",
@@ -564,6 +503,10 @@
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T15:00:00.000Z",
       "dateTime": "2026-10-10T15:00:00.000Z"
@@ -583,6 +526,10 @@
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T15:00:00.000Z",
       "dateTime": "2026-10-10T15:00:00.000Z"
@@ -601,6 +548,10 @@
     "awayTeam": {
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-10T15:00:00.000Z",
@@ -629,6 +580,10 @@
       "name": "Kalamata",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-10T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-10T15:00:00.000Z",
       "dateTime": "2026-10-10T15:00:00.000Z"
@@ -647,6 +602,10 @@
     "awayTeam": {
       "name": "AEK Athens",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-17T15:00:00.000Z",
@@ -667,6 +626,10 @@
       "name": "OFI Crete",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T15:00:00.000Z",
       "dateTime": "2026-10-17T15:00:00.000Z"
@@ -685,6 +648,10 @@
     "awayTeam": {
       "name": "Aris",
       "crest": "https://crests.football-data.org/644.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-17T15:00:00.000Z",
@@ -705,6 +672,10 @@
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T15:00:00.000Z",
       "dateTime": "2026-10-17T15:00:00.000Z"
@@ -723,6 +694,10 @@
     "awayTeam": {
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-17T15:00:00.000Z",
@@ -743,6 +718,10 @@
       "name": "Olympiacos Piraeus",
       "crest": "https://crests.football-data.org/654.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T15:00:00.000Z",
       "dateTime": "2026-10-17T15:00:00.000Z"
@@ -762,6 +741,10 @@
       "name": "Iraklis 1908",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-17T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-17T15:00:00.000Z",
       "dateTime": "2026-10-17T15:00:00.000Z"
@@ -780,6 +763,10 @@
     "awayTeam": {
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-24T15:00:00.000Z",
@@ -807,6 +794,10 @@
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-24T15:00:00.000Z",
       "dateTime": "2026-10-24T15:00:00.000Z"
@@ -825,6 +816,10 @@
     "awayTeam": {
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-24T15:00:00.000Z",
@@ -853,6 +848,10 @@
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-24T15:00:00.000Z",
       "dateTime": "2026-10-24T15:00:00.000Z"
@@ -871,6 +870,10 @@
     "awayTeam": {
       "name": "PAOK",
       "crest": "https://crests.football-data.org/649.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-24T15:00:00.000Z",
@@ -899,6 +902,10 @@
       "name": "Kalamata",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T15:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-24T15:00:00.000Z",
       "dateTime": "2026-10-24T15:00:00.000Z"
@@ -925,6 +932,10 @@
     "awayTeam": {
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-24T15:00:00.000Z"
     },
     "date": {
       "date": "2026-10-24T15:00:00.000Z",
@@ -953,6 +964,10 @@
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T16:00:00.000Z",
       "dateTime": "2026-10-31T16:00:00.000Z"
@@ -971,6 +986,10 @@
     "awayTeam": {
       "name": "Iraklis 1908",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T16:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T16:00:00.000Z",
@@ -991,6 +1010,10 @@
       "name": "Olympiacos Piraeus",
       "crest": "https://crests.football-data.org/654.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T16:00:00.000Z",
       "dateTime": "2026-10-31T16:00:00.000Z"
@@ -1009,6 +1032,10 @@
     "awayTeam": {
       "name": "Aris",
       "crest": "https://crests.football-data.org/644.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T16:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T16:00:00.000Z",
@@ -1029,6 +1056,10 @@
       "name": "AEK Athens",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T16:00:00.000Z",
       "dateTime": "2026-10-31T16:00:00.000Z"
@@ -1047,6 +1078,10 @@
     "awayTeam": {
       "name": "OFI Crete",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T16:00:00.000Z"
     },
     "date": {
       "date": "2026-10-31T16:00:00.000Z",
@@ -1067,6 +1102,10 @@
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-10-31T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-10-31T16:00:00.000Z",
       "dateTime": "2026-10-31T16:00:00.000Z"
@@ -1085,6 +1124,10 @@
     "awayTeam": {
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-07T16:00:00.000Z",
@@ -1112,6 +1155,10 @@
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T16:00:00.000Z",
       "dateTime": "2026-11-07T16:00:00.000Z"
@@ -1130,6 +1177,10 @@
     "awayTeam": {
       "name": "Kalamata",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-07T16:00:00.000Z",
@@ -1158,6 +1209,10 @@
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T16:00:00.000Z",
       "dateTime": "2026-11-07T16:00:00.000Z"
@@ -1176,6 +1231,10 @@
     "awayTeam": {
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-07T16:00:00.000Z",
@@ -1204,6 +1263,10 @@
       "name": "PAOK",
       "crest": "https://crests.football-data.org/649.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-07T16:00:00.000Z",
       "dateTime": "2026-11-07T16:00:00.000Z"
@@ -1230,6 +1293,10 @@
     "awayTeam": {
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-07T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-07T16:00:00.000Z",
@@ -1258,6 +1325,10 @@
       "name": "Aris",
       "crest": "https://crests.football-data.org/644.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T16:00:00.000Z",
       "dateTime": "2026-11-21T16:00:00.000Z"
@@ -1285,6 +1356,10 @@
       "name": "AEK Athens",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T16:00:00.000Z",
       "dateTime": "2026-11-21T16:00:00.000Z"
@@ -1304,6 +1379,10 @@
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T16:00:00.000Z",
       "dateTime": "2026-11-21T16:00:00.000Z"
@@ -1322,6 +1401,10 @@
     "awayTeam": {
       "name": "Iraklis 1908",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-21T16:00:00.000Z",
@@ -1350,6 +1433,10 @@
       "name": "OFI Crete",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T16:00:00.000Z",
       "dateTime": "2026-11-21T16:00:00.000Z"
@@ -1368,6 +1455,10 @@
     "awayTeam": {
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-21T16:00:00.000Z",
@@ -1388,6 +1479,10 @@
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-21T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-21T16:00:00.000Z",
       "dateTime": "2026-11-21T16:00:00.000Z"
@@ -1406,6 +1501,10 @@
     "awayTeam": {
       "name": "PAOK",
       "crest": "https://crests.football-data.org/649.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-28T16:00:00.000Z",
@@ -1433,6 +1532,10 @@
       "name": "Olympiacos Piraeus",
       "crest": "https://crests.football-data.org/654.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-28T16:00:00.000Z",
       "dateTime": "2026-11-28T16:00:00.000Z"
@@ -1451,6 +1554,10 @@
     "awayTeam": {
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-28T16:00:00.000Z",
@@ -1471,6 +1578,10 @@
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-28T16:00:00.000Z",
       "dateTime": "2026-11-28T16:00:00.000Z"
@@ -1490,6 +1601,10 @@
       "name": "Kalamata",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-28T16:00:00.000Z",
       "dateTime": "2026-11-28T16:00:00.000Z"
@@ -1508,6 +1623,10 @@
     "awayTeam": {
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T16:00:00.000Z"
     },
     "date": {
       "date": "2026-11-28T16:00:00.000Z",
@@ -1536,6 +1655,10 @@
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-11-28T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-11-28T16:00:00.000Z",
       "dateTime": "2026-11-28T16:00:00.000Z"
@@ -1562,6 +1685,10 @@
     "awayTeam": {
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-05T16:00:00.000Z",
@@ -1590,6 +1717,10 @@
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-05T16:00:00.000Z",
       "dateTime": "2026-12-05T16:00:00.000Z"
@@ -1608,6 +1739,10 @@
     "awayTeam": {
       "name": "Iraklis 1908",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-05T16:00:00.000Z",
@@ -1636,6 +1771,10 @@
       "name": "AEK Athens",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-05T16:00:00.000Z",
       "dateTime": "2026-12-05T16:00:00.000Z"
@@ -1663,6 +1802,10 @@
       "name": "Aris",
       "crest": "https://crests.football-data.org/644.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-05T16:00:00.000Z",
       "dateTime": "2026-12-05T16:00:00.000Z"
@@ -1681,6 +1824,10 @@
     "awayTeam": {
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-05T16:00:00.000Z",
@@ -1701,6 +1848,10 @@
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-05T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-05T16:00:00.000Z",
       "dateTime": "2026-12-05T16:00:00.000Z"
@@ -1719,6 +1870,10 @@
     "awayTeam": {
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-12T16:00:00.000Z",
@@ -1746,6 +1901,10 @@
       "name": "Olympiacos Piraeus",
       "crest": "https://crests.football-data.org/654.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-12T16:00:00.000Z",
       "dateTime": "2026-12-12T16:00:00.000Z"
@@ -1764,6 +1923,10 @@
     "awayTeam": {
       "name": "Aris",
       "crest": "https://crests.football-data.org/644.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-12T16:00:00.000Z",
@@ -1784,6 +1947,10 @@
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-12T16:00:00.000Z",
       "dateTime": "2026-12-12T16:00:00.000Z"
@@ -1802,6 +1969,10 @@
     "awayTeam": {
       "name": "OFI Crete",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-12T16:00:00.000Z",
@@ -1822,6 +1993,10 @@
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-12T16:00:00.000Z",
       "dateTime": "2026-12-12T16:00:00.000Z"
@@ -1840,6 +2015,10 @@
     "awayTeam": {
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-12T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-12T16:00:00.000Z",
@@ -1860,6 +2039,10 @@
       "name": "AEK Athens",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-19T16:00:00.000Z",
       "dateTime": "2026-12-19T16:00:00.000Z"
@@ -1878,6 +2061,10 @@
     "awayTeam": {
       "name": "PAOK",
       "crest": "https://crests.football-data.org/649.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-19T16:00:00.000Z",
@@ -1906,6 +2093,10 @@
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-19T16:00:00.000Z",
       "dateTime": "2026-12-19T16:00:00.000Z"
@@ -1924,6 +2115,10 @@
     "awayTeam": {
       "name": "Kalamata",
       "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-19T16:00:00.000Z",
@@ -1952,6 +2147,10 @@
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-19T16:00:00.000Z",
       "dateTime": "2026-12-19T16:00:00.000Z"
@@ -1979,6 +2178,10 @@
       "name": "Iraklis 1908",
       "crest": null
     },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T16:00:00.000Z"
+    },
     "date": {
       "date": "2026-12-19T16:00:00.000Z",
       "dateTime": "2026-12-19T16:00:00.000Z"
@@ -1997,6 +2200,10 @@
     "awayTeam": {
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-12-19T16:00:00.000Z"
     },
     "date": {
       "date": "2026-12-19T16:00:00.000Z",
@@ -2025,7 +2232,12 @@
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
     "date": {
+      "date": "2027-01-09",
       "time": "TBD"
     },
     "id": "649860acf3f2e929142edcc5651ab264",
@@ -2050,7 +2262,12 @@
       "name": "PAOK",
       "crest": "https://crests.football-data.org/649.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
     "date": {
+      "date": "2027-01-09",
       "time": "TBD"
     },
     "id": "10501ea690d0b088164eb180819436c3",
@@ -2068,7 +2285,12 @@
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
     "date": {
+      "date": "2027-01-09",
       "time": "TBD"
     },
     "id": "f4852b10ef4de199a67d7dcdb879749c",
@@ -2094,7 +2316,12 @@
       "name": "Volos",
       "crest": "https://crests.football-data.org/7807.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
     "date": {
+      "date": "2027-01-09",
       "time": "TBD"
     },
     "id": "9cf9c24d2963b0f89aace1560c319015",
@@ -2112,7 +2339,12 @@
       "name": "Olympiacos Piraeus",
       "crest": "https://crests.football-data.org/654.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
     "date": {
+      "date": "2027-01-09",
       "time": "TBD"
     },
     "id": "fbc7e411f6535182973b7c66e669e9fe",
@@ -2130,7 +2362,12 @@
       "name": "OFI Crete",
       "crest": null
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
     "date": {
+      "date": "2027-01-09",
       "time": "TBD"
     },
     "id": "91e350d93a3b6272c6424007df82c4e2",
@@ -2148,7 +2385,12 @@
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-09"
+    },
     "date": {
+      "date": "2027-01-09",
       "time": "TBD"
     },
     "id": "80c5f7d2cba0a03145750d43fde83bf7",
@@ -2166,7 +2408,12 @@
       "name": "Kalamata",
       "crest": null
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-16"
+    },
     "date": {
+      "date": "2027-01-16",
       "time": "TBD"
     },
     "id": "c91723c994908d0b3a674fab0fb6afd8",
@@ -2191,7 +2438,12 @@
       "name": "Panetolikos",
       "crest": "https://crests.football-data.org/10195.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-16"
+    },
     "date": {
+      "date": "2027-01-16",
       "time": "TBD"
     },
     "id": "6b63fa4a30bc28a439e6c5b69a073e3f",
@@ -2209,7 +2461,12 @@
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-16"
+    },
     "date": {
+      "date": "2027-01-16",
       "time": "TBD"
     },
     "id": "fb5663dfa44dd807c2d1b36eb4dad852",
@@ -2227,7 +2484,12 @@
       "name": "Iraklis 1908",
       "crest": null
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-16"
+    },
     "date": {
+      "date": "2027-01-16",
       "time": "TBD"
     },
     "id": "d83576baba219d2560c2da760b52b699",
@@ -2245,7 +2507,12 @@
       "name": "Panathinaikos",
       "crest": "https://crests.football-data.org/646.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-16"
+    },
     "date": {
+      "date": "2027-01-16",
       "time": "TBD"
     },
     "id": "63461d86951619410c21dbd5bdb177ae",
@@ -2271,7 +2538,12 @@
       "name": "Olympiacos Piraeus",
       "crest": "https://crests.football-data.org/654.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-16"
+    },
     "date": {
+      "date": "2027-01-16",
       "time": "TBD"
     },
     "id": "cd1aca38ff35b53693731647e69bb4d2",
@@ -2289,7 +2561,12 @@
       "name": "Aris",
       "crest": "https://crests.football-data.org/644.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-16"
+    },
     "date": {
+      "date": "2027-01-16",
       "time": "TBD"
     },
     "id": "4fd288bc7f1f5922f00b54dc26149925",
@@ -2315,7 +2592,12 @@
       "name": "Kifisia",
       "crest": "https://crests.football-data.org/10225.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
     "date": {
+      "date": "2027-01-23",
       "time": "TBD"
     },
     "id": "f19381bc1e463ed8e4b0573a246c600e",
@@ -2333,7 +2615,12 @@
       "name": "PAOK",
       "crest": "https://crests.football-data.org/649.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
     "date": {
+      "date": "2027-01-23",
       "time": "TBD"
     },
     "id": "19eadcee704bf1809b1f0fd735394bc0",
@@ -2351,7 +2638,12 @@
       "name": "Asteras Tripolis",
       "crest": "https://crests.football-data.org/6139.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
     "date": {
+      "date": "2027-01-23",
       "time": "TBD"
     },
     "id": "8488dbf17f8219722179a43cff594b8f",
@@ -2369,7 +2661,12 @@
       "name": "Levadiakos",
       "crest": "https://crests.football-data.org/655.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
     "date": {
+      "date": "2027-01-23",
       "time": "TBD"
     },
     "id": "01de728a542e12f360b58279d3789d6f",
@@ -2395,7 +2692,12 @@
       "name": "Atromitos",
       "crest": "https://crests.football-data.org/642.png"
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
     "date": {
+      "date": "2027-01-23",
       "time": "TBD"
     },
     "id": "0818c0448239c799255f2f37572d8072",
@@ -2413,7 +2715,12 @@
       "name": "AEK Athens",
       "crest": null
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
     "date": {
+      "date": "2027-01-23",
       "time": "TBD"
     },
     "id": "faa7ded225b70fb41c6523cd683c8b6d",
@@ -2431,7 +2738,12 @@
       "name": "OFI Crete",
       "crest": null
     },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
     "date": {
+      "date": "2027-01-23",
       "time": "TBD"
     },
     "id": "a3efca2fef636d0df6e1eda51606fdd4",
@@ -2444,5 +2756,174 @@
         "name": "Πανθεσσαλικό Στάδιο, Σταδίου, Νέα Ιωνία, Δήμος Βόλου, Περιφερειακή Ενότητα Μαγνησίας, Περιφέρεια Θεσσαλίας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 384 46, Ελλάς"
       }
     }
+  },
+  {
+    "competition": {
+      "name": "Super League"
+    },
+    "homeTeam": {
+      "name": "Atromitos",
+      "crest": "https://crests.football-data.org/642.png"
+    },
+    "awayTeam": {
+      "name": "Aris",
+      "crest": "https://crests.football-data.org/644.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-30"
+    },
+    "date": {
+      "date": "2027-01-30",
+      "time": "TBD"
+    },
+    "id": "8ba31f56ba903261c194eec639611470",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Super League"
+    },
+    "homeTeam": {
+      "name": "Iraklis 1908",
+      "crest": null
+    },
+    "awayTeam": {
+      "name": "Asteras Tripolis",
+      "crest": "https://crests.football-data.org/6139.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-30"
+    },
+    "date": {
+      "date": "2027-01-30",
+      "time": "TBD"
+    },
+    "id": "b8dac0a08273cd61d97f47e978cf5bd0",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Super League"
+    },
+    "homeTeam": {
+      "name": "Kifisia",
+      "crest": "https://crests.football-data.org/10225.png"
+    },
+    "awayTeam": {
+      "name": "Volos",
+      "crest": "https://crests.football-data.org/7807.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-30"
+    },
+    "date": {
+      "date": "2027-01-30",
+      "time": "TBD"
+    },
+    "id": "f89a4822254240d8b117fb66719f38cf",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Super League"
+    },
+    "homeTeam": {
+      "name": "Levadiakos",
+      "crest": "https://crests.football-data.org/655.png"
+    },
+    "awayTeam": {
+      "name": "Kalamata",
+      "crest": null
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-30"
+    },
+    "date": {
+      "date": "2027-01-30",
+      "time": "TBD"
+    },
+    "id": "3f5fab3eefac5e94a758472919d1bd25",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Super League"
+    },
+    "homeTeam": {
+      "name": "OFI Crete",
+      "crest": null
+    },
+    "awayTeam": {
+      "name": "AEK Athens",
+      "crest": null
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-30"
+    },
+    "date": {
+      "date": "2027-01-30",
+      "time": "TBD"
+    },
+    "id": "833c8506cfa598ab614a6fe58efa6cac",
+    "stadium": {
+      "venue": "Theodoros Vardinogiannis Stadium",
+      "address": "Nikolaou Plastira 71, Heraklion",
+      "geo": {
+        "latitude": 35.3338258,
+        "longitude": 25.1333427,
+        "name": "Νικολάου Πλαστήρα, 1η Κοινότητα Ηρακλείου - Κεντρική, Δημοτική Ενότητα Ηρακλείου, Δήμος Ηρακλείου, Περιφερειακή Ενότητα Ηρακλείου, Περιφέρεια Κρήτης, Αποκεντρωμένη Διοίκηση Κρήτης, 712 02, Ελλάς"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Super League"
+    },
+    "homeTeam": {
+      "name": "Panathinaikos",
+      "crest": "https://crests.football-data.org/646.png"
+    },
+    "awayTeam": {
+      "name": "Olympiacos Piraeus",
+      "crest": "https://crests.football-data.org/654.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-30"
+    },
+    "date": {
+      "date": "2027-01-30",
+      "time": "TBD"
+    },
+    "id": "d798c0cec98a1da5848e86878f971f5a",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Super League"
+    },
+    "homeTeam": {
+      "name": "PAOK",
+      "crest": "https://crests.football-data.org/649.png"
+    },
+    "awayTeam": {
+      "name": "Panetolikos",
+      "crest": "https://crests.football-data.org/10195.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-30"
+    },
+    "date": {
+      "date": "2027-01-30",
+      "time": "TBD"
+    },
+    "id": "70562d686203d1be39e37fe08c1b080d",
+    "stadium": null
   }
 ]

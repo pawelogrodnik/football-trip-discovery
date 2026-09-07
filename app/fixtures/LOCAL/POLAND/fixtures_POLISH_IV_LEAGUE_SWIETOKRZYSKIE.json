@@ -1,31 +1,80 @@
 {
   "competitionName": "IV Liga Świętokrzyskie",
-  "count": 9,
+  "count": 99,
   "matches": [
     {
       "competition": {
         "name": "IV Liga Świętokrzyskie"
       },
       "homeTeam": {
-        "name": "Orlęta Kielce",
+        "name": "Klimontowianka Klimontów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Korona III Kielce",
+        "name": "Orlicz Suchedniów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T11:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-11T16:45:00.000Z"
       },
-      "id": "3404a6e74350fe6ac836e81dbba58bf7",
+      "date": {
+        "date": "2026-09-11",
+        "dateTime": "2026-09-11T16:45:00.000Z"
+      },
+      "id": "48687ea8db1702668f9c2e04fb300601",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
+      },
+      "id": "ef512691e4fb3d382c93e70052891ef5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "26434bf793a5e5bb21da9aad8024caa4",
       "stadium": {
-        "venue": "Stadion Orlęta Kielce",
-        "address": "Ściegiennego 8, Kielce",
+        "venue": "Boisko Sportowe GKS Rudki",
+        "address": "Kielecka 20, Rudki",
         "geo": {
-          "latitude": 50.8603225,
-          "longitude": 20.6245413,
-          "name": "8, Księdza Piotra Ściegiennego, Osiedle Jana Kochanowskiego, Kadzielnia, Kielce, województwo świętokrzyskie, 25-033, Polska"
+          "latitude": 50.89039345275693,
+          "longitude": 21.08847444932279
         }
       }
     },
@@ -34,27 +83,161 @@
         "name": "IV Liga Świętokrzyskie"
       },
       "homeTeam": {
-        "name": "Orlicz Suchedniów",
+        "name": "OKS Opatów",
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS Rudki",
+        "name": "Neptun Końskie",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
-      "id": "8ef3b90f9eb003c1facfaf0ed8f0e9bd",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
+      },
+      "id": "b20d4ce9d3b4848de81e51d52bac8f64",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "a04f280a3612b0fe4a65d6d5fa443c20",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "70825a6fb3eb5ac67255854ee8d15b53",
       "stadium": {
-        "venue": "Stadion Orlicz Suchedniów",
-        "address": "Sportowa 7, Suchedniów",
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
         "geo": {
-          "latitude": 51.0368497,
-          "longitude": 20.8394913,
-          "name": "Sportowa, Suchedniów, gmina Suchedniów, powiat skarżyski, województwo świętokrzyskie, 26-130, Polska"
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "b5b6f9c40bd545b57aa6fa4394fc2711",
+      "stadium": {
+        "venue": "Stadion Miejski w Skalbmierzu",
+        "address": "11 Listopada 10, Skalbmierz",
+        "geo": {
+          "latitude": 50.3204541520924,
+          "longitude": 20.394504273486927
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "4ff5caa17010ec1d9634dfd249f7525a",
+      "stadium": {
+        "venue": "Stadion OSiR Włoszczowa",
+        "address": "Wiśniowa 23, Włoszczowa",
+        "geo": {
+          "latitude": 50.8475814,
+          "longitude": 19.9793487,
+          "name": "23, Wiśniowa, Osiedle Jana Brożka, Włoszczowa, gmina Włoszczowa, powiat włoszczowski, województwo świętokrzyskie, 29-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "fec7b55c8496be743b2b34ee8883005e",
+      "stadium": null
     },
     {
       "competition": {
@@ -65,14 +248,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "KKP Korona Kielce",
-        "crest": "https://crests.football-data.org/5635.png"
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "b4e0f61ecf8bf56cdb7b30fac67b7ed6",
+      "id": "f7c4f39a9c08970b1290d09f68266b1a",
       "stadium": {
         "venue": "Stadion Miejski w Kazimierzy Wielkiej",
         "address": "Głowackiego 42, Kazimierza Wielka",
@@ -88,56 +277,24 @@
         "name": "IV Liga Świętokrzyskie"
       },
       "homeTeam": {
-        "name": "GKS Nowiny (Sitkówka-Nowiny)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Hetman Włoszczowa",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "94158b3e3c4b3599a59b39ab463dac53",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Świętokrzyskie"
-      },
-      "homeTeam": {
-        "name": "Wierna Małogoszcz",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "OKS Opatów",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
-      },
-      "id": "f321685027a91c2d487808fdd23b1455",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Świętokrzyskie"
-      },
-      "homeTeam": {
         "name": "Alit Ożarów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Granat Skarżysko-Kamienna",
-        "crest": null
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "7268e9906175f4468bbc3e18120f6deb",
+      "id": "2aa5ec73d8b71851b5dfcabba1d18cd1",
       "stadium": {
         "venue": "Stadion Miejski w Ożarowie",
         "address": "Ogrodowa 10, Ożarów",
@@ -157,14 +314,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Victoria Skalbmierz",
+        "name": "Hetman Włoszczowa",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "f1a6bc54597e10a9f9c4fddeb68bd1cd",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "2ca270640fcedbe206b67ccfbdd6b492",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "34d97d896ae6e76190460fb86ec8e29f",
       "stadium": null
     },
     {
@@ -176,14 +364,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Klimontowianka Klimontów",
+        "name": "Victoria Skalbmierz",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "fb629dc61d7ca99af5dae3f173e8990b",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "b47cdc51eef0854de46e36d074237d4a",
       "stadium": {
         "venue": "Stadion OSiR w Końskich",
         "address": "Sportowa 3, Końskie",
@@ -199,18 +393,2450 @@
         "name": "IV Liga Świętokrzyskie"
       },
       "homeTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "26d3c55092017124f3fea7b1db456aa7",
+      "stadium": {
+        "venue": "Stadion Orlicz Suchedniów",
+        "address": "Sportowa 7, Suchedniów",
+        "geo": {
+          "latitude": 51.0368497,
+          "longitude": 20.8394913,
+          "name": "Sportowa, Suchedniów, gmina Suchedniów, powiat skarżyski, województwo świętokrzyskie, 26-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
         "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "02bf53d8ea39450979318af8b1502697",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6e055aa3c1914c5d20622b7b488f4412",
+      "stadium": {
+        "venue": "Stadion Orlęta Kielce",
+        "address": "Ściegiennego 8, Kielce",
+        "geo": {
+          "latitude": 50.8603225,
+          "longitude": 20.6245413,
+          "name": "8, Księdza Piotra Ściegiennego, Osiedle Jana Kochanowskiego, Kadzielnia, Kielce, województwo świętokrzyskie, 25-033, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Korona III Kielce",
         "crest": null
       },
       "awayTeam": {
         "name": "Wicher Miedziana Góra",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "48d58e7324ca7ed697688359d78ca92a",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3dfffa6d7ec4932efcd89b07a5ab8f9d",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "f28f9a67454218f61ffff4a05775384c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "45a25353c7b437e5b980887951832d40",
+      "stadium": {
+        "venue": "Boisko Sportowe GKS Rudki",
+        "address": "Kielecka 20, Rudki",
+        "geo": {
+          "latitude": 50.89039345275693,
+          "longitude": 21.08847444932279
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6b03d23ad122ea4f67c0fe2af982caf8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "7f18ac02b6839b074c414f98bc69ca49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "6464784cb4c3b64d79e403f4e4e09d50",
+      "stadium": {
+        "venue": "Stadion Miejski w Skalbmierzu",
+        "address": "11 Listopada 10, Skalbmierz",
+        "geo": {
+          "latitude": 50.3204541520924,
+          "longitude": 20.394504273486927
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3d7c0b0b6ef9cbcff206002e4cf2e10e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "5d9d8ab7d9cbd2aa5f63a1c0c2a368cd",
+      "stadium": {
+        "venue": "Stadion OSiR Włoszczowa",
+        "address": "Wiśniowa 23, Włoszczowa",
+        "geo": {
+          "latitude": 50.8475814,
+          "longitude": 19.9793487,
+          "name": "23, Wiśniowa, Osiedle Jana Brożka, Włoszczowa, gmina Włoszczowa, powiat włoszczowski, województwo świętokrzyskie, 29-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "18414aa8d4d3e09248ee6f8c4a5f577f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9a7cb664d0967062ea3409c4248ab313",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7a1f343ba18f73567251fa54bf04afe4",
+      "stadium": {
+        "venue": "Stadion Miejski w Kazimierzy Wielkiej",
+        "address": "Głowackiego 42, Kazimierza Wielka",
+        "geo": {
+          "latitude": 50.2672429,
+          "longitude": 20.4998235,
+          "name": "42, Bartosza Głowackiego, Wesoła, Kazimierza Wielka, gmina Kazimierza Wielka, powiat kazimierski, województwo świętokrzyskie, 28-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5a72c0758c59543d0796e21eb4f5ae23",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "b491deb27458cc0e0e8cbe9a2feba9f9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "674f22a4ab71f82669901fd04756d894",
+      "stadium": {
+        "venue": "Stadion OSiR w Końskich",
+        "address": "Sportowa 3, Końskie",
+        "geo": {
+          "latitude": 51.1895336,
+          "longitude": 20.4223781,
+          "name": "3, Sportowa, Osiedle Mieszka Pierwszego, Końskie, gmina Końskie, powiat konecki, województwo świętokrzyskie, 26-201, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "27f8b501a22ed0aac31f6eac0425b93b",
+      "stadium": {
+        "venue": "Stadion Orlicz Suchedniów",
+        "address": "Sportowa 7, Suchedniów",
+        "geo": {
+          "latitude": 51.0368497,
+          "longitude": 20.8394913,
+          "name": "Sportowa, Suchedniów, gmina Suchedniów, powiat skarżyski, województwo świętokrzyskie, 26-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "f4d8af6c75e81bf2ef2a0aa76d4ed6b7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "06539f1404e90916f0c984f1d41e95d2",
+      "stadium": {
+        "venue": "Stadion Orlęta Kielce",
+        "address": "Ściegiennego 8, Kielce",
+        "geo": {
+          "latitude": 50.8603225,
+          "longitude": 20.6245413,
+          "name": "8, Księdza Piotra Ściegiennego, Osiedle Jana Kochanowskiego, Kadzielnia, Kielce, województwo świętokrzyskie, 25-033, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2e25120356c891eab9fd26fad491e075",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "64ab2e47278ea2f07f0d70d615a13c05",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7a9e8e9414a49305646d5c03587e4f58",
+      "stadium": {
+        "venue": "Boisko Sportowe GKS Rudki",
+        "address": "Kielecka 20, Rudki",
+        "geo": {
+          "latitude": 50.89039345275693,
+          "longitude": 21.08847444932279
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "877087fb23cd03abc08ceef38486d9e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "fa731ba3d01218892211a170ccdb6bf9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "bc95b15fc575ec261eb3c4d207d7fc53",
+      "stadium": {
+        "venue": "Stadion Miejski w Skalbmierzu",
+        "address": "11 Listopada 10, Skalbmierz",
+        "geo": {
+          "latitude": 50.3204541520924,
+          "longitude": 20.394504273486927
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "87fc2625e4913787b77ec05b16f6f2fd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a49d798b74d1d1b4586e3e79f6629004",
+      "stadium": {
+        "venue": "Stadion OSiR Włoszczowa",
+        "address": "Wiśniowa 23, Włoszczowa",
+        "geo": {
+          "latitude": 50.8475814,
+          "longitude": 19.9793487,
+          "name": "23, Wiśniowa, Osiedle Jana Brożka, Włoszczowa, gmina Włoszczowa, powiat włoszczowski, województwo świętokrzyskie, 29-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "3f57a172b3ff48d20d9b752077ff5622",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ce7c9fa9cf3f49ab62308c743c4b9e8c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9fc9a42d11c49e076ef8157862558e1c",
+      "stadium": {
+        "venue": "Stadion Miejski w Ożarowie",
+        "address": "Ogrodowa 10, Ożarów",
+        "geo": {
+          "latitude": 52.2016155,
+          "longitude": 20.7189392,
+          "name": "10, Ogrodowa, Osiedle Południowe, Płochocin, Płochocin-Osiedle, Płochocin, gmina Ożarów Mazowiecki, powiat warszawski zachodni, województwo mazowieckie, 05-860, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a96e789bb336fb0b291bcbe8a8005bc0",
+      "stadium": {
+        "venue": "Stadion Miejski w Kazimierzy Wielkiej",
+        "address": "Głowackiego 42, Kazimierza Wielka",
+        "geo": {
+          "latitude": 50.2672429,
+          "longitude": 20.4998235,
+          "name": "42, Bartosza Głowackiego, Wesoła, Kazimierza Wielka, gmina Kazimierza Wielka, powiat kazimierski, województwo świętokrzyskie, 28-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9e8b20a59b9f42f28e1546b1888d26d1",
+      "stadium": {
+        "venue": "Stadion OSiR w Końskich",
+        "address": "Sportowa 3, Końskie",
+        "geo": {
+          "latitude": 51.1895336,
+          "longitude": 20.4223781,
+          "name": "3, Sportowa, Osiedle Mieszka Pierwszego, Końskie, gmina Końskie, powiat konecki, województwo świętokrzyskie, 26-201, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b8509c6f045838cfeff1b76fd4da8af6",
+      "stadium": {
+        "venue": "Stadion Orlicz Suchedniów",
+        "address": "Sportowa 7, Suchedniów",
+        "geo": {
+          "latitude": 51.0368497,
+          "longitude": 20.8394913,
+          "name": "Sportowa, Suchedniów, gmina Suchedniów, powiat skarżyski, województwo świętokrzyskie, 26-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b76c68e280ba92dee824d1eacde48c2d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "02eae720bc37d871532f145f5a096b43",
+      "stadium": {
+        "venue": "Stadion Orlęta Kielce",
+        "address": "Ściegiennego 8, Kielce",
+        "geo": {
+          "latitude": 50.8603225,
+          "longitude": 20.6245413,
+          "name": "8, Księdza Piotra Ściegiennego, Osiedle Jana Kochanowskiego, Kadzielnia, Kielce, województwo świętokrzyskie, 25-033, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e068295edeb9e859b08347fa8f08eb79",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b0671a94ac89e0fc4b6a5c4f6da259c6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "793c2839cecdf74cb849128317c6ca4b",
+      "stadium": {
+        "venue": "Boisko Sportowe GKS Rudki",
+        "address": "Kielecka 20, Rudki",
+        "geo": {
+          "latitude": 50.89039345275693,
+          "longitude": 21.08847444932279
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "1f5f71797e6a464c5c1a4461b9362118",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "59d227697b4c268eda19b952ac791f22",
+      "stadium": {
+        "venue": "Stadion Miejski w Kazimierzy Wielkiej",
+        "address": "Głowackiego 42, Kazimierza Wielka",
+        "geo": {
+          "latitude": 50.2672429,
+          "longitude": 20.4998235,
+          "name": "42, Bartosza Głowackiego, Wesoła, Kazimierza Wielka, gmina Kazimierza Wielka, powiat kazimierski, województwo świętokrzyskie, 28-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ee2e367cf51ced12018fee2e43883701",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "efde67838234d06d6609c3525f22dd5c",
+      "stadium": {
+        "venue": "Stadion OSiR w Końskich",
+        "address": "Sportowa 3, Końskie",
+        "geo": {
+          "latitude": 51.1895336,
+          "longitude": 20.4223781,
+          "name": "3, Sportowa, Osiedle Mieszka Pierwszego, Końskie, gmina Końskie, powiat konecki, województwo świętokrzyskie, 26-201, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "d9a22f11d3d7b2f4801f7591c3fac257",
+      "stadium": {
+        "venue": "Stadion Orlicz Suchedniów",
+        "address": "Sportowa 7, Suchedniów",
+        "geo": {
+          "latitude": 51.0368497,
+          "longitude": 20.8394913,
+          "name": "Sportowa, Suchedniów, gmina Suchedniów, powiat skarżyski, województwo świętokrzyskie, 26-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8c28dd4cb46c9d1682ab6b506a79d871",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "328f60aa647af97bae2b71cef4ec2b44",
+      "stadium": {
+        "venue": "Stadion Orlęta Kielce",
+        "address": "Ściegiennego 8, Kielce",
+        "geo": {
+          "latitude": 50.8603225,
+          "longitude": 20.6245413,
+          "name": "8, Księdza Piotra Ściegiennego, Osiedle Jana Kochanowskiego, Kadzielnia, Kielce, województwo świętokrzyskie, 25-033, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "74304217a2ebb8dcbcd7c48110b915c5",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b534c6f6c7e5d0e2a15d2fa8a337ed61",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3b421326e883f2d572485998f48b5677",
+      "stadium": {
+        "venue": "Boisko Sportowe GKS Rudki",
+        "address": "Kielecka 20, Rudki",
+        "geo": {
+          "latitude": 50.89039345275693,
+          "longitude": 21.08847444932279
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "18053d1ef36114f604847b8f9ea60ec5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "83a943c627cb90b2b88ef8eb6f3f6df5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "478dfe9f442af255b7bbfa8faa4b2057",
+      "stadium": {
+        "venue": "Stadion Miejski w Skalbmierzu",
+        "address": "11 Listopada 10, Skalbmierz",
+        "geo": {
+          "latitude": 50.3204541520924,
+          "longitude": 20.394504273486927
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7ed75ff8393ad366547624bb7c20f6e3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "17f069f4ffd225d31bdc1b5f17116729",
+      "stadium": {
+        "venue": "Stadion OSiR Włoszczowa",
+        "address": "Wiśniowa 23, Włoszczowa",
+        "geo": {
+          "latitude": 50.8475814,
+          "longitude": 19.9793487,
+          "name": "23, Wiśniowa, Osiedle Jana Brożka, Włoszczowa, gmina Włoszczowa, powiat włoszczowski, województwo świętokrzyskie, 29-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "33cef1cb2983ec506c11276b8b47e905",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "14a1c734a0a2eabf1e3875f2015e29e2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "5438e321477e5af9d1881d4dc095f329",
+      "stadium": {
+        "venue": "Stadion Miejski w Ożarowie",
+        "address": "Ogrodowa 10, Ożarów",
+        "geo": {
+          "latitude": 52.2016155,
+          "longitude": 20.7189392,
+          "name": "10, Ogrodowa, Osiedle Południowe, Płochocin, Płochocin-Osiedle, Płochocin, gmina Ożarów Mazowiecki, powiat warszawski zachodni, województwo mazowieckie, 05-860, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "9954a1cb684bb290e807bc373aeff1b2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "cf8d219be0e9ea096ec3c871e14cb5fb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a3c0b8f4b3e1917c7a092483c2f82097",
+      "stadium": {
+        "venue": "Stadion Miejski w Skalbmierzu",
+        "address": "11 Listopada 10, Skalbmierz",
+        "geo": {
+          "latitude": 50.3204541520924,
+          "longitude": 20.394504273486927
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b943886def41939b8fec6f5b1b9b7c53",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "2e9247273724f583495b3d752ddb8d61",
+      "stadium": {
+        "venue": "Stadion OSiR Włoszczowa",
+        "address": "Wiśniowa 23, Włoszczowa",
+        "geo": {
+          "latitude": 50.8475814,
+          "longitude": 19.9793487,
+          "name": "23, Wiśniowa, Osiedle Jana Brożka, Włoszczowa, gmina Włoszczowa, powiat włoszczowski, województwo świętokrzyskie, 29-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "495ee307cb312e6909eb338778f5ed90",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "e434e570bb131f9f4fab0cdf80558d15",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "160f9c6823368e78a0f0d8176e82b0be",
+      "stadium": {
+        "venue": "Stadion Miejski w Ożarowie",
+        "address": "Ogrodowa 10, Ożarów",
+        "geo": {
+          "latitude": 52.2016155,
+          "longitude": 20.7189392,
+          "name": "10, Ogrodowa, Osiedle Południowe, Płochocin, Płochocin-Osiedle, Płochocin, gmina Ożarów Mazowiecki, powiat warszawski zachodni, województwo mazowieckie, 05-860, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "968807c12acfe789627338f1d4c0bc5d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "7280e48c837ec46e2e582377ab89da30",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "895a5f47e330b41f573b6613e3da46d6",
+      "stadium": {
+        "venue": "Stadion Miejski w Skalbmierzu",
+        "address": "11 Listopada 10, Skalbmierz",
+        "geo": {
+          "latitude": 50.3204541520924,
+          "longitude": 20.394504273486927
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "583c846cd2efae394963e248f0d7c467",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "c46c98f1dd83c59f57fb3f8df8ae21b5",
+      "stadium": {
+        "venue": "Stadion OSiR Włoszczowa",
+        "address": "Wiśniowa 23, Włoszczowa",
+        "geo": {
+          "latitude": 50.8475814,
+          "longitude": 19.9793487,
+          "name": "23, Wiśniowa, Osiedle Jana Brożka, Włoszczowa, gmina Włoszczowa, powiat włoszczowski, województwo świętokrzyskie, 29-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "awayTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "7f19ec1f4f3e30f165e1a9c1e125450f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b20ed46cd382484d1da55e59e12b6261",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e3c4cb94a98f9ea314172d52e22e0363",
+      "stadium": {
+        "venue": "Stadion Miejski w Ożarowie",
+        "address": "Ogrodowa 10, Ożarów",
+        "geo": {
+          "latitude": 52.2016155,
+          "longitude": 20.7189392,
+          "name": "10, Ogrodowa, Osiedle Południowe, Płochocin, Płochocin-Osiedle, Płochocin, gmina Ożarów Mazowiecki, powiat warszawski zachodni, województwo mazowieckie, 05-860, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "b7e992d8144659591e8231e58b465aa8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "ad000c1aded1f3f1dfed0e5323ebb936",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "074a4ce4641f891c446f2328ac0f5fa0",
+      "stadium": {
+        "venue": "Stadion OSiR w Końskich",
+        "address": "Sportowa 3, Końskie",
+        "geo": {
+          "latitude": 51.1895336,
+          "longitude": 20.4223781,
+          "name": "3, Sportowa, Osiedle Mieszka Pierwszego, Końskie, gmina Końskie, powiat konecki, województwo świętokrzyskie, 26-201, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Sparta Kazimierza Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Neptun Końskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "ab4ba3c28d9b3a6cc0ffd07336c9c042",
+      "stadium": {
+        "venue": "Stadion Miejski w Kazimierzy Wielkiej",
+        "address": "Głowackiego 42, Kazimierza Wielka",
+        "geo": {
+          "latitude": 50.2672429,
+          "longitude": 20.4998235,
+          "name": "42, Bartosza Głowackiego, Wesoła, Kazimierza Wielka, gmina Kazimierza Wielka, powiat kazimierski, województwo świętokrzyskie, 28-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlicz Suchedniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wierna Małogoszcz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "0e046caa00c567005d9055a05b56690a",
+      "stadium": {
+        "venue": "Stadion Orlicz Suchedniów",
+        "address": "Sportowa 7, Suchedniów",
+        "geo": {
+          "latitude": 51.0368497,
+          "longitude": 20.8394913,
+          "name": "Sportowa, Suchedniów, gmina Suchedniów, powiat skarżyski, województwo świętokrzyskie, 26-130, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Spartakus Daleszyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka Pawłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "35417b956a0ab98aa466da22bd040bce",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Orlęta Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "091dceab30dc4eb6430378a2260ad595",
+      "stadium": {
+        "venue": "Stadion Orlęta Kielce",
+        "address": "Ściegiennego 8, Kielce",
+        "geo": {
+          "latitude": 50.8603225,
+          "longitude": 20.6245413,
+          "name": "8, Księdza Piotra Ściegiennego, Osiedle Jana Kochanowskiego, Kadzielnia, Kielce, województwo świętokrzyskie, 25-033, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Korona III Kielce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Nowiny (Sitkówka-Nowiny)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "753a6c1c5ac0fe82e438c203a3bb656f",
+      "stadium": {
+        "venue": "Stadion przy Szczepaniaka (Korona Kielce Training Ground)",
+        "address": "Szczepaniaka 29, Kielce",
+        "geo": {
+          "latitude": 50.8528163,
+          "longitude": 20.6141653,
+          "name": "29, Wojciecha Szczepaniaka, Park Sosnowy, Baranówek, Kielce, województwo świętokrzyskie, 25-118, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Wicher Miedziana Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "4b5f4da3f4f24093bbd4e5af4d28103e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "GKS Rudki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Hetman Włoszczowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "ed18dabe4c9ba4c0b903842dead1a88d",
+      "stadium": {
+        "venue": "Boisko Sportowe GKS Rudki",
+        "address": "Kielecka 20, Rudki",
+        "geo": {
+          "latitude": 50.89039345275693,
+          "longitude": 21.08847444932279
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "Klimontowianka Klimontów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granat Skarżysko-Kamienna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "2b3be9669de40569c3b0e1af8d09376b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
+        "name": "OKS Opatów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Skalbmierz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-16",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "1e4d41dd5505c9b1aa344fa6ec3b6bec",
       "stadium": null
     }
   ]

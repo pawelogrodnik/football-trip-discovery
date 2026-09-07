@@ -1,24 +1,28 @@
 {
   "competitionName": "Klasa B (Rybnik II)",
-  "count": 6,
+  "count": 66,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Rybnik II)"
       },
       "homeTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Rapid Wodzisław Śląski",
         "crest": null
       },
-      "awayTeam": {
-        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
-      "id": "668fd861a1752903384d747fe3b53626",
+      "id": "7f46c43909f346cc28fca98915e1f00c",
       "stadium": null
     },
     {
@@ -26,56 +30,114 @@
         "name": "Klasa B (Rybnik II)"
       },
       "homeTeam": {
-        "name": "WTS Odra Wodzisław Śląski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Kleszczów (Żory)",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T19:22:00.000Z"
-      },
-      "id": "685462c76e22cadce27af259f86645ae",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rybnik II)"
-      },
-      "homeTeam": {
-        "name": "KS 27 II Gołkowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Inter Krostoszowice",
-        "crest": null
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
-      },
-      "id": "116ab27c244c564070c4c13b253a8502",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rybnik II)"
-      },
-      "homeTeam": {
-        "name": "LKS Skrbeńsko",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "awayTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
       },
-      "id": "f1658b43faa41c0077c7505ac8c1649f",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "4acd68f21f63a885e62cb19cdf54794f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "d953eb32b38d833e66cfa4057ecff5c8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "d5241015de0ec55c8fd6e7b16d5d27bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "id": "4c93f82b51dc3d7ec5bfbba5b67f9a3e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "aff175a045271e313a87b947d7c2b924",
       "stadium": null
     },
     {
@@ -87,14 +149,45 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Polaris Żory",
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "9e369662a8f1c47eb5d7913b066320c8",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ee710f4b5f9bdd55e5eec6678359c34e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "d1c6ebb91bec84d091388edc544eaa5e",
       "stadium": null
     },
     {
@@ -106,14 +199,1445 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "5749401d2057ece787bd8e8ec816dddf",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "e51c2d3ddf8bbb75bd1f1350c90a1383",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Start II Mszana",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "0d202234995a9545ebc02d29f6a514ba",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "80d9fdb168b16bef7973a25359b5c22d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "50ab642ffa500858bac5136a57c0a38e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "88158907c1eafa6faab4ac662bfda9dc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d1e184cd44019db0c6e49d1d80f982f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "55be38f5f32e625fd850227a3f2abe02",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "88127a1329076c2f4bd54deeb49a19fd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9c2aa54e6ec4791adbcb90817f762a9a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "1081089dfac1890ea491a78258734be8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "41d90bf57112ed64317ce78a757728b0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "0d53726f0cbbdc634c791ebd79342e9c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3087b444bb71530681cb596974db130c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "d407842c68699ff818df3c1add708700",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "116b650a16815d20807b2bb8a800667f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c585a07d58a0d4c3366c8cc9b17a99c6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f5040dfcc9f8e41a34757536611e7a45",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7ac647ad250a3f54855c3e066886d006",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "41618f5d774cb5d1d15da0f14c77b6ab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "32371bc082051ca02b1b61e8f1372d5a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b48ab95dc9685e1e5d8c667fc255959e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "7652ed3ced718ded8f4f3ae0d3e0b8f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8247a805cd989c5bbacb70b01c578774",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "38d907fb2d352248b88b20ab488f69e1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "fc25b97f2b756a943f041c610b6c03e0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b51013db3a52d0497f8046491d807777",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2e022c38ec02b5fab663e3922f8dc865",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5e74e502fb0ebebd082c40f80f13835e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b49f1ccb1c5191b269b1e2ab67487491",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "c88ba101bc687fc25624733499413618",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "dd0a3048ec76bcba23b0b1c9acb4ee72",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "94cef61f86ea5457b41aec624a65460d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "8bda19788370da2d3fc75f56be4050f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "29f5ffbe74c5e7693f7283d9facbb1b2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "0303b488ef8ceaea591b899ee0ba92f3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "560e58ad7ebefb48bf81ed551953f0dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f0ecb47f1f9fdc54cf61feba0b7fcbf6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "e0265824bd3751486d18326ed4e0519d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "86f5f6d81c13d877d9f343b57aa160fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "887dd4b6acc76a6d00d16d583519e770",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "d9b91684a059518b9c409c849f7d6daa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "de0708d70c382dcb6fef2ad8479af572",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "4a861644743346848f2e20bb31549ec9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "1b38ecccc2d4028e89fc436ae5754520",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "ae82aef36e48da4b9df0d44a7ac9bf11",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "458c8e7f451a49d927cb6276a52bd285",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "9a19d0c45ee7630f3b8d769263a85eb0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "b388060ce9065a413b44d6fb0defcd50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "bc2402c1491a58e75b80316d730e26bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "29f440ab8e93b1fac567c4b8ae26e8c9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "aa67cdf4a1530f8d5490bac5a9a762e0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS 62 Jastrzębie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-12",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "394835f2dbea1741935405af5e1079f4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Zryw Bzie (Jastrzębie Zdrój)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polaris Żory",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0f7132cdafc8b093386f54c795211bec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS Skrbeńsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS 25 Kokoszyce (Wodzisław Śląski)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "65d56bd5a0ee25218ba6721256eba6d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Żar Szeroka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start II Mszana",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "cfd730b30aa87315a3ed3c61a8e8dbad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "Rapid Wodzisław Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Inter Krostoszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0bd5e2557a110429c3c1d9d2631642d8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Baranowice (Żory)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Kleszczów (Żory)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "0595fb5d1e90858ed5f7102ea94309a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rybnik II)"
+      },
+      "homeTeam": {
+        "name": "KS 27 II Gołkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "WTS Odra Wodzisław Śląski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "da5c0b462f87e7cecaabecc0ee035203",
       "stadium": null
     }
   ]

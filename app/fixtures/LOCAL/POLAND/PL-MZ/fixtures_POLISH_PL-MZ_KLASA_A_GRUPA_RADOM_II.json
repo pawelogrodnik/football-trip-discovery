@@ -1,24 +1,28 @@
 {
   "competitionName": "Klasa A (Radom II)",
-  "count": 7,
+  "count": 70,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Radom II)"
       },
       "homeTeam": {
-        "name": "Powała Taczów",
+        "name": "Blask Odrzywół",
         "crest": null
       },
       "awayTeam": {
-        "name": "Pilica Nowe Miasto nad Pilicą",
+        "name": "Orzeł Gielniów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T12:00:00.000Z"
       },
-      "id": "dab15e19c35994c00bb3c71ed583abea",
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T12:00:00.000Z"
+      },
+      "id": "bd251914d59b19d0008af89114f08148",
       "stadium": null
     },
     {
@@ -26,18 +30,22 @@
         "name": "Klasa A (Radom II)"
       },
       "homeTeam": {
-        "name": "KS Wysokin",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "KS Potworów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:30:00.000Z"
+      "awayTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
       },
-      "id": "dc2c3b863993fd4847c0e191341dff19",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "59b713380ce8567d0a822b1c1c8c0782",
       "stadium": null
     },
     {
@@ -45,18 +53,22 @@
         "name": "Klasa A (Radom II)"
       },
       "homeTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Zorza Kowala",
         "crest": null
       },
-      "awayTeam": {
-        "name": "MKS Wyśmierzyce",
-        "crest": null
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T10:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
       },
-      "id": "b6f269fe01d7f8d5b536814c74084e10",
+      "id": "bd7a6a888ad65417bbaeae7789f41667",
       "stadium": null
     },
     {
@@ -64,18 +76,68 @@
         "name": "Klasa A (Radom II)"
       },
       "homeTeam": {
-        "name": "LKS II Promna",
+        "name": "KS Błotnica Stara",
         "crest": null
       },
       "awayTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "f0085b31a9ec66bfacce310bfff926ac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "c6547537a9be1768e62fda763ab25f50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
         "name": "Sadownik Błędów",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+      "awayTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
       },
-      "id": "74f1f5d220e4f495025a9ce531b454c8",
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "dd9689190836a70eeba9c9f9a7e3159b",
       "stadium": null
     },
     {
@@ -87,14 +149,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Blask Odrzywół",
+        "name": "LKS II Promna",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:01:00.000Z"
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
-      "id": "e9ea133e036caf49c7ed06eaed5108a5",
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T12:00:00.000Z"
+      },
+      "id": "6ad99008f4934556dfb6e09a91cba9d1",
       "stadium": null
     },
     {
@@ -102,18 +168,24 @@
         "name": "Klasa A (Radom II)"
       },
       "homeTeam": {
-        "name": "Ruszcovia Borkowice",
+        "name": "LKS II Promna",
         "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Gielniów",
+        "name": "Blask Odrzywół",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "54cd660e6432fa5135aa6e0d7e51bf7d",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "44e16fccff16d1c2df60912b82237091",
       "stadium": null
     },
     {
@@ -125,14 +197,1545 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "60a4b0a376a159addf404e081b11eb19",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ecf18086b626160249e216604af515ec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "KS Błotnica Stara",
         "crest": null
       },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:30:00.000Z"
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
-      "id": "5fdd65f8df343ec6b70cd7a4cf0e7707",
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "71940e396dd1a19bd2c3ab77b2e8297c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c35f79e844cd4e3d19aa2da9390beda8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "c0f0656a5b34f488756a38f69e968324",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "3881f03347e8f6a5a19822910b0314a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d532c88a4889c16e6657cc34def38b40",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "3921cb830005a78f4a3347dd7c1a0a50",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a950d35d160d174e85f3a552337bd361",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a77a007749220a63755aed746a04ecee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "d8e1a7986d53234905f8494bcfe33370",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "2b47f61c26db4a9248292ae5de3dda3e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "0e1bd55ba8822553994064685418a124",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "050eca9893a90e1fa83f1fc02f837006",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "481ecf4bd40a1537adc4721a08fd5c49",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "5f213adf9d3da8aeac08f4f5a40d20a2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9a4ebd9814c2ebc2a7e3894c7da08bf7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "3d90df92fe7af70c132049d74ad2f41b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "01c2865060f9f277cfbee05e51427f46",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "631629dc67ffc0ae62a0153c871b01e6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cc09e1f1262dd46094cb4347a3d50611",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "f2bfef978ba69e4b705734909ec1e4f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a2ee4b0aef04c74f6a25ab256cb835bd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "177c26a312ddf7d4ffb17f4cb84dbf70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "b293ac885f73697746a4d45d59d2f253",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "9ce62045aaaf0676b467299a9959cc34",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "e716be28321afa2f00d578dd920d1381",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f0da3c8fbd4258dc27fb36b746453dde",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b86639398bf87b79f5e249650823c5dd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d9b71f582d457ad883822e7b3d4dd002",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "dc89895942d73689da129db35500dc7d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7cd59c799a3b3e224884cb2f0ded8144",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5cae33918957cafe706b41611220d1c2",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31"
+      },
+      "date": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "749f64bced49c3383c461cd05d7a10ee",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "a10043982ba02e448068176ca5943241",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b97a7e0db6c48311bf7f85df54308310",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "eba4145ffb4c22bd88fc6f956028eb6c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "44fe794648e6f258090bc12e5bb62933",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "b790a135da17e51be7d1f89067b6efb4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "7e4006b8c10e8be3f8b22cbbe7ef3d13",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "e48b46f4eaad4429043a8c91af1f46ad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3b4fcbd9da9e328ec9211f2b8c29e9f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "804a9168f355930749338453fb4f4bd5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "ded782db239832717d78312e2c2b0832",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "b285f4b3da7d5315f7d97f9929415b69",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "3df01c53aeb517c05b7eafdc4cb07867",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "cb043f1c4f81357a54b2ea3fabdbd692",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "6ba5b2b202e7aa0311024f692f717977",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "49e1bdaabd61dcdb75936c7b578de7ea",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "0d57d0d1de50a6451a1af53178d2e689",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "cfb9639fe6e2f5809e448900b0a4bcaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "503758e57aaa2985b884a2a9bbf5ea1b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a5dac1b1defcbd5bc2559e719ca9e582",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "b04e782a36faeb26871316763118c986",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "dfa9daaa3407e151195709f0011c0dd3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "89efa936ced12021b8b6e5132314aef3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d7bb04482fb98ce9ccab73cf82eb73fa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "42e0065f2a4be5aecb7477019b73b75d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "8deca5089f198ce23b31576c6c0ae4c0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "607d35329bdc9ff534de72058fae2e97",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e7500ab8e4511ff4113a6d9d33cbaed4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d2a0892f58978ac40d95f53730122625",
       "stadium": null
     }
   ]
