@@ -1,154 +1,7 @@
 {
   "competitionName": "Klasa B (Krakow I)",
-  "count": 95,
+  "count": 88,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa B (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Cobra Wężerów"
-      },
-      "awayTeam": {
-        "name": "Sparta Skrzeszowice"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T09:00:00.000Z"
-      },
-      "id": "4db6fb4a34acc30a03d67a2a0b5dbab1",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Agricola Klimontów"
-      },
-      "awayTeam": {
-        "name": "Czapla Czaple Małe"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T09:00:00.000Z"
-      },
-      "id": "270eea243ed2e2d0f819c3c9449eaf8e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Michałowianka II Michałowice"
-      },
-      "awayTeam": {
-        "name": "LKS II Niedźwiedź"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
-      },
-      "id": "6338190d473034cebea7a390001a01c9",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Lesisko Kraków"
-      },
-      "awayTeam": {
-        "name": "Wierzbowianka Wierzbno"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T12:00:00.000Z"
-      },
-      "id": "bca66da866f05d6753e58e031a5df044",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Strażak Goszcza"
-      },
-      "awayTeam": {
-        "name": "Orzeł Iwanowice"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T14:00:00.000Z"
-      },
-      "id": "431d553273bc60d79bf4ce87c3070cbf",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Słomniczanka Słomniki"
-      },
-      "awayTeam": {
-        "name": "LKS Polanowice (k. Krakowa)"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "id": "b7808d96247cb86cf8721b0d9aee7706",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow I)"
-      },
-      "homeTeam": {
-        "name": "Trątnowianka Trątnowice"
-      },
-      "awayTeam": {
-        "name": "Olimpia Czaple Wielkie"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T15:00:00.000Z"
-      },
-      "id": "1834ab451790c5824e4d6d7df9d9088b",
-      "stadium": null
-    },
     {
       "competition": {
         "name": "Klasa B (Krakow I)"
@@ -168,7 +21,15 @@
         "dateTime": "2026-09-09T15:00:00.000Z"
       },
       "id": "19a0df8cf235d036038311546f0bf2b7",
-      "stadium": null
+      "stadium": {
+        "address": "Leśna 7, 32-010 Skrzeszowice",
+        "venue": "Boisko LKS Sparta",
+        "geo": {
+          "latitude": 50.187683,
+          "longitude": 20.1468458,
+          "name": "Leśna 7, Skrzeszowice, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -189,7 +50,15 @@
         "dateTime": "2026-09-09T15:00:00.000Z"
       },
       "id": "5f9b6111db38165ace80a1509b8a5ca3",
-      "stadium": null
+      "stadium": {
+        "address": "Biskupice 106, 32-095 Biskupice",
+        "venue": "Stadion LKS Orzeł Iwanowice",
+        "geo": {
+          "latitude": 50.2307292,
+          "longitude": 19.9833228,
+          "name": "Biskupice 106, Biskupice, gmina Iwanowice, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -210,7 +79,15 @@
         "dateTime": "2026-09-09T15:30:00.000Z"
       },
       "id": "6515c09c590d0064e4942b5e3c566cd6",
-      "stadium": null
+      "stadium": {
+        "address": "Wierzbno 24, 32-104 Wierzbno",
+        "venue": "Boisko LKS Wierzbowianka",
+        "geo": {
+          "latitude": 50.153491,
+          "longitude": 20.2378403,
+          "name": "Wierzbno 24, Wierzbno, powiat proszowicki, województwo małopolskie, 32-104, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -231,7 +108,15 @@
         "dateTime": "2026-09-09T15:30:00.000Z"
       },
       "id": "8e26e0b145b040732e7a004512d60174",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Wielkie 99, 32-075 Czaple Wielkie",
+        "venue": "Boisko LKS Olimpia",
+        "geo": {
+          "latitude": 50.3001539,
+          "longitude": 19.9887481,
+          "name": "Czaple Wielkie 99, Czaple Wielkie, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -252,7 +137,15 @@
         "dateTime": "2026-09-09T15:30:00.000Z"
       },
       "id": "dc195a0aea1c57a64ffd61ffa0e51f78",
-      "stadium": null
+      "stadium": {
+        "address": "Radziemice 74, 32-107 Radziemice",
+        "venue": "Boisko LKS Milenium",
+        "geo": {
+          "latitude": 50.2552708,
+          "longitude": 20.2343811,
+          "name": "Radziemice 74, Radziemice, powiat proszowicki, województwo małopolskie, 32-107, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -273,7 +166,15 @@
         "dateTime": "2026-09-09T15:45:00.000Z"
       },
       "id": "eafebee81ef70bab9984f2417af4d225",
-      "stadium": null
+      "stadium": {
+        "address": "Niedźwiedź 3A, 32-090 Niedźwiedź",
+        "venue": "Stadion LKS Niedźwiedź",
+        "geo": {
+          "latitude": 50.225853,
+          "longitude": 20.0923996,
+          "name": "LKS Niedźwiedź, Szkolna, Niedźwiedź, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -294,7 +195,15 @@
         "dateTime": "2026-09-09T16:00:00.000Z"
       },
       "id": "ad42a5f946325b226ee80ea6d6db52c0",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Małe 46, 32-075 Czaple Małe",
+        "venue": "Boisko LKS Czapla",
+        "geo": {
+          "latitude": 50.2991624,
+          "longitude": 19.9529241,
+          "name": "Czaple Małe 46, Czaple Małe, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -315,7 +224,15 @@
         "dateTime": "2026-09-10T15:00:00.000Z"
       },
       "id": "f95cf222ae3a416e5c22ef7d1ada9fda",
-      "stadium": null
+      "stadium": {
+        "address": "Polanowice 126/2, 32-090 Polanowice",
+        "venue": "Boisko LKS Polanowice",
+        "geo": {
+          "latitude": 50.197126,
+          "longitude": 20.0919109,
+          "name": "Polanowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -336,7 +253,15 @@
         "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "13da670b04821304dc70dc5291225e5b",
-      "stadium": null
+      "stadium": {
+        "address": "Wężerów 78, 32-090 Wężerów",
+        "venue": "Boisko Cobra Wężerów",
+        "geo": {
+          "latitude": 50.2822046,
+          "longitude": 20.0585317,
+          "name": "Wężerów 8, Wężerów, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -357,7 +282,15 @@
         "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "5c2033e67d75f7a1c2e104685d71bad0",
-      "stadium": null
+      "stadium": {
+        "address": "Klimontów 180, 32-112 Klimontów",
+        "venue": "Boisko Agricola Klimontów",
+        "geo": {
+          "latitude": 50.221272,
+          "longitude": 20.3202126,
+          "name": "Klimontów 180, Klimontów, powiat proszowicki, województwo małopolskie, 32-112, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -399,7 +332,15 @@
         "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "id": "8e18e704f0e02ae4c0deff5bc777878c",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa, 32-010 Goszcza",
+        "venue": "Stadion Gminny w Goszczy",
+        "geo": {
+          "latitude": 50.1874953,
+          "longitude": 20.0716294,
+          "name": "Sportowa, Goszcza, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -441,7 +382,15 @@
         "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "id": "6a9d7725236df714f36cb9d39ba4f43f",
-      "stadium": null
+      "stadium": {
+        "address": "Wierzbno 24, 32-104 Wierzbno",
+        "venue": "Boisko LKS Wierzbowianka",
+        "geo": {
+          "latitude": 50.153491,
+          "longitude": 20.2378403,
+          "name": "Wierzbno 24, Wierzbno, powiat proszowicki, województwo małopolskie, 32-104, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -462,7 +411,15 @@
         "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "f89bd797ab5c65783238d28efb2f0ca8",
-      "stadium": null
+      "stadium": {
+        "address": "Centralna, 32-095 Narama",
+        "venue": "Boisko LTS Novi Narama",
+        "geo": {
+          "latitude": 50.1841166,
+          "longitude": 19.9348535,
+          "name": "Novi Narama, Centralna, Narama, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -483,7 +440,15 @@
         "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "1b5bd3da12ce70e5f2234f5f4c544c53",
-      "stadium": null
+      "stadium": {
+        "address": "Trątnowice 61a, 32-090 Trątnowice",
+        "venue": "Boisko LKS Trątnowianka",
+        "geo": {
+          "latitude": 50.2021522,
+          "longitude": 20.1228158,
+          "name": "Trątnowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -506,7 +471,15 @@
         "time": "TBD"
       },
       "id": "f5b553f1e673eb8c7d54a5158bd7f17e",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Wielkie 99, 32-075 Czaple Wielkie",
+        "venue": "Boisko LKS Olimpia",
+        "geo": {
+          "latitude": 50.3001539,
+          "longitude": 19.9887481,
+          "name": "Czaple Wielkie 99, Czaple Wielkie, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -529,7 +502,15 @@
         "time": "TBD"
       },
       "id": "082075d762fb77d272e6174db0b1d38e",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Małe 46, 32-075 Czaple Małe",
+        "venue": "Boisko LKS Czapla",
+        "geo": {
+          "latitude": 50.2991624,
+          "longitude": 19.9529241,
+          "name": "Czaple Małe 46, Czaple Małe, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -552,7 +533,15 @@
         "time": "TBD"
       },
       "id": "68d062e3a580eb6230cc7ba8674118cb",
-      "stadium": null
+      "stadium": {
+        "address": "Leśna 7, 32-010 Skrzeszowice",
+        "venue": "Boisko LKS Sparta",
+        "geo": {
+          "latitude": 50.187683,
+          "longitude": 20.1468458,
+          "name": "Leśna 7, Skrzeszowice, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -575,7 +564,15 @@
         "time": "TBD"
       },
       "id": "ee1834d630b3cc26a71ba7a6cdf81f45",
-      "stadium": null
+      "stadium": {
+        "address": "Biskupice 106, 32-095 Biskupice",
+        "venue": "Stadion LKS Orzeł Iwanowice",
+        "geo": {
+          "latitude": 50.2307292,
+          "longitude": 19.9833228,
+          "name": "Biskupice 106, Biskupice, gmina Iwanowice, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -598,7 +595,15 @@
         "time": "TBD"
       },
       "id": "031a91f76cdea95482584cab30585be8",
-      "stadium": null
+      "stadium": {
+        "address": "Radziemice 74, 32-107 Radziemice",
+        "venue": "Boisko LKS Milenium",
+        "geo": {
+          "latitude": 50.2552708,
+          "longitude": 20.2343811,
+          "name": "Radziemice 74, Radziemice, powiat proszowicki, województwo małopolskie, 32-107, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -621,7 +626,15 @@
         "time": "TBD"
       },
       "id": "82a197dc3988ac0d6f38b561bd0ecb07",
-      "stadium": null
+      "stadium": {
+        "address": "Polanowice 126/2, 32-090 Polanowice",
+        "venue": "Boisko LKS Polanowice",
+        "geo": {
+          "latitude": 50.197126,
+          "longitude": 20.0919109,
+          "name": "Polanowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -644,7 +657,15 @@
         "time": "TBD"
       },
       "id": "10c8f1da3c9ae33de3e5bb2c0ad149c4",
-      "stadium": null
+      "stadium": {
+        "address": "Niedźwiedź 3A, 32-090 Niedźwiedź",
+        "venue": "Stadion LKS Niedźwiedź",
+        "geo": {
+          "latitude": 50.225853,
+          "longitude": 20.0923996,
+          "name": "LKS Niedźwiedź, Szkolna, Niedźwiedź, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -667,7 +688,15 @@
         "time": "TBD"
       },
       "id": "e1b7a751768b5ae76acd98ff0245babc",
-      "stadium": null
+      "stadium": {
+        "address": "Prandocin-Wysiołek, 32-090 Słomniki",
+        "venue": "Boisko LKS Słomniczanka",
+        "geo": {
+          "latitude": 50.2491941,
+          "longitude": 20.0898017,
+          "name": "LKS Słomniczanka Słomniki, Prandocin, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -713,7 +742,15 @@
         "time": "TBD"
       },
       "id": "16ad006bf7a49dbed94c5b0b9ff38588",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa, 32-010 Goszcza",
+        "venue": "Stadion Gminny w Goszczy",
+        "geo": {
+          "latitude": 50.1874953,
+          "longitude": 20.0716294,
+          "name": "Sportowa, Goszcza, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -736,7 +773,15 @@
         "time": "TBD"
       },
       "id": "09dddb565baed4ba5307311d0e73c5f8",
-      "stadium": null
+      "stadium": {
+        "address": "Wężerów 78, 32-090 Wężerów",
+        "venue": "Boisko Cobra Wężerów",
+        "geo": {
+          "latitude": 50.2822046,
+          "longitude": 20.0585317,
+          "name": "Wężerów 8, Wężerów, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -759,7 +804,15 @@
         "time": "TBD"
       },
       "id": "76d67dc22355cd989caa05e3100a3bd8",
-      "stadium": null
+      "stadium": {
+        "address": "Klimontów 180, 32-112 Klimontów",
+        "venue": "Boisko Agricola Klimontów",
+        "geo": {
+          "latitude": 50.221272,
+          "longitude": 20.3202126,
+          "name": "Klimontów 180, Klimontów, powiat proszowicki, województwo małopolskie, 32-112, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -782,7 +835,15 @@
         "time": "TBD"
       },
       "id": "bcf814e0d4b7b991880ff094bc10aff3",
-      "stadium": null
+      "stadium": {
+        "address": "Trątnowice 61a, 32-090 Trątnowice",
+        "venue": "Boisko LKS Trątnowianka",
+        "geo": {
+          "latitude": 50.2021522,
+          "longitude": 20.1228158,
+          "name": "Trątnowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -828,7 +889,15 @@
         "time": "TBD"
       },
       "id": "841dfb5c38e63c0403173c0dee1ee96d",
-      "stadium": null
+      "stadium": {
+        "address": "Wierzbno 24, 32-104 Wierzbno",
+        "venue": "Boisko LKS Wierzbowianka",
+        "geo": {
+          "latitude": 50.153491,
+          "longitude": 20.2378403,
+          "name": "Wierzbno 24, Wierzbno, powiat proszowicki, województwo małopolskie, 32-104, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -851,7 +920,15 @@
         "time": "TBD"
       },
       "id": "9e90378406f94691978b96b6f6db4856",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Wielkie 99, 32-075 Czaple Wielkie",
+        "venue": "Boisko LKS Olimpia",
+        "geo": {
+          "latitude": 50.3001539,
+          "longitude": 19.9887481,
+          "name": "Czaple Wielkie 99, Czaple Wielkie, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -874,7 +951,15 @@
         "time": "TBD"
       },
       "id": "7c5716c9e931cdce6d2326f17d262dd0",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Małe 46, 32-075 Czaple Małe",
+        "venue": "Boisko LKS Czapla",
+        "geo": {
+          "latitude": 50.2991624,
+          "longitude": 19.9529241,
+          "name": "Czaple Małe 46, Czaple Małe, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -897,7 +982,15 @@
         "time": "TBD"
       },
       "id": "0bdcb2460c6e960b1f23131c73aa5373",
-      "stadium": null
+      "stadium": {
+        "address": "Leśna 7, 32-010 Skrzeszowice",
+        "venue": "Boisko LKS Sparta",
+        "geo": {
+          "latitude": 50.187683,
+          "longitude": 20.1468458,
+          "name": "Leśna 7, Skrzeszowice, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -920,7 +1013,15 @@
         "time": "TBD"
       },
       "id": "38b49621045833f5b8b7d4967478e235",
-      "stadium": null
+      "stadium": {
+        "address": "Biskupice 106, 32-095 Biskupice",
+        "venue": "Stadion LKS Orzeł Iwanowice",
+        "geo": {
+          "latitude": 50.2307292,
+          "longitude": 19.9833228,
+          "name": "Biskupice 106, Biskupice, gmina Iwanowice, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -943,7 +1044,15 @@
         "time": "TBD"
       },
       "id": "ac5a800b1143cc8ccb4e6fa2e4dd6814",
-      "stadium": null
+      "stadium": {
+        "address": "Radziemice 74, 32-107 Radziemice",
+        "venue": "Boisko LKS Milenium",
+        "geo": {
+          "latitude": 50.2552708,
+          "longitude": 20.2343811,
+          "name": "Radziemice 74, Radziemice, powiat proszowicki, województwo małopolskie, 32-107, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -966,7 +1075,15 @@
         "time": "TBD"
       },
       "id": "e0a8167cc951d1e5184040cdfd447642",
-      "stadium": null
+      "stadium": {
+        "address": "Polanowice 126/2, 32-090 Polanowice",
+        "venue": "Boisko LKS Polanowice",
+        "geo": {
+          "latitude": 50.197126,
+          "longitude": 20.0919109,
+          "name": "Polanowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -989,7 +1106,15 @@
         "time": "TBD"
       },
       "id": "a72e057d11e9b9373a16af01d3e248c7",
-      "stadium": null
+      "stadium": {
+        "address": "Niedźwiedź 3A, 32-090 Niedźwiedź",
+        "venue": "Stadion LKS Niedźwiedź",
+        "geo": {
+          "latitude": 50.225853,
+          "longitude": 20.0923996,
+          "name": "LKS Niedźwiedź, Szkolna, Niedźwiedź, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1012,7 +1137,15 @@
         "time": "TBD"
       },
       "id": "e637d01fae6cecd4fb3b171dbb2a5703",
-      "stadium": null
+      "stadium": {
+        "address": "Prandocin-Wysiołek, 32-090 Słomniki",
+        "venue": "Boisko LKS Słomniczanka",
+        "geo": {
+          "latitude": 50.2491941,
+          "longitude": 20.0898017,
+          "name": "LKS Słomniczanka Słomniki, Prandocin, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1035,7 +1168,15 @@
         "time": "TBD"
       },
       "id": "ba80d64219b53ba21210f9324c425245",
-      "stadium": null
+      "stadium": {
+        "address": "Centralna, 32-095 Narama",
+        "venue": "Boisko LTS Novi Narama",
+        "geo": {
+          "latitude": 50.1841166,
+          "longitude": 19.9348535,
+          "name": "Novi Narama, Centralna, Narama, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1081,7 +1222,15 @@
         "time": "TBD"
       },
       "id": "c48c969c5fb54c7a32ac08bb42f00f5b",
-      "stadium": null
+      "stadium": {
+        "address": "Wężerów 78, 32-090 Wężerów",
+        "venue": "Boisko Cobra Wężerów",
+        "geo": {
+          "latitude": 50.2822046,
+          "longitude": 20.0585317,
+          "name": "Wężerów 8, Wężerów, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1104,7 +1253,15 @@
         "time": "TBD"
       },
       "id": "4d441dbf19426a19d1cf7b0f424d0cbf",
-      "stadium": null
+      "stadium": {
+        "address": "Klimontów 180, 32-112 Klimontów",
+        "venue": "Boisko Agricola Klimontów",
+        "geo": {
+          "latitude": 50.221272,
+          "longitude": 20.3202126,
+          "name": "Klimontów 180, Klimontów, powiat proszowicki, województwo małopolskie, 32-112, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1127,7 +1284,15 @@
         "time": "TBD"
       },
       "id": "a87807da20b7c9b337955362f04e1348",
-      "stadium": null
+      "stadium": {
+        "address": "Trątnowice 61a, 32-090 Trątnowice",
+        "venue": "Boisko LKS Trątnowianka",
+        "geo": {
+          "latitude": 50.2021522,
+          "longitude": 20.1228158,
+          "name": "Trątnowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1173,7 +1338,15 @@
         "time": "TBD"
       },
       "id": "3f0e9283768f2a08776f20965dd12d73",
-      "stadium": null
+      "stadium": {
+        "address": "Wierzbno 24, 32-104 Wierzbno",
+        "venue": "Boisko LKS Wierzbowianka",
+        "geo": {
+          "latitude": 50.153491,
+          "longitude": 20.2378403,
+          "name": "Wierzbno 24, Wierzbno, powiat proszowicki, województwo małopolskie, 32-104, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1196,7 +1369,15 @@
         "time": "TBD"
       },
       "id": "c797db4521f64d914cf80a9202488b9e",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Wielkie 99, 32-075 Czaple Wielkie",
+        "venue": "Boisko LKS Olimpia",
+        "geo": {
+          "latitude": 50.3001539,
+          "longitude": 19.9887481,
+          "name": "Czaple Wielkie 99, Czaple Wielkie, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1219,7 +1400,15 @@
         "time": "TBD"
       },
       "id": "3dc3381908a36fdbb3c0afa3c92ead43",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Małe 46, 32-075 Czaple Małe",
+        "venue": "Boisko LKS Czapla",
+        "geo": {
+          "latitude": 50.2991624,
+          "longitude": 19.9529241,
+          "name": "Czaple Małe 46, Czaple Małe, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1242,7 +1431,15 @@
         "time": "TBD"
       },
       "id": "eb466dc35e7e1aa2446648b38c5691d4",
-      "stadium": null
+      "stadium": {
+        "address": "Biskupice 106, 32-095 Biskupice",
+        "venue": "Stadion LKS Orzeł Iwanowice",
+        "geo": {
+          "latitude": 50.2307292,
+          "longitude": 19.9833228,
+          "name": "Biskupice 106, Biskupice, gmina Iwanowice, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1265,7 +1462,15 @@
         "time": "TBD"
       },
       "id": "6ee5cee8cb661fe9d8ae9c6eeb7faac2",
-      "stadium": null
+      "stadium": {
+        "address": "Radziemice 74, 32-107 Radziemice",
+        "venue": "Boisko LKS Milenium",
+        "geo": {
+          "latitude": 50.2552708,
+          "longitude": 20.2343811,
+          "name": "Radziemice 74, Radziemice, powiat proszowicki, województwo małopolskie, 32-107, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1288,7 +1493,15 @@
         "time": "TBD"
       },
       "id": "a6f4061c623bd1ddad608c7ebb73b432",
-      "stadium": null
+      "stadium": {
+        "address": "Polanowice 126/2, 32-090 Polanowice",
+        "venue": "Boisko LKS Polanowice",
+        "geo": {
+          "latitude": 50.197126,
+          "longitude": 20.0919109,
+          "name": "Polanowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1311,7 +1524,15 @@
         "time": "TBD"
       },
       "id": "4eaab4b24dda5b8e691a435beebc13e3",
-      "stadium": null
+      "stadium": {
+        "address": "Niedźwiedź 3A, 32-090 Niedźwiedź",
+        "venue": "Stadion LKS Niedźwiedź",
+        "geo": {
+          "latitude": 50.225853,
+          "longitude": 20.0923996,
+          "name": "LKS Niedźwiedź, Szkolna, Niedźwiedź, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1334,7 +1555,15 @@
         "time": "TBD"
       },
       "id": "6201a521acce174dbf4b531048575c48",
-      "stadium": null
+      "stadium": {
+        "address": "Prandocin-Wysiołek, 32-090 Słomniki",
+        "venue": "Boisko LKS Słomniczanka",
+        "geo": {
+          "latitude": 50.2491941,
+          "longitude": 20.0898017,
+          "name": "LKS Słomniczanka Słomniki, Prandocin, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1357,7 +1586,15 @@
         "time": "TBD"
       },
       "id": "810e0cbbd7db09461f9b0c6f0279588e",
-      "stadium": null
+      "stadium": {
+        "address": "Centralna, 32-095 Narama",
+        "venue": "Boisko LTS Novi Narama",
+        "geo": {
+          "latitude": 50.1841166,
+          "longitude": 19.9348535,
+          "name": "Novi Narama, Centralna, Narama, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1380,7 +1617,15 @@
         "time": "TBD"
       },
       "id": "c2e6f9121a2bd27a514fa13e9f1b1cc3",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa, 32-010 Goszcza",
+        "venue": "Stadion Gminny w Goszczy",
+        "geo": {
+          "latitude": 50.1874953,
+          "longitude": 20.0716294,
+          "name": "Sportowa, Goszcza, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1403,7 +1648,15 @@
         "time": "TBD"
       },
       "id": "9ad35b5a13182ade7084957f23d440d4",
-      "stadium": null
+      "stadium": {
+        "address": "Wężerów 78, 32-090 Wężerów",
+        "venue": "Boisko Cobra Wężerów",
+        "geo": {
+          "latitude": 50.2822046,
+          "longitude": 20.0585317,
+          "name": "Wężerów 8, Wężerów, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1426,7 +1679,15 @@
         "time": "TBD"
       },
       "id": "55eddd4a350c7d5130afc0e5b70e3b89",
-      "stadium": null
+      "stadium": {
+        "address": "Leśna 7, 32-010 Skrzeszowice",
+        "venue": "Boisko LKS Sparta",
+        "geo": {
+          "latitude": 50.187683,
+          "longitude": 20.1468458,
+          "name": "Leśna 7, Skrzeszowice, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1449,7 +1710,15 @@
         "time": "TBD"
       },
       "id": "8c9648dd010364b84a65e8d951683e50",
-      "stadium": null
+      "stadium": {
+        "address": "Biskupice 106, 32-095 Biskupice",
+        "venue": "Stadion LKS Orzeł Iwanowice",
+        "geo": {
+          "latitude": 50.2307292,
+          "longitude": 19.9833228,
+          "name": "Biskupice 106, Biskupice, gmina Iwanowice, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1472,7 +1741,15 @@
         "time": "TBD"
       },
       "id": "d632de76bd491b344c021e5fb3efa120",
-      "stadium": null
+      "stadium": {
+        "address": "Radziemice 74, 32-107 Radziemice",
+        "venue": "Boisko LKS Milenium",
+        "geo": {
+          "latitude": 50.2552708,
+          "longitude": 20.2343811,
+          "name": "Radziemice 74, Radziemice, powiat proszowicki, województwo małopolskie, 32-107, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1495,7 +1772,15 @@
         "time": "TBD"
       },
       "id": "f1e452e31e28a53ddaf043eb51841d4d",
-      "stadium": null
+      "stadium": {
+        "address": "Polanowice 126/2, 32-090 Polanowice",
+        "venue": "Boisko LKS Polanowice",
+        "geo": {
+          "latitude": 50.197126,
+          "longitude": 20.0919109,
+          "name": "Polanowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1518,7 +1803,15 @@
         "time": "TBD"
       },
       "id": "e9ac4ec589d4f4923f2ef543bd74a4cc",
-      "stadium": null
+      "stadium": {
+        "address": "Niedźwiedź 3A, 32-090 Niedźwiedź",
+        "venue": "Stadion LKS Niedźwiedź",
+        "geo": {
+          "latitude": 50.225853,
+          "longitude": 20.0923996,
+          "name": "LKS Niedźwiedź, Szkolna, Niedźwiedź, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1541,7 +1834,15 @@
         "time": "TBD"
       },
       "id": "71a756d4aaa880235efef40c673c2e9b",
-      "stadium": null
+      "stadium": {
+        "address": "Prandocin-Wysiołek, 32-090 Słomniki",
+        "venue": "Boisko LKS Słomniczanka",
+        "geo": {
+          "latitude": 50.2491941,
+          "longitude": 20.0898017,
+          "name": "LKS Słomniczanka Słomniki, Prandocin, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1564,7 +1865,15 @@
         "time": "TBD"
       },
       "id": "05dd501bc2a99d7dad631574ae990b8b",
-      "stadium": null
+      "stadium": {
+        "address": "Centralna, 32-095 Narama",
+        "venue": "Boisko LTS Novi Narama",
+        "geo": {
+          "latitude": 50.1841166,
+          "longitude": 19.9348535,
+          "name": "Novi Narama, Centralna, Narama, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1587,7 +1896,15 @@
         "time": "TBD"
       },
       "id": "2bb530f8559124002f1859e0b33ecd87",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa, 32-010 Goszcza",
+        "venue": "Stadion Gminny w Goszczy",
+        "geo": {
+          "latitude": 50.1874953,
+          "longitude": 20.0716294,
+          "name": "Sportowa, Goszcza, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1633,7 +1950,15 @@
         "time": "TBD"
       },
       "id": "ddd2b4cb2f22789abe562640f7733b81",
-      "stadium": null
+      "stadium": {
+        "address": "Klimontów 180, 32-112 Klimontów",
+        "venue": "Boisko Agricola Klimontów",
+        "geo": {
+          "latitude": 50.221272,
+          "longitude": 20.3202126,
+          "name": "Klimontów 180, Klimontów, powiat proszowicki, województwo małopolskie, 32-112, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1656,7 +1981,15 @@
         "time": "TBD"
       },
       "id": "09a0a580bb204acf18a321558e7f10fe",
-      "stadium": null
+      "stadium": {
+        "address": "Trątnowice 61a, 32-090 Trątnowice",
+        "venue": "Boisko LKS Trątnowianka",
+        "geo": {
+          "latitude": 50.2021522,
+          "longitude": 20.1228158,
+          "name": "Trątnowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1702,7 +2035,15 @@
         "time": "TBD"
       },
       "id": "2290c370ee40b5f91e01b98ec032dd7d",
-      "stadium": null
+      "stadium": {
+        "address": "Wierzbno 24, 32-104 Wierzbno",
+        "venue": "Boisko LKS Wierzbowianka",
+        "geo": {
+          "latitude": 50.153491,
+          "longitude": 20.2378403,
+          "name": "Wierzbno 24, Wierzbno, powiat proszowicki, województwo małopolskie, 32-104, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1725,7 +2066,15 @@
         "time": "TBD"
       },
       "id": "c9bcc3d237426b74a9b98b676a596463",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Wielkie 99, 32-075 Czaple Wielkie",
+        "venue": "Boisko LKS Olimpia",
+        "geo": {
+          "latitude": 50.3001539,
+          "longitude": 19.9887481,
+          "name": "Czaple Wielkie 99, Czaple Wielkie, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1748,7 +2097,15 @@
         "time": "TBD"
       },
       "id": "acf963ad92bbaf281bb7c90b76b2e8ea",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Małe 46, 32-075 Czaple Małe",
+        "venue": "Boisko LKS Czapla",
+        "geo": {
+          "latitude": 50.2991624,
+          "longitude": 19.9529241,
+          "name": "Czaple Małe 46, Czaple Małe, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1771,7 +2128,15 @@
         "time": "TBD"
       },
       "id": "3e8dfd596b3f1d6728a2ce1bb78e5efc",
-      "stadium": null
+      "stadium": {
+        "address": "Leśna 7, 32-010 Skrzeszowice",
+        "venue": "Boisko LKS Sparta",
+        "geo": {
+          "latitude": 50.187683,
+          "longitude": 20.1468458,
+          "name": "Leśna 7, Skrzeszowice, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1817,7 +2182,15 @@
         "time": "TBD"
       },
       "id": "e29d33a349b86b70c3f9a602d649a05f",
-      "stadium": null
+      "stadium": {
+        "address": "Trątnowice 61a, 32-090 Trątnowice",
+        "venue": "Boisko LKS Trątnowianka",
+        "geo": {
+          "latitude": 50.2021522,
+          "longitude": 20.1228158,
+          "name": "Trątnowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1863,7 +2236,15 @@
         "time": "TBD"
       },
       "id": "9e6e31020fd4f3d589079fba35d49af8",
-      "stadium": null
+      "stadium": {
+        "address": "Wierzbno 24, 32-104 Wierzbno",
+        "venue": "Boisko LKS Wierzbowianka",
+        "geo": {
+          "latitude": 50.153491,
+          "longitude": 20.2378403,
+          "name": "Wierzbno 24, Wierzbno, powiat proszowicki, województwo małopolskie, 32-104, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1886,7 +2267,15 @@
         "time": "TBD"
       },
       "id": "5b58b90200e270775fed0ea780c1041a",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Wielkie 99, 32-075 Czaple Wielkie",
+        "venue": "Boisko LKS Olimpia",
+        "geo": {
+          "latitude": 50.3001539,
+          "longitude": 19.9887481,
+          "name": "Czaple Wielkie 99, Czaple Wielkie, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1909,7 +2298,15 @@
         "time": "TBD"
       },
       "id": "2dde33f3d0c5ec6b6e4496f928f5b635",
-      "stadium": null
+      "stadium": {
+        "address": "Czaple Małe 46, 32-075 Czaple Małe",
+        "venue": "Boisko LKS Czapla",
+        "geo": {
+          "latitude": 50.2991624,
+          "longitude": 19.9529241,
+          "name": "Czaple Małe 46, Czaple Małe, powiat miechowski, województwo małopolskie, 32-075, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1932,7 +2329,15 @@
         "time": "TBD"
       },
       "id": "9d7361d10da6804ffc33e378464a52af",
-      "stadium": null
+      "stadium": {
+        "address": "Leśna 7, 32-010 Skrzeszowice",
+        "venue": "Boisko LKS Sparta",
+        "geo": {
+          "latitude": 50.187683,
+          "longitude": 20.1468458,
+          "name": "Leśna 7, Skrzeszowice, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1955,7 +2360,15 @@
         "time": "TBD"
       },
       "id": "9c82caf51d772d40534c4e13b981aa74",
-      "stadium": null
+      "stadium": {
+        "address": "Biskupice 106, 32-095 Biskupice",
+        "venue": "Stadion LKS Orzeł Iwanowice",
+        "geo": {
+          "latitude": 50.2307292,
+          "longitude": 19.9833228,
+          "name": "Biskupice 106, Biskupice, gmina Iwanowice, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1978,7 +2391,15 @@
         "time": "TBD"
       },
       "id": "3e076ad20e26619210e76bf08f07d742",
-      "stadium": null
+      "stadium": {
+        "address": "Radziemice 74, 32-107 Radziemice",
+        "venue": "Boisko LKS Milenium",
+        "geo": {
+          "latitude": 50.2552708,
+          "longitude": 20.2343811,
+          "name": "Radziemice 74, Radziemice, powiat proszowicki, województwo małopolskie, 32-107, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2001,7 +2422,15 @@
         "time": "TBD"
       },
       "id": "2e10c278b6bb566cbe7bbed2bf5f9700",
-      "stadium": null
+      "stadium": {
+        "address": "Polanowice 126/2, 32-090 Polanowice",
+        "venue": "Boisko LKS Polanowice",
+        "geo": {
+          "latitude": 50.197126,
+          "longitude": 20.0919109,
+          "name": "Polanowice, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2024,7 +2453,15 @@
         "time": "TBD"
       },
       "id": "759499855321e664dd07864947285e03",
-      "stadium": null
+      "stadium": {
+        "address": "Niedźwiedź 3A, 32-090 Niedźwiedź",
+        "venue": "Stadion LKS Niedźwiedź",
+        "geo": {
+          "latitude": 50.225853,
+          "longitude": 20.0923996,
+          "name": "LKS Niedźwiedź, Szkolna, Niedźwiedź, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2047,7 +2484,15 @@
         "time": "TBD"
       },
       "id": "16b1e0b7d709dfafb77d79edc2ad8d15",
-      "stadium": null
+      "stadium": {
+        "address": "Prandocin-Wysiołek, 32-090 Słomniki",
+        "venue": "Boisko LKS Słomniczanka",
+        "geo": {
+          "latitude": 50.2491941,
+          "longitude": 20.0898017,
+          "name": "LKS Słomniczanka Słomniki, Prandocin, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2070,7 +2515,15 @@
         "time": "TBD"
       },
       "id": "7067a0a48d2229fe1d423cf7e0d59d5f",
-      "stadium": null
+      "stadium": {
+        "address": "Centralna, 32-095 Narama",
+        "venue": "Boisko LTS Novi Narama",
+        "geo": {
+          "latitude": 50.1841166,
+          "longitude": 19.9348535,
+          "name": "Novi Narama, Centralna, Narama, powiat krakowski, województwo małopolskie, 32-095, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2093,7 +2546,15 @@
         "time": "TBD"
       },
       "id": "5fea9cc8f713928f8257dcff12102ae3",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa, 32-010 Goszcza",
+        "venue": "Stadion Gminny w Goszczy",
+        "geo": {
+          "latitude": 50.1874953,
+          "longitude": 20.0716294,
+          "name": "Sportowa, Goszcza, powiat krakowski, województwo małopolskie, 32-010, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2116,7 +2577,15 @@
         "time": "TBD"
       },
       "id": "057e57883f630fdeef4cc152b8721c16",
-      "stadium": null
+      "stadium": {
+        "address": "Wężerów 78, 32-090 Wężerów",
+        "venue": "Boisko Cobra Wężerów",
+        "geo": {
+          "latitude": 50.2822046,
+          "longitude": 20.0585317,
+          "name": "Wężerów 8, Wężerów, powiat krakowski, województwo małopolskie, 32-090, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2139,7 +2608,15 @@
         "time": "TBD"
       },
       "id": "93ff99d0c11370facfec67d292fda14b",
-      "stadium": null
+      "stadium": {
+        "address": "Klimontów 180, 32-112 Klimontów",
+        "venue": "Boisko Agricola Klimontów",
+        "geo": {
+          "latitude": 50.221272,
+          "longitude": 20.3202126,
+          "name": "Klimontów 180, Klimontów, powiat proszowicki, województwo małopolskie, 32-112, Polska"
+        }
+      }
     }
   ]
 }

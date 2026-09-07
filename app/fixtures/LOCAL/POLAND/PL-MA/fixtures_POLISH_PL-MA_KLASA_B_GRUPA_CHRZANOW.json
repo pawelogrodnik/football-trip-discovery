@@ -1,31 +1,33 @@
 {
   "competitionName": "Klasa B (Chrzanow)",
-  "count": 7,
+  "count": 70,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Chrzanow)"
       },
       "homeTeam": {
-        "name": "MZKS II Alwernia",
-        "crest": null
+        "name": "Jutrzenka Ostrężnica"
       },
       "awayTeam": {
-        "name": "Promyk Bolęcin",
-        "crest": null
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T14:30:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
-      "id": "0dba22e54324992356384f2be623b339",
+      "id": "31785038b08e39bb2b8da261744f332f",
       "stadium": {
-        "address": "Zygmunta Zięby 1, 32-566 Alwernia",
-        "venue": "Stadion Miejski w Alwerni",
+        "address": "Sportowa, 32-454 Ostrężnica",
+        "venue": "Boisko LKS Jutrzenka",
         "geo": {
-          "latitude": 50.0576625,
-          "longitude": 19.5458106,
-          "name": "Zygmunta Zięby 1, Alwernia, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+          "latitude": 50.196004,
+          "longitude": 19.5672264,
+          "name": "LKS Jutrzenka Ostrężnica, Sportowa, Ostrężnica, powiat chrzanowski, województwo małopolskie, 32-454, Polska"
         }
       }
     },
@@ -34,94 +36,258 @@
         "name": "Klasa B (Chrzanow)"
       },
       "homeTeam": {
-        "name": "Tempo Płaza",
-        "crest": null
+        "name": "MKS Libiąż"
       },
       "awayTeam": {
-        "name": "Zgoda Byczyna (Jaworzno)",
-        "crest": null
+        "name": "MZKS II Alwernia"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
-      "id": "bff85f21dc02336ea58e4d9b3d1ecffc",
-      "stadium": null
+      "id": "9c334062c8828a617b813aa32958a5b0",
+      "stadium": {
+        "address": "Piłsudskiego 10, 32-590 Libiąż",
+        "venue": "Stadion Miejski w Libiążu",
+        "geo": {
+          "latitude": 50.1094105,
+          "longitude": 19.3307936,
+          "name": "KS Górnik Libiąż, Libiąż, powiat chrzanowski, województwo małopolskie, 32-590, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa B (Chrzanow)"
       },
       "homeTeam": {
-        "name": "Wolanka Wola Filipowska",
-        "crest": null
+        "name": "Zgoda Byczyna (Jaworzno)"
       },
       "awayTeam": {
-        "name": "Korona Lgota",
-        "crest": null
+        "name": "Wolanka Wola Filipowska"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-05",
-        "dateTime": "2026-09-05T16:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
-      "id": "ea929635489f227d5804aaba789c063f",
-      "stadium": null
+      "id": "4e608e4d4040105da33f8139004d1735",
+      "stadium": {
+        "address": "Makowa, 43-607 Byczyna",
+        "venue": "Ośrodek LKS Zgoda Byczyna",
+        "geo": {
+          "latitude": 50.155348,
+          "longitude": 19.3138315,
+          "name": "LKS Zgoda Byczyna, Makowa, Byczyna, Jaworzno, województwo śląskie, 43-607, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa B (Chrzanow)"
       },
       "homeTeam": {
-        "name": "Victoria Zalas",
-        "crest": null
+        "name": "Nadwiślanka II Okleśna"
       },
       "awayTeam": {
-        "name": "Nadwiślanka II Okleśna",
-        "crest": null
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T11:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
-      "id": "f29d0990cb1b5c45e62ae661eab59de3",
-      "stadium": null
+      "id": "f2bfe84689dee4821f1338f7e47c998b",
+      "stadium": {
+        "address": "Nowa Kolonia, 32-566 Okleśna",
+        "venue": "Boisko KS Nadwiślanka",
+        "geo": {
+          "latitude": 50.0279827,
+          "longitude": 19.533746,
+          "name": "KS Nadwiślanka, Nowa Kolonia, Okleśna, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa B (Chrzanow)"
       },
       "homeTeam": {
-        "name": "Fablok II Chrzanów",
-        "crest": null
+        "name": "Korona Lgota"
       },
       "awayTeam": {
-        "name": "Jutrzenka Ostrężnica",
-        "crest": null
+        "name": "Fablok II Chrzanów"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
-      "id": "d305ed61928b714bcdc2ceb083ea7605",
-      "stadium": null
+      "id": "8ce85e74e10a1929394452bf938c4d8e",
+      "stadium": {
+        "address": "Sportowa 4, 32-543 Lgota",
+        "venue": "Boisko Korona Lgota",
+        "geo": {
+          "latitude": 50.2022675,
+          "longitude": 19.5535028,
+          "name": "Sportowa 4, Lgota, gmina Trzebinia, powiat chrzanowski, województwo małopolskie, 32-543, Polska"
+        }
+      }
     },
     {
       "competition": {
         "name": "Klasa B (Chrzanow)"
       },
       "homeTeam": {
-        "name": "Victoria 1918 II Jaworzno",
-        "crest": null
+        "name": "Sankowia Sanka"
       },
       "awayTeam": {
-        "name": "Zryw Brodła",
-        "crest": null
+        "name": "Tempo Płaza"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T16:00:00.000Z"
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
-      "id": "e6a7b336a9e2ccf5600611c79aa3f768",
+      "id": "aeae165dec668e23e605eb8963de1771",
+      "stadium": {
+        "address": "Widokowa, 32-061 Sanka",
+        "venue": "Boisko PKS Sankowia",
+        "geo": {
+          "latitude": 50.0670564,
+          "longitude": 19.6448532,
+          "name": "PKS Sankowia, Widokowa, Sanka, powiat krakowski, województwo małopolskie, 32-061, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Brodła"
+      },
+      "awayTeam": {
+        "name": "Victoria Zalas"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T14:30:00.000Z"
+      },
+      "id": "40f99b87597d7273c8539197f1dd4409",
+      "stadium": {
+        "address": "Świętego Floriana, 32-071 Brodła",
+        "venue": "Boisko LKS Zryw Brodła",
+        "geo": {
+          "latitude": 50.0411781,
+          "longitude": 19.5814959,
+          "name": "LKS Zryw Brodła, Brodła, powiat chrzanowski, województwo małopolskie, 32-071, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "awayTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "33483f65b4aadadc5d2a4b23a8a32260",
+      "stadium": {
+        "address": "Topolowa, Wola Filipowska",
+        "venue": "Stadion LKS Wolanka",
+        "geo": {
+          "latitude": 50.1338659,
+          "longitude": 19.583602,
+          "name": "LKS Wolanka, Topolowa, Wola Filipowska, powiat krakowski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "awayTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "4cca315b619dbb6e91f880385c06d653",
+      "stadium": {
+        "address": "Szpitalna 78a, 32-500 Chrzanów",
+        "venue": "Boisko MKS Fablok",
+        "geo": {
+          "latitude": 50.1300905,
+          "longitude": 19.4267443,
+          "name": "Szpitalna 78a, Chrzanów, powiat chrzanowski, województwo małopolskie, 32-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "awayTeam": {
+        "name": "Korona Lgota"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "175ea5c34a41fa132673e3ef29b71a80",
       "stadium": {
         "address": "Krakowska 8, 43-600 Jaworzno",
         "venue": "Stadion Victoria w Jaworznie",
@@ -137,19 +303,1860 @@
         "name": "Klasa B (Chrzanow)"
       },
       "homeTeam": {
-        "name": "UKS Regulice (k. Chrzanowa)",
-        "crest": null
+        "name": "Victoria Zalas"
       },
       "awayTeam": {
-        "name": "MKS Libiąż",
-        "crest": null
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-06",
-        "dateTime": "2026-09-06T17:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "3e4cbe87ceffa4e6348e135164682c32",
-      "stadium": null
+      "id": "7c0c91d7afeb3a98801492d7a0f9de02",
+      "stadium": {
+        "address": "Sportowa, 32-065 Zalas",
+        "venue": "Boisko LKS Victoria Zalas",
+        "geo": {
+          "latitude": 50.0768905,
+          "longitude": 19.5895455,
+          "name": "LKS Victoria Zalas, Sportowa, Zalas, powiat krakowski, województwo małopolskie, 32-065, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "awayTeam": {
+        "name": "Zryw Brodła"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "ec1f7116fef5916a48f4b023fd4b9272",
+      "stadium": {
+        "address": "Chrzanowska 1, 32-566 Regulice",
+        "venue": "Boisko SPRiN Regulice",
+        "geo": {
+          "latitude": 50.0755144,
+          "longitude": 19.5325657,
+          "name": "Chrzanowska 1, Regulice, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "awayTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "96d004bc603b8e444a6a24f01f9f23b5",
+      "stadium": {
+        "address": "Zygmunta Zięby 1, 32-566 Alwernia",
+        "venue": "Stadion Miejski w Alwerni",
+        "geo": {
+          "latitude": 50.0576625,
+          "longitude": 19.5458106,
+          "name": "Zygmunta Zięby 1, Alwernia, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "awayTeam": {
+        "name": "MKS Libiąż"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
+      },
+      "date": {
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
+      },
+      "id": "6e1e1397c694181693a0797ac0273563",
+      "stadium": {
+        "address": "Sportowa, 32-552 Bolęcin",
+        "venue": "Boisko LKS Promyk Bolęcin",
+        "geo": {
+          "latitude": 50.1216412,
+          "longitude": 19.4897656,
+          "name": "LKS Promyk Bolęcin, Sportowa, Bolęcin, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "awayTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "ee3ed7e8ac4db95c52441acc41f390d3",
+      "stadium": {
+        "address": "Nowa Kolonia, 32-566 Okleśna",
+        "venue": "Boisko KS Nadwiślanka",
+        "geo": {
+          "latitude": 50.0279827,
+          "longitude": 19.533746,
+          "name": "KS Nadwiślanka, Nowa Kolonia, Okleśna, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Brodła"
+      },
+      "awayTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "8b8d63d8c06447c30ca42f24a1f9326f",
+      "stadium": {
+        "address": "Świętego Floriana, 32-071 Brodła",
+        "venue": "Boisko LKS Zryw Brodła",
+        "geo": {
+          "latitude": 50.0411781,
+          "longitude": 19.5814959,
+          "name": "LKS Zryw Brodła, Brodła, powiat chrzanowski, województwo małopolskie, 32-071, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "awayTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "a9c4552436fbda5be3382fd8875be5b7",
+      "stadium": {
+        "address": "Sportowa, 32-454 Ostrężnica",
+        "venue": "Boisko LKS Jutrzenka",
+        "geo": {
+          "latitude": 50.196004,
+          "longitude": 19.5672264,
+          "name": "LKS Jutrzenka Ostrężnica, Sportowa, Ostrężnica, powiat chrzanowski, województwo małopolskie, 32-454, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Korona Lgota"
+      },
+      "awayTeam": {
+        "name": "Victoria Zalas"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "fd74b9315ee7d266c9e7a3f3d26a5c83",
+      "stadium": {
+        "address": "Sportowa 4, 32-543 Lgota",
+        "venue": "Boisko Korona Lgota",
+        "geo": {
+          "latitude": 50.2022675,
+          "longitude": 19.5535028,
+          "name": "Sportowa 4, Lgota, gmina Trzebinia, powiat chrzanowski, województwo małopolskie, 32-543, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "awayTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "250460e80594ae88dfa8abbf72be0ce0",
+      "stadium": {
+        "address": "Makowa, 43-607 Byczyna",
+        "venue": "Ośrodek LKS Zgoda Byczyna",
+        "geo": {
+          "latitude": 50.155348,
+          "longitude": 19.3138315,
+          "name": "LKS Zgoda Byczyna, Makowa, Byczyna, Jaworzno, województwo śląskie, 43-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "awayTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "9b51d8680c5b72ae07ddb991ebae4d47",
+      "stadium": {
+        "address": "Widokowa, 32-061 Sanka",
+        "venue": "Boisko PKS Sankowia",
+        "geo": {
+          "latitude": 50.0670564,
+          "longitude": 19.6448532,
+          "name": "PKS Sankowia, Widokowa, Sanka, powiat krakowski, województwo małopolskie, 32-061, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Tempo Płaza"
+      },
+      "awayTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
+      },
+      "date": {
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
+      },
+      "id": "e7cbc5138733dade836e151bfe334e30",
+      "stadium": {
+        "address": "Korczaka, 32-552 Płaza",
+        "venue": "Boisko KS Tempo",
+        "geo": {
+          "latitude": 50.103808,
+          "longitude": 19.4612495,
+          "name": "KS Tempo, Korczaka, Płaza, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "awayTeam": {
+        "name": "Tempo Płaza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "7c9779d6e15c86648ae5c5373b0d1d41",
+      "stadium": {
+        "address": "Szpitalna 78a, 32-500 Chrzanów",
+        "venue": "Boisko MKS Fablok",
+        "geo": {
+          "latitude": 50.1300905,
+          "longitude": 19.4267443,
+          "name": "Szpitalna 78a, Chrzanów, powiat chrzanowski, województwo małopolskie, 32-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "awayTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "46af44d63368f83c9ee9d253a0f85856",
+      "stadium": {
+        "address": "Krakowska 8, 43-600 Jaworzno",
+        "venue": "Stadion Victoria w Jaworznie",
+        "geo": {
+          "latitude": 50.1879198,
+          "longitude": 19.2856064,
+          "name": "Stadion Victoria, 8, Krakowska, Bory, Śródmieście, Bory i Niedzieliska, Jaworzno, województwo śląskie, 43-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Victoria Zalas"
+      },
+      "awayTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "e17970fe2260b7db79f1a742548a2a46",
+      "stadium": {
+        "address": "Sportowa, 32-065 Zalas",
+        "venue": "Boisko LKS Victoria Zalas",
+        "geo": {
+          "latitude": 50.0768905,
+          "longitude": 19.5895455,
+          "name": "LKS Victoria Zalas, Sportowa, Zalas, powiat krakowski, województwo małopolskie, 32-065, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "awayTeam": {
+        "name": "Korona Lgota"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "2e3b3376fbe834b655db9a7955394e05",
+      "stadium": {
+        "address": "Chrzanowska 1, 32-566 Regulice",
+        "venue": "Boisko SPRiN Regulice",
+        "geo": {
+          "latitude": 50.0755144,
+          "longitude": 19.5325657,
+          "name": "Chrzanowska 1, Regulice, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "awayTeam": {
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "9a83f5913a05e540414f0d9b170b92ba",
+      "stadium": {
+        "address": "Zygmunta Zięby 1, 32-566 Alwernia",
+        "venue": "Stadion Miejski w Alwerni",
+        "geo": {
+          "latitude": 50.0576625,
+          "longitude": 19.5458106,
+          "name": "Zygmunta Zięby 1, Alwernia, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "awayTeam": {
+        "name": "Zryw Brodła"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "8fc7c16fdd0e0b7999e3c8d1a55924c5",
+      "stadium": {
+        "address": "Sportowa, 32-552 Bolęcin",
+        "venue": "Boisko LKS Promyk Bolęcin",
+        "geo": {
+          "latitude": 50.1216412,
+          "longitude": 19.4897656,
+          "name": "LKS Promyk Bolęcin, Sportowa, Bolęcin, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MKS Libiąż"
+      },
+      "awayTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04"
+      },
+      "date": {
+        "startDate": "2026-10-03",
+        "endDate": "2026-10-04",
+        "time": "TBD"
+      },
+      "id": "c6ee375ea3d61abb1a58e78fd585b85b",
+      "stadium": {
+        "address": "Piłsudskiego 10, 32-590 Libiąż",
+        "venue": "Stadion Miejski w Libiążu",
+        "geo": {
+          "latitude": 50.1094105,
+          "longitude": 19.3307936,
+          "name": "KS Górnik Libiąż, Libiąż, powiat chrzanowski, województwo małopolskie, 32-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Brodła"
+      },
+      "awayTeam": {
+        "name": "MKS Libiąż"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "cf1abecfbdc643511691d0354b43cb6a",
+      "stadium": {
+        "address": "Świętego Floriana, 32-071 Brodła",
+        "venue": "Boisko LKS Zryw Brodła",
+        "geo": {
+          "latitude": 50.0411781,
+          "longitude": 19.5814959,
+          "name": "LKS Zryw Brodła, Brodła, powiat chrzanowski, województwo małopolskie, 32-071, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "awayTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "122b3d218695f9da4cfef07a53af7085",
+      "stadium": {
+        "address": "Sportowa, 32-454 Ostrężnica",
+        "venue": "Boisko LKS Jutrzenka",
+        "geo": {
+          "latitude": 50.196004,
+          "longitude": 19.5672264,
+          "name": "LKS Jutrzenka Ostrężnica, Sportowa, Ostrężnica, powiat chrzanowski, województwo małopolskie, 32-454, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Korona Lgota"
+      },
+      "awayTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "910b8e817fa848299c286ec4ec07b43f",
+      "stadium": {
+        "address": "Sportowa 4, 32-543 Lgota",
+        "venue": "Boisko Korona Lgota",
+        "geo": {
+          "latitude": 50.2022675,
+          "longitude": 19.5535028,
+          "name": "Sportowa 4, Lgota, gmina Trzebinia, powiat chrzanowski, województwo małopolskie, 32-543, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "awayTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "250736d486c8d2b3531ebe00b85c4ab0",
+      "stadium": {
+        "address": "Makowa, 43-607 Byczyna",
+        "venue": "Ośrodek LKS Zgoda Byczyna",
+        "geo": {
+          "latitude": 50.155348,
+          "longitude": 19.3138315,
+          "name": "LKS Zgoda Byczyna, Makowa, Byczyna, Jaworzno, województwo śląskie, 43-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "awayTeam": {
+        "name": "Victoria Zalas"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "a7389bf08f7e06b8cc076d3978c72bf8",
+      "stadium": {
+        "address": "Widokowa, 32-061 Sanka",
+        "venue": "Boisko PKS Sankowia",
+        "geo": {
+          "latitude": 50.0670564,
+          "longitude": 19.6448532,
+          "name": "PKS Sankowia, Widokowa, Sanka, powiat krakowski, województwo małopolskie, 32-061, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Tempo Płaza"
+      },
+      "awayTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "ec7a40a6c69e6fd0d5ebadc458d8d326",
+      "stadium": {
+        "address": "Korczaka, 32-552 Płaza",
+        "venue": "Boisko KS Tempo",
+        "geo": {
+          "latitude": 50.103808,
+          "longitude": 19.4612495,
+          "name": "KS Tempo, Korczaka, Płaza, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "awayTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11"
+      },
+      "date": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-11",
+        "time": "TBD"
+      },
+      "id": "0e67d5699b5dad62e5f8153b1bf76150",
+      "stadium": {
+        "address": "Topolowa, Wola Filipowska",
+        "venue": "Stadion LKS Wolanka",
+        "geo": {
+          "latitude": 50.1338659,
+          "longitude": 19.583602,
+          "name": "LKS Wolanka, Topolowa, Wola Filipowska, powiat krakowski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "awayTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "30fd57972af3219ddad46e8d702f3f79",
+      "stadium": {
+        "address": "Krakowska 8, 43-600 Jaworzno",
+        "venue": "Stadion Victoria w Jaworznie",
+        "geo": {
+          "latitude": 50.1879198,
+          "longitude": 19.2856064,
+          "name": "Stadion Victoria, 8, Krakowska, Bory, Śródmieście, Bory i Niedzieliska, Jaworzno, województwo śląskie, 43-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Victoria Zalas"
+      },
+      "awayTeam": {
+        "name": "Tempo Płaza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "373d4109c413f52373edfe7908276f2d",
+      "stadium": {
+        "address": "Sportowa, 32-065 Zalas",
+        "venue": "Boisko LKS Victoria Zalas",
+        "geo": {
+          "latitude": 50.0768905,
+          "longitude": 19.5895455,
+          "name": "LKS Victoria Zalas, Sportowa, Zalas, powiat krakowski, województwo małopolskie, 32-065, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "awayTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "3874779fa0e70e76cb719e11e03e5647",
+      "stadium": {
+        "address": "Chrzanowska 1, 32-566 Regulice",
+        "venue": "Boisko SPRiN Regulice",
+        "geo": {
+          "latitude": 50.0755144,
+          "longitude": 19.5325657,
+          "name": "Chrzanowska 1, Regulice, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "awayTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "794154b3602b24440c0edfcf727d41b1",
+      "stadium": {
+        "address": "Zygmunta Zięby 1, 32-566 Alwernia",
+        "venue": "Stadion Miejski w Alwerni",
+        "geo": {
+          "latitude": 50.0576625,
+          "longitude": 19.5458106,
+          "name": "Zygmunta Zięby 1, Alwernia, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "awayTeam": {
+        "name": "Korona Lgota"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "676090ac1fa813e9f9753a4895f68116",
+      "stadium": {
+        "address": "Sportowa, 32-552 Bolęcin",
+        "venue": "Boisko LKS Promyk Bolęcin",
+        "geo": {
+          "latitude": 50.1216412,
+          "longitude": 19.4897656,
+          "name": "LKS Promyk Bolęcin, Sportowa, Bolęcin, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MKS Libiąż"
+      },
+      "awayTeam": {
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "ebf91de02a8d64a3e15ae7f306e7afc5",
+      "stadium": {
+        "address": "Piłsudskiego 10, 32-590 Libiąż",
+        "venue": "Stadion Miejski w Libiążu",
+        "geo": {
+          "latitude": 50.1094105,
+          "longitude": 19.3307936,
+          "name": "KS Górnik Libiąż, Libiąż, powiat chrzanowski, województwo małopolskie, 32-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "awayTeam": {
+        "name": "Zryw Brodła"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18"
+      },
+      "date": {
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-18",
+        "time": "TBD"
+      },
+      "id": "1a74eb183846287a7cdd65c76414880c",
+      "stadium": {
+        "address": "Nowa Kolonia, 32-566 Okleśna",
+        "venue": "Boisko KS Nadwiślanka",
+        "geo": {
+          "latitude": 50.0279827,
+          "longitude": 19.533746,
+          "name": "KS Nadwiślanka, Nowa Kolonia, Okleśna, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "awayTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "37696ad73dec8e2b6afb226522157f4a",
+      "stadium": {
+        "address": "Sportowa, 32-454 Ostrężnica",
+        "venue": "Boisko LKS Jutrzenka",
+        "geo": {
+          "latitude": 50.196004,
+          "longitude": 19.5672264,
+          "name": "LKS Jutrzenka Ostrężnica, Sportowa, Ostrężnica, powiat chrzanowski, województwo małopolskie, 32-454, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Korona Lgota"
+      },
+      "awayTeam": {
+        "name": "MKS Libiąż"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "c0d59ddea4a8a25fe317b312bb9d45f1",
+      "stadium": {
+        "address": "Sportowa 4, 32-543 Lgota",
+        "venue": "Boisko Korona Lgota",
+        "geo": {
+          "latitude": 50.2022675,
+          "longitude": 19.5535028,
+          "name": "Sportowa 4, Lgota, gmina Trzebinia, powiat chrzanowski, województwo małopolskie, 32-543, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "awayTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "f084ad390cfed7cf4d5e2dcdd2419910",
+      "stadium": {
+        "address": "Makowa, 43-607 Byczyna",
+        "venue": "Ośrodek LKS Zgoda Byczyna",
+        "geo": {
+          "latitude": 50.155348,
+          "longitude": 19.3138315,
+          "name": "LKS Zgoda Byczyna, Makowa, Byczyna, Jaworzno, województwo śląskie, 43-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "awayTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "7784937e2767d4f75554e11b62c8e87d",
+      "stadium": {
+        "address": "Widokowa, 32-061 Sanka",
+        "venue": "Boisko PKS Sankowia",
+        "geo": {
+          "latitude": 50.0670564,
+          "longitude": 19.6448532,
+          "name": "PKS Sankowia, Widokowa, Sanka, powiat krakowski, województwo małopolskie, 32-061, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Tempo Płaza"
+      },
+      "awayTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "bbbd524383de93f8e731b50528f8b08e",
+      "stadium": {
+        "address": "Korczaka, 32-552 Płaza",
+        "venue": "Boisko KS Tempo",
+        "geo": {
+          "latitude": 50.103808,
+          "longitude": 19.4612495,
+          "name": "KS Tempo, Korczaka, Płaza, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "awayTeam": {
+        "name": "Victoria Zalas"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "690be8721a50e4e40f2d4fee055960e8",
+      "stadium": {
+        "address": "Topolowa, Wola Filipowska",
+        "venue": "Stadion LKS Wolanka",
+        "geo": {
+          "latitude": 50.1338659,
+          "longitude": 19.583602,
+          "name": "LKS Wolanka, Topolowa, Wola Filipowska, powiat krakowski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "awayTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25"
+      },
+      "date": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-25",
+        "time": "TBD"
+      },
+      "id": "fb2d11488005991f2e30a8ae1ab37e52",
+      "stadium": {
+        "address": "Szpitalna 78a, 32-500 Chrzanów",
+        "venue": "Boisko MKS Fablok",
+        "geo": {
+          "latitude": 50.1300905,
+          "longitude": 19.4267443,
+          "name": "Szpitalna 78a, Chrzanów, powiat chrzanowski, województwo małopolskie, 32-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Victoria Zalas"
+      },
+      "awayTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "a08d9cd149be1b3520a1bc2633e030d3",
+      "stadium": {
+        "address": "Sportowa, 32-065 Zalas",
+        "venue": "Boisko LKS Victoria Zalas",
+        "geo": {
+          "latitude": 50.0768905,
+          "longitude": 19.5895455,
+          "name": "LKS Victoria Zalas, Sportowa, Zalas, powiat krakowski, województwo małopolskie, 32-065, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "awayTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "80bf3ecff9f0a10303ff2839dd2f66dd",
+      "stadium": {
+        "address": "Chrzanowska 1, 32-566 Regulice",
+        "venue": "Boisko SPRiN Regulice",
+        "geo": {
+          "latitude": 50.0755144,
+          "longitude": 19.5325657,
+          "name": "Chrzanowska 1, Regulice, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "awayTeam": {
+        "name": "Tempo Płaza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "13038ed57afaf8a3cbb9fcf1f3356daa",
+      "stadium": {
+        "address": "Zygmunta Zięby 1, 32-566 Alwernia",
+        "venue": "Stadion Miejski w Alwerni",
+        "geo": {
+          "latitude": 50.0576625,
+          "longitude": 19.5458106,
+          "name": "Zygmunta Zięby 1, Alwernia, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "awayTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "21c814a741d85701b89e56e01e6f8353",
+      "stadium": {
+        "address": "Sportowa, 32-552 Bolęcin",
+        "venue": "Boisko LKS Promyk Bolęcin",
+        "geo": {
+          "latitude": 50.1216412,
+          "longitude": 19.4897656,
+          "name": "LKS Promyk Bolęcin, Sportowa, Bolęcin, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MKS Libiąż"
+      },
+      "awayTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "45fd3468b6b5747f94c01b406230dba0",
+      "stadium": {
+        "address": "Piłsudskiego 10, 32-590 Libiąż",
+        "venue": "Stadion Miejski w Libiążu",
+        "geo": {
+          "latitude": 50.1094105,
+          "longitude": 19.3307936,
+          "name": "KS Górnik Libiąż, Libiąż, powiat chrzanowski, województwo małopolskie, 32-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "awayTeam": {
+        "name": "Korona Lgota"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "c444ed4c2d8970ca0c6302e08b21a9fd",
+      "stadium": {
+        "address": "Nowa Kolonia, 32-566 Okleśna",
+        "venue": "Boisko KS Nadwiślanka",
+        "geo": {
+          "latitude": 50.0279827,
+          "longitude": 19.533746,
+          "name": "KS Nadwiślanka, Nowa Kolonia, Okleśna, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Brodła"
+      },
+      "awayTeam": {
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08"
+      },
+      "date": {
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-08",
+        "time": "TBD"
+      },
+      "id": "9a2ec7b20ba978b00ea4c9cbc8ce143d",
+      "stadium": {
+        "address": "Świętego Floriana, 32-071 Brodła",
+        "venue": "Boisko LKS Zryw Brodła",
+        "geo": {
+          "latitude": 50.0411781,
+          "longitude": 19.5814959,
+          "name": "LKS Zryw Brodła, Brodła, powiat chrzanowski, województwo małopolskie, 32-071, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Korona Lgota"
+      },
+      "awayTeam": {
+        "name": "Zryw Brodła"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "d98c1697e8fc19aaca8469a9680d7d46",
+      "stadium": {
+        "address": "Sportowa 4, 32-543 Lgota",
+        "venue": "Boisko Korona Lgota",
+        "geo": {
+          "latitude": 50.2022675,
+          "longitude": 19.5535028,
+          "name": "Sportowa 4, Lgota, gmina Trzebinia, powiat chrzanowski, województwo małopolskie, 32-543, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "awayTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "0d91203f9b90a293fab3978ea82653aa",
+      "stadium": {
+        "address": "Makowa, 43-607 Byczyna",
+        "venue": "Ośrodek LKS Zgoda Byczyna",
+        "geo": {
+          "latitude": 50.155348,
+          "longitude": 19.3138315,
+          "name": "LKS Zgoda Byczyna, Makowa, Byczyna, Jaworzno, województwo śląskie, 43-607, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "awayTeam": {
+        "name": "MKS Libiąż"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "d4c12cf4d8f21a836eda571476e49d2c",
+      "stadium": {
+        "address": "Widokowa, 32-061 Sanka",
+        "venue": "Boisko PKS Sankowia",
+        "geo": {
+          "latitude": 50.0670564,
+          "longitude": 19.6448532,
+          "name": "PKS Sankowia, Widokowa, Sanka, powiat krakowski, województwo małopolskie, 32-061, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Tempo Płaza"
+      },
+      "awayTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "624ee74402ada3f8d8efe7c7a044346c",
+      "stadium": {
+        "address": "Korczaka, 32-552 Płaza",
+        "venue": "Boisko KS Tempo",
+        "geo": {
+          "latitude": 50.103808,
+          "longitude": 19.4612495,
+          "name": "KS Tempo, Korczaka, Płaza, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "awayTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "02497d36c44af30f3791a3bc5760ab64",
+      "stadium": {
+        "address": "Topolowa, Wola Filipowska",
+        "venue": "Stadion LKS Wolanka",
+        "geo": {
+          "latitude": 50.1338659,
+          "longitude": 19.583602,
+          "name": "LKS Wolanka, Topolowa, Wola Filipowska, powiat krakowski, województwo małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "awayTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "621d73067642cd636e05d97eecf6b412",
+      "stadium": {
+        "address": "Szpitalna 78a, 32-500 Chrzanów",
+        "venue": "Boisko MKS Fablok",
+        "geo": {
+          "latitude": 50.1300905,
+          "longitude": 19.4267443,
+          "name": "Szpitalna 78a, Chrzanów, powiat chrzanowski, województwo małopolskie, 32-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "awayTeam": {
+        "name": "Victoria Zalas"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2027-11-11",
+        "time": "TBD"
+      },
+      "id": "e2e175f534e7ea49aeb6106d5a1a115c",
+      "stadium": {
+        "address": "Krakowska 8, 43-600 Jaworzno",
+        "venue": "Stadion Victoria w Jaworznie",
+        "geo": {
+          "latitude": 50.1879198,
+          "longitude": 19.2856064,
+          "name": "Stadion Victoria, 8, Krakowska, Bory, Śródmieście, Bory i Niedzieliska, Jaworzno, województwo śląskie, 43-600, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "UKS Regulice (k. Chrzanowa)"
+      },
+      "awayTeam": {
+        "name": "Victoria 1918 II Jaworzno"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "9f1ef0c4fb5126b0e13bbce29139b448",
+      "stadium": {
+        "address": "Chrzanowska 1, 32-566 Regulice",
+        "venue": "Boisko SPRiN Regulice",
+        "geo": {
+          "latitude": 50.0755144,
+          "longitude": 19.5325657,
+          "name": "Chrzanowska 1, Regulice, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MZKS II Alwernia"
+      },
+      "awayTeam": {
+        "name": "Fablok II Chrzanów"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "27dfed2bbd90a9b252b78e54a1a01d87",
+      "stadium": {
+        "address": "Zygmunta Zięby 1, 32-566 Alwernia",
+        "venue": "Stadion Miejski w Alwerni",
+        "geo": {
+          "latitude": 50.0576625,
+          "longitude": 19.5458106,
+          "name": "Zygmunta Zięby 1, Alwernia, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Promyk Bolęcin"
+      },
+      "awayTeam": {
+        "name": "Wolanka Wola Filipowska"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "95af20d6751f25c759291bd3d5a830e9",
+      "stadium": {
+        "address": "Sportowa, 32-552 Bolęcin",
+        "venue": "Boisko LKS Promyk Bolęcin",
+        "geo": {
+          "latitude": 50.1216412,
+          "longitude": 19.4897656,
+          "name": "LKS Promyk Bolęcin, Sportowa, Bolęcin, powiat chrzanowski, województwo małopolskie, 32-552, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "MKS Libiąż"
+      },
+      "awayTeam": {
+        "name": "Tempo Płaza"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "e026b177fad5de3c71d16fb706d3b554",
+      "stadium": {
+        "address": "Piłsudskiego 10, 32-590 Libiąż",
+        "venue": "Stadion Miejski w Libiążu",
+        "geo": {
+          "latitude": 50.1094105,
+          "longitude": 19.3307936,
+          "name": "KS Górnik Libiąż, Libiąż, powiat chrzanowski, województwo małopolskie, 32-590, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Nadwiślanka II Okleśna"
+      },
+      "awayTeam": {
+        "name": "Sankowia Sanka"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "2ea75bbe22e51abf98b40263b645a70e",
+      "stadium": {
+        "address": "Nowa Kolonia, 32-566 Okleśna",
+        "venue": "Boisko KS Nadwiślanka",
+        "geo": {
+          "latitude": 50.0279827,
+          "longitude": 19.533746,
+          "name": "KS Nadwiślanka, Nowa Kolonia, Okleśna, powiat chrzanowski, województwo małopolskie, 32-566, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Zryw Brodła"
+      },
+      "awayTeam": {
+        "name": "Zgoda Byczyna (Jaworzno)"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "d82b2823ba5094e52bb30d997e3027d9",
+      "stadium": {
+        "address": "Świętego Floriana, 32-071 Brodła",
+        "venue": "Boisko LKS Zryw Brodła",
+        "geo": {
+          "latitude": 50.0411781,
+          "longitude": 19.5814959,
+          "name": "LKS Zryw Brodła, Brodła, powiat chrzanowski, województwo małopolskie, 32-071, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Chrzanow)"
+      },
+      "homeTeam": {
+        "name": "Jutrzenka Ostrężnica"
+      },
+      "awayTeam": {
+        "name": "Korona Lgota"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15"
+      },
+      "date": {
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-15",
+        "time": "TBD"
+      },
+      "id": "af454b9ba8d68635d9121a57a87c9b72",
+      "stadium": {
+        "address": "Sportowa, 32-454 Ostrężnica",
+        "venue": "Boisko LKS Jutrzenka",
+        "geo": {
+          "latitude": 50.196004,
+          "longitude": 19.5672264,
+          "name": "LKS Jutrzenka Ostrężnica, Sportowa, Ostrężnica, powiat chrzanowski, województwo małopolskie, 32-454, Polska"
+        }
+      }
     }
   ]
 }
