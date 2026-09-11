@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-11T19:00:00.000Z"
+        "dateTime": "2026-09-11T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-11",
-        "dateTime": "2026-09-11T19:00:00.000Z"
+        "dateTime": "2026-09-11T17:00:00.000Z"
       },
       "id": "fdb328620db4682e70f9efd955ccdb9c",
       "stadium": null
@@ -39,11 +39,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "id": "57307f040345cdcf3621bccb367c682b",
       "stadium": null
@@ -62,11 +62,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "2bcda48c4d10c3b1ccea72d013cbe4d8",
       "stadium": null
@@ -85,11 +85,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "ee0e9723fac4c7714db5225a78e6f2b1",
       "stadium": null
@@ -503,106 +503,6 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Piast Lubojna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "65eaf33be782c83b75cec3341e44aa96",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Czestochowa I)"
-      },
-      "homeTeam": {
-        "name": "Grom Miedźno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Stradom II Częstochowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "2cf494b439a9b5635920a2e09422c0f8",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Czestochowa I)"
-      },
-      "homeTeam": {
-        "name": "Sparta Nowa Wieś",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Unia II Rędziny",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "9cf93b5fd1ea602cc271fbebc8528606",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Czestochowa I)"
-      },
-      "homeTeam": {
-        "name": "Huragan Jezioro",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lotnik II Kościelec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "38bd566a62f7df1c2a0c90a501b8a95e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Czestochowa I)"
-      },
-      "homeTeam": {
-        "name": "Maraton Waleńczów",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Grom Miedźno",
         "crest": null
       },
@@ -792,6 +692,98 @@
         "time": "TBD"
       },
       "id": "274041bfbb9243fb6834528332196ac0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Maraton Waleńczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Lubojna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "65eaf33be782c83b75cec3341e44aa96",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Grom Miedźno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stradom II Częstochowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2cf494b439a9b5635920a2e09422c0f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Sparta Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Unia II Rędziny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "9cf93b5fd1ea602cc271fbebc8528606",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Czestochowa I)"
+      },
+      "homeTeam": {
+        "name": "Huragan Jezioro",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotnik II Kościelec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "38bd566a62f7df1c2a0c90a501b8a95e",
       "stadium": null
     },
     {

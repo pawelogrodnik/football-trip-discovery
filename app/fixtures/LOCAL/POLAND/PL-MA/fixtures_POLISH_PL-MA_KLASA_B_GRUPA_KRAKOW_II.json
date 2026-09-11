@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "id": "c1295914a6c9bdb3e17305ccf3d75aeb",
       "stadium": {
@@ -47,11 +47,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "caefdd76ad78f9ebfeed83aa19d64dd0",
       "stadium": {
@@ -78,11 +78,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "id": "f0b7c1764a0cbf21da6263e3a4f5a808",
       "stadium": {
@@ -109,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "740ad7cdb0174ad1408a503e6f67831c",
       "stadium": {
@@ -140,11 +140,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T12:30:00.000Z"
+        "dateTime": "2026-09-13T10:30:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:30:00.000Z"
+        "dateTime": "2026-09-13T10:30:00.000Z"
       },
       "id": "93214ecd73be7bd649c932bf17dec42b",
       "stadium": {
@@ -806,163 +806,6 @@
         "name": "Klasa B (Krakow II)"
       },
       "homeTeam": {
-        "name": "Bronowicki KS Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tonianka Tonie (Kraków)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "316eb57ab6c1692fdfa8b2ab5eeabc71",
-      "stadium": {
-        "address": "Jasnogórska, Kraków (Tonie)",
-        "venue": "KS Bronowicki Kraków",
-        "geo": {
-          "latitude": 50.1065962,
-          "longitude": 19.8839241,
-          "name": "KS Bronowicki Kraków, Jasnogórska, Tonie, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Iskra Czułów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Górzanka Nawojowa Góra",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "76a90649b7746ef71c6e88522400d029",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Płomień Cholerzyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast II Wołowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "7dea7ac89a2e0bf8dd51a173884b39c8",
-      "stadium": {
-        "address": "Cholerzyn 35, 32-060 Cholerzyn",
-        "venue": "Boisko Płomień Cholerzyn",
-        "geo": {
-          "latitude": 50.0606766,
-          "longitude": 19.7687663,
-          "name": "Cholerzyn 35, Cholerzyn, powiat krakowski, województwo małopolskie, 32-060, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Niegoszowianka Niegoszowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Dragon Szczyglice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "5867e260928caaa374bf54ce5e5c954a",
-      "stadium": {
-        "address": "Spacerowa 3, 32-064 Niegoszowice",
-        "venue": "Boisko LKS Niegoszowianka",
-        "geo": {
-          "latitude": 50.1197275,
-          "longitude": 19.7349106,
-          "name": "LKS Niegoszowianka, Spacerowa 3, Niegoszowice, powiat krakowski, województwo małopolskie, 32-064, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Wisła Jeziorzany",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Topór Aleksandrowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "32a07cdcdcdb46da94c98d10e0f42b2c",
-      "stadium": {
-        "address": "Jeziorzany 147, 32-060 Jeziorzany",
-        "venue": "Boisko LKS Wisła Jeziorzany",
-        "geo": {
-          "latitude": 49.9863881,
-          "longitude": 19.7800941,
-          "name": "KS Wisła Jeziorzany, Jeziorzany, powiat krakowski, województwo małopolskie, 32-060, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
         "name": "Maszycanka Maszyce",
         "crest": null
       },
@@ -1277,6 +1120,153 @@
           "latitude": 50.1022466,
           "longitude": 19.9003654,
           "name": "LKS Tonianka, Skotnica, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Bronowicki KS Kraków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tonianka Tonie (Kraków)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "316eb57ab6c1692fdfa8b2ab5eeabc71",
+      "stadium": {
+        "address": "Jasnogórska, Kraków (Tonie)",
+        "venue": "KS Bronowicki Kraków",
+        "geo": {
+          "latitude": 50.1065962,
+          "longitude": 19.8839241,
+          "name": "KS Bronowicki Kraków, Jasnogórska, Tonie, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Czułów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górzanka Nawojowa Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "76a90649b7746ef71c6e88522400d029",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Płomień Cholerzyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast II Wołowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7dea7ac89a2e0bf8dd51a173884b39c8",
+      "stadium": {
+        "address": "Cholerzyn 35, 32-060 Cholerzyn",
+        "venue": "Boisko Płomień Cholerzyn",
+        "geo": {
+          "latitude": 50.0606766,
+          "longitude": 19.7687663,
+          "name": "Cholerzyn 35, Cholerzyn, powiat krakowski, województwo małopolskie, 32-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Niegoszowianka Niegoszowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dragon Szczyglice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5867e260928caaa374bf54ce5e5c954a",
+      "stadium": {
+        "address": "Spacerowa 3, 32-064 Niegoszowice",
+        "venue": "Boisko LKS Niegoszowianka",
+        "geo": {
+          "latitude": 50.1197275,
+          "longitude": 19.7349106,
+          "name": "LKS Niegoszowianka, Spacerowa 3, Niegoszowice, powiat krakowski, województwo małopolskie, 32-064, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Wisła Jeziorzany",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Topór Aleksandrowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "32a07cdcdcdb46da94c98d10e0f42b2c",
+      "stadium": {
+        "address": "Jeziorzany 147, 32-060 Jeziorzany",
+        "venue": "Boisko LKS Wisła Jeziorzany",
+        "geo": {
+          "latitude": 49.9863881,
+          "longitude": 19.7800941,
+          "name": "KS Wisła Jeziorzany, Jeziorzany, powiat krakowski, województwo małopolskie, 32-060, Polska"
         }
       }
     },

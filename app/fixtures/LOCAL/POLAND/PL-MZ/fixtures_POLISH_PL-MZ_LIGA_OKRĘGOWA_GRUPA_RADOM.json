@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "id": "29f6cfb3067ca5ef9746532ca48c6dce",
       "stadium": {
@@ -47,14 +47,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "id": "0be03c1729da765dbfe4a50eb25198b2",
-      "stadium": null
+      "stadium": {
+        "address": "Przytyk",
+        "venue": "Stadion Miejski w Przytyku",
+        "geo": {
+          "latitude": 51.4657421,
+          "longitude": 20.9036951,
+          "name": "Stadion Miejski w Przytyku, Przytyk, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -70,11 +78,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T11:05:00.000Z"
+        "dateTime": "2026-09-12T09:05:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:05:00.000Z"
+        "dateTime": "2026-09-12T09:05:00.000Z"
       },
       "id": "c8782158d4514e40069b2ddd4c405881",
       "stadium": {
@@ -101,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T14:30:00.000Z"
+        "dateTime": "2026-09-12T12:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:30:00.000Z"
+        "dateTime": "2026-09-12T12:30:00.000Z"
       },
       "id": "657b5799eb3ae7f6f9d23c8caa913635",
       "stadium": null
@@ -124,11 +132,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "9035768cecaf7adf86ca7fc86b249aaa",
       "stadium": {
@@ -155,11 +163,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "2fef3e3465e28d8fab95e2e9da20dd30",
       "stadium": {
@@ -186,11 +194,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "id": "42e8256992c31b961a2612e4e1ec6dde",
       "stadium": {
@@ -217,11 +225,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "7f00ec157a834add0360105c35262245",
       "stadium": {
@@ -257,7 +265,15 @@
         "time": "TBD"
       },
       "id": "be67d8f7bf2ccb0084f439232111ad1b",
-      "stadium": null
+      "stadium": {
+        "address": "Warszawska, Kozienice",
+        "venue": "Stadion Miejski w Kozienicach",
+        "geo": {
+          "latitude": 51.5893212,
+          "longitude": 21.5411332,
+          "name": "Stadion Miejski, Kozienice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -315,7 +331,15 @@
         "time": "TBD"
       },
       "id": "8174e6470fe7d70068a1a76aaaab62fa",
-      "stadium": null
+      "stadium": {
+        "address": "Kazanów",
+        "venue": "Boisko Iłżanka Kazanów",
+        "geo": {
+          "latitude": 51.2750264,
+          "longitude": 21.4620171,
+          "name": "Boisko Iłżanka, Kazanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -621,7 +645,15 @@
         "time": "TBD"
       },
       "id": "3790317321c53bf6c7792deb163263ca",
-      "stadium": null
+      "stadium": {
+        "address": "Przytyk",
+        "venue": "Stadion Miejski w Przytyku",
+        "geo": {
+          "latitude": 51.4657421,
+          "longitude": 20.9036951,
+          "name": "Stadion Miejski w Przytyku, Przytyk, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -704,7 +736,15 @@
         "time": "TBD"
       },
       "id": "25b90a101ba253871d4bc0fe7e617a45",
-      "stadium": null
+      "stadium": {
+        "address": "Warszawska, Kozienice",
+        "venue": "Stadion Miejski w Kozienicach",
+        "geo": {
+          "latitude": 51.5893212,
+          "longitude": 21.5411332,
+          "name": "Stadion Miejski, Kozienice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -762,7 +802,15 @@
         "time": "TBD"
       },
       "id": "c1a906966b18b310b03502879459bec7",
-      "stadium": null
+      "stadium": {
+        "address": "Kazanów",
+        "venue": "Boisko Iłżanka Kazanów",
+        "geo": {
+          "latitude": 51.2750264,
+          "longitude": 21.4620171,
+          "name": "Boisko Iłżanka, Kazanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1068,7 +1116,15 @@
         "time": "TBD"
       },
       "id": "78c8c02fe479a8b18c7f2e4784c4fb85",
-      "stadium": null
+      "stadium": {
+        "address": "Przytyk",
+        "venue": "Stadion Miejski w Przytyku",
+        "geo": {
+          "latitude": 51.4657421,
+          "longitude": 20.9036951,
+          "name": "Stadion Miejski w Przytyku, Przytyk, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1151,7 +1207,15 @@
         "time": "TBD"
       },
       "id": "21c0a54679147622d01c1d32ccd2b85c",
-      "stadium": null
+      "stadium": {
+        "address": "Warszawska, Kozienice",
+        "venue": "Stadion Miejski w Kozienicach",
+        "geo": {
+          "latitude": 51.5893212,
+          "longitude": 21.5411332,
+          "name": "Stadion Miejski, Kozienice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1191,254 +1255,6 @@
         "name": "Liga okręgowa (Radom)"
       },
       "homeTeam": {
-        "name": "LKS Promna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Polonia Iłża",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "7b11e4316600d24cbc05d1dddbe5a014",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "KS Stromiec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iłżanka Kazanów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "ee7e83d5ea86e48958053721208fc12c",
-      "stadium": {
-        "address": "Stromiec 68, 26-804 Stromiec",
-        "venue": "Boisko Gminne w Stromcu",
-        "geo": {
-          "latitude": 51.6382251,
-          "longitude": 21.0846167,
-          "name": "Boisko Gminne w Stromcu, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "KS Warka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Królewscy Jedlnia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "23746a0204fbc3d2c4b18aeda4d95cb4",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "Centrum Radom",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Energia II Kozienice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "64ecb88f3975f7c9150b834d005886cf",
-      "stadium": {
-        "address": "Wiejska 146, 26-600 Radom",
-        "venue": "Boisko RSS Centrum Radom",
-        "geo": {
-          "latitude": 51.3587128,
-          "longitude": 21.150108,
-          "name": "Boisko RSS Centrum Radom, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "Gracja Tczów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zodiak Sucha",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "6b925e64c06ed0136773bf802904438e",
-      "stadium": {
-        "address": "Tczów, powiat zwoleński",
-        "venue": "Stadion Gracja Tczów",
-        "geo": {
-          "latitude": 51.3301616,
-          "longitude": 21.4475416,
-          "name": "Stadion Gracja Tczów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "Mazowsze Grójec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Młodzik 18 Radom",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "3bdf73542ff7f0822a9bb70712f2914d",
-      "stadium": {
-        "address": "Laskowa 17, 05-600 Grójec",
-        "venue": "Stadion GOS Mazowsze",
-        "geo": {
-          "latitude": 51.867026,
-          "longitude": 20.8747058,
-          "name": "Stadion GOS Mazowsze, Grójec, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "Oronka Orońsko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Przytyk",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "4ad13787a310b6022b4c0d636b1105ef",
-      "stadium": {
-        "address": "Brandta 36, 26-505 Orońsko",
-        "venue": "Stadion GKS Oronka",
-        "geo": {
-          "latitude": 51.3150404,
-          "longitude": 20.9819904,
-          "name": "Stadion GKS Oronka, Orońsko, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Wierzbica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Szydłowianka Szydłowiec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "e9067aacaf9efaf542650336c9498f96",
-      "stadium": {
-        "address": "Kościuszki 37, 26-680 Wierzbica",
-        "venue": "Stadion GKS Orzeł Wierzbica",
-        "geo": {
-          "latitude": 51.2493182,
-          "longitude": 21.0727319,
-          "name": "Stadion GKS Orzeł Wierzbica, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
         "name": "Iłżanka Kazanów",
         "crest": null
       },
@@ -1457,7 +1273,15 @@
         "time": "TBD"
       },
       "id": "1f859c41e50ce553c4583c2a8395905a",
-      "stadium": null
+      "stadium": {
+        "address": "Kazanów",
+        "venue": "Boisko Iłżanka Kazanów",
+        "geo": {
+          "latitude": 51.2750264,
+          "longitude": 21.4620171,
+          "name": "Boisko Iłżanka, Kazanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1763,7 +1587,15 @@
         "time": "TBD"
       },
       "id": "278cb8ac66214be89ea6eead8ec87620",
-      "stadium": null
+      "stadium": {
+        "address": "Przytyk",
+        "venue": "Stadion Miejski w Przytyku",
+        "geo": {
+          "latitude": 51.4657421,
+          "longitude": 20.9036951,
+          "name": "Stadion Miejski w Przytyku, Przytyk, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1846,7 +1678,15 @@
         "time": "TBD"
       },
       "id": "ace9c60f3d47fe8bab9871c32be08c6e",
-      "stadium": null
+      "stadium": {
+        "address": "Warszawska, Kozienice",
+        "venue": "Stadion Miejski w Kozienicach",
+        "geo": {
+          "latitude": 51.5893212,
+          "longitude": 21.5411332,
+          "name": "Stadion Miejski, Kozienice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1904,7 +1744,247 @@
         "time": "TBD"
       },
       "id": "db79ddee226cdc2f82b7ebd3bd2971df",
+      "stadium": {
+        "address": "Kazanów",
+        "venue": "Boisko Iłżanka Kazanów",
+        "geo": {
+          "latitude": 51.2750264,
+          "longitude": 21.4620171,
+          "name": "Boisko Iłżanka, Kazanów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "LKS Promna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Iłża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7b11e4316600d24cbc05d1dddbe5a014",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iłżanka Kazanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ee7e83d5ea86e48958053721208fc12c",
+      "stadium": {
+        "address": "Stromiec 68, 26-804 Stromiec",
+        "venue": "Boisko Gminne w Stromcu",
+        "geo": {
+          "latitude": 51.6382251,
+          "longitude": 21.0846167,
+          "name": "Boisko Gminne w Stromcu, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Warka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Królewscy Jedlnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "23746a0204fbc3d2c4b18aeda4d95cb4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Centrum Radom",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Energia II Kozienice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "64ecb88f3975f7c9150b834d005886cf",
+      "stadium": {
+        "address": "Wiejska 146, 26-600 Radom",
+        "venue": "Boisko RSS Centrum Radom",
+        "geo": {
+          "latitude": 51.3587128,
+          "longitude": 21.150108,
+          "name": "Boisko RSS Centrum Radom, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Gracja Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zodiak Sucha",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6b925e64c06ed0136773bf802904438e",
+      "stadium": {
+        "address": "Tczów, powiat zwoleński",
+        "venue": "Stadion Gracja Tczów",
+        "geo": {
+          "latitude": 51.3301616,
+          "longitude": 21.4475416,
+          "name": "Stadion Gracja Tczów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Mazowsze Grójec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młodzik 18 Radom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3bdf73542ff7f0822a9bb70712f2914d",
+      "stadium": {
+        "address": "Laskowa 17, 05-600 Grójec",
+        "venue": "Stadion GOS Mazowsze",
+        "geo": {
+          "latitude": 51.867026,
+          "longitude": 20.8747058,
+          "name": "Stadion GOS Mazowsze, Grójec, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Oronka Orońsko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Przytyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4ad13787a310b6022b4c0d636b1105ef",
+      "stadium": {
+        "address": "Brandta 36, 26-505 Orońsko",
+        "venue": "Stadion GKS Oronka",
+        "geo": {
+          "latitude": 51.3150404,
+          "longitude": 20.9819904,
+          "name": "Stadion GKS Oronka, Orońsko, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szydłowianka Szydłowiec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e9067aacaf9efaf542650336c9498f96",
+      "stadium": {
+        "address": "Kościuszki 37, 26-680 Wierzbica",
+        "venue": "Stadion GKS Orzeł Wierzbica",
+        "geo": {
+          "latitude": 51.2493182,
+          "longitude": 21.0727319,
+          "name": "Stadion GKS Orzeł Wierzbica, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1962,7 +2042,15 @@
         "time": "TBD"
       },
       "id": "e884eb11eb62ec9c74fd0a4f651b91a2",
-      "stadium": null
+      "stadium": {
+        "address": "Przytyk",
+        "venue": "Stadion Miejski w Przytyku",
+        "geo": {
+          "latitude": 51.4657421,
+          "longitude": 20.9036951,
+          "name": "Stadion Miejski w Przytyku, Przytyk, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2045,7 +2133,15 @@
         "time": "TBD"
       },
       "id": "cc87b05bbbf6770196347b8c365720f4",
-      "stadium": null
+      "stadium": {
+        "address": "Warszawska, Kozienice",
+        "venue": "Stadion Miejski w Kozienicach",
+        "geo": {
+          "latitude": 51.5893212,
+          "longitude": 21.5411332,
+          "name": "Stadion Miejski, Kozienice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -2103,7 +2199,15 @@
         "time": "TBD"
       },
       "id": "9787606cad8e947ea4aa65e86bbd2b44",
-      "stadium": null
+      "stadium": {
+        "address": "Kazanów",
+        "venue": "Boisko Iłżanka Kazanów",
+        "geo": {
+          "latitude": 51.2750264,
+          "longitude": 21.4620171,
+          "name": "Boisko Iłżanka, Kazanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {

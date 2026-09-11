@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "id": "e398bbe19d0d726cf443db4e7d94462e",
       "stadium": null
@@ -39,11 +39,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T15:30:00.000Z"
+        "dateTime": "2026-09-12T13:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:30:00.000Z"
+        "dateTime": "2026-09-12T13:30:00.000Z"
       },
       "id": "63ebc61f72bc6ca7ab3a9e63cec231e3",
       "stadium": {
@@ -70,11 +70,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "1521f8163713a0cb5b93e5d436dabbed",
       "stadium": null
@@ -93,11 +93,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "id": "00b58b18d76a1de5c271f93d132595b0",
       "stadium": null
@@ -116,11 +116,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "id": "6ef74e21638f48e7408747c578dd1a3d",
       "stadium": null
@@ -139,11 +139,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "id": "9b69ca1a09e9020c0e3a9cd1d546ecc7",
       "stadium": null
@@ -162,11 +162,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "id": "4b6ab75822e084cd0a42e062942a648e",
       "stadium": null
@@ -924,189 +924,6 @@
         "name": "IV Liga Opolskie"
       },
       "homeTeam": {
-        "name": "LZS Starowice Dolne",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Odra II Opole",
-        "crest": "https://crests.football-data.org/5657.png"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "5c9f15997f12e126aae2a45cd653d0ec",
-      "stadium": {
-        "venue": "Boisko Sportowe LZS Starowice Dolne",
-        "address": "Starowice Dolne 85, Grodków",
-        "geo": {
-          "latitude": 50.6441827,
-          "longitude": 17.3294718,
-          "name": "Starowice Dolne, gmina Grodków, powiat brzeski, województwo opolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
-        "name": "LKS Kadłub (k. Strzelec Opolskich)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ruch Zdzieszowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "23eae7787cc39edf328fef8cc701d97e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
-        "name": "Fortuna Głogówek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Start Namysłów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "7683000286049895168c02f7369a669c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
-        "name": "Porawie Większyce",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Stal Zawadzkie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "60bb9d30a0e5f5f8f1b8d7f10a8f2f10",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
-        "name": "LZS Domaszkowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "MKS Gogolin",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "f671a81c46734eee5f013619b2801519",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
-        "name": "LZS Starościn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Śląsk Łubniany",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "f96d20a5982e2640e3ac3777e60da308",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
-        "name": "Victoria Żyrowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Małapanew Ozimek",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "8c4625c64bf4db218ad74186e7915bc0",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
         "name": "Ruch Zdzieszowice",
         "crest": null
       },
@@ -1489,6 +1306,175 @@
         "name": "IV Liga Opolskie"
       },
       "homeTeam": {
+        "name": "LZS Starowice Dolne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Odra II Opole",
+        "crest": "https://crests.football-data.org/5657.png"
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5c9f15997f12e126aae2a45cd653d0ec",
+      "stadium": {
+        "venue": "Boisko Sportowe LZS Starowice Dolne",
+        "address": "Starowice Dolne 85, Grodków",
+        "geo": {
+          "latitude": 50.6441827,
+          "longitude": 17.3294718,
+          "name": "Starowice Dolne, gmina Grodków, powiat brzeski, województwo opolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
+        "name": "LKS Kadłub (k. Strzelec Opolskich)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Zdzieszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "23eae7787cc39edf328fef8cc701d97e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
+        "name": "Fortuna Głogówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Start Namysłów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7683000286049895168c02f7369a669c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
+        "name": "Porawie Większyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal Zawadzkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "60bb9d30a0e5f5f8f1b8d7f10a8f2f10",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
+        "name": "LZS Domaszkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Gogolin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f671a81c46734eee5f013619b2801519",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
+        "name": "LZS Starościn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk Łubniany",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f96d20a5982e2640e3ac3777e60da308",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
+        "name": "Victoria Żyrowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Małapanew Ozimek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8c4625c64bf4db218ad74186e7915bc0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
         "name": "Fortuna Głogówek",
         "crest": null
       },
@@ -1498,11 +1484,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-11-08T13:00:00.000Z"
+        "dateTime": "2026-11-08T12:00:00.000Z"
       },
       "date": {
         "date": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z"
+        "dateTime": "2026-11-08T12:00:00.000Z"
       },
       "id": "b4ed67138d94df40c407cdbe953bc0d4",
       "stadium": null

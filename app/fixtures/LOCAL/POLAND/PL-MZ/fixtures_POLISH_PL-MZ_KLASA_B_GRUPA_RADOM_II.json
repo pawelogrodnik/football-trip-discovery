@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T13:00:00.000Z"
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T13:00:00.000Z"
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
       "id": "ea73ffb76367b907d60296f0280d38f2",
       "stadium": {
@@ -47,14 +47,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "9a66706824125301ccfd1e7475db2878",
-      "stadium": null
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -70,11 +78,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "id": "7130f269387a319128644e438e7a1927",
       "stadium": {
@@ -101,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "367835328b34bf46ed0df64b4f16005d",
       "stadium": {
@@ -132,11 +140,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:30:00.000Z"
+        "dateTime": "2026-09-13T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:30:00.000Z"
+        "dateTime": "2026-09-13T14:30:00.000Z"
       },
       "id": "791ecb3cb0059fedcffd0c7218f2e0d6",
       "stadium": null
@@ -155,11 +163,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "ee9616a972b5205f1d4ce5940d0d4168",
       "stadium": {
@@ -186,11 +194,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-15T18:00:00.000Z"
+        "dateTime": "2026-09-15T16:00:00.000Z"
       },
       "date": {
         "date": "2026-09-15",
-        "dateTime": "2026-09-15T18:00:00.000Z"
+        "dateTime": "2026-09-15T16:00:00.000Z"
       },
       "id": "4f71c8b4913c22f977f9cca15d129b56",
       "stadium": null
@@ -209,11 +217,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-16T17:00:00.000Z"
+        "dateTime": "2026-09-16T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-16",
-        "dateTime": "2026-09-16T17:00:00.000Z"
+        "dateTime": "2026-09-16T15:00:00.000Z"
       },
       "id": "6781b58c882f0db47f846f2ddeeb8fbd",
       "stadium": null
@@ -456,7 +464,15 @@
         "time": "TBD"
       },
       "id": "5b8f05ce2dd4be8c838ee447313ca344",
-      "stadium": null
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -943,188 +959,6 @@
         "name": "Klasa B (Radom II)"
       },
       "homeTeam": {
-        "name": "MKKS Błędów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Mogielanka Mogielnica",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "4db15dac5e2bb73fa906efc4a676bff4",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom II)"
-      },
-      "homeTeam": {
-        "name": "GPSZ Głuchów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Akcja II Jastrzębia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "d0b6d6f5640a6f3f75b570ad772d98b8",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom II)"
-      },
-      "homeTeam": {
-        "name": "Kraska Jasieniec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Strażak Wielogóra",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "61a3db7251a909ce1e416baacf489ff2",
-      "stadium": {
-        "address": "Czerska 7, 05-604 Jasieniec",
-        "venue": "Stadion GKS Kraska",
-        "geo": {
-          "latitude": 51.8183172,
-          "longitude": 20.939182,
-          "name": "Stadion GKS Kraska, Jasieniec, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom II)"
-      },
-      "homeTeam": {
-        "name": "KS Jedlanka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zorza Klwów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "95867be43819f3a9110c63cbfd562ec5",
-      "stadium": {
-        "address": "Jedlanka, gmina Jedlińsk",
-        "venue": "Boisko KS Jedlanka",
-        "geo": {
-          "latitude": 51.5308469,
-          "longitude": 21.0928725,
-          "name": "Boisko KS Jedlanka, Jedlanka, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom II)"
-      },
-      "homeTeam": {
-        "name": "KS Lesznowola",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Młode Wilki Radzanów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "17954b88802a44ae579f6cd371c6134a",
-      "stadium": {
-        "address": "Laskowa 17, 05-600 Grójec",
-        "venue": "Stadion GOS przy Laskowej",
-        "geo": {
-          "latitude": 51.867026,
-          "longitude": 20.8747058,
-          "name": "Stadion GOS Mazowsze, Grójec, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom II)"
-      },
-      "homeTeam": {
-        "name": "Iskra Zbrosza Duża",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pilica II Białobrzegi",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "281dfa8747ac0955976cfb975ad8f0f9",
-      "stadium": {
-        "address": "Zbrosza Duża 30, 05-604 Zbrosza Duża",
-        "venue": "Boisko UKS Iskra",
-        "geo": {
-          "latitude": 51.7530598,
-          "longitude": 20.9622865,
-          "name": "Boisko UKS Iskra, Zbrosza Duża, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom II)"
-      },
-      "homeTeam": {
         "name": "Akcja II Jastrzębia",
         "crest": null
       },
@@ -1481,6 +1315,176 @@
           "latitude": 51.4935003,
           "longitude": 21.2320416,
           "name": "Stadion GKS Akcja, Jastrzębia, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom II)"
+      },
+      "homeTeam": {
+        "name": "MKKS Błędów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mogielanka Mogielnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "4db15dac5e2bb73fa906efc4a676bff4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom II)"
+      },
+      "homeTeam": {
+        "name": "GPSZ Głuchów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akcja II Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d0b6d6f5640a6f3f75b570ad772d98b8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Kraska Jasieniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Strażak Wielogóra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "61a3db7251a909ce1e416baacf489ff2",
+      "stadium": {
+        "address": "Czerska 7, 05-604 Jasieniec",
+        "venue": "Stadion GKS Kraska",
+        "geo": {
+          "latitude": 51.8183172,
+          "longitude": 20.939182,
+          "name": "Stadion GKS Kraska, Jasieniec, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Jedlanka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zorza Klwów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "95867be43819f3a9110c63cbfd562ec5",
+      "stadium": {
+        "address": "Jedlanka, gmina Jedlińsk",
+        "venue": "Boisko KS Jedlanka",
+        "geo": {
+          "latitude": 51.5308469,
+          "longitude": 21.0928725,
+          "name": "Boisko KS Jedlanka, Jedlanka, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Lesznowola",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Młode Wilki Radzanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "17954b88802a44ae579f6cd371c6134a",
+      "stadium": {
+        "address": "Laskowa 17, 05-600 Grójec",
+        "venue": "Stadion GOS przy Laskowej",
+        "geo": {
+          "latitude": 51.867026,
+          "longitude": 20.8747058,
+          "name": "Stadion GOS Mazowsze, Grójec, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Zbrosza Duża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pilica II Białobrzegi",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "281dfa8747ac0955976cfb975ad8f0f9",
+      "stadium": {
+        "address": "Zbrosza Duża 30, 05-604 Zbrosza Duża",
+        "venue": "Boisko UKS Iskra",
+        "geo": {
+          "latitude": 51.7530598,
+          "longitude": 20.9622865,
+          "name": "Boisko UKS Iskra, Zbrosza Duża, mazowieckie, Polska"
         }
       }
     },
@@ -1871,7 +1875,15 @@
         "time": "TBD"
       },
       "id": "f31c612d48acf3c8034cf4dd63e0e25f",
-      "stadium": null
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
     }
   ]
 }

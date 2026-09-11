@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "5abc9eb4efe0b34c341c681ef6ca27f8",
       "stadium": {
@@ -47,11 +47,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:30:00.000Z"
+        "dateTime": "2026-09-12T14:30:00.000Z"
       },
       "id": "fada244e1df6b9a2ef42d66c5b72d087",
       "stadium": {
@@ -78,11 +78,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "id": "463d14623931d32ca8b31d6ee32abe88",
       "stadium": {
@@ -109,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "0cb289fea15a9a33ba7857724de2feba",
       "stadium": {
@@ -140,11 +140,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "id": "706f4fcb8afa0538ed72c0e7907fe964",
       "stadium": {
@@ -170,11 +170,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T13:00:00.000Z"
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T13:00:00.000Z"
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
       "id": "cb341cadb742569c3aa9c8dc6dfba2ea",
       "stadium": {
@@ -201,11 +201,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T17:30:00.000Z"
+        "dateTime": "2026-09-13T15:30:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T17:30:00.000Z"
+        "dateTime": "2026-09-13T15:30:00.000Z"
       },
       "id": "ded5126b2e629c90d522b34f1294d5b8",
       "stadium": {
@@ -1133,229 +1133,6 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Orzeł Lisia Góra",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "b68e96c66c53716da383e979561bf2d4",
-      "stadium": {
-        "address": "Pogórska Wola 378B, 33-152 Pogórska Wola",
-        "venue": "Boisko KS Pogoria",
-        "geo": {
-          "latitude": 50.024236,
-          "longitude": 21.1804133,
-          "name": "KS Pogoria Pogórska Wola, Pogórska Wola, powiat tarnowski, województwo małopolskie, 33-152, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tarnow)"
-      },
-      "homeTeam": {
-        "name": "LKS Zgłobice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tarnovia II Tarnów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "e1b66910a6e0904c67c7c6ac57d2c29d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tarnow)"
-      },
-      "homeTeam": {
-        "name": "KS Radlna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olszynka Ołpiny",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "24ca150de84e716135b955008d3bd38f",
-      "stadium": {
-        "address": "Radlna 78, 33-112 Tarnowiec",
-        "venue": "Boisko KS Radlna",
-        "geo": {
-          "latitude": 49.9619753,
-          "longitude": 20.9720695,
-          "name": "Radlna 24, Radlna, powiat tarnowski, województwo małopolskie, 33-112, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tarnow)"
-      },
-      "homeTeam": {
-        "name": "Ciężkowianka Ciężkowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "GKS II Wierzchosławice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "8b8c661a09a6358f36ce1e44c4356f45",
-      "stadium": {
-        "address": "Krynicka 10, 33-190 Ciężkowice",
-        "venue": "Stadion Ciężkowianki",
-        "geo": {
-          "latitude": 49.7904263,
-          "longitude": 20.9700391,
-          "name": "Krynicka 10, Ciężkowice, powiat tarnowski, województwo małopolskie, 33-190, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tarnow)"
-      },
-      "homeTeam": {
-        "name": "Tuchovia II Tuchów/Biała Lubaszowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Szynwałd",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "00c3fa40985503f4aba68bac57d842be",
-      "stadium": {
-        "address": "Lubaszowa 7, 33-172 Lubaszowa",
-        "venue": "Stadion LKS Biała Lubaszowa",
-        "geo": {
-          "latitude": 49.8568868,
-          "longitude": 21.0517225,
-          "name": "Lubaszowa 7, Lubaszowa, powiat tarnowski, województwo małopolskie, 33-172, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tarnow)"
-      },
-      "homeTeam": {
-        "name": "Wolania II Wola Rzędzińska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Koszyce Wielkie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "0f7d1fd0e4b8952e486d8da7c57b9745",
-      "stadium": {
-        "address": "Wola Rzędzińska 459c, 33-150 Wola Rzędzińska",
-        "venue": "Stadion Sportowy w Woli Rzędzińskiej",
-        "geo": {
-          "latitude": 50.0331148,
-          "longitude": 21.054801,
-          "name": "Ludowy Klub Sportowy Wolania Wola Rzędzińska, Mrozówka, Dziurówki, Wola Rzędzińska, gmina Tarnów, powiat tarnowski, województwo małopolskie, 33-150, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tarnow)"
-      },
-      "homeTeam": {
-        "name": "Pogórze Pleśna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Rzuchowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "dfd0ca946e264c4204baebafe4b54b1e",
-      "stadium": {
-        "address": "Łowczówek 63, 33-171 Łowczówek",
-        "venue": "Ośrodek LKS Pogórze Pleśna",
-        "geo": {
-          "latitude": 49.925298,
-          "longitude": 20.9528672,
-          "name": "LKS Pogórze Pleśna, Łowczówek, powiat tarnowski, województwo małopolskie, 33-171, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tarnow)"
-      },
-      "homeTeam": {
-        "name": "Pogoria Pogórska Wola",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Tarnovia II Tarnów",
         "crest": null
       },
@@ -1797,6 +1574,215 @@
           "latitude": 50.0064722,
           "longitude": 20.9769609,
           "name": "Stadion MKS Tarnovia, Bandrowskiego, Tarnów, województwo małopolskie, 33-100, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tarnow)"
+      },
+      "homeTeam": {
+        "name": "Pogoria Pogórska Wola",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Lisia Góra",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b68e96c66c53716da383e979561bf2d4",
+      "stadium": {
+        "address": "Pogórska Wola 378B, 33-152 Pogórska Wola",
+        "venue": "Boisko KS Pogoria",
+        "geo": {
+          "latitude": 50.024236,
+          "longitude": 21.1804133,
+          "name": "KS Pogoria Pogórska Wola, Pogórska Wola, powiat tarnowski, województwo małopolskie, 33-152, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tarnow)"
+      },
+      "homeTeam": {
+        "name": "LKS Zgłobice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tarnovia II Tarnów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e1b66910a6e0904c67c7c6ac57d2c29d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tarnow)"
+      },
+      "homeTeam": {
+        "name": "KS Radlna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olszynka Ołpiny",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "24ca150de84e716135b955008d3bd38f",
+      "stadium": {
+        "address": "Radlna 78, 33-112 Tarnowiec",
+        "venue": "Boisko KS Radlna",
+        "geo": {
+          "latitude": 49.9619753,
+          "longitude": 20.9720695,
+          "name": "Radlna 24, Radlna, powiat tarnowski, województwo małopolskie, 33-112, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tarnow)"
+      },
+      "homeTeam": {
+        "name": "Ciężkowianka Ciężkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS II Wierzchosławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8b8c661a09a6358f36ce1e44c4356f45",
+      "stadium": {
+        "address": "Krynicka 10, 33-190 Ciężkowice",
+        "venue": "Stadion Ciężkowianki",
+        "geo": {
+          "latitude": 49.7904263,
+          "longitude": 20.9700391,
+          "name": "Krynicka 10, Ciężkowice, powiat tarnowski, województwo małopolskie, 33-190, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tarnow)"
+      },
+      "homeTeam": {
+        "name": "Tuchovia II Tuchów/Biała Lubaszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Szynwałd",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "00c3fa40985503f4aba68bac57d842be",
+      "stadium": {
+        "address": "Lubaszowa 7, 33-172 Lubaszowa",
+        "venue": "Stadion LKS Biała Lubaszowa",
+        "geo": {
+          "latitude": 49.8568868,
+          "longitude": 21.0517225,
+          "name": "Lubaszowa 7, Lubaszowa, powiat tarnowski, województwo małopolskie, 33-172, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tarnow)"
+      },
+      "homeTeam": {
+        "name": "Wolania II Wola Rzędzińska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Koszyce Wielkie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0f7d1fd0e4b8952e486d8da7c57b9745",
+      "stadium": {
+        "address": "Wola Rzędzińska 459c, 33-150 Wola Rzędzińska",
+        "venue": "Stadion Sportowy w Woli Rzędzińskiej",
+        "geo": {
+          "latitude": 50.0331148,
+          "longitude": 21.054801,
+          "name": "Ludowy Klub Sportowy Wolania Wola Rzędzińska, Mrozówka, Dziurówki, Wola Rzędzińska, gmina Tarnów, powiat tarnowski, województwo małopolskie, 33-150, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tarnow)"
+      },
+      "homeTeam": {
+        "name": "Pogórze Pleśna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rzuchowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "dfd0ca946e264c4204baebafe4b54b1e",
+      "stadium": {
+        "address": "Łowczówek 63, 33-171 Łowczówek",
+        "venue": "Ośrodek LKS Pogórze Pleśna",
+        "geo": {
+          "latitude": 49.925298,
+          "longitude": 20.9528672,
+          "name": "LKS Pogórze Pleśna, Łowczówek, powiat tarnowski, województwo małopolskie, 33-171, Polska"
         }
       }
     },

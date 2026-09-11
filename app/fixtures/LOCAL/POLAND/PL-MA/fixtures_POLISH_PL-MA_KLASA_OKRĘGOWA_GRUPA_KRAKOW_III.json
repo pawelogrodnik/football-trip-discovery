@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-11T19:00:00.000Z"
+        "dateTime": "2026-09-11T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-11",
-        "dateTime": "2026-09-11T19:00:00.000Z"
+        "dateTime": "2026-09-11T17:00:00.000Z"
       },
       "id": "b894f3faff1c3f8ea0a107c21ee4190c",
       "stadium": {
@@ -47,11 +47,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "186f0d62cfeba05e05817e86ff428d27",
       "stadium": {
@@ -78,11 +78,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "75b15923e4cd2542ab8a6982fb657389",
       "stadium": {
@@ -109,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "id": "6090a3f631865407d5ddb9c2c4dd697e",
       "stadium": {
@@ -140,11 +140,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "id": "763590bea935098ed23595cf5bf9ad0b",
       "stadium": {
@@ -171,11 +171,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "bfc486740eb6b6061441fa003e8227ce",
       "stadium": null
@@ -194,11 +194,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "d40151537753df6ce706e73e02b80386",
       "stadium": {
@@ -1128,237 +1128,6 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Iskra Zakrzów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "ec5e2503abf457438348c298195c5cf7",
-      "stadium": {
-        "address": "Brzegi",
-        "venue": "Boisko Gwiazdy Brzegi",
-        "geo": {
-          "latitude": 50.0364576,
-          "longitude": 20.1020796,
-          "name": "Boisko Gwiazdy, Brzegi, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Raba Dobczyce",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Górnik Wieliczka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "b38af2807d3c11113f0e7ea7af128887",
-      "stadium": {
-        "address": "Podgórska 2, 32-410 Dobczyce",
-        "venue": "Stadion KS Raba Dobczyce im. Władysława Pazdura",
-        "geo": {
-          "latitude": 49.8812338,
-          "longitude": 20.0864571,
-          "name": "Stadion KS Raba Dobczyce, Podgórska, Dobczyce, powiat myślenicki, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Piłkarz Podłęże",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zjednoczeni Branice (Kraków)",
-        "crest": "https://crests.football-data.org/11289.png"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "bdb7dd1c721648c8890aadd152cf36cd",
-      "stadium": {
-        "address": "Podłęże",
-        "venue": "Boisko Piłkarz Podłęże",
-        "geo": {
-          "latitude": 50.0129303,
-          "longitude": 20.1657746,
-          "name": "Boisko Piłkarz, Podłęże, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Wilga Koźmice Wielkie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Śledziejowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "623bd88fb7d160bb0220aaceb9d95019",
-      "stadium": {
-        "address": "Koźmice Wielkie",
-        "venue": "Boisko Wilgi Koźmice Wielkie",
-        "geo": {
-          "latitude": 49.9424051,
-          "longitude": 20.0417182,
-          "name": "Boisko Wilgi, Koźmice Wielkie, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Węgrzcanka Węgrzce Wielkie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wiarusy Igołomia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "b67dc85167df470a22df49aa324c1bc4",
-      "stadium": {
-        "address": "Węgrzce Wielkie",
-        "venue": "Boisko LKS Węgrzcanka",
-        "geo": {
-          "latitude": 50.0155248,
-          "longitude": 20.1128031,
-          "name": "LKS Węgrzcanka, Węgrzce Wielkie, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Wolni Kłaj",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Błękitni Bodzanów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "2efad3ef2e524b5e26e2b49f74649e88",
-      "stadium": {
-        "address": "Kłaj",
-        "venue": "Boisko TS Wolni Kłaj",
-        "geo": {
-          "latitude": 49.989295,
-          "longitude": 20.318095,
-          "name": "Boisko - TS Wolni Kłaj, Kłaj, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Gdovia Gdów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Gościbia Sułkowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "17de40158325b82c83966da3cf3262a3",
-      "stadium": {
-        "address": "Krakowska, Gdów",
-        "venue": "Boisko Gdovii Gdów",
-        "geo": {
-          "latitude": 49.9116992,
-          "longitude": 20.1969096,
-          "name": "Boisko Gdovii, Gdów, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Gwiazda Brzegi",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Górnik Wieliczka",
         "crest": null
       },
@@ -1801,6 +1570,223 @@
           "latitude": 49.9818129,
           "longitude": 20.0548367,
           "name": "Górnik Wieliczka, Wieliczka, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Gwiazda Brzegi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Zakrzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ec5e2503abf457438348c298195c5cf7",
+      "stadium": {
+        "address": "Brzegi",
+        "venue": "Boisko Gwiazdy Brzegi",
+        "geo": {
+          "latitude": 50.0364576,
+          "longitude": 20.1020796,
+          "name": "Boisko Gwiazdy, Brzegi, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Raba Dobczyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Wieliczka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b38af2807d3c11113f0e7ea7af128887",
+      "stadium": {
+        "address": "Podgórska 2, 32-410 Dobczyce",
+        "venue": "Stadion KS Raba Dobczyce im. Władysława Pazdura",
+        "geo": {
+          "latitude": 49.8812338,
+          "longitude": 20.0864571,
+          "name": "Stadion KS Raba Dobczyce, Podgórska, Dobczyce, powiat myślenicki, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Piłkarz Podłęże",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zjednoczeni Branice (Kraków)",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "bdb7dd1c721648c8890aadd152cf36cd",
+      "stadium": {
+        "address": "Podłęże",
+        "venue": "Boisko Piłkarz Podłęże",
+        "geo": {
+          "latitude": 50.0129303,
+          "longitude": 20.1657746,
+          "name": "Boisko Piłkarz, Podłęże, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Wilga Koźmice Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Śledziejowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "623bd88fb7d160bb0220aaceb9d95019",
+      "stadium": {
+        "address": "Koźmice Wielkie",
+        "venue": "Boisko Wilgi Koźmice Wielkie",
+        "geo": {
+          "latitude": 49.9424051,
+          "longitude": 20.0417182,
+          "name": "Boisko Wilgi, Koźmice Wielkie, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Węgrzcanka Węgrzce Wielkie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wiarusy Igołomia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b67dc85167df470a22df49aa324c1bc4",
+      "stadium": {
+        "address": "Węgrzce Wielkie",
+        "venue": "Boisko LKS Węgrzcanka",
+        "geo": {
+          "latitude": 50.0155248,
+          "longitude": 20.1128031,
+          "name": "LKS Węgrzcanka, Węgrzce Wielkie, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Wolni Kłaj",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Bodzanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2efad3ef2e524b5e26e2b49f74649e88",
+      "stadium": {
+        "address": "Kłaj",
+        "venue": "Boisko TS Wolni Kłaj",
+        "geo": {
+          "latitude": 49.989295,
+          "longitude": 20.318095,
+          "name": "Boisko - TS Wolni Kłaj, Kłaj, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Gdovia Gdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Gościbia Sułkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "17de40158325b82c83966da3cf3262a3",
+      "stadium": {
+        "address": "Krakowska, Gdów",
+        "venue": "Boisko Gdovii Gdów",
+        "geo": {
+          "latitude": 49.9116992,
+          "longitude": 20.1969096,
+          "name": "Boisko Gdovii, Gdów, małopolskie, Polska"
         }
       }
     },

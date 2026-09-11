@@ -16,14 +16,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "id": "bd251914d59b19d0008af89114f08148",
-      "stadium": null
+      "stadium": {
+        "address": "Odrzywół",
+        "venue": "Stadion Blask Odrzywół",
+        "geo": {
+          "latitude": 51.5237542,
+          "longitude": 20.555458,
+          "name": "Stadion Blask, Odrzywół, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -39,14 +47,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "59b713380ce8567d0a822b1c1c8c0782",
-      "stadium": null
+      "stadium": {
+        "address": "Potworów",
+        "venue": "Stadion Gminny w Potworowie",
+        "geo": {
+          "latitude": 51.5046842,
+          "longitude": 20.7181735,
+          "name": "Stadion Gminny w Potworowie, Potworów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -62,14 +78,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "bd7a6a888ad65417bbaeae7789f41667",
-      "stadium": null
+      "stadium": {
+        "address": "Nowe Miasto nad Pilicą",
+        "venue": "Stadion im. Jerzego Głuszkiewicza",
+        "geo": {
+          "latitude": 51.6184939,
+          "longitude": 20.5909575,
+          "name": "Stadion im. Jerzego Głuszkiewicza w Nowym Mieście nad Pilicą, Nowe Miasto nad Pilicą, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -85,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "f0085b31a9ec66bfacce310bfff926ac",
       "stadium": null
@@ -108,11 +132,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "c6547537a9be1768e62fda763ab25f50",
       "stadium": {
@@ -139,11 +163,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "dd9689190836a70eeba9c9f9a7e3159b",
       "stadium": {
@@ -170,11 +194,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "id": "6ad99008f4934556dfb6e09a91cba9d1",
       "stadium": {
@@ -210,7 +234,15 @@
         "time": "TBD"
       },
       "id": "44e16fccff16d1c2df60912b82237091",
-      "stadium": null
+      "stadium": {
+        "address": "Promna",
+        "venue": "Boisko LKS Promna",
+        "geo": {
+          "latitude": 51.6815971,
+          "longitude": 20.9516349,
+          "name": "Boisko LKS Promna, Promna, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -235,7 +267,15 @@
         "time": "TBD"
       },
       "id": "60a4b0a376a159addf404e081b11eb19",
-      "stadium": null
+      "stadium": {
+        "address": "Wolanów",
+        "venue": "Boisko Jaguar Wolanów",
+        "geo": {
+          "latitude": 51.3758839,
+          "longitude": 20.9821289,
+          "name": "Jaguar Wolanów, Wolanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -260,7 +300,15 @@
         "time": "TBD"
       },
       "id": "ecf18086b626160249e216604af515ec",
-      "stadium": null
+      "stadium": {
+        "address": "Taczów",
+        "venue": "Stadion Piłkarski Powała Taczów",
+        "geo": {
+          "latitude": 51.4549402,
+          "longitude": 21.0324654,
+          "name": "Stadion Piłkarski Powała Taczów, Taczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -285,7 +333,15 @@
         "time": "TBD"
       },
       "id": "71940e396dd1a19bd2c3ab77b2e8297c",
-      "stadium": null
+      "stadium": {
+        "address": "Kowala",
+        "venue": "Boisko Zorza Kowala",
+        "geo": {
+          "latitude": 51.3231992,
+          "longitude": 21.0672572,
+          "name": "Zorza Kowala, Kowala, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -310,7 +366,15 @@
         "time": "TBD"
       },
       "id": "c35f79e844cd4e3d19aa2da9390beda8",
-      "stadium": null
+      "stadium": {
+        "address": "Wysokin",
+        "venue": "Boisko KS Wysokin",
+        "geo": {
+          "latitude": 51.5307215,
+          "longitude": 20.5626067,
+          "name": "Boisko KS Wysokin, Wysokin, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -335,7 +399,15 @@
         "time": "TBD"
       },
       "id": "c0f0656a5b34f488756a38f69e968324",
-      "stadium": null
+      "stadium": {
+        "address": "Borkowice",
+        "venue": "Boisko Ruszcovia Borkowice",
+        "geo": {
+          "latitude": 51.3210405,
+          "longitude": 20.6858245,
+          "name": "Boisko Ruszcovia, Borkowice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -360,7 +432,15 @@
         "time": "TBD"
       },
       "id": "3881f03347e8f6a5a19822910b0314a2",
-      "stadium": null
+      "stadium": {
+        "address": "Gielniów",
+        "venue": "Stadion piłkarski Orzeł Gielniów",
+        "geo": {
+          "latitude": 51.3963835,
+          "longitude": 20.4819643,
+          "name": "Stadion piłkarski Orzeł Gielniów, Gielniów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -385,7 +465,15 @@
         "time": "TBD"
       },
       "id": "d532c88a4889c16e6657cc34def38b40",
-      "stadium": null
+      "stadium": {
+        "address": "Odrzywół",
+        "venue": "Stadion Blask Odrzywół",
+        "geo": {
+          "latitude": 51.5237542,
+          "longitude": 20.555458,
+          "name": "Stadion Blask, Odrzywół, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -443,7 +531,15 @@
         "time": "TBD"
       },
       "id": "a950d35d160d174e85f3a552337bd361",
-      "stadium": null
+      "stadium": {
+        "address": "Nowe Miasto nad Pilicą",
+        "venue": "Stadion im. Jerzego Głuszkiewicza",
+        "geo": {
+          "latitude": 51.6184939,
+          "longitude": 20.5909575,
+          "name": "Stadion im. Jerzego Głuszkiewicza w Nowym Mieście nad Pilicą, Nowe Miasto nad Pilicą, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -559,7 +655,15 @@
         "time": "TBD"
       },
       "id": "0e1bd55ba8822553994064685418a124",
-      "stadium": null
+      "stadium": {
+        "address": "Promna",
+        "venue": "Boisko LKS Promna",
+        "geo": {
+          "latitude": 51.6815971,
+          "longitude": 20.9516349,
+          "name": "Boisko LKS Promna, Promna, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -584,7 +688,15 @@
         "time": "TBD"
       },
       "id": "050eca9893a90e1fa83f1fc02f837006",
-      "stadium": null
+      "stadium": {
+        "address": "Wolanów",
+        "venue": "Boisko Jaguar Wolanów",
+        "geo": {
+          "latitude": 51.3758839,
+          "longitude": 20.9821289,
+          "name": "Jaguar Wolanów, Wolanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -609,7 +721,15 @@
         "time": "TBD"
       },
       "id": "481ecf4bd40a1537adc4721a08fd5c49",
-      "stadium": null
+      "stadium": {
+        "address": "Taczów",
+        "venue": "Stadion Piłkarski Powała Taczów",
+        "geo": {
+          "latitude": 51.4549402,
+          "longitude": 21.0324654,
+          "name": "Stadion Piłkarski Powała Taczów, Taczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -634,7 +754,15 @@
         "time": "TBD"
       },
       "id": "5f213adf9d3da8aeac08f4f5a40d20a2",
-      "stadium": null
+      "stadium": {
+        "address": "Kowala",
+        "venue": "Boisko Zorza Kowala",
+        "geo": {
+          "latitude": 51.3231992,
+          "longitude": 21.0672572,
+          "name": "Zorza Kowala, Kowala, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -659,7 +787,15 @@
         "time": "TBD"
       },
       "id": "9a4ebd9814c2ebc2a7e3894c7da08bf7",
-      "stadium": null
+      "stadium": {
+        "address": "Wysokin",
+        "venue": "Boisko KS Wysokin",
+        "geo": {
+          "latitude": 51.5307215,
+          "longitude": 20.5626067,
+          "name": "Boisko KS Wysokin, Wysokin, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -684,7 +820,15 @@
         "time": "TBD"
       },
       "id": "3d90df92fe7af70c132049d74ad2f41b",
-      "stadium": null
+      "stadium": {
+        "address": "Borkowice",
+        "venue": "Boisko Ruszcovia Borkowice",
+        "geo": {
+          "latitude": 51.3210405,
+          "longitude": 20.6858245,
+          "name": "Boisko Ruszcovia, Borkowice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -709,7 +853,15 @@
         "time": "TBD"
       },
       "id": "01c2865060f9f277cfbee05e51427f46",
-      "stadium": null
+      "stadium": {
+        "address": "Gielniów",
+        "venue": "Stadion piłkarski Orzeł Gielniów",
+        "geo": {
+          "latitude": 51.3963835,
+          "longitude": 20.4819643,
+          "name": "Stadion piłkarski Orzeł Gielniów, Gielniów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -734,7 +886,15 @@
         "time": "TBD"
       },
       "id": "631629dc67ffc0ae62a0153c871b01e6",
-      "stadium": null
+      "stadium": {
+        "address": "Potworów",
+        "venue": "Stadion Gminny w Potworowie",
+        "geo": {
+          "latitude": 51.5046842,
+          "longitude": 20.7181735,
+          "name": "Stadion Gminny w Potworowie, Potworów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -759,7 +919,15 @@
         "time": "TBD"
       },
       "id": "cc09e1f1262dd46094cb4347a3d50611",
-      "stadium": null
+      "stadium": {
+        "address": "Odrzywół",
+        "venue": "Stadion Blask Odrzywół",
+        "geo": {
+          "latitude": 51.5237542,
+          "longitude": 20.555458,
+          "name": "Stadion Blask, Odrzywół, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -784,7 +952,15 @@
         "time": "TBD"
       },
       "id": "f2bfef978ba69e4b705734909ec1e4f8",
-      "stadium": null
+      "stadium": {
+        "address": "Nowe Miasto nad Pilicą",
+        "venue": "Stadion im. Jerzego Głuszkiewicza",
+        "geo": {
+          "latitude": 51.6184939,
+          "longitude": 20.5909575,
+          "name": "Stadion im. Jerzego Głuszkiewicza w Nowym Mieście nad Pilicą, Nowe Miasto nad Pilicą, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -900,7 +1076,15 @@
         "time": "TBD"
       },
       "id": "9ce62045aaaf0676b467299a9959cc34",
-      "stadium": null
+      "stadium": {
+        "address": "Promna",
+        "venue": "Boisko LKS Promna",
+        "geo": {
+          "latitude": 51.6815971,
+          "longitude": 20.9516349,
+          "name": "Boisko LKS Promna, Promna, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -925,190 +1109,15 @@
         "time": "TBD"
       },
       "id": "e716be28321afa2f00d578dd920d1381",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom II)"
-      },
-      "homeTeam": {
-        "name": "Zorza Kowala",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Blask Odrzywół",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "f0da3c8fbd4258dc27fb36b746453dde",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom II)"
-      },
-      "homeTeam": {
-        "name": "KS Wysokin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Powała Taczów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "b86639398bf87b79f5e249650823c5dd",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom II)"
-      },
-      "homeTeam": {
-        "name": "Ruszcovia Borkowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jaguar Wolanów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "d9b71f582d457ad883822e7b3d4dd002",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom II)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Gielniów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS II Promna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "dc89895942d73689da129db35500dc7d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom II)"
-      },
-      "homeTeam": {
-        "name": "KS Potworów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "GKS Belsk Duży",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "7cd59c799a3b3e224884cb2f0ded8144",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom II)"
-      },
-      "homeTeam": {
-        "name": "MKS Wyśmierzyce",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sadownik Błędów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "5cae33918957cafe706b41611220d1c2",
       "stadium": {
-        "address": "Wyśmierzyce, powiat białobrzeski",
-        "venue": "Stadion w Wyśmierzycach",
+        "address": "Wolanów",
+        "venue": "Boisko Jaguar Wolanów",
         "geo": {
-          "latitude": 51.6285865,
-          "longitude": 20.8260404,
-          "name": "Stadion w Wyśmierzycach, mazowieckie, Polska"
+          "latitude": 51.3758839,
+          "longitude": 20.9821289,
+          "name": "Jaguar Wolanów, Wolanów, mazowieckie, Polska"
         }
       }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom II)"
-      },
-      "homeTeam": {
-        "name": "Pilica Nowe Miasto nad Pilicą",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Błotnica Stara",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "749f64bced49c3383c461cd05d7a10ee",
-      "stadium": null
     },
     {
       "competition": {
@@ -1133,7 +1142,15 @@
         "time": "TBD"
       },
       "id": "a10043982ba02e448068176ca5943241",
-      "stadium": null
+      "stadium": {
+        "address": "Taczów",
+        "venue": "Stadion Piłkarski Powała Taczów",
+        "geo": {
+          "latitude": 51.4549402,
+          "longitude": 21.0324654,
+          "name": "Stadion Piłkarski Powała Taczów, Taczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1158,7 +1175,15 @@
         "time": "TBD"
       },
       "id": "b97a7e0db6c48311bf7f85df54308310",
-      "stadium": null
+      "stadium": {
+        "address": "Kowala",
+        "venue": "Boisko Zorza Kowala",
+        "geo": {
+          "latitude": 51.3231992,
+          "longitude": 21.0672572,
+          "name": "Zorza Kowala, Kowala, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1183,7 +1208,15 @@
         "time": "TBD"
       },
       "id": "eba4145ffb4c22bd88fc6f956028eb6c",
-      "stadium": null
+      "stadium": {
+        "address": "Wysokin",
+        "venue": "Boisko KS Wysokin",
+        "geo": {
+          "latitude": 51.5307215,
+          "longitude": 20.5626067,
+          "name": "Boisko KS Wysokin, Wysokin, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1208,7 +1241,15 @@
         "time": "TBD"
       },
       "id": "44fe794648e6f258090bc12e5bb62933",
-      "stadium": null
+      "stadium": {
+        "address": "Borkowice",
+        "venue": "Boisko Ruszcovia Borkowice",
+        "geo": {
+          "latitude": 51.3210405,
+          "longitude": 20.6858245,
+          "name": "Boisko Ruszcovia, Borkowice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1233,7 +1274,15 @@
         "time": "TBD"
       },
       "id": "b790a135da17e51be7d1f89067b6efb4",
-      "stadium": null
+      "stadium": {
+        "address": "Gielniów",
+        "venue": "Stadion piłkarski Orzeł Gielniów",
+        "geo": {
+          "latitude": 51.3963835,
+          "longitude": 20.4819643,
+          "name": "Stadion piłkarski Orzeł Gielniów, Gielniów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1258,7 +1307,15 @@
         "time": "TBD"
       },
       "id": "7e4006b8c10e8be3f8b22cbbe7ef3d13",
-      "stadium": null
+      "stadium": {
+        "address": "Potworów",
+        "venue": "Stadion Gminny w Potworowie",
+        "geo": {
+          "latitude": 51.5046842,
+          "longitude": 20.7181735,
+          "name": "Stadion Gminny w Potworowie, Potworów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1316,7 +1373,15 @@
         "time": "TBD"
       },
       "id": "3b4fcbd9da9e328ec9211f2b8c29e9f6",
-      "stadium": null
+      "stadium": {
+        "address": "Odrzywół",
+        "venue": "Stadion Blask Odrzywół",
+        "geo": {
+          "latitude": 51.5237542,
+          "longitude": 20.555458,
+          "name": "Stadion Blask, Odrzywół, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1432,7 +1497,15 @@
         "time": "TBD"
       },
       "id": "3df01c53aeb517c05b7eafdc4cb07867",
-      "stadium": null
+      "stadium": {
+        "address": "Promna",
+        "venue": "Boisko LKS Promna",
+        "geo": {
+          "latitude": 51.6815971,
+          "longitude": 20.9516349,
+          "name": "Boisko LKS Promna, Promna, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1457,7 +1530,15 @@
         "time": "TBD"
       },
       "id": "cb043f1c4f81357a54b2ea3fabdbd692",
-      "stadium": null
+      "stadium": {
+        "address": "Wolanów",
+        "venue": "Boisko Jaguar Wolanów",
+        "geo": {
+          "latitude": 51.3758839,
+          "longitude": 20.9821289,
+          "name": "Jaguar Wolanów, Wolanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1482,7 +1563,232 @@
         "time": "TBD"
       },
       "id": "6ba5b2b202e7aa0311024f692f717977",
-      "stadium": null
+      "stadium": {
+        "address": "Taczów",
+        "venue": "Stadion Piłkarski Powała Taczów",
+        "geo": {
+          "latitude": 51.4549402,
+          "longitude": 21.0324654,
+          "name": "Stadion Piłkarski Powała Taczów, Taczów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Zorza Kowala",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Blask Odrzywół",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "f0da3c8fbd4258dc27fb36b746453dde",
+      "stadium": {
+        "address": "Kowala",
+        "venue": "Boisko Zorza Kowala",
+        "geo": {
+          "latitude": 51.3231992,
+          "longitude": 21.0672572,
+          "name": "Zorza Kowala, Kowala, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Wysokin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Powała Taczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b86639398bf87b79f5e249650823c5dd",
+      "stadium": {
+        "address": "Wysokin",
+        "venue": "Boisko KS Wysokin",
+        "geo": {
+          "latitude": 51.5307215,
+          "longitude": 20.5626067,
+          "name": "Boisko KS Wysokin, Wysokin, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Ruszcovia Borkowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jaguar Wolanów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "d9b71f582d457ad883822e7b3d4dd002",
+      "stadium": {
+        "address": "Borkowice",
+        "venue": "Boisko Ruszcovia Borkowice",
+        "geo": {
+          "latitude": 51.3210405,
+          "longitude": 20.6858245,
+          "name": "Boisko Ruszcovia, Borkowice, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Gielniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Promna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "dc89895942d73689da129db35500dc7d",
+      "stadium": {
+        "address": "Gielniów",
+        "venue": "Stadion piłkarski Orzeł Gielniów",
+        "geo": {
+          "latitude": 51.3963835,
+          "longitude": 20.4819643,
+          "name": "Stadion piłkarski Orzeł Gielniów, Gielniów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "KS Potworów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Belsk Duży",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7cd59c799a3b3e224884cb2f0ded8144",
+      "stadium": {
+        "address": "Potworów",
+        "venue": "Stadion Gminny w Potworowie",
+        "geo": {
+          "latitude": 51.5046842,
+          "longitude": 20.7181735,
+          "name": "Stadion Gminny w Potworowie, Potworów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "MKS Wyśmierzyce",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sadownik Błędów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5cae33918957cafe706b41611220d1c2",
+      "stadium": {
+        "address": "Wyśmierzyce, powiat białobrzeski",
+        "venue": "Stadion w Wyśmierzycach",
+        "geo": {
+          "latitude": 51.6285865,
+          "longitude": 20.8260404,
+          "name": "Stadion w Wyśmierzycach, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom II)"
+      },
+      "homeTeam": {
+        "name": "Pilica Nowe Miasto nad Pilicą",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Błotnica Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "749f64bced49c3383c461cd05d7a10ee",
+      "stadium": {
+        "address": "Nowe Miasto nad Pilicą",
+        "venue": "Stadion im. Jerzego Głuszkiewicza",
+        "geo": {
+          "latitude": 51.6184939,
+          "longitude": 20.5909575,
+          "name": "Stadion im. Jerzego Głuszkiewicza w Nowym Mieście nad Pilicą, Nowe Miasto nad Pilicą, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1507,7 +1813,15 @@
         "time": "TBD"
       },
       "id": "49e1bdaabd61dcdb75936c7b578de7ea",
-      "stadium": null
+      "stadium": {
+        "address": "Odrzywół",
+        "venue": "Stadion Blask Odrzywół",
+        "geo": {
+          "latitude": 51.5237542,
+          "longitude": 20.555458,
+          "name": "Stadion Blask, Odrzywół, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1598,7 +1912,15 @@
         "time": "TBD"
       },
       "id": "503758e57aaa2985b884a2a9bbf5ea1b",
-      "stadium": null
+      "stadium": {
+        "address": "Promna",
+        "venue": "Boisko LKS Promna",
+        "geo": {
+          "latitude": 51.6815971,
+          "longitude": 20.9516349,
+          "name": "Boisko LKS Promna, Promna, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1623,7 +1945,15 @@
         "time": "TBD"
       },
       "id": "a5dac1b1defcbd5bc2559e719ca9e582",
-      "stadium": null
+      "stadium": {
+        "address": "Wolanów",
+        "venue": "Boisko Jaguar Wolanów",
+        "geo": {
+          "latitude": 51.3758839,
+          "longitude": 20.9821289,
+          "name": "Jaguar Wolanów, Wolanów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1648,7 +1978,15 @@
         "time": "TBD"
       },
       "id": "b04e782a36faeb26871316763118c986",
-      "stadium": null
+      "stadium": {
+        "address": "Taczów",
+        "venue": "Stadion Piłkarski Powała Taczów",
+        "geo": {
+          "latitude": 51.4549402,
+          "longitude": 21.0324654,
+          "name": "Stadion Piłkarski Powała Taczów, Taczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1673,7 +2011,15 @@
         "time": "TBD"
       },
       "id": "dfa9daaa3407e151195709f0011c0dd3",
-      "stadium": null
+      "stadium": {
+        "address": "Kowala",
+        "venue": "Boisko Zorza Kowala",
+        "geo": {
+          "latitude": 51.3231992,
+          "longitude": 21.0672572,
+          "name": "Zorza Kowala, Kowala, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1698,7 +2044,15 @@
         "time": "TBD"
       },
       "id": "89efa936ced12021b8b6e5132314aef3",
-      "stadium": null
+      "stadium": {
+        "address": "Wysokin",
+        "venue": "Boisko KS Wysokin",
+        "geo": {
+          "latitude": 51.5307215,
+          "longitude": 20.5626067,
+          "name": "Boisko KS Wysokin, Wysokin, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1723,7 +2077,15 @@
         "time": "TBD"
       },
       "id": "d7bb04482fb98ce9ccab73cf82eb73fa",
-      "stadium": null
+      "stadium": {
+        "address": "Borkowice",
+        "venue": "Boisko Ruszcovia Borkowice",
+        "geo": {
+          "latitude": 51.3210405,
+          "longitude": 20.6858245,
+          "name": "Boisko Ruszcovia, Borkowice, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1748,7 +2110,15 @@
         "time": "TBD"
       },
       "id": "42e0065f2a4be5aecb7477019b73b75d",
-      "stadium": null
+      "stadium": {
+        "address": "Gielniów",
+        "venue": "Stadion piłkarski Orzeł Gielniów",
+        "geo": {
+          "latitude": 51.3963835,
+          "longitude": 20.4819643,
+          "name": "Stadion piłkarski Orzeł Gielniów, Gielniów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1773,7 +2143,15 @@
         "time": "TBD"
       },
       "id": "8deca5089f198ce23b31576c6c0ae4c0",
-      "stadium": null
+      "stadium": {
+        "address": "Potworów",
+        "venue": "Stadion Gminny w Potworowie",
+        "geo": {
+          "latitude": 51.5046842,
+          "longitude": 20.7181735,
+          "name": "Stadion Gminny w Potworowie, Potworów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1831,7 +2209,15 @@
         "time": "TBD"
       },
       "id": "e7500ab8e4511ff4113a6d9d33cbaed4",
-      "stadium": null
+      "stadium": {
+        "address": "Nowe Miasto nad Pilicą",
+        "venue": "Stadion im. Jerzego Głuszkiewicza",
+        "geo": {
+          "latitude": 51.6184939,
+          "longitude": 20.5909575,
+          "name": "Stadion im. Jerzego Głuszkiewicza w Nowym Mieście nad Pilicą, Nowe Miasto nad Pilicą, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {

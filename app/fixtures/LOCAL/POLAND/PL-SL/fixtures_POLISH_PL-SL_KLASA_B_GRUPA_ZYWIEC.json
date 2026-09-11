@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "3c42301c79803a12a552ca956c361524",
       "stadium": null
@@ -39,11 +39,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "c6328223dd17bc9f034aef555d4540e6",
       "stadium": null
@@ -62,11 +62,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "id": "99150261b91cd859cd104072ad1f6600",
       "stadium": null
@@ -85,11 +85,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T12:30:00.000Z"
+        "dateTime": "2026-09-13T10:30:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:30:00.000Z"
+        "dateTime": "2026-09-13T10:30:00.000Z"
       },
       "id": "e60d4065bdc2cad7a4c3bc08fe66ece0",
       "stadium": null
@@ -499,106 +499,6 @@
         "name": "Klasa B (Zywiec)"
       },
       "homeTeam": {
-        "name": "LKS Korbielów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Halny Przyborów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "24dc47dcd826c5623cf94e47055f06fc",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Zywiec)"
-      },
-      "homeTeam": {
-        "name": "Orzeł II Łękawica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS II Sopotnia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "8572e05cfabd8dd4b86eb467c186efb0",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Zywiec)"
-      },
-      "homeTeam": {
-        "name": "Jezioro Żywieckie Zarzecze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jeleśnianka Jeleśnia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "83e54d0db5b3bceb1bb40259fd907185",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Zywiec)"
-      },
-      "homeTeam": {
-        "name": "Soła Żywiec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "GAPN Świnna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-12",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "7c30c39463f44ab9ac5f901619c65eeb",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Zywiec)"
-      },
-      "homeTeam": {
         "name": "Orzeł II Łękawica",
         "crest": null
       },
@@ -799,6 +699,98 @@
         "name": "Klasa B (Zywiec)"
       },
       "homeTeam": {
+        "name": "LKS Korbielów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Halny Przyborów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "24dc47dcd826c5623cf94e47055f06fc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Orzeł II Łękawica",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS II Sopotnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "8572e05cfabd8dd4b86eb467c186efb0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Jezioro Żywieckie Zarzecze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jeleśnianka Jeleśnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "83e54d0db5b3bceb1bb40259fd907185",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Zywiec)"
+      },
+      "homeTeam": {
+        "name": "Soła Żywiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GAPN Świnna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7c30c39463f44ab9ac5f901619c65eeb",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Zywiec)"
+      },
+      "homeTeam": {
         "name": "GAPN Świnna",
         "crest": null
       },
@@ -908,11 +900,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "dateTime": "2026-11-11T12:00:00.000Z"
       },
       "date": {
         "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "dateTime": "2026-11-11T12:00:00.000Z"
       },
       "id": "901121aeb1049d7553827b3061d81590",
       "stadium": null

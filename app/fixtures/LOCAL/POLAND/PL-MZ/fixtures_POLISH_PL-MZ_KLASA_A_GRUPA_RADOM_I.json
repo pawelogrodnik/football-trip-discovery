@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "id": "41f0cab30990ea4576a0891ef0a8c566",
       "stadium": {
@@ -47,11 +47,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "bb8dff17e7c1bbac0370af36fcea4fa1",
       "stadium": null
@@ -70,11 +70,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "54dc0cb9caca8c0c804c5dda652ba1a4",
       "stadium": {
@@ -101,14 +101,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "id": "89e4296b28e84bb3299c6914f0aa599f",
-      "stadium": null
+      "stadium": {
+        "address": "Chomentów-Puszcz",
+        "venue": "Boisko KS Chomentów",
+        "geo": {
+          "latitude": 51.2857902,
+          "longitude": 21.1839888,
+          "name": "Boisko KS Chomentów, Chomentów-Puszcz, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -124,11 +132,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "id": "59093e1a1eb843e7572ae071ab68d3b5",
       "stadium": null
@@ -147,14 +155,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "734e60888f592aa5c861edfc5777672c",
-      "stadium": null
+      "stadium": {
+        "address": "Skaryszew",
+        "venue": "Stadion Skaryszewianka Skaryszew",
+        "geo": {
+          "latitude": 51.3135679,
+          "longitude": 21.2559583,
+          "name": "Stadion Skaryszewianka, Skaryszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -170,14 +186,22 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "e946ad6bba921ac0fe3f1b677ec0013a",
-      "stadium": null
+      "stadium": {
+        "address": "Magnuszew",
+        "venue": "Boisko LZS Magnuszew",
+        "geo": {
+          "latitude": 51.758404,
+          "longitude": 21.3866844,
+          "name": "Ludowy Zespół Sportowy Magnuszew, Magnuszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -202,7 +226,15 @@
         "time": "TBD"
       },
       "id": "67865d8a5fea8b03c18fcb29c95ed990",
-      "stadium": null
+      "stadium": {
+        "address": "Jastrząb",
+        "venue": "Stadion KS Jastrząb",
+        "geo": {
+          "latitude": 51.2512506,
+          "longitude": 20.9452819,
+          "name": "Klub Sportowy Jastrząb Szydłowiec, Jastrząb, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -252,7 +284,15 @@
         "time": "TBD"
       },
       "id": "3748999a51ec34b4f307613dec46271b",
-      "stadium": null
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -376,7 +416,15 @@
         "time": "TBD"
       },
       "id": "750ba154d92337a5b78746a261b858d0",
-      "stadium": null
+      "stadium": {
+        "address": "Zwoleń",
+        "venue": "Boisko Zwolenianka Zwoleń",
+        "geo": {
+          "latitude": 51.3622014,
+          "longitude": 21.5862383,
+          "name": "Boisko Zwolenianka, Zwoleń, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -401,7 +449,15 @@
         "time": "TBD"
       },
       "id": "b8ca051cfb9486710ac467ccd8818b4e",
-      "stadium": null
+      "stadium": {
+        "address": "Skaryszew",
+        "venue": "Stadion Skaryszewianka Skaryszew",
+        "geo": {
+          "latitude": 51.3135679,
+          "longitude": 21.2559583,
+          "name": "Stadion Skaryszewianka, Skaryszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -542,7 +598,15 @@
         "time": "TBD"
       },
       "id": "051d41e5f1fd4bd08c9d09ccd8746c42",
-      "stadium": null
+      "stadium": {
+        "address": "Magnuszew",
+        "venue": "Boisko LZS Magnuszew",
+        "geo": {
+          "latitude": 51.758404,
+          "longitude": 21.3866844,
+          "name": "Ludowy Zespół Sportowy Magnuszew, Magnuszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -567,7 +631,15 @@
         "time": "TBD"
       },
       "id": "cfa114633242ec1596478fe8012c3e5e",
-      "stadium": null
+      "stadium": {
+        "address": "Jastrząb",
+        "venue": "Stadion KS Jastrząb",
+        "geo": {
+          "latitude": 51.2512506,
+          "longitude": 20.9452819,
+          "name": "Klub Sportowy Jastrząb Szydłowiec, Jastrząb, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -617,7 +689,15 @@
         "time": "TBD"
       },
       "id": "9f25b06c5feaa85334b57788fbfd84fd",
-      "stadium": null
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -741,7 +821,15 @@
         "time": "TBD"
       },
       "id": "37e0b5825dc34bc2c90907defd83f7e3",
-      "stadium": null
+      "stadium": {
+        "address": "Zwoleń",
+        "venue": "Boisko Zwolenianka Zwoleń",
+        "geo": {
+          "latitude": 51.3622014,
+          "longitude": 21.5862383,
+          "name": "Boisko Zwolenianka, Zwoleń, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -766,7 +854,15 @@
         "time": "TBD"
       },
       "id": "0154dff79f3baeb22322c04013eccbab",
-      "stadium": null
+      "stadium": {
+        "address": "Chomentów-Puszcz",
+        "venue": "Boisko KS Chomentów",
+        "geo": {
+          "latitude": 51.2857902,
+          "longitude": 21.1839888,
+          "name": "Boisko KS Chomentów, Chomentów-Puszcz, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -791,7 +887,15 @@
         "time": "TBD"
       },
       "id": "f1c4f113d6c1f7a302bd50a3aa629bf7",
-      "stadium": null
+      "stadium": {
+        "address": "Skaryszew",
+        "venue": "Stadion Skaryszewianka Skaryszew",
+        "geo": {
+          "latitude": 51.3135679,
+          "longitude": 21.2559583,
+          "name": "Stadion Skaryszewianka, Skaryszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -907,7 +1011,15 @@
         "time": "TBD"
       },
       "id": "e32ec85ce094e27c7260abfa5126e76d",
-      "stadium": null
+      "stadium": {
+        "address": "Magnuszew",
+        "venue": "Boisko LZS Magnuszew",
+        "geo": {
+          "latitude": 51.758404,
+          "longitude": 21.3866844,
+          "name": "Ludowy Zespół Sportowy Magnuszew, Magnuszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -932,7 +1044,15 @@
         "time": "TBD"
       },
       "id": "2944535bde9d9bacd3e94e852431c8c2",
-      "stadium": null
+      "stadium": {
+        "address": "Jastrząb",
+        "venue": "Stadion KS Jastrząb",
+        "geo": {
+          "latitude": 51.2512506,
+          "longitude": 20.9452819,
+          "name": "Klub Sportowy Jastrząb Szydłowiec, Jastrząb, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -964,205 +1084,6 @@
         "name": "Klasa A (Radom I)"
       },
       "homeTeam": {
-        "name": "Gracja II Tczów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Skaryszewianka Skaryszew",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "3acd857eb97d2a99951771f7fd0ad7d9",
-      "stadium": {
-        "address": "Tczów, powiat zwoleński",
-        "venue": "Stadion Gracja Tczów",
-        "geo": {
-          "latitude": 51.3301616,
-          "longitude": 21.4475416,
-          "name": "Stadion Gracja Tczów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "KS Maków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Legion Głowaczów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "97b7100eacd96f2d1b2fa8175b5ca43f",
-      "stadium": {
-        "address": "Starowiejska 22, Maków",
-        "venue": "Stadion Sportowy Park Arena w Makowie",
-        "geo": {
-          "latitude": 51.3454418,
-          "longitude": 21.251699,
-          "name": "Stadion Park Arena, Maków, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Proch II Pionki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KP Stanisławice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "0fe17e236d5848e935dd4a39e16e84e1",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion KS Proch Pionki",
-        "geo": {
-          "latitude": 51.4738169,
-          "longitude": 21.4480757,
-          "name": "Stadion KS Proch Pionki, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Zwolenianka Zwoleń",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Jastrząb",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "fe2ead96b0991bdba3507882e04805b7",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "KS Chomentów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Magnuszew",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "2fd2eaaaed9b608a9c365e3a68090e21",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Zawisza Sienno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Postęp Łaziska",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "620319928b2c750a3dcb18e79f637c6a",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Iskra Gózd",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Akcja I Jastrzębia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "ca19bdf00526855e81f94cfa7a06657a",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
         "name": "Legion Głowaczów",
         "crest": null
       },
@@ -1181,7 +1102,15 @@
         "time": "TBD"
       },
       "id": "89209d2cd9e853f701f6c48b44e37d49",
-      "stadium": null
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1305,7 +1234,15 @@
         "time": "TBD"
       },
       "id": "abccce10b0063e12fc47284e35c80b91",
-      "stadium": null
+      "stadium": {
+        "address": "Zwoleń",
+        "venue": "Boisko Zwolenianka Zwoleń",
+        "geo": {
+          "latitude": 51.3622014,
+          "longitude": 21.5862383,
+          "name": "Boisko Zwolenianka, Zwoleń, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1330,7 +1267,15 @@
         "time": "TBD"
       },
       "id": "f0d33ad7869070bc17b5bd57f8241a77",
-      "stadium": null
+      "stadium": {
+        "address": "Chomentów-Puszcz",
+        "venue": "Boisko KS Chomentów",
+        "geo": {
+          "latitude": 51.2857902,
+          "longitude": 21.1839888,
+          "name": "Boisko KS Chomentów, Chomentów-Puszcz, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1380,7 +1325,15 @@
         "time": "TBD"
       },
       "id": "da986ecf897c8ad1140194387ab3afc1",
-      "stadium": null
+      "stadium": {
+        "address": "Skaryszew",
+        "venue": "Stadion Skaryszewianka Skaryszew",
+        "geo": {
+          "latitude": 51.3135679,
+          "longitude": 21.2559583,
+          "name": "Stadion Skaryszewianka, Skaryszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1471,7 +1424,15 @@
         "time": "TBD"
       },
       "id": "94dc7914f712c446c499da0b70210944",
-      "stadium": null
+      "stadium": {
+        "address": "Magnuszew",
+        "venue": "Boisko LZS Magnuszew",
+        "geo": {
+          "latitude": 51.758404,
+          "longitude": 21.3866844,
+          "name": "Ludowy Zespół Sportowy Magnuszew, Magnuszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1496,7 +1457,15 @@
         "time": "TBD"
       },
       "id": "ac8d21667ae1c307e21a0fa0dbbdb662",
-      "stadium": null
+      "stadium": {
+        "address": "Jastrząb",
+        "venue": "Stadion KS Jastrząb",
+        "geo": {
+          "latitude": 51.2512506,
+          "longitude": 20.9452819,
+          "name": "Klub Sportowy Jastrząb Szydłowiec, Jastrząb, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1546,6 +1515,215 @@
         "time": "TBD"
       },
       "id": "1c13270702ae0d9c0c449866d3c586ce",
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Gracja II Tczów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "3acd857eb97d2a99951771f7fd0ad7d9",
+      "stadium": {
+        "address": "Tczów, powiat zwoleński",
+        "venue": "Stadion Gracja Tczów",
+        "geo": {
+          "latitude": 51.3301616,
+          "longitude": 21.4475416,
+          "name": "Stadion Gracja Tczów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Maków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "97b7100eacd96f2d1b2fa8175b5ca43f",
+      "stadium": {
+        "address": "Starowiejska 22, Maków",
+        "venue": "Stadion Sportowy Park Arena w Makowie",
+        "geo": {
+          "latitude": 51.3454418,
+          "longitude": 21.251699,
+          "name": "Stadion Park Arena, Maków, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Proch II Pionki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KP Stanisławice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0fe17e236d5848e935dd4a39e16e84e1",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion KS Proch Pionki",
+        "geo": {
+          "latitude": 51.4738169,
+          "longitude": 21.4480757,
+          "name": "Stadion KS Proch Pionki, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Jastrząb",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "fe2ead96b0991bdba3507882e04805b7",
+      "stadium": {
+        "address": "Zwoleń",
+        "venue": "Boisko Zwolenianka Zwoleń",
+        "geo": {
+          "latitude": 51.3622014,
+          "longitude": 21.5862383,
+          "name": "Boisko Zwolenianka, Zwoleń, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "2fd2eaaaed9b608a9c365e3a68090e21",
+      "stadium": {
+        "address": "Chomentów-Puszcz",
+        "venue": "Boisko KS Chomentów",
+        "geo": {
+          "latitude": 51.2857902,
+          "longitude": 21.1839888,
+          "name": "Boisko KS Chomentów, Chomentów-Puszcz, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Postęp Łaziska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "620319928b2c750a3dcb18e79f637c6a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Iskra Gózd",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Akcja I Jastrzębia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "ca19bdf00526855e81f94cfa7a06657a",
       "stadium": null
     },
     {
@@ -1571,7 +1749,15 @@
         "time": "TBD"
       },
       "id": "f88e1fca767069560eb8ab47ea9e3455",
-      "stadium": null
+      "stadium": {
+        "address": "Skaryszew",
+        "venue": "Stadion Skaryszewianka Skaryszew",
+        "geo": {
+          "latitude": 51.3135679,
+          "longitude": 21.2559583,
+          "name": "Stadion Skaryszewianka, Skaryszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1629,7 +1815,15 @@
         "time": "TBD"
       },
       "id": "0c664821c8df4de8d57492d516f713fb",
-      "stadium": null
+      "stadium": {
+        "address": "Magnuszew",
+        "venue": "Boisko LZS Magnuszew",
+        "geo": {
+          "latitude": 51.758404,
+          "longitude": 21.3866844,
+          "name": "Ludowy Zespół Sportowy Magnuszew, Magnuszew, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1654,7 +1848,15 @@
         "time": "TBD"
       },
       "id": "65285d5f69cb60196748ba08a24e8419",
-      "stadium": null
+      "stadium": {
+        "address": "Jastrząb",
+        "venue": "Stadion KS Jastrząb",
+        "geo": {
+          "latitude": 51.2512506,
+          "longitude": 20.9452819,
+          "name": "Klub Sportowy Jastrząb Szydłowiec, Jastrząb, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1704,7 +1906,15 @@
         "time": "TBD"
       },
       "id": "e8cd805c1617f9d55834cc995c5b8863",
-      "stadium": null
+      "stadium": {
+        "address": "Głowaczów",
+        "venue": "Stadion w Głowaczowie",
+        "geo": {
+          "latitude": 51.6199227,
+          "longitude": 21.3247103,
+          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1828,7 +2038,15 @@
         "time": "TBD"
       },
       "id": "d1050230f9791d3c0adfad86bf635dff",
-      "stadium": null
+      "stadium": {
+        "address": "Zwoleń",
+        "venue": "Boisko Zwolenianka Zwoleń",
+        "geo": {
+          "latitude": 51.3622014,
+          "longitude": 21.5862383,
+          "name": "Boisko Zwolenianka, Zwoleń, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1853,7 +2071,15 @@
         "time": "TBD"
       },
       "id": "70a2d5bb518932323c5677c2ff67c4f7",
-      "stadium": null
+      "stadium": {
+        "address": "Chomentów-Puszcz",
+        "venue": "Boisko KS Chomentów",
+        "geo": {
+          "latitude": 51.2857902,
+          "longitude": 21.1839888,
+          "name": "Boisko KS Chomentów, Chomentów-Puszcz, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {

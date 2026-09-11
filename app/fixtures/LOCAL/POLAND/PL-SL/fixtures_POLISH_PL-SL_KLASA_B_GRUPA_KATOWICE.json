@@ -1,6 +1,6 @@
 {
   "competitionName": "Klasa B (Katowice)",
-  "count": 56,
+  "count": 122,
   "matches": [
     {
       "competition": {
@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "id": "f6f1765f2dd723387d1759aa24473972",
       "stadium": null
@@ -39,11 +39,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "b934655572d648d341e2f18d158ba368",
       "stadium": null
@@ -62,11 +62,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T09:00:00.000Z"
       },
       "id": "dcaa09ac6de4bbefe7af129dbb7668f5",
       "stadium": null
@@ -85,11 +85,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "id": "f737e7124d72fc420b271b8203ffd4ec",
       "stadium": {
@@ -116,11 +116,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "cff4f942ea3b20b71da53984728dadc8",
       "stadium": null
@@ -1420,6 +1420,1696 @@
         "time": "TBD"
       },
       "id": "e4b809ef672a0dfb9fc054b622ffa48e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14"
+      },
+      "date": {
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14",
+        "time": "TBD"
+      },
+      "id": "dd2d69f3d4a5784e97d65470c127343d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14"
+      },
+      "date": {
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14",
+        "time": "TBD"
+      },
+      "id": "003cd0d26d17dcd0632a25f5df309e05",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14"
+      },
+      "date": {
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14",
+        "time": "TBD"
+      },
+      "id": "022b912360990a1b4cae7c3086064b02",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14"
+      },
+      "date": {
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14",
+        "time": "TBD"
+      },
+      "id": "742dae94a1eae063b3ea8e75881f3f24",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14"
+      },
+      "date": {
+        "startDate": "2027-03-13",
+        "endDate": "2027-03-14",
+        "time": "TBD"
+      },
+      "id": "612a8e188590d7fdd936ea0264e3c3a7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21"
+      },
+      "date": {
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21",
+        "time": "TBD"
+      },
+      "id": "19ba2c3a94c3d87ffbec91a7ac9bcaaa",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21"
+      },
+      "date": {
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21",
+        "time": "TBD"
+      },
+      "id": "b175c0db5f99bc33ed5d686e6a2105d9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21"
+      },
+      "date": {
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21",
+        "time": "TBD"
+      },
+      "id": "dcc18e1b7e8f2b3ad4453371dd103271",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21"
+      },
+      "date": {
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21",
+        "time": "TBD"
+      },
+      "id": "bec1c24620de2c5ca2e7ea79b853e906",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21"
+      },
+      "date": {
+        "startDate": "2027-03-20",
+        "endDate": "2027-03-21",
+        "time": "TBD"
+      },
+      "id": "5f6f2822b72814da03e849094719d4a4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04"
+      },
+      "date": {
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04",
+        "time": "TBD"
+      },
+      "id": "982798948a74342a71e8e1a15ca38ed3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04"
+      },
+      "date": {
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04",
+        "time": "TBD"
+      },
+      "id": "55b98b52c68023fdc2045525c4dcd721",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04"
+      },
+      "date": {
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04",
+        "time": "TBD"
+      },
+      "id": "3b04931ae3a4b3c14a9fa401a2a073a7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04"
+      },
+      "date": {
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04",
+        "time": "TBD"
+      },
+      "id": "cc82b22324efa04c4b5805077206dbab",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04"
+      },
+      "date": {
+        "startDate": "2027-04-03",
+        "endDate": "2027-04-04",
+        "time": "TBD"
+      },
+      "id": "db1080c0765e227ed25fbccf7861d62b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11"
+      },
+      "date": {
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11",
+        "time": "TBD"
+      },
+      "id": "b747e8a6508466cff838288349bae4a0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11"
+      },
+      "date": {
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11",
+        "time": "TBD"
+      },
+      "id": "2a79bd307128fb220ce384f3dba0b368",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11"
+      },
+      "date": {
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11",
+        "time": "TBD"
+      },
+      "id": "2df284494d68b5f4619371d608dc1d6d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11"
+      },
+      "date": {
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11",
+        "time": "TBD"
+      },
+      "id": "91b46ad9d018bf6b73f2a6dda3e8f1be",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11"
+      },
+      "date": {
+        "startDate": "2027-04-10",
+        "endDate": "2027-04-11",
+        "time": "TBD"
+      },
+      "id": "73b62192a8fa94b86bc8da1997a41f3a",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18"
+      },
+      "date": {
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18",
+        "time": "TBD"
+      },
+      "id": "ea200ae5605ecef556d42ceab082282d",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18"
+      },
+      "date": {
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18",
+        "time": "TBD"
+      },
+      "id": "9701cb58994c98d8c2d6136b7353151e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18"
+      },
+      "date": {
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18",
+        "time": "TBD"
+      },
+      "id": "75b90c8392b0d6b33d8f86ef3c99c9ff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18"
+      },
+      "date": {
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18",
+        "time": "TBD"
+      },
+      "id": "4601e19134ac2657d946af7e6ad27e70",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18"
+      },
+      "date": {
+        "startDate": "2027-04-17",
+        "endDate": "2027-04-18",
+        "time": "TBD"
+      },
+      "id": "84235205fd01286637319f2ac6ce8521",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25"
+      },
+      "date": {
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25",
+        "time": "TBD"
+      },
+      "id": "5a6b0ad1fbbfa24f13f284cf621e19fe",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25"
+      },
+      "date": {
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25",
+        "time": "TBD"
+      },
+      "id": "d327fa4e4c24d7d2baf4408fe5ea83d9",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25"
+      },
+      "date": {
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25",
+        "time": "TBD"
+      },
+      "id": "05902d79540fcbf6e7cbd77a495f36a7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25"
+      },
+      "date": {
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25",
+        "time": "TBD"
+      },
+      "id": "0d22b30897ddd31daf57e3e9e1e91e43",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25"
+      },
+      "date": {
+        "startDate": "2027-04-24",
+        "endDate": "2027-04-25",
+        "time": "TBD"
+      },
+      "id": "a7fbd65f03331439947cae4579561325",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09"
+      },
+      "date": {
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09",
+        "time": "TBD"
+      },
+      "id": "e7e736b9609178f5dd6eef1e86b37cee",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09"
+      },
+      "date": {
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09",
+        "time": "TBD"
+      },
+      "id": "ef45523547c2bed6cdc204f392f79ac7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09"
+      },
+      "date": {
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09",
+        "time": "TBD"
+      },
+      "id": "01e368bcceddbb120e282c57f1806011",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09"
+      },
+      "date": {
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09",
+        "time": "TBD"
+      },
+      "id": "6882994f72eb4b397e293426b193f220",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09"
+      },
+      "date": {
+        "startDate": "2027-05-08",
+        "endDate": "2027-05-09",
+        "time": "TBD"
+      },
+      "id": "66d8bf772f0387eddcbd083e47341b8a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16"
+      },
+      "date": {
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16",
+        "time": "TBD"
+      },
+      "id": "5f7b7ad373408725dc3714606352d332",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16"
+      },
+      "date": {
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16",
+        "time": "TBD"
+      },
+      "id": "346e50d387599e05670056804590057b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16"
+      },
+      "date": {
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16",
+        "time": "TBD"
+      },
+      "id": "b85618d69d37b1c7473f9dd5ca14efe7",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16"
+      },
+      "date": {
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16",
+        "time": "TBD"
+      },
+      "id": "ec5af0b87865757421de2299346f1add",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16"
+      },
+      "date": {
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-16",
+        "time": "TBD"
+      },
+      "id": "330bed3ad2342f028d5877d0cf3029cc",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23"
+      },
+      "date": {
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23",
+        "time": "TBD"
+      },
+      "id": "79d244078afcee7eec5605bb0f03b83a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23"
+      },
+      "date": {
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23",
+        "time": "TBD"
+      },
+      "id": "d18bff3e38c07c106cf3f9ed29c0116d",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23"
+      },
+      "date": {
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23",
+        "time": "TBD"
+      },
+      "id": "67a43b659e2ade48aa2dee5c7dda2aad",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23"
+      },
+      "date": {
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23",
+        "time": "TBD"
+      },
+      "id": "d764b4c0d91f377ca7323f5e2fa6b50a",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23"
+      },
+      "date": {
+        "startDate": "2027-05-22",
+        "endDate": "2027-05-23",
+        "time": "TBD"
+      },
+      "id": "5856ee169fe4e46d634808d89f469801",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30"
+      },
+      "date": {
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30",
+        "time": "TBD"
+      },
+      "id": "4324b294a5210bad75b051133a456535",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30"
+      },
+      "date": {
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30",
+        "time": "TBD"
+      },
+      "id": "619ce51654fcecdcf16f7a108c401bfd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30"
+      },
+      "date": {
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30",
+        "time": "TBD"
+      },
+      "id": "3f3364b8cdf65a010f5a0b8a0f2406c1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30"
+      },
+      "date": {
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30",
+        "time": "TBD"
+      },
+      "id": "9e0d70f30af9cc44416f973eca9aec16",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30"
+      },
+      "date": {
+        "startDate": "2027-05-29",
+        "endDate": "2027-05-30",
+        "time": "TBD"
+      },
+      "id": "e175f44b5649c50c4214fedd40b217a1",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06"
+      },
+      "date": {
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06",
+        "time": "TBD"
+      },
+      "id": "7cdb1ed1c10196df7bdd8e0229b4c0ff",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06"
+      },
+      "date": {
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06",
+        "time": "TBD"
+      },
+      "id": "79f2ab1c5587d3c080d408d9e618de5f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06"
+      },
+      "date": {
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06",
+        "time": "TBD"
+      },
+      "id": "4ed6090205a68bea10a07d71613c846c",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06"
+      },
+      "date": {
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06",
+        "time": "TBD"
+      },
+      "id": "233ef53351d86456a74b16002384df1e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06"
+      },
+      "date": {
+        "startDate": "2027-06-05",
+        "endDate": "2027-06-06",
+        "time": "TBD"
+      },
+      "id": "27ab2ce4ab42ff22cd794ffed507e88e",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siemianowiczanka II Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13"
+      },
+      "date": {
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13",
+        "time": "TBD"
+      },
+      "id": "f82148f8e1cbb3edb91692424995a70f",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13"
+      },
+      "date": {
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13",
+        "time": "TBD"
+      },
+      "id": "ea709cbf57cd61b9d03b3ea2f56dad76",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "awayTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13"
+      },
+      "date": {
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13",
+        "time": "TBD"
+      },
+      "id": "87e66256f3f3ca1895cbdd7583bc12ac",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13"
+      },
+      "date": {
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13",
+        "time": "TBD"
+      },
+      "id": "166dfe56f8f057b373359a58ce59aef3",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13"
+      },
+      "date": {
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13",
+        "time": "TBD"
+      },
+      "id": "91b183355f9f4996f0279fe9e870bf1c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Imielin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13"
+      },
+      "date": {
+        "startDate": "2027-06-12",
+        "endDate": "2027-06-13",
+        "time": "TBD"
+      },
+      "id": "b3f48d5ddedffd25603d0440b185c1f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "1.FC Katowice (2)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "APN Siemianowice Śląskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20"
+      },
+      "date": {
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20",
+        "time": "TBD"
+      },
+      "id": "0ff31885008fe521ed4b884eb40506f6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Śląsk II Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Lipiny (Świętochłowice)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20"
+      },
+      "date": {
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20",
+        "time": "TBD"
+      },
+      "id": "c4a06041f400708c0d1315a38db491cd",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Lechia 06 Mysłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "UKS Ruch Chorzów",
+        "crest": "https://crests.football-data.org/5641.png"
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20"
+      },
+      "date": {
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20",
+        "time": "TBD"
+      },
+      "id": "a462db8bfa03b49386d9a9f3c8586b44",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Ruch III Chorzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Górnik 09 Mysłowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20"
+      },
+      "date": {
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20",
+        "time": "TBD"
+      },
+      "id": "cf9599f32733868a555a09d21deee192",
+      "stadium": {
+        "address": "Cicha 6 Chorzów 41-506",
+        "venue": null,
+        "geo": {
+          "latitude": 50.2822236,
+          "longitude": 18.9445988,
+          "name": "Stadion Ruchu Chorzów, 6, Cicha, Osiedle Ruch, Centrum, Chorzów, Górnośląsko-Zagłębiowska Metropolia, województwo śląskie, 41-506, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Katowice)"
+      },
+      "homeTeam": {
+        "name": "Demon Świętochłowice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Podlesianka II Katowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20"
+      },
+      "date": {
+        "startDate": "2027-06-19",
+        "endDate": "2027-06-20",
+        "time": "TBD"
+      },
+      "id": "8773e668b78441552b7786066bf1397d",
       "stadium": null
     }
   ]

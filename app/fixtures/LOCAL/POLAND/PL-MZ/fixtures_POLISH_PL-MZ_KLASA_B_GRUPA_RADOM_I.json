@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "id": "4ae38a30543ede8afc2b3d1f926c1540",
       "stadium": null
@@ -39,11 +39,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "1c4ea53b478212050fd9dd9a70dcf0ca",
       "stadium": {
@@ -70,11 +70,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "c781106609129149631b884523b6bf3f",
       "stadium": {
@@ -101,11 +101,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "23ba8488db66bb10541465cdb258c090",
       "stadium": null
@@ -124,11 +124,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "e457eb97ae02d3e4fbf0c774a444e166",
       "stadium": {
@@ -155,11 +155,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "4da6f51c565e7227513216a466ca6235",
       "stadium": {
@@ -186,11 +186,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T18:30:00.000Z"
+        "dateTime": "2026-09-13T16:30:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T18:30:00.000Z"
+        "dateTime": "2026-09-13T16:30:00.000Z"
       },
       "id": "e335018b8de20cfa9d76e822e5d27baa",
       "stadium": {
@@ -251,7 +251,15 @@
         "time": "TBD"
       },
       "id": "f0d69905c215e3e78abb169714da0df0",
-      "stadium": null
+      "stadium": {
+        "address": "Garbatka-Letnisko",
+        "venue": "Stadion LKS Plon Garbatka Letnisko",
+        "geo": {
+          "latitude": 51.4951487,
+          "longitude": 21.6274727,
+          "name": "LKS Plon Garbatka Letnisko, Garbatka-Letnisko, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -648,7 +656,15 @@
         "time": "TBD"
       },
       "id": "a5c6dee90053dd4b208272ede199adcb",
-      "stadium": null
+      "stadium": {
+        "address": "Garbatka-Letnisko",
+        "venue": "Stadion LKS Plon Garbatka Letnisko",
+        "geo": {
+          "latitude": 51.4951487,
+          "longitude": 21.6274727,
+          "name": "LKS Plon Garbatka Letnisko, Garbatka-Letnisko, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1053,236 +1069,13 @@
         "time": "TBD"
       },
       "id": "3a81c8d6009665865f238e5f7a3edb65",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Polonia II Iłża",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Legion Suskowola",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "34ff01b448fc350de46d4bc431d7d790",
       "stadium": {
-        "address": "Podzamcze 47, 27-100 Iłża",
-        "venue": "Stadion Miejski w Iłży",
+        "address": "Garbatka-Letnisko",
+        "venue": "Stadion LKS Plon Garbatka Letnisko",
         "geo": {
-          "latitude": 51.1654097,
-          "longitude": 21.243275,
-          "name": "Stadion Miejski w Iłży, Podzamcze 47, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Video Ciepielów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł II Wierzbica",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "facd472e3a2ef136d278e69cd7a01e91",
-      "stadium": {
-        "address": "Stary Ciepielów, 27-310 Ciepielów",
-        "venue": "Boisko sportowe Stary Ciepielów",
-        "geo": {
-          "latitude": 51.2509184,
-          "longitude": 21.5834325,
-          "name": "Boisko sportowe Stary Ciepielów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Krępianka Rzeczniów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Plon Garbatka-Letnisko",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "0c4671bb32c8fd274c877817791ec40f",
-      "stadium": {
-        "address": "Rzeczniów 1B, 27-353 Rzeczniów",
-        "venue": "Stadion w Rzeczniowie",
-        "geo": {
-          "latitude": 51.1280814,
-          "longitude": 21.4279663,
-          "name": "Stadion w Rzeczniowie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom I)"
-      },
-      "homeTeam": {
-        "name": "WKS Zajezierze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisła Chotcza",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "a69f59fb5c53195b414e2d237696d4fd",
-      "stadium": {
-        "address": "28 Pułku Artylerii Lekkiej 20 B, 26-922 Zajezierze",
-        "venue": "Boisko WKS Zajezierze",
-        "geo": {
-          "latitude": 51.539581,
-          "longitude": 21.8149393,
-          "name": "Boisko WKS Zajezierze, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Gryf Policzna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Talent Przyłęk",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "10665dc3d5181fbe378cf947bdefb1d1",
-      "stadium": {
-        "address": "Żeromskiego 44, 26-720 Policzna",
-        "venue": "Stadion Gminny przy ZPO",
-        "geo": {
-          "latitude": 51.4537134,
-          "longitude": 21.6286885,
-          "name": "Stadion Gminny przy ZPO, Policzna, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Hubal Chlewiska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisła Solec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "08b1fc615680e40cea2d19a5ac3b4bcc",
-      "stadium": {
-        "address": "Pawłów, gmina Chlewiska",
-        "venue": "Gminny Stadion Sportowy w Pawłowie",
-        "geo": {
-          "latitude": 51.2515135,
-          "longitude": 20.8211206,
-          "name": "Gminny Stadion Sportowy w Pawłowie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Megawat Świerże Górne",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jodła II Jedlnia-Letnisko",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "7a180b5f9c31ccfd09627c16141b6bbc",
-      "stadium": {
-        "address": "Świerże Górne 52, 26-900 Kozienice",
-        "venue": "Stadion Sportowy w Świerżach Górnych",
-        "geo": {
-          "latitude": 51.6546252,
-          "longitude": 21.4866763,
-          "name": "Stadion Megawat, Świerże Górne, mazowieckie, Polska"
+          "latitude": 51.4951487,
+          "longitude": 21.6274727,
+          "name": "LKS Plon Garbatka Letnisko, Garbatka-Letnisko, mazowieckie, Polska"
         }
       }
     },
@@ -1681,7 +1474,15 @@
         "time": "TBD"
       },
       "id": "e91d0e4417cf77adca0135edabbfdc74",
-      "stadium": null
+      "stadium": {
+        "address": "Garbatka-Letnisko",
+        "venue": "Stadion LKS Plon Garbatka Letnisko",
+        "geo": {
+          "latitude": 51.4951487,
+          "longitude": 21.6274727,
+          "name": "LKS Plon Garbatka Letnisko, Garbatka-Letnisko, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1713,6 +1514,223 @@
           "latitude": 51.2493182,
           "longitude": 21.0727319,
           "name": "Stadion GKS Orzeł Wierzbica, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Polonia II Iłża",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Suskowola",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "34ff01b448fc350de46d4bc431d7d790",
+      "stadium": {
+        "address": "Podzamcze 47, 27-100 Iłża",
+        "venue": "Stadion Miejski w Iłży",
+        "geo": {
+          "latitude": 51.1654097,
+          "longitude": 21.243275,
+          "name": "Stadion Miejski w Iłży, Podzamcze 47, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Video Ciepielów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł II Wierzbica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "facd472e3a2ef136d278e69cd7a01e91",
+      "stadium": {
+        "address": "Stary Ciepielów, 27-310 Ciepielów",
+        "venue": "Boisko sportowe Stary Ciepielów",
+        "geo": {
+          "latitude": 51.2509184,
+          "longitude": 21.5834325,
+          "name": "Boisko sportowe Stary Ciepielów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Krępianka Rzeczniów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Plon Garbatka-Letnisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "0c4671bb32c8fd274c877817791ec40f",
+      "stadium": {
+        "address": "Rzeczniów 1B, 27-353 Rzeczniów",
+        "venue": "Stadion w Rzeczniowie",
+        "geo": {
+          "latitude": 51.1280814,
+          "longitude": 21.4279663,
+          "name": "Stadion w Rzeczniowie, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom I)"
+      },
+      "homeTeam": {
+        "name": "WKS Zajezierze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła Chotcza",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a69f59fb5c53195b414e2d237696d4fd",
+      "stadium": {
+        "address": "28 Pułku Artylerii Lekkiej 20 B, 26-922 Zajezierze",
+        "venue": "Boisko WKS Zajezierze",
+        "geo": {
+          "latitude": 51.539581,
+          "longitude": 21.8149393,
+          "name": "Boisko WKS Zajezierze, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Gryf Policzna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Talent Przyłęk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "10665dc3d5181fbe378cf947bdefb1d1",
+      "stadium": {
+        "address": "Żeromskiego 44, 26-720 Policzna",
+        "venue": "Stadion Gminny przy ZPO",
+        "geo": {
+          "latitude": 51.4537134,
+          "longitude": 21.6286885,
+          "name": "Stadion Gminny przy ZPO, Policzna, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Hubal Chlewiska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła Solec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "08b1fc615680e40cea2d19a5ac3b4bcc",
+      "stadium": {
+        "address": "Pawłów, gmina Chlewiska",
+        "venue": "Gminny Stadion Sportowy w Pawłowie",
+        "geo": {
+          "latitude": 51.2515135,
+          "longitude": 20.8211206,
+          "name": "Gminny Stadion Sportowy w Pawłowie, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Megawat Świerże Górne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jodła II Jedlnia-Letnisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "7a180b5f9c31ccfd09627c16141b6bbc",
+      "stadium": {
+        "address": "Świerże Górne 52, 26-900 Kozienice",
+        "venue": "Stadion Sportowy w Świerżach Górnych",
+        "geo": {
+          "latitude": 51.6546252,
+          "longitude": 21.4866763,
+          "name": "Stadion Megawat, Świerże Górne, mazowieckie, Polska"
         }
       }
     },
@@ -1855,7 +1873,15 @@
         "time": "TBD"
       },
       "id": "fd74c25c18abf1309f481db131cddda2",
-      "stadium": null
+      "stadium": {
+        "address": "Garbatka-Letnisko",
+        "venue": "Stadion LKS Plon Garbatka Letnisko",
+        "geo": {
+          "latitude": 51.4951487,
+          "longitude": 21.6274727,
+          "name": "LKS Plon Garbatka Letnisko, Garbatka-Letnisko, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {

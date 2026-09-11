@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
+        "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "a01fefba56e844f9b64270fab03fd5f9",
       "stadium": {
@@ -47,11 +47,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T13:00:00.000Z"
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T13:00:00.000Z"
+        "dateTime": "2026-09-13T11:00:00.000Z"
       },
       "id": "4dcd5af7e33b7bb5fce64c60d52f4adc",
       "stadium": {
@@ -78,11 +78,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "b01aa1313381da8bb381ea099a859549",
       "stadium": {
@@ -109,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
+        "dateTime": "2026-09-13T13:00:00.000Z"
       },
       "id": "cb2e0469b71efb1a5c6dbc5e6cdae401",
       "stadium": {
@@ -140,11 +140,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "3e00c623807592830a5de305677432b0",
       "stadium": null
@@ -163,11 +163,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "7a097eca6cfd92c6b5988bec199ec34f",
       "stadium": {
@@ -194,11 +194,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "f744ba22136ec37aac1f4bcfa1c1173a",
       "stadium": {
@@ -1044,229 +1044,6 @@
         "name": "Klasa A (Krosno I)"
       },
       "homeTeam": {
-        "name": "LKS Płowce/Stróże Małe",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Victoria Pakoszówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "6da7ae7f60ad7a4843a520ae1b664943",
-      "stadium": {
-        "address": null,
-        "venue": "Boisko LKS Płowce",
-        "geo": {
-          "latitude": 49.5447142,
-          "longitude": 22.1766546,
-          "name": "Boisko LKS Płowce, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno I)"
-      },
-      "homeTeam": {
-        "name": "Cosmos Nowotaniec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orion Pielnia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "5289bc242cfc8d108fde52356f3fb675",
-      "stadium": {
-        "address": "Nowotaniec 118",
-        "venue": "Stadion Cosmos Nowotaniec",
-        "geo": {
-          "latitude": 49.5117863,
-          "longitude": 22.0320721,
-          "name": "COSMOS Nowotaniec, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno I)"
-      },
-      "homeTeam": {
-        "name": "LKS Tarnawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lotniarz Bezmiechowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "5138ebec942ae7e5a53720bab70b91f5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno I)"
-      },
-      "homeTeam": {
-        "name": "LKS Długie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Górnik Grabownica Starzeńska",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "b5ae91b8976eccad000a384f86efb5eb",
-      "stadium": {
-        "address": "Sanocka 90, Długie",
-        "venue": "Stadion LKS Długie",
-        "geo": {
-          "latitude": 49.5781799,
-          "longitude": 22.0457331,
-          "name": "Stadion LKS Długie, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno I)"
-      },
-      "homeTeam": {
-        "name": "LKS Izdebki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Grabowianka Grabówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "587cd560ec771e48321df4e873f96dd8",
-      "stadium": {
-        "address": "Izdebki 1A",
-        "venue": "Stadion LKS Izdebki",
-        "geo": {
-          "latitude": 49.751109,
-          "longitude": 22.1135048,
-          "name": "LKS Izdebki, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno I)"
-      },
-      "homeTeam": {
-        "name": "Sanovia Lesko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Szarotka Uherce",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "6914e26364d5cb8a1bbf3b1f872f0e3b",
-      "stadium": {
-        "address": "Jana Pawła II 1a, Lesko",
-        "venue": "Stadion Sanovii Lesko",
-        "geo": {
-          "latitude": 49.4743451,
-          "longitude": 22.3215114,
-          "name": "Stadion Sanovii, Lesko, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno I)"
-      },
-      "homeTeam": {
-        "name": "LKS Pisarowce",
-        "crest": "https://crests.football-data.org/487.png"
-      },
-      "awayTeam": {
-        "name": "Szarotka Nowosielce",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-13",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "15c3c0ac1f00e77ed54956d78320acd1",
-      "stadium": {
-        "address": "Pisarowce 233",
-        "venue": "Boisko LKS Pisarowce",
-        "geo": {
-          "latitude": 49.5573497,
-          "longitude": 22.1004324,
-          "name": "Boisko LKS Pisarowce, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno I)"
-      },
-      "homeTeam": {
         "name": "Orion Pielnia",
         "crest": null
       },
@@ -1689,6 +1466,215 @@
         "name": "Klasa A (Krosno I)"
       },
       "homeTeam": {
+        "name": "LKS Płowce/Stróże Małe",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Pakoszówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6da7ae7f60ad7a4843a520ae1b664943",
+      "stadium": {
+        "address": null,
+        "venue": "Boisko LKS Płowce",
+        "geo": {
+          "latitude": 49.5447142,
+          "longitude": 22.1766546,
+          "name": "Boisko LKS Płowce, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno I)"
+      },
+      "homeTeam": {
+        "name": "Cosmos Nowotaniec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orion Pielnia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5289bc242cfc8d108fde52356f3fb675",
+      "stadium": {
+        "address": "Nowotaniec 118",
+        "venue": "Stadion Cosmos Nowotaniec",
+        "geo": {
+          "latitude": 49.5117863,
+          "longitude": 22.0320721,
+          "name": "COSMOS Nowotaniec, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno I)"
+      },
+      "homeTeam": {
+        "name": "LKS Tarnawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lotniarz Bezmiechowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5138ebec942ae7e5a53720bab70b91f5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno I)"
+      },
+      "homeTeam": {
+        "name": "LKS Długie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Górnik Grabownica Starzeńska",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "b5ae91b8976eccad000a384f86efb5eb",
+      "stadium": {
+        "address": "Sanocka 90, Długie",
+        "venue": "Stadion LKS Długie",
+        "geo": {
+          "latitude": 49.5781799,
+          "longitude": 22.0457331,
+          "name": "Stadion LKS Długie, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno I)"
+      },
+      "homeTeam": {
+        "name": "LKS Izdebki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grabowianka Grabówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "587cd560ec771e48321df4e873f96dd8",
+      "stadium": {
+        "address": "Izdebki 1A",
+        "venue": "Stadion LKS Izdebki",
+        "geo": {
+          "latitude": 49.751109,
+          "longitude": 22.1135048,
+          "name": "LKS Izdebki, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno I)"
+      },
+      "homeTeam": {
+        "name": "Sanovia Lesko",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Szarotka Uherce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "6914e26364d5cb8a1bbf3b1f872f0e3b",
+      "stadium": {
+        "address": "Jana Pawła II 1a, Lesko",
+        "venue": "Stadion Sanovii Lesko",
+        "geo": {
+          "latitude": 49.4743451,
+          "longitude": 22.3215114,
+          "name": "Stadion Sanovii, Lesko, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno I)"
+      },
+      "homeTeam": {
+        "name": "LKS Pisarowce",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "awayTeam": {
+        "name": "Szarotka Nowosielce",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "15c3c0ac1f00e77ed54956d78320acd1",
+      "stadium": {
+        "address": "Pisarowce 233",
+        "venue": "Boisko LKS Pisarowce",
+        "geo": {
+          "latitude": 49.5573497,
+          "longitude": 22.1004324,
+          "name": "Boisko LKS Pisarowce, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno I)"
+      },
+      "homeTeam": {
         "name": "Victoria Pakoszówka",
         "crest": null
       },
@@ -1904,13 +1890,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "b79ca03a13e104fb2232738d35f5db14",
@@ -1937,13 +1921,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "308b3225b8cf17e580e18f3c0edfd46b",
@@ -1962,13 +1944,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "ac50211dc1fa1cef6b9ef99c6c3efcc8",
@@ -1995,13 +1975,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "9d7255048944a8af34d097d501039095",
@@ -2028,13 +2006,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "5d29cc6c95fabfcb5eece793e709e737",
@@ -2061,13 +2037,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "bc647229f3065fa3524f3f95724d9ccd",
@@ -2094,13 +2068,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-15",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "2208e5fa54b0e207cc9272116751aa35",

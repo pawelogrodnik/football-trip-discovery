@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "id": "8f1d05e98b6f350d9cb909fded70c34e",
       "stadium": null
@@ -39,11 +39,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T17:00:00.000Z"
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "id": "943452a03b5d54f53a6d5582269c5e03",
       "stadium": null
@@ -62,11 +62,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "6514281c2db3a23d725d846bdaaef3a7",
       "stadium": null
@@ -384,89 +384,6 @@
         "name": "Klasa B (Rzeszow III - lancut)"
       },
       "homeTeam": {
-        "name": "Czarni Kraczkowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "HALO Hyżne",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "5aea79bc8ab7f08a26a6506f5a00f012",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
-        "name": "Galicja Chmielnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogórze Husów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "57a25503041db6146f6f3f4c0b50e6a6",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
-        "name": "Błażowianka II Błażowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Arka Albigowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "a697e1e5b769d94f17a6d10c49562ad1",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion LKS Błażowianka",
-        "geo": {
-          "latitude": 49.88797878832253,
-          "longitude": 22.10174876783741,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
         "name": "Galicja Chmielnik",
         "crest": null
       },
@@ -625,6 +542,83 @@
         "name": "Klasa B (Rzeszow III - lancut)"
       },
       "homeTeam": {
+        "name": "Czarni Kraczkowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "HALO Hyżne",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "5aea79bc8ab7f08a26a6506f5a00f012",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow III - lancut)"
+      },
+      "homeTeam": {
+        "name": "Galicja Chmielnik",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogórze Husów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "57a25503041db6146f6f3f4c0b50e6a6",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow III - lancut)"
+      },
+      "homeTeam": {
+        "name": "Błażowianka II Błażowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Arka Albigowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "a697e1e5b769d94f17a6d10c49562ad1",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Błażowianka",
+        "geo": {
+          "latitude": 49.88797878832253,
+          "longitude": 22.10174876783741,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow III - lancut)"
+      },
+      "homeTeam": {
         "name": "HALO Hyżne",
         "crest": null
       },
@@ -708,13 +702,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-13",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-13",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "78e354fd0e9a67ea293d9bf2339bf526",
@@ -733,13 +725,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-13",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-13",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "9599531700626d5aa99817702a9fc22c",
@@ -758,13 +748,11 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-13",
-        "endDate": "2027-11-11"
+        "status": "date-confirmed",
+        "date": "2026-11-11"
       },
       "date": {
-        "startDate": "2026-11-13",
-        "endDate": "2027-11-11",
+        "date": "2026-11-11",
         "time": "TBD"
       },
       "id": "ebb9d7210138ec241bde40250dffef7a",

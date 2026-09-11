@@ -16,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:00:00.000Z"
+        "dateTime": "2026-09-12T09:00:00.000Z"
       },
       "id": "0f530d0c79e716c55bc0e1ee79ba51cc",
       "stadium": {
@@ -47,11 +47,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T12:00:00.000Z"
+        "dateTime": "2026-09-12T10:00:00.000Z"
       },
       "id": "f5597f3f4be9d0c766151ebf33bd08cd",
       "stadium": {
@@ -78,11 +78,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T13:00:00.000Z"
       },
       "date": {
         "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-12T13:00:00.000Z"
       },
       "id": "bbd76d31b1a447a47191674e473ef0ee",
       "stadium": {
@@ -109,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
+        "dateTime": "2026-09-13T12:00:00.000Z"
       },
       "id": "b5238b6e2dcb7c66d801a32d768ae3e0",
       "stadium": null
@@ -132,11 +132,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T17:00:00.000Z"
+        "dateTime": "2026-09-13T15:00:00.000Z"
       },
       "id": "68b7d3b35c5e4f8a76f8bd248c5ef919",
       "stadium": {
@@ -163,11 +163,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T18:45:00.000Z"
+        "dateTime": "2026-09-13T16:45:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T18:45:00.000Z"
+        "dateTime": "2026-09-13T16:45:00.000Z"
       },
       "id": "c96bda3b3d83c55fdc7f03fdcfd5fb8a",
       "stadium": null
@@ -929,196 +929,6 @@
         "name": "Klasa B (Krakow III)"
       },
       "homeTeam": {
-        "name": "Borkowianka Borek Szlachecki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Nadwiślan II Kraków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "497aa3c59a7a54861a16eb2aa5296eac",
-      "stadium": {
-        "address": "Rekreacyjna, 32-050 Borek Szlachecki",
-        "venue": "Boisko LKS Borkowianka",
-        "geo": {
-          "latitude": 49.9609947,
-          "longitude": 19.7844253,
-          "name": "Boisko LKS Borkowianka, Rekreacyjna, Borek Szlachecki, gmina Skawina, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Krakus Swoszowice (Kraków)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Prądniczanka II Kraków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "c3267784116b8240b1da1bdd02603bde",
-      "stadium": {
-        "address": "Kazimierza Moszyńskiego, Kraków (Swoszowice)",
-        "venue": "WLKS Krakus Swoszowice",
-        "geo": {
-          "latitude": 49.9920922,
-          "longitude": 19.9314154,
-          "name": "WLKS Krakus Swoszowice, Kazimierza Moszyńskiego, Swoszowice, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Bieżanowianka II Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "PKS Albertus Kraków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "de358e3d08f230672f8add62b6b07ef6",
-      "stadium": {
-        "address": "Wojciecha Lipowskiego 5, Kraków (Bieżanów)",
-        "venue": "Klub Sportowy Bieżanowianka",
-        "geo": {
-          "latitude": 50.0147901,
-          "longitude": 20.0381983,
-          "name": "Klub Sportowy Bieżanowianka, 5, Wojciecha Lipowskiego, Bieżanów, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Kolejarz/Prokocim II Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Rzozovia Rzozów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "87a1b7ce97cd966a4d6d6e5027e3b8c8",
-      "stadium": {
-        "address": "Bieżanowska 71, 30-812 Kraków",
-        "venue": "Boisko Sportowe KS Kolejarz Prokocim",
-        "geo": {
-          "latitude": 50.0264521,
-          "longitude": 19.9929633,
-          "name": "Boisko KS Kolejarz Prokocim, Bieżanowska 71, Bieżanów-Prokocim, Kraków, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "AM Cracovia",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Akt_Erekcyjny_Cracovia-R%C4%85czna-1_%28cropped%29.jpg?20211214174718"
-      },
-      "awayTeam": {
-        "name": "Płomień II Kostrze (Kraków)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "15b5e77019b9e7174ef55a8045644f7c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow III)"
-      },
-      "homeTeam": {
-        "name": "Wawel Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Opatkowianka Opatkowice (Kraków)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-11",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "e76bdd4dfb275a91f6073bafd903e5fc",
-      "stadium": {
-        "address": "Podchorążych 3, 30-084 Kraków",
-        "venue": "Stadion WKS Wawel",
-        "geo": {
-          "latitude": 50.0766205,
-          "longitude": 19.9076016,
-          "name": "Stadion WKS Wawel, Podchorążych 3, Łobzów, Kraków, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow III)"
-      },
-      "homeTeam": {
         "name": "Prądniczanka II Kraków",
         "crest": null
       },
@@ -1483,6 +1293,184 @@
           "latitude": 50.0875257,
           "longitude": 19.9583497,
           "name": "Stadion Miejski KS Prądniczanka im. Władysława Kawuli, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Borkowianka Borek Szlachecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Nadwiślan II Kraków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "497aa3c59a7a54861a16eb2aa5296eac",
+      "stadium": {
+        "address": "Rekreacyjna, 32-050 Borek Szlachecki",
+        "venue": "Boisko LKS Borkowianka",
+        "geo": {
+          "latitude": 49.9609947,
+          "longitude": 19.7844253,
+          "name": "Boisko LKS Borkowianka, Rekreacyjna, Borek Szlachecki, gmina Skawina, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Krakus Swoszowice (Kraków)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Prądniczanka II Kraków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "c3267784116b8240b1da1bdd02603bde",
+      "stadium": {
+        "address": "Kazimierza Moszyńskiego, Kraków (Swoszowice)",
+        "venue": "WLKS Krakus Swoszowice",
+        "geo": {
+          "latitude": 49.9920922,
+          "longitude": 19.9314154,
+          "name": "WLKS Krakus Swoszowice, Kazimierza Moszyńskiego, Swoszowice, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Bieżanowianka II Kraków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "PKS Albertus Kraków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "de358e3d08f230672f8add62b6b07ef6",
+      "stadium": {
+        "address": "Wojciecha Lipowskiego 5, Kraków (Bieżanów)",
+        "venue": "Klub Sportowy Bieżanowianka",
+        "geo": {
+          "latitude": 50.0147901,
+          "longitude": 20.0381983,
+          "name": "Klub Sportowy Bieżanowianka, 5, Wojciecha Lipowskiego, Bieżanów, Kraków"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Kolejarz/Prokocim II Kraków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rzozovia Rzozów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "87a1b7ce97cd966a4d6d6e5027e3b8c8",
+      "stadium": {
+        "address": "Bieżanowska 71, 30-812 Kraków",
+        "venue": "Boisko Sportowe KS Kolejarz Prokocim",
+        "geo": {
+          "latitude": 50.0264521,
+          "longitude": 19.9929633,
+          "name": "Boisko KS Kolejarz Prokocim, Bieżanowska 71, Bieżanów-Prokocim, Kraków, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "AM Cracovia",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Akt_Erekcyjny_Cracovia-R%C4%85czna-1_%28cropped%29.jpg?20211214174718"
+      },
+      "awayTeam": {
+        "name": "Płomień II Kostrze (Kraków)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "15b5e77019b9e7174ef55a8045644f7c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow III)"
+      },
+      "homeTeam": {
+        "name": "Wawel Kraków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Opatkowianka Opatkowice (Kraków)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-confirmed",
+        "date": "2026-10-31"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "time": "TBD"
+      },
+      "id": "e76bdd4dfb275a91f6073bafd903e5fc",
+      "stadium": {
+        "address": "Podchorążych 3, 30-084 Kraków",
+        "venue": "Stadion WKS Wawel",
+        "geo": {
+          "latitude": 50.0766205,
+          "longitude": 19.9076016,
+          "name": "Stadion WKS Wawel, Podchorążych 3, Łobzów, Kraków, małopolskie, Polska"
         }
       }
     },
@@ -1872,11 +1860,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-11-21T12:00:00.000Z"
+        "dateTime": "2026-11-21T11:00:00.000Z"
       },
       "date": {
         "date": "2026-11-21",
-        "dateTime": "2026-11-21T12:00:00.000Z"
+        "dateTime": "2026-11-21T11:00:00.000Z"
       },
       "id": "e8531b68ff2ecbc27da7046de084404f",
       "stadium": {
