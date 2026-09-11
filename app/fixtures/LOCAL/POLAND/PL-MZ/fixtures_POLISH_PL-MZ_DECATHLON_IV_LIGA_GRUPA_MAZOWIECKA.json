@@ -7,39 +7,6 @@
         "name": "Decathlon IV liga (mazowiecka)"
       },
       "homeTeam": {
-        "name": "Victoria Sulejówek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Błonianka Błonie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "81ca8cea7893b516df3bb1ccbb3502f9",
-      "stadium": {
-        "address": "Sulejówek",
-        "venue": null,
-        "geo": {
-          "latitude": 52.244349,
-          "longitude": 21.2782482,
-          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
         "name": "Ursus Warszawa",
         "crest": null
       },
@@ -210,6 +177,37 @@
           "latitude": 52.2553279,
           "longitude": 21.0000845,
           "name": "Czarna Koszula, 6, Konwiktorska, Staromiejskie, Nowe Miasto, Śródmieście, Warszawa, województwo mazowieckie, 00-206, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon IV liga (mazowiecka)"
+      },
+      "homeTeam": {
+        "name": "Victoria Sulejówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błonianka Błonie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T18:00:00.000Z"
+      },
+      "id": "81ca8cea7893b516df3bb1ccbb3502f9",
+      "stadium": {
+        "address": "Sulejówek",
+        "venue": null,
+        "geo": {
+          "latitude": 52.244349,
+          "longitude": 21.2782482,
+          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
         }
       }
     },

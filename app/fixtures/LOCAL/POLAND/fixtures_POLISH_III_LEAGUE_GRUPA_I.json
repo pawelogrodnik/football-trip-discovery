@@ -831,6 +831,36 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "awayTeam": {
+        "name": "Jagiellonia II Białystok",
+        "crest": "https://crests.football-data.org/5631.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-25T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-25",
+        "dateTime": "2026-09-25T16:00:00.000Z"
+      },
+      "id": "3e01de217f356137f05c2553291f26cf",
+      "stadium": {
+        "venue": "Orlen Stadion im. Kazimierza Górskiego, Płock",
+        "geo": {
+          "latitude": 52.562004,
+          "longitude": 19.684067,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
         "name": "Ząbkovia Ząbki",
         "crest": null
       },
@@ -886,63 +916,6 @@
           "name": null
         }
       }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
-        "name": "Wisła II Płock",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
-      },
-      "awayTeam": {
-        "name": "Jagiellonia II Białystok",
-        "crest": "https://crests.football-data.org/5631.png"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "3e01de217f356137f05c2553291f26cf",
-      "stadium": {
-        "venue": "Orlen Stadion im. Kazimierza Górskiego, Płock",
-        "geo": {
-          "latitude": 52.562004,
-          "longitude": 19.684067,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
-        "name": "Polonia Lidzbark Warmiński",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KTS Weszło Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "0120d0d722d43536b5eb513e192d7d12",
-      "stadium": null
     },
     {
       "competition": {
@@ -1060,6 +1033,29 @@
           "name": "1, Sportowa, Florencja, Mińsk Mazowiecki, powiat miński, województwo mazowieckie, 05-300, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Polonia Lidzbark Warmiński",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KTS Weszło Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T18:00:00.000Z"
+      },
+      "id": "0120d0d722d43536b5eb513e192d7d12",
+      "stadium": null
     },
     {
       "competition": {
@@ -1193,38 +1189,6 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "Lechia Tomaszów Mazowiecki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Polonia Lidzbark Warmiński",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
-      },
-      "date": {
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "time": "TBD"
-      },
-      "id": "7f45c179713ef18e30530965215e3602",
-      "stadium": {
-        "venue": "Stadion im. Braci Gadajów",
-        "geo": {
-          "latitude": 51.533611,
-          "longitude": 20.019722,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
         "name": "Mławianka Mława",
         "crest": null
       },
@@ -1345,6 +1309,36 @@
           "latitude": 52.3000993,
           "longitude": 20.944846,
           "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Lechia Tomaszów Mazowiecki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Lidzbark Warmiński",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T15:00:00.000Z"
+      },
+      "id": "7f45c179713ef18e30530965215e3602",
+      "stadium": {
+        "venue": "Stadion im. Braci Gadajów",
+        "geo": {
+          "latitude": 51.533611,
+          "longitude": 20.019722,
+          "name": null
         }
       }
     },
@@ -1684,39 +1678,6 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "KTS Weszło Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Warta Sieradz",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-15",
-        "endDate": "2026-10-31"
-      },
-      "date": {
-        "startDate": "2026-10-15",
-        "endDate": "2026-10-31",
-        "time": "TBD"
-      },
-      "id": "940f18729a8646fc265c0a6332f2f433",
-      "stadium": {
-        "venue": "Stadion KTS Weszło",
-        "address": "Marymoncka 42, Warszawa",
-        "geo": {
-          "latitude": 52.3000993,
-          "longitude": 20.944846,
-          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
         "name": "Lechia Tomaszów Mazowiecki",
         "crest": null
       },
@@ -1942,39 +1903,6 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "KTS Weszło Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Mazovia Mińsk Mazowiecki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
-      },
-      "date": {
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "time": "TBD"
-      },
-      "id": "81d008d44771227bed86cf4cb83c8c54",
-      "stadium": {
-        "venue": "Stadion KTS Weszło",
-        "address": "Marymoncka 42, Warszawa",
-        "geo": {
-          "latitude": 52.3000993,
-          "longitude": 20.944846,
-          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
         "name": "Lechia Tomaszów Mazowiecki",
         "crest": null
       },
@@ -2158,6 +2086,37 @@
           "latitude": 53.187013,
           "longitude": 22.087903,
           "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "KTS Weszło Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-18T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T15:00:00.000Z"
+      },
+      "id": "81d008d44771227bed86cf4cb83c8c54",
+      "stadium": {
+        "venue": "Stadion KTS Weszło",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
         }
       }
     },
@@ -2467,6 +2426,37 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
+        "name": "KTS Weszło Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-31T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T15:00:00.000Z"
+      },
+      "id": "940f18729a8646fc265c0a6332f2f433",
+      "stadium": {
+        "venue": "Stadion KTS Weszło",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
         "name": "ŁKS Łomża",
         "crest": null
       },
@@ -2768,39 +2758,6 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "KTS Weszło Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisła II Płock",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
-      },
-      "date": {
-        "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "time": "TBD"
-      },
-      "id": "ba02b23fb8f70ed636428e1dc1b16557",
-      "stadium": {
-        "venue": "Stadion KTS Weszło",
-        "address": "Marymoncka 42, Warszawa",
-        "geo": {
-          "latitude": 52.3000993,
-          "longitude": 20.944846,
-          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
         "name": "Lechia Tomaszów Mazowiecki",
         "crest": null
       },
@@ -3047,6 +3004,37 @@
           "latitude": 53.187013,
           "longitude": 22.087903,
           "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "KTS Weszło Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-14T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T15:00:00.000Z"
+      },
+      "id": "ba02b23fb8f70ed636428e1dc1b16557",
+      "stadium": {
+        "venue": "Stadion KTS Weszło",
+        "address": "Marymoncka 42, Warszawa",
+        "geo": {
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
         }
       }
     },

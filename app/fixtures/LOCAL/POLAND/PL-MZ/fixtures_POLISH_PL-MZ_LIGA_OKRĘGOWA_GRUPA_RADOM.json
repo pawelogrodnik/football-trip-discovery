@@ -38,37 +38,6 @@
         "name": "Liga okręgowa (Radom)"
       },
       "homeTeam": {
-        "name": "Orzeł Wierzbica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Stromiec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T11:00:00.000Z"
-      },
-      "id": "56abd35054c9b4fa8f124779da8d2beb",
-      "stadium": {
-        "address": "Kościuszki 37, 26-680 Wierzbica",
-        "venue": "Stadion GKS Orzeł Wierzbica",
-        "geo": {
-          "latitude": 51.2493182,
-          "longitude": 21.0727319,
-          "name": "Stadion GKS Orzeł Wierzbica, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Liga okręgowa (Radom)"
-      },
-      "homeTeam": {
         "name": "Sokół Przytyk",
         "crest": null
       },
@@ -86,6 +55,37 @@
       },
       "id": "0be03c1729da765dbfe4a50eb25198b2",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Liga okręgowa (Radom)"
+      },
+      "homeTeam": {
+        "name": "KS Stromiec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wierzbica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:05:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:05:00.000Z"
+      },
+      "id": "c8782158d4514e40069b2ddd4c405881",
+      "stadium": {
+        "address": "Stromiec 68, 26-804 Stromiec",
+        "venue": "Boisko Gminne w Stromcu",
+        "geo": {
+          "latitude": 51.6382251,
+          "longitude": 21.0846167,
+          "name": "Boisko Gminne w Stromcu, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {

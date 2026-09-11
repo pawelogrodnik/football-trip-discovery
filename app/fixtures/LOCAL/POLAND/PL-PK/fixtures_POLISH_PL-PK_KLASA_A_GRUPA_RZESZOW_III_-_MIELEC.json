@@ -1,30 +1,7 @@
 {
   "competitionName": "Klasa A (Rzeszow III - Mielec)",
-  "count": 70,
+  "count": 69,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa A (Rzeszow III - Mielec)"
-      },
-      "homeTeam": {
-        "name": "Zacisze Trześń",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Start Wola Mielecka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-09T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-09",
-        "dateTime": "2026-09-09T17:00:00.000Z"
-      },
-      "id": "fffd740b6ea42e9eff23764862c2043b",
-      "stadium": null
-    },
     {
       "competition": {
         "name": "Klasa A (Rzeszow III - Mielec)"
@@ -53,6 +30,37 @@
           "latitude": 50.3324497,
           "longitude": 21.4975736,
           "name": "LKS Czarni Trześń, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rzeszow III - Mielec)"
+      },
+      "homeTeam": {
+        "name": "Błękitni Siedlanka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radomyślanka II Radomyśl Wielki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "1ac71b9d7c1d5d25361863a78b135524",
+      "stadium": {
+        "address": "Siedlanka",
+        "venue": "Boisko Błękitnych Siedlanka",
+        "geo": {
+          "latitude": 50.2600547,
+          "longitude": 21.6710467,
+          "name": "Boisko Błękitnych, Siedlanka, podkarpackie, Polska"
         }
       }
     },
@@ -146,37 +154,6 @@
           "latitude": 50.3531252,
           "longitude": 21.3961001,
           "name": "Boisko Dromadera, Chrząstów, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Rzeszow III - Mielec)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Siedlanka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Radomyślanka II Radomyśl Wielki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "id": "1ac71b9d7c1d5d25361863a78b135524",
-      "stadium": {
-        "address": "Siedlanka",
-        "venue": "Boisko Błękitnych Siedlanka",
-        "geo": {
-          "latitude": 50.2600547,
-          "longitude": 21.6710467,
-          "name": "Boisko Błękitnych, Siedlanka, podkarpackie, Polska"
         }
       }
     },

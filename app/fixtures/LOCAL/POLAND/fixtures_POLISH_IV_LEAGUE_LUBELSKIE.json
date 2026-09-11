@@ -1,70 +1,7 @@
 {
   "competitionName": "IV Liga Lubelska",
-  "count": 81,
+  "count": 80,
   "matches": [
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Górnik II Łęczna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Avia II Świdnik",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Herb_Avii_%C5%9Awidnik_-_70-cio_lecie.svg"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-09T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-09",
-        "dateTime": "2026-09-09T17:00:00.000Z"
-      },
-      "id": "0248fc614ad4966311cff02d798b8dfb",
-      "stadium": {
-        "address": "al. Jana Pawła II 13 Łęczna 21010",
-        "venue": "Stadion Górnik Łęczna",
-        "geo": {
-          "latitude": 51.30171514699003,
-          "longitude": 22.876787361148388
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Łada 1945 Biłgoraj",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lublinianka Lublin",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "62f0685a094bab6b2f19062ba94be1e8",
-      "stadium": {
-        "venue": "Stadion OSiR Biłgoraj",
-        "address": "Targowa 15, Biłgoraj",
-        "geo": {
-          "latitude": 50.5463322,
-          "longitude": 22.7166497,
-          "name": "15, Targowa, Bojary, Biłgoraj, powiat biłgorajski, województwo lubelskie, 23-400, Polska"
-        }
-      }
-    },
     {
       "competition": {
         "name": "IV Liga Lubelska"
@@ -202,11 +139,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
+        "dateTime": "2026-09-13T10:00:00.000Z"
       },
       "id": "64bb6df0a072c0ec46debda879b2d607",
       "stadium": {
@@ -215,6 +152,37 @@
         "geo": {
           "latitude": 51.30171514699003,
           "longitude": 22.876787361148388
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubelska"
+      },
+      "homeTeam": {
+        "name": "Łada 1945 Biłgoraj",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lublinianka Lublin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "62f0685a094bab6b2f19062ba94be1e8",
+      "stadium": {
+        "venue": "Stadion OSiR Biłgoraj",
+        "address": "Targowa 15, Biłgoraj",
+        "geo": {
+          "latitude": 50.5463322,
+          "longitude": 22.7166497,
+          "name": "15, Targowa, Bojary, Biłgoraj, powiat biłgorajski, województwo lubelskie, 23-400, Polska"
         }
       }
     },

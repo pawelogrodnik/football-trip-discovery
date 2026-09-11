@@ -7,31 +7,6 @@
         "name": "Klasa A (Czestochowa II)"
       },
       "homeTeam": {
-        "name": "Zieloni II Żarki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Huta Stara",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "8c2aa768608714d5165b427394bff0ee",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Czestochowa II)"
-      },
-      "homeTeam": {
         "name": "Grom Poczesna",
         "crest": null
       },
@@ -140,6 +115,29 @@
         "dateTime": "2026-09-12T16:00:00.000Z"
       },
       "id": "3edad1fa5c8ad408c3c88c0fdf718906",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Czestochowa II)"
+      },
+      "homeTeam": {
+        "name": "Zieloni II Żarki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Huta Stara",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "8c2aa768608714d5165b427394bff0ee",
       "stadium": null
     },
     {

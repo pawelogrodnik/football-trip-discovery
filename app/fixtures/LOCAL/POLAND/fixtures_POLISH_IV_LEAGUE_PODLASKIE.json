@@ -7,33 +7,23 @@
         "name": "IV Liga Podlaskie"
       },
       "homeTeam": {
-        "name": "Warmia Grajewo",
+        "name": "Tur Bielsk Podlaski",
         "crest": null
       },
       "awayTeam": {
-        "name": "Pionier Brańsk",
-        "crest": "https://crests.football-data.org/11289.png"
+        "name": "Krypnianka Krypno",
+        "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
+        "status": "confirmed",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T15:00:00.000Z"
       },
-      "id": "812f9fcda80e0c02b6bfde0eba8d5abe",
-      "stadium": {
-        "venue": "Stadion Miejski im. Leszka Błażyńskiego",
-        "address": "Piłsudskiego 30, Grajewo",
-        "geo": {
-          "latitude": 53.6438053,
-          "longitude": 22.4481096,
-          "name": "30, Józefa Piłsudskiego, Osiedle 1000-lecia, Grajewo, powiat grajewski, województwo podlaskie, 19-200, Polska"
-        }
-      }
+      "id": "14f0d880a28c8cfd054c5d7f26f4c681",
+      "stadium": null
     },
     {
       "competition": {
@@ -125,6 +115,37 @@
         "name": "IV Liga Podlaskie"
       },
       "homeTeam": {
+        "name": "Warmia Grajewo",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pionier Brańsk",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T16:00:00.000Z"
+      },
+      "id": "812f9fcda80e0c02b6bfde0eba8d5abe",
+      "stadium": {
+        "venue": "Stadion Miejski im. Leszka Błażyńskiego",
+        "address": "Piłsudskiego 30, Grajewo",
+        "geo": {
+          "latitude": 53.6438053,
+          "longitude": 22.4481096,
+          "name": "30, Józefa Piłsudskiego, Osiedle 1000-lecia, Grajewo, powiat grajewski, województwo podlaskie, 19-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Podlaskie"
+      },
+      "homeTeam": {
         "name": "Supraślanka Supraśl",
         "crest": null
       },
@@ -150,29 +171,6 @@
           "name": "2, Sportowa, Ciasne, gmina Supraśl, powiat białostocki, województwo podlaskie, 16-030, Polska"
         }
       }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Podlaskie"
-      },
-      "homeTeam": {
-        "name": "Tur Bielsk Podlaski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Krypnianka Krypno",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T16:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:30:00.000Z"
-      },
-      "id": "14f0d880a28c8cfd054c5d7f26f4c681",
-      "stadium": null
     },
     {
       "competition": {
@@ -224,36 +222,6 @@
         "geo": {
           "latitude": 53.04106436365693,
           "longitude": 21.999600517078587
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Podlaskie"
-      },
-      "homeTeam": {
-        "name": "Wissa Szczuczyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ruch Wysokie Mazowieckie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-16T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-16",
-        "dateTime": "2026-09-16T16:00:00.000Z"
-      },
-      "id": "6c630c00847b32192e4ccaf6b127a9b1",
-      "stadium": {
-        "venue": "Stadion Miejski w Szczuczynie",
-        "address": "Sportowa 4, Szczuczyn",
-        "geo": {
-          "latitude": 53.570182724433444,
-          "longitude": 22.282239250517787
         }
       }
     },
@@ -1424,6 +1392,36 @@
         "geo": {
           "latitude": 53.04106436365693,
           "longitude": 21.999600517078587
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Podlaskie"
+      },
+      "homeTeam": {
+        "name": "Wissa Szczuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Ruch Wysokie Mazowieckie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-14T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-14",
+        "dateTime": "2026-10-14T16:00:00.000Z"
+      },
+      "id": "6c630c00847b32192e4ccaf6b127a9b1",
+      "stadium": {
+        "venue": "Stadion Miejski w Szczuczynie",
+        "address": "Sportowa 4, Szczuczyn",
+        "geo": {
+          "latitude": 53.570182724433444,
+          "longitude": 22.282239250517787
         }
       }
     },

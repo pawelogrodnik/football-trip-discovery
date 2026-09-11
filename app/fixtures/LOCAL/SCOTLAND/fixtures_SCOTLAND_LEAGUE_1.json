@@ -4,60 +4,6 @@
       "name": "Premiership (Scotland)"
     },
     "homeTeam": {
-      "name": "Rangers",
-      "crest": "https://crests.football-data.org/69.png"
-    },
-    "awayTeam": {
-      "name": "St. Mirren",
-      "crest": "https://crests.football-data.org/5387.png"
-    },
-    "schedule": {
-      "status": "confirmed",
-      "dateTime": "2026-09-09T18:45:00.000Z"
-    },
-    "date": {
-      "date": "2026-09-09T18:45:00.000Z",
-      "dateTime": "2026-09-09T18:45:00.000Z"
-    },
-    "id": "64b6aedac801b9886f339e2ea995c788",
-    "stadium": {
-      "address": "South Africa Road, Shepherds Bush London W12 7PA",
-      "venue": "Kiyan Prince Foundation Stadium",
-      "geo": {
-        "latitude": 51.5094016,
-        "longitude": -0.2321136,
-        "name": "MATRADE Loftus Road Stadium, South Africa Road, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 7PA, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
-      "name": "St Johnstone",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Celtic",
-      "crest": "https://crests.football-data.org/732.png"
-    },
-    "schedule": {
-      "status": "confirmed",
-      "dateTime": "2026-09-09T19:00:00.000Z"
-    },
-    "date": {
-      "date": "2026-09-09T19:00:00.000Z",
-      "dateTime": "2026-09-09T19:00:00.000Z"
-    },
-    "id": "b0550f5a6a8992fbc1e1e0673d0ea1c1",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "Premiership (Scotland)"
-    },
-    "homeTeam": {
       "name": "Falkirk",
       "crest": "https://crests.football-data.org/5382.png"
     },
@@ -3155,5 +3101,152 @@
     },
     "id": "9670c5852ad40f6f075f06b8952a996c",
     "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Dundee FC",
+      "crest": "https://crests.football-data.org/5369.png"
+    },
+    "awayTeam": {
+      "name": "Aberdeen",
+      "crest": "https://crests.football-data.org/5368.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
+    "date": {
+      "date": "2027-01-23",
+      "time": "TBD"
+    },
+    "id": "ba298ccd068cabe06aa5fdd8d8338857",
+    "stadium": {
+      "address": "Sandeman Street Dundee DD3 7JY",
+      "venue": "Kilmac Stadium at Dens Park",
+      "geo": {
+        "latitude": 56.4752697,
+        "longitude": -2.9682838,
+        "name": "Sandeman Street, Clepington, Stobswell, Dundee, Dundee City, Alba / Scotland, DD3 7LE, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Falkirk",
+      "crest": "https://crests.football-data.org/5382.png"
+    },
+    "awayTeam": {
+      "name": "Hearts",
+      "crest": "https://crests.football-data.org/5371.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
+    "date": {
+      "date": "2027-01-23",
+      "time": "TBD"
+    },
+    "id": "ca8d3198b84dc6a30f871a46a934fd6b",
+    "stadium": {
+      "address": "Falkirk",
+      "venue": "Falkirk Community Stadium",
+      "geo": {
+        "latitude": 55.9991959,
+        "longitude": -3.784376,
+        "name": "Falkirk, Alba / Scotland, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Hibernian",
+      "crest": "https://crests.football-data.org/1892.png"
+    },
+    "awayTeam": {
+      "name": "Kilmarnock",
+      "crest": "https://crests.football-data.org/5373.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
+    "date": {
+      "date": "2027-01-23",
+      "time": "TBD"
+    },
+    "id": "4e2f1f33f113a8ac9fff61001d84a8c9",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Motherwell",
+      "crest": "https://crests.football-data.org/5374.png"
+    },
+    "awayTeam": {
+      "name": "Dundee Utd",
+      "crest": "https://crests.football-data.org/5381.png"
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
+    "date": {
+      "date": "2027-01-23",
+      "time": "TBD"
+    },
+    "id": "adbfaea9b80fdf8551700c088006a2c9",
+    "stadium": {
+      "address": "Firpark Street Motherwell ML1 2QN",
+      "venue": "Fir Park",
+      "geo": {
+        "latitude": 53.3807503,
+        "longitude": -2.7482866,
+        "name": "Fir Park, Upton Rocks, Widnes, Halton, Liverpool City Region, England, United Kingdom"
+      }
+    }
+  },
+  {
+    "competition": {
+      "name": "Premiership (Scotland)"
+    },
+    "homeTeam": {
+      "name": "Rangers",
+      "crest": "https://crests.football-data.org/69.png"
+    },
+    "awayTeam": {
+      "name": "St Johnstone",
+      "crest": null
+    },
+    "schedule": {
+      "status": "date-confirmed",
+      "date": "2027-01-23"
+    },
+    "date": {
+      "date": "2027-01-23",
+      "time": "TBD"
+    },
+    "id": "cc226aefe85669a0d0fc2ffb3c3ebe7a",
+    "stadium": {
+      "address": "South Africa Road, Shepherds Bush London W12 7PA",
+      "venue": "Kiyan Prince Foundation Stadium",
+      "geo": {
+        "latitude": 51.5094016,
+        "longitude": -0.2321136,
+        "name": "MATRADE Loftus Road Stadium, South Africa Road, Shepherd's Bush, London Borough of Hammersmith and Fulham, London, Greater London, England, W12 7PA, United Kingdom"
+      }
+    }
   }
 ]

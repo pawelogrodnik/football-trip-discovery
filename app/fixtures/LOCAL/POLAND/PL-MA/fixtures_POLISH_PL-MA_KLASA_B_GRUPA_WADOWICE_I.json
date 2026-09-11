@@ -7,39 +7,6 @@
         "name": "Klasa B (Wadowice I)"
       },
       "homeTeam": {
-        "name": "Grom Grzechynia",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Bieńkówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "6600b37e67a9fc942a3a353c0d0563cd",
-      "stadium": {
-        "address": "Grzechynia 163, 34-220 Maków Podhalański",
-        "venue": "Stadion Sportowy w Grzechyni",
-        "geo": {
-          "latitude": 49.7137168,
-          "longitude": 19.6317533,
-          "name": "Stadion Sportowy w Grzechyni, Grzechynia, powiat suski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Wadowice I)"
-      },
-      "homeTeam": {
         "name": "Olimpia Zebrzydowice",
         "crest": null
       },
@@ -94,6 +61,37 @@
           "latitude": 49.7820809,
           "longitude": 19.6021747,
           "name": "Stadion LKS Błyskawica Marcówka, Marcówka, powiat suski, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Wadowice I)"
+      },
+      "homeTeam": {
+        "name": "Grom Grzechynia",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Bieńkówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T17:00:00.000Z"
+      },
+      "id": "6600b37e67a9fc942a3a353c0d0563cd",
+      "stadium": {
+        "address": "Grzechynia 163, 34-220 Maków Podhalański",
+        "venue": "Stadion Sportowy w Grzechyni",
+        "geo": {
+          "latitude": 49.7137168,
+          "longitude": 19.6317533,
+          "name": "Stadion Sportowy w Grzechyni, Grzechynia, powiat suski, małopolskie, Polska"
         }
       }
     },

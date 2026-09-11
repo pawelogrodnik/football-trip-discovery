@@ -1,55 +1,5 @@
 [
   {
-    "id": "2cbae707d440227668c376789794dd07",
-    "date": {
-      "date": "2026-09-07T23:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 26,
-    "homeTeam": {
-      "name": "EC Vitória",
-      "crest": "https://crests.football-data.org/1782.png"
-    },
-    "awayTeam": {
-      "name": "Grêmio FBPA",
-      "crest": "https://crests.football-data.org/1767.png"
-    },
-    "stadium": {
-      "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-      "venue": "Estádio Manoel Barradas",
-      "geo": {
-        "latitude": -12.9190959,
-        "longitude": -38.4271321,
-        "name": "Estádio Manoel Barradas, Avenida Artêmio Castro Valente, Salvador, Região Geográfica Imediata de Salvador, Região Metropolitana de Salvador, Região Geográfica Intermediária de Salvador, Bahia, Região Nordeste, 41385-005, Brasil"
-      }
-    }
-  },
-  {
-    "id": "c0d8e934a298700e7b271d780ea23a5c",
-    "date": {
-      "date": "2026-09-12T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 27,
-    "homeTeam": {
-      "name": "EC Bahia",
-      "crest": "https://crests.football-data.org/1777.png"
-    },
-    "awayTeam": {
-      "name": "Clube do Remo",
-      "crest": "https://crests.football-data.org/4287.png"
-    },
-    "stadium": null
-  },
-  {
     "id": "c32dfce79e0f25fdcd7fb93854d711c5",
     "date": {
       "date": "2026-09-12T00:00:00Z"
@@ -75,64 +25,6 @@
         "latitude": -25.4214376,
         "longitude": -49.2597567,
         "name": "Estádio Major Antônio Couto Pereira, 63, Rua Ubaldino do Amaral, Alto da Glória, Curitiba, Região Geográfica Imediata de Curitiba, Região Metropolitana de Curitiba, Região Geográfica Intermediária de Curitiba, Paraná, Região Sul, 80060-195, Brasil"
-      }
-    }
-  },
-  {
-    "id": "7fe602cc074a3cbe9459b7615102b283",
-    "date": {
-      "date": "2026-09-12T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 27,
-    "homeTeam": {
-      "name": "CR Flamengo",
-      "crest": "https://crests.football-data.org/1783.png"
-    },
-    "awayTeam": {
-      "name": "SC Corinthians Paulista",
-      "crest": "https://crests.football-data.org/1779.png"
-    },
-    "stadium": {
-      "address": "Rio de Janeiro, RJ",
-      "venue": "Estadio Jornalista Mário Filho",
-      "geo": {
-        "latitude": -22.9121619,
-        "longitude": -43.2311861,
-        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
-      }
-    }
-  },
-  {
-    "id": "f070462a90332d9648792514dd1bcd42",
-    "date": {
-      "date": "2026-09-12T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 27,
-    "homeTeam": {
-      "name": "Mirassol FC",
-      "crest": "https://crests.football-data.org/4364.png"
-    },
-    "awayTeam": {
-      "name": "EC Vitória",
-      "crest": "https://crests.football-data.org/1782.png"
-    },
-    "stadium": {
-      "address": "Mirassol, SP",
-      "venue": "Estádio José Maria de Campos Maia",
-      "geo": {
-        "latitude": -22.938128,
-        "longitude": -45.4658011,
-        "name": "Estádio do Cardosão (Campo do Corinthians), Rua do Cardoso, Alto do Cardoso, Centro, Pindamonhangaba, Região Imediata de Taubaté-Pindamonhangaba, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, 12420-010, Brasil"
       }
     }
   },
@@ -311,6 +203,85 @@
     }
   },
   {
+    "id": "f070462a90332d9648792514dd1bcd42",
+    "date": {
+      "date": "2026-09-13T19:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 27,
+    "homeTeam": {
+      "name": "Mirassol FC",
+      "crest": "https://crests.football-data.org/4364.png"
+    },
+    "awayTeam": {
+      "name": "EC Vitória",
+      "crest": "https://crests.football-data.org/1782.png"
+    },
+    "stadium": {
+      "address": "Mirassol, SP",
+      "venue": "Estádio José Maria de Campos Maia",
+      "geo": {
+        "latitude": -22.938128,
+        "longitude": -45.4658011,
+        "name": "Estádio do Cardosão (Campo do Corinthians), Rua do Cardoso, Alto do Cardoso, Centro, Pindamonhangaba, Região Imediata de Taubaté-Pindamonhangaba, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, 12420-010, Brasil"
+      }
+    }
+  },
+  {
+    "id": "7fe602cc074a3cbe9459b7615102b283",
+    "date": {
+      "date": "2026-09-13T20:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 27,
+    "homeTeam": {
+      "name": "CR Flamengo",
+      "crest": "https://crests.football-data.org/1783.png"
+    },
+    "awayTeam": {
+      "name": "SC Corinthians Paulista",
+      "crest": "https://crests.football-data.org/1779.png"
+    },
+    "stadium": {
+      "address": "Rio de Janeiro, RJ",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.9121619,
+        "longitude": -43.2311861,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
+  },
+  {
+    "id": "c0d8e934a298700e7b271d780ea23a5c",
+    "date": {
+      "date": "2026-09-14T23:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 27,
+    "homeTeam": {
+      "name": "EC Bahia",
+      "crest": "https://crests.football-data.org/1777.png"
+    },
+    "awayTeam": {
+      "name": "Clube do Remo",
+      "crest": "https://crests.football-data.org/4287.png"
+    },
+    "stadium": null
+  },
+  {
     "id": "5e5ee53e92c746f7407eb220587c39f6",
     "date": {
       "date": "2026-09-16T22:30:00Z"
@@ -336,151 +307,6 @@
         "latitude": -10.2821413,
         "longitude": -48.3306497,
         "name": "Estádio Nilton Santos, Avenida Ns 2, Palmas, Região Geográfica Imediata de Palmas, Região Geográfica Intermediária de Palmas, Tocantins, Região Norte, 77019-900, Brasil"
-      }
-    }
-  },
-  {
-    "id": "5fb77af2b87a26b30dd3b210097a4253",
-    "date": {
-      "date": "2026-09-19T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 28,
-    "homeTeam": {
-      "name": "CA Paranaense",
-      "crest": "https://crests.football-data.org/1768.png"
-    },
-    "awayTeam": {
-      "name": "EC Bahia",
-      "crest": "https://crests.football-data.org/1777.png"
-    },
-    "stadium": {
-      "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
-      "venue": "Estádio Joaquim Américo Guimarães",
-      "geo": {
-        "latitude": -25.4483457,
-        "longitude": -49.2768771,
-        "name": "Ligga Arena, Rua Petit Carneiro, Água Verde, Curitiba, Região Geográfica Imediata de Curitiba, Região Metropolitana de Curitiba, Região Geográfica Intermediária de Curitiba, Paraná, Região Sul, 80250-100, Brasil"
-      }
-    }
-  },
-  {
-    "id": "f7162e725889fe0bff759b2c9f3f9b5d",
-    "date": {
-      "date": "2026-09-19T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 28,
-    "homeTeam": {
-      "name": "SC Corinthians Paulista",
-      "crest": "https://crests.football-data.org/1779.png"
-    },
-    "awayTeam": {
-      "name": "Fluminense FC",
-      "crest": "https://crests.football-data.org/1765.png"
-    },
-    "stadium": {
-      "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
-      "venue": "Neo Química Arena",
-      "geo": {
-        "latitude": -23.5453328,
-        "longitude": -46.4743055,
-        "name": "Neo Química Arena, 111, Avenida Miguel Inácio Curi, Cidade Antônio Estêvão de Carvalho, Itaquera, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 08295-005, Brasil"
-      }
-    }
-  },
-  {
-    "id": "4294c7174c9ab4af47ed1bba9240d735",
-    "date": {
-      "date": "2026-09-19T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 28,
-    "homeTeam": {
-      "name": "CR Flamengo",
-      "crest": "https://crests.football-data.org/1783.png"
-    },
-    "awayTeam": {
-      "name": "RB Bragantino",
-      "crest": "https://crests.football-data.org/4286.png"
-    },
-    "stadium": {
-      "address": "Rio de Janeiro, RJ",
-      "venue": "Estadio Jornalista Mário Filho",
-      "geo": {
-        "latitude": -22.9121619,
-        "longitude": -43.2311861,
-        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
-      }
-    }
-  },
-  {
-    "id": "79f7d90fa02e1534bb3ebfaf538930cb",
-    "date": {
-      "date": "2026-09-19T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 28,
-    "homeTeam": {
-      "name": "Grêmio FBPA",
-      "crest": "https://crests.football-data.org/1767.png"
-    },
-    "awayTeam": {
-      "name": "SE Palmeiras",
-      "crest": "https://crests.football-data.org/1769.png"
-    },
-    "stadium": {
-      "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
-      "venue": "Arena do Grêmio",
-      "geo": {
-        "latitude": -29.9740429,
-        "longitude": -51.1951073,
-        "name": "Arena do Grêmio, 110, Avenida Padre Leopoldo Brentano, Farrapos, Porto Alegre, Região Metropolitana de Porto Alegre, Região Geográfica Intermediária de Porto Alegre, Rio Grande do Sul, Região Sul, 90250-590, Brasil"
-      }
-    }
-  },
-  {
-    "id": "7f6a0ef29ebbb83533bbcb504dce0c52",
-    "date": {
-      "date": "2026-09-19T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 28,
-    "homeTeam": {
-      "name": "EC Vitória",
-      "crest": "https://crests.football-data.org/1782.png"
-    },
-    "awayTeam": {
-      "name": "Cruzeiro EC",
-      "crest": "https://crests.football-data.org/1771.png"
-    },
-    "stadium": {
-      "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-      "venue": "Estádio Manoel Barradas",
-      "geo": {
-        "latitude": -12.9190959,
-        "longitude": -38.4271321,
-        "name": "Estádio Manoel Barradas, Avenida Artêmio Castro Valente, Salvador, Região Geográfica Imediata de Salvador, Região Metropolitana de Salvador, Região Geográfica Intermediária de Salvador, Bahia, Região Nordeste, 41385-005, Brasil"
       }
     }
   },
@@ -622,23 +448,139 @@
     }
   },
   {
-    "id": "6464eab523e7a54ec9abf172396109d1",
+    "id": "79f7d90fa02e1534bb3ebfaf538930cb",
     "date": {
-      "date": "2026-10-07T00:00:00Z"
+      "date": "2026-09-20T14:00:00Z"
     },
     "competition": {
       "code": "BSA",
       "name": "Campeonato Brasileiro Série A"
     },
     "stage": "REGULAR_SEASON",
-    "matchday": 29,
+    "matchday": 28,
+    "homeTeam": {
+      "name": "Grêmio FBPA",
+      "crest": "https://crests.football-data.org/1767.png"
+    },
+    "awayTeam": {
+      "name": "SE Palmeiras",
+      "crest": "https://crests.football-data.org/1769.png"
+    },
+    "stadium": {
+      "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+      "venue": "Arena do Grêmio",
+      "geo": {
+        "latitude": -29.9740429,
+        "longitude": -51.1951073,
+        "name": "Arena do Grêmio, 110, Avenida Padre Leopoldo Brentano, Farrapos, Porto Alegre, Região Metropolitana de Porto Alegre, Região Geográfica Intermediária de Porto Alegre, Rio Grande do Sul, Região Sul, 90250-590, Brasil"
+      }
+    }
+  },
+  {
+    "id": "f7162e725889fe0bff759b2c9f3f9b5d",
+    "date": {
+      "date": "2026-09-20T19:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 28,
+    "homeTeam": {
+      "name": "SC Corinthians Paulista",
+      "crest": "https://crests.football-data.org/1779.png"
+    },
+    "awayTeam": {
+      "name": "Fluminense FC",
+      "crest": "https://crests.football-data.org/1765.png"
+    },
+    "stadium": {
+      "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+      "venue": "Neo Química Arena",
+      "geo": {
+        "latitude": -23.5453328,
+        "longitude": -46.4743055,
+        "name": "Neo Química Arena, 111, Avenida Miguel Inácio Curi, Cidade Antônio Estêvão de Carvalho, Itaquera, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 08295-005, Brasil"
+      }
+    }
+  },
+  {
+    "id": "7f6a0ef29ebbb83533bbcb504dce0c52",
+    "date": {
+      "date": "2026-09-20T19:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 28,
+    "homeTeam": {
+      "name": "EC Vitória",
+      "crest": "https://crests.football-data.org/1782.png"
+    },
+    "awayTeam": {
+      "name": "Cruzeiro EC",
+      "crest": "https://crests.football-data.org/1771.png"
+    },
+    "stadium": {
+      "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+      "venue": "Estádio Manoel Barradas",
+      "geo": {
+        "latitude": -12.9190959,
+        "longitude": -38.4271321,
+        "name": "Estádio Manoel Barradas, Avenida Artêmio Castro Valente, Salvador, Região Geográfica Imediata de Salvador, Região Metropolitana de Salvador, Região Geográfica Intermediária de Salvador, Bahia, Região Nordeste, 41385-005, Brasil"
+      }
+    }
+  },
+  {
+    "id": "4294c7174c9ab4af47ed1bba9240d735",
+    "date": {
+      "date": "2026-09-20T21:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 28,
+    "homeTeam": {
+      "name": "CR Flamengo",
+      "crest": "https://crests.football-data.org/1783.png"
+    },
+    "awayTeam": {
+      "name": "RB Bragantino",
+      "crest": "https://crests.football-data.org/4286.png"
+    },
+    "stadium": {
+      "address": "Rio de Janeiro, RJ",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.9121619,
+        "longitude": -43.2311861,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
+  },
+  {
+    "id": "5fb77af2b87a26b30dd3b210097a4253",
+    "date": {
+      "date": "2026-09-20T22:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 28,
     "homeTeam": {
       "name": "CA Paranaense",
       "crest": "https://crests.football-data.org/1768.png"
     },
     "awayTeam": {
-      "name": "CA Mineiro",
-      "crest": "https://crests.football-data.org/1766.png"
+      "name": "EC Bahia",
+      "crest": "https://crests.football-data.org/1777.png"
     },
     "stadium": {
       "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
@@ -651,38 +593,9 @@
     }
   },
   {
-    "id": "868deec3ef6cd8c3f4bad328bbb0dc98",
-    "date": {
-      "date": "2026-10-07T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 29,
-    "homeTeam": {
-      "name": "Botafogo FR",
-      "crest": "https://crests.football-data.org/1770.png"
-    },
-    "awayTeam": {
-      "name": "CR Vasco da Gama",
-      "crest": "https://crests.football-data.org/1780.png"
-    },
-    "stadium": {
-      "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
-      "venue": "Estádio Nilton Santos",
-      "geo": {
-        "latitude": -10.2821413,
-        "longitude": -48.3306497,
-        "name": "Estádio Nilton Santos, Avenida Ns 2, Palmas, Região Geográfica Imediata de Palmas, Região Geográfica Intermediária de Palmas, Tocantins, Região Norte, 77019-900, Brasil"
-      }
-    }
-  },
-  {
     "id": "58230d112c2df116431eb5d2cf3737e3",
     "date": {
-      "date": "2026-10-07T00:00:00Z"
+      "date": "2026-10-07T22:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -709,67 +622,9 @@
     }
   },
   {
-    "id": "4e797caa432714c51e84bb064be7b28f",
-    "date": {
-      "date": "2026-10-07T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 29,
-    "homeTeam": {
-      "name": "Cruzeiro EC",
-      "crest": "https://crests.football-data.org/1771.png"
-    },
-    "awayTeam": {
-      "name": "São Paulo FC",
-      "crest": "https://crests.football-data.org/1776.png"
-    },
-    "stadium": {
-      "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-      "venue": "Estádio Governador Magalhães Pinto",
-      "geo": {
-        "latitude": -19.8659115,
-        "longitude": -43.9710434,
-        "name": "Estádio Governador Magalhães Pinto, 1001, Avenida Antônio Abrahão Caram, São Luiz, Campus UFMG, Pampulha, Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, 31275-000, Brasil"
-      }
-    }
-  },
-  {
-    "id": "378ec4a9015249a45f0d9a13a404ac1e",
-    "date": {
-      "date": "2026-10-07T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 29,
-    "homeTeam": {
-      "name": "Fluminense FC",
-      "crest": "https://crests.football-data.org/1765.png"
-    },
-    "awayTeam": {
-      "name": "Coritiba FBC",
-      "crest": "https://crests.football-data.org/4241.png"
-    },
-    "stadium": {
-      "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-      "venue": "Estadio Jornalista Mário Filho",
-      "geo": {
-        "latitude": -22.912042390864848,
-        "longitude": -43.22964549065307,
-        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
-      }
-    }
-  },
-  {
     "id": "f3c5820f949d48f2120673ea3d97420b",
     "date": {
-      "date": "2026-10-07T00:00:00Z"
+      "date": "2026-10-07T22:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -788,38 +643,9 @@
     "stadium": null
   },
   {
-    "id": "ea557bb95d434bc9bf50aee39d02fb16",
-    "date": {
-      "date": "2026-10-07T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 29,
-    "homeTeam": {
-      "name": "SE Palmeiras",
-      "crest": "https://crests.football-data.org/1769.png"
-    },
-    "awayTeam": {
-      "name": "EC Bahia",
-      "crest": "https://crests.football-data.org/1777.png"
-    },
-    "stadium": {
-      "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
-      "venue": "Allianz Parque",
-      "geo": {
-        "latitude": -23.5274971,
-        "longitude": -46.6785281,
-        "name": "Allianz Parque, 1840, Rua Turiassu, Barra Funda, Perdizes, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05005-000, Brasil"
-      }
-    }
-  },
-  {
     "id": "40fda3b62045a95b2256cd0f9327ec2d",
     "date": {
-      "date": "2026-10-07T00:00:00Z"
+      "date": "2026-10-07T22:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -846,38 +672,9 @@
     }
   },
   {
-    "id": "19c2eb31c7d3bf0611abc94545197392",
-    "date": {
-      "date": "2026-10-07T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 29,
-    "homeTeam": {
-      "name": "Santos FC",
-      "crest": "https://crests.football-data.org/6685.png"
-    },
-    "awayTeam": {
-      "name": "CR Flamengo",
-      "crest": "https://crests.football-data.org/1783.png"
-    },
-    "stadium": {
-      "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
-      "venue": "Estádio Urbano Caldeira",
-      "geo": {
-        "latitude": -23.9511157,
-        "longitude": -46.3389913,
-        "name": "Estádio Urbano Caldeira, Rua Princesa Isabel, Vila Belmiro, Santos, Região Imediata de Santos, Região Metropolitana da Baixada Santista, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 11075-501, Brasil"
-      }
-    }
-  },
-  {
     "id": "643110d15d624ff28267ab98b15016b1",
     "date": {
-      "date": "2026-10-07T00:00:00Z"
+      "date": "2026-10-07T23:00:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -904,9 +701,233 @@
     }
   },
   {
+    "id": "868deec3ef6cd8c3f4bad328bbb0dc98",
+    "date": {
+      "date": "2026-10-07T23:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 29,
+    "homeTeam": {
+      "name": "Botafogo FR",
+      "crest": "https://crests.football-data.org/1770.png"
+    },
+    "awayTeam": {
+      "name": "CR Vasco da Gama",
+      "crest": "https://crests.football-data.org/1780.png"
+    },
+    "stadium": {
+      "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+      "venue": "Estádio Nilton Santos",
+      "geo": {
+        "latitude": -10.2821413,
+        "longitude": -48.3306497,
+        "name": "Estádio Nilton Santos, Avenida Ns 2, Palmas, Região Geográfica Imediata de Palmas, Região Geográfica Intermediária de Palmas, Tocantins, Região Norte, 77019-900, Brasil"
+      }
+    }
+  },
+  {
+    "id": "4e797caa432714c51e84bb064be7b28f",
+    "date": {
+      "date": "2026-10-08T00:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 29,
+    "homeTeam": {
+      "name": "Cruzeiro EC",
+      "crest": "https://crests.football-data.org/1771.png"
+    },
+    "awayTeam": {
+      "name": "São Paulo FC",
+      "crest": "https://crests.football-data.org/1776.png"
+    },
+    "stadium": {
+      "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+      "venue": "Estádio Governador Magalhães Pinto",
+      "geo": {
+        "latitude": -19.8659115,
+        "longitude": -43.9710434,
+        "name": "Estádio Governador Magalhães Pinto, 1001, Avenida Antônio Abrahão Caram, São Luiz, Campus UFMG, Pampulha, Belo Horizonte, Região Geográfica Imediata de Belo Horizonte, Região Metropolitana de Belo Horizonte, Região Geográfica Intermediária de Belo Horizonte, Minas Gerais, Região Sudeste, 31275-000, Brasil"
+      }
+    }
+  },
+  {
+    "id": "19c2eb31c7d3bf0611abc94545197392",
+    "date": {
+      "date": "2026-10-08T22:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 29,
+    "homeTeam": {
+      "name": "Santos FC",
+      "crest": "https://crests.football-data.org/6685.png"
+    },
+    "awayTeam": {
+      "name": "CR Flamengo",
+      "crest": "https://crests.football-data.org/1783.png"
+    },
+    "stadium": {
+      "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+      "venue": "Estádio Urbano Caldeira",
+      "geo": {
+        "latitude": -23.9511157,
+        "longitude": -46.3389913,
+        "name": "Estádio Urbano Caldeira, Rua Princesa Isabel, Vila Belmiro, Santos, Região Imediata de Santos, Região Metropolitana da Baixada Santista, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 11075-501, Brasil"
+      }
+    }
+  },
+  {
+    "id": "6464eab523e7a54ec9abf172396109d1",
+    "date": {
+      "date": "2026-10-08T23:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 29,
+    "homeTeam": {
+      "name": "CA Paranaense",
+      "crest": "https://crests.football-data.org/1768.png"
+    },
+    "awayTeam": {
+      "name": "CA Mineiro",
+      "crest": "https://crests.football-data.org/1766.png"
+    },
+    "stadium": {
+      "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+      "venue": "Estádio Joaquim Américo Guimarães",
+      "geo": {
+        "latitude": -25.4483457,
+        "longitude": -49.2768771,
+        "name": "Ligga Arena, Rua Petit Carneiro, Água Verde, Curitiba, Região Geográfica Imediata de Curitiba, Região Metropolitana de Curitiba, Região Geográfica Intermediária de Curitiba, Paraná, Região Sul, 80250-100, Brasil"
+      }
+    }
+  },
+  {
+    "id": "378ec4a9015249a45f0d9a13a404ac1e",
+    "date": {
+      "date": "2026-10-09T00:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 29,
+    "homeTeam": {
+      "name": "Fluminense FC",
+      "crest": "https://crests.football-data.org/1765.png"
+    },
+    "awayTeam": {
+      "name": "Coritiba FBC",
+      "crest": "https://crests.football-data.org/4241.png"
+    },
+    "stadium": {
+      "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+      "venue": "Estadio Jornalista Mário Filho",
+      "geo": {
+        "latitude": -22.912042390864848,
+        "longitude": -43.22964549065307,
+        "name": "Estádio Jornalista Mário Filho, Avenida Rei Pelé, Maracanã, Rio de Janeiro, Região Geográfica Imediata do Rio de Janeiro, Região Metropolitana do Rio de Janeiro, Região Geográfica Intermediária do Rio de Janeiro, Rio de Janeiro, Região Sudeste, 20271-130, Brasil"
+      }
+    }
+  },
+  {
+    "id": "ea557bb95d434bc9bf50aee39d02fb16",
+    "date": {
+      "date": "2026-10-09T00:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 29,
+    "homeTeam": {
+      "name": "SE Palmeiras",
+      "crest": "https://crests.football-data.org/1769.png"
+    },
+    "awayTeam": {
+      "name": "EC Bahia",
+      "crest": "https://crests.football-data.org/1777.png"
+    },
+    "stadium": {
+      "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+      "venue": "Allianz Parque",
+      "geo": {
+        "latitude": -23.5274971,
+        "longitude": -46.6785281,
+        "name": "Allianz Parque, 1840, Rua Turiassu, Barra Funda, Perdizes, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05005-000, Brasil"
+      }
+    }
+  },
+  {
+    "id": "fd0c2f242da87ba8d788413cdcc65189",
+    "date": {
+      "date": "2026-10-10T20:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 30,
+    "homeTeam": {
+      "name": "CR Vasco da Gama",
+      "crest": "https://crests.football-data.org/1780.png"
+    },
+    "awayTeam": {
+      "name": "Clube do Remo",
+      "crest": "https://crests.football-data.org/4287.png"
+    },
+    "stadium": null
+  },
+  {
+    "id": "d8ee31140aa68f4002ae7bd4e9a41daa",
+    "date": {
+      "date": "2026-10-11T00:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 30,
+    "homeTeam": {
+      "name": "São Paulo FC",
+      "crest": "https://crests.football-data.org/1776.png"
+    },
+    "awayTeam": {
+      "name": "EC Vitória",
+      "crest": "https://crests.football-data.org/1782.png"
+    },
+    "stadium": {
+      "address": "São Paulo, SP",
+      "venue": "Estádio do Morumbi",
+      "geo": {
+        "latitude": -23.6001016,
+        "longitude": -46.7201264,
+        "name": "MorumBIS, 1, Praça Roberto Gomes Pedrosa, Morumbi, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05653-070, Brasil"
+      }
+    }
+  },
+  {
     "id": "6b0bd1c063e19bdb35bbdc2e0680c3e1",
     "date": {
-      "date": "2026-10-10T00:00:00Z"
+      "date": "2026-10-11T19:00:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -933,117 +954,9 @@
     }
   },
   {
-    "id": "adcf6a6ca7a866cb7f258c2f5c012d36",
-    "date": {
-      "date": "2026-10-10T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 30,
-    "homeTeam": {
-      "name": "EC Bahia",
-      "crest": "https://crests.football-data.org/1777.png"
-    },
-    "awayTeam": {
-      "name": "Mirassol FC",
-      "crest": "https://crests.football-data.org/4364.png"
-    },
-    "stadium": null
-  },
-  {
-    "id": "4d5378a4abb4e52a1dde7fdc2ce3bd98",
-    "date": {
-      "date": "2026-10-10T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 30,
-    "homeTeam": {
-      "name": "RB Bragantino",
-      "crest": "https://crests.football-data.org/4286.png"
-    },
-    "awayTeam": {
-      "name": "Cruzeiro EC",
-      "crest": "https://crests.football-data.org/1771.png"
-    },
-    "stadium": {
-      "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
-      "venue": "Estádio Nabi Abi Chedid",
-      "geo": {
-        "latitude": -22.9653902,
-        "longitude": -46.5368855,
-        "name": "Estádio Nabi Abi Chedid, 157, Rua Madre Paulina, Jardim São José, Bragança Paulista, Região Imediata de Bragança Paulista, Região Geográfica Intermediária de Campinas, São Paulo, Região Sudeste, 12914-410, Brasil"
-      }
-    }
-  },
-  {
-    "id": "8a72c882da9091546b4925ed96073adb",
-    "date": {
-      "date": "2026-10-10T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 30,
-    "homeTeam": {
-      "name": "Chapecoense AF",
-      "crest": "https://crests.football-data.org/1772_large.png"
-    },
-    "awayTeam": {
-      "name": "CA Paranaense",
-      "crest": "https://crests.football-data.org/1768.png"
-    },
-    "stadium": {
-      "address": "Rua Clevelândia S/N, Centro Chapecó, SC 89801-445",
-      "venue": "Arena Condá",
-      "geo": {
-        "latitude": -27.1040925,
-        "longitude": -52.6069818,
-        "name": "Arena Condá, Rua Clevelândia - E, Centro, Chapecó, Região Geográfica Imediata de Chapecó, Região Geográfica Intermediária de Chapecó, Santa Catarina, Região Sul, 89801-561, Brasil"
-      }
-    }
-  },
-  {
-    "id": "3fd40a618d95fa3492430969b66a1d4f",
-    "date": {
-      "date": "2026-10-10T00:00:00Z"
-    },
-    "competition": {
-      "code": "BSA",
-      "name": "Campeonato Brasileiro Série A"
-    },
-    "stage": "REGULAR_SEASON",
-    "matchday": 30,
-    "homeTeam": {
-      "name": "Coritiba FBC",
-      "crest": "https://crests.football-data.org/4241.png"
-    },
-    "awayTeam": {
-      "name": "Botafogo FR",
-      "crest": "https://crests.football-data.org/1770.png"
-    },
-    "stadium": {
-      "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
-      "venue": "Estádio Major Antônio Couto Pereira",
-      "geo": {
-        "latitude": -25.4214376,
-        "longitude": -49.2597567,
-        "name": "Estádio Major Antônio Couto Pereira, 63, Rua Ubaldino do Amaral, Alto da Glória, Curitiba, Região Geográfica Imediata de Curitiba, Região Metropolitana de Curitiba, Região Geográfica Intermediária de Curitiba, Paraná, Região Sul, 80060-195, Brasil"
-      }
-    }
-  },
-  {
     "id": "cc7b97fc3670482646c81c91849e2f5d",
     "date": {
-      "date": "2026-10-10T00:00:00Z"
+      "date": "2026-10-11T20:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -1072,7 +985,7 @@
   {
     "id": "820cb960c40461c54ca2ae9374577909",
     "date": {
-      "date": "2026-10-10T00:00:00Z"
+      "date": "2026-10-11T20:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -1101,7 +1014,7 @@
   {
     "id": "c67736678ad3c413a480dbd6d9fe7249",
     "date": {
-      "date": "2026-10-10T00:00:00Z"
+      "date": "2026-10-11T20:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -1128,9 +1041,9 @@
     }
   },
   {
-    "id": "d8ee31140aa68f4002ae7bd4e9a41daa",
+    "id": "adcf6a6ca7a866cb7f258c2f5c012d36",
     "date": {
-      "date": "2026-10-10T00:00:00Z"
+      "date": "2026-10-11T22:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -1139,27 +1052,48 @@
     "stage": "REGULAR_SEASON",
     "matchday": 30,
     "homeTeam": {
-      "name": "São Paulo FC",
-      "crest": "https://crests.football-data.org/1776.png"
+      "name": "EC Bahia",
+      "crest": "https://crests.football-data.org/1777.png"
     },
     "awayTeam": {
-      "name": "EC Vitória",
-      "crest": "https://crests.football-data.org/1782.png"
+      "name": "Mirassol FC",
+      "crest": "https://crests.football-data.org/4364.png"
+    },
+    "stadium": null
+  },
+  {
+    "id": "3fd40a618d95fa3492430969b66a1d4f",
+    "date": {
+      "date": "2026-10-11T22:30:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 30,
+    "homeTeam": {
+      "name": "Coritiba FBC",
+      "crest": "https://crests.football-data.org/4241.png"
+    },
+    "awayTeam": {
+      "name": "Botafogo FR",
+      "crest": "https://crests.football-data.org/1770.png"
     },
     "stadium": {
-      "address": "São Paulo, SP",
-      "venue": "Estádio do Morumbi",
+      "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
+      "venue": "Estádio Major Antônio Couto Pereira",
       "geo": {
-        "latitude": -23.6001016,
-        "longitude": -46.7201264,
-        "name": "MorumBIS, 1, Praça Roberto Gomes Pedrosa, Morumbi, São Paulo, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, 05653-070, Brasil"
+        "latitude": -25.4214376,
+        "longitude": -49.2597567,
+        "name": "Estádio Major Antônio Couto Pereira, 63, Rua Ubaldino do Amaral, Alto da Glória, Curitiba, Região Geográfica Imediata de Curitiba, Região Metropolitana de Curitiba, Região Geográfica Intermediária de Curitiba, Paraná, Região Sul, 80060-195, Brasil"
       }
     }
   },
   {
-    "id": "fd0c2f242da87ba8d788413cdcc65189",
+    "id": "8a72c882da9091546b4925ed96073adb",
     "date": {
-      "date": "2026-10-10T00:00:00Z"
+      "date": "2026-10-12T22:30:00Z"
     },
     "competition": {
       "code": "BSA",
@@ -1168,14 +1102,51 @@
     "stage": "REGULAR_SEASON",
     "matchday": 30,
     "homeTeam": {
-      "name": "CR Vasco da Gama",
-      "crest": "https://crests.football-data.org/1780.png"
+      "name": "Chapecoense AF",
+      "crest": "https://crests.football-data.org/1772_large.png"
     },
     "awayTeam": {
-      "name": "Clube do Remo",
-      "crest": "https://crests.football-data.org/4287.png"
+      "name": "CA Paranaense",
+      "crest": "https://crests.football-data.org/1768.png"
     },
-    "stadium": null
+    "stadium": {
+      "address": "Rua Clevelândia S/N, Centro Chapecó, SC 89801-445",
+      "venue": "Arena Condá",
+      "geo": {
+        "latitude": -27.1040925,
+        "longitude": -52.6069818,
+        "name": "Arena Condá, Rua Clevelândia - E, Centro, Chapecó, Região Geográfica Imediata de Chapecó, Região Geográfica Intermediária de Chapecó, Santa Catarina, Região Sul, 89801-561, Brasil"
+      }
+    }
+  },
+  {
+    "id": "4d5378a4abb4e52a1dde7fdc2ce3bd98",
+    "date": {
+      "date": "2026-10-13T00:00:00Z"
+    },
+    "competition": {
+      "code": "BSA",
+      "name": "Campeonato Brasileiro Série A"
+    },
+    "stage": "REGULAR_SEASON",
+    "matchday": 30,
+    "homeTeam": {
+      "name": "RB Bragantino",
+      "crest": "https://crests.football-data.org/4286.png"
+    },
+    "awayTeam": {
+      "name": "Cruzeiro EC",
+      "crest": "https://crests.football-data.org/1771.png"
+    },
+    "stadium": {
+      "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+      "venue": "Estádio Nabi Abi Chedid",
+      "geo": {
+        "latitude": -22.9653902,
+        "longitude": -46.5368855,
+        "name": "Estádio Nabi Abi Chedid, 157, Rua Madre Paulina, Jardim São José, Bragança Paulista, Região Imediata de Bragança Paulista, Região Geográfica Intermediária de Campinas, São Paulo, Região Sudeste, 12914-410, Brasil"
+      }
+    }
   },
   {
     "id": "34729ad8865367f9c8018ecd6d874d74",

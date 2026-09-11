@@ -7,39 +7,6 @@
         "name": "Klasa A (Nowy Sacz)"
       },
       "homeTeam": {
-        "name": "Orzeł Wojnarowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Amator Paszyn",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "19e64c5a66996d74ab354444d4ad49b1",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Orzeł Wojnarowa",
-        "geo": {
-          "latitude": 49.6714158,
-          "longitude": 20.9118338,
-          "name": "Orzeł Wojnarowa"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Nowy Sacz)"
-      },
-      "homeTeam": {
         "name": "Grybovia Grybów",
         "crest": null
       },
@@ -65,6 +32,39 @@
           "latitude": 49.6284853,
           "longitude": 20.9552989,
           "name": "Grybovia Grybów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Nowy Sacz)"
+      },
+      "homeTeam": {
+        "name": "Amator Paszyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orzeł Wojnarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "date-window",
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13"
+      },
+      "date": {
+        "startDate": "2026-09-12",
+        "endDate": "2026-09-13",
+        "time": "TBD"
+      },
+      "id": "650657a1075cf1ae36bef5d00feec34c",
+      "stadium": {
+        "address": "Paszyn 77, 33-326 Paszyn",
+        "venue": "Stadion Amator Paszyn",
+        "geo": {
+          "latitude": 49.6221976,
+          "longitude": 20.7771222,
+          "name": "LKS Amator, Paszyn"
         }
       }
     },

@@ -7,39 +7,6 @@
         "name": "Klasa A (Limanowa)"
       },
       "homeTeam": {
-        "name": "Laskovia Laskowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Szyk",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "704abf8ca4bd2e60c784dd3643dbbbf7",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Piłkarski KUKS Laskovia",
-        "geo": {
-          "latitude": 49.764505,
-          "longitude": 20.4541668,
-          "name": "Stadion Piłkarski KUKS Laskovia, Laskowa"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Limanowa)"
-      },
-      "homeTeam": {
         "name": "Słomka Siekierczyna",
         "crest": null
       },
@@ -86,6 +53,37 @@
           "latitude": 49.5919296,
           "longitude": 20.5322771,
           "name": "Stadion w Świdniku"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Laskovia Laskowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Szyk",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T16:00:00.000Z"
+      },
+      "id": "704abf8ca4bd2e60c784dd3643dbbbf7",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Piłkarski KUKS Laskovia",
+        "geo": {
+          "latitude": 49.764505,
+          "longitude": 20.4541668,
+          "name": "Stadion Piłkarski KUKS Laskovia, Laskowa"
         }
       }
     },

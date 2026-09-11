@@ -69,6 +69,37 @@
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
+        "name": "Orzeł Myślenice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "MKS Trzebinia",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T14:00:00.000Z"
+      },
+      "id": "95abe9518d862368bcefc6a7cf1f9668",
+      "stadium": {
+        "address": "Burmistrza Andrzeja Marka 7, 32-400 Myślenice",
+        "venue": "Stadion Sportowy im. Edwarda Łapy w Myślenicach",
+        "geo": {
+          "latitude": 49.8318752,
+          "longitude": 19.9639736,
+          "name": "Stadion Sportowy im. Edwarda Łapy, Myślenice, powiat myślenicki, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (malopolska (zachod))"
+      },
+      "homeTeam": {
         "name": "LKS Bobrek",
         "crest": null
       },
@@ -92,37 +123,6 @@
           "latitude": 50.0555766,
           "longitude": 19.2515992,
           "name": "LKS Bobrek, Jarzębinowa, Bobrek, powiat oświęcimski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Orzeł Myślenice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "MKS Trzebinia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T16:00:00.000Z"
-      },
-      "id": "95abe9518d862368bcefc6a7cf1f9668",
-      "stadium": {
-        "address": "Burmistrza Andrzeja Marka 7, 32-400 Myślenice",
-        "venue": "Stadion Sportowy im. Edwarda Łapy w Myślenicach",
-        "geo": {
-          "latitude": 49.8318752,
-          "longitude": 19.9639736,
-          "name": "Stadion Sportowy im. Edwarda Łapy, Myślenice, powiat myślenicki, małopolskie, Polska"
         }
       }
     },

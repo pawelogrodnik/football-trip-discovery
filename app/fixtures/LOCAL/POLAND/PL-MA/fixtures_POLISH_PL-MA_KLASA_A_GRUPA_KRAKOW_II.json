@@ -7,39 +7,6 @@
         "name": "Klasa A (Krakow II)"
       },
       "homeTeam": {
-        "name": "Lotnik Kryspinów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogoń II Skotniki (Kraków)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "da0c8888dd4dca6ba2cbdbd65b5ceb85",
-      "stadium": {
-        "address": "Kryspinów 47, 32-060 Liszki",
-        "venue": "Stadion LKS Lotnik Kryspinów",
-        "geo": {
-          "latitude": 50.041557,
-          "longitude": 19.7930008,
-          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krakow II)"
-      },
-      "homeTeam": {
         "name": "Zieleńczanka II Zielonki",
         "crest": null
       },
@@ -156,6 +123,37 @@
           "latitude": 50.1174162,
           "longitude": 19.7971222,
           "name": "LKS Kmita Zabierzów, Sportowa, Zabierzów"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Lotnik Kryspinów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Skotniki (Kraków)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T11:00:00.000Z"
+      },
+      "id": "da0c8888dd4dca6ba2cbdbd65b5ceb85",
+      "stadium": {
+        "address": "Kryspinów 47, 32-060 Liszki",
+        "venue": "Stadion LKS Lotnik Kryspinów",
+        "geo": {
+          "latitude": 50.041557,
+          "longitude": 19.7930008,
+          "name": "LKS Lotnik Kryspinów, Łąkowa, Kryspinów"
         }
       }
     },

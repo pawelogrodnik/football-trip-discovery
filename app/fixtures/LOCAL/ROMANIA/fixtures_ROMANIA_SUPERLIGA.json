@@ -4,68 +4,6 @@
       "name": "Superliga (Romania 1 League)"
     },
     "homeTeam": {
-      "name": "FC Voluntari",
-      "crest": "https://crests.football-data.org/5508.png"
-    },
-    "awayTeam": {
-      "name": "FC Arges",
-      "crest": null
-    },
-    "schedule": {
-      "status": "confirmed",
-      "dateTime": "2026-09-07T14:30:00.000Z"
-    },
-    "date": {
-      "date": "2026-09-07T14:30:00.000Z",
-      "dateTime": "2026-09-07T14:30:00.000Z"
-    },
-    "id": "deea4cbf74f0e78cfb05070144cc1950",
-    "stadium": {
-      "address": "Bd. Dunării 52A Voluntari 077190",
-      "venue": "Stadionul Anghel Iordanescu",
-      "geo": {
-        "latitude": 44.4999732,
-        "longitude": 26.1442942,
-        "name": "Stadionul Voluntari Anghel Iordanescu, Strada Erou Niță Pintea, Pipera, Voluntari, Ilfov, 077191, România"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Superliga (Romania 1 League)"
-    },
-    "homeTeam": {
-      "name": "Univ. Craiova",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "U. Cluj",
-      "crest": null
-    },
-    "schedule": {
-      "status": "confirmed",
-      "dateTime": "2026-09-07T17:30:00.000Z"
-    },
-    "date": {
-      "date": "2026-09-07T17:30:00.000Z",
-      "dateTime": "2026-09-07T17:30:00.000Z"
-    },
-    "id": "c30cbb366d9561b6ed6daeb5dce81ba8",
-    "stadium": {
-      "address": "Strada Știrbei Vodă Nr. 30 Craiova 200374",
-      "venue": "Stadionul Ion Oblemenco",
-      "geo": {
-        "latitude": 44.3140302,
-        "longitude": 23.7842614,
-        "name": "Stadionul Ion Oblemenco, Esplanada Stadion, Catargiu, Craiova, Zona Metropolitană Craiova, Dolj, 200377, România"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "Superliga (Romania 1 League)"
-    },
-    "homeTeam": {
       "name": "Farul Constanta",
       "crest": null
     },
@@ -329,11 +267,11 @@
       "name": "Superliga (Romania 1 League)"
     },
     "homeTeam": {
-      "name": "Dinamo Bucuresti",
-      "crest": null
+      "name": "FC Rapid Bucuresti",
+      "crest": "https://crests.football-data.org/8431.png"
     },
     "awayTeam": {
-      "name": "Farul Constanta",
+      "name": "FC Arges",
       "crest": null
     },
     "schedule": {
@@ -344,8 +282,16 @@
       "date": "2026-09-18T18:00:00.000Z",
       "dateTime": "2026-09-18T18:00:00.000Z"
     },
-    "id": "1bdfefd295da0512476013ef04e3974d",
-    "stadium": null
+    "id": "6670baae5acf6512bfcdb2d4f3bafcce",
+    "stadium": {
+      "address": "Bd. Bucurestii Noi, nr. 170 Bucureşti",
+      "venue": "Stadionul Regie",
+      "geo": {
+        "latitude": 44.4480597,
+        "longitude": 26.0530303,
+        "name": "Stadionul „Sportul Studențesc”, Strada Inginer Nicolae Teodorescu, Belvedere, Regie, Sector 6, București, 060208, România"
+      }
+    }
   },
   {
     "competition": {
@@ -445,11 +391,11 @@
       "name": "Superliga (Romania 1 League)"
     },
     "homeTeam": {
-      "name": "FC Rapid Bucuresti",
-      "crest": "https://crests.football-data.org/8431.png"
+      "name": "Dinamo Bucuresti",
+      "crest": null
     },
     "awayTeam": {
-      "name": "FC Arges",
+      "name": "Farul Constanta",
       "crest": null
     },
     "schedule": {
@@ -460,16 +406,8 @@
       "date": "2026-09-20T17:30:00.000Z",
       "dateTime": "2026-09-20T17:30:00.000Z"
     },
-    "id": "6670baae5acf6512bfcdb2d4f3bafcce",
-    "stadium": {
-      "address": "Bd. Bucurestii Noi, nr. 170 Bucureşti",
-      "venue": "Stadionul Regie",
-      "geo": {
-        "latitude": 44.4480597,
-        "longitude": 26.0530303,
-        "name": "Stadionul „Sportul Studențesc”, Strada Inginer Nicolae Teodorescu, Belvedere, Regie, Sector 6, București, 060208, România"
-      }
-    }
+    "id": "1bdfefd295da0512476013ef04e3974d",
+    "stadium": null
   },
   {
     "competition": {

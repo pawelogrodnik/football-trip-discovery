@@ -7,31 +7,6 @@
         "name": "Keeza Klasa B (Warszawa VII)"
       },
       "homeTeam": {
-        "name": "Skra 1921 Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "FC Płochocin",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
-      },
-      "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
-      },
-      "id": "f0eb4e38e6dbfdd6ebe79da5035dd0f2",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Warszawa VII)"
-      },
-      "homeTeam": {
         "name": "Passovia Pass",
         "crest": null
       },
@@ -40,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13"
+        "status": "confirmed",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-12",
-        "endDate": "2026-09-13",
-        "time": "TBD"
+        "date": "2026-09-12",
+        "dateTime": "2026-09-12T11:00:00.000Z"
       },
       "id": "203a11093f71861ab377df5d7c77d520",
       "stadium": null
@@ -135,6 +108,29 @@
         "dateTime": "2026-09-12T14:00:00.000Z"
       },
       "id": "2dd1f7c962cce0fb4566ff45fe93f6f0",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Warszawa VII)"
+      },
+      "homeTeam": {
+        "name": "FC Płochocin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Skra 1921 Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T18:00:00.000Z"
+      },
+      "id": "a48d8036a8a9d2f1eaa18077714fde15",
       "stadium": null
     },
     {

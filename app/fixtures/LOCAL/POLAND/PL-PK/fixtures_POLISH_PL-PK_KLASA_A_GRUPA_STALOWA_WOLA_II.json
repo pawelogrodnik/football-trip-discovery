@@ -46,7 +46,15 @@
         "dateTime": "2026-09-12T16:00:00.000Z"
       },
       "id": "6c6a62746fb935943e923b6f3f55efad",
-      "stadium": null
+      "stadium": {
+        "address": "Groble 56",
+        "venue": "Boisko GKS Groble",
+        "geo": {
+          "latitude": 50.3698026,
+          "longitude": 22.224058,
+          "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -76,29 +84,6 @@
         "name": "Klasa A (Stalowa Wola II)"
       },
       "homeTeam": {
-        "name": "Milenium Bieliny",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jodła Przychojec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "id": "70680da409fab19b801c79c136fdbc41",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
         "name": "Rotunda Krzeszów",
         "crest": null
       },
@@ -108,36 +93,13 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "ed3d3770b52c923aedea2287ff374875",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "LKS Brzyska Wola",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Victoria Giedlarowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
-      },
-      "id": "636b26c86539d075ece476904616f4fc",
       "stadium": null
     },
     {
@@ -154,14 +116,76 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:00:00.000Z"
+        "dateTime": "2026-09-13T14:00:00.000Z"
       },
       "id": "6df1eaa6427950faedec8f324ff7ee73",
+      "stadium": {
+        "address": "Wola Zarczycka 129",
+        "venue": "Boisko Azalii",
+        "geo": {
+          "latitude": 50.2880832,
+          "longitude": 22.2438334,
+          "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Stalowa Wola II)"
+      },
+      "homeTeam": {
+        "name": "LKS Brzyska Wola",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Victoria Giedlarowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "636b26c86539d075ece476904616f4fc",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Stalowa Wola II)"
+      },
+      "homeTeam": {
+        "name": "Milenium Bieliny",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jodła Przychojec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-13",
+        "dateTime": "2026-09-13T15:00:00.000Z"
+      },
+      "id": "70680da409fab19b801c79c136fdbc41",
+      "stadium": {
+        "address": "Bieliny",
+        "venue": "Boisko Milenium Bieliny",
+        "geo": {
+          "latitude": 50.4400079,
+          "longitude": 22.293231,
+          "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -186,7 +210,15 @@
         "time": "TBD"
       },
       "id": "94013a65f668a029a1d3a1e0c3a9aeb8",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa 1, Leżajsk",
+        "venue": "Stadion Miejski",
+        "geo": {
+          "latitude": 50.2599586,
+          "longitude": 22.42866,
+          "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -211,7 +243,15 @@
         "time": "TBD"
       },
       "id": "83923b8445c89a09d40a14234511f5ca",
-      "stadium": null
+      "stadium": {
+        "address": "Górno",
+        "venue": "Boisko WKS Górnovia Górno",
+        "geo": {
+          "latitude": 50.2737064,
+          "longitude": 22.1510883,
+          "name": "WKS Górnovia Górno, Górno, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -236,7 +276,15 @@
         "time": "TBD"
       },
       "id": "3eb7bb4892838502d240e869887ab715",
-      "stadium": null
+      "stadium": {
+        "address": "Przychojec",
+        "venue": "Boisko Jodły Przychojec",
+        "geo": {
+          "latitude": 50.3030416,
+          "longitude": 22.3946482,
+          "name": "Jodła Przychojec, Przychojec, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -261,7 +309,15 @@
         "time": "TBD"
       },
       "id": "045ca8aafd26dd38ad42c672cfd92e8b",
-      "stadium": null
+      "stadium": {
+        "address": "Hucisko",
+        "venue": "Stadion KS Sokół Hucisko",
+        "geo": {
+          "latitude": 50.4486829,
+          "longitude": 22.3951579,
+          "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -311,7 +367,15 @@
         "time": "TBD"
       },
       "id": "178ee4c056f1bca574e12579e321589b",
-      "stadium": null
+      "stadium": {
+        "address": "Giedlarowa",
+        "venue": "Boisko Victorii Giedlarowa",
+        "geo": {
+          "latitude": 50.2307858,
+          "longitude": 22.3980861,
+          "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -386,7 +450,15 @@
         "time": "TBD"
       },
       "id": "7fee6b14166d770fff08e1e80d694c88",
-      "stadium": null
+      "stadium": {
+        "address": "Wola Zarczycka 129",
+        "venue": "Boisko Azalii",
+        "geo": {
+          "latitude": 50.2880832,
+          "longitude": 22.2438334,
+          "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -436,7 +508,15 @@
         "time": "TBD"
       },
       "id": "095a6af3d8505a8934520ddf63c6e5de",
-      "stadium": null
+      "stadium": {
+        "address": "Bieliny",
+        "venue": "Boisko Milenium Bieliny",
+        "geo": {
+          "latitude": 50.4400079,
+          "longitude": 22.293231,
+          "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -461,7 +541,15 @@
         "time": "TBD"
       },
       "id": "8dbbc03435a231bf209a0ab0f8c34c23",
-      "stadium": null
+      "stadium": {
+        "address": "Groble 56",
+        "venue": "Boisko GKS Groble",
+        "geo": {
+          "latitude": 50.3698026,
+          "longitude": 22.224058,
+          "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -511,7 +599,15 @@
         "time": "TBD"
       },
       "id": "3560265e9b6ff6a0a85cc8dee15764d1",
-      "stadium": null
+      "stadium": {
+        "address": "Karasia 1, Nisko (Podwolina)",
+        "venue": "Stadion KS Podwolina",
+        "geo": {
+          "latitude": 50.4918945,
+          "longitude": 22.1707015,
+          "name": "Stadion KS Podwolina, Podwolina, Nisko, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -536,7 +632,15 @@
         "time": "TBD"
       },
       "id": "4cde15f21de0d6f851cb07e771f624f3",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa 1, Leżajsk",
+        "venue": "Stadion Miejski",
+        "geo": {
+          "latitude": 50.2599586,
+          "longitude": 22.42866,
+          "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -561,7 +665,15 @@
         "time": "TBD"
       },
       "id": "cafeb266c30c41c6e86ff26a8fc59e8e",
-      "stadium": null
+      "stadium": {
+        "address": "Przychojec",
+        "venue": "Boisko Jodły Przychojec",
+        "geo": {
+          "latitude": 50.3030416,
+          "longitude": 22.3946482,
+          "name": "Jodła Przychojec, Przychojec, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -586,7 +698,15 @@
         "time": "TBD"
       },
       "id": "c2acbe42b14fc4404048f6cf9b86d0ff",
-      "stadium": null
+      "stadium": {
+        "address": "Hucisko",
+        "venue": "Stadion KS Sokół Hucisko",
+        "geo": {
+          "latitude": 50.4486829,
+          "longitude": 22.3951579,
+          "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -636,7 +756,15 @@
         "time": "TBD"
       },
       "id": "2fae6e7ed7f7f93f1b8d1ccf1ac6c0b0",
-      "stadium": null
+      "stadium": {
+        "address": "Giedlarowa",
+        "venue": "Boisko Victorii Giedlarowa",
+        "geo": {
+          "latitude": 50.2307858,
+          "longitude": 22.3980861,
+          "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -711,7 +839,15 @@
         "time": "TBD"
       },
       "id": "7c9a3dcf67beae847ef4c9d98e2dd3fc",
-      "stadium": null
+      "stadium": {
+        "address": "Wola Zarczycka 129",
+        "venue": "Boisko Azalii",
+        "geo": {
+          "latitude": 50.2880832,
+          "longitude": 22.2438334,
+          "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -761,7 +897,15 @@
         "time": "TBD"
       },
       "id": "6840e96ca93ab1d0670d7691d3a0364d",
-      "stadium": null
+      "stadium": {
+        "address": "Bieliny",
+        "venue": "Boisko Milenium Bieliny",
+        "geo": {
+          "latitude": 50.4400079,
+          "longitude": 22.293231,
+          "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -786,7 +930,15 @@
         "time": "TBD"
       },
       "id": "8c46b667750649a868ff5aa6e16fba52",
-      "stadium": null
+      "stadium": {
+        "address": "Groble 56",
+        "venue": "Boisko GKS Groble",
+        "geo": {
+          "latitude": 50.3698026,
+          "longitude": 22.224058,
+          "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -836,7 +988,15 @@
         "time": "TBD"
       },
       "id": "f5224e87082b5a9440b188747b43fbb3",
-      "stadium": null
+      "stadium": {
+        "address": "Karasia 1, Nisko (Podwolina)",
+        "venue": "Stadion KS Podwolina",
+        "geo": {
+          "latitude": 50.4918945,
+          "longitude": 22.1707015,
+          "name": "Stadion KS Podwolina, Podwolina, Nisko, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -861,7 +1021,15 @@
         "time": "TBD"
       },
       "id": "8845e7183409d2f95a68fa0f9cfc43d6",
-      "stadium": null
+      "stadium": {
+        "address": "Górno",
+        "venue": "Boisko WKS Górnovia Górno",
+        "geo": {
+          "latitude": 50.2737064,
+          "longitude": 22.1510883,
+          "name": "WKS Górnovia Górno, Górno, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -886,7 +1054,15 @@
         "time": "TBD"
       },
       "id": "c84944b4c572c2142d09e63b54dd236e",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa 1, Leżajsk",
+        "venue": "Stadion Miejski",
+        "geo": {
+          "latitude": 50.2599586,
+          "longitude": 22.42866,
+          "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -936,7 +1112,15 @@
         "time": "TBD"
       },
       "id": "9931c87130d273dd14c7b64f75a5881b",
-      "stadium": null
+      "stadium": {
+        "address": "Giedlarowa",
+        "venue": "Boisko Victorii Giedlarowa",
+        "geo": {
+          "latitude": 50.2307858,
+          "longitude": 22.3980861,
+          "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1011,7 +1195,15 @@
         "time": "TBD"
       },
       "id": "814e1e511af006de3abd0ce300089476",
-      "stadium": null
+      "stadium": {
+        "address": "Wola Zarczycka 129",
+        "venue": "Boisko Azalii",
+        "geo": {
+          "latitude": 50.2880832,
+          "longitude": 22.2438334,
+          "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1061,7 +1253,15 @@
         "time": "TBD"
       },
       "id": "4234f255923275463c6fce478c0f0fb8",
-      "stadium": null
+      "stadium": {
+        "address": "Sportowa 1, Leżajsk",
+        "venue": "Stadion Miejski",
+        "geo": {
+          "latitude": 50.2599586,
+          "longitude": 22.42866,
+          "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1086,7 +1286,15 @@
         "time": "TBD"
       },
       "id": "4b631420d58dd43de007ed9da31a7266",
-      "stadium": null
+      "stadium": {
+        "address": "Hucisko",
+        "venue": "Stadion KS Sokół Hucisko",
+        "geo": {
+          "latitude": 50.4486829,
+          "longitude": 22.3951579,
+          "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1136,7 +1344,15 @@
         "time": "TBD"
       },
       "id": "b02b3965361874eaa87d6e6af89de939",
-      "stadium": null
+      "stadium": {
+        "address": "Giedlarowa",
+        "venue": "Boisko Victorii Giedlarowa",
+        "geo": {
+          "latitude": 50.2307858,
+          "longitude": 22.3980861,
+          "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1211,7 +1427,15 @@
         "time": "TBD"
       },
       "id": "367ce1813e052c21779b422a5c0e2c1b",
-      "stadium": null
+      "stadium": {
+        "address": "Wola Zarczycka 129",
+        "venue": "Boisko Azalii",
+        "geo": {
+          "latitude": 50.2880832,
+          "longitude": 22.2438334,
+          "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1261,7 +1485,15 @@
         "time": "TBD"
       },
       "id": "931660d7690f70c1146991650a257fe5",
-      "stadium": null
+      "stadium": {
+        "address": "Bieliny",
+        "venue": "Boisko Milenium Bieliny",
+        "geo": {
+          "latitude": 50.4400079,
+          "longitude": 22.293231,
+          "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1286,7 +1518,15 @@
         "time": "TBD"
       },
       "id": "af8eda765740198aa09134bb4c84921b",
-      "stadium": null
+      "stadium": {
+        "address": "Groble 56",
+        "venue": "Boisko GKS Groble",
+        "geo": {
+          "latitude": 50.3698026,
+          "longitude": 22.224058,
+          "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1336,7 +1576,15 @@
         "time": "TBD"
       },
       "id": "2977753a222139cd3bb1e75e6dad9f96",
-      "stadium": null
+      "stadium": {
+        "address": "Karasia 1, Nisko (Podwolina)",
+        "venue": "Stadion KS Podwolina",
+        "geo": {
+          "latitude": 50.4918945,
+          "longitude": 22.1707015,
+          "name": "Stadion KS Podwolina, Podwolina, Nisko, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1361,7 +1609,15 @@
         "time": "TBD"
       },
       "id": "1249241a5cab3bf545c29fb24f7094d7",
-      "stadium": null
+      "stadium": {
+        "address": "Górno",
+        "venue": "Boisko WKS Górnovia Górno",
+        "geo": {
+          "latitude": 50.2737064,
+          "longitude": 22.1510883,
+          "name": "WKS Górnovia Górno, Górno, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1386,7 +1642,15 @@
         "time": "TBD"
       },
       "id": "df36efbe68dd4aeea5d56b1f2487f560",
-      "stadium": null
+      "stadium": {
+        "address": "Przychojec",
+        "venue": "Boisko Jodły Przychojec",
+        "geo": {
+          "latitude": 50.3030416,
+          "longitude": 22.3946482,
+          "name": "Jodła Przychojec, Przychojec, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1411,7 +1675,15 @@
         "time": "TBD"
       },
       "id": "e85caf92426f5f4afc22ca9189386337",
-      "stadium": null
+      "stadium": {
+        "address": "Bieliny",
+        "venue": "Boisko Milenium Bieliny",
+        "geo": {
+          "latitude": 50.4400079,
+          "longitude": 22.293231,
+          "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1436,7 +1708,15 @@
         "time": "TBD"
       },
       "id": "325a219011a5adea490e446150a61158",
-      "stadium": null
+      "stadium": {
+        "address": "Groble 56",
+        "venue": "Boisko GKS Groble",
+        "geo": {
+          "latitude": 50.3698026,
+          "longitude": 22.224058,
+          "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1486,7 +1766,15 @@
         "time": "TBD"
       },
       "id": "ff74b794c2bc869fa71b831fc56e0bc3",
-      "stadium": null
+      "stadium": {
+        "address": "Karasia 1, Nisko (Podwolina)",
+        "venue": "Stadion KS Podwolina",
+        "geo": {
+          "latitude": 50.4918945,
+          "longitude": 22.1707015,
+          "name": "Stadion KS Podwolina, Podwolina, Nisko, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1511,7 +1799,15 @@
         "time": "TBD"
       },
       "id": "10cd0272926b4ce2a5a842ed2b24901d",
-      "stadium": null
+      "stadium": {
+        "address": "Górno",
+        "venue": "Boisko WKS Górnovia Górno",
+        "geo": {
+          "latitude": 50.2737064,
+          "longitude": 22.1510883,
+          "name": "WKS Górnovia Górno, Górno, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1536,7 +1832,15 @@
         "time": "TBD"
       },
       "id": "33591a7f315b8b37ce0608705c42f17a",
-      "stadium": null
+      "stadium": {
+        "address": "Przychojec",
+        "venue": "Boisko Jodły Przychojec",
+        "geo": {
+          "latitude": 50.3030416,
+          "longitude": 22.3946482,
+          "name": "Jodła Przychojec, Przychojec, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -1561,7 +1865,15 @@
         "time": "TBD"
       },
       "id": "7cb2dbe48093fae7e9070e74f9fe1e63",
-      "stadium": null
+      "stadium": {
+        "address": "Hucisko",
+        "venue": "Stadion KS Sokół Hucisko",
+        "geo": {
+          "latitude": 50.4486829,
+          "longitude": 22.3951579,
+          "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
+        }
+      }
     }
   ]
 }
