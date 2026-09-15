@@ -1,225 +1,12 @@
 {
   "competitionName": "Keeza Klasa B (Ostroleka)",
-  "count": 45,
+  "count": 40,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa B (Ostroleka)"
       },
       "homeTeam": {
-        "name": "GKS Łyse",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzyc Chorzele",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-11T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-11",
-        "dateTime": "2026-09-11T17:00:00.000Z"
-      },
-      "id": "1a38c4febe7272e126347e98d17ed82e",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Gminny w Łysych",
-        "geo": {
-          "latitude": 53.3652442,
-          "longitude": 21.550651,
-          "name": "Stadion Gminny w Łysych, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "GKS Pokrzywnica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Świt Baranowo",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "id": "090043635936cbd68076a9739209ff5a",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion GKS Pokrzywnica",
-        "geo": {
-          "latitude": 52.6189244,
-          "longitude": 21.0223388,
-          "name": "GKS Pokrzywnica, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "Kurpik II Kadzidło",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "FDP Ostrów Mazowiecka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "id": "b91501a2f4ad20fbcf6ce100a5006f03",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "KS Wąsewo",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Nadnarwianka II Pułtusk",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "id": "5c03b8915c25465c6682bb2f3d79422d",
-      "stadium": {
-        "address": "Szkolna 1, 07-311 Wąsewo",
-        "venue": "Boisko wielofunkcyjne w Wąsewie",
-        "geo": {
-          "latitude": 52.8776378,
-          "longitude": 21.6779705,
-          "name": "Boisko w Wąsewie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "Pełta Karniewo",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "FC 2012 Różan",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "id": "ad67c0bdeb0ee1e84036e6c3f3f552db",
-      "stadium": {
-        "address": "Ciechanowska 5, 06-425 Karniewo",
-        "venue": "Stadion Pełty Karniewo",
-        "geo": {
-          "latitude": 52.8381105,
-          "longitude": 20.9841067,
-          "name": "Stadion Pełty Karniewo, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "FC 2012 Różan",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "GKS Łyse",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "a31b8b47d81cf32d9fc61f6bd8e48f76",
-      "stadium": {
-        "address": "Szkolna 3, 06-230 Różan",
-        "venue": "Stadion Miejski w Różanie",
-        "geo": {
-          "latitude": 52.8901254,
-          "longitude": 21.3870469,
-          "name": "Stadion Miejski w Różanie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Ostroleka)"
-      },
-      "homeTeam": {
-        "name": "Nadnarwianka II Pułtusk",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pełta Karniewo",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "4f54a27ea3d5d9d677c2196c78f93a09",
-      "stadium": {
-        "address": "Sportowa 2A, 06-100 Pułtusk",
-        "venue": "Stadion MOSiR Nadnarwianka",
-        "geo": {
-          "latitude": 52.6994591,
-          "longitude": 21.0879325,
-          "name": "Stadion MOSiR Nadnarwianka, Pułtusk, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa B (Ostroleka)"
-      },
-      "homeTeam": {
         "name": "Świt Baranowo",
         "crest": null
       },
@@ -228,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-18T19:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-18",
+        "dateTime": "2026-09-18T19:00:00.000Z"
       },
       "id": "d9311f10d62e94bc2fb09b637c42839e",
       "stadium": {
@@ -253,25 +38,62 @@
         "name": "Keeza Klasa B (Ostroleka)"
       },
       "homeTeam": {
-        "name": "FDP Ostrów Mazowiecka",
+        "name": "Nadnarwianka II Pułtusk",
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS Pokrzywnica",
+        "name": "Pełta Karniewo",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
-      "id": "507a9f618e36b242980fd8d258e86ceb",
-      "stadium": null
+      "id": "4f54a27ea3d5d9d677c2196c78f93a09",
+      "stadium": {
+        "address": "Sportowa 2A, 06-100 Pułtusk",
+        "venue": "Stadion MOSiR Nadnarwianka",
+        "geo": {
+          "latitude": 52.6994591,
+          "longitude": 21.0879325,
+          "name": "Stadion MOSiR Nadnarwianka, Pułtusk, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "FC 2012 Różan",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Łyse",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
+      },
+      "id": "a31b8b47d81cf32d9fc61f6bd8e48f76",
+      "stadium": {
+        "address": "Szkolna 3, 06-230 Różan",
+        "venue": "Stadion Miejski w Różanie",
+        "geo": {
+          "latitude": 52.8901254,
+          "longitude": 21.3870469,
+          "name": "Stadion Miejski w Różanie, mazowieckie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -286,16 +108,37 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T15:00:00.000Z"
       },
       "id": "0f39b4ca451272ee839d5847e5f27dec",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa B (Ostroleka)"
+      },
+      "homeTeam": {
+        "name": "FDP Ostrów Mazowiecka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "GKS Pokrzywnica",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:00:00.000Z"
+      },
+      "id": "507a9f618e36b242980fd8d258e86ceb",
       "stadium": null
     },
     {

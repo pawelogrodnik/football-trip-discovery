@@ -1,326 +1,12 @@
 {
   "competitionName": "V liga (malopolska (zachod))",
-  "count": 80,
+  "count": 72,
   "matches": [
     {
       "competition": {
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
-        "name": "Garbarnia Kraków",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e3/RKS_Garbarnia_Krak%C3%B3w_%28ancien_logo%29.svg"
-      },
-      "awayTeam": {
-        "name": "Niwa Nowa Wieś",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T09:00:00.000Z"
-      },
-      "id": "26648cdeb72f61e1b7e5e5239e4b2f1f",
-      "stadium": {
-        "address": "Rydlówka 23 Kraków 30-363",
-        "venue": "Stadion Garbarni przy Barskiej",
-        "geo": {
-          "latitude": 50.0361101,
-          "longitude": 19.9341439,
-          "name": "23, Rydlówka, Stare Podgórze, Podgórze, Kraków, województwo małopolskie, 30-363, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Radziszowianka Radziszów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Puszcza II Niepołomice",
-        "crest": "https://upload.wikimedia.org/wikipedia/en/a/a1/Puszcza_Niepolomice_Herb_Full.svg"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T09:00:00.000Z"
-      },
-      "id": "80e15a8e6676574f48c859a2d4237539",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion LKS Radziszowianka",
-        "geo": {
-          "latitude": 49.9464965,
-          "longitude": 19.8097761,
-          "name": "LKS Radziszowianka, Skawińska, Radziszów, powiat krakowski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Orzeł Myślenice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "MKS Trzebinia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T12:00:00.000Z"
-      },
-      "id": "95abe9518d862368bcefc6a7cf1f9668",
-      "stadium": {
-        "address": "Burmistrza Andrzeja Marka 7, 32-400 Myślenice",
-        "venue": "Stadion Sportowy im. Edwarda Łapy w Myślenicach",
-        "geo": {
-          "latitude": 49.8318752,
-          "longitude": 19.9639736,
-          "name": "Stadion Sportowy im. Edwarda Łapy, Myślenice, powiat myślenicki, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "LKS Bobrek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Świt Krzeszowice",
-        "crest": "http://swit1923.pl/wp-content/uploads/2021/01/logo.png"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T13:00:00.000Z"
-      },
-      "id": "ea9ec5841eb9867f053d20a332ed8e5c",
-      "stadium": {
-        "address": "Jarzębinowa 2, 32-661 Bobrek",
-        "venue": "Boisko LKS Bobrek",
-        "geo": {
-          "latitude": 50.0555766,
-          "longitude": 19.2515992,
-          "name": "LKS Bobrek, Jarzębinowa, Bobrek, powiat oświęcimski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Przebój Wolbrom",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Kmita Zabierzów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "3ad12f0992c6a21975b6bb96823289ad",
-      "stadium": {
-        "address": "Leśna 2, 32-340 Wolbrom",
-        "venue": "Stadion Przeboju Wolbrom",
-        "geo": {
-          "latitude": 50.376704,
-          "longitude": 19.7586482,
-          "name": "Przebój Wolbrom, Leśna, Wolbrom, powiat olkuski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "KS Chełmek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Kabel Kraków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "07fc5ee480730d7330f2bb898e36ebb0",
-      "stadium": {
-        "address": "Krakowska 22, 32-660 Chełmek",
-        "venue": "Miejski Stadion Sportowy KS Chełmek",
-        "geo": {
-          "latitude": 50.0988011,
-          "longitude": 19.2629327,
-          "name": "KS Chełmek, Chełmek, powiat oświęcimski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Michałowianka Michałowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Kocmyrzów Baranówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "id": "207efa4e0abc90ec024fbbcaddfdb8a6",
-      "stadium": {
-        "address": "Akacjowa 100, 32-091 Michałowice",
-        "venue": "Stadion KS Michałowianka",
-        "geo": {
-          "latitude": 50.1697877,
-          "longitude": 19.9825444,
-          "name": "Stadion LKS Michałowianka, Michałowice, powiat krakowski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Wróblowianka Wróblowice (Kraków)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tempo Białka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "id": "7c5ce1842478de1f28c6b2ab37facf4c",
-      "stadium": {
-        "address": "Wróblowicka 58, 30-698 Kraków",
-        "venue": "Stadion KS Wróblowianka",
-        "geo": {
-          "latitude": 49.981088,
-          "longitude": 19.9484265,
-          "name": "Klub Sportowy Wróblowianka, Kraków, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Kabel Kraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Garbarnia Kraków",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e3/RKS_Garbarnia_Krak%C3%B3w_%28ancien_logo%29.svg"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "ac58dfb5caf5ce0bd2219ca00912375f",
-      "stadium": {
-        "address": "Parkowa 12A, 30-538 Kraków",
-        "venue": "Centrum Sportu Parkowa (KS Kabel Kraków)",
-        "geo": {
-          "latitude": 50.0407573,
-          "longitude": 19.9512063,
-          "name": "Klub Sportowy Kabel Kraków, Parkowa, Kraków, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Świt Krzeszowice",
-        "crest": "http://swit1923.pl/wp-content/uploads/2021/01/logo.png"
-      },
-      "awayTeam": {
-        "name": "KS Chełmek",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "e7275f6d75377499fb95f87781a86c18",
-      "stadium": {
-        "address": null,
-        "venue": "Świt Krzeszowice",
-        "geo": {
-          "latitude": 50.139081778688634,
-          "longitude": 19.63342751099435,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
         "name": "Tempo Białka",
         "crest": null
       },
@@ -329,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-18T20:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-18",
+        "dateTime": "2026-09-18T20:00:00.000Z"
       },
       "id": "3be85b06ad79d343f95a1b925ed11c29",
       "stadium": {
@@ -354,11 +38,11 @@
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
-        "name": "Kmita Zabierzów",
-        "crest": null
+        "name": "Garbarnia Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e3/RKS_Garbarnia_Krak%C3%B3w_%28ancien_logo%29.svg"
       },
       "awayTeam": {
-        "name": "Wróblowianka Wróblowice (Kraków)",
+        "name": "Kabel Kraków",
         "crest": null
       },
       "schedule": {
@@ -370,6 +54,68 @@
         "startDate": "2026-09-19",
         "endDate": "2026-09-20",
         "time": "TBD"
+      },
+      "id": "b50468e31675da6992048d30f1d1bc3c",
+      "stadium": {
+        "address": "Rydlówka 23 Kraków 30-363",
+        "venue": "Stadion Garbarni przy Barskiej",
+        "geo": {
+          "latitude": 50.0361101,
+          "longitude": 19.9341439,
+          "name": "23, Rydlówka, Stare Podgórze, Podgórze, Kraków, województwo małopolskie, 30-363, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (malopolska (zachod))"
+      },
+      "homeTeam": {
+        "name": "Świt Krzeszowice",
+        "crest": "http://swit1923.pl/wp-content/uploads/2021/01/logo.png"
+      },
+      "awayTeam": {
+        "name": "KS Chełmek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T15:30:00.000Z"
+      },
+      "id": "e7275f6d75377499fb95f87781a86c18",
+      "stadium": {
+        "address": null,
+        "venue": "Świt Krzeszowice",
+        "geo": {
+          "latitude": 50.139081778688634,
+          "longitude": 19.63342751099435,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (malopolska (zachod))"
+      },
+      "homeTeam": {
+        "name": "Kmita Zabierzów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wróblowianka Wróblowice (Kraków)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "id": "275b8ba2b137305dc6d1c8fe7b681518",
       "stadium": {
@@ -387,39 +133,6 @@
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
-        "name": "Sokół Kocmyrzów Baranówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Przebój Wolbrom",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "484afce926b3266a89b310c4df796231",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion LKS Sokół Kocmyrzów",
-        "geo": {
-          "latitude": 50.1309053,
-          "longitude": 20.133764,
-          "name": "LKS Sokół Kocmyrzów, Sportowa, Kocmyrzów, powiat krakowski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
         "name": "MKS Trzebinia",
         "crest": null
       },
@@ -428,14 +141,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "id": "ac6e7f63ac30fc1690396f90861d2f46",
       "stadium": {
@@ -453,6 +164,37 @@
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
+        "name": "Niwa Nowa Wieś",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Radziszowianka Radziszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
+      "id": "01628e69f67b54eddf61329095d6b03b",
+      "stadium": {
+        "address": "Świętego Floriana 68, 32-651 Nowa Wieś",
+        "venue": "Stadion LKS Niwa Nowa Wieś",
+        "geo": {
+          "latitude": 49.9079586,
+          "longitude": 19.2015848,
+          "name": "LKS Niwa Nowa Wieś, Nowa Wieś, powiat oświęcimski, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (malopolska (zachod))"
+      },
+      "homeTeam": {
         "name": "Puszcza II Niepołomice",
         "crest": "https://upload.wikimedia.org/wikipedia/en/a/a1/Puszcza_Niepolomice_Herb_Full.svg"
       },
@@ -461,14 +203,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "id": "d303280b1e08e1d7ab8b7c3a3dcaf297",
       "stadium": {
@@ -486,31 +226,29 @@
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
-        "name": "Niwa Nowa Wieś",
+        "name": "Sokół Kocmyrzów Baranówka",
         "crest": null
       },
       "awayTeam": {
-        "name": "Radziszowianka Radziszów",
+        "name": "Przebój Wolbrom",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T17:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T17:00:00.000Z"
       },
-      "id": "01628e69f67b54eddf61329095d6b03b",
+      "id": "484afce926b3266a89b310c4df796231",
       "stadium": {
-        "address": "Świętego Floriana 68, 32-651 Nowa Wieś",
-        "venue": "Stadion LKS Niwa Nowa Wieś",
+        "address": null,
+        "venue": "Stadion LKS Sokół Kocmyrzów",
         "geo": {
-          "latitude": 49.9079586,
-          "longitude": 19.2015848,
-          "name": "LKS Niwa Nowa Wieś, Nowa Wieś, powiat oświęcimski, małopolskie, Polska"
+          "latitude": 50.1309053,
+          "longitude": 20.133764,
+          "name": "LKS Sokół Kocmyrzów, Sportowa, Kocmyrzów, powiat krakowski, małopolskie, Polska"
         }
       }
     },

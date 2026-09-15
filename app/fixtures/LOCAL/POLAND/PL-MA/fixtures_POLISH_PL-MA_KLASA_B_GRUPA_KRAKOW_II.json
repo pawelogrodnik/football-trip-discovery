@@ -1,200 +1,12 @@
 {
   "competitionName": "Klasa B (Krakow II)",
-  "count": 50,
+  "count": 45,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Krakow II)"
       },
       "homeTeam": {
-        "name": "Dragon Szczyglice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast II Wołowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T10:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T10:00:00.000Z"
-      },
-      "id": "c1295914a6c9bdb3e17305ccf3d75aeb",
-      "stadium": {
-        "address": "Sportowa, 32-083 Szczyglice",
-        "venue": "Boisko Dragon Szczyglice",
-        "geo": {
-          "latitude": 50.0929524,
-          "longitude": 19.8083976,
-          "name": "Boisko Dragon Szczyglice, Sportowa, Szczyglice, powiat krakowski, województwo małopolskie, 32-083, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Wisła Jeziorzany",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Maszycanka Maszyce",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "caefdd76ad78f9ebfeed83aa19d64dd0",
-      "stadium": {
-        "address": "Jeziorzany 147, 32-060 Jeziorzany",
-        "venue": "Boisko LKS Wisła Jeziorzany",
-        "geo": {
-          "latitude": 49.9863881,
-          "longitude": 19.7800941,
-          "name": "KS Wisła Jeziorzany, Jeziorzany, powiat krakowski, województwo małopolskie, 32-060, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Niegoszowianka Niegoszowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iskra Czułów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "id": "f0b7c1764a0cbf21da6263e3a4f5a808",
-      "stadium": {
-        "address": "Spacerowa 3, 32-064 Niegoszowice",
-        "venue": "Boisko LKS Niegoszowianka",
-        "geo": {
-          "latitude": 50.1197275,
-          "longitude": 19.7349106,
-          "name": "LKS Niegoszowianka, Spacerowa 3, Niegoszowice, powiat krakowski, województwo małopolskie, 32-064, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Topór Aleksandrowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tonianka Tonie (Kraków)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "id": "740ad7cdb0174ad1408a503e6f67831c",
-      "stadium": {
-        "address": "Jurajska, 32-084 Aleksandrowice",
-        "venue": "Boisko KS Topór",
-        "geo": {
-          "latitude": 50.0912955,
-          "longitude": 19.7520012,
-          "name": "KS Topór, Jurajska, Aleksandrowice, powiat krakowski, województwo małopolskie, 32-084, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Czułówek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Bronowicki KS Kraków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T10:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T10:30:00.000Z"
-      },
-      "id": "93214ecd73be7bd649c932bf17dec42b",
-      "stadium": {
-        "address": "Błękitna, 32-061 Czułówek",
-        "venue": "Boisko LKS Błękitni",
-        "geo": {
-          "latitude": 50.040887,
-          "longitude": 19.6805787,
-          "name": "LKS Błękitni, Błękitna, Czułówek, powiat krakowski, województwo małopolskie, 32-061, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Górzanka Nawojowa Góra",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Dragon Szczyglice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "58fdedd5da15561407838dd6a46fbf09",
-      "stadium": {
-        "address": "Sportowa 2A, 32-065 Nawojowa Góra",
-        "venue": "Stadion Górzanka",
-        "geo": {
-          "latitude": 50.1109089,
-          "longitude": 19.6666363,
-          "name": "Nawojowa Góra, powiat krakowski, województwo małopolskie, 32-065, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
         "name": "Maszycanka Maszyce",
         "crest": null
       },
@@ -203,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T11:00:00.000Z"
       },
       "id": "61f70b9a84b1aac02aa6b24b87481f8c",
       "stadium": {
@@ -228,6 +38,37 @@
         "name": "Klasa B (Krakow II)"
       },
       "homeTeam": {
+        "name": "Górzanka Nawojowa Góra",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dragon Szczyglice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T17:00:00.000Z"
+      },
+      "id": "58fdedd5da15561407838dd6a46fbf09",
+      "stadium": {
+        "address": "Sportowa 2A, 32-065 Nawojowa Góra",
+        "venue": "Stadion Górzanka",
+        "geo": {
+          "latitude": 50.1109089,
+          "longitude": 19.6666363,
+          "name": "Nawojowa Góra, powiat krakowski, województwo małopolskie, 32-065, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
         "name": "Bronowicki KS Kraków",
         "crest": null
       },
@@ -236,14 +77,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "04b501494cf937e1c91dde8740eecc70",
       "stadium": {
@@ -261,31 +100,6 @@
         "name": "Klasa B (Krakow II)"
       },
       "homeTeam": {
-        "name": "Iskra Czułów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Błękitni Czułówek",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "0db175723bfb627de2151ea489b86bd5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
         "name": "Płomień Cholerzyn",
         "crest": null
       },
@@ -294,14 +108,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "eaec7abc989f682ec6d5adf5488e3a29",
       "stadium": {
@@ -313,6 +125,29 @@
           "name": "Cholerzyn 35, Cholerzyn, powiat krakowski, województwo małopolskie, 32-060, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
+        "name": "Iskra Czułów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Czułówek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:30:00.000Z"
+      },
+      "id": "0db175723bfb627de2151ea489b86bd5",
+      "stadium": null
     },
     {
       "competition": {

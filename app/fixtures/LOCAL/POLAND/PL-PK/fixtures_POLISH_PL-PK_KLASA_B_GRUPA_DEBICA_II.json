@@ -1,13 +1,13 @@
 {
   "competitionName": "Klasa B (Debica II)",
-  "count": 35,
+  "count": 30,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Debica II)"
       },
       "homeTeam": {
-        "name": "LKS Zasów-Mokre",
+        "name": "Baszta Zawada",
         "crest": null
       },
       "awayTeam": {
@@ -16,53 +16,14 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
-      "id": "3e99dbee8e4010547c16bfc3e742f4cc",
-      "stadium": {
-        "address": "Zasów 137",
-        "venue": "Boisko LKS Zasów",
-        "geo": {
-          "latitude": 50.1360576,
-          "longitude": 21.3241818,
-          "name": "Boisko LKS Zasów, Zasów, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica II)"
-      },
-      "homeTeam": {
-        "name": "LKS Wiewiórka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS II Pustków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "id": "0090578e544902414d76efeec28d26e5",
-      "stadium": {
-        "address": "Wiewiórka 152",
-        "venue": "Boisko LKS Wiewiórka",
-        "geo": {
-          "latitude": 50.1053162,
-          "longitude": 21.3380838,
-          "name": "LKS Wiewiórka, Wiewiórka, podkarpackie, Polska"
-        }
-      }
+      "id": "61d5750b49feed86b84bf4dcc69c047d",
+      "stadium": null
     },
     {
       "competition": {
@@ -73,18 +34,18 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Baszta Zawada",
+        "name": "TS Jodłowa",
         "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T09:30:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:30:00.000Z"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T10:00:00.000Z"
       },
-      "id": "ffc0ec9ff5482b29f7fd3eb172ea2ab1",
+      "id": "79fc57df16916e6818f280b105bca1f5",
       "stadium": {
         "address": "Żdżary",
         "venue": "Stadion LKS Dąb Żdżary",
@@ -100,93 +61,6 @@
         "name": "Klasa B (Debica II)"
       },
       "homeTeam": {
-        "name": "Dragon Korzeniów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Stasiówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "id": "c45fd9eed536ac549b4bf5d0c5d5fd4b",
-      "stadium": {
-        "address": "Korzeniów",
-        "venue": "Boisko Dragona Korzeniów",
-        "geo": {
-          "latitude": 50.1520278,
-          "longitude": 21.4545594,
-          "name": "Boisko Dragona Korzeniów, Korzeniów, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica II)"
-      },
-      "homeTeam": {
-        "name": "TS Jodłowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Kamieniarz II Golemki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "id": "bd571799f8579cb9ec9d29dea32f4729",
-      "stadium": {
-        "address": "Jodłowa 275",
-        "venue": "Boisko TS Jodłowa",
-        "geo": {
-          "latitude": 49.8757272,
-          "longitude": 21.2982654,
-          "name": "Boisko TS Jodłowa, Jodłowa, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica II)"
-      },
-      "homeTeam": {
-        "name": "Baszta Zawada",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Łęki Górne",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "61d5750b49feed86b84bf4dcc69c047d",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica II)"
-      },
-      "homeTeam": {
         "name": "LKS Stasiówka",
         "crest": null
       },
@@ -195,14 +69,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "f65fc348fb86d1218e5530e0c5fe3b5c",
       "stadium": {
@@ -228,14 +100,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "2b8e387fff92ac3701dd80093e540c39",
       "stadium": null
@@ -253,50 +123,15 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "id": "8273a99d77be872ecbdfada34abc13e4",
       "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica II)"
-      },
-      "homeTeam": {
-        "name": "Dąb Żdżary",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "TS Jodłowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "79fc57df16916e6818f280b105bca1f5",
-      "stadium": {
-        "address": "Żdżary",
-        "venue": "Stadion LKS Dąb Żdżary",
-        "geo": {
-          "latitude": 50.0332069,
-          "longitude": 21.2115325,
-          "name": "Stadion LKS Dąb Żdżary, Żdżary, podkarpackie, Polska"
-        }
-      }
     },
     {
       "competition": {

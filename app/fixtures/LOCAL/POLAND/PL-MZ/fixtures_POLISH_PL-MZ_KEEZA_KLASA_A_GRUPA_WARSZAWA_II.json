@@ -1,287 +1,34 @@
 {
   "competitionName": "Keeza Klasa A (Warszawa II)",
-  "count": 70,
+  "count": 63,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa A (Warszawa II)"
       },
       "homeTeam": {
-        "name": "Amur Wilga",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Drukarz II Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T12:00:00.000Z"
-      },
-      "id": "bd7f84ed6d59afd939757291836369f9",
-      "stadium": {
-        "address": "Szpaka 8, 08-470 Wilga",
-        "venue": "Stadion UKS Amur Wilga",
-        "geo": {
-          "latitude": 51.8440822,
-          "longitude": 21.3936286,
-          "name": "Stadion UKS Amur Wilga, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "GKP Targówek (Warszawa)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Start Otwock",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "3c298ddb9471f22ff878408ee945e6da",
-      "stadium": {
-        "address": "Kołowa 24, 03-536 Warszawa",
-        "venue": "Boisko GKP Targówek",
-        "geo": {
-          "latitude": 52.2738868,
-          "longitude": 21.0454918,
-          "name": "Boisko GKP Targówek, Kołowa 24, Warszawa, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "Promnik Gończyce",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Vulcan Wólka Mlądzka (Otwock)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "id": "2468ed4574f857b62b043b3d1c711247",
-      "stadium": {
-        "address": "Gończyce 106, 08-460 Gończyce",
-        "venue": "Stadion Gminny w Gończycach",
-        "geo": {
-          "latitude": 51.7797918,
-          "longitude": 21.7239827,
-          "name": "Stadion Gminny w Gończycach, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "Józefovia II Józefów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "AP EsKadra II Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "id": "8e98c2bb2b2af96cfeeda352dfe6af22",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Józefovia Józefów",
-        "geo": {
-          "latitude": 52.1315512,
-          "longitude": 21.2517079,
-          "name": "Józefovia Józefów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "Wisła Dziecinów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "PKS Radość (Warszawa)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "id": "913fb8566eb9120af4e4102ea42ed591",
-      "stadium": {
-        "address": "Dziecinów 115a, 08-443 Dziecinów",
-        "venue": "Stadion w Dziecinowie",
-        "geo": {
-          "latitude": 51.9803953,
-          "longitude": 21.282038,
-          "name": "Stadion w Dziecinowie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "Wilga II Garwolin",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "Mazur II Karczew",
         "crest": null
       },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:30:00.000Z"
-      },
-      "id": "8cace1e855cc3739f84264e04d4b998e",
-      "stadium": {
-        "venue": "Stadion Wilgi Garwolin",
-        "address": "Sportowa 34, Garwolin",
-        "geo": {
-          "latitude": 51.949448,
-          "longitude": 21.5360645,
-          "name": "34, Sportowa, Pilawa, gmina Pilawa, powiat garwoliński, województwo mazowieckie, 08-440, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "KS Glinianka",
-        "crest": null
-      },
       "awayTeam": {
-        "name": "Orzeł Parysów",
+        "name": "Amur Wilga",
         "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-13T14:30:00.000Z"
+        "dateTime": "2026-09-19T10:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:30:00.000Z"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T10:00:00.000Z"
       },
-      "id": "77d605191f006cdcbe1d7c3b743ab39e",
+      "id": "2077a0fc17a24093491ddbcc0569545f",
       "stadium": {
-        "address": "Młodzieżowa 1, 05-408 Glinianka",
-        "venue": "Boisko KS Glinianka",
+        "venue": "Stadion Mazura Karczew",
+        "address": "Sportowa 3, Karczew",
         "geo": {
-          "latitude": 52.1346325,
-          "longitude": 21.4005863,
-          "name": "Boisko KS Glinianka (KS Arena), mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Parysów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Promnik Gończyce",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "ba11520217e70a0d04401c593e9f61ea",
-      "stadium": {
-        "address": null,
-        "venue": "Boisko ULKS Orzeł Parysów",
-        "geo": {
-          "latitude": 51.9792109,
-          "longitude": 21.6764974,
-          "name": "ULKS Orzeł Parysów, Parysów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa II)"
-      },
-      "homeTeam": {
-        "name": "PKS Radość (Warszawa)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Glinianka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "366cc78e8c8ccbca5c1b106a54b5daf9",
-      "stadium": {
-        "address": "Rusałki 1, 04-884 Warszawa",
-        "venue": "PKS Radość Arena",
-        "geo": {
-          "latitude": 52.1750235,
-          "longitude": 21.1899593,
-          "name": "PKS Radość, Wawer, Warszawa, mazowieckie, Polska"
+          "latitude": 52.07062444954824,
+          "longitude": 21.243988762452478
         }
       }
     },
@@ -298,14 +45,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T11:00:00.000Z"
       },
       "id": "1a07f3e389b5fc81915e6b8489a83bd8",
       "stadium": {
@@ -323,30 +68,29 @@
         "name": "Keeza Klasa A (Warszawa II)"
       },
       "homeTeam": {
-        "name": "Mazur II Karczew",
+        "name": "Vulcan Wólka Mlądzka (Otwock)",
         "crest": null
       },
       "awayTeam": {
-        "name": "Amur Wilga",
+        "name": "Józefovia II Józefów",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
-      "id": "2077a0fc17a24093491ddbcc0569545f",
+      "id": "7103fc7995797f42aea3ffd638a90cb2",
       "stadium": {
-        "venue": "Stadion Mazura Karczew",
-        "address": "Sportowa 3, Karczew",
+        "address": "Wspaniała 5, 05-400 Otwock",
+        "venue": "Stadion KS Vulcan",
         "geo": {
-          "latitude": 52.07062444954824,
-          "longitude": 21.243988762452478
+          "latitude": 52.13861,
+          "longitude": 21.3419801,
+          "name": "Stadion KS Vulcan, Otwock, mazowieckie, Polska"
         }
       }
     },
@@ -363,14 +107,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "id": "977fa493323d07768ef52ab152a0ab58",
       "stadium": {
@@ -388,6 +130,37 @@
         "name": "Keeza Klasa A (Warszawa II)"
       },
       "homeTeam": {
+        "name": "PKS Radość (Warszawa)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Glinianka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T19:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T19:00:00.000Z"
+      },
+      "id": "366cc78e8c8ccbca5c1b106a54b5daf9",
+      "stadium": {
+        "address": "Rusałki 1, 04-884 Warszawa",
+        "venue": "PKS Radość Arena",
+        "geo": {
+          "latitude": 52.1750235,
+          "longitude": 21.1899593,
+          "name": "PKS Radość, Wawer, Warszawa, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa II)"
+      },
+      "homeTeam": {
         "name": "AP EsKadra II Warszawa",
         "crest": null
       },
@@ -396,14 +169,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "id": "651ac2369e553bed0c438287540c02c3",
       "stadium": {
@@ -421,31 +192,29 @@
         "name": "Keeza Klasa A (Warszawa II)"
       },
       "homeTeam": {
-        "name": "Vulcan Wólka Mlądzka (Otwock)",
+        "name": "Orzeł Parysów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Józefovia II Józefów",
+        "name": "Promnik Gończyce",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:30:00.000Z"
       },
-      "id": "7103fc7995797f42aea3ffd638a90cb2",
+      "id": "ba11520217e70a0d04401c593e9f61ea",
       "stadium": {
-        "address": "Wspaniała 5, 05-400 Otwock",
-        "venue": "Stadion KS Vulcan",
+        "address": null,
+        "venue": "Boisko ULKS Orzeł Parysów",
         "geo": {
-          "latitude": 52.13861,
-          "longitude": 21.3419801,
-          "name": "Stadion KS Vulcan, Otwock, mazowieckie, Polska"
+          "latitude": 51.9792109,
+          "longitude": 21.6764974,
+          "name": "ULKS Orzeł Parysów, Parysów, mazowieckie, Polska"
         }
       }
     },

@@ -1,326 +1,12 @@
 {
   "competitionName": "Decathlon V liga (mazowiecka II)",
-  "count": 80,
+  "count": 72,
   "matches": [
     {
       "competition": {
         "name": "Decathlon V liga (mazowiecka II)"
       },
       "homeTeam": {
-        "name": "Żyrardowianka Żyrardów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wektra Zbuczyn",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T10:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T10:00:00.000Z"
-      },
-      "id": "5176f5d40f689365a38a2ad3889a18fb",
-      "stadium": {
-        "address": "Piastowska 1, 96-300 Żyrardów",
-        "venue": "Stadion Żyrardowianki Żyrardów",
-        "geo": {
-          "latitude": 52.062919,
-          "longitude": 20.4180251,
-          "name": "Stadion Żyrardowianki, Żyrardów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Józefovia Józefów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tygrys Huta Mińska",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T12:00:00.000Z"
-      },
-      "id": "0c79cf1aa19f010f34275081a3a12df6",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Józefovia Józefów",
-        "geo": {
-          "latitude": 52.1315512,
-          "longitude": 21.2517079,
-          "name": "Józefovia Józefów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Perła Złotokłos",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ursus II Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "ecd0175ea345ae73b53ad9708b31ea68",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion LKS Perła Złotokłos",
-        "geo": {
-          "latitude": 52.0103327,
-          "longitude": 20.9061323,
-          "name": "LKS Perła Złotokłos, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Drogowiec Jedlińsk",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Proch Pionki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "fb2d53d0fcb64dd99f6e8c1ebf184923",
-      "stadium": {
-        "address": "Warszawska 1, 26-660 Jedlińsk",
-        "venue": "Stadion Drogowca Jedlińsk",
-        "geo": {
-          "latitude": 51.5081936,
-          "longitude": 21.1208491,
-          "name": "Stadion Drogowca Jedlińsk, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Wilga Garwolin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogoń II Siedlce",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "id": "cfc1cf05804983cfdeda22858679c961",
-      "stadium": {
-        "venue": "Stadion Wilgi Garwolin",
-        "address": "Sportowa 34, Garwolin",
-        "geo": {
-          "latitude": 51.949448,
-          "longitude": 21.5360645,
-          "name": "34, Sportowa, Pilawa, gmina Pilawa, powiat garwoliński, województwo mazowieckie, 08-440, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Jodła Jedlnia-Letnisko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Powiślanka Lipsko",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:00:00.000Z"
-      },
-      "id": "472f92004291487347d325ab5148a745",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion GKS Jodła Jedlnia-Letnisko",
-        "geo": {
-          "latitude": 51.4427749,
-          "longitude": 21.3308304,
-          "name": "Stadion GKS Jodła, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "LKS Chlebnia",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pilica Białobrzegi",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "id": "ace174497d4614a55b4feb62d9bb11cf",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion LKS Chlebnia",
-        "geo": {
-          "latitude": 52.13221,
-          "longitude": 20.5891309,
-          "name": "LKS Chlebnia, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Champion Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Radomiak II Radom",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e8/RKS_Radomiak_Radom_%28logo%29.svg"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T16:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T16:30:00.000Z"
-      },
-      "id": "6aa624a6c2b9757da0bfbca16d91b998",
-      "stadium": {
-        "address": "Baletowa 164, 02-867 Warszawa",
-        "venue": "Stadion Champion Warszawa",
-        "geo": {
-          "latitude": 52.1318394,
-          "longitude": 20.9829045,
-          "name": "Stadion Champion Warszawa, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Powiślanka Lipsko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Perła Złotokłos",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "2ade1f7383fe46d6365dcfd8cc933aee",
-      "stadium": {
-        "address": "Solecka 100, 27-300 Lipsko",
-        "venue": "Stadion Miejski w Lipsku",
-        "geo": {
-          "latitude": 51.157415,
-          "longitude": 21.6663086,
-          "name": "Stadion Miejski w Lipsku, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
-        "name": "Wektra Zbuczyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jodła Jedlnia-Letnisko",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "4176a4e2558d8694b9aa159dfdbb0bf8",
-      "stadium": {
-        "address": "Terespolska 110, 08-106 Zbuczyn",
-        "venue": "Stadion Gminny w Zbuczynie",
-        "geo": {
-          "latitude": 52.0836624,
-          "longitude": 22.4597201,
-          "name": "Stadion Gminny w Zbuczynie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka II)"
-      },
-      "homeTeam": {
         "name": "Proch Pionki",
         "crest": null
       },
@@ -329,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "id": "9d5510e668d1277d3d4f360a9dc3904c",
       "stadium": {
@@ -362,14 +46,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "c771a02acf5d06c433ec3e301ca3a1b8",
       "stadium": {
@@ -387,31 +69,29 @@
         "name": "Decathlon V liga (mazowiecka II)"
       },
       "homeTeam": {
-        "name": "Tygrys Huta Mińska",
+        "name": "Powiślanka Lipsko",
         "crest": null
       },
       "awayTeam": {
-        "name": "Champion Warszawa",
+        "name": "Perła Złotokłos",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
-      "id": "f26cb20824b0981908438d0eda1ec8c0",
+      "id": "2ade1f7383fe46d6365dcfd8cc933aee",
       "stadium": {
-        "address": null,
-        "venue": "Stadion Tygrys Huta Mińska",
+        "address": "Solecka 100, 27-300 Lipsko",
+        "venue": "Stadion Miejski w Lipsku",
         "geo": {
-          "latitude": 52.1543478,
-          "longitude": 21.5696462,
-          "name": "Stadion Tygrys Huta Mińska, mazowieckie, Polska"
+          "latitude": 51.157415,
+          "longitude": 21.6663086,
+          "name": "Stadion Miejski w Lipsku, mazowieckie, Polska"
         }
       }
     },
@@ -428,14 +108,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "id": "1cd6642c5c30da7bb04c20dba1d78e44",
       "stadium": {
@@ -453,6 +131,68 @@
         "name": "Decathlon V liga (mazowiecka II)"
       },
       "homeTeam": {
+        "name": "Wektra Zbuczyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jodła Jedlnia-Letnisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
+      "id": "4176a4e2558d8694b9aa159dfdbb0bf8",
+      "stadium": {
+        "address": "Terespolska 110, 08-106 Zbuczyn",
+        "venue": "Stadion Gminny w Zbuczynie",
+        "geo": {
+          "latitude": 52.0836624,
+          "longitude": 22.4597201,
+          "name": "Stadion Gminny w Zbuczynie, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
+        "name": "Tygrys Huta Mińska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Champion Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T13:00:00.000Z"
+      },
+      "id": "f26cb20824b0981908438d0eda1ec8c0",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Tygrys Huta Mińska",
+        "geo": {
+          "latitude": 52.1543478,
+          "longitude": 21.5696462,
+          "name": "Stadion Tygrys Huta Mińska, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka II)"
+      },
+      "homeTeam": {
         "name": "Pilica Białobrzegi",
         "crest": null
       },
@@ -461,14 +201,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "816ee6114c2c6b98be79687ec16b4230",
       "stadium": {
@@ -494,14 +232,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "e807020eee8a0841ed6cb7612dc699b3",
       "stadium": {

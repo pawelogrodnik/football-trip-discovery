@@ -1,69 +1,7 @@
 {
   "competitionName": "Klasa B (Limanowa)",
-  "count": 36,
+  "count": 31,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
-        "name": "Witów Mszana Górna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Turbacz II Mszana Dolna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "9ba9c0302dea146f2166364638631db5",
-      "stadium": {
-        "address": "Mszana Górna 405, 34-733 Mszana Górna",
-        "venue": "Stadion LKS Witów",
-        "geo": {
-          "latitude": 49.6402963,
-          "longitude": 20.1226488,
-          "name": "Stadion LKS Witów, Mszana Górna 405, Mszana Górna, powiat limanowski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
-        "name": "LKS Rupniów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Płomień II Limanowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:30:00.000Z"
-      },
-      "id": "729d9681e5b23c793430446e2a1ac4c9",
-      "stadium": {
-        "address": "Rupniów 247, 34-652 Nowe Rybie",
-        "venue": "Boisko LKS Rupniów",
-        "geo": {
-          "latitude": 49.7661437,
-          "longitude": 20.3339965,
-          "name": "Boisko LKS Rupniów, Rupniów 247, Rupniów, powiat limanowski, małopolskie, Polska"
-        }
-      }
-    },
     {
       "competition": {
         "name": "Klasa B (Limanowa)"
@@ -73,18 +11,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Rybie Nowe Rybie",
+        "name": "KS II Tymbark",
         "crest": null
       },
       "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "819f89ecbf685164e5f00413e57ffc8d",
+      "id": "79cf49fe1221cbdb30f02a8f9a0feccf",
       "stadium": {
         "address": "Świdnik 22, 34-606 Świdnik",
         "venue": "Stadion w Świdniku",
@@ -100,93 +40,6 @@
         "name": "Klasa B (Limanowa)"
       },
       "homeTeam": {
-        "name": "Stradomka Skrzydlna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS II Tymbark",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "id": "36c060085c01e0ecd79173dcc58a04ca",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
-        "name": "Olimpia Pisarzowa",
-        "crest": "https://crests.football-data.org/487.png"
-      },
-      "awayTeam": {
-        "name": "LKS Mordarka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T15:00:00.000Z"
-      },
-      "id": "a1a55cbd7a5e3827b669d9288fd50dfa",
-      "stadium": {
-        "address": "Pisarzowa 396, 34-654 Pisarzowa",
-        "venue": "Stadion LKS Olimpia Pisarzowa",
-        "geo": {
-          "latitude": 49.6926176,
-          "longitude": 20.491112,
-          "name": "Stadion LKS Olimpia, Pisarzowa 396, Pisarzowa, powiat limanowski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
-        "name": "Turbacz II Mszana Dolna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Rupniów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "8344ed06b6faff2ea5948cbef20f35a3",
-      "stadium": {
-        "address": "Spadochroniarzy, 34-730 Mszana Dolna",
-        "venue": "Stadion Miejski im. Jana Ciszewskiego (LKS Turbacz)",
-        "geo": {
-          "latitude": 49.6776888,
-          "longitude": 20.0776086,
-          "name": "Stadion LKS Turbacz, Spadochroniarzy, Mszana Dolna, powiat limanowski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
         "name": "LKS Mordarka",
         "crest": null
       },
@@ -195,14 +48,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "id": "63ec81999f800bc5e5ff668455bb0890",
       "stadium": {
@@ -220,64 +71,6 @@
         "name": "Klasa B (Limanowa)"
       },
       "homeTeam": {
-        "name": "Rybie Nowe Rybie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Pisarzowa",
-        "crest": "https://crests.football-data.org/487.png"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "de0e2ffef19a737b2e49def5af2e30c9",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
-        "name": "KS II Tymbark",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Krokus II Przyszowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "02a5a41f279a8e12ad354ac77d5bca09",
-      "stadium": {
-        "address": "Tymbark 249, 34-650 Tymbark",
-        "venue": "Stadion KS Harnaś Tymbark",
-        "geo": {
-          "latitude": 49.7367591,
-          "longitude": 20.3238155,
-          "name": "Boisko KS Tymbark, Tymbark, powiat limanowski, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
         "name": "Śnieżnica Kasina Wielka",
         "crest": null
       },
@@ -286,14 +79,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "id": "cb6b63810ee9b033a205540c713edc66",
       "stadium": {
@@ -303,6 +94,37 @@
           "latitude": 49.7104018,
           "longitude": 20.1685796,
           "name": "Boisko na Śnieżnicy, Kasina Wielka, powiat limanowski, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Turbacz II Mszana Dolna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Rupniów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T17:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T17:00:00.000Z"
+      },
+      "id": "8344ed06b6faff2ea5948cbef20f35a3",
+      "stadium": {
+        "address": "Spadochroniarzy, 34-730 Mszana Dolna",
+        "venue": "Stadion Miejski im. Jana Ciszewskiego (LKS Turbacz)",
+        "geo": {
+          "latitude": 49.6776888,
+          "longitude": 20.0776086,
+          "name": "Stadion LKS Turbacz, Spadochroniarzy, Mszana Dolna, powiat limanowski, małopolskie, Polska"
         }
       }
     },
@@ -1113,11 +935,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-10-31T11:00:00.000Z"
+        "dateTime": "2026-10-31T12:00:00.000Z"
       },
       "date": {
         "date": "2026-10-31",
-        "dateTime": "2026-10-31T11:00:00.000Z"
+        "dateTime": "2026-10-31T12:00:00.000Z"
       },
       "id": "06c8f58a5395695a7114db5b1ddf3914",
       "stadium": {
@@ -1129,6 +951,29 @@
           "name": "Stadion LKS Turbacz, Spadochroniarzy, Mszana Dolna, powiat limanowski, małopolskie, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-11-08T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T11:00:00.000Z"
+      },
+      "id": "de0e2ffef19a737b2e49def5af2e30c9",
+      "stadium": null
     }
   ]
 }

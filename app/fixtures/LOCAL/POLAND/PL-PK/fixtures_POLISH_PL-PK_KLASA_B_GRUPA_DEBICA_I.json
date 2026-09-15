@@ -1,120 +1,12 @@
 {
   "competitionName": "Klasa B (Debica I)",
-  "count": 35,
+  "count": 31,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Debica I)"
       },
       "homeTeam": {
-        "name": "Piast Wolica Piaskowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Nockowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "c2fe60527d6b4e0f2f423996c863eb7c",
-      "stadium": {
-        "address": "Wolica Piaskowa",
-        "venue": "Boisko Piast Wolica Piaskowa",
-        "geo": {
-          "latitude": 50.0881983,
-          "longitude": 21.6991955,
-          "name": "Piast Wolica Piaskowa, Wolica Piaskowa, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica I)"
-      },
-      "homeTeam": {
-        "name": "Sokół Krzywa (k. Rzeszowa)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Borkovia Borek Wielki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:30:00.000Z"
-      },
-      "id": "62f7b0ee52565b445f8970e0f265a2ba",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica I)"
-      },
-      "homeTeam": {
-        "name": "KS Bystrzyca",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Strażak Lubzina",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:00:00.000Z"
-      },
-      "id": "3effa48cfb1e243e4d778af96188b5a6",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica I)"
-      },
-      "homeTeam": {
-        "name": "Lechia II Sędziszów Małopolski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LZS Mała",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T13:00:00.000Z"
-      },
-      "id": "9ef4e28ae617ca28803823817b0a88dc",
-      "stadium": {
-        "address": "Sędziszów Małopolski",
-        "venue": "Stadion MLKS Lechia Sędziszów Młp",
-        "geo": {
-          "latitude": 50.0662396,
-          "longitude": 21.6976332,
-          "name": "MLKS Lechia Sędziszów Młp, Sędziszów Małopolski, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica I)"
-      },
-      "homeTeam": {
         "name": "LZS Mała",
         "crest": null
       },
@@ -123,41 +15,14 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "id": "4d2353783137e134056566040d06b5a5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Debica I)"
-      },
-      "homeTeam": {
-        "name": "Borkovia Borek Wielki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast Wolica Piaskowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "73bf1dd3ee9fc96e9b452bc8700419f8",
       "stadium": null
     },
     {
@@ -173,14 +38,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "id": "0cb7ce424d32ee21109a91fa1a03df5e",
       "stadium": null
@@ -198,14 +61,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "id": "b04f43d7867e85816bb4b1c7bed45337",
       "stadium": {
@@ -223,6 +84,29 @@
         "name": "Klasa B (Debica I)"
       },
       "homeTeam": {
+        "name": "Borkovia Borek Wielki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Wolica Piaskowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
+      },
+      "id": "73bf1dd3ee9fc96e9b452bc8700419f8",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Debica I)"
+      },
+      "homeTeam": {
         "name": "Lechia II Sędziszów Małopolski",
         "crest": null
       },
@@ -231,14 +115,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "633589d3b997976ed919784402cee5cf",
       "stadium": {
@@ -994,11 +876,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "date": {
         "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "57f39e748eddb0f7d247dc0fbf5ad36b",
       "stadium": {

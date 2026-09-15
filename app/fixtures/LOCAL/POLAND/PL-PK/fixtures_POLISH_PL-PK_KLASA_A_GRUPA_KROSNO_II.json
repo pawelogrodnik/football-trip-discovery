@@ -1,6 +1,6 @@
 {
   "competitionName": "Klasa A (Krosno II)",
-  "count": 70,
+  "count": 63,
   "matches": [
     {
       "competition": {
@@ -11,18 +11,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Płomień Zmiennica",
+        "name": "Karpaty Krosno",
         "crest": null
       },
       "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
+        "status": "date-window",
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20"
       },
       "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
+        "startDate": "2026-09-19",
+        "endDate": "2026-09-20",
+        "time": "TBD"
       },
-      "id": "7f781b3c1d9a6de2b3f1ee9fdf689806",
+      "id": "b867b515f9ff4ffbf0f635781c1b4b8b",
       "stadium": {
         "address": "Posada Górna",
         "venue": "Boisko Beskid Posada Górna",
@@ -38,250 +40,6 @@
         "name": "Klasa A (Krosno II)"
       },
       "homeTeam": {
-        "name": "Tęcza Zręcin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Kotwica Korczyna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "601d6b7ee0e18ee33a6b5419bddcc07f",
-      "stadium": {
-        "address": "Zręcin",
-        "venue": "Stadion Piłkarski Tęczy Zręcin",
-        "geo": {
-          "latitude": 49.6670989,
-          "longitude": 21.6849243,
-          "name": "Stadion Tęczy Zręcin, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
-        "name": "Karpaty Klimkówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iskra Przysietnica",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "id": "de4085da2f9fac14960d8b7761289948",
-      "stadium": {
-        "address": "Osiedlowa 3, Klimkówka",
-        "venue": "Stadion w Klimkówce",
-        "geo": {
-          "latitude": 49.5867995,
-          "longitude": 21.8338045,
-          "name": "Stadion w Klimkówce, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
-        "name": "LKS Lubatowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Głowienka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "id": "4b20ab87ec5039d1eedbf7f8a1b2eb93",
-      "stadium": {
-        "address": "Lubatowa 291",
-        "venue": "Boisko LKS Lubatowa",
-        "geo": {
-          "latitude": 49.5432119,
-          "longitude": 21.7583401,
-          "name": "Boisko LKS Lubatowa, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
-        "name": "LKS Haczów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Domaradz",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "id": "8878a688b724c5f48afce5165cb83279",
-      "stadium": {
-        "address": "Haczów 89",
-        "venue": "Stadion sportowy LKS Haczów",
-        "geo": {
-          "latitude": 49.6712304,
-          "longitude": 21.8921255,
-          "name": "Stadion LKS Haczów, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
-        "name": "LKS Lubatówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Wzdów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "id": "35c9f41ff596dbaf4daa217f9859e8e0",
-      "stadium": {
-        "address": null,
-        "venue": "Boisko Lubatówki",
-        "geo": {
-          "latitude": 49.5892707,
-          "longitude": 21.7533813,
-          "name": "Boisko Lubatówki, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
-        "name": "LKS Górki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Karpaty Krosno",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T12:00:00.000Z"
-      },
-      "id": "cd1dd9673e3b63c1da57492b0a3dab0f",
-      "stadium": {
-        "address": null,
-        "venue": "Boisko LKS Górki",
-        "geo": {
-          "latitude": 49.6454026,
-          "longitude": 22.0416553,
-          "name": "Boisko LKS Górki, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
-        "name": "Iskra Przysietnica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tęcza Zręcin",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "07f945a38070c9846287e352a718c9af",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
-        "name": "LKS Wzdów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Karpaty Klimkówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "bd017c7cbc4007e1f4606a443758d065",
-      "stadium": {
-        "address": null,
-        "venue": "Boisko LKS Wzdów",
-        "geo": {
-          "latitude": 49.6350338,
-          "longitude": 21.9922341,
-          "name": "Boisko LKS Wzdów, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Krosno II)"
-      },
-      "homeTeam": {
         "name": "Płomień Zmiennica",
         "crest": null
       },
@@ -290,14 +48,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "id": "adb3484caadada9e612d4a18c91c1e8a",
       "stadium": {
@@ -315,31 +71,29 @@
         "name": "Klasa A (Krosno II)"
       },
       "homeTeam": {
-        "name": "Karpaty Krosno",
+        "name": "Burza Rogi",
         "crest": null
       },
       "awayTeam": {
-        "name": "Beskid Posada Górna",
+        "name": "LKS Haczów",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
-      "id": "7e2f2a942525a51b4f8b83f21bed1b80",
+      "id": "071098cae886f0494fee2a6a8c4316fe",
       "stadium": {
-        "address": null,
-        "venue": "K.S. Karpaty Krosno",
+        "address": "Rogi",
+        "venue": "Boisko Burza Rogi",
         "geo": {
-          "latitude": 49.69654137391807,
-          "longitude": 21.76629441745113,
-          "name": null
+          "latitude": 49.6142441,
+          "longitude": 21.752193,
+          "name": "Burza Rogi, podkarpackie, Polska"
         }
       }
     },
@@ -348,33 +102,23 @@
         "name": "Klasa A (Krosno II)"
       },
       "homeTeam": {
-        "name": "LKS Głowienka",
+        "name": "Iskra Przysietnica",
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Górki",
+        "name": "Tęcza Zręcin",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T17:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T17:00:00.000Z"
       },
-      "id": "ff7a1796b8edac55f31cd8bb0aecbbfb",
-      "stadium": {
-        "address": null,
-        "venue": "Nowy Stadion Głowienka",
-        "geo": {
-          "latitude": 49.6634966,
-          "longitude": 21.7543956,
-          "name": "Nowy Stadion Głowienka, podkarpackie, Polska"
-        }
-      }
+      "id": "07f945a38070c9846287e352a718c9af",
+      "stadium": null
     },
     {
       "competition": {
@@ -389,14 +133,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "348c8cd0e63d3c2be59e329e719f11ba",
       "stadium": {
@@ -414,31 +156,60 @@
         "name": "Klasa A (Krosno II)"
       },
       "homeTeam": {
-        "name": "Burza Rogi",
+        "name": "LKS Głowienka",
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS Haczów",
+        "name": "LKS Górki",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T15:00:00.000Z"
       },
-      "id": "071098cae886f0494fee2a6a8c4316fe",
+      "id": "ff7a1796b8edac55f31cd8bb0aecbbfb",
       "stadium": {
-        "address": "Rogi",
-        "venue": "Boisko Burza Rogi",
+        "address": null,
+        "venue": "Nowy Stadion Głowienka",
         "geo": {
-          "latitude": 49.6142441,
-          "longitude": 21.752193,
-          "name": "Burza Rogi, podkarpackie, Polska"
+          "latitude": 49.6634966,
+          "longitude": 21.7543956,
+          "name": "Nowy Stadion Głowienka, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Krosno II)"
+      },
+      "homeTeam": {
+        "name": "LKS Wzdów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Karpaty Klimkówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:30:00.000Z"
+      },
+      "id": "bd017c7cbc4007e1f4606a443758d065",
+      "stadium": {
+        "address": null,
+        "venue": "Boisko LKS Wzdów",
+        "geo": {
+          "latitude": 49.6350338,
+          "longitude": 21.9922341,
+          "name": "Boisko LKS Wzdów, podkarpackie, Polska"
         }
       }
     },

@@ -1,127 +1,12 @@
 {
   "competitionName": "Klasa B (Tarnow II)",
-  "count": 30,
+  "count": 25,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Tarnow II)"
       },
       "homeTeam": {
-        "name": "Alfa Siedliska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LUKS II Skrzyszów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-11T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-11",
-        "dateTime": "2026-09-11T17:00:00.000Z"
-      },
-      "id": "abb2f4c286445e9549f0486113948d87",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Tarnow II)"
-      },
-      "homeTeam": {
-        "name": "LKS Olszyny (k. Ołpin)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "WKS Siemiechów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:30:00.000Z"
-      },
-      "id": "08d53f13b9585bbe9c1e99b6c7047178",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Tarnow II)"
-      },
-      "homeTeam": {
-        "name": "KS Ryglice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Tarnowiec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T15:00:00.000Z"
-      },
-      "id": "f100ba7f8fd9ed00324b236fe2f77fcc",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Tarnow II)"
-      },
-      "homeTeam": {
-        "name": "KS Łękawica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Liwocz Czermna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "id": "5582c05d32c897d9dadbeed96903c22a",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Tarnow II)"
-      },
-      "homeTeam": {
-        "name": "KS Rzepiennik Strzyżewski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS II Szynwałd",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T14:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T14:30:00.000Z"
-      },
-      "id": "32650c5e012dac67ed255509713a2570",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Tarnow II)"
-      },
-      "homeTeam": {
         "name": "LUKS II Skrzyszów",
         "crest": null
       },
@@ -130,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "id": "211f900762c9e8f7d7a7dfaafad7ee86",
       "stadium": {
@@ -163,17 +46,46 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "id": "c2bade882bf784520a82c9dff88b7bed",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Tarnow II)"
+      },
+      "homeTeam": {
+        "name": "Liwocz Czermna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Rzepiennik Strzyżewski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "id": "9bce36fa475958b0b302ab0f628b6a37",
+      "stadium": {
+        "address": "Czermna",
+        "venue": "Boisko LKS Czermna",
+        "geo": {
+          "latitude": 49.8180028,
+          "longitude": 21.2929398,
+          "name": "Boisko LKS Czermna, Czermna, małopolskie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -188,14 +100,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "0a9f50b3665f70e0da9506381a5c179a",
       "stadium": {
@@ -221,14 +131,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "f840caf985e3f1223f3edd7409956a1c",
       "stadium": {
@@ -238,39 +146,6 @@
           "latitude": 49.9839014,
           "longitude": 21.1129814,
           "name": "Szynwałd 34, Szynwałd, powiat tarnowski, województwo małopolskie, 33-158, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Tarnow II)"
-      },
-      "homeTeam": {
-        "name": "Liwocz Czermna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Rzepiennik Strzyżewski",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "9bce36fa475958b0b302ab0f628b6a37",
-      "stadium": {
-        "address": "Czermna",
-        "venue": "Boisko LKS Czermna",
-        "geo": {
-          "latitude": 49.8180028,
-          "longitude": 21.2929398,
-          "name": "Boisko LKS Czermna, Czermna, małopolskie, Polska"
         }
       }
     },

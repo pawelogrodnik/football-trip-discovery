@@ -1,104 +1,12 @@
 {
   "competitionName": "Klasa B (Lubaczow)",
-  "count": 24,
+  "count": 20,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Lubaczow)"
       },
       "homeTeam": {
-        "name": "Błękitni Zalesie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Roztocze Ruda Różaniecka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-12",
-        "dateTime": "2026-09-12T14:00:00.000Z"
-      },
-      "id": "12529543c3ee548e5efe5173efdc3727",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Lubaczow)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Futory",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tanew Wola Wielka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T09:00:00.000Z"
-      },
-      "id": "2c83f431bc13ac3f185ee30a14ab0e92",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Lubaczow)"
-      },
-      "homeTeam": {
-        "name": "Unia Łukawiec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Korzenica",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "id": "91379426a0cfbf75baaa72ecb2816321",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Lubaczow)"
-      },
-      "homeTeam": {
-        "name": "Walter Opaka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Mołodycz",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-13",
-        "dateTime": "2026-09-13T11:00:00.000Z"
-      },
-      "id": "ff8a88058e94b982ae0f3f58c128b596",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Lubaczow)"
-      },
-      "homeTeam": {
         "name": "Roztocze Ruda Różaniecka",
         "crest": null
       },
@@ -107,17 +15,23 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "754e60debb68c71d8fdfdb57b78404f3",
-      "stadium": null
+      "stadium": {
+        "address": "Ruda Różaniecka",
+        "venue": "Boisko Roztocze Ruda Różaniecka",
+        "geo": {
+          "latitude": 50.323507,
+          "longitude": 23.1859004,
+          "name": "Boisko Roztocze, Ruda Różaniecka, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -132,17 +46,23 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "a7c213b550c7d2ad6680556499157ed6",
-      "stadium": null
+      "stadium": {
+        "address": "Korzenica",
+        "venue": "Boisko LKS Korzenica",
+        "geo": {
+          "latitude": 50.0369952,
+          "longitude": 22.9224096,
+          "name": "Boisko LKS Korzenica, Korzenica, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -157,14 +77,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "1d96a91d1bee090a726c087858b5d5a5",
       "stadium": null
@@ -182,17 +100,23 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "61b10fe82dd477bcf4cf8114e10d8377",
-      "stadium": null
+      "stadium": {
+        "address": "Płazów",
+        "venue": "Boisko Leśnik Płazów",
+        "geo": {
+          "latitude": 50.3083487,
+          "longitude": 23.2402013,
+          "name": "Boisko Leśnik, Płazów, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -242,7 +166,15 @@
         "time": "TBD"
       },
       "id": "e810c58756aac09e3af65b704cfd2e01",
-      "stadium": null
+      "stadium": {
+        "address": "Zalesie",
+        "venue": "Boisko Błękitni Zalesie",
+        "geo": {
+          "latitude": 50.1473743,
+          "longitude": 22.9869489,
+          "name": "Boisko Błękitni, Zalesie, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -292,7 +224,15 @@
         "time": "TBD"
       },
       "id": "d2b9745381a222b1a4de3cdb25273c5d",
-      "stadium": null
+      "stadium": {
+        "address": "Mołodycz",
+        "venue": "Boisko LKS Mołodycz",
+        "geo": {
+          "latitude": 50.1612355,
+          "longitude": 22.8317221,
+          "name": "Boisko LKS Mołodycz, Mołodycz, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -317,7 +257,15 @@
         "time": "TBD"
       },
       "id": "c8e093a1d821ebf70700b3ec58969c7b",
-      "stadium": null
+      "stadium": {
+        "address": "Korzenica",
+        "venue": "Boisko LKS Korzenica",
+        "geo": {
+          "latitude": 50.0369952,
+          "longitude": 22.9224096,
+          "name": "Boisko LKS Korzenica, Korzenica, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -367,7 +315,15 @@
         "time": "TBD"
       },
       "id": "c0e0497d55cf43762ff14c4852bb75c0",
-      "stadium": null
+      "stadium": {
+        "address": "Płazów",
+        "venue": "Boisko Leśnik Płazów",
+        "geo": {
+          "latitude": 50.3083487,
+          "longitude": 23.2402013,
+          "name": "Boisko Leśnik, Płazów, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -417,7 +373,15 @@
         "time": "TBD"
       },
       "id": "38ee559efcef7d9ffdc2c00a98d3a6f4",
-      "stadium": null
+      "stadium": {
+        "address": "Zalesie",
+        "venue": "Boisko Błękitni Zalesie",
+        "geo": {
+          "latitude": 50.1473743,
+          "longitude": 22.9869489,
+          "name": "Boisko Błękitni, Zalesie, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -467,7 +431,15 @@
         "time": "TBD"
       },
       "id": "cf27e22fb5f4bff7669a37d385f47240",
-      "stadium": null
+      "stadium": {
+        "address": "Mołodycz",
+        "venue": "Boisko LKS Mołodycz",
+        "geo": {
+          "latitude": 50.1612355,
+          "longitude": 22.8317221,
+          "name": "Boisko LKS Mołodycz, Mołodycz, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -492,7 +464,15 @@
         "time": "TBD"
       },
       "id": "f004254a96501b29bc71d435b742ae4a",
-      "stadium": null
+      "stadium": {
+        "address": "Ruda Różaniecka",
+        "venue": "Boisko Roztocze Ruda Różaniecka",
+        "geo": {
+          "latitude": 50.323507,
+          "longitude": 23.1859004,
+          "name": "Boisko Roztocze, Ruda Różaniecka, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -542,7 +522,15 @@
         "time": "TBD"
       },
       "id": "8756740b6163b5b8531e3131afb2f805",
-      "stadium": null
+      "stadium": {
+        "address": "Płazów",
+        "venue": "Boisko Leśnik Płazów",
+        "geo": {
+          "latitude": 50.3083487,
+          "longitude": 23.2402013,
+          "name": "Boisko Leśnik, Płazów, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
