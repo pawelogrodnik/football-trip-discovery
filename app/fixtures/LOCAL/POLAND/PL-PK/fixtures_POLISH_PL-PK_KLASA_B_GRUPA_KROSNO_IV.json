@@ -17,15 +17,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "endDate": "2026-09-20",
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-19",
         "endDate": "2026-09-20",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "d6242a1a09a568ab38ae681f2f466057",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Chorkówce 38"
     },
     {
       "competition": {
@@ -41,14 +46,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "94ccdc9a577727683a61975f31386934",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Krośnie ul. Rzeszowska 10"
     },
     {
       "competition": {
@@ -64,14 +71,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "8fa86a0ec74e24c2ceef92072a086943",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Miejscu Piastowym ul. Dworska 43"
     },
     {
       "competition": {
@@ -87,11 +96,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z"
       },
       "id": "caaf7322c4413f83ad0af76376c8556f",
       "stadium": {
@@ -102,7 +112,8 @@
           "longitude": 21.6491837,
           "name": "LKS Victoria Kobylany, Kobylany, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Kobylanach"
     },
     {
       "competition": {
@@ -118,11 +129,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "014481a4aad65d66e6283720b768ebd8",
       "stadium": {
@@ -133,7 +145,8 @@
           "longitude": 21.6223086,
           "name": "LKS Iwełka Iwla, Iwla, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Iwli"
     },
     {
       "competition": {
@@ -181,12 +194,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T09:00:00.000Z"
       },
       "id": "92557bbbcc92dbb738829f612129e559",
       "stadium": {
@@ -197,7 +214,8 @@
           "longitude": 21.6717918,
           "name": "WKS Rędzinianka Wojaszówka, Wojaszówka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Wojaszówce 160"
     },
     {
       "competition": {
@@ -214,12 +232,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T08:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T08:00:00.000Z"
       },
       "id": "90f7547795d6e5fa84d7d9f08214ea6b",
       "stadium": {
@@ -230,7 +252,8 @@
           "longitude": 21.7773862,
           "name": "Boisko Rotar, Węglówka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Węglówka 106 lok. D, 38-420 Korczyna"
     },
     {
       "competition": {
@@ -247,12 +270,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "id": "1644f952e28b44849863e42eb2dc3711",
       "stadium": {
@@ -280,12 +307,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T09:00:00.000Z"
       },
       "id": "8df885bf2dc84021a6fca263da164226",
       "stadium": {
@@ -296,7 +327,8 @@
           "longitude": 21.6848333,
           "name": "Stadion LKS Nurt Potok, Potok, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Potoku"
     },
     {
       "competition": {
@@ -338,12 +370,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "0d1f77bd6c7fe051c438a81196ecf7fd",
       "stadium": {
@@ -354,7 +390,8 @@
           "longitude": 21.7230306,
           "name": "Boisko Huragan, Jasionka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jasionka , 38-450 Dukla"
     },
     {
       "competition": {
@@ -429,15 +466,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T09:00:00.000Z"
       },
       "id": "99327f265d4c8c5af72bebd863a5fdc0",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Miejscu Piastowym ul. Dworska 43"
     },
     {
       "competition": {
@@ -512,12 +554,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T13:00:00.000Z"
       },
       "id": "2540aaa906d172323e154bf0a09189c5",
       "stadium": {
@@ -528,7 +574,8 @@
           "longitude": 21.7976824,
           "name": "Boisko Iwonka, Iwonicz, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Iwoniczu"
     },
     {
       "competition": {
@@ -578,12 +625,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "a8a794a771a8a5a8703b2c1ce91157f0",
       "stadium": {
@@ -611,12 +662,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T09:00:00.000Z"
       },
       "id": "6498b26330c47af3af88a1331df2be2c",
       "stadium": {
@@ -627,7 +682,8 @@
           "longitude": 21.6848333,
           "name": "Stadion LKS Nurt Potok, Potok, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Potoku"
     },
     {
       "competition": {
@@ -669,12 +725,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T10:00:00.000Z"
       },
       "id": "610b03629ee2845feacd37e5b1509730",
       "stadium": {
@@ -685,7 +745,8 @@
           "longitude": 21.7230306,
           "name": "Boisko Huragan, Jasionka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jasionka , 38-450 Dukla"
     },
     {
       "competition": {
@@ -702,12 +763,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T10:00:00.000Z"
       },
       "id": "2bfe2f62de8606af41fa3a266c80d9f0",
       "stadium": {
@@ -718,7 +783,8 @@
           "longitude": 21.6689058,
           "name": "LKS Łęki Strzyżowskie, Łęki Strzyżowskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Łęki Strzyżowskie 273 , 38-471 Wojaszówka"
     },
     {
       "competition": {
@@ -735,15 +801,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T09:00:00.000Z"
       },
       "id": "4f6312b2a2ce87e0ef11837a93df6bf5",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Krośnie ul. Rzeszowska 10"
     },
     {
       "competition": {
@@ -760,15 +831,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T09:00:00.000Z"
       },
       "id": "da004a4753677ef83bb707fe0d9317c5",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Miejscu Piastowym ul. Dworska 43"
     },
     {
       "competition": {
@@ -843,12 +919,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "bce535e9a4f0209512ba3a583fd3ed25",
       "stadium": {
@@ -859,7 +939,8 @@
           "longitude": 21.7976824,
           "name": "Boisko Iwonka, Iwonicz, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Iwoniczu"
     },
     {
       "competition": {
@@ -876,12 +957,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T09:00:00.000Z"
       },
       "id": "0df465950a1bae923321d3df20c9f47d",
       "stadium": {
@@ -892,7 +977,8 @@
           "longitude": 21.6717918,
           "name": "WKS Rędzinianka Wojaszówka, Wojaszówka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Wojaszówce 160"
     },
     {
       "competition": {
@@ -909,12 +995,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "8a4c903060e6239833a17148a356db50",
       "stadium": {
@@ -942,12 +1032,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T09:00:00.000Z"
       },
       "id": "57ef599018f2d06254e534d3d494177a",
       "stadium": {
@@ -958,7 +1052,8 @@
           "longitude": 21.6848333,
           "name": "Stadion LKS Nurt Potok, Potok, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Potoku"
     },
     {
       "competition": {
@@ -1000,12 +1095,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T10:00:00.000Z"
       },
       "id": "601c8908f244641986968cab564e15ed",
       "stadium": {
@@ -1016,7 +1115,8 @@
           "longitude": 21.7230306,
           "name": "Boisko Huragan, Jasionka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jasionka , 38-450 Dukla"
     },
     {
       "competition": {
@@ -1033,12 +1133,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T10:00:00.000Z"
       },
       "id": "214f243481e2d4d51db240ed6a895bbb",
       "stadium": {
@@ -1049,7 +1153,8 @@
           "longitude": 21.6689058,
           "name": "LKS Łęki Strzyżowskie, Łęki Strzyżowskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Łęki Strzyżowskie 273 , 38-471 Wojaszówka"
     },
     {
       "competition": {
@@ -1098,14 +1203,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T09:00:00.000Z"
       },
       "id": "47933dda118b5142cce06f6175f048c2",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Miejscu Piastowym ul. Dworska 43"
     },
     {
       "competition": {
@@ -1269,12 +1378,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T10:00:00.000Z"
       },
       "id": "bfa89160ce1fedd6a317fb36dc94e400",
       "stadium": {
@@ -1285,7 +1398,8 @@
           "longitude": 21.6848333,
           "name": "Stadion LKS Nurt Potok, Potok, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Potoku"
     },
     {
       "competition": {
@@ -1327,12 +1441,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T11:00:00.000Z"
       },
       "id": "06020e0c1b9616d520a68d58af5dad2a",
       "stadium": {
@@ -1343,7 +1461,8 @@
           "longitude": 21.7230306,
           "name": "Boisko Huragan, Jasionka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jasionka , 38-450 Dukla"
     },
     {
       "competition": {
@@ -1360,12 +1479,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T11:00:00.000Z"
       },
       "id": "cfb8d00f11683794405d8de39e5a5061",
       "stadium": {
@@ -1376,7 +1499,8 @@
           "longitude": 21.6689058,
           "name": "LKS Łęki Strzyżowskie, Łęki Strzyżowskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Łęki Strzyżowskie 273 , 38-471 Wojaszówka"
     },
     {
       "competition": {
@@ -1426,15 +1550,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T10:00:00.000Z"
       },
       "id": "5316331b6bd2b8850a8fc320c038e9b1",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Krośnie ul. Rzeszowska 10"
     }
   ]
 }

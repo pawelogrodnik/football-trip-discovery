@@ -77,11 +77,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T17:00:00.000Z"
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T17:00:00.000Z"
       },
       "id": "8b4f61de6e1db59b3cbbe905434f8740",
       "stadium": {
@@ -90,6 +90,37 @@
         "geo": {
           "latitude": 49.63510115491959,
           "longitude": 19.924937392826525
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Podhale)"
+      },
+      "homeTeam": {
+        "name": "Wisła II Czarny Dunajec",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lawina Spytkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "id": "59f715bc7f963364a9886a4307747cb4",
+      "stadium": {
+        "address": "Targowa 55, 34-470 Czarny Dunajec",
+        "venue": "Stadion Wisły Czarny Dunajec",
+        "geo": {
+          "latitude": 49.4305556,
+          "longitude": 19.8490442,
+          "name": "Targowa 55, Czarny Dunajec, powiat nowotarski, województwo małopolskie, 34-470, Polska"
         }
       }
     },
@@ -152,37 +183,6 @@
           "latitude": 49.3793239,
           "longitude": 20.1307768,
           "name": "Zagóra 165, Czarna Góra, powiat tatrzański, województwo małopolskie, 34-532, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Podhale)"
-      },
-      "homeTeam": {
-        "name": "Wisła II Czarny Dunajec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lawina Spytkowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T17:00:00.000Z"
-      },
-      "id": "59f715bc7f963364a9886a4307747cb4",
-      "stadium": {
-        "address": "Targowa 55, 34-470 Czarny Dunajec",
-        "venue": "Stadion Wisły Czarny Dunajec",
-        "geo": {
-          "latitude": 49.4305556,
-          "longitude": 19.8490442,
-          "name": "Targowa 55, Czarny Dunajec, powiat nowotarski, województwo małopolskie, 34-470, Polska"
         }
       }
     },

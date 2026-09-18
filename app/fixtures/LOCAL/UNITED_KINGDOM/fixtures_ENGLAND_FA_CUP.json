@@ -4,22 +4,45 @@
       "name": "FA Cup"
     },
     "homeTeam": {
-      "name": "Jersey Bulls",
+      "name": "Worcester",
       "crest": null
     },
     "awayTeam": {
-      "name": "Burgess Hill",
+      "name": "Stratford",
       "crest": null
     },
     "schedule": {
       "status": "confirmed",
-      "dateTime": "2026-09-15T18:45:00.000Z"
+      "dateTime": "2026-09-18T18:45:00.000Z"
     },
     "date": {
-      "date": "2026-09-15T18:45:00.000Z",
-      "dateTime": "2026-09-15T18:45:00.000Z"
+      "date": "2026-09-18T18:45:00.000Z",
+      "dateTime": "2026-09-18T18:45:00.000Z"
     },
-    "id": "7724bb3a0106d6a33735407418725c4a",
+    "id": "ab98cc503ef533d0a019bbd4414a13c6",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "FA Cup"
+    },
+    "homeTeam": {
+      "name": "Yate Town",
+      "crest": null
+    },
+    "awayTeam": {
+      "name": "Chippenham",
+      "crest": "https://crests.football-data.org/4600.png"
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-18T18:45:00.000Z"
+    },
+    "date": {
+      "date": "2026-09-18T18:45:00.000Z",
+      "dateTime": "2026-09-18T18:45:00.000Z"
+    },
+    "id": "3972ef93cc52b519689891fdde38066e",
     "stadium": null
   },
   {
@@ -894,6 +917,29 @@
       "name": "FA Cup"
     },
     "homeTeam": {
+      "name": "Hanwell Town",
+      "crest": null
+    },
+    "awayTeam": {
+      "name": "Burgess Hill",
+      "crest": null
+    },
+    "schedule": {
+      "status": "confirmed",
+      "dateTime": "2026-09-19T14:00:00.000Z"
+    },
+    "date": {
+      "date": "2026-09-19T14:00:00.000Z",
+      "dateTime": "2026-09-19T14:00:00.000Z"
+    },
+    "id": "01723a5f3134f7d952f10b2fd8aaa44b",
+    "stadium": null
+  },
+  {
+    "competition": {
+      "name": "FA Cup"
+    },
+    "homeTeam": {
       "name": "Harborough",
       "crest": null
     },
@@ -1446,37 +1492,6 @@
       "name": "FA Cup"
     },
     "homeTeam": {
-      "name": "Southall FC",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Dorking",
-      "crest": "https://crests.football-data.org/4614.png"
-    },
-    "schedule": {
-      "status": "confirmed",
-      "dateTime": "2026-09-19T14:00:00.000Z"
-    },
-    "date": {
-      "date": "2026-09-19T14:00:00.000Z",
-      "dateTime": "2026-09-19T14:00:00.000Z"
-    },
-    "id": "60197bfb3fcaf9d3824d8653ebaa0a49",
-    "stadium": {
-      "address": "London",
-      "venue": null,
-      "geo": {
-        "latitude": 51.5074456,
-        "longitude": -0.1277653,
-        "name": "London, Greater London, England, United Kingdom"
-      }
-    }
-  },
-  {
-    "competition": {
-      "name": "FA Cup"
-    },
-    "homeTeam": {
       "name": "Spalding United",
       "crest": null
     },
@@ -1822,45 +1837,30 @@
       "name": "FA Cup"
     },
     "homeTeam": {
-      "name": "Worcester",
+      "name": "Southall FC",
       "crest": null
     },
     "awayTeam": {
-      "name": "Stratford",
-      "crest": null
+      "name": "Dorking",
+      "crest": "https://crests.football-data.org/4614.png"
     },
     "schedule": {
       "status": "confirmed",
-      "dateTime": "2026-09-19T14:00:00.000Z"
+      "dateTime": "2026-09-20T14:00:00.000Z"
     },
     "date": {
-      "date": "2026-09-19T14:00:00.000Z",
-      "dateTime": "2026-09-19T14:00:00.000Z"
+      "date": "2026-09-20T14:00:00.000Z",
+      "dateTime": "2026-09-20T14:00:00.000Z"
     },
-    "id": "ab98cc503ef533d0a019bbd4414a13c6",
-    "stadium": null
-  },
-  {
-    "competition": {
-      "name": "FA Cup"
-    },
-    "homeTeam": {
-      "name": "Yate Town",
-      "crest": null
-    },
-    "awayTeam": {
-      "name": "Chippenham",
-      "crest": "https://crests.football-data.org/4600.png"
-    },
-    "schedule": {
-      "status": "confirmed",
-      "dateTime": "2026-09-19T14:00:00.000Z"
-    },
-    "date": {
-      "date": "2026-09-19T14:00:00.000Z",
-      "dateTime": "2026-09-19T14:00:00.000Z"
-    },
-    "id": "3972ef93cc52b519689891fdde38066e",
-    "stadium": null
+    "id": "60197bfb3fcaf9d3824d8653ebaa0a49",
+    "stadium": {
+      "address": "London",
+      "venue": null,
+      "geo": {
+        "latitude": 51.5074456,
+        "longitude": -0.1277653,
+        "name": "London, Greater London, England, United Kingdom"
+      }
+    }
   }
 ]

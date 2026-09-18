@@ -1,53 +1,7 @@
 {
   "competitionName": "Klasa okręgowa (Debica)",
-  "count": 73,
+  "count": 72,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Debica)"
-      },
-      "homeTeam": {
-        "name": "Brzostowianka Brzostek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lechia Sędziszów Małopolski",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-16T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-16",
-        "dateTime": "2026-09-16T17:00:00.000Z"
-      },
-      "id": "32cdea8c0d4fa6518b3ddee6782f6837",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Debica)"
-      },
-      "homeTeam": {
-        "name": "Kolbuszowianka Kolbuszowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Stal II Mielec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "01f1a76881f9554f594cb9754f07e0bc",
-      "stadium": null
-    },
     {
       "competition": {
         "name": "Klasa okręgowa (Debica)"
@@ -62,11 +16,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "id": "4f942ef899769f8b9e6a0ceacb59e379",
       "stadium": {
@@ -84,6 +38,31 @@
         "name": "Klasa okręgowa (Debica)"
       },
       "homeTeam": {
+        "name": "Kolbuszowianka Kolbuszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Stal II Mielec",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "01f1a76881f9554f594cb9754f07e0bc",
+      "stadium": null,
+      "stadiumHint": "Stadion w Kolbuszowej Dolnej"
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Debica)"
+      },
+      "homeTeam": {
         "name": "Smoczanka Mielec",
         "crest": null
       },
@@ -93,11 +72,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T15:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "id": "63d624a660e52734fdf25a81a166f89e",
       "stadium": {
@@ -108,7 +88,8 @@
           "longitude": 21.4724426,
           "name": "Klub Sportowy Smoczanka, Mielec, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Smoczka Arena w Mielcu"
     },
     {
       "competition": {
@@ -155,14 +136,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "a6700fe9bd6a9bab143d10e2726fef86",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czerminie"
     },
     {
       "competition": {
@@ -178,11 +161,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "7ba921f6f3c90f7a647992cc9ea775ce",
       "stadium": {
@@ -193,7 +177,8 @@
           "longitude": 21.39880832568762,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski im. 70-lecia Odzyskania Niepodległości w Dębicy"
     },
     {
       "competition": {
@@ -209,11 +194,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "1d7d6633d2b8e77a43c2372da2a27b85",
       "stadium": {
@@ -224,7 +210,8 @@
           "longitude": 21.663793988241146,
           "name": "Gnojnica 266"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Gnojnicy"
     },
     {
       "competition": {
@@ -240,11 +227,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "ca5733bfc937997ded57efdeba4fd348",
       "stadium": {
@@ -255,7 +243,8 @@
           "longitude": 21.3240655,
           "name": "KS Atut Podborze, Podborze, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Podborzu"
     },
     {
       "competition": {
@@ -272,12 +261,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "id": "13136a52bf5da00b483f0bcf7251a563",
       "stadium": {
@@ -288,7 +281,8 @@
           "longitude": 21.436268565927875,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Boczne boisko MOSiR w Mielcu"
     },
     {
       "competition": {
@@ -305,15 +299,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "id": "662cb6e5387faf017344d91a518834e2",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Pustkowie"
     },
     {
       "competition": {
@@ -330,15 +329,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "4b6837b502454c82aaeb7eff9996c936",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Głowaczowej"
     },
     {
       "competition": {
@@ -380,12 +384,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "d7be20ad46cf9b20aa3e3c04a5065d74",
       "stadium": {
@@ -396,7 +404,8 @@
           "longitude": 21.6550338,
           "name": "Florian Ostrowy Tuszowskie, Ostrowy Tuszowskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ostrowach Tuszowskich"
     },
     {
       "competition": {
@@ -413,15 +422,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T09:00:00.000Z"
       },
       "id": "5acbe2f6f2db92afa9e8484795fa663d",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czarnej (Czarna, Konarskiego 23)"
     },
     {
       "competition": {
@@ -463,15 +477,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "6052cf62f59e95f61c0421167b347a12",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Kolbuszowej"
     },
     {
       "competition": {
@@ -488,12 +507,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T14:00:00.000Z"
       },
       "id": "0f0238d03113c7dea5e495f1180a20dd",
       "stadium": {
@@ -504,7 +527,8 @@
           "longitude": 21.6976332,
           "name": "MLKS Lechia Sędziszów Młp, Sędziszów Małopolski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Sędziszowie Małopolskim"
     },
     {
       "competition": {
@@ -521,15 +545,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "e19d150c0f5572b454d253c3560f5989",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czerminie"
     },
     {
       "competition": {
@@ -579,12 +608,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T14:00:00.000Z"
       },
       "id": "124df959c853df185a2a69c88f2bf94f",
       "stadium": {
@@ -595,7 +628,8 @@
           "longitude": 21.4724426,
           "name": "Klub Sportowy Smoczanka, Mielec, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Smoczka Arena w Mielcu"
     },
     {
       "competition": {
@@ -645,12 +679,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "82e4d9adedaa3360c6d8f3ac15a55361",
       "stadium": {
@@ -661,7 +699,8 @@
           "longitude": 21.39880832568762,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski im. 70-lecia Odzyskania Niepodległości w Dębicy"
     },
     {
       "competition": {
@@ -678,12 +717,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T13:00:00.000Z"
       },
       "id": "aa87edd8b2cf42365c8bb561f9f7b038",
       "stadium": {
@@ -694,7 +737,8 @@
           "longitude": 21.3240655,
           "name": "KS Atut Podborze, Podborze, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Podborzu"
     },
     {
       "competition": {
@@ -711,12 +755,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T14:00:00.000Z"
       },
       "id": "0eb86a3bc27e8740bdb5262759953f9a",
       "stadium": {
@@ -726,7 +774,8 @@
           "latitude": 50.25485682573311,
           "longitude": 21.286075949969398
         }
-      }
+      },
+      "stadiumHint": "Stadion w Wadowicach Górnych"
     },
     {
       "competition": {
@@ -743,12 +792,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T09:00:00.000Z"
       },
       "id": "9b275ebf54cbccc1ece253d6b30674f8",
       "stadium": {
@@ -759,7 +812,8 @@
           "longitude": 21.436268565927875,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Boczne boisko MOSiR w Mielcu"
     },
     {
       "competition": {
@@ -776,15 +830,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "ba9c03b2dd7087a20039554bce31041b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Głowaczowej"
     },
     {
       "competition": {
@@ -801,15 +860,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T14:00:00.000Z"
       },
       "id": "46e06229d099c812666ddadd60f782a4",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion OSiR Brzostek"
     },
     {
       "competition": {
@@ -826,12 +890,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "bea63ed763c3f1e076510a9e88b8457b",
       "stadium": {
@@ -842,7 +910,8 @@
           "longitude": 21.6550338,
           "name": "Florian Ostrowy Tuszowskie, Ostrowy Tuszowskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ostrowach Tuszowskich"
     },
     {
       "competition": {
@@ -909,15 +978,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "88a12d759f4a64614478e31e4bde3106",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Kolbuszowej"
     },
     {
       "competition": {
@@ -934,12 +1008,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "ca1909bc345271c7e18b47c347002fad",
       "stadium": {
@@ -950,7 +1028,8 @@
           "longitude": 21.6976332,
           "name": "MLKS Lechia Sędziszów Młp, Sędziszów Małopolski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Sędziszowie Małopolskim"
     },
     {
       "competition": {
@@ -967,15 +1046,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "43798b9840aa650984ba6cfe8ca668c5",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czerminie"
     },
     {
       "competition": {
@@ -992,12 +1076,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T12:00:00.000Z"
       },
       "id": "464a9ed332a9d6db6bafab79d557d3e4",
       "stadium": {
@@ -1008,7 +1096,8 @@
           "longitude": 21.663793988241146,
           "name": "Gnojnica 266"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Gnojnicy"
     },
     {
       "competition": {
@@ -1025,12 +1114,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "7c56cefbafe154b2b8fb4d01319f1299",
       "stadium": {
@@ -1041,7 +1134,8 @@
           "longitude": 21.4724426,
           "name": "Klub Sportowy Smoczanka, Mielec, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Smoczka Arena w Mielcu"
     },
     {
       "competition": {
@@ -1091,12 +1185,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z"
       },
       "id": "c40b1b00886626f4a540dcc726fa2c76",
       "stadium": {
@@ -1107,7 +1205,8 @@
           "longitude": 21.39880832568762,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski im. 70-lecia Odzyskania Niepodległości w Dębicy"
     },
     {
       "competition": {
@@ -1124,12 +1223,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "f1459befa4fc1229c1da28476591e972",
       "stadium": {
@@ -1140,7 +1243,8 @@
           "longitude": 21.3240655,
           "name": "KS Atut Podborze, Podborze, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Podborzu"
     },
     {
       "competition": {
@@ -1157,12 +1261,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "ee4adf1709ac98d0cd92c6505ec48ef7",
       "stadium": {
@@ -1172,7 +1280,8 @@
           "latitude": 50.25485682573311,
           "longitude": 21.286075949969398
         }
-      }
+      },
+      "stadiumHint": "Stadion w Wadowicach Górnych"
     },
     {
       "competition": {
@@ -1189,15 +1298,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "fca83039f3f32c691a1f9f3ae940a64b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Pustkowie"
     },
     {
       "competition": {
@@ -1214,12 +1328,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T09:00:00.000Z"
       },
       "id": "dc1d1a2f1b53ce6dc742facf02063e3f",
       "stadium": {
@@ -1230,7 +1348,8 @@
           "longitude": 21.436268565927875,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Boczne boisko MOSiR w Mielcu"
     },
     {
       "competition": {
@@ -1247,15 +1366,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "1339fd9ddee9f65e28fb78aae1dde10c",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion OSiR Brzostek"
     },
     {
       "competition": {
@@ -1272,12 +1396,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "a2fa273adf4506a095c83e0d861014ae",
       "stadium": {
@@ -1288,7 +1416,8 @@
           "longitude": 21.6550338,
           "name": "Florian Ostrowy Tuszowskie, Ostrowy Tuszowskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ostrowach Tuszowskich"
     },
     {
       "competition": {
@@ -1305,15 +1434,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "id": "64192893cd7e504fe122501046bd2d9b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czarnej (Czarna, Konarskiego 23)"
     },
     {
       "competition": {
@@ -1380,12 +1514,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "id": "07192bff7c93febad7dbddbfe47459d4",
       "stadium": {
@@ -1396,7 +1534,8 @@
           "longitude": 21.6976332,
           "name": "MLKS Lechia Sędziszów Młp, Sędziszów Małopolski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Sędziszowie Małopolskim"
     },
     {
       "competition": {
@@ -1413,15 +1552,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "4d2c77c60550ba4ac82beca0c328b223",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czerminie"
     },
     {
       "competition": {
@@ -1437,11 +1581,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "58efc89072c78266bde5cdb2ddc5a8ee",
       "stadium": {
@@ -1452,7 +1599,8 @@
           "longitude": 21.663793988241146,
           "name": "Gnojnica 266"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Gnojnicy"
     },
     {
       "competition": {
@@ -1468,11 +1616,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "7590905cef1a861f403751940d2081c9",
       "stadium": {
@@ -1483,7 +1634,8 @@
           "longitude": 21.4724426,
           "name": "Klub Sportowy Smoczanka, Mielec, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Smoczka Arena w Mielcu"
     },
     {
       "competition": {
@@ -1530,11 +1682,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "206f8166d2aa3e673d9e88b9408a6fe6",
       "stadium": {
@@ -1545,7 +1700,8 @@
           "longitude": 21.39880832568762,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski im. 70-lecia Odzyskania Niepodległości w Dębicy"
     },
     {
       "competition": {
@@ -1592,11 +1748,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "1be859028b4220abdd1f6a41a18351e5",
       "stadium": {
@@ -1606,7 +1765,8 @@
           "latitude": 50.25485682573311,
           "longitude": 21.286075949969398
         }
-      }
+      },
+      "stadiumHint": "Stadion w Wadowicach Górnych"
     },
     {
       "competition": {
@@ -1622,14 +1782,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "24c5d365e3c3548ebdd376dfe3846a9b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Pustkowie"
     },
     {
       "competition": {
@@ -1645,14 +1809,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "9aa4d2e2b43ee0826a7badf1821db70a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Głowaczowej"
     },
     {
       "competition": {
@@ -1669,12 +1837,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "cdb2335564d81fc80669ae0da58106d3",
       "stadium": {
@@ -1685,7 +1857,8 @@
           "longitude": 21.436268565927875,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Boczne boisko MOSiR w Mielcu"
     },
     {
       "competition": {
@@ -1702,12 +1875,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "8e1b9b034571a52cd7228359956f3fe4",
       "stadium": {
@@ -1718,7 +1895,8 @@
           "longitude": 21.6550338,
           "name": "Florian Ostrowy Tuszowskie, Ostrowy Tuszowskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ostrowach Tuszowskich"
     },
     {
       "competition": {
@@ -1735,15 +1913,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "fa089ad6ff9a71a76dca7fdae685d283",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czarnej (Czarna, Konarskiego 23)"
     },
     {
       "competition": {
@@ -1785,15 +1968,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T12:00:00.000Z"
       },
       "id": "c9004e61056269b8eae7126a81f856b7",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Kolbuszowej"
     },
     {
       "competition": {
@@ -1810,12 +1998,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "9c09c3cb2858d8996cd78cf83e308efd",
       "stadium": {
@@ -1826,7 +2018,8 @@
           "longitude": 21.6976332,
           "name": "MLKS Lechia Sędziszów Młp, Sędziszów Małopolski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Sędziszowie Małopolskim"
     },
     {
       "competition": {
@@ -1868,12 +2061,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "bad22d31124cc655314005d937b9d7d7",
       "stadium": {
@@ -1884,7 +2081,8 @@
           "longitude": 21.663793988241146,
           "name": "Gnojnica 266"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Gnojnicy"
     },
     {
       "competition": {
@@ -1901,12 +2099,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
       "id": "2e4555062aab352e0fab57bc94e5bc5b",
       "stadium": {
@@ -1917,7 +2119,8 @@
           "longitude": 21.4724426,
           "name": "Klub Sportowy Smoczanka, Mielec, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Smoczka Arena w Mielcu"
     },
     {
       "competition": {
@@ -1967,12 +2170,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
       "id": "9e1a21df389977ec9da4fa2c649e8af7",
       "stadium": {
@@ -1983,7 +2190,8 @@
           "longitude": 21.39880832568762,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski im. 70-lecia Odzyskania Niepodległości w Dębicy"
     },
     {
       "competition": {
@@ -2000,12 +2208,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
       "id": "2c6b13362f77be0a5eac9d96b9a967e2",
       "stadium": {
@@ -2016,7 +2228,8 @@
           "longitude": 21.3240655,
           "name": "KS Atut Podborze, Podborze, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Podborzu"
     },
     {
       "competition": {
@@ -2033,12 +2246,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z"
       },
       "id": "2537386ff48bfc8365faafce34d1eb83",
       "stadium": {
@@ -2048,7 +2265,8 @@
           "latitude": 50.25485682573311,
           "longitude": 21.286075949969398
         }
-      }
+      },
+      "stadiumHint": "Stadion w Wadowicach Górnych"
     },
     {
       "competition": {
@@ -2090,15 +2308,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
       "id": "68faed100009fcc9cb268a36b36a2bd4",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Głowaczowej"
     },
     {
       "competition": {
@@ -2115,15 +2338,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
       "id": "ef7b8e1eb15c4dfcdfd174269a734831",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion OSiR Brzostek"
     }
   ]
 }

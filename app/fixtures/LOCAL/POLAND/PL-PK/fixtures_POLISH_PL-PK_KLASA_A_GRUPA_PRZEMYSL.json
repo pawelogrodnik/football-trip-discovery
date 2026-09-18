@@ -16,11 +16,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "0b6046b256d076ba577a0a805cb0eda3",
       "stadium": {
@@ -31,7 +32,8 @@
           "longitude": 22.9501973,
           "name": "Boisko Fenixa, Leszno, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Szkolny w Lesznie"
     },
     {
       "competition": {
@@ -47,14 +49,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "b08260bcdc3e2be936980bd2c5613c07",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Żurawicy"
     },
     {
       "competition": {
@@ -70,11 +74,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "cb225a64a9a1677fbdfdf839abed265e",
       "stadium": {
@@ -85,7 +90,8 @@
           "longitude": 22.9305715,
           "name": "Bizon Medyka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyce"
     },
     {
       "competition": {
@@ -101,11 +107,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "c05cc2af53d9ec0081af89bef441168b",
       "stadium": {
@@ -116,7 +123,8 @@
           "longitude": 22.9552268,
           "name": "Stadion LKS Granica Stubno, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Stubnie"
     },
     {
       "competition": {
@@ -132,11 +140,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "a46533ab1c611d5939b9fd320be2ffab",
       "stadium": {
@@ -147,7 +156,8 @@
           "longitude": 22.8850298,
           "name": "LKS Grom Wyszatyce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "GromArena w Wyszatycach"
     },
     {
       "competition": {
@@ -187,12 +197,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T10:00:00.000Z"
       },
       "id": "4facaf7ce17f9b453cd0112a1e709ada",
       "stadium": {
@@ -203,7 +217,8 @@
           "longitude": 22.7239551,
           "name": "LKS Ujkowice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ujkowicach"
     },
     {
       "competition": {
@@ -253,12 +268,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T10:00:00.000Z"
       },
       "id": "888fd257dbf614626ecec9f78d0b690f",
       "stadium": {
@@ -269,7 +288,8 @@
           "longitude": 22.7074945,
           "name": "Boisko Tęczy, Kosienice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Kosienicach"
     },
     {
       "competition": {
@@ -286,15 +306,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "id": "7a52e56d69c60a40d772e1ecddd15c2a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Olszanach"
     },
     {
       "competition": {
@@ -311,12 +336,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "id": "bdf536e1b265ea1e110868678b3cfbc4",
       "stadium": {
@@ -327,7 +356,8 @@
           "longitude": 22.7425062,
           "name": "Boisko w Kaszycach, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny Kaszyce (Kaszyce 0)"
     },
     {
       "competition": {
@@ -344,12 +374,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "id": "4d8a4818b094df0a16242a7455cb68ba",
       "stadium": {
@@ -360,7 +394,8 @@
           "longitude": 22.3977254,
           "name": "Stadion KS Pogórze Dubiecko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dubiecku"
     },
     {
       "competition": {
@@ -377,15 +412,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "c01d9b6c6e81e913d47fdb8daac583b8",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Żurawicy"
     },
     {
       "competition": {
@@ -402,12 +442,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "e453eab118646c91342de8afe5b0a15e",
       "stadium": {
@@ -418,7 +462,8 @@
           "longitude": 22.9305715,
           "name": "Bizon Medyka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyce"
     },
     {
       "competition": {
@@ -435,12 +480,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "96a7bd0a68b881fcc1b75211c007ca3c",
       "stadium": {
@@ -451,7 +500,8 @@
           "longitude": 22.9552268,
           "name": "Stadion LKS Granica Stubno, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Stubnie"
     },
     {
       "competition": {
@@ -468,12 +518,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "731b904ff9ebf7e4ef28f0f196179b44",
       "stadium": {
@@ -484,7 +538,8 @@
           "longitude": 22.8850298,
           "name": "LKS Grom Wyszatyce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "GromArena w Wyszatycach"
     },
     {
       "competition": {
@@ -526,12 +581,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "c6c0882b10052d3ea35500d993057d6f",
       "stadium": {
@@ -542,7 +601,8 @@
           "longitude": 22.7239551,
           "name": "LKS Ujkowice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ujkowicach"
     },
     {
       "competition": {
@@ -559,12 +619,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z"
       },
       "id": "bbcb770d0ff34282183a30ee96d41419",
       "stadium": {
@@ -575,7 +639,8 @@
           "longitude": 22.8546593,
           "name": "Boisko Czarnych, Bolestraszyce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Bolestraszycach"
     },
     {
       "competition": {
@@ -592,12 +657,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z"
       },
       "id": "bd3e1b735d682bd924038795be5abf56",
       "stadium": {
@@ -608,7 +677,8 @@
           "longitude": 22.9608908,
           "name": "Boisko LKS Nakło, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Nakle"
     },
     {
       "competition": {
@@ -658,12 +728,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "7aa6ba8e400e7311288b3e4ee725d3cb",
       "stadium": {
@@ -674,7 +748,8 @@
           "longitude": 22.7425062,
           "name": "Boisko w Kaszycach, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny Kaszyce (Kaszyce 0)"
     },
     {
       "competition": {
@@ -691,12 +766,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z"
       },
       "id": "f9702f965577c24f8b3bb60756807853",
       "stadium": {
@@ -707,7 +786,8 @@
           "longitude": 22.3977254,
           "name": "Stadion KS Pogórze Dubiecko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dubiecku"
     },
     {
       "competition": {
@@ -724,12 +804,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "id": "687db6df8583f2d8a5cdbcf93c5914dc",
       "stadium": {
@@ -740,7 +824,8 @@
           "longitude": 22.9501973,
           "name": "Boisko Fenixa, Leszno, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Szkolny w Lesznie"
     },
     {
       "competition": {
@@ -757,15 +842,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "9ca736d7558e5f981d6bdcf6c0bcfcda",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Żurawicy"
     },
     {
       "competition": {
@@ -782,12 +872,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "93a62d170e48068c800ea364612dea4c",
       "stadium": {
@@ -798,7 +892,8 @@
           "longitude": 22.9552268,
           "name": "Stadion LKS Granica Stubno, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Stubnie"
     },
     {
       "competition": {
@@ -815,12 +910,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "39b4d4d52c424cc81742dcf4085169e7",
       "stadium": {
@@ -831,7 +930,8 @@
           "longitude": 22.8850298,
           "name": "LKS Grom Wyszatyce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "GromArena w Wyszatycach"
     },
     {
       "competition": {
@@ -873,12 +973,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "a1e13bb8a826d67fa6b450ba42bb2121",
       "stadium": {
@@ -889,7 +993,8 @@
           "longitude": 22.7239551,
           "name": "LKS Ujkowice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ujkowicach"
     },
     {
       "competition": {
@@ -906,12 +1011,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "1eae3b1a3ad3e220dbcdc52073ed0ebb",
       "stadium": {
@@ -922,7 +1031,8 @@
           "longitude": 22.8546593,
           "name": "Boisko Czarnych, Bolestraszyce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Bolestraszycach"
     },
     {
       "competition": {
@@ -939,12 +1049,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "5de4b6a2d843c0f231861fb6f20431c7",
       "stadium": {
@@ -955,7 +1069,8 @@
           "longitude": 22.9608908,
           "name": "Boisko LKS Nakło, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Nakle"
     },
     {
       "competition": {
@@ -972,12 +1087,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "569f51870df43942fac44ca75b9afc65",
       "stadium": {
@@ -988,7 +1107,8 @@
           "longitude": 22.7074945,
           "name": "Boisko Tęczy, Kosienice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Kosienicach"
     },
     {
       "competition": {
@@ -1005,15 +1125,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "2f62fc2f32662c178af1f891221e156d",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Olszanach"
     },
     {
       "competition": {
@@ -1063,12 +1188,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "id": "3422e5caa2f53a94561d5fe0832754df",
       "stadium": {
@@ -1079,7 +1208,8 @@
           "longitude": 22.9501973,
           "name": "Boisko Fenixa, Leszno, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Szkolny w Lesznie"
     },
     {
       "competition": {
@@ -1096,12 +1226,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "63984cc216fc640b735d6a44e98eb9a1",
       "stadium": {
@@ -1112,7 +1246,8 @@
           "longitude": 22.9305715,
           "name": "Bizon Medyka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyce"
     },
     {
       "competition": {
@@ -1128,14 +1263,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "786f89521231c3871a23459e6e21080f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Żurawicy"
     },
     {
       "competition": {
@@ -1151,11 +1290,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "b0bfb1354c877b0c3d26198bb7c0ad17",
       "stadium": {
@@ -1166,7 +1308,8 @@
           "longitude": 22.8850298,
           "name": "LKS Grom Wyszatyce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "GromArena w Wyszatycach"
     },
     {
       "competition": {
@@ -1205,11 +1348,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "abc3b71414cd6a42e4d225f0339eb806",
       "stadium": {
@@ -1220,7 +1366,8 @@
           "longitude": 22.7239551,
           "name": "LKS Ujkowice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Ujkowicach"
     },
     {
       "competition": {
@@ -1236,11 +1383,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "acb34ef112b9c7251e34eefa33bc93c0",
       "stadium": {
@@ -1251,7 +1401,8 @@
           "longitude": 22.8546593,
           "name": "Boisko Czarnych, Bolestraszyce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Bolestraszycach"
     },
     {
       "competition": {
@@ -1267,11 +1418,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "359a2a5e38c8fc9771ab925c5886a9a4",
       "stadium": {
@@ -1282,7 +1436,8 @@
           "longitude": 22.9608908,
           "name": "Boisko LKS Nakło, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Nakle"
     },
     {
       "competition": {
@@ -1299,12 +1454,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "bb3efc09003df4bb23f987506a341e30",
       "stadium": {
@@ -1315,7 +1474,8 @@
           "longitude": 22.7074945,
           "name": "Boisko Tęczy, Kosienice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Kosienicach"
     },
     {
       "competition": {
@@ -1332,15 +1492,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "93cbc999f7bc4e41ab3f597802090783",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Olszanach"
     },
     {
       "competition": {
@@ -1357,12 +1522,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "a47b8d710f47ed3d824c7aa948aa02e0",
       "stadium": {
@@ -1373,7 +1542,8 @@
           "longitude": 22.7425062,
           "name": "Boisko w Kaszycach, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny Kaszyce (Kaszyce 0)"
     },
     {
       "competition": {
@@ -1390,12 +1560,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "2d9bb8e5f2b0012b3550be7075da411d",
       "stadium": {
@@ -1406,7 +1580,8 @@
           "longitude": 22.3977254,
           "name": "Stadion KS Pogórze Dubiecko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dubiecku"
     },
     {
       "competition": {
@@ -1456,12 +1631,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "81bcfd19d5cfb59a8fc582647c4af801",
       "stadium": {
@@ -1472,7 +1651,8 @@
           "longitude": 22.9552268,
           "name": "Stadion LKS Granica Stubno, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Stubnie"
     }
   ]
 }

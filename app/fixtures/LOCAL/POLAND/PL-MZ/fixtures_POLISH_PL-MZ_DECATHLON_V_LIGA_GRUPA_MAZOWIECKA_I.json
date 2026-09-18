@@ -193,6 +193,37 @@
         "name": "Decathlon V liga (mazowiecka I)"
       },
       "homeTeam": {
+        "name": "Błękitni Gąbin",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Drukarz Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T13:00:00.000Z"
+      },
+      "id": "2a28c9fcd901a4862b626f1f12a907d9",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Leśny w Gąbinie",
+        "geo": {
+          "latitude": 52.3993026,
+          "longitude": 19.741981,
+          "name": "Stadion Leśny w Gąbinie, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka I)"
+      },
+      "homeTeam": {
         "name": "Znicz II Pruszków",
         "crest": null
       },
@@ -216,37 +247,6 @@
           "latitude": 52.1690121,
           "longitude": 20.8129701,
           "name": "Stadion Piłkarski Miejskiego Zarządu Obiektów Sportowych „Znicz”, 4, Bohaterów Warszawy, Tworki, Pruszków, powiat pruszkowski, województwo mazowieckie, 05-800, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Gąbin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Drukarz Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
-      },
-      "id": "2a28c9fcd901a4862b626f1f12a907d9",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Leśny w Gąbinie",
-        "geo": {
-          "latitude": 52.3993026,
-          "longitude": 19.741981,
-          "name": "Stadion Leśny w Gąbinie, mazowieckie, Polska"
         }
       }
     },

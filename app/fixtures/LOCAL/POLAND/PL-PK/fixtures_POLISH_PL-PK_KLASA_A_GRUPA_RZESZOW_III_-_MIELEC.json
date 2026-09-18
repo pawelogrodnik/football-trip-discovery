@@ -47,11 +47,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "68c63be92d55b427e8c93ba691b98596",
       "stadium": {
@@ -62,7 +63,8 @@
           "longitude": 21.4119129,
           "name": "Stadion Złotniczanki, Złotniki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Złotniki 265 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -78,11 +80,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "f92b8c9dbde2425a6055f97980bff995",
       "stadium": {
@@ -93,7 +96,8 @@
           "longitude": 21.2656249,
           "name": "KS Radomyślanka, Radomyśl Wielki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Radomyślu Wielkim"
     },
     {
       "competition": {
@@ -109,11 +113,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "51792c2978e26c1a253c047a56aea251",
       "stadium": {
@@ -124,7 +129,8 @@
           "longitude": 21.4199912,
           "name": "Boisko LKS Babicha, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Babicha 36 , 39-307 Gawłuszowice"
     },
     {
       "competition": {
@@ -140,11 +146,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "56b7bc7acdccf965bc9a56cd80d6894d",
       "stadium": {
@@ -155,7 +162,8 @@
           "longitude": 21.3822812,
           "name": "Boisko Startu, Wola Mielecka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wola Mielecka 405 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -171,11 +179,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z"
       },
       "id": "faa11069381785ee4d99e1b5d3359714",
       "stadium": {
@@ -186,7 +195,8 @@
           "longitude": 21.7405518,
           "name": "Boisko trawiaste, Cmolas, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadionowa 4 , 36-105 Cmolas"
     },
     {
       "competition": {
@@ -202,14 +212,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "418b6477b2bbe7095a999a38f12a96d4",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -251,12 +263,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T13:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:30:00.000Z"
       },
       "id": "8ce3f65008a14be11456f3412f110ddb",
       "stadium": {
@@ -267,7 +283,8 @@
           "longitude": 21.3961001,
           "name": "Boisko Dromadera, Chrząstów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Chrząstowie"
     },
     {
       "competition": {
@@ -284,12 +301,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "a5c6a4eb8d77ef5e3652449d8cd2e2f2",
       "stadium": {
@@ -300,7 +321,8 @@
           "longitude": 21.4975736,
           "name": "LKS Czarni Trześń, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Trześni"
     },
     {
       "competition": {
@@ -317,12 +339,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "id": "3481d93ae83ce3f01e3e607174c2a990",
       "stadium": {
@@ -333,7 +359,8 @@
           "longitude": 21.6710467,
           "name": "Boisko Błękitnych, Siedlanka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Siedlanka 192A , 36-147 Niwiska"
     },
     {
       "competition": {
@@ -350,12 +377,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "3e3808e00614f0a2cfbb108a0790e741",
       "stadium": {
@@ -366,7 +397,8 @@
           "longitude": 21.8048813,
           "name": "Boisko Werynianki, Werynia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Weryni"
     },
     {
       "competition": {
@@ -383,12 +415,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "6f6381834b738ce8e9b14a33cb3d72f0",
       "stadium": {
@@ -399,7 +435,8 @@
           "longitude": 21.5445536,
           "name": "Stadion w Dębiakach, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -416,12 +453,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "513eadd2eb6de8b296d47356e7b87a3f",
       "stadium": {
@@ -432,7 +473,8 @@
           "longitude": 21.5423247,
           "name": "Stadion Potoku, Dobrynin, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Dobrynin 217 , 39-322 Rzemień"
     },
     {
       "competition": {
@@ -482,12 +524,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "a5f1900b6562cdeff220298c8a538287",
       "stadium": {
@@ -498,7 +544,8 @@
           "longitude": 21.2656249,
           "name": "KS Radomyślanka, Radomyśl Wielki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Radomyślu Wielkim"
     },
     {
       "competition": {
@@ -548,15 +595,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T13:00:00.000Z"
       },
       "id": "10f2f34c72efa223665fb0fc3be1f847",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -606,12 +658,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "8b1c96403a7d04d1cc736123bd31c47b",
       "stadium": {
@@ -622,7 +678,8 @@
           "longitude": 21.3822812,
           "name": "Boisko Startu, Wola Mielecka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wola Mielecka 405 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -697,12 +754,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "2aaa882230a162b406b33680b4ebe534",
       "stadium": {
@@ -713,7 +774,8 @@
           "longitude": 21.4975736,
           "name": "LKS Czarni Trześń, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Trześni"
     },
     {
       "competition": {
@@ -763,12 +825,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z"
       },
       "id": "f81b46c6f34beb83bfd0209f55ef9990",
       "stadium": {
@@ -779,7 +845,8 @@
           "longitude": 21.8048813,
           "name": "Boisko Werynianki, Werynia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Weryni"
     },
     {
       "competition": {
@@ -862,12 +929,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "5798904617b913a99ddf99259f91527c",
       "stadium": {
@@ -878,7 +949,8 @@
           "longitude": 21.4119129,
           "name": "Stadion Złotniczanki, Złotniki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Złotniki 265 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -961,15 +1033,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "246bbea50c7077b935e219d1c84de6c7",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -1019,12 +1096,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z"
       },
       "id": "2454ca7125ccb6b9c2682de1fc34e701",
       "stadium": {
@@ -1035,7 +1116,8 @@
           "longitude": 21.3822812,
           "name": "Boisko Startu, Wola Mielecka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wola Mielecka 405 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -1085,12 +1167,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z"
       },
       "id": "4ad27714d978ba0f38291fed8cbc0e3e",
       "stadium": {
@@ -1101,7 +1187,8 @@
           "longitude": 21.3961001,
           "name": "Boisko Dromadera, Chrząstów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Chrząstowie"
     },
     {
       "competition": {
@@ -1176,12 +1263,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "17beee9e9b70138556e2427f20aff8b3",
       "stadium": {
@@ -1192,7 +1283,8 @@
           "longitude": 21.8048813,
           "name": "Boisko Werynianki, Werynia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Weryni"
     },
     {
       "competition": {
@@ -1275,12 +1367,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "ce9a90d6d05109432d4da29e816c0afd",
       "stadium": {
@@ -1291,7 +1387,8 @@
           "longitude": 21.4119129,
           "name": "Stadion Złotniczanki, Złotniki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Złotniki 265 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -1308,12 +1405,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "725db6165b491786712f17706d800ff4",
       "stadium": {
@@ -1324,7 +1425,8 @@
           "longitude": 21.2656249,
           "name": "KS Radomyślanka, Radomyśl Wielki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Radomyślu Wielkim"
     },
     {
       "competition": {
@@ -1371,14 +1473,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "798030a711ae8c8bd60da2e8c4e5eebb",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -1518,11 +1624,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "51e8766bcbcddfaa1e76694b66eca6ad",
       "stadium": {
@@ -1533,7 +1642,8 @@
           "longitude": 21.4975736,
           "name": "LKS Czarni Trześń, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Trześni"
     },
     {
       "competition": {
@@ -1575,12 +1685,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "e9a70ff33ff1da452346d7cdd760e963",
       "stadium": {
@@ -1591,7 +1705,8 @@
           "longitude": 21.8048813,
           "name": "Boisko Werynianki, Werynia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Weryni"
     },
     {
       "competition": {
@@ -1674,12 +1789,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "7a8b0aaee4e34e88f4fb98a949db0d16",
       "stadium": {
@@ -1690,7 +1809,8 @@
           "longitude": 21.4119129,
           "name": "Stadion Złotniczanki, Złotniki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Złotniki 265 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -1707,12 +1827,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "fed362e879afb8aa024af9fbc3c6d431",
       "stadium": {
@@ -1723,7 +1847,8 @@
           "longitude": 21.2656249,
           "name": "KS Radomyślanka, Radomyśl Wielki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Radomyślu Wielkim"
     },
     {
       "competition": {
@@ -1831,12 +1956,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z"
       },
       "id": "39c72d122bf2c18fb3445d112d91eb69",
       "stadium": {
@@ -1847,7 +1976,8 @@
           "longitude": 21.3822812,
           "name": "Boisko Startu, Wola Mielecka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wola Mielecka 405 , 39-300 Mielec"
     },
     {
       "competition": {
@@ -1897,12 +2027,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z"
       },
       "id": "6b484a87d6b579e087ebcc291c47fa2f",
       "stadium": {
@@ -1913,7 +2047,8 @@
           "longitude": 21.3961001,
           "name": "Boisko Dromadera, Chrząstów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Chrząstowie"
     },
     {
       "competition": {

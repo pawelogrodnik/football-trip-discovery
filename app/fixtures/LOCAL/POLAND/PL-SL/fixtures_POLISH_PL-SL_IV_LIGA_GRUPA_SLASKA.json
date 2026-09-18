@@ -69,25 +69,31 @@
         "name": "IV liga (slaska)"
       },
       "homeTeam": {
-        "name": "Spójnia Landek",
-        "crest": null
+        "name": "Piast II Gliwice",
+        "crest": "https://crests.football-data.org/5628.png"
       },
       "awayTeam": {
-        "name": "Kuźnia Ustroń",
+        "name": "LKS Bełk",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T10:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T10:00:00.000Z"
       },
-      "id": "7904594f568e4eb1e3d2e7a65f0f7bcc",
-      "stadium": null
+      "id": "76462117c749ecc61519d06c7c974744",
+      "stadium": {
+        "address": "Stefana Okrzei 20, 44-100 Gliwice",
+        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        "geo": {
+          "latitude": 50.306665511925104,
+          "longitude": 18.695654832996254,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
@@ -125,11 +131,11 @@
         "name": "IV liga (slaska)"
       },
       "homeTeam": {
-        "name": "Piast II Gliwice",
-        "crest": "https://crests.football-data.org/5628.png"
+        "name": "Spójnia Landek",
+        "crest": null
       },
       "awayTeam": {
-        "name": "LKS Bełk",
+        "name": "Kuźnia Ustroń",
         "crest": null
       },
       "schedule": {
@@ -140,16 +146,8 @@
         "date": "2026-09-19",
         "dateTime": "2026-09-19T11:00:00.000Z"
       },
-      "id": "76462117c749ecc61519d06c7c974744",
-      "stadium": {
-        "address": "Stefana Okrzei 20, 44-100 Gliwice",
-        "venue": "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
-        "geo": {
-          "latitude": 50.306665511925104,
-          "longitude": 18.695654832996254,
-          "name": null
-        }
-      }
+      "id": "7904594f568e4eb1e3d2e7a65f0f7bcc",
+      "stadium": null
     },
     {
       "competition": {

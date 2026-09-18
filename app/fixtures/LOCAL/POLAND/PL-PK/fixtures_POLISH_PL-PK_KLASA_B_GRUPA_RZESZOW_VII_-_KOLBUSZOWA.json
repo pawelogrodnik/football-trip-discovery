@@ -16,11 +16,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "dateTime": "2026-09-19T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "dateTime": "2026-09-19T13:00:00.000Z"
       },
       "id": "7b64ca8c9670e46921f8383b9852d275",
       "stadium": null
@@ -39,11 +40,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "cddca64cd7fdc8c74e568400eb6b3785",
       "stadium": {
@@ -70,11 +72,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "d131a28b2552d260dc91becb1e9864c1",
       "stadium": null
@@ -124,11 +127,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "d2cc3699a13033eb5381fcd82003620a",
       "stadium": {
@@ -139,7 +143,8 @@
           "longitude": 21.8852965,
           "name": "Boisko Wilga, Widełka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Widełka 563 lok. 563, 36-145 Widełka"
     },
     {
       "competition": {
@@ -155,11 +160,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "db3785991a1a4c76637713f473b5bbde",
       "stadium": {
@@ -170,7 +176,8 @@
           "longitude": 21.9655939,
           "name": "Boisko Raniżovia, Raniżów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Sportowa 7 , 36-130 Raniżów"
     },
     {
       "competition": {
@@ -187,15 +194,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "e4e315f1002f168d7eaacaaf57075924",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Hadykówka 104 , 36-105 Cmolas"
     },
     {
       "competition": {
@@ -212,12 +224,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "ef10752f9add80ba26196e7b19dd120e",
       "stadium": {
@@ -245,15 +261,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "id": "5d4f409d51d83cf0971ad3a00cbb7503",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski (Kolbuszowa, Wolska 2)"
     },
     {
       "competition": {
@@ -303,12 +324,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "ce30f9e95065e44e2b53898313c975e7",
       "stadium": {
@@ -336,12 +361,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "be592f295a4952de10911b2a3778b1ef",
       "stadium": null
@@ -361,12 +390,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "d2a6391971b9c496448fafb7a2a64b29",
       "stadium": null
@@ -386,12 +419,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "611c4e253375fe26c01df78c40f61a76",
       "stadium": {
@@ -402,7 +439,8 @@
           "longitude": 21.6032217,
           "name": "Boisko Marmury, Przyłęk, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Przyłęk 216A lok. 216A, 36-107 Przyłęk"
     },
     {
       "competition": {
@@ -419,12 +457,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T14:00:00.000Z"
       },
       "id": "ede612d4e96e2a6b473c8b76acdc9465",
       "stadium": {
@@ -435,7 +477,8 @@
           "longitude": 21.9655939,
           "name": "Boisko Raniżovia, Raniżów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Sportowa 7 , 36-130 Raniżów"
     },
     {
       "competition": {
@@ -593,15 +636,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z"
       },
       "id": "d305e112f8e46e2100e42d653686aaaf",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski (Kolbuszowa, Wolska 2)"
     },
     {
       "competition": {
@@ -618,12 +666,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z"
       },
       "id": "1e8a547baae2a79e8e90d1c027f7e4f5",
       "stadium": {
@@ -651,12 +703,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "id": "06f02da7eef869c7fb86f5f6586af2d4",
       "stadium": null
@@ -676,12 +732,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "8ba8ce86095a9008fa149a7abba2f551",
       "stadium": null
@@ -701,12 +761,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z"
       },
       "id": "79636b4a0ebef19bee3ac41d7de78e5b",
       "stadium": {
@@ -717,7 +781,8 @@
           "longitude": 21.6032217,
           "name": "Boisko Marmury, Przyłęk, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Przyłęk 216A lok. 216A, 36-107 Przyłęk"
     },
     {
       "competition": {
@@ -734,12 +799,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "12ad50ee51478a3939883dcb8244e374",
       "stadium": {
@@ -750,7 +819,8 @@
           "longitude": 21.9655939,
           "name": "Boisko Raniżovia, Raniżów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Sportowa 7 , 36-130 Raniżów"
     },
     {
       "competition": {
@@ -767,12 +837,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T12:00:00.000Z"
       },
       "id": "0b040f177e4d99e432ef338336cb7fdb",
       "stadium": {
@@ -783,7 +857,8 @@
           "longitude": 21.8852965,
           "name": "Boisko Wilga, Widełka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Widełka 563 lok. 563, 36-145 Widełka"
     },
     {
       "competition": {
@@ -916,15 +991,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "e405adff191632b8a7f6b3f40cf5627b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski (Kolbuszowa, Wolska 2)"
     },
     {
       "competition": {
@@ -974,12 +1054,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "501d4410696c7f9400a075a87432294e",
       "stadium": {
@@ -1007,12 +1091,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "cb594edcc6f5de96532222cbea48d6b5",
       "stadium": null
@@ -1032,12 +1120,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "eb191f02e60f00a6ea8cac380b4cf69d",
       "stadium": {
@@ -1048,7 +1140,8 @@
           "longitude": 21.6032217,
           "name": "Boisko Marmury, Przyłęk, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Przyłęk 216A lok. 216A, 36-107 Przyłęk"
     },
     {
       "competition": {
@@ -1293,12 +1386,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "48ffe5b775cf824983e3f47dab31c929",
       "stadium": {
@@ -1326,12 +1423,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:01:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:01:00.000Z"
       },
       "id": "a863a4c74a83e8157a989f0f8ba9b9a6",
       "stadium": null
@@ -1351,12 +1452,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "0f262b5a65892228d030da837ea71fc9",
       "stadium": null
@@ -1376,12 +1481,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "363e7208075c27d6e2588f7e61a6b047",
       "stadium": {
@@ -1392,7 +1501,8 @@
           "longitude": 21.9655939,
           "name": "Boisko Raniżovia, Raniżów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Sportowa 7 , 36-130 Raniżów"
     },
     {
       "competition": {
@@ -1409,12 +1519,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-15T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-15",
+        "dateTime": "2026-11-15T13:00:00.000Z"
       },
       "id": "c6bfa73c930b4fe50428e1d5bfa7ef61",
       "stadium": {
@@ -1425,7 +1539,8 @@
           "longitude": 21.8852965,
           "name": "Boisko Wilga, Widełka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Widełka 563 lok. 563, 36-145 Widełka"
     },
     {
       "competition": {

@@ -16,14 +16,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-18T18:00:00.000Z"
+        "dateTime": "2026-09-18T16:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-18",
-        "dateTime": "2026-09-18T18:00:00.000Z"
+        "dateTime": "2026-09-18T16:00:00.000Z"
       },
       "id": "c5933f10d7bfbf6ffb5c44a87b0713e7",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Stobiernej"
     },
     {
       "competition": {
@@ -39,11 +41,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T14:00:00.000Z"
+        "dateTime": "2026-09-19T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:00:00.000Z"
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "id": "027d45bb64bb5401716e6de6ce52d8d7",
       "stadium": {
@@ -54,7 +57,8 @@
           "longitude": 22.2847871,
           "name": "Boisko KS Pawłokoma, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Pawłokomie"
     },
     {
       "competition": {
@@ -70,14 +74,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "a1160b53e0cf371d22e34a6928cad7d6",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Krzemienicy"
     },
     {
       "competition": {
@@ -93,11 +99,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T14:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T14:30:00.000Z"
       },
       "id": "e8fe9a8b279220f7ccb5a5db2410b361",
       "stadium": {
@@ -108,7 +115,8 @@
           "longitude": 22.2290652,
           "name": "Boisko Dynovii, Dynów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Dynowie"
     },
     {
       "competition": {
@@ -124,11 +132,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:30:00.000Z"
+        "dateTime": "2026-09-20T13:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:30:00.000Z"
+        "dateTime": "2026-09-20T13:30:00.000Z"
       },
       "id": "536c6830187ec9588484fa5e680eff43",
       "stadium": {
@@ -139,7 +148,8 @@
           "longitude": 22.2360435,
           "name": "KS CCC Dąbrówki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrówkach"
     },
     {
       "competition": {
@@ -155,11 +165,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "6eed6f79018ccfc2e5dbe8bef6b61834",
       "stadium": {
@@ -170,7 +181,8 @@
           "longitude": 22.2641129,
           "name": "Stadion w Soninie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Soninie"
     },
     {
       "competition": {
@@ -186,11 +198,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "6a6f11799ce030f521e6f8d473dba226",
       "stadium": {
@@ -201,7 +214,8 @@
           "longitude": 22.2887596,
           "name": "Boisko Iskry, Jawornik Polski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Jaworniku Polskim"
     },
     {
       "competition": {
@@ -218,12 +232,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "id": "202661ee80b040462df95dd4328e4a68",
       "stadium": {
@@ -234,7 +252,8 @@
           "longitude": 22.1648075,
           "name": "Polonia Hyżne, Hyżne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dylągówce"
     },
     {
       "competition": {
@@ -251,12 +270,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "8a8d020bca4703f2b0f90e524e2560db",
       "stadium": {
@@ -267,7 +290,8 @@
           "longitude": 22.3168987,
           "name": "Stadion Markovii, Markowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Markowej"
     },
     {
       "competition": {
@@ -284,12 +308,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "54fe97263128a83fb9db926e1a0ac30a",
       "stadium": {
@@ -300,7 +328,8 @@
           "longitude": 22.446594,
           "name": "Boisko Grodziszczanki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Grodzisku Dolnym"
     },
     {
       "competition": {
@@ -317,15 +346,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "12d8551e559edf7218519aa5ea292e6f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Handzlówce"
     },
     {
       "competition": {
@@ -342,12 +376,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "id": "d4ecd604d3d05fd22e6dc57b35ec5575",
       "stadium": {
@@ -358,7 +396,8 @@
           "longitude": 22.1359872,
           "name": "Boisko Astry, Medynia Głogowska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyni Głogowskiej"
     },
     {
       "competition": {
@@ -375,12 +414,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "id": "f8493644916c2102b5093a43d66f1295",
       "stadium": {
@@ -391,7 +434,8 @@
           "longitude": 22.0916834,
           "name": "Crasnovia Arena, Krasne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Krasnem"
     },
     {
       "competition": {
@@ -408,12 +452,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "6f03ce9c9ba8a074edc2384b318b5fd0",
       "stadium": {
@@ -424,7 +472,8 @@
           "longitude": 22.232123580789626,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion MOSiR w Łańcucie"
     },
     {
       "competition": {
@@ -441,15 +490,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T12:00:00.000Z"
       },
       "id": "d77e0d0ea11c04f57f526185b1bbb304",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Krzemienicy"
     },
     {
       "competition": {
@@ -466,12 +520,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T12:00:00.000Z"
       },
       "id": "7542e803fe733179bb7ad31d0a904421",
       "stadium": {
@@ -482,7 +540,8 @@
           "longitude": 22.2641129,
           "name": "Stadion w Soninie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Soninie"
     },
     {
       "competition": {
@@ -499,12 +558,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T14:00:00.000Z"
       },
       "id": "5b213a3ecfe0a0701124e71f376d1897",
       "stadium": {
@@ -515,7 +578,8 @@
           "longitude": 22.2290652,
           "name": "Boisko Dynovii, Dynów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Dynowie"
     },
     {
       "competition": {
@@ -532,15 +596,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T12:00:00.000Z"
       },
       "id": "14b7d598e9474a51134ad48eaf7f7ac0",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Stobiernej"
     },
     {
       "competition": {
@@ -557,12 +626,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T13:00:00.000Z"
       },
       "id": "2786afecd0834eb1009bbe4afa8a323a",
       "stadium": {
@@ -573,7 +646,8 @@
           "longitude": 22.2887596,
           "name": "Boisko Iskry, Jawornik Polski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Jaworniku Polskim"
     },
     {
       "competition": {
@@ -590,12 +664,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T13:00:00.000Z"
       },
       "id": "ba3ef8a7dbca6a1db5cd044493c1ed2a",
       "stadium": {
@@ -606,7 +684,8 @@
           "longitude": 22.2360435,
           "name": "KS CCC Dąbrówki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrówkach"
     },
     {
       "competition": {
@@ -623,12 +702,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T12:00:00.000Z"
       },
       "id": "8009b6a535701b8f1c6499c7d9036eb1",
       "stadium": {
@@ -639,7 +722,8 @@
           "longitude": 22.1648075,
           "name": "Polonia Hyżne, Hyżne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dylągówce"
     },
     {
       "competition": {
@@ -656,12 +740,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "e03fab7c827418cea18a38f2ea7766d4",
       "stadium": {
@@ -672,7 +760,8 @@
           "longitude": 22.3168987,
           "name": "Stadion Markovii, Markowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Markowej"
     },
     {
       "competition": {
@@ -755,12 +844,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "id": "d944acd701ab8575ab1b6a12e24db86c",
       "stadium": {
@@ -771,7 +864,8 @@
           "longitude": 22.1359872,
           "name": "Boisko Astry, Medynia Głogowska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyni Głogowskiej"
     },
     {
       "competition": {
@@ -788,12 +882,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:00:00.000Z"
       },
       "id": "0290ffe0af890344c4bec04ff20abe62",
       "stadium": {
@@ -804,7 +902,8 @@
           "longitude": 22.0916834,
           "name": "Crasnovia Arena, Krasne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Krasnem"
     },
     {
       "competition": {
@@ -821,12 +920,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "id": "4003f7bf5b5f6e6615a37c7f40163920",
       "stadium": {
@@ -837,7 +940,8 @@
           "longitude": 22.232123580789626,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion MOSiR w Łańcucie"
     },
     {
       "competition": {
@@ -854,12 +958,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T10:00:00.000Z"
       },
       "id": "f8874c5dbfb5baf4bd284de45016df6e",
       "stadium": {
@@ -870,7 +978,8 @@
           "longitude": 22.2847871,
           "name": "Boisko KS Pawłokoma, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Pawłokomie"
     },
     {
       "competition": {
@@ -912,12 +1021,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "5d1b86b15364afe7bc31abeee4de547a",
       "stadium": {
@@ -928,7 +1041,8 @@
           "longitude": 22.2290652,
           "name": "Boisko Dynovii, Dynów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Dynowie"
     },
     {
       "competition": {
@@ -945,15 +1059,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T12:00:00.000Z"
       },
       "id": "9ab56ece8742c79aeaba73027b8c3c38",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Stobiernej"
     },
     {
       "competition": {
@@ -970,12 +1089,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "28b1e4ade16dc3cfd2f7c2c38bbd076b",
       "stadium": {
@@ -986,7 +1109,8 @@
           "longitude": 22.2887596,
           "name": "Boisko Iskry, Jawornik Polski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Jaworniku Polskim"
     },
     {
       "competition": {
@@ -1003,12 +1127,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "d25deb7a847e0ca39d3a808156657156",
       "stadium": {
@@ -1019,7 +1147,8 @@
           "longitude": 22.2360435,
           "name": "KS CCC Dąbrówki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrówkach"
     },
     {
       "competition": {
@@ -1036,12 +1165,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T12:00:00.000Z"
       },
       "id": "e15a51aaeeda853cee12e2dfb40395d2",
       "stadium": {
@@ -1052,7 +1185,8 @@
           "longitude": 22.1648075,
           "name": "Polonia Hyżne, Hyżne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dylągówce"
     },
     {
       "competition": {
@@ -1069,12 +1203,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "666d722abe06de0273494a243aa99088",
       "stadium": {
@@ -1085,7 +1223,8 @@
           "longitude": 22.3168987,
           "name": "Stadion Markovii, Markowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Markowej"
     },
     {
       "competition": {
@@ -1168,15 +1307,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "id": "b1bbb81ff8cef3c3e7dda0fdb753912f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Handzlówce"
     },
     {
       "competition": {
@@ -1193,12 +1337,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "id": "370875f9ff7134f1c9d2c2bb82e2e804",
       "stadium": {
@@ -1209,7 +1357,8 @@
           "longitude": 22.1359872,
           "name": "Boisko Astry, Medynia Głogowska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyni Głogowskiej"
     },
     {
       "competition": {
@@ -1259,12 +1408,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T10:00:00.000Z"
       },
       "id": "61aa5d43c524674f786899300850d946",
       "stadium": {
@@ -1275,7 +1428,8 @@
           "longitude": 22.2847871,
           "name": "Boisko KS Pawłokoma, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Pawłokomie"
     },
     {
       "competition": {
@@ -1347,14 +1501,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "65430559a1c051e2c391461dd5e8b213",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Stobiernej"
     },
     {
       "competition": {
@@ -1370,11 +1528,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "7f83ef15490e732db7d5e668bfecb5b7",
       "stadium": {
@@ -1385,7 +1546,8 @@
           "longitude": 22.2887596,
           "name": "Boisko Iskry, Jawornik Polski, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Jaworniku Polskim"
     },
     {
       "competition": {
@@ -1401,11 +1563,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "3a5cd87f39a0203c3b5ad68b9c88e0d3",
       "stadium": {
@@ -1416,7 +1581,8 @@
           "longitude": 22.2360435,
           "name": "KS CCC Dąbrówki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrówkach"
     },
     {
       "competition": {
@@ -1432,11 +1598,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "95c888d3cca1473bd2895a31d043f99a",
       "stadium": {
@@ -1447,7 +1616,8 @@
           "longitude": 22.1648075,
           "name": "Polonia Hyżne, Hyżne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dylągówce"
     },
     {
       "competition": {
@@ -1463,11 +1633,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "f4a2fc278d81ae076c35cdf1ddf85a05",
       "stadium": {
@@ -1478,7 +1651,8 @@
           "longitude": 22.3168987,
           "name": "Stadion Markovii, Markowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Markowej"
     },
     {
       "competition": {
@@ -1559,15 +1733,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "5a4917b53de4c0ca68efdd0457adae65",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Handzlówce"
     },
     {
       "competition": {
@@ -1584,12 +1763,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "975dccdf770dcb5896a3528a0d1b0aa7",
       "stadium": {
@@ -1600,7 +1783,8 @@
           "longitude": 22.1359872,
           "name": "Boisko Astry, Medynia Głogowska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyni Głogowskiej"
     },
     {
       "competition": {
@@ -1617,12 +1801,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "2008c6e67b86618d4753a214f97cf542",
       "stadium": {
@@ -1633,7 +1821,8 @@
           "longitude": 22.0916834,
           "name": "Crasnovia Arena, Krasne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Krasnem"
     },
     {
       "competition": {
@@ -1650,12 +1839,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "00af2816c3110c3283c47bc2ac60b8f2",
       "stadium": {
@@ -1666,7 +1859,8 @@
           "longitude": 22.232123580789626,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion MOSiR w Łańcucie"
     },
     {
       "competition": {
@@ -1802,11 +1996,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "id": "116230aae7ed427ca7122c8b0ca59a81",
       "stadium": {
@@ -1817,7 +2014,8 @@
           "longitude": 22.2360435,
           "name": "KS CCC Dąbrówki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrówkach"
     },
     {
       "competition": {
@@ -1833,11 +2031,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "id": "3b05f07aef90af11e3e6141d906221b2",
       "stadium": {
@@ -1848,7 +2049,8 @@
           "longitude": 22.1648075,
           "name": "Polonia Hyżne, Hyżne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dylągówce"
     },
     {
       "competition": {
@@ -1864,11 +2066,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "id": "e26e91eb2cf987d457844f9a9a133835",
       "stadium": {
@@ -1879,7 +2084,8 @@
           "longitude": 22.3168987,
           "name": "Stadion Markovii, Markowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Markowej"
     },
     {
       "competition": {
@@ -1958,15 +2164,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T12:00:00.000Z"
       },
       "id": "54613b6d665a60a259f4b528999cacc7",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Handzlówce"
     },
     {
       "competition": {
@@ -1983,12 +2194,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T13:00:00.000Z"
       },
       "id": "9b5e7c4c8f11c88f8fc3a57e98f1c40c",
       "stadium": {
@@ -1999,7 +2214,8 @@
           "longitude": 22.1359872,
           "name": "Boisko Astry, Medynia Głogowska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Medyni Głogowskiej"
     },
     {
       "competition": {
@@ -2016,12 +2232,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T13:00:00.000Z"
       },
       "id": "c5ae5eef0cd55033fcf304ceaeeebf2f",
       "stadium": {
@@ -2032,7 +2252,8 @@
           "longitude": 22.0916834,
           "name": "Crasnovia Arena, Krasne, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Krasnem"
     },
     {
       "competition": {
@@ -2082,12 +2303,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-14T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-14",
+        "dateTime": "2026-11-14T11:00:00.000Z"
       },
       "id": "c9d53885f16dcb2372d3519b3dc0b5c7",
       "stadium": {
@@ -2098,7 +2323,8 @@
           "longitude": 22.2847871,
           "name": "Boisko KS Pawłokoma, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Pawłokomie"
     },
     {
       "competition": {

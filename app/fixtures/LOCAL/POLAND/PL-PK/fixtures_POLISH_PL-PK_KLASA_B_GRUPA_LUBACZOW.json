@@ -16,11 +16,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "754e60debb68c71d8fdfdb57b78404f3",
       "stadium": {
@@ -31,7 +32,8 @@
           "longitude": 23.1859004,
           "name": "Boisko Roztocze, Ruda Różaniecka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudzie Różanieckiej"
     },
     {
       "competition": {
@@ -47,11 +49,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "a7c213b550c7d2ad6680556499157ed6",
       "stadium": {
@@ -62,7 +65,8 @@
           "longitude": 22.9224096,
           "name": "Boisko LKS Korzenica, Korzenica, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Korzenicy"
     },
     {
       "competition": {
@@ -78,14 +82,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "1d96a91d1bee090a726c087858b5d5a5",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Futorach"
     },
     {
       "competition": {
@@ -101,11 +107,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "61b10fe82dd477bcf4cf8114e10d8377",
       "stadium": {
@@ -116,7 +123,8 @@
           "longitude": 23.2402013,
           "name": "Boisko Leśnik, Płazów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Płazowie"
     },
     {
       "competition": {
@@ -133,15 +141,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "6d4926fe86989db90aa4b52a61a6e6a5",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Łukawcu"
     },
     {
       "competition": {
@@ -158,12 +171,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "e810c58756aac09e3af65b704cfd2e01",
       "stadium": {
@@ -174,7 +191,8 @@
           "longitude": 22.9869489,
           "name": "Boisko Błękitni, Zalesie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Zalesiu"
     },
     {
       "competition": {
@@ -191,15 +209,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "52cefb2090f571f7caecb14c1f527cf9",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Opace"
     },
     {
       "competition": {
@@ -216,12 +239,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "d2b9745381a222b1a4de3cdb25273c5d",
       "stadium": {
@@ -232,7 +259,8 @@
           "longitude": 22.8317221,
           "name": "Boisko LKS Mołodycz, Mołodycz, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mołodyczu"
     },
     {
       "competition": {
@@ -249,12 +277,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T12:00:00.000Z"
       },
       "id": "c8e093a1d821ebf70700b3ec58969c7b",
       "stadium": {
@@ -265,7 +297,8 @@
           "longitude": 22.9224096,
           "name": "Boisko LKS Korzenica, Korzenica, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Korzenicy"
     },
     {
       "competition": {
@@ -282,15 +315,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
       "id": "613dcdbee14d898751695d8d2b379cec",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Futorach"
     },
     {
       "competition": {
@@ -307,12 +345,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
       "id": "c0e0497d55cf43762ff14c4852bb75c0",
       "stadium": {
@@ -323,7 +365,8 @@
           "longitude": 23.2402013,
           "name": "Boisko Leśnik, Płazów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Płazowie"
     },
     {
       "competition": {
@@ -340,15 +383,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T13:00:00.000Z"
       },
       "id": "33ca0d4573be61758c00d21df0c5f39e",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Sportowy w Woli Wielkiej"
     },
     {
       "competition": {
@@ -365,12 +413,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "38ee559efcef7d9ffdc2c00a98d3a6f4",
       "stadium": {
@@ -381,7 +433,8 @@
           "longitude": 22.9869489,
           "name": "Boisko Błękitni, Zalesie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Zalesiu"
     },
     {
       "competition": {
@@ -398,15 +451,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "a933a250eca08df40224851b87f62fcc",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Opace"
     },
     {
       "competition": {
@@ -423,12 +481,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "cf27e22fb5f4bff7669a37d385f47240",
       "stadium": {
@@ -439,7 +501,8 @@
           "longitude": 22.8317221,
           "name": "Boisko LKS Mołodycz, Mołodycz, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mołodyczu"
     },
     {
       "competition": {
@@ -456,12 +519,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "f004254a96501b29bc71d435b742ae4a",
       "stadium": {
@@ -472,7 +539,8 @@
           "longitude": 23.1859004,
           "name": "Boisko Roztocze, Ruda Różaniecka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudzie Różanieckiej"
     },
     {
       "competition": {
@@ -489,15 +557,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "bbcdd7539d56cd48bb7b49b078bcaa4b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Futorach"
     },
     {
       "competition": {
@@ -514,12 +587,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "8756740b6163b5b8531e3131afb2f805",
       "stadium": {
@@ -530,7 +607,8 @@
           "longitude": 23.2402013,
           "name": "Boisko Leśnik, Płazów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Płazowie"
     },
     {
       "competition": {
@@ -547,15 +625,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "225e21f5f56b799e1586b92e959fefd3",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Sportowy w Woli Wielkiej"
     },
     {
       "competition": {
@@ -572,15 +655,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "eba2b6e3eee926ede646691d7d8f87e9",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Łukawcu"
     }
   ]
 }

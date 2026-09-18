@@ -16,11 +16,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "1bba2cc75e26664c14c542a726a6ce5c",
       "stadium": {
@@ -47,11 +48,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T14:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T14:30:00.000Z"
       },
       "id": "1632b8f4aeaa5c0ab6de9350c03a47ff",
       "stadium": {
@@ -62,7 +64,8 @@
           "longitude": 21.4646096,
           "name": "Boisko Sokół, Malinie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Malinie 214 , 39-331 Chorzelów"
     },
     {
       "competition": {
@@ -78,14 +81,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "bb159b700f965db663e2716330577736",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Trzciana 461 , 39-304 czermin"
     },
     {
       "competition": {
@@ -101,14 +106,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "9c94ee907f3ee54c4e07096587264516",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Jaślany , 39-332 Jaślany"
     },
     {
       "competition": {
@@ -124,11 +131,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "7b7b481542ecb7888b9cd2f195f3d0fa",
       "stadium": {
@@ -155,14 +163,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "43cc9ac0304b68d789705771a1d76ce4",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "LKS Victoria Czermin (Czermin 437A)"
     },
     {
       "competition": {
@@ -179,12 +189,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "d14e64a86a65dcd2e0eb7090e2cdea8e",
       "stadium": {
@@ -195,7 +209,8 @@
           "longitude": 21.430048,
           "name": "Boisko Grom, Krzemienica, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Babicha 36 , 39-307 Gawłuszowice"
     },
     {
       "competition": {
@@ -212,15 +227,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z"
       },
       "id": "b67fb0a89de67c049f91bbfa6bedf4fa",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Rzędzianowice 141 A lok. 141a, 39-300 Mielec"
     },
     {
       "competition": {
@@ -237,12 +257,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "5faa03f24172277a20266430f4aa1e46",
       "stadium": {
@@ -270,12 +294,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z"
       },
       "id": "f6668cf8927b62edfe04176dc75e9e6e",
       "stadium": {
@@ -303,15 +331,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "f84d27fad2130bec4506b7a3f042baaa",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadionowa 1 , 39-340 Padew Narodowa"
     },
     {
       "competition": {
@@ -328,15 +361,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "fd7fe0ed1ebc98ef8d26bd6835f6622c",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Jaślany , 39-332 Jaślany"
     },
     {
       "competition": {
@@ -411,15 +449,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "97b9f7b5812a051388d18ae5e8f316c4",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Trzciana 461 , 39-304 czermin"
     },
     {
       "competition": {
@@ -469,12 +512,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z"
       },
       "id": "3b2d66e147270e9dc4d5417a23a24e69",
       "stadium": {
@@ -485,7 +532,8 @@
           "longitude": 21.4775094,
           "name": "LKS Strażak Grochowe, Grochowe, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -527,12 +575,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z"
       },
       "id": "b5ea57b9e62f527835916fd062479f74",
       "stadium": {
@@ -543,7 +595,8 @@
           "longitude": 21.430048,
           "name": "Boisko Grom, Krzemienica, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Babicha 36 , 39-307 Gawłuszowice"
     },
     {
       "competition": {
@@ -560,12 +613,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z"
       },
       "id": "97daff27dff357ab3a40acd203ca54d3",
       "stadium": {
@@ -593,12 +650,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "96909eb2ca318e56fe0893d29a17e9dc",
       "stadium": {
@@ -792,12 +853,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T12:00:00.000Z"
       },
       "id": "980ce79809aad39fe75918bcfbc1ca3b",
       "stadium": {
@@ -808,7 +873,8 @@
           "longitude": 21.4775094,
           "name": "LKS Strażak Grochowe, Grochowe, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -825,12 +891,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T12:00:00.000Z"
       },
       "id": "5ea6ed118fd46c055f0fddc56a49daa9",
       "stadium": null
@@ -883,12 +953,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "2403d5e62c16c078c59299dc67e8dafe",
       "stadium": {
@@ -899,7 +973,8 @@
           "longitude": 21.430048,
           "name": "Boisko Grom, Krzemienica, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Babicha 36 , 39-307 Gawłuszowice"
     },
     {
       "competition": {
@@ -916,12 +991,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "9a0de2901e42e46140acb4c57473c0d2",
       "stadium": {
@@ -1115,12 +1194,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "60526c463aeb0c35456033b1c6e680d4",
       "stadium": {
@@ -1131,7 +1214,8 @@
           "longitude": 21.4775094,
           "name": "LKS Strażak Grochowe, Grochowe, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Centrum Sportowe w Tuszowie Narodowym - Boisko naturalne"
     },
     {
       "competition": {
@@ -1148,12 +1232,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T14:00:00.000Z"
       },
       "id": "b9c80c0ea7a1766c6fd07964fdbadc86",
       "stadium": null
@@ -1173,12 +1261,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "60d84206a02d4da1423551fbd9314d6b",
       "stadium": {

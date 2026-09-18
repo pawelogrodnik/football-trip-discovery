@@ -16,14 +16,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T14:00:00.000Z"
+        "dateTime": "2026-09-19T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:00:00.000Z"
+        "dateTime": "2026-09-19T12:00:00.000Z"
       },
       "id": "e5e38b0e6b91e3a8e9a8c8ab38694a8a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Desznie"
     },
     {
       "competition": {
@@ -39,11 +41,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "4ac206a847c0f5d2cb1ecba38c5b3d15",
       "stadium": {
@@ -54,7 +57,8 @@
           "longitude": 21.8624297,
           "name": "Stadion KS Iskra Iskrzynia, Iskrzynia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Iskrzyni"
     },
     {
       "competition": {
@@ -70,14 +74,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "d1405f8e5ada1491b0d96c56fd798e1b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Krościenku Wyżnym ul. Centralna 15"
     },
     {
       "competition": {
@@ -116,11 +122,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "eab9bd8c8f2883f19618ba5f25a08d89",
       "stadium": {
@@ -131,7 +138,8 @@
           "longitude": 21.9487678,
           "name": "Boisko LKS Trześniów, Trześniów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Trześniowie"
     },
     {
       "competition": {
@@ -147,11 +155,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "cdf615960ef98c1419318a7beb1cdc7d",
       "stadium": {
@@ -162,7 +171,8 @@
           "longitude": 21.9119841,
           "name": "Boisko LKS Głębokie, Głębokie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Głębokiem"
     },
     {
       "competition": {
@@ -179,12 +189,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
       "id": "49b81639531efb54f342a2cb7d7115b2",
       "stadium": {
@@ -195,7 +209,8 @@
           "longitude": 21.8993494,
           "name": "LZS Orzeł Milcza, Milcza, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Ogrodowa 17 , 38-483 Wróblik Szlachecki"
     },
     {
       "competition": {
@@ -212,15 +227,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T09:00:00.000Z"
       },
       "id": "c232c4ce55c3905652857603130e44ed",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Jabłonica Polska 215a , 36-213 Haczów"
     },
     {
       "competition": {
@@ -270,12 +290,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
       "id": "c21b51f2f0e38d895e35c4ec16312e71",
       "stadium": {
@@ -286,7 +310,8 @@
           "longitude": 21.8072389,
           "name": "Boisko Jasiołka, Jaśliska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Jaśliskach"
     },
     {
       "competition": {
@@ -303,15 +328,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T09:00:00.000Z"
       },
       "id": "2f5b96413870a6ab45247fab068d2ec9",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jasienicy Rosielnej"
     },
     {
       "competition": {
@@ -328,15 +358,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "id": "563592a328c074462e67c4cf9a7541ed",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jasionowie"
     },
     {
       "competition": {
@@ -386,15 +421,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T14:00:00.000Z"
       },
       "id": "a635d4ba2adc30f71ab39f2b744e205e",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Krościenku Wyżnym ul. Centralna 15"
     },
     {
       "competition": {
@@ -436,15 +476,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T09:00:00.000Z"
       },
       "id": "13e6badae4395a6be7954c34538d6a63",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Desznie"
     },
     {
       "competition": {
@@ -494,12 +539,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T09:00:00.000Z"
       },
       "id": "f68219003eda496832a57499fc8fb372",
       "stadium": {
@@ -510,7 +559,8 @@
           "longitude": 21.8270949,
           "name": "Boisko Orzeł, Pustyny, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Krościenku Wyżnym ul. Centralna 15"
     },
     {
       "competition": {
@@ -527,15 +577,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T09:00:00.000Z"
       },
       "id": "d46d4b47aa14a4b64881244c6fe5e15e",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Jabłonica Polska 215a , 36-213 Haczów"
     },
     {
       "competition": {
@@ -585,12 +640,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "id": "c350148c8e5d65653bef1478cd76639a",
       "stadium": {
@@ -601,7 +660,8 @@
           "longitude": 21.8072389,
           "name": "Boisko Jasiołka, Jaśliska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Jaśliskach"
     },
     {
       "competition": {
@@ -643,15 +703,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "id": "c871a2c3a71ede5314c68eb80bb67772",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jasionowie"
     },
     {
       "competition": {
@@ -751,15 +816,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T09:00:00.000Z"
       },
       "id": "24b6d8861d75dcde59199f9ab6ed8e65",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Desznie"
     },
     {
       "competition": {
@@ -809,12 +879,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T09:00:00.000Z"
       },
       "id": "882a5fa99d8befe4a0ff0d6d1adcbae2",
       "stadium": {
@@ -825,7 +899,8 @@
           "longitude": 21.8270949,
           "name": "Boisko Orzeł, Pustyny, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Krościenku Wyżnym ul. Centralna 15"
     },
     {
       "competition": {
@@ -908,12 +983,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "id": "67b6d377b5287c28dcd78ca23f070314",
       "stadium": {
@@ -924,7 +1003,8 @@
           "longitude": 21.8072389,
           "name": "Boisko Jasiołka, Jaśliska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Jaśliskach"
     },
     {
       "competition": {
@@ -941,15 +1021,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T09:00:00.000Z"
       },
       "id": "f6db0714847ac7b9ad42d096b5bf0a6c",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jasienicy Rosielnej"
     },
     {
       "competition": {
@@ -966,15 +1051,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T12:00:00.000Z"
       },
       "id": "a635d6b2c0d8f52f5f64143afd8a26df",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jasionowie"
     },
     {
       "competition": {
@@ -1079,14 +1169,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "c9494bdcdd5bfbbd546b23ec05da5927",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Desznie"
     },
     {
       "competition": {
@@ -1133,11 +1227,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "b99dd566e47c5ffb3757ed25dcceae00",
       "stadium": {
@@ -1148,7 +1245,8 @@
           "longitude": 21.8270949,
           "name": "Boisko Orzeł, Pustyny, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Krościenku Wyżnym ul. Centralna 15"
     },
     {
       "competition": {
@@ -1195,14 +1293,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T12:00:00.000Z"
       },
       "id": "50b5a123d0b0adaed816e8f167bd5319",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jabłonicy Polskiej"
     },
     {
       "competition": {
@@ -1219,12 +1321,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "d10d58f41020f99946cbff78840ddf6a",
       "stadium": {
@@ -1235,7 +1341,8 @@
           "longitude": 21.8072389,
           "name": "Boisko Jasiołka, Jaśliska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Jaśliskach"
     },
     {
       "competition": {
@@ -1252,15 +1359,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T10:00:00.000Z"
       },
       "id": "521369bd7b3c79d6db997fdded4f493f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jasienicy Rosielnej"
     },
     {
       "competition": {
@@ -1277,15 +1389,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "15e4f2628a8f137bbbc23ca6d2c06a61",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jasionowie"
     },
     {
       "competition": {

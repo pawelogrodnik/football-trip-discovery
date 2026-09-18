@@ -7,6 +7,37 @@
         "name": "IV Liga Świętokrzyskie"
       },
       "homeTeam": {
+        "name": "Alit Ożarów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KKP Korona Kielce",
+        "crest": "https://crests.football-data.org/5635.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "2aa5ec73d8b71851b5dfcabba1d18cd1",
+      "stadium": {
+        "venue": "Stadion Miejski w Ożarowie",
+        "address": "Ogrodowa 10, Ożarów",
+        "geo": {
+          "latitude": 52.2016155,
+          "longitude": 20.7189392,
+          "name": "10, Ogrodowa, Osiedle Południowe, Płochocin, Płochocin-Osiedle, Płochocin, gmina Ożarów Mazowiecki, powiat warszawski zachodni, województwo mazowieckie, 05-860, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Świętokrzyskie"
+      },
+      "homeTeam": {
         "name": "Sparta Kazimierza Wielka",
         "crest": null
       },
@@ -30,37 +61,6 @@
           "latitude": 50.2672429,
           "longitude": 20.4998235,
           "name": "42, Bartosza Głowackiego, Wesoła, Kazimierza Wielka, gmina Kazimierza Wielka, powiat kazimierski, województwo świętokrzyskie, 28-500, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Świętokrzyskie"
-      },
-      "homeTeam": {
-        "name": "Alit Ożarów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KKP Korona Kielce",
-        "crest": "https://crests.football-data.org/5635.png"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "2aa5ec73d8b71851b5dfcabba1d18cd1",
-      "stadium": {
-        "venue": "Stadion Miejski w Ożarowie",
-        "address": "Ogrodowa 10, Ożarów",
-        "geo": {
-          "latitude": 52.2016155,
-          "longitude": 20.7189392,
-          "name": "10, Ogrodowa, Osiedle Południowe, Płochocin, Płochocin-Osiedle, Płochocin, gmina Ożarów Mazowiecki, powiat warszawski zachodni, województwo mazowieckie, 05-860, Polska"
         }
       }
     },

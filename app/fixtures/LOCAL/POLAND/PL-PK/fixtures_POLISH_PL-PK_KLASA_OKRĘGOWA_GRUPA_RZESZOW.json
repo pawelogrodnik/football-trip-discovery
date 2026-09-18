@@ -16,11 +16,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-18T19:00:00.000Z"
+        "dateTime": "2026-09-18T17:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-18",
-        "dateTime": "2026-09-18T19:00:00.000Z"
+        "dateTime": "2026-09-18T17:00:00.000Z"
       },
       "id": "a222a8fa0bc293ab0ca95a4777aa1a5f",
       "stadium": {
@@ -31,7 +32,8 @@
           "longitude": 22.10174876783741,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Stadion w Błażowej"
     },
     {
       "competition": {
@@ -78,11 +80,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "a6bf114ddc8e5fae9fec2d0aad0c17cd",
       "stadium": {
@@ -93,7 +96,8 @@
           "longitude": 22.1250747,
           "name": "Boisko Rzemieślnik, Strażów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Strażowie"
     },
     {
       "competition": {
@@ -109,11 +113,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z"
       },
       "id": "df6e0e38239d58f6af02effd47efc9e8",
       "stadium": {
@@ -124,7 +129,8 @@
           "longitude": 22.0998416,
           "name": "Boisko Strumyk, Malawa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Malawie"
     },
     {
       "competition": {
@@ -171,14 +177,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "edc1d7069057cd9d6ab87bdaa3859033",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion TG Sokół w Sokołowie Małopolskim"
     },
     {
       "competition": {
@@ -225,14 +233,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T18:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T18:00:00.000Z"
+        "dateTime": "2026-09-20T16:00:00.000Z"
       },
       "id": "cd232b56c2178211aa1fc4a8338dfc6a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Wólce Niedźwiedzkiej"
     },
     {
       "competition": {
@@ -282,15 +292,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "4c06d913988e101f78049c6cb1060cee",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion LKS w Jasionce"
     },
     {
       "competition": {
@@ -307,12 +322,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "16cf2e4678ddcdf94461b21490bef761",
       "stadium": {
@@ -323,7 +342,8 @@
           "longitude": 22.3085664,
           "name": "Boisko Błękit, Żołynia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Gminny w Żołyni"
     },
     {
       "competition": {
@@ -340,15 +360,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "04cb15e7b54ab91dce2ce9bcecef4591",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Trzebusce"
     },
     {
       "competition": {
@@ -398,12 +423,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "293008493eb6632a8840887a63cee61f",
       "stadium": {
@@ -414,7 +443,8 @@
           "longitude": 22.0435912,
           "name": "Boisko GKS, Trzebownisko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Trzebownisku"
     },
     {
       "competition": {
@@ -522,12 +552,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z"
       },
       "id": "32b0445d6cdc626177d0adfddeb2ba24",
       "stadium": {
@@ -538,7 +572,8 @@
           "longitude": 22.1250747,
           "name": "Boisko Rzemieślnik, Strażów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Strażowie"
     },
     {
       "competition": {
@@ -646,15 +681,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-02T17:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-02",
+        "dateTime": "2026-10-02T17:00:00.000Z"
       },
       "id": "b97d89cdfa1f9673e2c0b464a8b389b3",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Wólce Niedźwiedzkiej"
     },
     {
       "competition": {
@@ -671,12 +711,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-02T17:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-02",
+        "dateTime": "2026-10-02T17:00:00.000Z"
       },
       "id": "861ccc2de646bd0d7fc4786f72e8a66d",
       "stadium": {
@@ -687,7 +731,8 @@
           "longitude": 22.2484191,
           "name": "Stadion KS Włókniarz Rakszawa, Rakszawa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Rakszawie"
     },
     {
       "competition": {
@@ -803,15 +848,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z"
       },
       "id": "b8546cff1ee86be03c6db04757067b8b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Trzebusce"
     },
     {
       "competition": {
@@ -828,12 +878,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T12:00:00.000Z"
       },
       "id": "39c88977a7b8d5cb651afae41b2adb62",
       "stadium": {
@@ -844,7 +898,8 @@
           "longitude": 21.9850367,
           "name": "Boisko KS Zaczernie, Zaczernie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Zaczerniu"
     },
     {
       "competition": {
@@ -861,12 +916,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T14:00:00.000Z"
       },
       "id": "15174ad2b1e1d72b2d60d4f92b7af760",
       "stadium": {
@@ -877,7 +936,8 @@
           "longitude": 22.0435912,
           "name": "Boisko GKS, Trzebownisko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Trzebownisku"
     },
     {
       "competition": {
@@ -1258,15 +1318,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T14:00:00.000Z"
       },
       "id": "b4f71dc516bdcb4ac23d06c8aaf885de",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Trzebusce"
     },
     {
       "competition": {
@@ -1316,12 +1381,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "b0f0ab0803e983020a8c460807e24929",
       "stadium": {
@@ -1332,7 +1401,8 @@
           "longitude": 22.0435912,
           "name": "Boisko GKS, Trzebownisko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Trzebownisku"
     },
     {
       "competition": {
@@ -1730,12 +1800,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T12:00:00.000Z"
       },
       "id": "824790a242140e57ff1e97aacd344c13",
       "stadium": {
@@ -1746,7 +1820,8 @@
           "longitude": 21.9850367,
           "name": "Boisko KS Zaczernie, Zaczernie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Zaczerniu"
     },
     {
       "competition": {
@@ -1763,12 +1838,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "78257abd589a684c817595d6e699b5b4",
       "stadium": {
@@ -1779,7 +1858,8 @@
           "longitude": 22.0435912,
           "name": "Boisko GKS, Trzebownisko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Trzebownisku"
     },
     {
       "competition": {
@@ -2160,15 +2240,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-15T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-15",
+        "dateTime": "2026-11-15T14:00:00.000Z"
       },
       "id": "5ebafc283e7b98829939536a487b10b6",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Trzebusce"
     }
   ]
 }

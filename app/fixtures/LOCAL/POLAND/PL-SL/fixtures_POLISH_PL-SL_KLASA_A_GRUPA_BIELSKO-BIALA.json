@@ -1,63 +1,7 @@
 {
   "competitionName": "Klasa A (Bielsko-Biala)",
-  "count": 56,
+  "count": 55,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa A (Bielsko-Biala)"
-      },
-      "homeTeam": {
-        "name": "Zapora Wapienica (Bielsko-Biała)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Drzewiarz Jasienica",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-16T19:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-16",
-        "dateTime": "2026-09-16T19:00:00.000Z"
-      },
-      "id": "16ff700f9671cca25ca51b1e5154eb13",
-      "stadium": {
-        "address": "Wapienica, Bielsko-Biała",
-        "venue": "Boisko LKS Zapora Wapienica",
-        "geo": {
-          "latitude": 49.7994307,
-          "longitude": 18.9824274,
-          "name": "LKS ZAPORA WAPIENICA, Wapienica, Bielsko-Biała, śląskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bielsko-Biala)"
-      },
-      "homeTeam": {
-        "name": "Zapora Porąbka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Bystra (k. Bielska-Białej)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "e447b2db003534c2ed78935755f5777f",
-      "stadium": null
-    },
     {
       "competition": {
         "name": "Klasa A (Bielsko-Biala)"
@@ -134,6 +78,29 @@
           "name": "LKS Ligota Centrum, Ligota, śląskie, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bielsko-Biala)"
+      },
+      "homeTeam": {
+        "name": "Zapora Porąbka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Bystra (k. Bielska-Białej)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T15:00:00.000Z"
+      },
+      "id": "e447b2db003534c2ed78935755f5777f",
+      "stadium": null
     },
     {
       "competition": {

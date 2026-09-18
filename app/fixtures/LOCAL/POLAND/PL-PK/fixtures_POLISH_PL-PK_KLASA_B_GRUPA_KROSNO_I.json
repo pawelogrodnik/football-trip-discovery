@@ -16,11 +16,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
+        "dateTime": "2026-09-20T10:00:00.000Z"
       },
       "id": "2f39d0d1bf9c9cb53fa3a224fee69075",
       "stadium": {
@@ -31,7 +32,8 @@
           "longitude": 22.2235068,
           "name": "Stadion sportowy LKS CZASZYN - ul. Starowiejska 4, Czaszyn, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Czaszynie ul. Starowiejska 4 lok. 4"
     },
     {
       "competition": {
@@ -47,14 +49,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
+        "dateTime": "2026-09-20T11:00:00.000Z"
       },
       "id": "b5b81a117b9418c6796274b58b130ac6",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Łukowe 23 , 38-516 Tarnawa Dolna"
     },
     {
       "competition": {
@@ -70,11 +74,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "7a3b1243f586d76f48829f6a65819419",
       "stadium": {
@@ -85,7 +90,8 @@
           "longitude": 22.2772388,
           "name": "Boisko San, Mrzygłód, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mrzygłodzie 133"
     },
     {
       "competition": {
@@ -101,14 +107,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "ce16d2463d5aa4f450da08a1cc2099c9",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Jankowcach 105"
     },
     {
       "competition": {
@@ -124,11 +132,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "b2db25a01657904c613c089d1a2695ef",
       "stadium": {
@@ -139,7 +148,8 @@
           "longitude": 22.2894943,
           "name": "Boisko Leśnik, Baligród, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Baligrodzie ul. Kazimierza Wielkiego 49"
     },
     {
       "competition": {
@@ -187,15 +197,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "493d069fe7938dab6cb6a87ec69de90f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Lutowiskach 14"
     },
     {
       "competition": {
@@ -212,12 +227,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "4f34fc5532429e3d6c68c8e519160822",
       "stadium": {
@@ -228,7 +247,8 @@
           "longitude": 22.4284336,
           "name": "Boisko Nelson, Polańczyk, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Polańczyku ul. Bieszczadzka 17"
     },
     {
       "competition": {
@@ -245,12 +265,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "id": "556b4f507e988acace34d01249d551f4",
       "stadium": {
@@ -261,7 +285,8 @@
           "longitude": 22.216212,
           "name": "Boisko LKS Juventus Poraż, Poraż, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Karpacka 47 , 38-540 ZAGÓRZ"
     },
     {
       "competition": {
@@ -278,15 +303,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "c523cbe8ec805b210cd5765a10224e1f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Srogowie Górnym 67 lok. 41a"
     },
     {
       "competition": {
@@ -336,12 +366,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z"
       },
       "id": "77c48377722d74fd2e5bc908e9424390",
       "stadium": {
@@ -352,7 +386,8 @@
           "longitude": 22.2650346,
           "name": "Stadion sportowy w Zagórzu, Zagórz, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Zagórzu"
     },
     {
       "competition": {
@@ -369,15 +404,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T11:00:00.000Z"
       },
       "id": "814e576e021cae00bc82a46ce8cab8dd",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Łukowe 23 , 38-516 Tarnawa Dolna"
     },
     {
       "competition": {
@@ -452,12 +492,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z"
       },
       "id": "9e27fb3ad39e9b654e94913265896920",
       "stadium": {
@@ -468,7 +512,8 @@
           "longitude": 22.2772388,
           "name": "Boisko San, Mrzygłód, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mrzygłodzie 133"
     },
     {
       "competition": {
@@ -485,12 +530,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
       "id": "a4e8d3e839a5f039c0442d74bc631afd",
       "stadium": {
@@ -501,7 +550,8 @@
           "longitude": 22.2235068,
           "name": "Stadion sportowy LKS CZASZYN - ul. Starowiejska 4, Czaszyn, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Czaszynie ul. Starowiejska 4 lok. 4"
     },
     {
       "competition": {
@@ -518,15 +568,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "926d85d65785cb1831fb119b78a0ba4f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Lutowiskach 14"
     },
     {
       "competition": {
@@ -543,12 +598,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "fcfe741c20f42502bb95b299e13a19ce",
       "stadium": {
@@ -559,7 +618,8 @@
           "longitude": 22.4284336,
           "name": "Boisko Nelson, Polańczyk, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Polańczyku ul. Bieszczadzka 17"
     },
     {
       "competition": {
@@ -576,12 +636,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T11:00:00.000Z"
       },
       "id": "8bccc7467bbeeae55c76636e53b1ea5f",
       "stadium": {
@@ -592,7 +656,8 @@
           "longitude": 22.216212,
           "name": "Boisko LKS Juventus Poraż, Poraż, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Karpacka 47 , 38-540 ZAGÓRZ"
     },
     {
       "competition": {
@@ -609,15 +674,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z"
       },
       "id": "74bc25b0ee2eabf369fffa0739909922",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Srogowie Górnym 67 lok. 41a"
     },
     {
       "competition": {
@@ -667,12 +737,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "9becb978e38341240c12ac5dc72c6724",
       "stadium": {
@@ -683,7 +757,8 @@
           "longitude": 22.2650346,
           "name": "Stadion sportowy w Zagórzu, Zagórz, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Zagórzu"
     },
     {
       "competition": {
@@ -733,15 +808,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T11:00:00.000Z"
       },
       "id": "d011ab58fdf9567b19cf3b37ac43007f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Łukowe 23 , 38-516 Tarnawa Dolna"
     },
     {
       "competition": {
@@ -874,12 +954,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "444e67101c5d0b150d7d2a0dca970a76",
       "stadium": {
@@ -890,7 +974,8 @@
           "longitude": 22.4284336,
           "name": "Boisko Nelson, Polańczyk, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Polańczyku ul. Bieszczadzka 17"
     },
     {
       "competition": {
@@ -907,12 +992,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "78d382d7a5457741ec78c54342e14a46",
       "stadium": {
@@ -923,7 +1012,8 @@
           "longitude": 22.216212,
           "name": "Boisko LKS Juventus Poraż, Poraż, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Karpacka 47 , 38-540 ZAGÓRZ"
     },
     {
       "competition": {
@@ -940,15 +1030,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "9d7284407ab5b741476e251b49d8a46f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Srogowie Górnym 67 lok. 41a"
     },
     {
       "competition": {
@@ -998,12 +1093,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "cf1fed457bf630b84cb0f66d5048fb68",
       "stadium": {
@@ -1014,7 +1113,8 @@
           "longitude": 22.2650346,
           "name": "Stadion sportowy w Zagórzu, Zagórz, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Zagórzu"
     },
     {
       "competition": {
@@ -1031,12 +1131,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "52f3990df722c0d257e25214e23c0931",
       "stadium": {
@@ -1047,7 +1151,8 @@
           "longitude": 22.4094271,
           "name": "Boisko Zalew, Myczkowce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Myczkowcach"
     },
     {
       "competition": {
@@ -1064,12 +1169,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "21d108831976006539a4707621682bf8",
       "stadium": {
@@ -1080,7 +1189,8 @@
           "longitude": 22.2894943,
           "name": "Boisko Leśnik, Baligród, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Baligrodzie ul. Kazimierza Wielkiego 49"
     }
   ]
 }

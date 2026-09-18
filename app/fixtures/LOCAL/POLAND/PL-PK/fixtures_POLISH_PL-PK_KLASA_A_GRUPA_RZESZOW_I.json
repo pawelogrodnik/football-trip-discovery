@@ -30,31 +30,6 @@
         "name": "Klasa A (Rzeszow I)"
       },
       "homeTeam": {
-        "name": "Orzeł Wysoka Głogowska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Grunwald Budziwój (Rzeszów)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "21ffb359d2b3db9d1e6b2f94cb4c7ead",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Rzeszow I)"
-      },
-      "homeTeam": {
         "name": "Victoria Budy Głogowskie",
         "crest": null
       },
@@ -64,14 +39,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "7ec1ad6716b1ecb3e9ca88f7a763545a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Arena Victoria w Budach Głogowskich"
     },
     {
       "competition": {
@@ -118,14 +95,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "d239518c5f2ad3bc3a1983f21b2a9a8f",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Nosówce"
     },
     {
       "competition": {
@@ -141,13 +120,38 @@
       },
       "schedule": {
         "status": "confirmed",
+        "dateTime": "2026-09-20T12:00:00.000Z",
+        "timeConfirmed": true
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T12:00:00.000Z"
+      },
+      "id": "9718584ca9f59fed7355a23281020044",
+      "stadium": null,
+      "stadiumHint": "Zarzecze , 36-040 Boguchwała"
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Rzeszow I)"
+      },
+      "homeTeam": {
+        "name": "Orzeł Wysoka Głogowska",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Grunwald Budziwój (Rzeszów)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
         "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "date": {
         "date": "2026-09-20",
         "dateTime": "2026-09-20T14:00:00.000Z"
       },
-      "id": "9718584ca9f59fed7355a23281020044",
+      "id": "21ffb359d2b3db9d1e6b2f94cb4c7ead",
       "stadium": null
     },
     {
@@ -188,12 +192,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:30:00.000Z"
       },
       "id": "717237b37577e197121879b5e2c4c6d3",
       "stadium": {
@@ -204,7 +212,8 @@
           "longitude": 21.7616235,
           "name": "Stadion Diamentu, Pstrągowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Pstrągowej"
     },
     {
       "competition": {
@@ -304,15 +313,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "id": "f34369d5a3c8b3d7defd009894abc3d9",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Czudcu"
     },
     {
       "competition": {
@@ -329,15 +343,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "eb65c912ca70f3b1ad83aef4eb9747f3",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Wysokiej Głogowskiej"
     },
     {
       "competition": {
@@ -545,15 +564,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "753d536fe7a718c587f4f3ba45c4e7e1",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Alfreda Potockiego 9 , 35-322 Rzeszów"
     },
     {
       "competition": {
@@ -703,15 +727,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T12:00:00.000Z"
       },
       "id": "32e92e4cce0aa79c8f3d94394e6d8d93",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Zarzecze , 36-040 Boguchwała"
     },
     {
       "competition": {
@@ -985,15 +1014,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "d11c0f1f914e43bf6f0fbf85d500df43",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Trzebownisko 979 , 36-001 Trzebownisko"
     },
     {
       "competition": {
@@ -1403,15 +1437,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "53d8233e37ce963a6d58196a60e83ba4",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Zarzecze , 36-040 Boguchwała"
     },
     {
       "competition": {

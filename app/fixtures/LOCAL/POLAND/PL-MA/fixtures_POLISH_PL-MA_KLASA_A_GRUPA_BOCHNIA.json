@@ -38,6 +38,37 @@
         "name": "Klasa A (Bochnia)"
       },
       "homeTeam": {
+        "name": "Raba Książnice",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Błękitni Krzeczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T14:00:00.000Z"
+      },
+      "id": "ed3051008e56d49a4679252ed2e9a545",
+      "stadium": {
+        "address": "Książnice 213, 32-420 Książnice",
+        "venue": "Boisko LKS Raba Książnice",
+        "geo": {
+          "latitude": 49.9528443,
+          "longitude": 20.3072872,
+          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Bochnia)"
+      },
+      "homeTeam": {
         "name": "Novi/Rzezawianka Rzezawa",
         "crest": null
       },
@@ -84,37 +115,6 @@
           "latitude": 49.8427305,
           "longitude": 20.3754461,
           "name": "Trzciana 509, Trzciana, powiat bocheński, województwo małopolskie, 32-733, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Bochnia)"
-      },
-      "homeTeam": {
-        "name": "Raba Książnice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Błękitni Krzeczów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "id": "ed3051008e56d49a4679252ed2e9a545",
-      "stadium": {
-        "address": "Książnice 213, 32-420 Książnice",
-        "venue": "Boisko LKS Raba Książnice",
-        "geo": {
-          "latitude": 49.9528443,
-          "longitude": 20.3072872,
-          "name": "LKS Raba Książnice, Książnice 213, Książnice, gmina Gdów, powiat wielicki, województwo małopolskie, 32-420, Polska"
         }
       }
     },

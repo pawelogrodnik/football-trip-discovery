@@ -38,39 +38,6 @@
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
-        "name": "Garbarnia Kraków",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e3/RKS_Garbarnia_Krak%C3%B3w_%28ancien_logo%29.svg"
-      },
-      "awayTeam": {
-        "name": "Kabel Kraków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
-      },
-      "id": "b50468e31675da6992048d30f1d1bc3c",
-      "stadium": {
-        "address": "Rydlówka 23 Kraków 30-363",
-        "venue": "Stadion Garbarni przy Barskiej",
-        "geo": {
-          "latitude": 50.0361101,
-          "longitude": 19.9341439,
-          "name": "23, Rydlówka, Stare Podgórze, Podgórze, Kraków, województwo małopolskie, 30-363, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
         "name": "Świt Krzeszowice",
         "crest": "http://swit1923.pl/wp-content/uploads/2021/01/logo.png"
       },
@@ -195,6 +162,68 @@
         "name": "V liga (malopolska (zachod))"
       },
       "homeTeam": {
+        "name": "Garbarnia Kraków",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/e/e3/RKS_Garbarnia_Krak%C3%B3w_%28ancien_logo%29.svg"
+      },
+      "awayTeam": {
+        "name": "Kabel Kraków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
+      },
+      "id": "b50468e31675da6992048d30f1d1bc3c",
+      "stadium": {
+        "address": "Rydlówka 23 Kraków 30-363",
+        "venue": "Stadion Garbarni przy Barskiej",
+        "geo": {
+          "latitude": 50.0361101,
+          "longitude": 19.9341439,
+          "name": "23, Rydlówka, Stare Podgórze, Podgórze, Kraków, województwo małopolskie, 30-363, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (malopolska (zachod))"
+      },
+      "homeTeam": {
+        "name": "Sokół Kocmyrzów Baranówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przebój Wolbrom",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:30:00.000Z"
+      },
+      "id": "484afce926b3266a89b310c4df796231",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion LKS Sokół Kocmyrzów",
+        "geo": {
+          "latitude": 50.1309053,
+          "longitude": 20.133764,
+          "name": "LKS Sokół Kocmyrzów, Sportowa, Kocmyrzów, powiat krakowski, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "V liga (malopolska (zachod))"
+      },
+      "homeTeam": {
         "name": "Puszcza II Niepołomice",
         "crest": "https://upload.wikimedia.org/wikipedia/en/a/a1/Puszcza_Niepolomice_Herb_Full.svg"
       },
@@ -218,37 +247,6 @@
           "latitude": 50.03273,
           "longitude": 20.2218161,
           "name": "2, Janusza Kusocińskiego, Zakościele, Niepołomice, gmina Niepołomice, powiat wielicki, województwo małopolskie, 32-005, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "V liga (malopolska (zachod))"
-      },
-      "homeTeam": {
-        "name": "Sokół Kocmyrzów Baranówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Przebój Wolbrom",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "id": "484afce926b3266a89b310c4df796231",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion LKS Sokół Kocmyrzów",
-        "geo": {
-          "latitude": 50.1309053,
-          "longitude": 20.133764,
-          "name": "LKS Sokół Kocmyrzów, Sportowa, Kocmyrzów, powiat krakowski, małopolskie, Polska"
         }
       }
     },

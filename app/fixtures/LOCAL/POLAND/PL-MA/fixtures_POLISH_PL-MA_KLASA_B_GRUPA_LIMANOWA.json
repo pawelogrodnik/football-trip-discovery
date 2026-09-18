@@ -15,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "status": "confirmed",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD"
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T16:00:00.000Z"
       },
       "id": "79cf49fe1221cbdb30f02a8f9a0feccf",
       "stadium": {
@@ -65,6 +63,29 @@
           "name": "Boisko LKS Mordarka, Mordarka 145, Mordarka, powiat limanowski, małopolskie, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Limanowa)"
+      },
+      "homeTeam": {
+        "name": "Rybie Nowe Rybie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Pisarzowa",
+        "crest": "https://crests.football-data.org/487.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "id": "de0e2ffef19a737b2e49def5af2e30c9",
+      "stadium": null
     },
     {
       "competition": {
@@ -951,29 +972,6 @@
           "name": "Stadion LKS Turbacz, Spadochroniarzy, Mszana Dolna, powiat limanowski, małopolskie, Polska"
         }
       }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Limanowa)"
-      },
-      "homeTeam": {
-        "name": "Rybie Nowe Rybie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Pisarzowa",
-        "crest": "https://crests.football-data.org/487.png"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-11-08T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T11:00:00.000Z"
-      },
-      "id": "de0e2ffef19a737b2e49def5af2e30c9",
-      "stadium": null
     }
   ]
 }

@@ -7,6 +7,37 @@
         "name": "IV Liga Opolskie"
       },
       "homeTeam": {
+        "name": "LZS Starowice Dolne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Małapanew Ozimek",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-19T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-19",
+        "dateTime": "2026-09-19T12:00:00.000Z"
+      },
+      "id": "cf0dc900d7593df7e6471ae59949a5e8",
+      "stadium": {
+        "venue": "Boisko Sportowe LZS Starowice Dolne",
+        "address": "Starowice Dolne 85, Grodków",
+        "geo": {
+          "latitude": 50.6441827,
+          "longitude": 17.3294718,
+          "name": "Starowice Dolne, gmina Grodków, powiat brzeski, województwo opolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Opolskie"
+      },
+      "homeTeam": {
         "name": "LKS Kadłub (k. Strzelec Opolskich)",
         "crest": null
       },
@@ -122,37 +153,6 @@
           "latitude": 50.4251218,
           "longitude": 18.1297819,
           "name": "A2, Nowa, Osiedle Piastów, Zdzieszowice, gmina Zdzieszowice, powiat krapkowicki, województwo opolskie, 47-330, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Opolskie"
-      },
-      "homeTeam": {
-        "name": "LZS Starowice Dolne",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Małapanew Ozimek",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "cf0dc900d7593df7e6471ae59949a5e8",
-      "stadium": {
-        "venue": "Boisko Sportowe LZS Starowice Dolne",
-        "address": "Starowice Dolne 85, Grodków",
-        "geo": {
-          "latitude": 50.6441827,
-          "longitude": 17.3294718,
-          "name": "Starowice Dolne, gmina Grodków, powiat brzeski, województwo opolskie, Polska"
         }
       }
     },

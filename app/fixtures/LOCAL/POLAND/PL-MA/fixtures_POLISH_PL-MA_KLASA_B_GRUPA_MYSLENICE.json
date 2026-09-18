@@ -109,11 +109,11 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T16:30:00.000Z"
       },
       "id": "36ea9a1c44582d00791f49109d2399a2",
       "stadium": {
@@ -154,37 +154,6 @@
           "latitude": 49.737088,
           "longitude": 19.9432554,
           "name": "Stadion Gminny, Krzczonów, gmina Tokarnia, powiat myślenicki, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Myslenice)"
-      },
-      "homeTeam": {
-        "name": "Lubomir Wiśniowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Staw Polanka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "74162dc059bc37663aefc5ab800d0a8e",
-      "stadium": {
-        "address": "Poznachowice Dolne 169, 32-412 Wiśniowa",
-        "venue": "Stadion LKS Lubomir Wiśniowa",
-        "geo": {
-          "latitude": 49.8195922,
-          "longitude": 20.1179155,
-          "name": "Stadion LKS Lubomir, Poznachowice Dolne 169, gmina Wiśniowa, powiat myślenicki, małopolskie, Polska"
         }
       }
     },
@@ -247,6 +216,37 @@
           "latitude": 49.8811239,
           "longitude": 20.0248703,
           "name": "Jordan Sum Zakliczyn"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Myslenice)"
+      },
+      "homeTeam": {
+        "name": "Staw Polanka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Lubomir Wiśniowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T16:00:00.000Z"
+      },
+      "id": "a130ff35862c702e61ba7fbbe518a599",
+      "stadium": {
+        "address": "Polanka 186, 32-400 Myślenice",
+        "venue": "Boisko LKS Staw Polanka",
+        "geo": {
+          "latitude": 49.8619219,
+          "longitude": 19.9398646,
+          "name": "Boisko LKS Staw, Polanka 186, Polanka, powiat myślenicki, małopolskie, Polska"
         }
       }
     },

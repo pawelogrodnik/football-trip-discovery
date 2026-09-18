@@ -39,11 +39,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "31b4758445a68ab68247ad6a555ea5ae",
       "stadium": {
@@ -54,7 +55,8 @@
           "longitude": 21.8602025,
           "name": "LKS Bratek Bratkowice, Bratkowice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Bratkowicach"
     },
     {
       "competition": {
@@ -70,11 +72,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "6d503869caede9fe828c259d3683f21c",
       "stadium": {
@@ -85,7 +88,8 @@
           "longitude": 22.0337068,
           "name": "Stadion Miejski w Tyczynie, Tyczyn, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Miejski w Tyczynie"
     },
     {
       "competition": {
@@ -132,11 +136,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "2c7c4f26631a8f82679d28a22f060d64",
       "stadium": {
@@ -147,7 +152,8 @@
           "longitude": 21.811015,
           "name": "LKS Dąb Dąbrowa, Dąbrowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrowie"
     },
     {
       "competition": {
@@ -187,15 +193,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "id": "dbdb6400935349225ec8b01d30ea0d10",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Alfreda Potockiego 9 , 35-322 Rzeszów"
     },
     {
       "competition": {
@@ -212,12 +223,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "2c39d1b9270c722a434f5274413118a5",
       "stadium": {
@@ -228,7 +243,8 @@
           "longitude": 21.9542539,
           "name": "Boisko Rudnianka, Rudna Wielka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudnej Wielkiej"
     },
     {
       "competition": {
@@ -278,12 +294,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "id": "db86f1d9a69f406301b1f44951b1aba5",
       "stadium": {
@@ -294,7 +314,8 @@
           "longitude": 21.9550992,
           "name": "Boisko Rudzik, Rudna Mała, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudnej Małej"
     },
     {
       "competition": {
@@ -344,12 +365,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "6d9ff29c4abd10666ce43dbead0d6825",
       "stadium": {
@@ -360,7 +385,8 @@
           "longitude": 21.9143529,
           "name": "LKS Mrowlanka Mrowla, Mrowla, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mrowli"
     },
     {
       "competition": {
@@ -377,12 +403,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T12:00:00.000Z"
       },
       "id": "618e9c35404323206e73a3d1daaa9cee",
       "stadium": {
@@ -393,7 +423,8 @@
           "longitude": 21.8602025,
           "name": "LKS Bratek Bratkowice, Bratkowice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Bratkowicach"
     },
     {
       "competition": {
@@ -526,15 +557,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "b1c2ae324ac818990ffb11ba99958102",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Alfreda Potockiego 9 , 35-322 Rzeszów"
     },
     {
       "competition": {
@@ -551,12 +587,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "c18119d9cc7ccf627710a3bd3b12c344",
       "stadium": {
@@ -567,7 +607,8 @@
           "longitude": 21.9542539,
           "name": "Boisko Rudnianka, Rudna Wielka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudnej Wielkiej"
     },
     {
       "competition": {
@@ -617,12 +658,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T14:00:00.000Z"
       },
       "id": "f6a7c074dc75a8148993e6da4e00d770",
       "stadium": {
@@ -633,7 +678,8 @@
           "longitude": 21.9550992,
           "name": "Boisko Rudzik, Rudna Mała, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudnej Małej"
     },
     {
       "competition": {
@@ -683,12 +729,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T13:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T13:30:00.000Z"
       },
       "id": "e05b6199723d5cfa5edac2f9af7bbd4e",
       "stadium": {
@@ -699,7 +749,8 @@
           "longitude": 21.9143529,
           "name": "LKS Mrowlanka Mrowla, Mrowla, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mrowli"
     },
     {
       "competition": {
@@ -840,12 +891,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T15:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T15:00:00.000Z"
       },
       "id": "3113eb24c9e81d8e9bb4f21ab43fb586",
       "stadium": {
@@ -856,7 +911,8 @@
           "longitude": 21.811015,
           "name": "LKS Dąb Dąbrowa, Dąbrowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrowie"
     },
     {
       "competition": {
@@ -1030,12 +1086,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "1e165b0f20c849d6b9161b7f82b66de3",
       "stadium": {
@@ -1046,7 +1106,8 @@
           "longitude": 21.9143529,
           "name": "LKS Mrowlanka Mrowla, Mrowla, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mrowli"
     },
     {
       "competition": {
@@ -1121,12 +1182,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "2a30ba5e04f3afcd9e9a1833b2a6cd55",
       "stadium": {
@@ -1137,7 +1202,8 @@
           "longitude": 21.8602025,
           "name": "LKS Bratek Bratkowice, Bratkowice, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Bratkowicach"
     },
     {
       "competition": {
@@ -1179,12 +1245,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "f1a8a6a5875eb0f8457f77a854ffa81e",
       "stadium": {
@@ -1195,7 +1265,8 @@
           "longitude": 21.811015,
           "name": "LKS Dąb Dąbrowa, Dąbrowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dąbrowie"
     },
     {
       "competition": {
@@ -1237,12 +1308,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "2a4756b9f58e4d6ca89da07f102cbb4b",
       "stadium": {
@@ -1253,7 +1328,8 @@
           "longitude": 21.9542539,
           "name": "Boisko Rudnianka, Rudna Wielka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudnej Wielkiej"
     },
     {
       "competition": {
@@ -1303,12 +1379,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15"
+        "endDate": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-15",
+        "dateTime": "2026-11-15T10:00:00.000Z"
       },
       "id": "256468472e565b13317ea166bdacd351",
       "stadium": {
@@ -1319,7 +1399,8 @@
           "longitude": 21.9550992,
           "name": "Boisko Rudzik, Rudna Mała, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Rudnej Małej"
     },
     {
       "competition": {

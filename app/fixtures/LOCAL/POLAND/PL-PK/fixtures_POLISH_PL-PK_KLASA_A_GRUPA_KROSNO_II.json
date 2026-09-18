@@ -17,12 +17,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-19",
-        "endDate": "2026-09-20"
+        "endDate": "2026-09-20",
+        "dateTime": "2026-09-20T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-19",
         "endDate": "2026-09-20",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T12:00:00.000Z"
       },
       "id": "b867b515f9ff4ffbf0f635781c1b4b8b",
       "stadium": {
@@ -49,11 +53,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "dateTime": "2026-09-19T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "dateTime": "2026-09-19T13:00:00.000Z"
       },
       "id": "adb3484caadada9e612d4a18c91c1e8a",
       "stadium": {
@@ -64,7 +69,8 @@
           "longitude": 21.961656,
           "name": "Boisko Płomienia, Zmiennica, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Zmiennica , 36-200 Brzozów"
     },
     {
       "competition": {
@@ -80,11 +86,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
+        "dateTime": "2026-09-19T14:00:00.000Z"
       },
       "id": "071098cae886f0494fee2a6a8c4316fe",
       "stadium": {
@@ -111,14 +118,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T15:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
+        "dateTime": "2026-09-19T15:00:00.000Z"
       },
       "id": "07f945a38070c9846287e352a718c9af",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Przysietnicy"
     },
     {
       "competition": {
@@ -134,11 +143,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "348c8cd0e63d3c2be59e329e719f11ba",
       "stadium": {
@@ -149,7 +159,8 @@
           "longitude": 21.9414259,
           "name": "Stadion gminny w Domaradzu, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Domaradz 345 lok. -, 36-230 Domaradz"
     },
     {
       "competition": {
@@ -165,11 +176,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "ff7a1796b8edac55f31cd8bb0aecbbfb",
       "stadium": {
@@ -180,7 +192,8 @@
           "longitude": 21.7543956,
           "name": "Nowy Stadion Głowienka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Na Jaworze 10 , 38-455 Gło"
     },
     {
       "competition": {
@@ -196,11 +209,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:30:00.000Z"
+        "dateTime": "2026-09-20T14:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:30:00.000Z"
+        "dateTime": "2026-09-20T14:30:00.000Z"
       },
       "id": "bd017c7cbc4007e1f4606a443758d065",
       "stadium": {
@@ -211,7 +225,8 @@
           "longitude": 21.9922341,
           "name": "Boisko LKS Wzdów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wzdów 204 , 36-211 JASIONOW"
     },
     {
       "competition": {
@@ -228,12 +243,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "4c8ab629561e28627e82aa5ba31f3cfb",
       "stadium": {
@@ -261,12 +280,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "3bed0ee3b02264fa63ce87d26d5300e1",
       "stadium": {
@@ -277,7 +300,8 @@
           "longitude": 22.0416553,
           "name": "Boisko LKS Górki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion we Wzdowie"
     },
     {
       "competition": {
@@ -294,12 +318,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
       },
       "id": "9f28c32061f63b420fe4af80918c8a18",
       "stadium": {
@@ -327,12 +355,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "037a3943d754f0599148a3112ac5049a",
       "stadium": {
@@ -343,7 +375,8 @@
           "longitude": 21.7533813,
           "name": "Boisko Lubatówki, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Lubatówka bn , 38-440 Iwonicz- Zdrój"
     },
     {
       "competition": {
@@ -360,12 +393,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "e7345da7f02eeb806bde94d3281fc1a2",
       "stadium": {
@@ -376,7 +413,8 @@
           "longitude": 21.8338045,
           "name": "Stadion w Klimkówce, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Osiedlowa 3 , 38-480 Rymanów"
     },
     {
       "competition": {
@@ -393,12 +431,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-26T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "98462ff8a60820dc07e45bece70143f0",
       "stadium": {
@@ -409,7 +451,8 @@
           "longitude": 21.6849243,
           "name": "Stadion Tęczy Zręcin, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Cmentarna 2 , 38-457 ZRĘCIN"
     },
     {
       "competition": {
@@ -426,15 +469,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "31054606822ab6ea3488126d63382470",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Generała Szeptyckiego 0 , 38-420 Korczyna"
     },
     {
       "competition": {
@@ -451,12 +499,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T14:00:00.000Z"
       },
       "id": "a3bfbe8926bd9eafe1165e2ffd50d421",
       "stadium": {
@@ -467,7 +519,8 @@
           "longitude": 21.9922341,
           "name": "Boisko LKS Wzdów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wzdów 204 , 36-211 JASIONOW"
     },
     {
       "competition": {
@@ -517,12 +570,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "cd9501277aa52e8c010cefe32f6cc6f3",
       "stadium": {
@@ -533,7 +590,8 @@
           "longitude": 21.76629441745113,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Legionów 1 , 38-400 Krosno"
     },
     {
       "competition": {
@@ -550,12 +608,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "a578513a72efef552444b149f3ebc328",
       "stadium": {
@@ -566,7 +628,8 @@
           "longitude": 21.7543956,
           "name": "Nowy Stadion Głowienka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Na Jaworze 10 , 38-455 Gło"
     },
     {
       "competition": {
@@ -583,12 +646,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T08:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T08:30:00.000Z"
       },
       "id": "f7b41bf501797496c8932e0bfdd8ac3f",
       "stadium": {
@@ -599,7 +666,8 @@
           "longitude": 21.9414259,
           "name": "Stadion gminny w Domaradzu, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Domaradz 345 lok. -, 36-230 Domaradz"
     },
     {
       "competition": {
@@ -616,12 +684,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-03T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T14:00:00.000Z"
       },
       "id": "227f2fcdc630354d08ca918e7eb18a66",
       "stadium": {
@@ -649,12 +721,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:00:00.000Z"
       },
       "id": "430856916ba74317ffe920371febea19",
       "stadium": {
@@ -665,7 +741,8 @@
           "longitude": 21.8921255,
           "name": "Stadion LKS Haczów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Haczów 89 lok. 89, 36-213 Haczów"
     },
     {
       "competition": {
@@ -715,12 +792,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-10T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T14:00:00.000Z"
       },
       "id": "123acbbf414851b5e10d2b8175f68f6b",
       "stadium": {
@@ -814,12 +895,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T13:00:00.000Z"
       },
       "id": "1821a13ce0fbd6172fef883239a7eebc",
       "stadium": {
@@ -830,7 +915,8 @@
           "longitude": 21.6849243,
           "name": "Stadion Tęczy Zręcin, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Cmentarna 2 , 38-457 ZRĘCIN"
     },
     {
       "competition": {
@@ -872,15 +958,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T13:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T13:30:00.000Z"
       },
       "id": "8344417033646690f90d9646e465214b",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Przysietnicy"
     },
     {
       "competition": {
@@ -930,12 +1021,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z"
       },
       "id": "2405e1e8e41c2a4f3758a14f9c698a8c",
       "stadium": {
@@ -946,7 +1041,8 @@
           "longitude": 21.76629441745113,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Legionów 1 , 38-400 Krosno"
     },
     {
       "competition": {
@@ -963,12 +1059,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "de513c0dfbd06356796b079fddb435ef",
       "stadium": {
@@ -979,7 +1079,8 @@
           "longitude": 21.7543956,
           "name": "Nowy Stadion Głowienka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Na Jaworze 10 , 38-455 Gło"
     },
     {
       "competition": {
@@ -996,12 +1097,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z"
       },
       "id": "1cfdc224cdb0fed21f0ccb892220d22f",
       "stadium": {
@@ -1012,7 +1117,8 @@
           "longitude": 21.9414259,
           "name": "Stadion gminny w Domaradzu, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Domaradz 345 lok. -, 36-230 Domaradz"
     },
     {
       "competition": {
@@ -1029,12 +1135,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
       },
       "id": "0c2080cbae6c4ca2cb295d3c070d8020",
       "stadium": {
@@ -1062,12 +1172,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "014e2094edd8426b7be71b80a77bd0e4",
       "stadium": {
@@ -1078,7 +1192,8 @@
           "longitude": 21.8921255,
           "name": "Stadion LKS Haczów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Haczów 89 lok. 89, 36-213 Haczów"
     },
     {
       "competition": {
@@ -1095,12 +1210,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-17T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T14:00:00.000Z"
       },
       "id": "3e29353fac3dfa90c7d01b6887611042",
       "stadium": {
@@ -1128,12 +1247,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "e33c4df44a06baccb94b7cbfc3a94c58",
       "stadium": {
@@ -1227,12 +1350,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-24T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-24",
+        "dateTime": "2026-10-24T13:00:00.000Z"
       },
       "id": "980b66f996893266fe1d259771a6e84f",
       "stadium": {
@@ -1243,7 +1370,8 @@
           "longitude": 21.6849243,
           "name": "Stadion Tęczy Zręcin, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Cmentarna 2 , 38-457 ZRĘCIN"
     },
     {
       "competition": {
@@ -1285,15 +1413,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T13:00:00.000Z"
       },
       "id": "4dbcb500571635b9eb08dfce3ba257b8",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Przysietnicy"
     },
     {
       "competition": {
@@ -1310,12 +1443,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T14:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T14:30:00.000Z"
       },
       "id": "7f80466b515d4b1b8dd91a1e60b5127f",
       "stadium": {
@@ -1326,7 +1463,8 @@
           "longitude": 21.9922341,
           "name": "Boisko LKS Wzdów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wzdów 204 , 36-211 JASIONOW"
     },
     {
       "competition": {
@@ -1342,11 +1480,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "d0f24d6bb5b6c5bd326821fec54f1052",
       "stadium": {
@@ -1357,7 +1498,8 @@
           "longitude": 21.76629441745113,
           "name": null
         }
-      }
+      },
+      "stadiumHint": "Legionów 1 , 38-400 Krosno"
     },
     {
       "competition": {
@@ -1373,11 +1515,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T12:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T12:00:00.000Z"
       },
       "id": "191474d0ff9d2c91ef79227aac0ee569",
       "stadium": {
@@ -1388,7 +1533,8 @@
           "longitude": 21.7543956,
           "name": "Nowy Stadion Głowienka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Na Jaworze 10 , 38-455 Gło"
     },
     {
       "competition": {
@@ -1404,11 +1550,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T13:00:00.000Z"
       },
       "id": "0e880af600a0735d09194a5b502fa9c2",
       "stadium": {
@@ -1419,7 +1568,8 @@
           "longitude": 21.9414259,
           "name": "Stadion gminny w Domaradzu, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Domaradz 345 lok. -, 36-230 Domaradz"
     },
     {
       "competition": {
@@ -1435,11 +1585,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "8e4b6726ae5e14c05c16f261945e9ddc",
       "stadium": {
@@ -1497,11 +1650,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T14:00:00.000Z"
       },
       "id": "2010cbd090c36b2ecb3921111ad7d862",
       "stadium": {
@@ -1626,12 +1782,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-07T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-07",
+        "dateTime": "2026-11-07T13:00:00.000Z"
       },
       "id": "901d94a1738b471bb3bbb40cbb1f4361",
       "stadium": {
@@ -1642,7 +1802,8 @@
           "longitude": 21.6849243,
           "name": "Stadion Tęczy Zręcin, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Cmentarna 2 , 38-457 ZRĘCIN"
     },
     {
       "competition": {
@@ -1684,15 +1845,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T13:00:00.000Z"
       },
       "id": "b5119ccc767b9bcbd662a017789c557a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Przysietnicy"
     },
     {
       "competition": {
@@ -1709,12 +1875,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T14:00:00.000Z"
       },
       "id": "5602acb93fb3bb2239ba16ffe8c2a2ad",
       "stadium": {
@@ -1725,7 +1895,8 @@
           "longitude": 21.9922341,
           "name": "Boisko LKS Wzdów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Wzdów 204 , 36-211 JASIONOW"
     },
     {
       "competition": {
@@ -1774,11 +1945,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T11:00:00.000Z"
       },
       "id": "aab56ba623370f7da1b69a2192248101",
       "stadium": {
@@ -1789,7 +1963,8 @@
           "longitude": 21.7543956,
           "name": "Nowy Stadion Głowienka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Na Jaworze 10 , 38-455 Gło"
     },
     {
       "competition": {
@@ -1805,11 +1980,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "id": "7fd3bcf58de88341db7983dbabb18ab2",
       "stadium": {
@@ -1820,7 +1998,8 @@
           "longitude": 21.9414259,
           "name": "Stadion gminny w Domaradzu, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Domaradz 345 lok. -, 36-230 Domaradz"
     },
     {
       "competition": {
@@ -1836,11 +2015,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "id": "37ae05f5af0f318e77111a9a1dc0ce0f",
       "stadium": {
@@ -1898,11 +2080,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T10:00:00.000Z"
       },
       "id": "cea1965d4f9aec8d12df6daff0a39aaa",
       "stadium": {
@@ -1960,11 +2145,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11"
+        "date": "2026-11-11",
+        "dateTime": "2026-11-11T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-11-11T13:00:00.000Z"
       },
       "id": "41eb0e890b089d76f9493639d666aa18",
       "stadium": {

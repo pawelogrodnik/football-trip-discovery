@@ -16,14 +16,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "dbb5b395d143aa0da4c99144e7f11312",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Lubeni"
     },
     {
       "competition": {
@@ -39,11 +41,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "defae544e01a4a4adb63765e5c715bf2",
       "stadium": {
@@ -54,7 +57,8 @@
           "longitude": 21.8730763,
           "name": "PKS Grunwald Połomia, Połomia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Połomi"
     },
     {
       "competition": {
@@ -70,11 +74,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-20T09:00:00.000Z"
       },
       "id": "abf41f9cc68fb9587d694ed1f6c30a33",
       "stadium": {
@@ -85,7 +90,8 @@
           "longitude": 21.7195882,
           "name": "Parafialny Klub Sportowy Korona Dobrzechów, Dobrzechów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dobrzechowie"
     },
     {
       "competition": {
@@ -101,11 +107,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:30:00.000Z"
+        "dateTime": "2026-09-20T09:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:30:00.000Z"
+        "dateTime": "2026-09-20T09:30:00.000Z"
       },
       "id": "843ee195af6e9760864be2035b3e01b1",
       "stadium": {
@@ -116,7 +123,8 @@
           "longitude": 21.7154642,
           "name": "Parafialny Klub Sportowy Sokół Grodzisko, Grodzisko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Grodzisku"
     },
     {
       "competition": {
@@ -132,14 +140,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:30:00.000Z"
+        "dateTime": "2026-09-20T14:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:30:00.000Z"
+        "dateTime": "2026-09-20T14:30:00.000Z"
       },
       "id": "d2e0ffe5432b9b90cf14b30033fa6630",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Strzyżowie"
     },
     {
       "competition": {
@@ -156,15 +166,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z"
       },
       "id": "9246d1f285e430c7b74f0abe5b4bb3a2",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Wiśniowej"
     },
     {
       "competition": {
@@ -181,12 +196,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T08:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T08:00:00.000Z"
       },
       "id": "32f3650c2cc9913280e10a1218def7e8",
       "stadium": {
@@ -197,7 +216,8 @@
           "longitude": 21.8836736,
           "name": "Boisko Grom, Mogielnica, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Mogielnicy"
     },
     {
       "competition": {
@@ -214,15 +234,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z"
       },
       "id": "b7b75e73b5df99af6527ad37897151ab",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Wysokiej Strzyżowskiej"
     },
     {
       "competition": {
@@ -239,12 +264,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z"
       },
       "id": "22f8cff3828ec86fbc0777f73b246ba1",
       "stadium": {
@@ -255,7 +284,8 @@
           "longitude": 21.7195882,
           "name": "Parafialny Klub Sportowy Korona Dobrzechów, Dobrzechów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dobrzechowie"
     },
     {
       "competition": {
@@ -272,15 +302,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T15:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T15:00:00.000Z"
       },
       "id": "436ed8f0cd2b7b37a512652d0ba8591a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Strzyżowie"
     },
     {
       "competition": {
@@ -297,15 +332,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "fb1eff84baf9573dd2549f584bcaf8de",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Lubeni"
     },
     {
       "competition": {
@@ -322,12 +362,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:00:00.000Z"
       },
       "id": "df2a99de6f40062c04c13ed3e359921c",
       "stadium": {
@@ -338,7 +382,8 @@
           "longitude": 21.8730763,
           "name": "PKS Grunwald Połomia, Połomia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Połomi"
     },
     {
       "competition": {
@@ -355,12 +400,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T09:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T09:30:00.000Z"
       },
       "id": "117a6ad6de4a5301f538cd06669aff02",
       "stadium": {
@@ -371,7 +420,8 @@
           "longitude": 21.7154642,
           "name": "Parafialny Klub Sportowy Sokół Grodzisko, Grodzisko, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Sportowy w Grodzisku"
     },
     {
       "competition": {
@@ -388,15 +438,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T13:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T13:30:00.000Z"
       },
       "id": "c6c1b93547918355ca041838c6beee24",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Strzyżowie"
     },
     {
       "competition": {
@@ -471,15 +526,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "6541dca4c41313ed9e523eb5e8a98b6a",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Wysokiej Strzyżowskiej"
     },
     {
       "competition": {
@@ -496,12 +556,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "6b507f27f962c55910bf749b65075c76",
       "stadium": {
@@ -512,7 +576,8 @@
           "longitude": 21.7195882,
           "name": "Parafialny Klub Sportowy Korona Dobrzechów, Dobrzechów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dobrzechowie"
     },
     {
       "competition": {
@@ -529,12 +594,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T09:00:00.000Z"
       },
       "id": "458ca55da616efc44eea6e79b1b4e61a",
       "stadium": {
@@ -545,7 +614,8 @@
           "longitude": 21.6862847,
           "name": "LKS Huragan Kozłówek, Kozłówek, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Kozłówku"
     },
     {
       "competition": {
@@ -587,15 +657,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T09:00:00.000Z"
       },
       "id": "867d3560f5012dfdc337df6027f4d56e",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Lubeni"
     },
     {
       "competition": {
@@ -645,15 +720,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T13:00:00.000Z"
       },
       "id": "753bd43b6860463cd4b11896b31f91f9",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Strzyżowie"
     },
     {
       "competition": {
@@ -728,15 +808,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "ddd59caeb4b6f61be98eb3bd7c0503eb",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Wysokiej Strzyżowskiej"
     },
     {
       "competition": {
@@ -753,12 +838,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "88343be9a8b53fd67cd35d3a09a7b3d0",
       "stadium": {
@@ -769,7 +858,8 @@
           "longitude": 21.7195882,
           "name": "Parafialny Klub Sportowy Korona Dobrzechów, Dobrzechów, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Dobrzechowie"
     },
     {
       "competition": {
@@ -786,12 +876,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "8f396b466d6c10c560ca6179bdcaeaf2",
       "stadium": {
@@ -802,7 +896,8 @@
           "longitude": 21.6862847,
           "name": "LKS Huragan Kozłówek, Kozłówek, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Kozłówku"
     },
     {
       "competition": {
@@ -819,15 +914,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T16:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T16:00:00.000Z"
       },
       "id": "4e0ccce2e8b95ea2188ce05913416145",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion Miejski w Strzyżowie"
     },
     {
       "competition": {
@@ -844,12 +944,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T10:00:00.000Z"
       },
       "id": "7afcc544eba8f30fd601118ee9ee22d3",
       "stadium": {
@@ -860,7 +964,8 @@
           "longitude": 21.8730763,
           "name": "PKS Grunwald Połomia, Połomia, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion w Połomi"
     }
   ]
 }

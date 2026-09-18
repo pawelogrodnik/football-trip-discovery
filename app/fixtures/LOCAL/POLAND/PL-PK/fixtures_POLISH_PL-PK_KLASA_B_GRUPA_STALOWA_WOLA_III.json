@@ -16,11 +16,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "dateTime": "2026-09-19T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "dateTime": "2026-09-19T13:00:00.000Z"
       },
       "id": "f151974ee3fb42897950b73e8e70e09c",
       "stadium": {
@@ -31,7 +32,8 @@
           "longitude": 22.3748319,
           "name": "KS Łukowa, Łukowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Łukowa 107 , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -47,14 +49,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T14:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:30:00.000Z"
+        "dateTime": "2026-09-19T14:30:00.000Z"
       },
       "id": "a8cb510e10f60431876cb87d861799b0",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Staromieszczanka (Stare Miasto 183 A)"
     },
     {
       "competition": {
@@ -124,14 +128,16 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
+        "dateTime": "2026-09-20T13:00:00.000Z"
       },
       "id": "e1733e0cc2001153bcff5eab02125eab",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Łętowni"
     },
     {
       "competition": {
@@ -147,11 +153,12 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-20T14:00:00.000Z"
       },
       "id": "6cf7fb441842f642ece89b2934016047",
       "stadium": {
@@ -162,7 +169,8 @@
           "longitude": 22.3069643,
           "name": "Stadion UKS Kłyż Tarnogóra, Tarnogóra, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Kłyż Tarnogóra (Tarnogóra 212)"
     },
     {
       "competition": {
@@ -179,12 +187,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T09:00:00.000Z"
       },
       "id": "eaf77d5e1e494a9b8cda4bd1c3100ae8",
       "stadium": {
@@ -195,7 +207,8 @@
           "longitude": 22.4637578,
           "name": "Boisko Złotsan, Kuryłówka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Kuryłówka"
     },
     {
       "competition": {
@@ -245,12 +258,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "ddb252e920c176bc2e13e37b6ad150bb",
       "stadium": {
@@ -261,7 +278,8 @@
           "longitude": 22.3501439,
           "name": "PUKS Francesco Jelna, Jelna, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jelna 142a , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -336,12 +354,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "endDate": "2026-09-27",
+        "dateTime": "2026-09-27T12:30:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-09-26",
         "endDate": "2026-09-27",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:30:00.000Z"
       },
       "id": "29b99124f546aa17c9db540b40c7ce06",
       "stadium": {
@@ -352,7 +374,8 @@
           "longitude": 22.3168391,
           "name": "LKS Azalia Brzóza Królewska, Brzóza Królewska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Brzóza Królewska , 37-307 Brzóza Królewska"
     },
     {
       "competition": {
@@ -369,15 +392,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
       "id": "80e5bbd044bff098ba8de8fc2fa372a5",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "LKS SAN WIERZAWICE (Wierzawice)"
     },
     {
       "competition": {
@@ -394,15 +422,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
       "id": "3816145cecaef06ed6349cbd91b2923d",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Łętowni"
     },
     {
       "competition": {
@@ -444,12 +477,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
       "id": "9679940ae4c1dcd9ab94f77bf8c6065e",
       "stadium": {
@@ -460,7 +497,8 @@
           "longitude": 22.3069643,
           "name": "Stadion UKS Kłyż Tarnogóra, Tarnogóra, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Kłyż Tarnogóra (Tarnogóra 212)"
     },
     {
       "competition": {
@@ -510,12 +548,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
+        "endDate": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-04",
+        "dateTime": "2026-10-04T10:00:00.000Z"
       },
       "id": "2a4cee537aee9c623f6f16a7836c5dd4",
       "stadium": {
@@ -526,7 +568,8 @@
           "longitude": 22.4637578,
           "name": "Boisko Złotsan, Kuryłówka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Kuryłówka"
     },
     {
       "competition": {
@@ -543,12 +586,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "73fafecf97d3c8b036b24d53a81b73c1",
       "stadium": {
@@ -559,7 +606,8 @@
           "longitude": 22.3513341,
           "name": "Boisko KS Sarzyna, Sarzyna, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Sarzyna 824A , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -576,12 +624,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "74f1b9a6fe27652d3585dfb6bbb60e16",
       "stadium": {
@@ -592,7 +644,8 @@
           "longitude": 22.3501439,
           "name": "PUKS Francesco Jelna, Jelna, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jelna 142a , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -642,15 +695,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "198c162ab069f8bfbe99c0a2dd6607cd",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Biedaczów , 37-110 Żołynia"
     },
     {
       "competition": {
@@ -700,15 +758,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
+        "endDate": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-11",
+        "dateTime": "2026-10-11T10:00:00.000Z"
       },
       "id": "bf21f7b8cc3cb2784f7516c8809cf2a3",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Staromieszczanka (Stare Miasto 183 A)"
     },
     {
       "competition": {
@@ -725,15 +788,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "c26a0e0bc9247d1049420127094f9333",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "LKS SAN WIERZAWICE (Wierzawice)"
     },
     {
       "competition": {
@@ -750,15 +818,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "4d07b8e185d5ceaf742010502e71ee7e",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Stadion w Łętowni"
     },
     {
       "competition": {
@@ -775,12 +848,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "7affa81182d6f7b0253cb7374ec2aad9",
       "stadium": {
@@ -791,7 +868,8 @@
           "longitude": 22.3069643,
           "name": "Stadion UKS Kłyż Tarnogóra, Tarnogóra, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Kłyż Tarnogóra (Tarnogóra 212)"
     },
     {
       "competition": {
@@ -841,12 +919,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "2decbd8eb2db5a80463bd944d64a90f1",
       "stadium": {
@@ -857,7 +939,8 @@
           "longitude": 22.4637578,
           "name": "Boisko Złotsan, Kuryłówka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Kuryłówka"
     },
     {
       "competition": {
@@ -874,12 +957,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
+        "endDate": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-18",
+        "dateTime": "2026-10-18T10:00:00.000Z"
       },
       "id": "6cea99c74ff12f512a6e7aa1d673911d",
       "stadium": {
@@ -890,7 +977,8 @@
           "longitude": 22.3513341,
           "name": "Boisko KS Sarzyna, Sarzyna, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Sarzyna 824A , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -907,12 +995,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z"
       },
       "id": "33ffa6ffc146da0b81086cb00c856059",
       "stadium": {
@@ -923,7 +1015,8 @@
           "longitude": 22.3501439,
           "name": "PUKS Francesco Jelna, Jelna, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jelna 142a , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -940,12 +1033,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z"
       },
       "id": "6d34ad8d222cc6692ab558348312ad86",
       "stadium": {
@@ -956,7 +1053,8 @@
           "longitude": 22.5121114,
           "name": "Boisko Atlantic, Chałupki Dębniańskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Chałupki Dębniańskie 105 , 37-305 Dębno"
     },
     {
       "competition": {
@@ -973,15 +1071,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z"
       },
       "id": "16c210ce2131e4595d14c29140e38806",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Biedaczów , 37-110 Żołynia"
     },
     {
       "competition": {
@@ -1056,12 +1159,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25"
+        "endDate": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-10-25",
+        "dateTime": "2026-10-25T11:00:00.000Z"
       },
       "id": "f07a26e15c0340c382c5bcb042fd06d0",
       "stadium": {
@@ -1072,7 +1179,8 @@
           "longitude": 22.3748319,
           "name": "KS Łukowa, Łukowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Łukowa 107 , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -1088,14 +1196,18 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "633d7c623cc6c11de99db0d23702d2f5",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "LKS SAN WIERZAWICE (Wierzawice)"
     },
     {
       "competition": {
@@ -1134,11 +1246,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "a151827d7ed65ac39ef7d7b42a657e2c",
       "stadium": {
@@ -1149,7 +1264,8 @@
           "longitude": 22.3069643,
           "name": "Stadion UKS Kłyż Tarnogóra, Tarnogóra, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Stadion Kłyż Tarnogóra (Tarnogóra 212)"
     },
     {
       "competition": {
@@ -1165,11 +1281,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "acfe86d6276525609cf85d17003c9caa",
       "stadium": {
@@ -1180,7 +1299,8 @@
           "longitude": 22.4637578,
           "name": "Boisko Złotsan, Kuryłówka, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Kuryłówka"
     },
     {
       "competition": {
@@ -1196,11 +1316,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "78e95d8ad8baecccfe3596ca244b5e60",
       "stadium": {
@@ -1211,7 +1334,8 @@
           "longitude": 22.3513341,
           "name": "Boisko KS Sarzyna, Sarzyna, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Sarzyna 824A , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -1227,11 +1351,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31"
+        "date": "2026-10-31",
+        "dateTime": "2026-10-31T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD"
+        "time": "TBD",
+        "dateTime": "2026-10-31T10:00:00.000Z"
       },
       "id": "2f9640ab199e00f5c6294e7b1122eed2",
       "stadium": {
@@ -1242,7 +1369,8 @@
           "longitude": 22.3501439,
           "name": "PUKS Francesco Jelna, Jelna, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Jelna 142a , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {
@@ -1259,12 +1387,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "aac2d2db971a4a2fc4d4e78a584a4810",
       "stadium": {
@@ -1275,7 +1407,8 @@
           "longitude": 22.5121114,
           "name": "Boisko Atlantic, Chałupki Dębniańskie, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Chałupki Dębniańskie 105 , 37-305 Dębno"
     },
     {
       "competition": {
@@ -1292,15 +1425,20 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "97c6658bc56c34f26732b16965e09025",
-      "stadium": null
+      "stadium": null,
+      "stadiumHint": "Biedaczów , 37-110 Żołynia"
     },
     {
       "competition": {
@@ -1317,12 +1455,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "07835f6b5de256feeaf889543330fdcc",
       "stadium": {
@@ -1333,7 +1475,8 @@
           "longitude": 22.3168391,
           "name": "LKS Azalia Brzóza Królewska, Brzóza Królewska, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Brzóza Królewska , 37-307 Brzóza Królewska"
     },
     {
       "competition": {
@@ -1375,12 +1518,16 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08"
+        "endDate": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z",
+        "timeConfirmed": true
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD"
+        "time": "TBD",
+        "date": "2026-11-08",
+        "dateTime": "2026-11-08T10:00:00.000Z"
       },
       "id": "476a937cf4cce893fb1b65eb7fea543c",
       "stadium": {
@@ -1391,7 +1538,8 @@
           "longitude": 22.3748319,
           "name": "KS Łukowa, Łukowa, podkarpackie, Polska"
         }
-      }
+      },
+      "stadiumHint": "Łukowa 107 , 37-310 Nowa Sarzyna"
     },
     {
       "competition": {

@@ -69,6 +69,37 @@
         "name": "Klasa B (Krakow II)"
       },
       "homeTeam": {
+        "name": "Płomień Cholerzyn",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Niegoszowianka Niegoszowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-20",
+        "dateTime": "2026-09-20T11:00:00.000Z"
+      },
+      "id": "eaec7abc989f682ec6d5adf5488e3a29",
+      "stadium": {
+        "address": "Cholerzyn 35, 32-060 Cholerzyn",
+        "venue": "Boisko Płomień Cholerzyn",
+        "geo": {
+          "latitude": 50.0606766,
+          "longitude": 19.7687663,
+          "name": "Cholerzyn 35, Cholerzyn, powiat krakowski, województwo małopolskie, 32-060, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krakow II)"
+      },
+      "homeTeam": {
         "name": "Bronowicki KS Kraków",
         "crest": null
       },
@@ -92,37 +123,6 @@
           "latitude": 50.1065962,
           "longitude": 19.8839241,
           "name": "KS Bronowicki Kraków, Jasnogórska, Tonie, Kraków"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krakow II)"
-      },
-      "homeTeam": {
-        "name": "Płomień Cholerzyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Niegoszowianka Niegoszowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "eaec7abc989f682ec6d5adf5488e3a29",
-      "stadium": {
-        "address": "Cholerzyn 35, 32-060 Cholerzyn",
-        "venue": "Boisko Płomień Cholerzyn",
-        "geo": {
-          "latitude": 50.0606766,
-          "longitude": 19.7687663,
-          "name": "Cholerzyn 35, Cholerzyn, powiat krakowski, województwo małopolskie, 32-060, Polska"
         }
       }
     },

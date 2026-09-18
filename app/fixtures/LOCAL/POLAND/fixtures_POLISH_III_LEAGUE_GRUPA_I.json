@@ -541,37 +541,6 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "Warta Sieradz",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Mazovia Mińsk Mazowiecki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-10-02T19:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-10-02",
-        "dateTime": "2026-10-02T19:00:00.000Z"
-      },
-      "id": "ffe52284952a3209b74b001e7199e4ea",
-      "stadium": {
-        "address": "Sportowa 1 Sieradz 98-200",
-        "venue": null,
-        "geo": {
-          "latitude": 51.596576,
-          "longitude": 18.7479034,
-          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
         "name": "Wigry Suwałki",
         "crest": null
       },
@@ -596,71 +565,6 @@
         "geo": {
           "latitude": 54.094292148032196,
           "longitude": 22.915551203509164,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
-        "name": "Pelikan Łowicz",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Widzew II Łódź",
-        "crest": "https://crests.football-data.org/8465.png"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
-      },
-      "date": {
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "time": "TBD"
-      },
-      "id": "1ac20342bb4a0b852ebd10745fbd6b7b",
-      "stadium": {
-        "venue": "Stadion Pelikan Łowicz",
-        "address": "Starzyńskiego 6/8, Łowicz",
-        "geo": {
-          "latitude": 52.1022365,
-          "longitude": 19.9394593,
-          "name": "6/8, Stefana Starzyńskiego, Osiedle Stefana Starzyńskiego, Przedmieście, Łowicz, powiat łowicki, województwo łódzkie, 99-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
-        "name": "Mławianka Mława",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Świt Nowy Dwór Mazowiecki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-04"
-      },
-      "date": {
-        "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "time": "TBD"
-      },
-      "id": "6b60280503388b986953089d8e077467",
-      "stadium": {
-        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
-        "geo": {
-          "latitude": 53.122744,
-          "longitude": 20.38092,
           "name": null
         }
       }
@@ -796,6 +700,67 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
+        "name": "Mławianka Mława",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Nowy Dwór Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T15:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T15:30:00.000Z"
+      },
+      "id": "6b60280503388b986953089d8e077467",
+      "stadium": {
+        "venue": "Stadion Miejski w Mławie (MOSiR, ul. Kopernika 38)",
+        "geo": {
+          "latitude": 53.122744,
+          "longitude": 20.38092,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Pelikan Łowicz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Widzew II Łódź",
+        "crest": "https://crests.football-data.org/8465.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T16:00:00.000Z"
+      },
+      "id": "1ac20342bb4a0b852ebd10745fbd6b7b",
+      "stadium": {
+        "venue": "Stadion Pelikan Łowicz",
+        "address": "Starzyńskiego 6/8, Łowicz",
+        "geo": {
+          "latitude": 52.1022365,
+          "longitude": 19.9394593,
+          "name": "6/8, Stefana Starzyńskiego, Osiedle Stefana Starzyńskiego, Przedmieście, Łowicz, powiat łowicki, województwo łódzkie, 99-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
         "name": "ŁKS Łomża",
         "crest": null
       },
@@ -830,6 +795,37 @@
         "crest": null
       },
       "awayTeam": {
+        "name": "Mazovia Mińsk Mazowiecki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-03T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-03",
+        "dateTime": "2026-10-03T18:00:00.000Z"
+      },
+      "id": "ffe52284952a3209b74b001e7199e4ea",
+      "stadium": {
+        "address": "Sportowa 1 Sieradz 98-200",
+        "venue": null,
+        "geo": {
+          "latitude": 51.596576,
+          "longitude": 18.7479034,
+          "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Warta Sieradz",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Wigry Suwałki",
         "crest": null
       },
@@ -849,38 +845,6 @@
           "latitude": 51.596576,
           "longitude": 18.7479034,
           "name": "MOSiR, 1, Sportowa, Praga, Sieradz, powiat sieradzki, województwo łódzkie, 98-200, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
-        "name": "Wisła II Płock",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
-      },
-      "awayTeam": {
-        "name": "KS CK Troszyn",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-11"
-      },
-      "date": {
-        "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "time": "TBD"
-      },
-      "id": "372024f7a6309c75ee670806599ea185",
-      "stadium": {
-        "venue": "Orlen Stadion im. Kazimierza Górskiego, Płock",
-        "geo": {
-          "latitude": 52.562004,
-          "longitude": 19.684067,
-          "name": null
         }
       }
     },
@@ -966,6 +930,36 @@
       },
       "id": "0de60750afca38d8ec8107381eef952c",
       "stadium": null
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "Wisła II Płock",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wis%C5%82a_P%C5%82ock_transparent.png?20230616090759"
+      },
+      "awayTeam": {
+        "name": "KS CK Troszyn",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-10T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-10",
+        "dateTime": "2026-10-10T14:00:00.000Z"
+      },
+      "id": "372024f7a6309c75ee670806599ea185",
+      "stadium": {
+        "venue": "Orlen Stadion im. Kazimierza Górskiego, Płock",
+        "geo": {
+          "latitude": 52.562004,
+          "longitude": 19.684067,
+          "name": null
+        }
+      }
     },
     {
       "competition": {
@@ -1222,39 +1216,6 @@
         "name": "III Liga, grupa I"
       },
       "homeTeam": {
-        "name": "ŁKS II Łódź",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Elbląg",
-        "crest": "https://crests.football-data.org/8874.png"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-18"
-      },
-      "date": {
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "time": "TBD"
-      },
-      "id": "767c454590627074e29f4f87284f6f59",
-      "stadium": {
-        "venue": "Stadion Miejski im. Władysława Króla",
-        "address": "al. Unii Lubelskiej 2, Łódź",
-        "geo": {
-          "latitude": 51.7589479,
-          "longitude": 19.4252474,
-          "name": "Stadion Miejski Łódzkiego Klubu Sportowego im. Władysława Króla, 2, Aleja Unii Lubelskiej, Zdrowie-Mania, Zdrowie, Łódź-Polesie, Łódź, województwo łódzkie, 94-020, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "III Liga, grupa I"
-      },
-      "homeTeam": {
         "name": "Jagiellonia II Białystok",
         "crest": "https://crests.football-data.org/5631.png"
       },
@@ -1311,6 +1272,37 @@
           "latitude": 53.03232213970085,
           "longitude": 21.72133388382786,
           "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "III Liga, grupa I"
+      },
+      "homeTeam": {
+        "name": "ŁKS II Łódź",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Olimpia Elbląg",
+        "crest": "https://crests.football-data.org/8874.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-10-17T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-10-17",
+        "dateTime": "2026-10-17T13:00:00.000Z"
+      },
+      "id": "767c454590627074e29f4f87284f6f59",
+      "stadium": {
+        "venue": "Stadion Miejski im. Władysława Króla",
+        "address": "al. Unii Lubelskiej 2, Łódź",
+        "geo": {
+          "latitude": 51.7589479,
+          "longitude": 19.4252474,
+          "name": "Stadion Miejski Łódzkiego Klubu Sportowego im. Władysława Króla, 2, Aleja Unii Lubelskiej, Zdrowie-Mania, Zdrowie, Łódź-Polesie, Łódź, województwo łódzkie, 94-020, Polska"
         }
       }
     },
