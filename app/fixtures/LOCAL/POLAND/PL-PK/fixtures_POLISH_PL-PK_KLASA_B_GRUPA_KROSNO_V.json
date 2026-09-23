@@ -1,187 +1,12 @@
 {
   "competitionName": "Klasa B (Krosno V)",
-  "count": 36,
+  "count": 30,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Krosno V)"
       },
       "homeTeam": {
-        "name": "Liwocz Brzyska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orły Pstrągówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD",
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "22e185c2c8e344c887ab78baa2914d6c",
-      "stadium": null,
-      "stadiumHint": "Brzyska 1 lok. 1, 38-212 Brzyska"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
-        "name": "Wisłoka Błażkowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jasiołka Szebnie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T13:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "id": "10c17a283d2c7fadb92d4a91cf5739c2",
-      "stadium": null,
-      "stadiumHint": "Stadion w Błażkowej 373A"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
-        "name": "Dragon Nowy Glinik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zorza 03 Łubienko",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "60844b6ef7f5a77d160e80aee6b4fec3",
-      "stadium": {
-        "address": "Nowy Glinik",
-        "venue": "Boisko Dragon Nowy Glinik",
-        "geo": {
-          "latitude": 49.6834585,
-          "longitude": 21.5209729,
-          "name": "Boisko Dragon, Nowy Glinik, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
-        "name": "Gaudium Łężyny",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tajfun Łubno Szlacheckie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T09:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T09:00:00.000Z"
-      },
-      "id": "865d504bc8c4c1b25a4c0dafe9a71f23",
-      "stadium": {
-        "address": "Łężyny",
-        "venue": "Boisko Gaudium Łężyny",
-        "geo": {
-          "latitude": 49.6465536,
-          "longitude": 21.5188261,
-          "name": "Boisko Gaudium, Łężyny, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Łężynach"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
-        "name": "Jasiołka Hankówka-Brzyszczki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS II Zarzecze",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "2a91e47972b94355b53b33e284b13982",
-      "stadium": {
-        "address": "Hankówka",
-        "venue": "Stadion Jasiołka Hankówka-Brzyszczki",
-        "geo": {
-          "latitude": 49.7448713,
-          "longitude": 21.5127018,
-          "name": "Stadion Jasiołka Hankówka - Brzyszczki, Hankówka, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
-        "name": "Standart Święcany",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Warzyce",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "954f57065268746bbf13e18a35317967",
-      "stadium": null,
-      "stadiumHint": "Stadion w Święcanach 501"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
         "name": "Orły Pstrągówka",
         "crest": null
       },
@@ -190,22 +15,15 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "c427bf8ddf407680499d32e74cafe374",
-      "stadium": null,
-      "stadiumHint": "Stadion w w Pstrągówce"
+      "stadium": null
     },
     {
       "competition": {
@@ -220,18 +38,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T09:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T09:00:00.000Z"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "82772ce0cb8d50310db807d46f963388",
       "stadium": null
@@ -241,61 +53,6 @@
         "name": "Klasa B (Krosno V)"
       },
       "homeTeam": {
-        "name": "KS II Zarzecze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Standart Święcany",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "076cd05e0b742b055123902c3d41b5b8",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
-        "name": "Tajfun Łubno Szlacheckie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jasiołka Hankówka-Brzyszczki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T11:00:00.000Z"
-      },
-      "id": "6917aa301d7b9a4dc2cf9af15eb739d5",
-      "stadium": null,
-      "stadiumHint": "Stadion w Łubnie"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Krosno V)"
-      },
-      "homeTeam": {
         "name": "Zorza 03 Łubienko",
         "crest": null
       },
@@ -304,18 +61,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T09:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T09:00:00.000Z"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "56f617a9e6853738bf9bac427b3fe8c3",
       "stadium": {
@@ -326,8 +77,7 @@
           "longitude": 21.5596874,
           "name": "Boisko Zorza, Łubienko, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Łubienku"
+      }
     },
     {
       "competition": {
@@ -342,14 +92,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "6fc0f68c61fa239fb0ea9b16eeea2686",
       "stadium": {
@@ -361,6 +109,52 @@
           "name": "Boisko Jasiołka, Szebnie, podkarpackie, Polska"
         }
       }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krosno V)"
+      },
+      "homeTeam": {
+        "name": "Tajfun Łubno Szlacheckie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Jasiołka Hankówka-Brzyszczki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "id": "6917aa301d7b9a4dc2cf9af15eb739d5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Krosno V)"
+      },
+      "homeTeam": {
+        "name": "KS II Zarzecze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Standart Święcany",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T14:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:30:00.000Z"
+      },
+      "id": "076cd05e0b742b055123902c3d41b5b8",
+      "stadium": null
     },
     {
       "competition": {
@@ -402,16 +196,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "31ca9a9fe8fd099ff6dc2437574be205",
       "stadium": {
@@ -422,8 +212,7 @@
           "longitude": 21.5188261,
           "name": "Boisko Gaudium, Łężyny, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Łężynach"
+      }
     },
     {
       "competition": {
@@ -440,16 +229,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "73d83f7cec9c5b5893c4f3971e3b4765",
       "stadium": {
@@ -460,8 +245,7 @@
           "longitude": 21.5127018,
           "name": "Stadion Jasiołka Hankówka - Brzyszczki, Hankówka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Rzemieślnicza , 38-200 Jasło"
+      }
     },
     {
       "competition": {
@@ -478,20 +262,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "45c79bea12a7bd587b1c660985062609",
-      "stadium": null,
-      "stadiumHint": "Stadion w Święcanach 501"
+      "stadium": null
     },
     {
       "competition": {
@@ -533,20 +312,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T14:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b9d05a0c06c44981db8e0c5fd662592f",
-      "stadium": null,
-      "stadiumHint": "Stadion w w Pstrągówce"
+      "stadium": null
     },
     {
       "competition": {
@@ -563,16 +337,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "f2de541f5a9e45d837b36f41222ec5ee",
       "stadium": null
@@ -617,20 +387,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "37437a8c095e4061f8d4a03040284c20",
-      "stadium": null,
-      "stadiumHint": "Stadion w Łubnie"
+      "stadium": null
     },
     {
       "competition": {
@@ -680,16 +445,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "d52b49e3fdae6a2e229cb35568a1b7d4",
       "stadium": {
@@ -700,8 +461,7 @@
           "longitude": 21.5921519,
           "name": "Boisko Jasiołka, Szebnie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Szebniach"
+      }
     },
     {
       "competition": {
@@ -751,20 +511,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "1a582d1de75ac03f4e1e63e5af0013d0",
-      "stadium": null,
-      "stadiumHint": "Stadion w Błażkowej 373A"
+      "stadium": null
     },
     {
       "competition": {
@@ -814,20 +569,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8708700499da17bc9ec7dfd319c58002",
-      "stadium": null,
-      "stadiumHint": "Stadion w Święcanach 501"
+      "stadium": null
     },
     {
       "competition": {
@@ -869,20 +619,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T14:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c99956e77987742e55eb3be60a0befb3",
-      "stadium": null,
-      "stadiumHint": "Stadion w w Pstrągówce"
+      "stadium": null
     },
     {
       "competition": {
@@ -949,20 +694,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "9eb19b9f0d381bcbd3aef8458c24746b",
-      "stadium": null,
-      "stadiumHint": "Stadion w Łubnie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1012,16 +752,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "7b5c2ac165b0b1a7cdfafbdb982586dd",
       "stadium": {
@@ -1032,8 +768,7 @@
           "longitude": 21.5921519,
           "name": "Boisko Jasiołka, Szebnie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Szebniach"
+      }
     },
     {
       "competition": {
@@ -1083,16 +818,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "cdb5336d826a7d29293129f5940a1d06",
       "stadium": {
@@ -1103,8 +834,7 @@
           "longitude": 21.5188261,
           "name": "Boisko Gaudium, Łężyny, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Łężynach"
+      }
     }
   ]
 }

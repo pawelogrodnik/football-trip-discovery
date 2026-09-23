@@ -1,14 +1,99 @@
 {
   "competitionName": "Klasa A (Debica)",
-  "count": 63,
+  "count": 56,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Debica)"
       },
       "homeTeam": {
+        "name": "Team Przecław",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Paszczyniak Paszczyna",
         "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "id": "b439bf82b206e8b363d82fbb6bfc562c",
+      "stadium": {
+        "address": null,
+        "venue": "Stadion Sportowy Team Przecław",
+        "geo": {
+          "latitude": 50.19860968867081,
+          "longitude": 21.47734706806133,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Debica)"
+      },
+      "homeTeam": {
+        "name": "Victoria Ocieka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Borowiec Straszęcin",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "id": "dd29523cae66dc896396bdeff67e8049",
+      "stadium": {
+        "address": "Ocieka 342a, 39-104 Ocieka",
+        "venue": "Stadion Victorii Ocieka",
+        "geo": {
+          "latitude": 50.1426549,
+          "longitude": 21.5887287,
+          "name": "Stadion Victorii, Ocieka, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Debica)"
+      },
+      "homeTeam": {
+        "name": "LKS Żyraków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogórze Wielopole Skrzyńskie",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:30:00.000Z"
+      },
+      "id": "7b068d06cf77efe48f720cd5e8cb6845",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Debica)"
+      },
+      "homeTeam": {
+        "name": "Legion II Pilzno",
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "awayTeam": {
         "name": "DAP Dębica",
@@ -16,86 +101,51 @@
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T13:00:00.000Z",
-        "timeConfirmed": true
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:00:00.000Z"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
-      "id": "1c8dee1e20b52efa8d8b53e3df5e1f6c",
+      "id": "2ce0dd89db58281b67e838a422fafad8",
       "stadium": {
-        "address": "Paszczyna 122B, 39-207 Paszczyna",
-        "venue": "Boisko w Paszczynie",
+        "address": null,
+        "venue": "Stadion Miejski KS Legion Pilzno",
         "geo": {
-          "latitude": 51.2509184,
-          "longitude": 21.5834325,
-          "name": "Boisko w Paszczynie, podkarpackie, Polska"
+          "latitude": 49.98308840451484,
+          "longitude": 21.28533414173404,
+          "name": null
         }
-      },
-      "stadiumHint": "Stadion w Paszczynie"
+      }
     },
     {
       "competition": {
         "name": "Klasa A (Debica)"
       },
       "homeTeam": {
+        "name": "Korona Góra Ropczycka",
+        "crest": null
+      },
+      "awayTeam": {
         "name": "Czarnovia Czarna",
         "crest": null
       },
-      "awayTeam": {
-        "name": "LKS Łopuchowa",
-        "crest": null
-      },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T14:00:00.000Z",
-        "timeConfirmed": true
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:00:00.000Z"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
-      "id": "361bd5a2afa2dfaffcddcbf432c47329",
+      "id": "e3fef51027080f5db2811c353c4ab08e",
       "stadium": {
-        "address": "Konarskiego 23, 39-215 Czarna",
-        "venue": "Czarnovia Arena",
+        "address": "Góra Ropczycka 3",
+        "venue": "Stadion Korona Góra Ropczycka",
         "geo": {
-          "latitude": 50.0640354,
-          "longitude": 21.2499026,
-          "name": "Stadion Czarnovia, Czarna, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Czarnej (Czarna, Konarskiego 23)"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Kaskada Kamionka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Victoria Ocieka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "eaef357d220b1466fc910ebbf6ef6564",
-      "stadium": {
-        "address": "Kamionka 69, 39-122 Kamionka",
-        "venue": "Stadion Piłkarski Kaskada",
-        "geo": {
-          "latitude": 50.1354886,
-          "longitude": 21.6743798,
-          "name": "Stadion Kaskada, Kamionka, podkarpackie, Polska"
+          "latitude": 50.0586742,
+          "longitude": 21.6855682,
+          "name": "Stadion Korona, Góra Ropczycka, podkarpackie, Polska"
         }
       }
     },
@@ -108,216 +158,19 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Legion II Pilzno",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "2190e7c2c71ea0f14f51f8d4265dc82f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
         "name": "LKS Nagoszyn",
         "crest": null
       },
-      "awayTeam": {
-        "name": "LKS Żyraków",
-        "crest": null
-      },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z",
-        "timeConfirmed": true
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
-      },
-      "id": "ecf05692715d7a490a38e54752ecb3b7",
-      "stadium": {
-        "address": "39-203 Nagoszyn",
-        "venue": "Stadion Sportowy w Nagoszynie",
-        "geo": {
-          "latitude": 50.1402024,
-          "longitude": 21.4050229,
-          "name": "Stadion Sportowy w Nagoszynie, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Nagoszynie"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Pogórze Wielopole Skrzyńskie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Korona Góra Ropczycka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "e17472a5dd76106368732c1e36c96072",
-      "stadium": null,
-      "stadiumHint": "Stadion w Wielopolu Skrzyńskim"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Borowiec Straszęcin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Team Przecław",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "aa0a5bdb14e7a9eb6f8a5f6a098761a0",
-      "stadium": null,
-      "stadiumHint": "Stadion w Straszęcinie"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Legion II Pilzno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "DAP Dębica",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T09:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T09:00:00.000Z"
+        "dateTime": "2026-09-27T14:00:00.000Z"
       },
-      "id": "2ce0dd89db58281b67e838a422fafad8",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Miejski KS Legion Pilzno",
-        "geo": {
-          "latitude": 49.98308840451484,
-          "longitude": 21.28533414173404,
-          "name": null
-        }
-      },
-      "stadiumHint": "Stadion Miejski w Pilźnie"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Team Przecław",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Paszczyniak Paszczyna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
-      },
-      "id": "b439bf82b206e8b363d82fbb6bfc562c",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Sportowy Team Przecław",
-        "geo": {
-          "latitude": 50.19860968867081,
-          "longitude": 21.47734706806133,
-          "name": null
-        }
-      },
-      "stadiumHint": "Stadion w Przecławiu"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Victoria Ocieka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Borowiec Straszęcin",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
-      },
-      "id": "dd29523cae66dc896396bdeff67e8049",
-      "stadium": {
-        "address": "Ocieka 342a, 39-104 Ocieka",
-        "venue": "Stadion Victorii Ocieka",
-        "geo": {
-          "latitude": 50.1426549,
-          "longitude": 21.5887287,
-          "name": "Stadion Victorii, Ocieka, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Ociece"
+      "id": "51d2192d9fd20f3865eb3964116da22f",
+      "stadium": null
     },
     {
       "competition": {
@@ -332,109 +185,14 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T15:00:00.000Z"
       },
       "id": "f0c8604766e4f7f33da159f125005ac6",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Korona Góra Ropczycka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Czarnovia Czarna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T09:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T09:00:00.000Z"
-      },
-      "id": "e3fef51027080f5db2811c353c4ab08e",
-      "stadium": {
-        "address": "Góra Ropczycka 3",
-        "venue": "Stadion Korona Góra Ropczycka",
-        "geo": {
-          "latitude": 50.0586742,
-          "longitude": 21.6855682,
-          "name": "Stadion Korona, Góra Ropczycka, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Górze Ropczyckiej"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "LKS Żyraków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogórze Wielopole Skrzyńskie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T15:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T15:00:00.000Z"
-      },
-      "id": "7b068d06cf77efe48f720cd5e8cb6845",
-      "stadium": null,
-      "stadiumHint": "Stadion w Żyrakowie"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Debica)"
-      },
-      "homeTeam": {
-        "name": "Kłos Kawęczyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Nagoszyn",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "51d2192d9fd20f3865eb3964116da22f",
       "stadium": null
     },
     {
@@ -447,21 +205,17 @@
       },
       "awayTeam": {
         "name": "Legion II Pilzno",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T15:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T15:00:00.000Z"
+        "time": "TBD"
       },
       "id": "72677d0d821dff84a49ce217c1d4e489",
       "stadium": {
@@ -472,8 +226,7 @@
           "longitude": 21.4050229,
           "name": "Stadion Sportowy w Nagoszynie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Nagoszynie"
+      }
     },
     {
       "competition": {
@@ -515,16 +268,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "edbedc10e06b8c954b5d1cb85a83a94a",
       "stadium": {
@@ -535,8 +284,7 @@
           "longitude": 21.2499026,
           "name": "Stadion Czarnovia, Czarna, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Czarnej (Czarna, Konarskiego 23)"
+      }
     },
     {
       "competition": {
@@ -586,20 +334,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "37abe4c52d32bf71850a891f87865547",
-      "stadium": null,
-      "stadiumHint": "Stadion w Straszęcinie"
+      "stadium": null
     },
     {
       "competition": {
@@ -616,16 +359,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "457694ca2862e99cd4a2f18f480e002d",
       "stadium": {
@@ -636,8 +375,7 @@
           "longitude": 21.5834325,
           "name": "Boisko w Paszczynie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Paszczynie"
+      }
     },
     {
       "competition": {
@@ -654,16 +392,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c0ade76452a624edc49f5a186d08200f",
       "stadium": {
@@ -674,8 +408,7 @@
           "longitude": 21.4275651,
           "name": "MKS DAP Dębica, Dębica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "MKS Dębica (Dębica, Rzeszowska 78)"
+      }
     },
     {
       "competition": {
@@ -683,7 +416,7 @@
       },
       "homeTeam": {
         "name": "Legion II Pilzno",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "awayTeam": {
         "name": "Team Przecław",
@@ -692,16 +425,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4f293ba5024bfe2316e14462f8271451",
       "stadium": {
@@ -712,8 +441,7 @@
           "longitude": 21.28533414173404,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion Miejski w Pilźnie"
+      }
     },
     {
       "competition": {
@@ -730,16 +458,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "d24b3b2cea3f0da4f31be4f29bc89f53",
       "stadium": {
@@ -750,8 +474,7 @@
           "longitude": 21.5887287,
           "name": "Stadion Victorii, Ocieka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Ociece"
+      }
     },
     {
       "competition": {
@@ -768,20 +491,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T14:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a4e81a14fbd334db94e2f5dfc07e5cf4",
-      "stadium": null,
-      "stadiumHint": "Stadion w Łączkach Kucharskich"
+      "stadium": null
     },
     {
       "competition": {
@@ -798,16 +516,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "abbca32b7e62f593aaebfb23e48ba9e1",
       "stadium": {
@@ -818,8 +532,7 @@
           "longitude": 21.6855682,
           "name": "Stadion Korona, Góra Ropczycka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Górze Ropczyckiej"
+      }
     },
     {
       "competition": {
@@ -886,16 +599,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "1f841a49a7004198e3106b6f0d404d77",
       "stadium": {
@@ -906,8 +615,7 @@
           "longitude": 21.4050229,
           "name": "Stadion Sportowy w Nagoszynie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Nagoszynie"
+      }
     },
     {
       "competition": {
@@ -919,25 +627,20 @@
       },
       "awayTeam": {
         "name": "Legion II Pilzno",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "6de0e285ac850c5b123e658d64a1ca47",
-      "stadium": null,
-      "stadiumHint": "Stadion w Wielopolu Skrzyńskim"
+      "stadium": null
     },
     {
       "competition": {
@@ -954,16 +657,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "135c51a8ba383df7e13e9d51ce882471",
       "stadium": {
@@ -974,8 +673,7 @@
           "longitude": 21.2499026,
           "name": "Stadion Czarnovia, Czarna, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Czarnej (Czarna, Konarskiego 23)"
+      }
     },
     {
       "competition": {
@@ -1025,20 +723,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "aab833b00d4ee257ea3480ee47f28b7b",
-      "stadium": null,
-      "stadiumHint": "Stadion w Straszęcinie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1055,16 +748,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T14:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "0c3f1634d9f0ee3485390080c6654f85",
       "stadium": {
@@ -1075,8 +764,7 @@
           "longitude": 21.5834325,
           "name": "Boisko w Paszczynie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Paszczynie"
+      }
     },
     {
       "competition": {
@@ -1093,16 +781,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ce76c80dd6f4be9a6efca034633f231a",
       "stadium": {
@@ -1113,8 +797,7 @@
           "longitude": 21.4275651,
           "name": "MKS DAP Dębica, Dębica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "MKS Dębica (Dębica, Rzeszowska 78)"
+      }
     },
     {
       "competition": {
@@ -1131,16 +814,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2bc524335d8e307b9902b3249c1e5869",
       "stadium": {
@@ -1151,8 +830,7 @@
           "longitude": 21.47734706806133,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Przecławiu"
+      }
     },
     {
       "competition": {
@@ -1160,7 +838,7 @@
       },
       "homeTeam": {
         "name": "Legion II Pilzno",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "awayTeam": {
         "name": "Victoria Ocieka",
@@ -1169,16 +847,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c608f5e9fec841c661034c2f9ccd6a15",
       "stadium": {
@@ -1189,8 +863,7 @@
           "longitude": 21.28533414173404,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion Miejski w Pilźnie"
+      }
     },
     {
       "competition": {
@@ -1207,20 +880,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a5d11c0269579bd530b1b37f6c7eaf13",
-      "stadium": null,
-      "stadiumHint": "Stadion w Łączkach Kucharskich"
+      "stadium": null
     },
     {
       "competition": {
@@ -1237,16 +905,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "10e1ee6874712df4ad932f5a757e92da",
       "stadium": {
@@ -1257,8 +921,7 @@
           "longitude": 21.6855682,
           "name": "Stadion Korona, Góra Ropczycka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Górze Ropczyckiej"
+      }
     },
     {
       "competition": {
@@ -1275,20 +938,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "330f092cd3ad38173f5dd3fe313692a2",
-      "stadium": null,
-      "stadiumHint": "Stadion w Żyrakowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1363,20 +1021,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8158d549a54941ee0bf719d32c4aae18",
-      "stadium": null,
-      "stadiumHint": "Stadion w Wielopolu Skrzyńskim"
+      "stadium": null
     },
     {
       "competition": {
@@ -1388,18 +1041,15 @@
       },
       "awayTeam": {
         "name": "Legion II Pilzno",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T12:30:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "2f1c08ab75dfe0d488d8d7c09a03147d",
       "stadium": {
@@ -1410,8 +1060,7 @@
           "longitude": 21.2499026,
           "name": "Stadion Czarnovia, Czarna, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Czarnej (Czarna, Konarskiego 23)"
+      }
     },
     {
       "competition": {
@@ -1458,18 +1107,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c6f70c286aa4ff6c5e829e52db85024e",
-      "stadium": null,
-      "stadiumHint": "Stadion w Straszęcinie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1516,14 +1161,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T09:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "069ea3010c79f98b475b31978027d1db",
       "stadium": {
@@ -1534,8 +1176,7 @@
           "longitude": 21.4275651,
           "name": "MKS DAP Dębica, Dębica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "MKS Dębica (Dębica, Rzeszowska 78)"
+      }
     },
     {
       "competition": {
@@ -1551,14 +1192,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T14:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "85fe525c38f2dff0fc820dbe03f51f2c",
       "stadium": {
@@ -1569,8 +1207,7 @@
           "longitude": 21.47734706806133,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Przecławiu"
+      }
     },
     {
       "competition": {
@@ -1586,14 +1223,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ae7f2ab36982b58f692df67b10c30642",
       "stadium": {
@@ -1604,8 +1238,7 @@
           "longitude": 21.5887287,
           "name": "Stadion Victorii, Ocieka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Ociece"
+      }
     },
     {
       "competition": {
@@ -1613,7 +1246,7 @@
       },
       "homeTeam": {
         "name": "Legion II Pilzno",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "awayTeam": {
         "name": "LKS Łopuchowa",
@@ -1622,16 +1255,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "679d2e89a383b4229b9415ae99b9fc77",
       "stadium": {
@@ -1642,8 +1271,7 @@
           "longitude": 21.28533414173404,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion Miejski w Pilźnie"
+      }
     },
     {
       "competition": {
@@ -1660,16 +1288,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b4b57d398c8a3a38d41e44bd528e1dcb",
       "stadium": {
@@ -1680,8 +1304,7 @@
           "longitude": 21.6855682,
           "name": "Stadion Korona, Góra Ropczycka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Górze Ropczyckiej"
+      }
     },
     {
       "competition": {
@@ -1698,20 +1321,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "cbb8e75a711e23c0479130296f8f069d",
-      "stadium": null,
-      "stadiumHint": "Stadion w Żyrakowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1753,16 +1371,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a368ffd33e60d0678431e806f7070a86",
       "stadium": {
@@ -1773,8 +1387,7 @@
           "longitude": 21.4050229,
           "name": "Stadion Sportowy w Nagoszynie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Nagoszynie"
+      }
     },
     {
       "competition": {
@@ -1791,20 +1404,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "81f27c4a1e8486dafde3a0e0daec4840",
-      "stadium": null,
-      "stadiumHint": "Stadion w Wielopolu Skrzyńskim"
+      "stadium": null
     },
     {
       "competition": {
@@ -1849,7 +1457,7 @@
       },
       "awayTeam": {
         "name": "Legion II Pilzno",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/LegionPilzno.png"
       },
       "schedule": {
         "status": "date-window",
@@ -1887,20 +1495,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-14T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-14",
-        "dateTime": "2026-11-14T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "0328e3e2420250c766a96a87e643329c",
-      "stadium": null,
-      "stadiumHint": "Stadion w Straszęcinie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1917,16 +1520,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-14T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-14",
-        "dateTime": "2026-11-14T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ec2c54aed84fb60f395f84dcbc204a25",
       "stadium": {
@@ -1937,8 +1536,7 @@
           "longitude": 21.5834325,
           "name": "Boisko w Paszczynie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Paszczynie"
+      }
     },
     {
       "competition": {
@@ -1955,16 +1553,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-14T14:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-14",
-        "dateTime": "2026-11-14T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "594a07e57c7e3d82b3730866f9c93a5b",
       "stadium": {
@@ -1975,8 +1569,7 @@
           "longitude": 21.4275651,
           "name": "MKS DAP Dębica, Dębica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "MKS Dębica (Dębica, Rzeszowska 78)"
+      }
     },
     {
       "competition": {
@@ -2026,16 +1619,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-14T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-14",
-        "dateTime": "2026-11-14T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a10f1888c67b072f869988995a14fc9a",
       "stadium": {
@@ -2046,8 +1635,7 @@
           "longitude": 21.5887287,
           "name": "Stadion Victorii, Ocieka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Ociece"
+      }
     },
     {
       "competition": {
@@ -2064,20 +1652,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-14T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-14",
-        "dateTime": "2026-11-14T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4b92ef8b37dff2341a0e3a5ed628e14b",
-      "stadium": null,
-      "stadiumHint": "Stadion w Łączkach Kucharskich"
+      "stadium": null
     }
   ]
 }

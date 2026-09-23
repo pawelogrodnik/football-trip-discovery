@@ -1,270 +1,12 @@
 {
   "competitionName": "Klasa B (Przeworsk)",
-  "count": 56,
+  "count": 49,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Przeworsk)"
       },
       "homeTeam": {
-        "name": "Wisłoczanka Tryńcza",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast Nowosielce",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-19",
-        "endDate": "2026-09-20",
-        "time": "TBD",
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "9d4bbdcc5706a0b6acbf1ce13cad72d9",
-      "stadium": {
-        "address": "Tryńcza",
-        "venue": "Boisko Wisłoczanka Tryńcza",
-        "geo": {
-          "latitude": 50.1588798,
-          "longitude": 22.5552066,
-          "name": "Boisko Wisłoczanka, Tryńcza, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Tryńczy"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Wierzbna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wojak Kramarzówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T13:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "id": "a8fad8516ea34b0c5f83eaa147b9a0cd",
-      "stadium": null,
-      "stadiumHint": "Stadion we Wierzbnej"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "PKS UNUM Babice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wisłok Świętoniowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T13:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "id": "4275e1d9f2591fc9665ceb01f4ba462c",
-      "stadium": null,
-      "stadiumHint": "Stadion w Babicach"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "Iskra Cieszacin Wielki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Żuraw Żurawiczki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T09:15:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T09:15:00.000Z"
-      },
-      "id": "cf8234600efe06ba20b000d4df963165",
-      "stadium": {
-        "address": "Cieszacin Wielki",
-        "venue": "Boisko Iskra Cieszacin",
-        "geo": {
-          "latitude": 49.9905364,
-          "longitude": 22.5941056,
-          "name": "Boisko Iskra, Cieszacin Wielki, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Cieszacinie Wielkim"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "Zorza Jagiełła",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Pełnatycze",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "bfbe4ea4c666ce950a659bec58ea5629",
-      "stadium": {
-        "address": "Jagiełła",
-        "venue": "Boisko Zorza Jagiełła",
-        "geo": {
-          "latitude": 50.0960275,
-          "longitude": 22.5654387,
-          "name": "Boisko Zorza, Jagiełła, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Jagielle"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "Gacovia Gać",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Błękitni Maćkówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:30:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:30:00.000Z"
-      },
-      "id": "9a19e6be3f81eb79fc19c1c7d54e042f",
-      "stadium": {
-        "address": "Gać",
-        "venue": "Boisko LKS Gacovia Gać",
-        "geo": {
-          "latitude": 50.0271843,
-          "longitude": 22.3724717,
-          "name": "LKS Gacovia Gać, Gać, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Gaci"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "KS Kisielów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Huragan Rozbórz Długi",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:30:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:30:00.000Z"
-      },
-      "id": "aef15c223c9af2ba10cd85eb59506e90",
-      "stadium": {
-        "address": "Kisielów",
-        "venue": "Boisko KS Kisielów",
-        "geo": {
-          "latitude": 49.9852089,
-          "longitude": 22.5612415,
-          "name": "Boisko KS Kisielów, Kisielów, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Kisielowie"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Maćkówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zorza Jagiełła",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T12:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T12:00:00.000Z"
-      },
-      "id": "71a0909bb45a65745a8cc35d1a63efc1",
-      "stadium": {
-        "address": "Maćkówka",
-        "venue": "Boisko Błękitni Maćkówka",
-        "geo": {
-          "latitude": 50.0302817,
-          "longitude": 22.5106113,
-          "name": "Boisko Błękitni, Maćkówka, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Maćkówce"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
         "name": "Żuraw Żurawiczki",
         "crest": null
       },
@@ -273,98 +15,15 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T12:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T12:00:00.000Z"
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "152adc1406982958aa6a58003627f836",
-      "stadium": null,
-      "stadiumHint": "Stadion w Żurawiczkach"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "Huragan Rozbórz Długi",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iskra Cieszacin Wielki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z"
-      },
-      "id": "cadb10e83d67844578124aa0e90f95f9",
-      "stadium": {
-        "address": "Rozbórz Długi",
-        "venue": "Boisko LKS Huragan Rozbórz Długi",
-        "geo": {
-          "latitude": 49.9265767,
-          "longitude": 22.4818304,
-          "name": "LKS Huragan Rozbórz Długi, Rozbórz Długi, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Rozborzu Długim"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Przeworsk)"
-      },
-      "homeTeam": {
-        "name": "Wisłoczanka Tryńcza",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Kisielów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z"
-      },
-      "id": "049420ae85ff78fa82d095505d721417",
-      "stadium": {
-        "address": "Tryńcza",
-        "venue": "Boisko Wisłoczanka Tryńcza",
-        "geo": {
-          "latitude": 50.1588798,
-          "longitude": 22.5552066,
-          "name": "Boisko Wisłoczanka, Tryńcza, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Tryńczy"
+      "stadium": null
     },
     {
       "competition": {
@@ -379,18 +38,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T13:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T13:00:00.000Z"
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "id": "8f0809f72ad056b0bcb8f02e0077a6db",
       "stadium": {
@@ -401,8 +54,69 @@
           "longitude": 22.4335082,
           "name": "Stadion LKS Wisłok Świętoniowa, Świętoniowa, podkarpackie, Polska"
         }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Przeworsk)"
       },
-      "stadiumHint": "Stadion w Świętoniowej"
+      "homeTeam": {
+        "name": "Huragan Rozbórz Długi",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Iskra Cieszacin Wielki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "id": "cadb10e83d67844578124aa0e90f95f9",
+      "stadium": {
+        "address": "Rozbórz Długi",
+        "venue": "Boisko LKS Huragan Rozbórz Długi",
+        "geo": {
+          "latitude": 49.9265767,
+          "longitude": 22.4818304,
+          "name": "LKS Huragan Rozbórz Długi, Rozbórz Długi, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Przeworsk)"
+      },
+      "homeTeam": {
+        "name": "Wisłoczanka Tryńcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Kisielów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "id": "049420ae85ff78fa82d095505d721417",
+      "stadium": {
+        "address": "Tryńcza",
+        "venue": "Boisko Wisłoczanka Tryńcza",
+        "geo": {
+          "latitude": 50.1588798,
+          "longitude": 22.5552066,
+          "name": "Boisko Wisłoczanka, Tryńcza, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -417,22 +131,15 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z"
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "3275825f964905b75ce15583d45c8fbf",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kramarzówce"
+      "stadium": null
     },
     {
       "competition": {
@@ -447,18 +154,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z"
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "ec53ea5ffad332aa29e9912217b66ba7",
       "stadium": {
@@ -469,8 +170,38 @@
           "longitude": 22.5508225,
           "name": "Boisko KS Pełnatycze, Pełnatycze, podkarpackie, Polska"
         }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Przeworsk)"
       },
-      "stadiumHint": "Stadion w Pełnatyczach"
+      "homeTeam": {
+        "name": "Błękitni Maćkówka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zorza Jagiełła",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "id": "71a0909bb45a65745a8cc35d1a63efc1",
+      "stadium": {
+        "address": "Maćkówka",
+        "venue": "Boisko Błękitni Maćkówka",
+        "geo": {
+          "latitude": 50.0302817,
+          "longitude": 22.5106113,
+          "name": "Boisko Błękitni, Maćkówka, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -487,16 +218,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4dd967ded1a4a0efd7d882ae043ea181",
       "stadium": {
@@ -507,8 +234,7 @@
           "longitude": 22.5654387,
           "name": "Boisko Zorza, Jagiełła, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Jagielle"
+      }
     },
     {
       "competition": {
@@ -525,20 +251,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "aeaf55796e3ba737a9169565475a84a6",
-      "stadium": null,
-      "stadiumHint": "Stadion w Babicach"
+      "stadium": null
     },
     {
       "competition": {
@@ -580,16 +301,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "e8598ee9be871d9c6d24b9d2f1db1617",
       "stadium": {
@@ -600,8 +317,7 @@
           "longitude": 22.5612415,
           "name": "Boisko KS Kisielów, Kisielów, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Kisielowie"
+      }
     },
     {
       "competition": {
@@ -618,16 +334,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "6318d2d598e9505e36e2957e90b4cd66",
       "stadium": {
@@ -638,8 +350,7 @@
           "longitude": 22.5941056,
           "name": "Boisko Iskra, Cieszacin Wielki, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Cieszacinie Wielkim"
+      }
     },
     {
       "competition": {
@@ -656,16 +367,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "00cdec441dc26ef644a53bc9ac88106c",
       "stadium": {
@@ -676,8 +383,7 @@
           "longitude": 22.3724717,
           "name": "LKS Gacovia Gać, Gać, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Gaci"
+      }
     },
     {
       "competition": {
@@ -694,16 +400,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "6e94550403a3ed9f6a414663590beef2",
       "stadium": {
@@ -714,8 +416,7 @@
           "longitude": 22.5106113,
           "name": "Boisko Błękitni, Maćkówka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Maćkówce"
+      }
     },
     {
       "competition": {
@@ -732,20 +433,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "5f8ac23eed1d93f4a5e54e81e7388419",
-      "stadium": null,
-      "stadiumHint": "Stadion w Żurawiczkach"
+      "stadium": null
     },
     {
       "competition": {
@@ -762,16 +458,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a8fdfe7dbcc7f8a91df72a58c8dbe57d",
       "stadium": {
@@ -782,8 +474,7 @@
           "longitude": 22.4818304,
           "name": "LKS Huragan Rozbórz Długi, Rozbórz Długi, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Rozborzu Długim"
+      }
     },
     {
       "competition": {
@@ -800,16 +491,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "69d7c936fc35b2236a49de59fb749173",
       "stadium": {
@@ -820,8 +507,7 @@
           "longitude": 22.5552066,
           "name": "Boisko Wisłoczanka, Tryńcza, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Tryńczy"
+      }
     },
     {
       "competition": {
@@ -838,16 +524,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ab4d7ea39f44e5f15b7c1b676fddb31e",
       "stadium": {
@@ -858,8 +540,7 @@
           "longitude": 22.4335082,
           "name": "Stadion LKS Wisłok Świętoniowa, Świętoniowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Świętoniowej"
+      }
     },
     {
       "competition": {
@@ -876,20 +557,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "be39a43ef19a70815e90cd18f133c338",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kramarzówce"
+      "stadium": null
     },
     {
       "competition": {
@@ -906,16 +582,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8b4baf274fba983f66d7c11fa29dd89b",
       "stadium": {
@@ -926,8 +598,7 @@
           "longitude": 22.5508225,
           "name": "Boisko KS Pełnatycze, Pełnatycze, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Pełnatyczach"
+      }
     },
     {
       "competition": {
@@ -944,20 +615,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "e86fa437b17ea3033301d2a4e0ce227c",
-      "stadium": null,
-      "stadiumHint": "Stadion we Wierzbnej"
+      "stadium": null
     },
     {
       "competition": {
@@ -974,16 +640,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "15e11e37c43c16ae4606a251aebb9aad",
       "stadium": {
@@ -994,8 +656,7 @@
           "longitude": 22.5654387,
           "name": "Boisko Zorza, Jagiełła, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Jagielle"
+      }
     },
     {
       "competition": {
@@ -1037,16 +698,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "beb7bbbeba609dd1ad3c8ed1373e7231",
       "stadium": {
@@ -1057,8 +714,7 @@
           "longitude": 22.5612415,
           "name": "Boisko KS Kisielów, Kisielów, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Kisielowie"
+      }
     },
     {
       "competition": {
@@ -1075,16 +731,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4eac4fa1c4ae579fc2efc4d9d9b369d1",
       "stadium": {
@@ -1095,8 +747,7 @@
           "longitude": 22.5941056,
           "name": "Boisko Iskra, Cieszacin Wielki, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Cieszacinie Wielkim"
+      }
     },
     {
       "competition": {
@@ -1113,16 +764,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "64f9ed1192e8718b41c8614659f290d5",
       "stadium": {
@@ -1133,8 +780,7 @@
           "longitude": 22.3724717,
           "name": "LKS Gacovia Gać, Gać, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Gaci"
+      }
     },
     {
       "competition": {
@@ -1151,16 +797,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "85eccce0ac78c2b22f26ecc3de7bccc7",
       "stadium": {
@@ -1171,8 +813,7 @@
           "longitude": 22.5106113,
           "name": "Boisko Błękitni, Maćkówka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Maćkówce"
+      }
     },
     {
       "competition": {
@@ -1189,20 +830,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "483e80596d29c33b01245910ecd9a00c",
-      "stadium": null,
-      "stadiumHint": "Stadion w Żurawiczkach"
+      "stadium": null
     },
     {
       "competition": {
@@ -1219,16 +855,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "d1d0b07e5a055b333a7817ca0e127d76",
       "stadium": {
@@ -1239,8 +871,7 @@
           "longitude": 22.4818304,
           "name": "LKS Huragan Rozbórz Długi, Rozbórz Długi, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Rozborzu Długim"
+      }
     },
     {
       "competition": {
@@ -1257,16 +888,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "05ebeeda8add7639b35aa3b3135f7b15",
       "stadium": {
@@ -1277,8 +904,7 @@
           "longitude": 22.5552066,
           "name": "Boisko Wisłoczanka, Tryńcza, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Tryńczy"
+      }
     },
     {
       "competition": {
@@ -1295,16 +921,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "683281dfc89673a2597ef02c520da08b",
       "stadium": {
@@ -1315,8 +937,7 @@
           "longitude": 22.4335082,
           "name": "Stadion LKS Wisłok Świętoniowa, Świętoniowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Świętoniowej"
+      }
     },
     {
       "competition": {
@@ -1333,20 +954,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ae97fce9401b37d80a7d76d77f9bd0fc",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kramarzówce"
+      "stadium": null
     },
     {
       "competition": {
@@ -1363,16 +979,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b208e5b570370cc3f66b8a0f74dd5e6b",
       "stadium": {
@@ -1383,8 +995,7 @@
           "longitude": 22.5508225,
           "name": "Boisko KS Pełnatycze, Pełnatycze, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Pełnatyczach"
+      }
     },
     {
       "competition": {
@@ -1401,20 +1012,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "84b0536415368ee36af18ddff2eda05a",
-      "stadium": null,
-      "stadiumHint": "Stadion we Wierzbnej"
+      "stadium": null
     },
     {
       "competition": {
@@ -1431,20 +1037,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "13630d6f1fee71bc8c0d9471c7206f9a",
-      "stadium": null,
-      "stadiumHint": "Stadion w Babicach"
+      "stadium": null
     },
     {
       "competition": {
@@ -1461,16 +1062,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "37cc789879ecf5ab996715a7a08c5909",
       "stadium": {
@@ -1481,8 +1078,7 @@
           "longitude": 22.5654387,
           "name": "Boisko Zorza, Jagiełła, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Jagielle"
+      }
     },
     {
       "competition": {
@@ -1499,16 +1095,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ab4b655d0949fcd6d587a84684fae843",
       "stadium": {
@@ -1519,8 +1111,7 @@
           "longitude": 22.5612415,
           "name": "Boisko KS Kisielów, Kisielów, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Kisielowie"
+      }
     },
     {
       "competition": {
@@ -1537,16 +1128,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "781161d3a3a0cad2dfbe371acfce7d50",
       "stadium": {
@@ -1557,8 +1144,7 @@
           "longitude": 22.5941056,
           "name": "Boisko Iskra, Cieszacin Wielki, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Cieszacinie Wielkim"
+      }
     },
     {
       "competition": {
@@ -1575,16 +1161,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a25e5071a13e1016ab21e9357f644bee",
       "stadium": {
@@ -1595,8 +1177,7 @@
           "longitude": 22.3724717,
           "name": "LKS Gacovia Gać, Gać, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Gaci"
+      }
     },
     {
       "competition": {
@@ -1613,16 +1194,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "f8bbc3ca3a175ed740b7a4623f3f7173",
       "stadium": {
@@ -1633,8 +1210,7 @@
           "longitude": 22.5106113,
           "name": "Boisko Błękitni, Maćkówka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Maćkówce"
+      }
     },
     {
       "competition": {
@@ -1651,20 +1227,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "241416c47b244e8ed4f879c458b36b10",
-      "stadium": null,
-      "stadiumHint": "Stadion w Żurawiczkach"
+      "stadium": null
     },
     {
       "competition": {
@@ -1681,16 +1252,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "3a3bb7e4df01c3f3f2ee3840207ba2ad",
       "stadium": {
@@ -1701,8 +1268,7 @@
           "longitude": 22.4818304,
           "name": "LKS Huragan Rozbórz Długi, Rozbórz Długi, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Rozborzu Długim"
+      }
     },
     {
       "competition": {
@@ -1718,14 +1284,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8ab49f2f0ae3859c4bec2166204e501e",
       "stadium": {
@@ -1736,8 +1299,7 @@
           "longitude": 22.5552066,
           "name": "Boisko Wisłoczanka, Tryńcza, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Tryńczy"
+      }
     },
     {
       "competition": {
@@ -1753,14 +1315,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "188debd1b9ce3d99c82e800909817b82",
       "stadium": {
@@ -1771,8 +1330,7 @@
           "longitude": 22.4335082,
           "name": "Stadion LKS Wisłok Świętoniowa, Świętoniowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Świętoniowej"
+      }
     },
     {
       "competition": {
@@ -1788,18 +1346,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "14193ad487fc2c977131fe4b6a31d50c",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kramarzówce"
+      "stadium": null
     },
     {
       "competition": {
@@ -1815,14 +1369,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2b0fd27b4fc64a8761d1520e5b34e24e",
       "stadium": {
@@ -1833,8 +1384,7 @@
           "longitude": 22.5508225,
           "name": "Boisko KS Pełnatycze, Pełnatycze, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Pełnatyczach"
+      }
     },
     {
       "competition": {
@@ -1850,18 +1400,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ea9ad5fd2fee160fbd743e38de50e8f6",
-      "stadium": null,
-      "stadiumHint": "Stadion we Wierzbnej"
+      "stadium": null
     },
     {
       "competition": {
@@ -1877,18 +1423,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "79b97de68d9b00dc65139615144601ba",
-      "stadium": null,
-      "stadiumHint": "Stadion w Babicach"
+      "stadium": null
     },
     {
       "competition": {

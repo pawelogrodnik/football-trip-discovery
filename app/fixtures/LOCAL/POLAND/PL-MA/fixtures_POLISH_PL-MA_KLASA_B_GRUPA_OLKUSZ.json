@@ -1,106 +1,12 @@
 {
   "competitionName": "Klasa B (Olkusz)",
-  "count": 18,
+  "count": 15,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Olkusz)"
       },
       "homeTeam": {
-        "name": "Hetman Dłużec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Olkusz",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "id": "c011d8090b01bf51a75025eda348e1e7",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "Trzy Buki Wierzchowisko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wielmożanka II Wielmoża",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "e4e0b2ef10aa53897704fc26d7ed5118",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "Unia Jaroszowiec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Hot Boys Wolbrom",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "296a98ef314a9762ad8660b03dcd03e5",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Olkusz)"
-      },
-      "homeTeam": {
-        "name": "KS Olkusz",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wielmożanka II Wielmoża",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "7607e13d54dd85bd02268b316f8195b2",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Olkusz)"
-      },
-      "homeTeam": {
         "name": "Trzy Buki Wierzchowisko",
         "crest": null
       },
@@ -109,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "f82fc931690d039cb2e5212649722263",
       "stadium": null
@@ -134,16 +38,37 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T15:00:00.000Z"
       },
       "id": "2216dae296ba186e087f95f362e93b4c",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Olkusz)"
+      },
+      "homeTeam": {
+        "name": "KS Olkusz",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Wielmożanka II Wielmoża",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T18:00:00.000Z"
+      },
+      "id": "7607e13d54dd85bd02268b316f8195b2",
       "stadium": null
     },
     {

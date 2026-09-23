@@ -1,215 +1,37 @@
 {
   "competitionName": "Keeza Klasa A (Warszawa III)",
-  "count": 64,
+  "count": 57,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa A (Warszawa III)"
       },
       "homeTeam": {
-        "name": "Progres Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T10:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T10:00:00.000Z"
-      },
-      "id": "1fbb443b14b44507e9ca5d90826bb577",
-      "stadium": {
-        "address": "Rosochata, 02-998 Warszawa",
-        "venue": "Boisko AP Progres",
-        "geo": {
-          "latitude": 52.1224428,
-          "longitude": 21.1242249,
-          "name": "Boisko AP Progres, Wilanów, Warszawa, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Sparta Jazgarzew",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Victoria Głosków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "id": "a1850f51fead3685d89f6ba947c67a62",
-      "stadium": {
-        "address": "Źródlana 7a, 05-500 Wólka Kozodawska",
-        "venue": "Stadion w Wólce Kozodawskiej",
-        "geo": {
-          "latitude": 52.040754,
-          "longitude": 21.0075667,
-          "name": "Stadion w Wólce Kozodawskiej, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Świt Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Perła II Złotokłos",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "id": "9f02aa65ac28dc60c63f0415300f2749",
-      "stadium": {
-        "address": "Oświatowa 12, 01-366 Warszawa",
-        "venue": "Stadion GKS Świt Warszawa",
-        "geo": {
-          "latitude": 52.2314415,
-          "longitude": 20.9202723,
-          "name": "Stadion GKS Świt Warszawa, Bemowo, Warszawa, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "MKS II Piaseczno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sarmata Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "ec9a9f6abfed8c7b182b570147f1dca1",
-      "stadium": {
-        "venue": "Stadion Miejski w Piasecznie",
-        "address": "1 Maja 16, Piaseczno",
-        "geo": {
-          "latitude": 52.0604678,
-          "longitude": 21.0354393,
-          "name": "16, 1 Maja, Zalesie Dolne, Piaseczno, gmina Piaseczno, powiat piaseczyński, województwo mazowieckie, 05-500, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Orzeł II Baniocha",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Przyszłość Włochy (Warszawa)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "id": "d151c1d75f601072d3a637f00b9a3da2",
-      "stadium": {
-        "address": "Puławska 34, 05-532 Baniocha",
-        "venue": "Stadion Miejski w Baniosze",
-        "geo": {
-          "latitude": 52.0240761,
-          "longitude": 21.1208489,
-          "name": "Stadion Miejski w Baniosze, Baniocha, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Hubertus Zalesie Górne",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "KS Raszyn",
         "crest": null
       },
+      "awayTeam": {
+        "name": "Orzeł II Baniocha",
+        "crest": null
+      },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "dateTime": "2026-09-25T19:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
+        "date": "2026-09-25",
+        "dateTime": "2026-09-25T19:00:00.000Z"
       },
-      "id": "015a6caa2e7166365b75a3dd338fde0f",
+      "id": "1c1b7fc994880c256070a302f2e03a3f",
       "stadium": {
-        "address": "Źródlana 7a, 05-500 Wólka Kozodawska",
-        "venue": "Stadion w Wólce Kozodawskiej (Jazgarzew Stadium)",
+        "address": "Sportowa 30, 05-090 Raszyn",
+        "venue": "Stadion Gminnego Ośrodka Sportu im. Kazimierza Jedynaka",
         "geo": {
-          "latitude": 52.040754,
-          "longitude": 21.0075667,
-          "name": "Stadion w Wólce Kozodawskiej, mazowieckie, Polska"
+          "latitude": 52.1496806,
+          "longitude": 20.9294273,
+          "name": "Stadion Gminnego Ośrodka Sportu, Raszyn, mazowieckie, Polska"
         }
       }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
-        "name": "Farmacja Tarchomin (Warszawa)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ursus III Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T19:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T19:30:00.000Z"
-      },
-      "id": "99fb811aee236fda1645b3a2cbb772e5",
-      "stadium": null
     },
     {
       "competition": {
@@ -224,14 +46,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "id": "8feb90ee1661064c129d171302374c23",
       "stadium": {
@@ -249,39 +69,6 @@
         "name": "Keeza Klasa A (Warszawa III)"
       },
       "homeTeam": {
-        "name": "Victoria Głosków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Świt Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "4275910934e61879bdf0eaa1a9fd6462",
-      "stadium": {
-        "address": "Aleja Lecha Abramowicza 1, 05-503 Głosków",
-        "venue": "Stadion Victorii Głosków",
-        "geo": {
-          "latitude": 52.0406534,
-          "longitude": 20.9430541,
-          "name": "Stadion Victorii Głosków, Głosków, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
         "name": "Olimpia Warszawa",
         "crest": null
       },
@@ -290,14 +77,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "id": "3cd0ac1bb2e40a93f4588a2eb047d8e2",
       "stadium": {
@@ -323,14 +108,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T10:00:00.000Z"
       },
       "id": "965cdfa7064b2abbfd1fd64576dac5b2",
       "stadium": {
@@ -356,14 +139,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
       "id": "c398ce1c38d7a0acf17441ba0e9f506a",
       "stadium": {
@@ -381,39 +162,6 @@
         "name": "Keeza Klasa A (Warszawa III)"
       },
       "homeTeam": {
-        "name": "KS Raszyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł II Baniocha",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "1c1b7fc994880c256070a302f2e03a3f",
-      "stadium": {
-        "address": "Sportowa 30, 05-090 Raszyn",
-        "venue": "Stadion Gminnego Ośrodka Sportu im. Kazimierza Jedynaka",
-        "geo": {
-          "latitude": 52.1496806,
-          "longitude": 20.9294273,
-          "name": "Stadion Gminnego Ośrodka Sportu, Raszyn, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa III)"
-      },
-      "homeTeam": {
         "name": "MKS II Piaseczno",
         "crest": null
       },
@@ -422,14 +170,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "3a43b0f8d67e9ecafc33e94fbb5788bb",
       "stadium": {
@@ -439,6 +185,37 @@
           "latitude": 52.0604678,
           "longitude": 21.0354393,
           "name": "16, 1 Maja, Zalesie Dolne, Piaseczno, gmina Piaseczno, powiat piaseczyński, województwo mazowieckie, 05-500, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa III)"
+      },
+      "homeTeam": {
+        "name": "Victoria Głosków",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Świt Warszawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T12:00:00.000Z"
+      },
+      "id": "4275910934e61879bdf0eaa1a9fd6462",
+      "stadium": {
+        "address": "Aleja Lecha Abramowicza 1, 05-503 Głosków",
+        "venue": "Stadion Victorii Głosków",
+        "geo": {
+          "latitude": 52.0406534,
+          "longitude": 20.9430541,
+          "name": "Stadion Victorii Głosków, Głosków, mazowieckie, Polska"
         }
       }
     },

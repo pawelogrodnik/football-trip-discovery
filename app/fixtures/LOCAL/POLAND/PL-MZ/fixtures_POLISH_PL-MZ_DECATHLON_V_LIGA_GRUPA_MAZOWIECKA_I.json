@@ -1,100 +1,7 @@
 {
   "competitionName": "Decathlon V liga (mazowiecka I)",
-  "count": 73,
+  "count": 65,
   "matches": [
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Huragan Wołomin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Gladiator Słoszewo",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "id": "e7faf399ea539adf7c942c4fa5babf99",
-      "stadium": {
-        "address": null,
-        "venue": "OSiR Huragan Wołomin",
-        "geo": {
-          "latitude": 52.3417811,
-          "longitude": 21.2298779,
-          "name": "Huragan Wołomin, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Sokół Serock",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód Zielonki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T12:00:00.000Z"
-      },
-      "id": "f75b0334bd80e1e6d88ed18e4f3eeef9",
-      "stadium": {
-        "address": "Szkolna 46, 05-140 Jadwisin",
-        "venue": "Boisko w Jadwisinie",
-        "geo": {
-          "latitude": 52.477342,
-          "longitude": 21.0457104,
-          "name": "Boisko w Jadwisinie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Marcovia Marki",
-        "crest": "https://crests.football-data.org/10355.png"
-      },
-      "awayTeam": {
-        "name": "Białe Orły Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "id": "685a17cb1801f8c9944d6d552b064b3e",
-      "stadium": {
-        "venue": "Stadion Marcovii Marki",
-        "address": "Wspólna 12, Marki",
-        "geo": {
-          "latitude": 52.3331247,
-          "longitude": 21.1181276,
-          "name": "MTS Marcovia 2000 Marki, 12, Wspólna, Jarków, Marki, powiat wołomiński, województwo mazowieckie, 05-270, Polska"
-        }
-      }
-    },
     {
       "competition": {
         "name": "Decathlon V liga (mazowiecka I)"
@@ -104,18 +11,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Ożarowianka Ożarów Mazowiecki",
+        "name": "Bug Wyszków",
         "crest": null
       },
       "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
       "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
       },
-      "id": "4372ea1946f8981cee414db908b7c052",
+      "id": "52edbd8c2749a78cc51be7c454d33f9d",
       "stadium": {
         "address": "Kopernika 3, 09-100 Płońsk",
         "venue": "Stadion Miejski w Płońsku",
@@ -131,163 +40,6 @@
         "name": "Decathlon V liga (mazowiecka I)"
       },
       "homeTeam": {
-        "name": "Kasztelan Sierpc",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Escola Varsovia Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "6685539a54b99fda382565776cb9492b",
-      "stadium": {
-        "address": "Świętokrzyska 26, 09-200 Sierpc",
-        "venue": "Stadion MOSiR Sierpc",
-        "geo": {
-          "latitude": 52.8488385,
-          "longitude": 19.6635531,
-          "name": "Stadion MOSiR Sierpc, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Wicher Kobyłka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Narew Ostrołęka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T18:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T18:30:00.000Z"
-      },
-      "id": "594e86ad3be9e22b5d95e408673dfb47",
-      "stadium": {
-        "address": null,
-        "venue": "MKS Wicher Kobyłka",
-        "geo": {
-          "latitude": 52.3283014,
-          "longitude": 21.1936451,
-          "name": "MKS Wicher Kobyłka, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Gąbin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Drukarz Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "2a28c9fcd901a4862b626f1f12a907d9",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion Leśny w Gąbinie",
-        "geo": {
-          "latitude": 52.3993026,
-          "longitude": 19.741981,
-          "name": "Stadion Leśny w Gąbinie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Znicz II Pruszków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Bug Wyszków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "a2d771c4083b6c49d4966f377181d7ee",
-      "stadium": {
-        "address": "Bohaterów Warszawy 4 Pruszków 05-800",
-        "venue": "Stadion Znicza",
-        "geo": {
-          "latitude": 52.1690121,
-          "longitude": 20.8129701,
-          "name": "Stadion Piłkarski Miejskiego Zarządu Obiektów Sportowych „Znicz”, 4, Bohaterów Warszawy, Tworki, Pruszków, powiat pruszkowski, województwo mazowieckie, 05-800, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Białe Orły Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód Zielonki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "6dec9e5710fb7db718104d35cd1b2bcb",
-      "stadium": {
-        "address": "Ostródzka 175, 03-289 Warszawa",
-        "venue": "Boisko SP 368",
-        "geo": {
-          "latitude": 52.3268119,
-          "longitude": 21.0458654,
-          "name": "Boisko SP 368, Warszawa, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
         "name": "Gladiator Słoszewo",
         "crest": null
       },
@@ -296,14 +48,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "id": "88ce701124873daf846ff0afd2b52a01",
       "stadium": {
@@ -329,14 +79,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "id": "14c42261b81c6921ffb7c62c408b32ce",
       "stadium": {
@@ -354,72 +102,6 @@
         "name": "Decathlon V liga (mazowiecka I)"
       },
       "homeTeam": {
-        "name": "Bug Wyszków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "PAF Płońsk",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "6ce47bd29503d8cbc3e5ed59398477a5",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion MKS Bug Wyszków",
-        "geo": {
-          "latitude": 52.592399,
-          "longitude": 21.4471767,
-          "name": "Stadion MKS Bug Wyszków, Wyszków, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
-        "name": "Escola Varsovia Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Znicz II Pruszków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "d511fe551f978f90a265eab0d794c0a5",
-      "stadium": {
-        "address": null,
-        "venue": "FC Barcelona Escola Varsovia",
-        "geo": {
-          "latitude": 52.3166199,
-          "longitude": 20.9789806,
-          "name": "Escola Varsovia, Warszawa, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon V liga (mazowiecka I)"
-      },
-      "homeTeam": {
         "name": "Drukarz Warszawa",
         "crest": null
       },
@@ -428,14 +110,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "id": "5a3f3d26fe478653aa2d6b7848280ff2",
       "stadium": {
@@ -461,14 +141,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
       },
       "id": "d06928effe2b044d131b4c0a6d0d61a5",
       "stadium": {
@@ -494,14 +172,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "id": "307b7a76e1215f5efd17ff7bddcbf89a",
       "stadium": {
@@ -511,6 +187,68 @@
           "latitude": 52.3331247,
           "longitude": 21.1181276,
           "name": "MTS Marcovia 2000 Marki, 12, Wspólna, Jarków, Marki, powiat wołomiński, województwo mazowieckie, 05-270, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka I)"
+      },
+      "homeTeam": {
+        "name": "Białe Orły Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód Zielonki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "id": "6dec9e5710fb7db718104d35cd1b2bcb",
+      "stadium": {
+        "address": "Ostródzka 175, 03-289 Warszawa",
+        "venue": "Boisko SP 368",
+        "geo": {
+          "latitude": 52.3268119,
+          "longitude": 21.0458654,
+          "name": "Boisko SP 368, Warszawa, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Decathlon V liga (mazowiecka I)"
+      },
+      "homeTeam": {
+        "name": "Escola Varsovia Warszawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Znicz II Pruszków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:30:00.000Z"
+      },
+      "id": "d511fe551f978f90a265eab0d794c0a5",
+      "stadium": {
+        "address": null,
+        "venue": "FC Barcelona Escola Varsovia",
+        "geo": {
+          "latitude": 52.3166199,
+          "longitude": 20.9789806,
+          "name": "Escola Varsovia, Warszawa, mazowieckie, Polska"
         }
       }
     },

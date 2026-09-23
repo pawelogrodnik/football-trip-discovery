@@ -1,254 +1,12 @@
 {
   "competitionName": "Keeza Klasa A (Warszawa IV)",
-  "count": 63,
+  "count": 56,
   "matches": [
     {
       "competition": {
         "name": "Keeza Klasa A (Warszawa IV)"
       },
       "homeTeam": {
-        "name": "LKS II Chlebnia",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Milan Milanówek",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T10:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T10:00:00.000Z"
-      },
-      "id": "ce81937622fdec05b266a632135e4ed9",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion LKS Chlebnia",
-        "geo": {
-          "latitude": 52.13221,
-          "longitude": 20.5891309,
-          "name": "LKS Chlebnia, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "LKS Osuchów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "AMT Nowa Wieś",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T10:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T10:00:00.000Z"
-      },
-      "id": "19dac2c29ea369388e47cd460bcfd9ad",
-      "stadium": {
-        "address": "Szkolna 1, 96-323 Osuchów",
-        "venue": "Boisko w Osuchowie",
-        "geo": {
-          "latitude": 51.8972275,
-          "longitude": 20.5941667,
-          "name": "Boisko w Osuchowie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "Błękitni Korytów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Nadarzyn",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T11:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T11:30:00.000Z"
-      },
-      "id": "e98d784d53037f99e1c7e329431b9009",
-      "stadium": {
-        "address": "Szkolna 1, 96-300 Korytów",
-        "venue": "Stadion Miejski w Korytowie",
-        "geo": {
-          "latitude": 52.0293454,
-          "longitude": 20.4664748,
-          "name": "Stadion Miejski w Korytowie, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "Zaborowianka Zaborów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Żyrardowianka II Żyrardów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T12:00:00.000Z"
-      },
-      "id": "bb55da753717d33d2f4b5f99b86f273d",
-      "stadium": {
-        "address": "Jana Kujawskiego 5, 05-083 Zaborów",
-        "venue": "Stadion KS Zaborowianka",
-        "geo": {
-          "latitude": 52.2602999,
-          "longitude": 20.6776499,
-          "name": "Stadion KS Zaborowianka, Zaborów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "Wrzos Międzyborów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "FC Komorów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "fcef1894fd7c3e472d4bacf61a7a7959",
-      "stadium": {
-        "address": "Staszica 5, 96-316 Międzyborów",
-        "venue": "Stadion Wrzos Międzyborów",
-        "geo": {
-          "latitude": 52.0534553,
-          "longitude": 20.4822032,
-          "name": "Stadion Wrzos Międzyborów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "Naprzód II Zielonki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód Brwinów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "03b6a541d1cd4cc35a6423c57595819d",
-      "stadium": {
-        "address": "Południowa 2B, 05-082 Zielonki-Parcela",
-        "venue": "Stadion GOSiR Stare Babice",
-        "geo": {
-          "latitude": 52.245085,
-          "longitude": 20.8173619,
-          "name": "Stadion GOSiR Stare Babice, Zielonki-Parcela, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "GTS Grodzisk Mazowiecki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "UKS Ołtarzew",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T17:00:00.000Z"
-      },
-      "id": "fdf31b9fa784bb331c1b7115dd107ffe",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "FC Komorów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "AMT Nowa Wieś",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "40a0bea45937e8a2a9cf4cda1c5a6730",
-      "stadium": {
-        "address": "Główna 96, 05-806 Nowa Wieś",
-        "venue": "Stadion GOS w Granicy",
-        "geo": {
-          "latitude": 52.1342067,
-          "longitude": 20.800529,
-          "name": "Stadion GOS w Granicy, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
         "name": "Żyrardowianka II Żyrardów",
         "crest": null
       },
@@ -257,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-25T19:40:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-25",
+        "dateTime": "2026-09-25T19:40:00.000Z"
       },
       "id": "b8b351efd5a13921520e4e2b415581ef",
       "stadium": {
@@ -282,72 +38,6 @@
         "name": "Keeza Klasa A (Warszawa IV)"
       },
       "homeTeam": {
-        "name": "Naprzód Brwinów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zaborowianka Zaborów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "fd5f04a45639324c252e1d300d2ae7d1",
-      "stadium": {
-        "address": "Turystyczna 4, 05-840 Brwinów",
-        "venue": "Stadion Miejski im. Janusza Kusocińskiego",
-        "geo": {
-          "latitude": 52.1451219,
-          "longitude": 20.7231824,
-          "name": "Stadion BKS Naprzód Brwinów, Brwinów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
-        "name": "Milan Milanówek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Naprzód II Zielonki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "ebaca5b70d24b486bf2a078045c600b6",
-      "stadium": {
-        "address": "Turczynek 8, 05-822 Milanówek",
-        "venue": "Stadion KS Milan",
-        "geo": {
-          "latitude": 52.1256603,
-          "longitude": 20.6951755,
-          "name": "Stadion KS Milan, Milanówek, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Keeza Klasa A (Warszawa IV)"
-      },
-      "homeTeam": {
         "name": "UKS Ołtarzew",
         "crest": null
       },
@@ -356,14 +46,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-25T20:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-25",
+        "dateTime": "2026-09-25T20:00:00.000Z"
       },
       "id": "d48d16b28516149b7f85e3ebc37a894f",
       "stadium": {
@@ -381,6 +69,37 @@
         "name": "Keeza Klasa A (Warszawa IV)"
       },
       "homeTeam": {
+        "name": "Milan Milanówek",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Naprzód II Zielonki",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T12:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:00:00.000Z"
+      },
+      "id": "ebaca5b70d24b486bf2a078045c600b6",
+      "stadium": {
+        "address": "Turczynek 8, 05-822 Milanówek",
+        "venue": "Stadion KS Milan",
+        "geo": {
+          "latitude": 52.1256603,
+          "longitude": 20.6951755,
+          "name": "Stadion KS Milan, Milanówek, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa IV)"
+      },
+      "homeTeam": {
         "name": "Orzeł Nadarzyn",
         "crest": null
       },
@@ -389,14 +108,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "id": "c4b0e2f33f8b08b5ab666233c8c57c9d",
       "stadium": {
@@ -422,14 +139,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "79aeadc3b66103c658a7c91582f0b0ba",
       "stadium": {
@@ -439,6 +154,68 @@
           "latitude": 52.0534553,
           "longitude": 20.4822032,
           "name": "Stadion Wrzos Międzyborów, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa IV)"
+      },
+      "homeTeam": {
+        "name": "FC Komorów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "AMT Nowa Wieś",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T18:00:00.000Z"
+      },
+      "id": "40a0bea45937e8a2a9cf4cda1c5a6730",
+      "stadium": {
+        "address": "Główna 96, 05-806 Nowa Wieś",
+        "venue": "Stadion GOS w Granicy",
+        "geo": {
+          "latitude": 52.1342067,
+          "longitude": 20.800529,
+          "name": "Stadion GOS w Granicy, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Keeza Klasa A (Warszawa IV)"
+      },
+      "homeTeam": {
+        "name": "Naprzód Brwinów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zaborowianka Zaborów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T10:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T10:30:00.000Z"
+      },
+      "id": "fd5f04a45639324c252e1d300d2ae7d1",
+      "stadium": {
+        "address": "Turystyczna 4, 05-840 Brwinów",
+        "venue": "Stadion Miejski im. Janusza Kusocińskiego",
+        "geo": {
+          "latitude": 52.1451219,
+          "longitude": 20.7231824,
+          "name": "Stadion BKS Naprzód Brwinów, Brwinów, mazowieckie, Polska"
         }
       }
     },

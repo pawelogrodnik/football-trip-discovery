@@ -1,84 +1,7 @@
 {
   "competitionName": "Klasa B (Podhale I)",
-  "count": 50,
+  "count": 44,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Skałka Rogoźnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Podgórki Krauszów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "id": "cbaeb8799ae05be784c78c9f0ec8a35e",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Delta Pieniążkowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Skawianin II Skawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T17:00:00.000Z"
-      },
-      "id": "7561ffd7faa34cc6c4a6300e1e9ca97a",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Janosik Sieniawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orawa II Jabłonka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "809a1da4cbb6cd71fead0cba963ef7f1",
-      "stadium": {
-        "address": "Sieniawa",
-        "venue": "Boisko Olimpik Sieniawa",
-        "geo": {
-          "latitude": 49.5379172,
-          "longitude": 19.9371992,
-          "name": "Olimpik, Sieniawa, małopolskie, Polska"
-        }
-      }
-    },
     {
       "competition": {
         "name": "Klasa B (Podhale I)"
@@ -88,205 +11,21 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Jordan II Jordanów",
-        "crest": "https://crests.football-data.org/8049.png"
+        "name": "For Fun Lipnica Wielka",
+        "crest": null
       },
       "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
       },
-      "id": "7bed17f69a05ecad650f6424583401a1",
+      "id": "633d6a185ed11b3cdc4e03817aab4807",
       "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "KS Chabówka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Babia Góra II Lipnica Wielka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "9046a796c84268a35f03f555aa1a4bdb",
-      "stadium": {
-        "address": "Chabówka",
-        "venue": "Boisko KS Lokomotiv Chabówka",
-        "geo": {
-          "latitude": 49.5896298,
-          "longitude": 19.9192256,
-          "name": "KS Lokomotiv Chabówka, Chabówka, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Szarotka Rokiciny Podhalańskie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lepietnica Klikuszowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "a7df33a26cf9fda21c569238c5904bb2",
-      "stadium": {
-        "address": "Rokiciny Podhalańskie",
-        "venue": "Boisko Szarotka Rokiciny",
-        "geo": {
-          "latitude": 49.5756382,
-          "longitude": 19.9075759,
-          "name": "Boisko Szarotka, Rokiciny Podhalańskie, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Lepietnica Klikuszowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Delta Pieniążkowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "e276b44da1679ed2bb4d696496c1eefc",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Babia Góra II Lipnica Wielka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Szarotka Rokiciny Podhalańskie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "2ded13de53c96bb1203438c268df319d",
-      "stadium": {
-        "address": "Lipnica Wielka",
-        "venue": "Stadion Lipnica Wielka",
-        "geo": {
-          "latitude": 49.5005475,
-          "longitude": 19.6154608,
-          "name": "Stadion Lipnica Wielka, Lipnica Wielka, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Janosik Sieniawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Chabówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "e228f7a3e9bd7e4512c8ffcb1c9477f0",
-      "stadium": {
-        "address": "Sieniawa",
-        "venue": "Boisko Olimpik Sieniawa",
-        "geo": {
-          "latitude": 49.5379172,
-          "longitude": 19.9371992,
-          "name": "Olimpik, Sieniawa, małopolskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Podhale I)"
-      },
-      "homeTeam": {
-        "name": "Podgórki Krauszów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orawa II Jabłonka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "faaabe63e650ec7fea1f978e122a629c",
-      "stadium": {
-        "address": "Krauszów",
-        "venue": "Boisko Podgórki Krauszów",
-        "geo": {
-          "latitude": 49.4722388,
-          "longitude": 19.9688355,
-          "name": "Boisko Podgórki, Krauszów, małopolskie, Polska"
-        }
-      }
     },
     {
       "competition": {
@@ -301,14 +40,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "96f0a2b85b0f8ebb9aeceedf40aab86c",
       "stadium": {
@@ -326,24 +63,115 @@
         "name": "Klasa B (Podhale I)"
       },
       "homeTeam": {
-        "name": "For Fun Lipnica Wielka",
+        "name": "Babia Góra II Lipnica Wielka",
         "crest": null
       },
       "awayTeam": {
-        "name": "Topór Toporzysko",
+        "name": "Szarotka Rokiciny Podhalańskie",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:30:00.000Z"
       },
-      "id": "0cdb111e43afb4bcfcfacbb2de0d83bb",
+      "id": "2ded13de53c96bb1203438c268df319d",
+      "stadium": {
+        "address": "Lipnica Wielka",
+        "venue": "Stadion Lipnica Wielka",
+        "geo": {
+          "latitude": 49.5005475,
+          "longitude": 19.6154608,
+          "name": "Stadion Lipnica Wielka, Lipnica Wielka, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Podgórki Krauszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orawa II Jabłonka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:30:00.000Z"
+      },
+      "id": "faaabe63e650ec7fea1f978e122a629c",
+      "stadium": {
+        "address": "Krauszów",
+        "venue": "Boisko Podgórki Krauszów",
+        "geo": {
+          "latitude": 49.4722388,
+          "longitude": 19.9688355,
+          "name": "Boisko Podgórki, Krauszów, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Janosik Sieniawa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chabówka",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "id": "e228f7a3e9bd7e4512c8ffcb1c9477f0",
+      "stadium": {
+        "address": "Sieniawa",
+        "venue": "Boisko Olimpik Sieniawa",
+        "geo": {
+          "latitude": 49.5379172,
+          "longitude": 19.9371992,
+          "name": "Olimpik, Sieniawa, małopolskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Podhale I)"
+      },
+      "homeTeam": {
+        "name": "Lepietnica Klikuszowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Delta Pieniążkowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "e276b44da1679ed2bb4d696496c1eefc",
       "stadium": null
     },
     {

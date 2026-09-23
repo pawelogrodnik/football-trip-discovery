@@ -1,205 +1,12 @@
 {
   "competitionName": "Klasa A (Tychy)",
-  "count": 49,
+  "count": 42,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Tychy)"
       },
       "homeTeam": {
-        "name": "Sokół Wola",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Gardawice (Orzesze)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "b5fd6f1933fd49d476e7a3457f1c73a8",
-      "stadium": {
-        "address": "Wola",
-        "venue": "Stadion LKS Sokół Wola",
-        "geo": {
-          "latitude": 50.0145429,
-          "longitude": 19.0987463,
-          "name": "LKS Sokół Wola, Wola, śląskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "Unia Bieruń Stary (Bieruń)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Studzienice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:30:00.000Z"
-      },
-      "id": "d1c8403ce1693acbab7247d0dceb47b1",
-      "stadium": {
-        "address": "Bieruń Stary, Bieruń",
-        "venue": "Boisko Unia Bieruń Stary",
-        "geo": {
-          "latitude": 50.0898375,
-          "longitude": 19.0908918,
-          "name": "Boisko Unia, Bieruń Stary, śląskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "Siódemka Tychy",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Krupiński Suszec",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T19:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T19:00:00.000Z"
-      },
-      "id": "92be098bf048ed01fd84fb862a991d7b",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "APN SMS Tychy",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Rudołtowice-Ćwiklice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "7eeeede35f2f643b28876daf01128942",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "LKS Frydek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Stal Chełm Śląski",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "74ef1b9404f272e965e14e606b2dd903",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "Znicz Jankowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Niepokorni Orzesze",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "4156868567e7d3025937df3980f28326",
-      "stadium": {
-        "address": "Jankowice",
-        "venue": "Boisko Znicz Jankowice",
-        "geo": {
-          "latitude": 49.9960214,
-          "longitude": 18.9740554,
-          "name": "Znicz, Jankowice, śląskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "Polonia Międzyrzecze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Czułowianka Tychy",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "9a644849e5fd2add4e028def5b6dd372",
-      "stadium": {
-        "address": "Międzyrzecze",
-        "venue": "Boisko Polonia Międzyrzecze",
-        "geo": {
-          "latitude": 50.0241652,
-          "longitude": 19.0663566,
-          "name": "Boisko Polonia, Międzyrzecze, śląskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
         "name": "LKS Rudołtowice-Ćwiklice",
         "crest": null
       },
@@ -208,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "id": "49471395c4eb1db013e8951eec3928b1",
       "stadium": {
@@ -233,97 +38,6 @@
         "name": "Klasa A (Tychy)"
       },
       "homeTeam": {
-        "name": "LKS Gardawice (Orzesze)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Polonia Międzyrzecze",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "0b789cea6e7f55615c582cdf052073a6",
-      "stadium": {
-        "address": "Gardawice",
-        "venue": "Boisko LKS Gardawice",
-        "geo": {
-          "latitude": 50.108029,
-          "longitude": 18.7847698,
-          "name": "Boisko LKS Gardawice, Gardawice, śląskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "Niepokorni Orzesze",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Wola",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "95b86a655c6c638083faae9b9b72120f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
-        "name": "Stal Chełm Śląski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Znicz Jankowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "80588d52e416ddcdf9ae1f6c4e86fda8",
-      "stadium": {
-        "address": "Chełm Śląski",
-        "venue": "Boisko Stal Chełm Śląski",
-        "geo": {
-          "latitude": 50.111863,
-          "longitude": 19.1975651,
-          "name": "Boisko Stal, Chełm Śląski, śląskie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Tychy)"
-      },
-      "homeTeam": {
         "name": "LKS Studzienice",
         "crest": null
       },
@@ -332,14 +46,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "id": "dfd605a26648fbe526eac870272ad456",
       "stadium": {
@@ -357,6 +69,37 @@
         "name": "Klasa A (Tychy)"
       },
       "homeTeam": {
+        "name": "LKS Gardawice (Orzesze)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Polonia Międzyrzecze",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "id": "0b789cea6e7f55615c582cdf052073a6",
+      "stadium": {
+        "address": "Gardawice",
+        "venue": "Boisko LKS Gardawice",
+        "geo": {
+          "latitude": 50.108029,
+          "longitude": 18.7847698,
+          "name": "Boisko LKS Gardawice, Gardawice, śląskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tychy)"
+      },
+      "homeTeam": {
         "name": "Krupiński Suszec",
         "crest": null
       },
@@ -365,14 +108,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "351ae4265235bcc6b72ff1a9f9569f46",
       "stadium": null
@@ -390,16 +131,68 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "99646effc5e1066dc3d80f4b62cae7b5",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tychy)"
+      },
+      "homeTeam": {
+        "name": "Stal Chełm Śląski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Znicz Jankowice",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T15:00:00.000Z"
+      },
+      "id": "80588d52e416ddcdf9ae1f6c4e86fda8",
+      "stadium": {
+        "address": "Chełm Śląski",
+        "venue": "Boisko Stal Chełm Śląski",
+        "geo": {
+          "latitude": 50.111863,
+          "longitude": 19.1975651,
+          "name": "Boisko Stal, Chełm Śląski, śląskie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Tychy)"
+      },
+      "homeTeam": {
+        "name": "Niepokorni Orzesze",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Wola",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:30:00.000Z"
+      },
+      "id": "95b86a655c6c638083faae9b9b72120f",
       "stadium": null
     },
     {

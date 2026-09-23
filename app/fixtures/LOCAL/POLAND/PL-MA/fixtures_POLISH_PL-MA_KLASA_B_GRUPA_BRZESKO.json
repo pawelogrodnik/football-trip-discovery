@@ -1,154 +1,7 @@
 {
   "competitionName": "Klasa B (Brzesko)",
-  "count": 63,
+  "count": 56,
   "matches": [
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Start 77 Biadoliny Szlacheckie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Victoria Bielcza",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "e37ab3776b2832e998e7b2033d8d1ce4",
-      "stadium": {
-        "address": "Biadoliny Szlacheckie, 32-828 Biadoliny Szlacheckie",
-        "venue": "Boisko LKS Start 77",
-        "geo": {
-          "latitude": 49.9964973,
-          "longitude": 20.7489344,
-          "name": "LKS Start 77 Biadoliny Szlacheckie, Biadoliny Szlacheckie, powiat brzeski, województwo małopolskie, 32-828, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "LKS Jasień Brzeski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orzeł Stróże",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "b63ecf719dc384ce0eab043d563953e1",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "LKS II Gnojnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orlik Szczurowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "01f15cd42613a51b4b447b2ec6aeda34",
-      "stadium": {
-        "address": "Gnojnik, 32-864 Gnojnik",
-        "venue": "Stadion LKS Pagen Gnojnik",
-        "geo": {
-          "latitude": 49.8975063,
-          "longitude": 20.605747,
-          "name": "LKS Pagen Gnojnik, Gnojnik, powiat brzeski, województwo małopolskie, 32-864, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Jastrząb Łoniowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Temida Złota",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "107d88f989ff0f2e93e9e89ce8aa1420",
-      "stadium": {
-        "address": "Łoniowa, 32-854 Łoniowa",
-        "venue": "Boisko LKS Jastrząb Łoniowa",
-        "geo": {
-          "latitude": 49.9068845,
-          "longitude": 20.68789,
-          "name": "LKS Jastrząb Łoniowa, Łoniowa, powiat brzeski, województwo małopolskie, 32-854, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Piast Czchów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Jadowniczanka II Jadowniki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "59d9f99a59d5412632868fd31e8172e4",
-      "stadium": {
-        "address": "Sądecka 18, 32-860 Czchów",
-        "venue": "Stadion Miejski w Czchowie",
-        "geo": {
-          "latitude": 49.8227026,
-          "longitude": 20.6807884,
-          "name": "Sądecka 18, Czchów, powiat brzeski, województwo małopolskie, 32-860, Polska"
-        }
-      }
-    },
     {
       "competition": {
         "name": "Klasa B (Brzesko)"
@@ -158,18 +11,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Spółdzielca II Grabno",
+        "name": "Victoria Bielcza",
         "crest": null
       },
       "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
       },
-      "id": "05105cf0a556c96ff4be2bbedb1b02ea",
+      "id": "f35de940210a1e74a069ebe4fde32cf4",
       "stadium": {
         "address": "Łęki 80A, 32-823 Łęki",
         "venue": "Boisko KS Iskra Łęki",
@@ -185,161 +40,29 @@
         "name": "Klasa B (Brzesko)"
       },
       "homeTeam": {
-        "name": "Kłos Łysa Góra",
+        "name": "Zryw Wielka Wieś",
         "crest": null
       },
       "awayTeam": {
-        "name": "GKS Przyborów (k. Brzeska)",
+        "name": "LKS II Gnojnik",
         "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:30:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:30:00.000Z"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
-      "id": "59b91d38d2e9d70d6b1b2bb8de19e95f",
+      "id": "4cfded87810f57e4262e41e22b290fab",
       "stadium": {
-        "address": "Sufczyn 19, 32-852 Sufczyn",
-        "venue": "Boisko LKS Kłos Łysa Góra",
+        "address": "Wielka Wieś 24, 32-830 Wielka Wieś",
+        "venue": "Stadion Zryw Wielka Wieś",
         "geo": {
-          "latitude": 49.9451984,
-          "longitude": 20.759895,
-          "name": "LKS Kłos Łysa Góra, Sufczyn, powiat brzeski, województwo małopolskie, 32-852, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Spółdzielca II Grabno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Jasień Brzeski",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "32858103cee2853bb16ed2817bcde0a6",
-      "stadium": {
-        "address": "Grabno, 32-830 Grabno",
-        "venue": "Stadion LKS Spółdzielca Grabno",
-        "geo": {
-          "latitude": 49.9350437,
-          "longitude": 20.7910285,
-          "name": "Stadion LKS Spółdzielca Grabno, Grabno, powiat tarnowski, województwo małopolskie, 32-830, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Victoria Bielcza",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iskra Łęki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "3f44273ef4f399b646fe0d2963c5b040",
-      "stadium": {
-        "address": "Bielcza 189, 32-824 Bielcza",
-        "venue": "Boisko LKS Victoria Bielcza",
-        "geo": {
-          "latitude": 50.021226,
-          "longitude": 20.7481145,
-          "name": "Bielcza 189, Bielcza, powiat brzeski, województwo małopolskie, 32-824, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "Jadowniczanka II Jadowniki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Start 77 Biadoliny Szlacheckie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "1a7fb51d80d9864af8f165be1ab6b193",
-      "stadium": {
-        "address": "Sportowa 24, 32-851 Jadowniki",
-        "venue": "Stadion LKS Jadowniczanka",
-        "geo": {
-          "latitude": 49.9663245,
-          "longitude": 20.6377367,
-          "name": "Sportowa 24, Jadowniki, powiat brzeski, województwo małopolskie, 32-851, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Brzesko)"
-      },
-      "homeTeam": {
-        "name": "GKS Przyborów (k. Brzeska)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Piast Czchów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "2c3e3406e73f5dee94f5ebb6c16aab00",
-      "stadium": {
-        "address": "Przyborów 183, 32-820 Przyborów",
-        "venue": "Boisko GKS Przyborów",
-        "geo": {
-          "latitude": 50.0322858,
-          "longitude": 20.6630485,
-          "name": "Przyborów 183, Przyborów, powiat brzeski, województwo małopolskie, 32-820, Polska"
+          "latitude": 49.9355048,
+          "longitude": 20.8158157,
+          "name": "Wielka Wieś, powiat tarnowski, województwo małopolskie, 32-830, Polska"
         }
       }
     },
@@ -356,14 +79,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "05c5fea70a7b32b5acad7a5dde6831fe",
       "stadium": {
@@ -381,6 +102,68 @@
         "name": "Klasa B (Brzesko)"
       },
       "homeTeam": {
+        "name": "Spółdzielca II Grabno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Jasień Brzeski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "id": "32858103cee2853bb16ed2817bcde0a6",
+      "stadium": {
+        "address": "Grabno, 32-830 Grabno",
+        "venue": "Stadion LKS Spółdzielca Grabno",
+        "geo": {
+          "latitude": 49.9350437,
+          "longitude": 20.7910285,
+          "name": "Stadion LKS Spółdzielca Grabno, Grabno, powiat tarnowski, województwo małopolskie, 32-830, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Brzesko)"
+      },
+      "homeTeam": {
+        "name": "GKS Przyborów (k. Brzeska)",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Piast Czchów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "id": "2c3e3406e73f5dee94f5ebb6c16aab00",
+      "stadium": {
+        "address": "Przyborów 183, 32-820 Przyborów",
+        "venue": "Boisko GKS Przyborów",
+        "geo": {
+          "latitude": 50.0322858,
+          "longitude": 20.6630485,
+          "name": "Przyborów 183, Przyborów, powiat brzeski, województwo małopolskie, 32-820, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Brzesko)"
+      },
+      "homeTeam": {
         "name": "Orlik Szczurowa",
         "crest": null
       },
@@ -389,14 +172,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T15:00:00.000Z"
       },
       "id": "435a3fc004621658c0502c9a3046d9cd",
       "stadium": {
@@ -414,31 +195,29 @@
         "name": "Klasa B (Brzesko)"
       },
       "homeTeam": {
-        "name": "Zryw Wielka Wieś",
+        "name": "Jadowniczanka II Jadowniki",
         "crest": null
       },
       "awayTeam": {
-        "name": "LKS II Gnojnik",
+        "name": "Start 77 Biadoliny Szlacheckie",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:30:00.000Z"
       },
-      "id": "4cfded87810f57e4262e41e22b290fab",
+      "id": "1a7fb51d80d9864af8f165be1ab6b193",
       "stadium": {
-        "address": "Wielka Wieś 24, 32-830 Wielka Wieś",
-        "venue": "Stadion Zryw Wielka Wieś",
+        "address": "Sportowa 24, 32-851 Jadowniki",
+        "venue": "Stadion LKS Jadowniczanka",
         "geo": {
-          "latitude": 49.9355048,
-          "longitude": 20.8158157,
-          "name": "Wielka Wieś, powiat tarnowski, województwo małopolskie, 32-830, Polska"
+          "latitude": 49.9663245,
+          "longitude": 20.6377367,
+          "name": "Sportowa 24, Jadowniki, powiat brzeski, województwo małopolskie, 32-851, Polska"
         }
       }
     },

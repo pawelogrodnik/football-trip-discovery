@@ -1,343 +1,26 @@
 {
   "competitionName": "Klasa B (Rzeszow I)",
-  "count": 48,
+  "count": 42,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Rzeszow I)"
       },
       "homeTeam": {
-        "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Rudzik Rudna Mała",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "5955bfd9d4afd12d57937fe3f1285850",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "Bratek Bratkowice",
-        "crest": "https://crests.football-data.org/11289.png"
-      },
-      "awayTeam": {
-        "name": "Mrowlanka Mrowla",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
-      },
-      "id": "31b4758445a68ab68247ad6a555ea5ae",
-      "stadium": {
-        "address": "Bratkowice",
-        "venue": "Stadion LKS Bratek Bratkowice",
-        "geo": {
-          "latitude": 50.1182328,
-          "longitude": 21.8602025,
-          "name": "LKS Bratek Bratkowice, Bratkowice, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Bratkowicach"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "Strug II Tyczyn",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Start Borek Stary",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
-      },
-      "id": "6d503869caede9fe828c259d3683f21c",
-      "stadium": {
-        "address": "Cicha 5, Tyczyn",
-        "venue": "Stadion Miejski w Tyczynie",
-        "geo": {
-          "latitude": 49.9663933,
-          "longitude": 22.0337068,
-          "name": "Stadion Miejski w Tyczynie, Tyczyn, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion Miejski w Tyczynie"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "LKS Hermanowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Świlczanka Świlcza",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:00:00.000Z"
-      },
-      "id": "c7478df3d0ad0422ede6050b8c489ddc",
-      "stadium": {
-        "address": "Hermanowa",
-        "venue": "Boisko LKS Hermanowa",
-        "geo": {
-          "latitude": 49.9371713,
-          "longitude": 22.0149754,
-          "name": "Boisko LKS Hermanowa, Hermanowa, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "Dąb Dąbrowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Korona II Rzeszów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "2c7c4f26631a8f82679d28a22f060d64",
-      "stadium": {
-        "address": "Dąbrowa",
-        "venue": "Boisko LKS Dąb Dąbrowa",
-        "geo": {
-          "latitude": 50.0567388,
-          "longitude": 21.811015,
-          "name": "LKS Dąb Dąbrowa, Dąbrowa, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Dąbrowie"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "LKS Biała (k. Rzeszowa)",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Rudnianka Rudna Wielka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T20:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T20:00:00.000Z"
-      },
-      "id": "ae7f579b35fb484f61dab36c675d7d4c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "Korona II Rzeszów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Bratek Bratkowice",
-        "crest": "https://crests.football-data.org/11289.png"
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
-      },
-      "id": "dbdb6400935349225ec8b01d30ea0d10",
-      "stadium": null,
-      "stadiumHint": "Alfreda Potockiego 9 , 35-322 Rzeszów"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "Rudnianka Rudna Wielka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Dąb Dąbrowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T12:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T12:00:00.000Z"
-      },
-      "id": "2c39d1b9270c722a434f5274413118a5",
-      "stadium": {
-        "address": "Rudna Wielka",
-        "venue": "Boisko Rudnianka Rudna Wielka",
-        "geo": {
-          "latitude": 50.086735,
-          "longitude": 21.9542539,
-          "name": "Boisko Rudnianka, Rudna Wielka, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Rudnej Wielkiej"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "Świlczanka Świlcza",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Biała (k. Rzeszowa)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "0b40cb1a2b2c0917e7135a3fb77fb25d",
-      "stadium": {
-        "address": "Świlcza",
-        "venue": "Boisko Świlczanka Świlcza",
-        "geo": {
-          "latitude": 50.069587,
-          "longitude": 21.9049772,
-          "name": "Boisko Świlczanka, Świlcza, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
-        "name": "Rudzik Rudna Mała",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Hermanowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
-      },
-      "id": "db86f1d9a69f406301b1f44951b1aba5",
-      "stadium": {
-        "address": "Rudna Mała",
-        "venue": "Boisko Rudzik Rudna Mała",
-        "geo": {
-          "latitude": 50.094712,
-          "longitude": 21.9550992,
-          "name": "Boisko Rudzik, Rudna Mała, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Rudnej Małej"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow I)"
-      },
-      "homeTeam": {
         "name": "Start Borek Stary",
         "crest": null
       },
       "awayTeam": {
         "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/KSPrzybyszowka.png"
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T14:00:00.000Z"
       },
       "id": "db8f93e8e235f3ccd921c7f59975e41c",
       "stadium": {
@@ -360,21 +43,15 @@
       },
       "awayTeam": {
         "name": "Strug II Tyczyn",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2025/04/Strug_Tyczyn.png"
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "6d9ff29c4abd10666ce43dbead0d6825",
       "stadium": {
@@ -385,8 +62,123 @@
           "longitude": 21.9143529,
           "name": "LKS Mrowlanka Mrowla, Mrowla, podkarpackie, Polska"
         }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow I)"
       },
-      "stadiumHint": "Stadion w Mrowli"
+      "homeTeam": {
+        "name": "Rudnianka Rudna Wielka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Dąb Dąbrowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "id": "2c39d1b9270c722a434f5274413118a5",
+      "stadium": {
+        "address": "Rudna Wielka",
+        "venue": "Boisko Rudnianka Rudna Wielka",
+        "geo": {
+          "latitude": 50.086735,
+          "longitude": 21.9542539,
+          "name": "Boisko Rudnianka, Rudna Wielka, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow I)"
+      },
+      "homeTeam": {
+        "name": "Świlczanka Świlcza",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Biała (k. Rzeszowa)",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "id": "0b40cb1a2b2c0917e7135a3fb77fb25d",
+      "stadium": {
+        "address": "Świlcza",
+        "venue": "Boisko Świlczanka Świlcza",
+        "geo": {
+          "latitude": 50.069587,
+          "longitude": 21.9049772,
+          "name": "Boisko Świlczanka, Świlcza, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow I)"
+      },
+      "homeTeam": {
+        "name": "Korona II Rzeszów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bratek Bratkowice",
+        "crest": "https://crests.football-data.org/11289.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "dbdb6400935349225ec8b01d30ea0d10",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow I)"
+      },
+      "homeTeam": {
+        "name": "Rudzik Rudna Mała",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Hermanowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "db86f1d9a69f406301b1f44951b1aba5",
+      "stadium": {
+        "address": "Rudna Mała",
+        "venue": "Boisko Rudzik Rudna Mała",
+        "geo": {
+          "latitude": 50.094712,
+          "longitude": 21.9550992,
+          "name": "Boisko Rudzik, Rudna Mała, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -398,21 +190,17 @@
       },
       "awayTeam": {
         "name": "Strug II Tyczyn",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2025/04/Strug_Tyczyn.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "618e9c35404323206e73a3d1daaa9cee",
       "stadium": {
@@ -423,8 +211,7 @@
           "longitude": 21.8602025,
           "name": "LKS Bratek Bratkowice, Bratkowice, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Bratkowicach"
+      }
     },
     {
       "competition": {
@@ -432,7 +219,7 @@
       },
       "homeTeam": {
         "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/KSPrzybyszowka.png"
       },
       "awayTeam": {
         "name": "Mrowlanka Mrowla",
@@ -557,20 +344,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b1c2ae324ac818990ffb11ba99958102",
-      "stadium": null,
-      "stadiumHint": "Alfreda Potockiego 9 , 35-322 Rzeszów"
+      "stadium": null
     },
     {
       "competition": {
@@ -587,16 +369,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c18119d9cc7ccf627710a3bd3b12c344",
       "stadium": {
@@ -607,8 +385,7 @@
           "longitude": 21.9542539,
           "name": "Boisko Rudnianka, Rudna Wielka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Rudnej Wielkiej"
+      }
     },
     {
       "competition": {
@@ -658,16 +435,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T14:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "f6a7c074dc75a8148993e6da4e00d770",
       "stadium": {
@@ -678,8 +451,7 @@
           "longitude": 21.9550992,
           "name": "Boisko Rudzik, Rudna Mała, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Rudnej Małej"
+      }
     },
     {
       "competition": {
@@ -729,16 +501,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "e05b6199723d5cfa5edac2f9af7bbd4e",
       "stadium": {
@@ -749,8 +517,7 @@
           "longitude": 21.9143529,
           "name": "LKS Mrowlanka Mrowla, Mrowla, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Mrowli"
+      }
     },
     {
       "competition": {
@@ -758,11 +525,11 @@
       },
       "homeTeam": {
         "name": "Strug II Tyczyn",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2025/04/Strug_Tyczyn.png"
       },
       "awayTeam": {
         "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/KSPrzybyszowka.png"
       },
       "schedule": {
         "status": "date-window",
@@ -795,7 +562,7 @@
       },
       "awayTeam": {
         "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/KSPrzybyszowka.png"
       },
       "schedule": {
         "status": "date-window",
@@ -828,7 +595,7 @@
       },
       "awayTeam": {
         "name": "Strug II Tyczyn",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2025/04/Strug_Tyczyn.png"
       },
       "schedule": {
         "status": "date-window",
@@ -891,16 +658,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T15:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T15:00:00.000Z"
+        "time": "TBD"
       },
       "id": "3113eb24c9e81d8e9bb4f21ab43fb586",
       "stadium": {
@@ -911,8 +674,7 @@
           "longitude": 21.811015,
           "name": "LKS Dąb Dąbrowa, Dąbrowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Dąbrowie"
+      }
     },
     {
       "competition": {
@@ -1086,16 +848,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "1e165b0f20c849d6b9161b7f82b66de3",
       "stadium": {
@@ -1106,8 +864,7 @@
           "longitude": 21.9143529,
           "name": "LKS Mrowlanka Mrowla, Mrowla, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Mrowli"
+      }
     },
     {
       "competition": {
@@ -1115,7 +872,7 @@
       },
       "homeTeam": {
         "name": "Strug II Tyczyn",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2025/04/Strug_Tyczyn.png"
       },
       "awayTeam": {
         "name": "LKS Biała (k. Rzeszowa)",
@@ -1148,7 +905,7 @@
       },
       "homeTeam": {
         "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/KSPrzybyszowka.png"
       },
       "awayTeam": {
         "name": "LKS Hermanowa",
@@ -1182,16 +939,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2a30ba5e04f3afcd9e9a1833b2a6cd55",
       "stadium": {
@@ -1202,8 +955,7 @@
           "longitude": 21.8602025,
           "name": "LKS Bratek Bratkowice, Bratkowice, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Bratkowicach"
+      }
     },
     {
       "competition": {
@@ -1215,7 +967,7 @@
       },
       "awayTeam": {
         "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/KSPrzybyszowka.png"
       },
       "schedule": {
         "status": "date-window",
@@ -1240,21 +992,17 @@
       },
       "awayTeam": {
         "name": "Strug II Tyczyn",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2025/04/Strug_Tyczyn.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "f1a8a6a5875eb0f8457f77a854ffa81e",
       "stadium": {
@@ -1265,8 +1013,7 @@
           "longitude": 21.811015,
           "name": "LKS Dąb Dąbrowa, Dąbrowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Dąbrowie"
+      }
     },
     {
       "competition": {
@@ -1308,16 +1055,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2a4756b9f58e4d6ca89da07f102cbb4b",
       "stadium": {
@@ -1328,8 +1071,7 @@
           "longitude": 21.9542539,
           "name": "Boisko Rudnianka, Rudna Wielka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Rudnej Wielkiej"
+      }
     },
     {
       "competition": {
@@ -1379,16 +1121,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-15T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-15",
-        "dateTime": "2026-11-15T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "256468472e565b13317ea166bdacd351",
       "stadium": {
@@ -1399,8 +1137,7 @@
           "longitude": 21.9550992,
           "name": "Boisko Rudzik, Rudna Mała, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Rudnej Małej"
+      }
     },
     {
       "competition": {
@@ -1474,7 +1211,7 @@
       },
       "homeTeam": {
         "name": "Strug II Tyczyn",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2025/04/Strug_Tyczyn.png"
       },
       "awayTeam": {
         "name": "Korona II Rzeszów",
@@ -1507,7 +1244,7 @@
       },
       "homeTeam": {
         "name": "KS II Przybyszówka (Rzeszów)",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/KSPrzybyszowka.png"
       },
       "awayTeam": {
         "name": "Dąb Dąbrowa",

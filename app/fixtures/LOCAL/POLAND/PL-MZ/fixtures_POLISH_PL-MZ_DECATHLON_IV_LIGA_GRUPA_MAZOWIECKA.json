@@ -1,38 +1,7 @@
 {
   "competitionName": "Decathlon IV liga (mazowiecka)",
-  "count": 90,
+  "count": 81,
   "matches": [
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
-        "name": "Victoria Sulejówek",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Oskar Przysucha",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-18T20:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-18",
-        "dateTime": "2026-09-18T20:00:00.000Z"
-      },
-      "id": "b87b79c1ad66906986a8d1dbaca37e39",
-      "stadium": {
-        "address": "Sulejówek",
-        "venue": null,
-        "geo": {
-          "latitude": 52.244349,
-          "longitude": 21.2782482,
-          "name": "Sulejówek, powiat miński, województwo mazowieckie, Polska"
-        }
-      }
-    },
     {
       "competition": {
         "name": "Decathlon IV liga (mazowiecka)"
@@ -42,18 +11,20 @@
         "crest": null
       },
       "awayTeam": {
-        "name": "Hutnik Warszawa",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
+        "name": "Błonianka Błonie",
+        "crest": null
       },
       "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T11:00:00.000Z"
+        "status": "date-window",
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27"
       },
       "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T11:00:00.000Z"
+        "startDate": "2026-09-26",
+        "endDate": "2026-09-27",
+        "time": "TBD"
       },
-      "id": "476dd190e1edb0ff185361ba6954317b",
+      "id": "f441d440a9150b6e529d713812f2f855",
       "stadium": {
         "venue": "Stadion Miejski w Łomiankach",
         "address": "Fabryczna 48, Łomianki",
@@ -69,90 +40,29 @@
         "name": "Decathlon IV liga (mazowiecka)"
       },
       "homeTeam": {
-        "name": "MKS Piaseczno",
-        "crest": null
+        "name": "Hutnik Warszawa",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
       },
       "awayTeam": {
-        "name": "Nadnarwianka Pułtusk",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "id": "7eaf80fe3c704c9708e56dad631ed5a0",
-      "stadium": {
-        "venue": "Stadion Miejski w Piasecznie",
-        "address": "1 Maja 16, Piaseczno",
-        "geo": {
-          "latitude": 52.0604678,
-          "longitude": 21.0354393,
-          "name": "16, 1 Maja, Zalesie Dolne, Piaseczno, gmina Piaseczno, powiat piaseczyński, województwo mazowieckie, 05-500, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
-        "name": "Makowianka Maków Mazowiecki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Legionovia Legionowo",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "id": "b5a1f0e460c103672d919060094a2ddd",
-      "stadium": {
-        "venue": "Stadion Miejski w Makowie Mazowieckim",
-        "address": "Sportowa 1, Maków Mazowiecki",
-        "geo": {
-          "latitude": 52.8623917,
-          "longitude": 21.1085014,
-          "name": "1, Sportowa, Osiedle Grzanka, Maków Mazowiecki, powiat makowski, województwo mazowieckie, 06-200, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
         "name": "Mazur Karczew",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Energia Kozienice",
-        "crest": null
-      },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-19T14:00:00.000Z"
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:00:00.000Z"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
-      "id": "51f716ca7c521e30316090e991c9ae8a",
+      "id": "dd70ad9a5afeb4c71d0c0c8b21179bd3",
       "stadium": {
-        "venue": "Stadion Mazura Karczew",
-        "address": "Sportowa 3, Karczew",
+        "venue": "Stadion Hutnika Warszawa",
+        "address": "Marymoncka 42, Warszawa",
         "geo": {
-          "latitude": 52.07062444954824,
-          "longitude": 21.243988762452478
+          "latitude": 52.3000993,
+          "longitude": 20.944846,
+          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
         }
       }
     },
@@ -161,113 +71,29 @@
         "name": "Decathlon IV liga (mazowiecka)"
       },
       "homeTeam": {
-        "name": "MKS Przasnysz",
+        "name": "Oskar Przysucha",
         "crest": null
       },
       "awayTeam": {
-        "name": "Polonia II Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "3b55032e07d401f3089da5701d6a6149",
-      "stadium": {
-        "venue": "Stadion Miejski w Przasnyszu",
-        "address": "Leszno 15, Przasnysz",
-        "geo": {
-          "latitude": 52.9834019,
-          "longitude": 20.9246999,
-          "name": "15, Leszno, gmina Przasnysz, powiat przasnyski, województwo mazowieckie, 06-300, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
-        "name": "Talent Warszawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Ursus Warszawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:30:00.000Z"
-      },
-      "id": "96b0be97119da8e0fa58f9e38d9fa92b",
-      "stadium": {
-        "venue": "Ośrodek Sportu i Rekreacji Targówek",
-        "address": "Łabiszyńska 20, Warszawa",
-        "geo": {
-          "latitude": 52.2989415,
-          "longitude": 21.0337277,
-          "name": "Pływalnia Polonez, 20, Łabiszyńska, Kondratowicza, Bródno, Targówek, Warszawa, województwo mazowieckie, 03-397, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
-        "name": "Podlasie Sokołów Podlaski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Mszczonowianka Mszczonów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "70ad49769613287035930e88f162277f",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
         "name": "Broń Radom",
         "crest": null
       },
-      "awayTeam": {
-        "name": "Błonianka Błonie",
-        "crest": null
-      },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
-      "id": "5f6957407e4c34eb79346b53990c2db7",
+      "id": "ccf40d1f00d2a523fc5507b0ac2200fb",
       "stadium": {
-        "venue": "Stadion Lekkoatletyczno-Piłkarski im. Marszałka Józefa Piłsudskiego (MOSiR Radom)",
+        "venue": "Stadion Oskar Przysucha",
+        "address": "Radomska 45, Przysucha",
         "geo": {
-          "latitude": 51.403611,
-          "longitude": 21.156667,
-          "name": null
+          "latitude": 51.3604991,
+          "longitude": 20.6406227,
+          "name": "Radomska, Przysucha, gmina Przysucha, powiat przysuski, województwo mazowieckie, 26-400, Polska"
         }
       }
     },
@@ -276,31 +102,29 @@
         "name": "Decathlon IV liga (mazowiecka)"
       },
       "homeTeam": {
-        "name": "Ursus Warszawa",
+        "name": "Mszczonowianka Mszczonów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Podlasie Sokołów Podlaski",
+        "name": "MKS Piaseczno",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
-      "id": "a4bc6bfc39bcc5dff85842f561d0094f",
+      "id": "86ef5340702338110f32b4938ce993c0",
       "stadium": {
-        "venue": "Stadion Ursusa Warszawa",
-        "address": "Sosnkowskiego 3, Warszawa",
+        "venue": "Stadion Miejski w Mszczonowie",
+        "address": "Tarczyńska 25, Mszczonów",
         "geo": {
-          "latitude": 52.1868467,
-          "longitude": 20.8893142,
-          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
+          "latitude": 51.9742122,
+          "longitude": 20.52224,
+          "name": "25, Tarczyńska, Mszczonów, gmina Mszczonów, powiat żyrardowski, województwo mazowieckie, 96-320, Polska"
         }
       }
     },
@@ -317,14 +141,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "id": "1cb82569cf7bcf206551fcb7bc736db1",
       "stadium": {
@@ -350,14 +172,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "1859bacd9f3ec364d5d89db1b0d84e76",
       "stadium": {
@@ -383,116 +203,15 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "b791716b3ea20f67cbb33591b5cf6b0d",
       "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
-        "name": "Hutnik Warszawa",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hutnik_Krak%C3%B3w_%28ancien_logo%29.svg"
-      },
-      "awayTeam": {
-        "name": "Mazur Karczew",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "dd70ad9a5afeb4c71d0c0c8b21179bd3",
-      "stadium": {
-        "venue": "Stadion Hutnika Warszawa",
-        "address": "Marymoncka 42, Warszawa",
-        "geo": {
-          "latitude": 52.3000993,
-          "longitude": 20.944846,
-          "name": "Ośrodek sportowy Hutnik, 42, Marymoncka, Las Bielański, Warszawa, województwo mazowieckie, 01-977, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
-        "name": "Błonianka Błonie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Łomianki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "03630470698b32cb895cc1ec98422244",
-      "stadium": {
-        "venue": "Stadion Miejski w Błoniu",
-        "address": "Bieniewicka 40, Błonie",
-        "geo": {
-          "latitude": 52.1892175,
-          "longitude": 20.5983676,
-          "name": "Bieniewicka, Błonie-Wieś, gmina Błonie, powiat warszawski zachodni, województwo mazowieckie, 05-870, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Decathlon IV liga (mazowiecka)"
-      },
-      "homeTeam": {
-        "name": "Oskar Przysucha",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Broń Radom",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "ccf40d1f00d2a523fc5507b0ac2200fb",
-      "stadium": {
-        "venue": "Stadion Oskar Przysucha",
-        "address": "Radomska 45, Przysucha",
-        "geo": {
-          "latitude": 51.3604991,
-          "longitude": 20.6406227,
-          "name": "Radomska, Przysucha, gmina Przysucha, powiat przysuski, województwo mazowieckie, 26-400, Polska"
-        }
-      }
     },
     {
       "competition": {
@@ -507,14 +226,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "a219c776c543861758265c4591e52639",
       "stadium": null
@@ -524,31 +241,29 @@
         "name": "Decathlon IV liga (mazowiecka)"
       },
       "homeTeam": {
-        "name": "Mszczonowianka Mszczonów",
+        "name": "Ursus Warszawa",
         "crest": null
       },
       "awayTeam": {
-        "name": "MKS Piaseczno",
+        "name": "Podlasie Sokołów Podlaski",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
       },
-      "id": "86ef5340702338110f32b4938ce993c0",
+      "id": "a4bc6bfc39bcc5dff85842f561d0094f",
       "stadium": {
-        "venue": "Stadion Miejski w Mszczonowie",
-        "address": "Tarczyńska 25, Mszczonów",
+        "venue": "Stadion Ursusa Warszawa",
+        "address": "Sosnkowskiego 3, Warszawa",
         "geo": {
-          "latitude": 51.9742122,
-          "longitude": 20.52224,
-          "name": "25, Tarczyńska, Mszczonów, gmina Mszczonów, powiat żyrardowski, województwo mazowieckie, 96-320, Polska"
+          "latitude": 52.1868467,
+          "longitude": 20.8893142,
+          "name": "Pływalnia \"Skalar\", 3, Generała Kazimierza Sosnkowskiego, Stary Ursus, Czechowice, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska"
         }
       }
     },

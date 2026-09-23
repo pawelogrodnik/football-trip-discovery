@@ -1,304 +1,12 @@
 {
   "competitionName": "Klasa A (Radom I)",
-  "count": 63,
+  "count": 56,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Radom I)"
       },
       "homeTeam": {
-        "name": "Gracja II Tczów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Akcja I Jastrzębia",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T11:00:00.000Z"
-      },
-      "id": "2a7e4f31024fced538b7a696500c807f",
-      "stadium": {
-        "address": "Tczów, powiat zwoleński",
-        "venue": "Stadion Gracja Tczów",
-        "geo": {
-          "latitude": 51.3301616,
-          "longitude": 21.4475416,
-          "name": "Stadion Gracja Tczów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "KS Maków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Iskra Gózd",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "id": "bee6002744e51f0793e044c432e18e35",
-      "stadium": {
-        "address": "Starowiejska 22, Maków",
-        "venue": "Stadion Sportowy Park Arena w Makowie",
-        "geo": {
-          "latitude": 51.3454418,
-          "longitude": 21.251699,
-          "name": "Stadion Park Arena, Maków, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Proch II Pionki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zawisza Sienno",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:30:00.000Z"
-      },
-      "id": "72b0ccaebdc5b9d6d3bfe329afdeb247",
-      "stadium": {
-        "address": null,
-        "venue": "Stadion KS Proch Pionki",
-        "geo": {
-          "latitude": 51.4738169,
-          "longitude": 21.4480757,
-          "name": "Stadion KS Proch Pionki, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "KS Jastrząb",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Skaryszewianka Skaryszew",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "67865d8a5fea8b03c18fcb29c95ed990",
-      "stadium": {
-        "address": "Jastrząb",
-        "venue": "Stadion KS Jastrząb",
-        "geo": {
-          "latitude": 51.2512506,
-          "longitude": 20.9452819,
-          "name": "Klub Sportowy Jastrząb Szydłowiec, Jastrząb, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "KP Stanisławice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Magnuszew",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "e19fa981abf5418619d448717c8fcb34",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Legion Głowaczów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Postęp Łaziska",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T16:00:00.000Z"
-      },
-      "id": "3748999a51ec34b4f307613dec46271b",
-      "stadium": {
-        "address": "Głowaczów",
-        "venue": "Stadion w Głowaczowie",
-        "geo": {
-          "latitude": 51.6199227,
-          "longitude": 21.3247103,
-          "name": "Stadion w Głowaczowie, Głowaczów, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Zwolenianka Zwoleń",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Chomentów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "750ba154d92337a5b78746a261b858d0",
-      "stadium": {
-        "address": "Zwoleń",
-        "venue": "Boisko Zwolenianka Zwoleń",
-        "geo": {
-          "latitude": 51.3622014,
-          "longitude": 21.5862383,
-          "name": "Boisko Zwolenianka, Zwoleń, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Skaryszewianka Skaryszew",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Chomentów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "b8ca051cfb9486710ac467ccd8818b4e",
-      "stadium": {
-        "address": "Skaryszew",
-        "venue": "Stadion Skaryszewianka Skaryszew",
-        "geo": {
-          "latitude": 51.3135679,
-          "longitude": 21.2559583,
-          "name": "Stadion Skaryszewianka, Skaryszew, mazowieckie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Zawisza Sienno",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Zwolenianka Zwoleń",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "d9f818fff0c809b673d825e3a8179066",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
-        "name": "Iskra Gózd",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Proch II Pionki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "57178e653b82b229580358809f861905",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Radom I)"
-      },
-      "homeTeam": {
         "name": "Akcja I Jastrzębia",
         "crest": null
       },
@@ -307,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T13:00:00.000Z"
       },
       "id": "b99d2debf41ce8a0f7ee551263214d24",
       "stadium": {
@@ -332,6 +38,29 @@
         "name": "Klasa A (Radom I)"
       },
       "homeTeam": {
+        "name": "Zawisza Sienno",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Zwolenianka Zwoleń",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "id": "d9f818fff0c809b673d825e3a8179066",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
         "name": "Postęp Łaziska",
         "crest": null
       },
@@ -340,14 +69,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "4a5552480326e62905a6ac79af307917",
       "stadium": {
@@ -365,33 +92,23 @@
         "name": "Klasa A (Radom I)"
       },
       "homeTeam": {
-        "name": "KS Magnuszew",
+        "name": "Iskra Gózd",
         "crest": null
       },
       "awayTeam": {
-        "name": "Legion Głowaczów",
+        "name": "Proch II Pionki",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
-      "id": "051d41e5f1fd4bd08c9d09ccd8746c42",
-      "stadium": {
-        "address": "Magnuszew",
-        "venue": "Boisko LZS Magnuszew",
-        "geo": {
-          "latitude": 51.758404,
-          "longitude": 21.3866844,
-          "name": "Ludowy Zespół Sportowy Magnuszew, Magnuszew, mazowieckie, Polska"
-        }
-      }
+      "id": "57178e653b82b229580358809f861905",
+      "stadium": null
     },
     {
       "competition": {
@@ -406,14 +123,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T11:00:00.000Z"
       },
       "id": "cfa114633242ec1596478fe8012c3e5e",
       "stadium": {
@@ -423,6 +138,68 @@
           "latitude": 51.2512506,
           "longitude": 20.9452819,
           "name": "Klub Sportowy Jastrząb Szydłowiec, Jastrząb, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "Skaryszewianka Skaryszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "KS Chomentów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T15:00:00.000Z"
+      },
+      "id": "b8ca051cfb9486710ac467ccd8818b4e",
+      "stadium": {
+        "address": "Skaryszew",
+        "venue": "Stadion Skaryszewianka Skaryszew",
+        "geo": {
+          "latitude": 51.3135679,
+          "longitude": 21.2559583,
+          "name": "Stadion Skaryszewianka, Skaryszew, mazowieckie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Radom I)"
+      },
+      "homeTeam": {
+        "name": "KS Magnuszew",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Legion Głowaczów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "051d41e5f1fd4bd08c9d09ccd8746c42",
+      "stadium": {
+        "address": "Magnuszew",
+        "venue": "Boisko LZS Magnuszew",
+        "geo": {
+          "latitude": 51.758404,
+          "longitude": 21.3866844,
+          "name": "Ludowy Zespół Sportowy Magnuszew, Magnuszew, mazowieckie, Polska"
         }
       }
     },

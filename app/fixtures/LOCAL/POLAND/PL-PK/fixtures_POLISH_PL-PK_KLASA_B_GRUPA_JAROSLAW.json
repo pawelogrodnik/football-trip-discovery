@@ -1,247 +1,12 @@
 {
   "competitionName": "Klasa B (Jaroslaw)",
-  "count": 56,
+  "count": 49,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Jaroslaw)"
       },
       "homeTeam": {
-        "name": "LKS Munina",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tęcza Jankowice",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "f9b95a3f5a254f1f737e112ecc3944c9",
-      "stadium": {
-        "address": "Munina",
-        "venue": "Boisko LKS Munina",
-        "geo": {
-          "latitude": 50.0011783,
-          "longitude": 22.7338565,
-          "name": "Boisko LKS Munina, Munina, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
-        "name": "Szkło Młyny",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Olimpia Boratyn",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "94981a521ffad726ea3fce8b90c86798",
-      "stadium": null,
-      "stadiumHint": "Stadion w Młynach"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
-        "name": "Wietlin",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Strażak Sośnica",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "c33843b851d51c8aec709fd65ad6d129",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
-        "name": "Victoria Kidałowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "KS Węgierka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "9fb13183a9b2b62a7cb0d7929fc39862",
-      "stadium": {
-        "address": "Kidałowice",
-        "venue": "Boisko Victoria Kidałowice",
-        "geo": {
-          "latitude": 49.9876096,
-          "longitude": 22.6815874,
-          "name": "Boisko Victoria, Kidałowice, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
-        "name": "Przedmieście Jarosław",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sanovia Michałówka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T13:00:00.000Z"
-      },
-      "id": "fdae73ea83716a59bbcaf5eaea60f681",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
-        "name": "LKS Duńkowice",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Wesoła Zadąbrowie",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "82d9c851de31766848639f0741c640fb",
-      "stadium": {
-        "address": "Duńkowice",
-        "venue": "Boisko LKS Duńkowice",
-        "geo": {
-          "latitude": 49.9602266,
-          "longitude": 22.8911243,
-          "name": "Boisko LKS Duńkowice, Duńkowice, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Duńkowicach"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
-        "name": "Syrenka Roźwienica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Łazowianka Łazy (k. Jarosławia)",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T15:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T15:30:00.000Z"
-      },
-      "id": "702a91a1258585f9d27f981482ece331",
-      "stadium": {
-        "address": "Roźwienica",
-        "venue": "Boisko Syrenka Roźwienica",
-        "geo": {
-          "latitude": 49.9525546,
-          "longitude": 22.5955265,
-          "name": "Boisko Syrenka, Roźwienica, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
-        "name": "Wesoła Zadąbrowie",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Munina",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T11:00:00.000Z"
-      },
-      "id": "d8603ae7fff585a234cc1f5e501ee772",
-      "stadium": {
-        "address": "Zadąbrowie",
-        "venue": "Boisko Wesoła Zadąbrowie",
-        "geo": {
-          "latitude": 49.8923306,
-          "longitude": 22.8226586,
-          "name": "Boisko Wesoła, Zadąbrowie, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Zadąbrowiu"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
         "name": "Łazowianka Łazy (k. Jarosławia)",
         "crest": null
       },
@@ -250,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "id": "9e2c189e52ad2870abb8e7760bbb92bd",
       "stadium": {
@@ -275,6 +38,37 @@
         "name": "Klasa B (Jaroslaw)"
       },
       "homeTeam": {
+        "name": "Wesoła Zadąbrowie",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "LKS Munina",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
+      },
+      "id": "d8603ae7fff585a234cc1f5e501ee772",
+      "stadium": {
+        "address": "Zadąbrowie",
+        "venue": "Boisko Wesoła Zadąbrowie",
+        "geo": {
+          "latitude": 49.8923306,
+          "longitude": 22.8226586,
+          "name": "Boisko Wesoła, Zadąbrowie, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
         "name": "Sanovia Michałówka",
         "crest": null
       },
@@ -283,14 +77,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "e40f9b51046dda7084ba2e74e6c2fe2b",
       "stadium": {
@@ -308,39 +100,6 @@
         "name": "Klasa B (Jaroslaw)"
       },
       "homeTeam": {
-        "name": "KS Węgierka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Przedmieście Jarosław",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "cd04aa9f1afdcd3e1af96e21df3e3769",
-      "stadium": {
-        "address": "Węgierka",
-        "venue": "Boisko KS Węgierka",
-        "geo": {
-          "latitude": 49.8814211,
-          "longitude": 22.5630825,
-          "name": "Boisko KS Węgierka, Węgierka, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Jaroslaw)"
-      },
-      "homeTeam": {
         "name": "Strażak Sośnica",
         "crest": null
       },
@@ -349,14 +108,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "419135618e8bd3e110526a3154fc4511",
       "stadium": {
@@ -382,14 +139,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "ae33d84b77eb51eaf4c9eba375e3d60b",
       "stadium": {
@@ -415,14 +170,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T13:00:00.000Z"
       },
       "id": "5263debf1cebb86afd0fce7124bda507",
       "stadium": {
@@ -432,6 +185,37 @@
           "latitude": 49.9557562,
           "longitude": 22.6539443,
           "name": "Boisko sportowe, Jankowice, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Jaroslaw)"
+      },
+      "homeTeam": {
+        "name": "KS Węgierka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Przedmieście Jarosław",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "cd04aa9f1afdcd3e1af96e21df3e3769",
+      "stadium": {
+        "address": "Węgierka",
+        "venue": "Boisko KS Węgierka",
+        "geo": {
+          "latitude": 49.8814211,
+          "longitude": 22.5630825,
+          "name": "Boisko KS Węgierka, Węgierka, podkarpackie, Polska"
         }
       }
     },
@@ -450,16 +234,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "6ec88d65c4ca46bca3109e8c61c2a684",
       "stadium": {
@@ -470,8 +250,7 @@
           "longitude": 22.7338565,
           "name": "Boisko LKS Munina, Munina, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Muninie"
+      }
     },
     {
       "competition": {
@@ -604,16 +383,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "19df4ff4ea4e663b1adfb2a4e364b648",
       "stadium": {
@@ -624,8 +399,7 @@
           "longitude": 22.8911243,
           "name": "Boisko LKS Duńkowice, Duńkowice, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Duńkowicach"
+      }
     },
     {
       "competition": {
@@ -708,16 +482,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2ea2f1c111d5ea27307f9689484ead50",
       "stadium": {
@@ -728,8 +498,7 @@
           "longitude": 22.8800883,
           "name": "Boisko Sanovia, Michałówka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Michałówce"
+      }
     },
     {
       "competition": {
@@ -746,16 +515,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "e6824c5fc6b61740db962e903cfb99d9",
       "stadium": {
@@ -766,8 +531,7 @@
           "longitude": 22.5630825,
           "name": "Boisko KS Węgierka, Węgierka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Węgierce"
+      }
     },
     {
       "competition": {
@@ -1032,16 +796,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "0cab465cfd03b4971f21a66ed6153b75",
       "stadium": {
@@ -1052,8 +812,7 @@
           "longitude": 22.8911243,
           "name": "Boisko LKS Duńkowice, Duńkowice, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Duńkowicach"
+      }
     },
     {
       "competition": {
@@ -1070,16 +829,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "3e19ab2657e9cf6c0cb3d17543f6d59e",
       "stadium": {
@@ -1090,8 +845,7 @@
           "longitude": 22.8226586,
           "name": "Boisko Wesoła, Zadąbrowie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Zadąbrowiu"
+      }
     },
     {
       "competition": {
@@ -1141,16 +895,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c08238ffcd60204dfce283acc33a1204",
       "stadium": {
@@ -1161,8 +911,7 @@
           "longitude": 22.8800883,
           "name": "Boisko Sanovia, Michałówka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Michałówce"
+      }
     },
     {
       "competition": {
@@ -1212,16 +961,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "cd0790d1ec78f245786138efb66105aa",
       "stadium": {
@@ -1232,8 +977,7 @@
           "longitude": 22.8707786,
           "name": "LKS Strażak Sośnica, Sośnica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Sośnicy"
+      }
     },
     {
       "competition": {
@@ -1250,16 +994,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c940fbecd09b90ef0ff383a2b612b036",
       "stadium": {
@@ -1270,8 +1010,7 @@
           "longitude": 22.6681121,
           "name": "Boisko Olimpia, Boratyn, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Dobkowicach"
+      }
     },
     {
       "competition": {
@@ -1495,16 +1234,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "17988d8959bd21c82a81f47fc311351f",
       "stadium": {
@@ -1515,8 +1250,7 @@
           "longitude": 22.8226586,
           "name": "Boisko Wesoła, Zadąbrowie, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Zadąbrowiu"
+      }
     },
     {
       "competition": {
@@ -1566,16 +1300,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "1acd56552cdbdde3bc6a640db3350a3d",
       "stadium": {
@@ -1586,8 +1316,7 @@
           "longitude": 22.8800883,
           "name": "Boisko Sanovia, Michałówka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Michałówce"
+      }
     },
     {
       "competition": {
@@ -1603,14 +1332,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "32b8e7a95c50eb23e462e3ac6d3cfe7b",
       "stadium": {
@@ -1621,8 +1347,7 @@
           "longitude": 22.5630825,
           "name": "Boisko KS Węgierka, Węgierka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Węgierce"
+      }
     },
     {
       "competition": {
@@ -1638,14 +1363,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "5aa8c65e7527534e252955fe4d44b15b",
       "stadium": {
@@ -1656,8 +1378,7 @@
           "longitude": 22.8707786,
           "name": "LKS Strażak Sośnica, Sośnica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Sośnicy"
+      }
     },
     {
       "competition": {
@@ -1735,18 +1456,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b794e6e0524b767e2ce3d273b46d5a12",
-      "stadium": null,
-      "stadiumHint": "Stadion w Młynach"
+      "stadium": null
     },
     {
       "competition": {

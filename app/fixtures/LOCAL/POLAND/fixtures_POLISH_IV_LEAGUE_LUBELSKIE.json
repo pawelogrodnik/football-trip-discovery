@@ -1,401 +1,12 @@
 {
   "competitionName": "IV Liga Lubelska",
-  "count": 72,
+  "count": 64,
   "matches": [
     {
       "competition": {
         "name": "IV Liga Lubelska"
       },
       "homeTeam": {
-        "name": "Bug Hanna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Powiślak Końskowola",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T12:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T12:00:00.000Z"
-      },
-      "id": "d2240a4bd53959ded004a33380988541",
-      "stadium": {
-        "venue": "Stadion Gminny w Hannie",
-        "address": "Dworska 16, Hanna",
-        "geo": {
-          "latitude": 51.7249,
-          "longitude": 23.49844,
-          "name": "16, Dworska, Rynek, Hanna, gmina Hanna, powiat włodawski, województwo lubelskie, 22-220, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Orlęta Łuków",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orlęta Radzyń Podlaski",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:00:00.000Z"
-      },
-      "id": "d061f68afa2413ca4a03802dcaf99886",
-      "stadium": {
-        "venue": "Stadion Miejski w Łukowie",
-        "address": "Rogalińskiego 3, Łuków",
-        "geo": {
-          "latitude": 51.9241662,
-          "longitude": 22.3806721,
-          "name": "Szpital Powiatowy w Łukowie im. św. Tadeusza (SPZOZ), 3, Doktora Andrzeja Rogalińskiego, Osiedle Unitów Podlaskich, Łuków, powiat łukowski, województwo lubelskie, 21-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Janowianka Janów Lubelski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lublinianka Lublin",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "id": "71326393c4a4bc062909427bb7d30109",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Świdniczanka Świdnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "MKS Ryki",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:00:00.000Z"
-      },
-      "id": "cd2bd971cab0fd65209f514f5d26c440",
-      "stadium": {
-        "venue": "Stadion KS Świdniczanka",
-        "address": "Turystyczna 1, Świdnik",
-        "geo": {
-          "latitude": 51.2353934,
-          "longitude": 22.7146941,
-          "name": "Informacja Turystyczna, 1, Króla Jana III Sobieskiego, Świdnik, gmina Mełgiew, powiat świdnicki, województwo lubelskie, 20-045, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Granit Bychawa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Victoria Łukowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T15:30:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T15:30:00.000Z"
-      },
-      "id": "274fe43fd6bd85473811ffeed2dcd876",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Tur Milejów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Górnik II Łęczna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T19:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T19:00:00.000Z"
-      },
-      "id": "9a0a990c1d12210fdd392bafdf5c4757",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Łada 1945 Biłgoraj",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Avia II Świdnik",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Herb_Avii_%C5%9Awidnik_-_70-cio_lecie.svg"
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "5ea6eba77da5f013bece11ffc28c16b6",
-      "stadium": {
-        "venue": "Stadion OSiR Biłgoraj",
-        "address": "Targowa 15, Biłgoraj",
-        "geo": {
-          "latitude": 50.5463322,
-          "longitude": 22.7166497,
-          "name": "15, Targowa, Bojary, Biłgoraj, powiat biłgorajski, województwo lubelskie, 23-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Tomasovia Tomaszów Lubelski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Lewart Lubartów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "47b170a1f7402d2f8b94deca785b010c",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Avia II Świdnik",
-        "crest": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Herb_Avii_%C5%9Awidnik_-_70-cio_lecie.svg"
-      },
-      "awayTeam": {
-        "name": "Victoria Łukowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "7e50c557233783ab425f5eee8b602b9e",
-      "stadium": {
-        "address": "Sportowa 2, 21-040 Świdnik",
-        "venue": "Stadion Miejski MKS Avia świdnik",
-        "geo": {
-          "latitude": 51.22533691924313,
-          "longitude": 22.69327393160398,
-          "name": null
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Orlęta Radzyń Podlaski",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Granit Bychawa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "c03687c63e607a68ec8bc3c7287f7fe4",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Powiślak Końskowola",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Orlęta Łuków",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "b13f979c1f177b74dd131a4818a5db71",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Lewart Lubartów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Bug Hanna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "da662e61f432bdc449c75580a6fddf5a",
-      "stadium": {
-        "venue": "Stadion MOSiR Lubartów",
-        "address": "Parkowa 10, Lubartów",
-        "geo": {
-          "latitude": 51.4670344,
-          "longitude": 22.607922,
-          "name": "Parkowa, Zagrody Lubartowskie, Lubartów, powiat lubartowski, województwo lubelskie, 21-100, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "Górnik II Łęczna",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tomasovia Tomaszów Lubelski",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "fc6c8ca50737b7b652eb7e3e663eb045",
-      "stadium": {
-        "address": "al. Jana Pawła II 13 Łęczna 21010",
-        "venue": "Stadion Górnik Łęczna",
-        "geo": {
-          "latitude": 51.30171514699003,
-          "longitude": 22.876787361148388
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
-        "name": "MKS Ryki",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Tur Milejów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "098dc954076fd6fc4165f003ef78f907",
-      "stadium": null
-    },
-    {
-      "competition": {
-        "name": "IV Liga Lubelska"
-      },
-      "homeTeam": {
         "name": "Lublinianka Lublin",
         "crest": null
       },
@@ -404,14 +15,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-25T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-25",
+        "dateTime": "2026-09-25T16:00:00.000Z"
       },
       "id": "52278b1e53f9a88fdbb2a6df3393f16b",
       "stadium": {
@@ -429,6 +38,136 @@
         "name": "IV Liga Lubelska"
       },
       "homeTeam": {
+        "name": "Avia II Świdnik",
+        "crest": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Herb_Avii_%C5%9Awidnik_-_70-cio_lecie.svg"
+      },
+      "awayTeam": {
+        "name": "Victoria Łukowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
+      },
+      "id": "7e50c557233783ab425f5eee8b602b9e",
+      "stadium": {
+        "address": "Sportowa 2, 21-040 Świdnik",
+        "venue": "Stadion Miejski MKS Avia świdnik",
+        "geo": {
+          "latitude": 51.22533691924313,
+          "longitude": 22.69327393160398,
+          "name": null
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubelska"
+      },
+      "homeTeam": {
+        "name": "Powiślak Końskowola",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Orlęta Łuków",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T15:00:00.000Z"
+      },
+      "id": "b13f979c1f177b74dd131a4818a5db71",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubelska"
+      },
+      "homeTeam": {
+        "name": "Orlęta Radzyń Podlaski",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Granit Bychawa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "id": "c03687c63e607a68ec8bc3c7287f7fe4",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubelska"
+      },
+      "homeTeam": {
+        "name": "MKS Ryki",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tur Milejów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:00:00.000Z"
+      },
+      "id": "098dc954076fd6fc4165f003ef78f907",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubelska"
+      },
+      "homeTeam": {
+        "name": "Górnik II Łęczna",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Tomasovia Tomaszów Lubelski",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-26T18:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T18:00:00.000Z"
+      },
+      "id": "fc6c8ca50737b7b652eb7e3e663eb045",
+      "stadium": {
+        "address": "al. Jana Pawła II 13 Łęczna 21010",
+        "venue": "Stadion Górnik Łęczna",
+        "geo": {
+          "latitude": 51.30171514699003,
+          "longitude": 22.876787361148388
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubelska"
+      },
+      "homeTeam": {
         "name": "Łada 1945 Biłgoraj",
         "crest": null
       },
@@ -437,14 +176,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-27T15:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T15:30:00.000Z"
       },
       "id": "4fcd31cb10d636fad9d6cb0277133bda",
       "stadium": {
@@ -454,6 +191,37 @@
           "latitude": 50.5463322,
           "longitude": 22.7166497,
           "name": "15, Targowa, Bojary, Biłgoraj, powiat biłgorajski, województwo lubelskie, 23-400, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "IV Liga Lubelska"
+      },
+      "homeTeam": {
+        "name": "Lewart Lubartów",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Bug Hanna",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T17:30:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T17:30:00.000Z"
+      },
+      "id": "da662e61f432bdc449c75580a6fddf5a",
+      "stadium": {
+        "venue": "Stadion MOSiR Lubartów",
+        "address": "Parkowa 10, Lubartów",
+        "geo": {
+          "latitude": 51.4670344,
+          "longitude": 22.607922,
+          "name": "Parkowa, Zagrody Lubartowskie, Lubartów, powiat lubartowski, województwo lubelskie, 21-100, Polska"
         }
       }
     },

@@ -1,260 +1,12 @@
 {
   "competitionName": "Klasa A (Stalowa Wola II)",
-  "count": 56,
+  "count": 50,
   "matches": [
     {
       "competition": {
         "name": "Klasa A (Stalowa Wola II)"
       },
       "homeTeam": {
-        "name": "Jodła Przychojec",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "GKS Groble",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:00:00.000Z"
-      },
-      "id": "3eb7bb4892838502d240e869887ab715",
-      "stadium": {
-        "address": "Przychojec",
-        "venue": "Boisko Jodły Przychojec",
-        "geo": {
-          "latitude": 50.3030416,
-          "longitude": 22.3946482,
-          "name": "Jodła Przychojec, Przychojec, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Przychojcu"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "Czarni Sójkowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Retman Ulanów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:00:00.000Z"
-      },
-      "id": "60508996625905f8a208b7615a85eb25",
-      "stadium": null,
-      "stadiumHint": "Sójkowa 1 , 37-430 Jeżowe"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "Sokół Hucisko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Milenium Bieliny",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T14:30:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:30:00.000Z"
-      },
-      "id": "045ca8aafd26dd38ad42c672cfd92e8b",
-      "stadium": {
-        "address": "Hucisko",
-        "venue": "Stadion KS Sokół Hucisko",
-        "geo": {
-          "latitude": 50.4486829,
-          "longitude": 22.3951579,
-          "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Hucisku"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "Pogoń II Leżajsk",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LZS Podwolina",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T11:00:00.000Z"
-      },
-      "id": "94013a65f668a029a1d3a1e0c3a9aeb8",
-      "stadium": {
-        "address": "Sportowa 1, Leżajsk",
-        "venue": "Stadion Miejski",
-        "geo": {
-          "latitude": 50.2599586,
-          "longitude": 22.42866,
-          "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "Victoria Giedlarowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Azalia Wola Zarczycka",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "178ee4c056f1bca574e12579e321589b",
-      "stadium": {
-        "address": "Giedlarowa",
-        "venue": "Boisko Victorii Giedlarowa",
-        "geo": {
-          "latitude": 50.2307858,
-          "longitude": 22.3980861,
-          "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Giedlarowej"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "Rotunda Krzeszów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "LKS Brzyska Wola",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "d185a61870a4d755d4f945ac7d5946fa",
-      "stadium": null,
-      "stadiumHint": "Stadion w Krzeszowie"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "LKS Brzyska Wola",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogoń II Leżajsk",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
-      },
-      "id": "3d205c6c272b11204423dc4af4c6c1df",
-      "stadium": null,
-      "stadiumHint": "Stadion w Brzyskiej Woli"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "Azalia Wola Zarczycka",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Rotunda Krzeszów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
-      },
-      "id": "7fee6b14166d770fff08e1e80d694c88",
-      "stadium": {
-        "address": "Wola Zarczycka 129",
-        "venue": "Boisko Azalii",
-        "geo": {
-          "latitude": 50.2880832,
-          "longitude": 22.2438334,
-          "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Woli Zarczyckiej"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
         "name": "Retman Ulanów",
         "crest": null
       },
@@ -263,22 +15,15 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "26f43e185336ca3d6ee9c2c05c819807",
-      "stadium": null,
-      "stadiumHint": "Stadion w Ulanowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -293,18 +38,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "095a6af3d8505a8934520ddf63c6e5de",
       "stadium": {
@@ -315,46 +54,7 @@
           "longitude": 22.293231,
           "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Bielinach"
-    },
-    {
-      "competition": {
-        "name": "Klasa A (Stalowa Wola II)"
-      },
-      "homeTeam": {
-        "name": "GKS Groble",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Hucisko",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
-      },
-      "id": "8dbbc03435a231bf209a0ab0f8c34c23",
-      "stadium": {
-        "address": "Groble 56",
-        "venue": "Boisko GKS Groble",
-        "geo": {
-          "latitude": 50.3698026,
-          "longitude": 22.224058,
-          "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion GKS Groble"
+      }
     },
     {
       "competition": {
@@ -369,22 +69,15 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "5b264b7d3ea94a32f81344a97e9b3e08",
-      "stadium": null,
-      "stadiumHint": "Boisko szkolne (Hucisko 76a)"
+      "stadium": null
     },
     {
       "competition": {
@@ -399,14 +92,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T16:30:00.000Z"
       },
       "id": "3560265e9b6ff6a0a85cc8dee15764d1",
       "stadium": {
@@ -424,8 +115,93 @@
         "name": "Klasa A (Stalowa Wola II)"
       },
       "homeTeam": {
-        "name": "Pogoń II Leżajsk",
+        "name": "LKS Brzyska Wola",
         "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogoń II Leżajsk",
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/PogonLezajsk.png"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "3d205c6c272b11204423dc4af4c6c1df",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Stalowa Wola II)"
+      },
+      "homeTeam": {
+        "name": "Azalia Wola Zarczycka",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Rotunda Krzeszów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "7fee6b14166d770fff08e1e80d694c88",
+      "stadium": {
+        "address": "Wola Zarczycka 129",
+        "venue": "Boisko Azalii",
+        "geo": {
+          "latitude": 50.2880832,
+          "longitude": 22.2438334,
+          "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Stalowa Wola II)"
+      },
+      "homeTeam": {
+        "name": "GKS Groble",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sokół Hucisko",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "8dbbc03435a231bf209a0ab0f8c34c23",
+      "stadium": {
+        "address": "Groble 56",
+        "venue": "Boisko GKS Groble",
+        "geo": {
+          "latitude": 50.3698026,
+          "longitude": 22.224058,
+          "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
+        }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa A (Stalowa Wola II)"
+      },
+      "homeTeam": {
+        "name": "Pogoń II Leżajsk",
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/PogonLezajsk.png"
       },
       "awayTeam": {
         "name": "Górnovia Górno",
@@ -434,16 +210,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4cde15f21de0d6f851cb07e771f624f3",
       "stadium": {
@@ -454,8 +226,7 @@
           "longitude": 22.42866,
           "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Leżajsku"
+      }
     },
     {
       "competition": {
@@ -505,16 +276,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c2acbe42b14fc4404048f6cf9b86d0ff",
       "stadium": {
@@ -525,8 +292,7 @@
           "longitude": 22.3951579,
           "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Hucisku"
+      }
     },
     {
       "competition": {
@@ -543,20 +309,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "37ad296d33f095fdae713be2d0276b4b",
-      "stadium": null,
-      "stadiumHint": "Sójkowa 1 , 37-430 Jeżowe"
+      "stadium": null
     },
     {
       "competition": {
@@ -573,16 +334,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2fae6e7ed7f7f93f1b8d1ccf1ac6c0b0",
       "stadium": {
@@ -593,8 +350,7 @@
           "longitude": 22.3980861,
           "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Giedlarowej"
+      }
     },
     {
       "competition": {
@@ -611,20 +367,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "62ebb1e497eece8d571181bbbe2ca2f6",
-      "stadium": null,
-      "stadiumHint": "Stadion w Krzeszowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -641,20 +392,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "3120178bb6f4a36bf5af0ad3b1bbfa64",
-      "stadium": null,
-      "stadiumHint": "Stadion w Brzyskiej Woli"
+      "stadium": null
     },
     {
       "competition": {
@@ -697,21 +443,17 @@
       },
       "awayTeam": {
         "name": "Pogoń II Leżajsk",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/PogonLezajsk.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "7c9a3dcf67beae847ef4c9d98e2dd3fc",
       "stadium": {
@@ -722,8 +464,7 @@
           "longitude": 22.2438334,
           "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Woli Zarczyckiej"
+      }
     },
     {
       "competition": {
@@ -740,20 +481,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "3a3f429a4cbef7eeb77ff501af95e02c",
-      "stadium": null,
-      "stadiumHint": "Stadion w Ulanowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -770,16 +506,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "6840e96ca93ab1d0670d7691d3a0364d",
       "stadium": {
@@ -790,8 +522,7 @@
           "longitude": 22.293231,
           "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Bielinach"
+      }
     },
     {
       "competition": {
@@ -808,16 +539,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8c46b667750649a868ff5aa6e16fba52",
       "stadium": {
@@ -828,8 +555,7 @@
           "longitude": 22.224058,
           "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion GKS Groble"
+      }
     },
     {
       "competition": {
@@ -846,20 +572,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b035c8fb9e0c87d7a11b880275c5685d",
-      "stadium": null,
-      "stadiumHint": "Stadion Grabniaka w Hucisku"
+      "stadium": null
     },
     {
       "competition": {
@@ -909,16 +630,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8845e7183409d2f95a68fa0f9cfc43d6",
       "stadium": {
@@ -929,8 +646,7 @@
           "longitude": 22.1510883,
           "name": "WKS Górnovia Górno, Górno, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Górnie"
+      }
     },
     {
       "competition": {
@@ -938,7 +654,7 @@
       },
       "homeTeam": {
         "name": "Pogoń II Leżajsk",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/PogonLezajsk.png"
       },
       "awayTeam": {
         "name": "Jodła Przychojec",
@@ -947,16 +663,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4234f255923275463c6fce478c0f0fb8",
       "stadium": {
@@ -967,8 +679,7 @@
           "longitude": 22.42866,
           "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Leżajsku"
+      }
     },
     {
       "competition": {
@@ -985,16 +696,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4b631420d58dd43de007ed9da31a7266",
       "stadium": {
@@ -1005,8 +712,7 @@
           "longitude": 22.3951579,
           "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Hucisku"
+      }
     },
     {
       "competition": {
@@ -1048,16 +754,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b02b3965361874eaa87d6e6af89de939",
       "stadium": {
@@ -1068,8 +770,7 @@
           "longitude": 22.3980861,
           "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Giedlarowej"
+      }
     },
     {
       "competition": {
@@ -1086,20 +787,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "763bb7ec53f32858eef1159923623cac",
-      "stadium": null,
-      "stadiumHint": "Stadion w Krzeszowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1116,20 +812,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "249d20fb3a5ae8ab0cf378c0ec3ac6af",
-      "stadium": null,
-      "stadiumHint": "Stadion w Brzyskiej Woli"
+      "stadium": null
     },
     {
       "competition": {
@@ -1146,16 +837,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "367ce1813e052c21779b422a5c0e2c1b",
       "stadium": {
@@ -1166,8 +853,7 @@
           "longitude": 22.2438334,
           "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Woli Zarczyckiej"
+      }
     },
     {
       "competition": {
@@ -1179,25 +865,20 @@
       },
       "awayTeam": {
         "name": "Pogoń II Leżajsk",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/PogonLezajsk.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "d5b5e2259e22fd2cdd6cff1f03c5d854",
-      "stadium": null,
-      "stadiumHint": "Stadion w Ulanowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1214,16 +895,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "931660d7690f70c1146991650a257fe5",
       "stadium": {
@@ -1234,8 +911,7 @@
           "longitude": 22.293231,
           "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Bielinach"
+      }
     },
     {
       "competition": {
@@ -1252,16 +928,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "af8eda765740198aa09134bb4c84921b",
       "stadium": {
@@ -1272,8 +944,7 @@
           "longitude": 22.224058,
           "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion GKS Groble"
+      }
     },
     {
       "competition": {
@@ -1290,20 +961,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "578ffb40b633d7913c71273931761f92",
-      "stadium": null,
-      "stadiumHint": "Stadion Grabniaka w Hucisku"
+      "stadium": null
     },
     {
       "competition": {
@@ -1353,16 +1019,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "1249241a5cab3bf545c29fb24f7094d7",
       "stadium": {
@@ -1373,8 +1035,7 @@
           "longitude": 22.1510883,
           "name": "WKS Górnovia Górno, Górno, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Górnie"
+      }
     },
     {
       "competition": {
@@ -1391,16 +1052,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "df36efbe68dd4aeea5d56b1f2487f560",
       "stadium": {
@@ -1411,8 +1068,7 @@
           "longitude": 22.3946482,
           "name": "Jodła Przychojec, Przychojec, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Przychojcu"
+      }
     },
     {
       "competition": {
@@ -1420,7 +1076,7 @@
       },
       "homeTeam": {
         "name": "Pogoń II Leżajsk",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/PogonLezajsk.png"
       },
       "awayTeam": {
         "name": "Sokół Hucisko",
@@ -1428,14 +1084,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c84944b4c572c2142d09e63b54dd236e",
       "stadium": {
@@ -1446,8 +1099,7 @@
           "longitude": 22.42866,
           "name": "Stadion Miejski, Leżajsk, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Leżajsku"
+      }
     },
     {
       "competition": {
@@ -1463,18 +1115,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "5bc1dfdcae01c61486713a81074cccd6",
-      "stadium": null,
-      "stadiumHint": "Sójkowa 1 , 37-430 Jeżowe"
+      "stadium": null
     },
     {
       "competition": {
@@ -1490,14 +1138,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "9931c87130d273dd14c7b64f75a5881b",
       "stadium": {
@@ -1508,8 +1153,7 @@
           "longitude": 22.3980861,
           "name": "Boisko sportowe, Giedlarowa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Giedlarowej"
+      }
     },
     {
       "competition": {
@@ -1548,18 +1192,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "1b3973ede4fe6081dd4af6be5afb0f49",
-      "stadium": null,
-      "stadiumHint": "Stadion w Brzyskiej Woli"
+      "stadium": null
     },
     {
       "competition": {
@@ -1575,14 +1215,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "814e1e511af006de3abd0ce300089476",
       "stadium": {
@@ -1593,8 +1230,7 @@
           "longitude": 22.2438334,
           "name": "Boisko Azalii, Wola Zarczycka, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Woli Zarczyckiej"
+      }
     },
     {
       "competition": {
@@ -1610,18 +1246,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ecdab96654ce4c843abd2efb7c0abf60",
-      "stadium": null,
-      "stadiumHint": "Stadion w Ulanowie"
+      "stadium": null
     },
     {
       "competition": {
@@ -1633,21 +1265,17 @@
       },
       "awayTeam": {
         "name": "Pogoń II Leżajsk",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/PogonLezajsk.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "e85caf92426f5f4afc22ca9189386337",
       "stadium": {
@@ -1658,8 +1286,7 @@
           "longitude": 22.293231,
           "name": "Boisko Milenium Bieliny, Bieliny, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Bielinach"
+      }
     },
     {
       "competition": {
@@ -1676,16 +1303,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "325a219011a5adea490e446150a61158",
       "stadium": {
@@ -1696,8 +1319,7 @@
           "longitude": 22.224058,
           "name": "Boisko GKS Groble, Groble, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion GKS Groble"
+      }
     },
     {
       "competition": {
@@ -1714,20 +1336,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "62d6d1b3ba1d9f64b3960b154d4fbc68",
-      "stadium": null,
-      "stadiumHint": "Stadion Grabniaka w Hucisku"
+      "stadium": null
     },
     {
       "competition": {
@@ -1777,16 +1394,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "10cd0272926b4ce2a5a842ed2b24901d",
       "stadium": {
@@ -1797,8 +1410,7 @@
           "longitude": 22.1510883,
           "name": "WKS Górnovia Górno, Górno, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Górnie"
+      }
     },
     {
       "competition": {
@@ -1815,16 +1427,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "33591a7f315b8b37ce0608705c42f17a",
       "stadium": {
@@ -1835,8 +1443,7 @@
           "longitude": 22.3946482,
           "name": "Jodła Przychojec, Przychojec, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Przychojcu"
+      }
     },
     {
       "competition": {
@@ -1853,16 +1460,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "7cb2dbe48093fae7e9070e74f9fe1e63",
       "stadium": {
@@ -1873,8 +1476,7 @@
           "longitude": 22.3951579,
           "name": "Stadion szkolny, Hucisko, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Hucisku"
+      }
     }
   ]
 }

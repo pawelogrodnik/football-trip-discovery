@@ -1,179 +1,75 @@
 {
   "competitionName": "Klasa B (Rzeszow III - lancut)",
-  "count": 30,
+  "count": 27,
   "matches": [
     {
       "competition": {
         "name": "Klasa B (Rzeszow III - lancut)"
       },
       "homeTeam": {
-        "name": "Czarni Kraczkowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogórze Husów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T13:30:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T13:30:00.000Z"
-      },
-      "id": "fb781a8a6d1e1462bce5f62a937b6725",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kraczkowej"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
-        "name": "Orzeł Harta",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "HALO Hyżne",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T14:00:00.000Z"
-      },
-      "id": "20eca19d18837ea51808be2f922724a7",
-      "stadium": null,
-      "stadiumHint": "Bimber Arena w Harcie"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
-        "name": "Galicja Chmielnik",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Arka Albigowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T12:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T12:00:00.000Z"
-      },
-      "id": "198effa2e651be7623ff96bf4704d652",
-      "stadium": {
-        "address": "Chmielnik",
-        "venue": "Boisko Galicja Chmielnik",
-        "geo": {
-          "latitude": 49.9807309,
-          "longitude": 22.1281297,
-          "name": "Galicja Chmielnik, Chmielnik, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Chmielniku"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
-        "name": "HALO Hyżne",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Pogórze Husów",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
-      },
-      "id": "f26f72abad398476d2bd0b57092988a3",
-      "stadium": null,
-      "stadiumHint": "Stadion w Hyżnem"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
-        "name": "Arka Albigowa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Czarni Kraczkowa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T12:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-26",
-        "dateTime": "2026-09-26T12:00:00.000Z"
-      },
-      "id": "0f0bcc9d979efc626359ff47e5e6e026",
-      "stadium": null,
-      "stadiumHint": "Stadion w Albigowej"
-    },
-    {
-      "competition": {
-        "name": "Klasa B (Rzeszow III - lancut)"
-      },
-      "homeTeam": {
         "name": "Orzeł Harta",
         "crest": null
       },
       "awayTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "c06bccc47645da63c5f0c0cbf212a2fb",
-      "stadium": null,
-      "stadiumHint": "Bimber Arena w Harcie"
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow III - lancut)"
+      },
+      "homeTeam": {
+        "name": "Arka Albigowa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Czarni Kraczkowa",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T14:00:00.000Z"
+      },
+      "id": "0f0bcc9d979efc626359ff47e5e6e026",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa B (Rzeszow III - lancut)"
+      },
+      "homeTeam": {
+        "name": "HALO Hyżne",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Pogórze Husów",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "f26f72abad398476d2bd0b57092988a3",
+      "stadium": null
     },
     {
       "competition": {
@@ -181,7 +77,7 @@
       },
       "homeTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "awayTeam": {
         "name": "HALO Hyżne",
@@ -190,16 +86,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T15:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T15:00:00.000Z"
+        "time": "TBD"
       },
       "id": "fbb753dd6282e9588595929fbd4446a8",
       "stadium": {
@@ -210,8 +102,7 @@
           "longitude": 22.10174876783741,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Błażowej"
+      }
     },
     {
       "competition": {
@@ -228,16 +119,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "0bb96784cd0131736d97efe9bd6a0817",
       "stadium": {
@@ -248,8 +135,7 @@
           "longitude": 22.1281297,
           "name": "Galicja Chmielnik, Chmielnik, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Chmielniku"
+      }
     },
     {
       "competition": {
@@ -316,20 +202,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "45531d9d05fdccdef47065d254c59e08",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kraczkowej"
+      "stadium": null
     },
     {
       "competition": {
@@ -341,21 +222,17 @@
       },
       "awayTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "d7ac47c6e8e16f34cf2be8de3cfdd113",
       "stadium": {
@@ -366,8 +243,7 @@
           "longitude": 22.1281297,
           "name": "Galicja Chmielnik, Chmielnik, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Chmielniku"
+      }
     },
     {
       "competition": {
@@ -384,16 +260,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "cc0596363c11d373a8be9e876d89174b",
       "stadium": {
@@ -404,8 +276,7 @@
           "longitude": 22.1281297,
           "name": "Galicja Chmielnik, Chmielnik, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Chmielniku"
+      }
     },
     {
       "competition": {
@@ -413,7 +284,7 @@
       },
       "homeTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "awayTeam": {
         "name": "Czarni Kraczkowa",
@@ -422,16 +293,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T15:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T15:00:00.000Z"
+        "time": "TBD"
       },
       "id": "080a47e7eee95fdda19482ca6e433418",
       "stadium": {
@@ -442,8 +309,7 @@
           "longitude": 22.10174876783741,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Błażowej"
+      }
     },
     {
       "competition": {
@@ -505,7 +371,7 @@
       },
       "awayTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "schedule": {
         "status": "date-window",
@@ -535,20 +401,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "fe8983fdfe0afc5b0f78070e6851c52c",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kraczkowej"
+      "stadium": null
     },
     {
       "competition": {
@@ -564,18 +425,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T14:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "5aea79bc8ab7f08a26a6506f5a00f012",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kraczkowej"
+      "stadium": null
     },
     {
       "competition": {
@@ -591,14 +448,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "57a25503041db6146f6f3f4c0b50e6a6",
       "stadium": {
@@ -609,8 +463,7 @@
           "longitude": 22.1281297,
           "name": "Galicja Chmielnik, Chmielnik, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Chmielniku"
+      }
     },
     {
       "competition": {
@@ -618,7 +471,7 @@
       },
       "homeTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "awayTeam": {
         "name": "Arka Albigowa",
@@ -626,14 +479,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T16:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T16:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a697e1e5b769d94f17a6d10c49562ad1",
       "stadium": {
@@ -644,8 +494,7 @@
           "longitude": 22.10174876783741,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Błażowej"
+      }
     },
     {
       "competition": {
@@ -759,18 +608,14 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T10:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T10:00:00.000Z"
+        "time": "TBD"
       },
       "id": "9599531700626d5aa99817702a9fc22c",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kraczkowej"
+      "stadium": null
     },
     {
       "competition": {
@@ -778,7 +623,7 @@
       },
       "homeTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "awayTeam": {
         "name": "Orzeł Harta",
@@ -786,14 +631,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-11-11",
-        "dateTime": "2026-11-11T18:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-11-11"
       },
       "date": {
         "date": "2026-11-11",
-        "time": "TBD",
-        "dateTime": "2026-11-11T18:00:00.000Z"
+        "time": "TBD"
       },
       "id": "ebb9d7210138ec241bde40250dffef7a",
       "stadium": {
@@ -804,8 +646,7 @@
           "longitude": 22.10174876783741,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Błażowej"
+      }
     },
     {
       "competition": {
@@ -817,7 +658,7 @@
       },
       "awayTeam": {
         "name": "Błażowianka II Błażowa",
-        "crest": null
+        "crest": "https://bazaherbow.pl/wp-content/uploads/2021/08/BlazowiankaBlazowa.png"
       },
       "schedule": {
         "status": "date-window",

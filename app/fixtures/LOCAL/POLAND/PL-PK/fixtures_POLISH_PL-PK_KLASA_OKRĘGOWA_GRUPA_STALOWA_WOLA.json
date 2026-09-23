@@ -1,224 +1,28 @@
 {
   "competitionName": "Klasa okręgowa (Stalowa Wola)",
-  "count": 72,
+  "count": 64,
   "matches": [
     {
       "competition": {
         "name": "Klasa okręgowa (Stalowa Wola)"
       },
       "homeTeam": {
-        "name": "ŁKS Łowisko",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Czarni Lipa",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-19T12:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-19",
-        "dateTime": "2026-09-19T12:00:00.000Z"
-      },
-      "id": "631c163f8492725868e4a4988e4ce478",
-      "stadium": {
-        "address": null,
-        "venue": "Łowisko. Łowiski Klub Sportowy",
-        "geo": {
-          "latitude": 50.30662019072852,
-          "longitude": 22.18999099233271,
-          "name": null
-        }
-      },
-      "stadiumHint": "Stadion w Łowisku"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Siarka II Tarnobrzeg",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sparta Jeżowe",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T09:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T09:00:00.000Z"
-      },
-      "id": "0e184d20c9132f447fff82b4e03e982b",
-      "stadium": {
-        "address": "Aleja Niepodległości 2 Tarnobrzeg 39-400",
-        "venue": null,
-        "geo": {
-          "latitude": 50.5672776,
-          "longitude": 21.6671497,
-          "name": "3/2, Aleja Niepodległości, Przywiśle, Tarnobrzeg, województwo podkarpackie, 39-400, Polska"
-        }
-      },
-      "stadiumHint": "Boisko „Zwierzyniec” w Tarnobrzegu"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Słowianin Grębów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sokół Kamień",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "3c24df30d243f371dfee3d057f712abb",
-      "stadium": {
-        "address": "Grębów",
-        "venue": "Boisko Słowianin Grębów",
-        "geo": {
-          "latitude": 50.5642465,
-          "longitude": 21.8809014,
-          "name": "Słowianin Grębów, Grębów, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion Gminny w Grębowie"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Dolina-Tanew Wólka Tanewska",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Stal Nowa Dęba",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
-      },
-      "id": "e34d82d295bf6797e1bccaa86b26a4c9",
-      "stadium": {
-        "address": "Wólka Tanewska",
-        "venue": "Boisko Dolina-Tanew",
-        "geo": {
-          "latitude": 50.4985772,
-          "longitude": 22.256099,
-          "name": "Boisko Dolina-Tanew, Wólka Tanewska, podkarpackie, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Stal Gorzyce",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Unia Nowa Sarzyna",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "8a58efd143a1336c8c480846ab78d7bc",
-      "stadium": {
-        "address": null,
-        "venue": "Zakładowy Klub Sportowy Stal Gorzyce",
-        "geo": {
-          "latitude": 50.664992375755865,
-          "longitude": 21.840763468375464,
-          "name": null
-        }
-      },
-      "stadiumHint": "Józefa Piłsudskiego 30 , 39-432 Gorzyce"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Olimpia Pysznica",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Łęg Stany",
-        "crest": null
-      },
-      "schedule": {
-        "status": "confirmed",
-        "dateTime": "2026-09-20T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T14:00:00.000Z"
-      },
-      "id": "edb2c9c9dc73c3b23da5cbc35a2c6a9e",
-      "stadium": {
-        "address": "Pysznica",
-        "venue": "Boisko Olimpia Pysznica",
-        "geo": {
-          "latitude": 50.5698229,
-          "longitude": 22.1266723,
-          "name": "Boisko Olimpia, Pysznica, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Pysznicy"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Podlesianka Kamień",
-        "crest": null
-      },
-      "awayTeam": {
         "name": "LZS Ździary",
         "crest": null
       },
+      "awayTeam": {
+        "name": "Stal II Stalowa Wola",
+        "crest": null
+      },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
-      "id": "39b7110e5570c3bf001ac0be4df5ab5d",
+      "id": "833cb83cf4ad950a5a83fb9359e7c640",
       "stadium": null
     },
     {
@@ -226,99 +30,23 @@
         "name": "Klasa okręgowa (Stalowa Wola)"
       },
       "homeTeam": {
-        "name": "Stal II Stalowa Wola",
+        "name": "Łęg Stany",
         "crest": null
       },
       "awayTeam": {
-        "name": "LZS Kotowa Wola",
+        "name": "Podlesianka Kamień",
         "crest": null
       },
       "schedule": {
         "status": "confirmed",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
       "date": {
-        "date": "2026-09-20",
-        "dateTime": "2026-09-20T16:00:00.000Z"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T11:00:00.000Z"
       },
-      "id": "316a3392dd17a800f7da9104c516a980",
-      "stadium": {
-        "address": "Hutnicza 15 Stalowa Wola 37-450",
-        "venue": "Stadion Stali Stalowa Wola",
-        "geo": {
-          "latitude": 50.56164901390054,
-          "longitude": 22.053281125703503,
-          "name": "Stadion GBS Gorzów im. Edwarda Jancarza, 55, Kwiatowa, Zamoście, Gorzów Wielkopolski, województwo lubuskie, 66-400, Polska"
-        }
-      }
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Sokół Kamień",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Sparta Jeżowe",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
-      },
-      "id": "e9bd883085f465b045b8d35878fbf65b",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kamieniu"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Czarni Lipa",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Siarka II Tarnobrzeg",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
-        "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
-      },
-      "id": "b7682ddc637388853b15235d09e2a18d",
-      "stadium": {
-        "address": "Lipa",
-        "venue": "Boisko Czarni Lipa",
-        "geo": {
-          "latitude": 50.6926234,
-          "longitude": 22.0620212,
-          "name": "Czarni Lipa, Lipa, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion w Lipie"
+      "id": "17145c16f0e16aa9f64a0ed6bba0ec8f",
+      "stadium": null
     },
     {
       "competition": {
@@ -333,14 +61,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
+        "status": "confirmed",
+        "dateTime": "2026-09-26T12:30:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
+        "date": "2026-09-26",
+        "dateTime": "2026-09-26T12:30:00.000Z"
       },
       "id": "16fde0ec22892b013faee878ad1ea9a6",
       "stadium": {
@@ -358,55 +84,31 @@
         "name": "Klasa okręgowa (Stalowa Wola)"
       },
       "homeTeam": {
-        "name": "LZS Ździary",
+        "name": "Słowianin Grębów",
         "crest": null
       },
       "awayTeam": {
-        "name": "Stal II Stalowa Wola",
+        "name": "Dolina-Tanew Wólka Tanewska",
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T09:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T09:00:00.000Z"
+        "dateTime": "2026-09-26T15:00:00.000Z"
       },
-      "id": "833cb83cf4ad950a5a83fb9359e7c640",
-      "stadium": null,
-      "stadiumHint": "Stadion w Zdziarach"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Łęg Stany",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Podlesianka Kamień",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "17145c16f0e16aa9f64a0ed6bba0ec8f",
-      "stadium": null
+      "id": "96671e7d6a192c6617766e03d65f5fea",
+      "stadium": {
+        "address": "Grębów",
+        "venue": "Boisko Słowianin Grębów",
+        "geo": {
+          "latitude": 50.5642465,
+          "longitude": 21.8809014,
+          "name": "Słowianin Grębów, Grębów, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -421,18 +123,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-26T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-26",
-        "dateTime": "2026-09-26T14:00:00.000Z"
+        "dateTime": "2026-09-26T16:00:00.000Z"
       },
       "id": "dde7d2a2d5f0a71f03fdd0f8d0177b10",
       "stadium": {
@@ -443,8 +139,61 @@
           "longitude": 22.3374026,
           "name": "Stadion Unii, Nowa Sarzyna, podkarpackie, Polska"
         }
+      }
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Stalowa Wola)"
       },
-      "stadiumHint": "Stadion Miejski w Nowej Sarzynie"
+      "homeTeam": {
+        "name": "Sokół Kamień",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Sparta Jeżowe",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "e9bd883085f465b045b8d35878fbf65b",
+      "stadium": null
+    },
+    {
+      "competition": {
+        "name": "Klasa okręgowa (Stalowa Wola)"
+      },
+      "homeTeam": {
+        "name": "Czarni Lipa",
+        "crest": null
+      },
+      "awayTeam": {
+        "name": "Siarka II Tarnobrzeg",
+        "crest": null
+      },
+      "schedule": {
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "date": {
+        "date": "2026-09-27",
+        "dateTime": "2026-09-27T16:00:00.000Z"
+      },
+      "id": "b7682ddc637388853b15235d09e2a18d",
+      "stadium": {
+        "address": "Lipa",
+        "venue": "Boisko Czarni Lipa",
+        "geo": {
+          "latitude": 50.6926234,
+          "longitude": 22.0620212,
+          "name": "Czarni Lipa, Lipa, podkarpackie, Polska"
+        }
+      }
     },
     {
       "competition": {
@@ -459,18 +208,12 @@
         "crest": null
       },
       "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z",
-        "timeConfirmed": true
+        "status": "confirmed",
+        "dateTime": "2026-09-27T16:00:00.000Z"
       },
       "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD",
         "date": "2026-09-27",
-        "dateTime": "2026-09-27T14:00:00.000Z"
+        "dateTime": "2026-09-27T16:00:00.000Z"
       },
       "id": "ae6f7ad2fdd5fc8023036b005a08d4e6",
       "stadium": {
@@ -480,40 +223,6 @@
           "latitude": 50.4108635,
           "longitude": 21.7556131,
           "name": "Stadion MKS Stal, Nowa Dęba, podkarpackie, Polska"
-        }
-      },
-      "stadiumHint": "Stadion Miejski w Nowej Dębie"
-    },
-    {
-      "competition": {
-        "name": "Klasa okręgowa (Stalowa Wola)"
-      },
-      "homeTeam": {
-        "name": "Słowianin Grębów",
-        "crest": null
-      },
-      "awayTeam": {
-        "name": "Dolina-Tanew Wólka Tanewska",
-        "crest": null
-      },
-      "schedule": {
-        "status": "date-window",
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27"
-      },
-      "date": {
-        "startDate": "2026-09-26",
-        "endDate": "2026-09-27",
-        "time": "TBD"
-      },
-      "id": "96671e7d6a192c6617766e03d65f5fea",
-      "stadium": {
-        "address": "Grębów",
-        "venue": "Boisko Słowianin Grębów",
-        "geo": {
-          "latitude": 50.5642465,
-          "longitude": 21.8809014,
-          "name": "Słowianin Grębów, Grębów, podkarpackie, Polska"
         }
       }
     },
@@ -565,16 +274,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-03T14:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-03",
-        "dateTime": "2026-10-03T14:00:00.000Z"
+        "time": "TBD"
       },
       "id": "b6025ffde93efb67bb18b583ae4ed1bc",
       "stadium": {
@@ -585,8 +290,7 @@
           "longitude": 21.840763468375464,
           "name": null
         }
-      },
-      "stadiumHint": "Józefa Piłsudskiego 30 , 39-432 Gorzyce"
+      }
     },
     {
       "competition": {
@@ -603,16 +307,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "1e28eba81d2a46051306316f2358129b",
       "stadium": {
@@ -623,8 +323,7 @@
           "longitude": 22.1266723,
           "name": "Boisko Olimpia, Pysznica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Pysznicy"
+      }
     },
     {
       "competition": {
@@ -666,16 +365,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "e55ce075afd61acc7bac87a330920e56",
       "stadium": {
@@ -686,8 +381,7 @@
           "longitude": 22.053281125703503,
           "name": "Stadion GBS Gorzów im. Edwarda Jancarza, 55, Kwiatowa, Zamoście, Gorzów Wielkopolski, województwo lubuskie, 66-400, Polska"
         }
-      },
-      "stadiumHint": "Boczne boisko PCPN w Stalowej Woli"
+      }
     },
     {
       "competition": {
@@ -704,16 +398,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "3dd84d19986e628d275e14e8b6d74a3a",
       "stadium": {
@@ -724,8 +414,7 @@
           "longitude": 22.18999099233271,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Łowisku"
+      }
     },
     {
       "competition": {
@@ -775,16 +464,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-03",
-        "endDate": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-04"
       },
       "date": {
         "startDate": "2026-10-03",
         "endDate": "2026-10-04",
-        "time": "TBD",
-        "date": "2026-10-04",
-        "dateTime": "2026-10-04T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "962f9d313206a3870a2b592bd73bdb20",
       "stadium": {
@@ -795,8 +480,7 @@
           "longitude": 22.138341,
           "name": "Boisko rezerwowe, Jeżowe, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Jeżowem"
+      }
     },
     {
       "competition": {
@@ -813,20 +497,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8bcfa392b117bc73c3e1420946d24132",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kamieniu"
+      "stadium": null
     },
     {
       "competition": {
@@ -876,20 +555,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-10T11:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-10",
-        "dateTime": "2026-10-10T11:00:00.000Z"
+        "time": "TBD"
       },
       "id": "6e4c78081e3969d5c29b7b82007eefb8",
-      "stadium": null,
-      "stadiumHint": "Stadion w Zdziarach"
+      "stadium": null
     },
     {
       "competition": {
@@ -906,20 +580,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8db85b1408f17a6189a928f64cce422d",
-      "stadium": null,
-      "stadiumHint": "Łęg Arena w Stanach"
+      "stadium": null
     },
     {
       "competition": {
@@ -936,16 +605,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "229a8cbb6be54aa950a2f1e04e33ef48",
       "stadium": {
@@ -956,8 +621,7 @@
           "longitude": 22.3374026,
           "name": "Stadion Unii, Nowa Sarzyna, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Nowej Sarzynie"
+      }
     },
     {
       "competition": {
@@ -1007,16 +671,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-10",
-        "endDate": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-11"
       },
       "date": {
         "startDate": "2026-10-10",
         "endDate": "2026-10-11",
-        "time": "TBD",
-        "date": "2026-10-11",
-        "dateTime": "2026-10-11T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "db7c94f142165a663daeff5390ccf712",
       "stadium": {
@@ -1027,8 +687,7 @@
           "longitude": 21.8809014,
           "name": "Słowianin Grębów, Grębów, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Gminny w Grębowie"
+      }
     },
     {
       "competition": {
@@ -1078,16 +737,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-17T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-17",
-        "dateTime": "2026-10-17T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2e74513b143f7bdb52674db524c7843f",
       "stadium": {
@@ -1098,8 +753,7 @@
           "longitude": 21.840763468375464,
           "name": null
         }
-      },
-      "stadiumHint": "Józefa Piłsudskiego 30 , 39-432 Gorzyce"
+      }
     },
     {
       "competition": {
@@ -1174,16 +828,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "dda432bdfb29a98f2a6a505fefd6cf77",
       "stadium": {
@@ -1194,8 +844,7 @@
           "longitude": 22.053281125703503,
           "name": "Stadion GBS Gorzów im. Edwarda Jancarza, 55, Kwiatowa, Zamoście, Gorzów Wielkopolski, województwo lubuskie, 66-400, Polska"
         }
-      },
-      "stadiumHint": "Boczne boisko PCPN w Stalowej Woli"
+      }
     },
     {
       "competition": {
@@ -1212,16 +861,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2d40bd25d3830b1cc86d4c235bb9bc1e",
       "stadium": {
@@ -1232,8 +877,7 @@
           "longitude": 22.18999099233271,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Łowisku"
+      }
     },
     {
       "competition": {
@@ -1250,16 +894,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T09:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T09:00:00.000Z"
+        "time": "TBD"
       },
       "id": "32f40e0a3fc474673dca8924f76c87a7",
       "stadium": {
@@ -1270,8 +910,7 @@
           "longitude": 21.6671497,
           "name": "3/2, Aleja Niepodległości, Przywiśle, Tarnobrzeg, województwo podkarpackie, 39-400, Polska"
         }
-      },
-      "stadiumHint": "Boisko „Zwierzyniec” w Tarnobrzegu"
+      }
     },
     {
       "competition": {
@@ -1288,16 +927,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-17",
-        "endDate": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-18"
       },
       "date": {
         "startDate": "2026-10-17",
         "endDate": "2026-10-18",
-        "time": "TBD",
-        "date": "2026-10-18",
-        "dateTime": "2026-10-18T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "014e20adad9f473127650fef6b50412f",
       "stadium": {
@@ -1308,8 +943,7 @@
           "longitude": 22.138341,
           "name": "Boisko rezerwowe, Jeżowe, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Jeżowem"
+      }
     },
     {
       "competition": {
@@ -1384,20 +1018,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "eaebe9d9e6552057201aa2a58516ef8a",
-      "stadium": null,
-      "stadiumHint": "Stadion w Zdziarach"
+      "stadium": null
     },
     {
       "competition": {
@@ -1414,20 +1043,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "a0954e0c62527cad9154ae50f4a6dd92",
-      "stadium": null,
-      "stadiumHint": "Łęg Arena w Stanach"
+      "stadium": null
     },
     {
       "competition": {
@@ -1444,16 +1068,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "90f3aef913877efd95a9d01087e6abff",
       "stadium": {
@@ -1464,8 +1084,7 @@
           "longitude": 22.3374026,
           "name": "Stadion Unii, Nowa Sarzyna, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Nowej Sarzynie"
+      }
     },
     {
       "competition": {
@@ -1482,16 +1101,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "84aa2109433911acb9517b67ec6968c5",
       "stadium": {
@@ -1502,8 +1117,7 @@
           "longitude": 21.7556131,
           "name": "Stadion MKS Stal, Nowa Dęba, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Nowej Dębie"
+      }
     },
     {
       "competition": {
@@ -1520,16 +1134,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-25",
-        "dateTime": "2026-10-25T13:30:00.000Z"
+        "time": "TBD"
       },
       "id": "1622d719ce4432a5dfe9d517d6a09936",
       "stadium": {
@@ -1540,8 +1150,7 @@
           "longitude": 21.8809014,
           "name": "Słowianin Grębów, Grębów, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Gminny w Grębowie"
+      }
     },
     {
       "competition": {
@@ -1591,16 +1200,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-10-24",
-        "endDate": "2026-10-25",
-        "dateTime": "2026-10-24T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-10-25"
       },
       "date": {
         "startDate": "2026-10-24",
         "endDate": "2026-10-25",
-        "time": "TBD",
-        "date": "2026-10-24",
-        "dateTime": "2026-10-24T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "1908558ad00176627dd01a317a36a955",
       "stadium": {
@@ -1611,8 +1216,7 @@
           "longitude": 21.840763468375464,
           "name": null
         }
-      },
-      "stadiumHint": "Józefa Piłsudskiego 30 , 39-432 Gorzyce"
+      }
     },
     {
       "competition": {
@@ -1628,14 +1232,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "532b2f474659ec02ca0592e08ec8d714",
       "stadium": {
@@ -1646,8 +1247,7 @@
           "longitude": 22.1266723,
           "name": "Boisko Olimpia, Pysznica, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Pysznicy"
+      }
     },
     {
       "competition": {
@@ -1717,14 +1317,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "6bd879cd530acdbb4f27a6a694fea376",
       "stadium": {
@@ -1735,8 +1332,7 @@
           "longitude": 22.18999099233271,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Łowisku"
+      }
     },
     {
       "competition": {
@@ -1783,14 +1379,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2eaed72f8d35cab6b5d9572678821b26",
       "stadium": {
@@ -1801,8 +1394,7 @@
           "longitude": 22.138341,
           "name": "Boisko rezerwowe, Jeżowe, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Jeżowem"
+      }
     },
     {
       "competition": {
@@ -1818,14 +1410,11 @@
       },
       "schedule": {
         "status": "date-confirmed",
-        "date": "2026-10-31",
-        "dateTime": "2026-10-31T13:00:00.000Z",
-        "timeConfirmed": true
+        "date": "2026-10-31"
       },
       "date": {
         "date": "2026-10-31",
-        "time": "TBD",
-        "dateTime": "2026-10-31T13:00:00.000Z"
+        "time": "TBD"
       },
       "id": "c4fe1704191383f12f5d1cf4eaec6edc",
       "stadium": {
@@ -1836,8 +1425,7 @@
           "longitude": 22.0620212,
           "name": "Czarni Lipa, Lipa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Lipie"
+      }
     },
     {
       "competition": {
@@ -1885,20 +1473,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "40864cce80aa30c953787da638074442",
-      "stadium": null,
-      "stadiumHint": "Stadion w Kamieniu"
+      "stadium": null
     },
     {
       "competition": {
@@ -1940,16 +1523,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "a5e3e0f44705bfa3efbaef1c7b0030e7",
       "stadium": {
@@ -1960,8 +1539,7 @@
           "longitude": 22.3374026,
           "name": "Stadion Unii, Nowa Sarzyna, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Nowej Sarzynie"
+      }
     },
     {
       "competition": {
@@ -1978,16 +1556,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "b7ad32be61fb6c529588ea9342ce99dd",
       "stadium": {
@@ -1998,8 +1572,7 @@
           "longitude": 21.7556131,
           "name": "Stadion MKS Stal, Nowa Dęba, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Miejski w Nowej Dębie"
+      }
     },
     {
       "competition": {
@@ -2016,16 +1589,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "cfa3d1a5b014f2915fcd83f5b775b8c8",
       "stadium": {
@@ -2036,8 +1605,7 @@
           "longitude": 21.8809014,
           "name": "Słowianin Grębów, Grębów, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion Gminny w Grębowie"
+      }
     },
     {
       "competition": {
@@ -2087,16 +1655,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-07",
-        "endDate": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-08"
       },
       "date": {
         "startDate": "2026-11-07",
         "endDate": "2026-11-08",
-        "time": "TBD",
-        "date": "2026-11-08",
-        "dateTime": "2026-11-08T12:30:00.000Z"
+        "time": "TBD"
       },
       "id": "eb529a6d12fd2f6a7f53e5a77b085ae2",
       "stadium": {
@@ -2107,8 +1671,7 @@
           "longitude": 21.840763468375464,
           "name": null
         }
-      },
-      "stadiumHint": "Józefa Piłsudskiego 30 , 39-432 Gorzyce"
+      }
     },
     {
       "competition": {
@@ -2183,16 +1746,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a398be71024c24a745882085594cdb98",
       "stadium": {
@@ -2203,8 +1762,7 @@
           "longitude": 22.053281125703503,
           "name": "Stadion GBS Gorzów im. Edwarda Jancarza, 55, Kwiatowa, Zamoście, Gorzów Wielkopolski, województwo lubuskie, 66-400, Polska"
         }
-      },
-      "stadiumHint": "Boczne boisko PCPN w Stalowej Woli"
+      }
     },
     {
       "competition": {
@@ -2221,16 +1779,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "2f30c407e91fd4237db2586db7cd562a",
       "stadium": {
@@ -2241,8 +1795,7 @@
           "longitude": 22.18999099233271,
           "name": null
         }
-      },
-      "stadiumHint": "Stadion w Łowisku"
+      }
     },
     {
       "competition": {
@@ -2292,16 +1845,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "4add04ae08198029cf9760c81c63d15e",
       "stadium": {
@@ -2312,8 +1861,7 @@
           "longitude": 22.138341,
           "name": "Boisko rezerwowe, Jeżowe, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Jeżowem"
+      }
     },
     {
       "competition": {
@@ -2330,16 +1878,12 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "a7a3f2d3acbc7219769a2b524de8bd05",
       "stadium": {
@@ -2350,8 +1894,7 @@
           "longitude": 22.0620212,
           "name": "Czarni Lipa, Lipa, podkarpackie, Polska"
         }
-      },
-      "stadiumHint": "Stadion w Lipie"
+      }
     },
     {
       "competition": {
@@ -2401,20 +1944,15 @@
       "schedule": {
         "status": "date-window",
         "startDate": "2026-11-14",
-        "endDate": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z",
-        "timeConfirmed": true
+        "endDate": "2026-11-15"
       },
       "date": {
         "startDate": "2026-11-14",
         "endDate": "2026-11-15",
-        "time": "TBD",
-        "date": "2026-11-15",
-        "dateTime": "2026-11-15T12:00:00.000Z"
+        "time": "TBD"
       },
       "id": "8d4ba9dc1bce7a0e8dcc30f1f0b0ec2d",
-      "stadium": null,
-      "stadiumHint": "Stadion w Zdziarach"
+      "stadium": null
     }
   ]
 }
